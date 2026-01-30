@@ -48,35 +48,102 @@ newsletters:
           url: "https://www.deeplearning.ai/the-batch/feed/"
 
   robotics:
-    name: "Robotics Weekly Digest"
-    description: "Weekly roundup of robotics news, research, and innovations"
+    name: "Manufacturing Robotics Weekly"
+    description: "Weekly roundup of manufacturing robotics: humanoids, AMRs, AGVs, cobots, robotic arms, and industrial automation"
     topics:
-      - "robotics"
-      - "robot"
-      - "autonomous systems"
+      # Humanoid Robots
       - "humanoid robot"
-      - "Boston Dynamics"
+      - "humanoid"
       - "Figure AI"
+      - "Figure 01"
+      - "Figure 02"
       - "Tesla Optimus"
-      - "robotic manipulation"
-      - "legged robots"
-      - "drone"
-      - "UAV"
+      - "Optimus robot"
+      - "Boston Dynamics Atlas"
+      - "Agility Robotics"
+      - "Digit robot"
+      - "Apptronik"
+      - "1X Technologies"
+      - "Sanctuary AI"
+      - "Fourier Intelligence"
+
+      # Mobile Robots (AMR/AGV)
+      - "AMR"
+      - "autonomous mobile robot"
+      - "AGV"
+      - "automated guided vehicle"
+      - "warehouse robot"
+      - "logistics robot"
+      - "Locus Robotics"
+      - "6 River Systems"
+      - "Fetch Robotics"
+      - "MiR"
+      - "mobile industrial robots"
+      - "Kiva"
+      - "Amazon robotics"
+
+      # Industrial Arms & Cobots
+      - "robotic arm"
+      - "robot arm"
+      - "cobot"
+      - "collaborative robot"
+      - "industrial robot"
+      - "FANUC"
+      - "KUKA"
+      - "ABB robot"
+      - "Universal Robots"
+      - "Yaskawa"
+      - "pick and place"
+      - "palletizing"
+      - "welding robot"
+      - "assembly robot"
+
+      # Drones & Aerial
+      - "industrial drone"
+      - "warehouse drone"
+      - "inventory drone"
+      - "inspection drone"
+      - "drone delivery"
+
+      # Manufacturing & Automation
+      - "factory automation"
+      - "manufacturing automation"
+      - "smart factory"
+      - "Industry 4.0"
+      - "lights out manufacturing"
+      - "robotic cell"
+      - "automation"
+      - "material handling"
+      - "bin picking"
+      - "machine tending"
+
+      # Vision & AI for Manufacturing
+      - "machine vision"
+      - "robot vision"
+      - "visual inspection"
+      - "defect detection"
+      - "quality control robot"
 
     sources:
       reddit:
         - "robotics"
         - "Automate"
+        - "IndustrialAutomation"
+        - "PLC"
+        - "manufacturing"
         - "drones"
-        - "SelfDrivingCars"
         - "BostonDynamics"
+        - "warehouseworkers"
+        - "supplychain"
+        - "automation"
       hackernews:
         enabled: true
-        min_score: 30
+        min_score: 25
       arxiv:
         categories:
-          - "cs.RO"
-        max_results: 15
+          - "cs.RO"  # Robotics
+          - "cs.SY"  # Systems and Control
+        max_results: 20
       rss:
         - name: "IEEE Spectrum Robotics"
           url: "https://spectrum.ieee.org/feeds/topic/robotics.rss"
@@ -84,6 +151,16 @@ newsletters:
           url: "https://www.therobotreport.com/feed/"
         - name: "Robohub"
           url: "https://robohub.org/feed/"
+        - name: "Automation World"
+          url: "https://www.automationworld.com/rss.xml"
+        - name: "Modern Materials Handling"
+          url: "https://www.mmh.com/rss"
+        - name: "Robotics Business Review"
+          url: "https://www.roboticsbusinessreview.com/feed/"
+        - name: "Assembly Magazine"
+          url: "https://www.assemblymag.com/rss"
+        - name: "Material Handling & Logistics"
+          url: "https://www.mhlnews.com/rss"
 
 # Collection settings
 collection:

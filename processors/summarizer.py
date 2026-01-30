@@ -166,9 +166,23 @@ Please generate the newsletter in Markdown format.
                 'fine-tuning', 'rlhf', 'safety', 'alignment'
             ],
             'robotics': [
-                'robot', 'humanoid', 'manipulation', 'locomotion',
-                'autonomous', 'boston dynamics', 'figure', 'tesla',
-                'optimus', 'drone', 'warehouse', 'factory'
+                # Humanoids
+                'humanoid', 'figure ai', 'figure 01', 'figure 02', 'optimus',
+                'boston dynamics', 'atlas', 'digit', 'agility', 'apptronik',
+                'sanctuary ai', '1x technologies',
+                # Mobile Robots
+                'amr', 'agv', 'autonomous mobile', 'warehouse robot',
+                'logistics robot', 'locus', 'fetch robotics', 'amazon robotics',
+                # Industrial Arms
+                'robotic arm', 'cobot', 'collaborative robot', 'fanuc', 'kuka',
+                'abb robot', 'universal robots', 'yaskawa', 'pick and place',
+                'palletizing', 'welding robot', 'bin picking',
+                # Drones
+                'industrial drone', 'warehouse drone', 'inspection drone',
+                # Manufacturing
+                'factory automation', 'smart factory', 'industry 4.0',
+                'manufacturing automation', 'material handling', 'machine tending',
+                'automation', 'machine vision', 'visual inspection'
             ]
         }
 
