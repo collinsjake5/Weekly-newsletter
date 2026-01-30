@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 5</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 5 | January 30, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>7</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://marginlab.ai/trackers/claude-code/" target="_blank">Claude Code daily benchmarks for degradation tracking</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Jan 29
+                     | ⬆️ 728 | 💬 338
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2601.22159v1" target="_blank">RedSage: A Cybersecurity Generalist LLM</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Jan 29
+                    
+                </div>
+                <p class="story-summary">Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on proprietary APIs with privacy risks or on open models lacking domain adaptation. To bridge this gap, we c...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2601.22155v1" target="_blank">UEval: A Benchmark for Unified Multimodal Generation</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Jan 29
+                    
+                </div>
+                <p class="story-summary">We introduce UEval, a benchmark to evaluate unified models, i.e., models capable of generating both images and text. UEval comprises 1,000 expert-curated questions that require both images and text in the model output, sourced from 8 real-world tasks...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2601.22153v1" target="_blank">DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Jan 29
+                    
+                </div>
+                <p class="story-summary">Manipulating dynamic objects remains an open challenge for Vision-Language-Action (VLA) models, which, despite strong generalization in static manipulation, struggle in dynamic scenarios requiring rapid perception, temporal anticipation, and continuo...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.economist.com/britain/2026/01/26/how-london-became-the-rest-of-the-worlds-startup-capital" target="_blank">How London became the rest of the world’s startup capital</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Jan 28
+                     | ⬆️ 217 | 💬 345
+                </div>
+                <p class="story-summary">&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;archive.ph&amp;#x2F;ebA1T&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;archive.ph&amp;#x2F;ebA1T&lt;/a&gt;</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.22154v1" target="_blank">Exploring Reasoning Reward Model for Agents</a></div>
+                <div class="paper-author">Kaixuan Fan, Kaituo Feng, Manyuan Zhang, Tianshuo Peng, Zhixun Li...</div>
+                <div class="paper-summary">Agentic Reinforcement Learning (Agentic RL) has achieved notable success in enabling agents to perform complex reasoning and tool use. However, most methods still relies on sparse outcome-based reward...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.22149v1" target="_blank">DynaWeb: Model-Based Reinforcement Learning of Web Agents</a></div>
+                <div class="paper-author">Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao...</div>
+                <div class="paper-summary">The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, trainin...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.22139v1" target="_blank">Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers</a></div>
+                <div class="paper-author">Xin Chen, Feng Jiang, Yiqian Zhang, Hardy Chen, Shuo Yan...</div>
+                <div class="paper-summary">Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally limited by a \emph{blind self-thinking} paradigm:...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.22156v1" target="_blank">Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts</a></div>
+                <div class="paper-author">Yingfa Chen, Zhen Leng Thai, Zihan Zhou, Zhu Zhang, Xingyu Shen...</div>
+                <div class="paper-summary">Hybrid Transformer architectures, which combine softmax attention blocks and recurrent neural networks (RNNs), have shown a desirable performance-throughput tradeoff for long-context modeling, but the...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://news.ycombinator.com/item?id=46812608" target="_blank">Launch HN: AgentMail (YC S25) – An API that gives agents their own email inboxes</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 156 | 💬 158</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://godotengine.org/releases/4.6/" target="_blank">Godot 4.6 Release: It&#39;s all about your flow</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 165 | 💬 60</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/" target="_blank">Inside the marketplace powering bespoke AI deepfakes of real women</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jan 30</div>
+                <div class="news-summary">Civitai—an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz—is letting users buy...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/retiring-gpt-4o-and-older-models" target="_blank">Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT</a></div>
+                <div class="news-meta">OpenAI Blog | Jan 29</div>
+                <div class="news-summary">On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mi...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/" target="_blank">DHS is using Google and Adobe AI to make videos</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jan 29</div>
+                <div class="news-summary">The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new docum...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/" target="_blank">What AI “remembers” about you is privacy’s next frontier</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jan 28</div>
+                <div class="news-summary">The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.  Earlier this month, Google annou...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/" target="_blank">OpenAI’s latest product lets you vibe code science</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jan 27</div>
+                <div class="news-summary">OpenAI just revealed what its new in-house team, OpenAI for Science , has been up to. The firm has released a free LLM-powered tool for scientists cal...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-01-30 17:59 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

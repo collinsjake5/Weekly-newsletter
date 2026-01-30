@@ -1,0 +1,569 @@
+{
+  "newsletter": {
+    "name": "Manufacturing Robotics Weekly",
+    "type": "robotics",
+    "generated_at": "2026-01-30T18:00:35.119850",
+    "item_count": 19
+  },
+  "items": [
+    {
+      "title": "Tesla ending Models S and X production",
+      "url": "https://www.cnbc.com/2026/01/28/tesla-ending-model-s-x-production.html",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-28T22:53:54",
+      "summary": null,
+      "content": null,
+      "author": "keyboardJones",
+      "score": 553,
+      "num_comments": 1149,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46802867,
+        "hn_url": "https://news.ycombinator.com/item?id=46802867",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.8083989273676038
+    },
+    {
+      "title": "Robot Talk Episode 142 \u2013 Collaborative robot arms, with Mark Gray",
+      "url": "https://robohub.org/robot-talk-episode-142-collaborative-robot-arms-with-mark-gray/",
+      "source_type": "rss",
+      "source_name": "Robohub",
+      "published_at": "2026-01-30T13:30:12",
+      "summary": "Claire chatted to Mark Gray from Universal Robots about their lightweight robotic arms that work alongside humans. Mark Gray has worked in automation for the last 30 years, first involved in machine vision and robotics and finally collaborative robots or cobots. As country manager, Mark was the first person to work for Universal Robots in the UK and has carried out projects with many research institutes such as the Advanced Manufacturing Research Centre (AMRC), The Manufacturing Technology Centr...",
+      "content": "Claire chatted to Mark Gray from Universal Robots about their lightweight robotic arms that work alongside humans. Mark Gray has worked in automation for the last 30 years, first involved in machine vision and robotics and finally collaborative robots or cobots. As country manager, Mark was the first person to work for Universal Robots in the UK and has carried out projects with many research institutes such as the Advanced Manufacturing Research Centre (AMRC), The Manufacturing Technology Centre (MTC), the National Robotarium, and Bristol Robotics Lab.",
+      "author": "Robot Talk",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "robohub",
+        "interviews"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7709764119667658
+    },
+    {
+      "title": "RobCo raises Series C funding to scale industrial automation",
+      "url": "https://www.therobotreport.com/robco-raises-100m-scale-industrial-automation/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-29T18:42:52",
+      "summary": "RobCo applies physical AI and modular hardware to industrial automation. Source: Lightspeed Venture Partners The new year is bringing fresh funding across the robotics landscape. RobCo GmbH today said it has raised Series C funding of $100 million to advance its physical AI roadmap, expand enterprise deployments, and deepen its presence in the U.S. market. \u201cWith $100 million of additional funding, we will become the dominant AI robotics company for manufacturing in the U.S. and Europe,\u201d stated R...",
+      "content": "RobCo applies physical AI and modular hardware to industrial automation. Source: Lightspeed Venture Partners The new year is bringing fresh funding across the robotics landscape. RobCo GmbH today said it has raised Series C funding of $100 million to advance its physical AI roadmap, expand enterprise deployments, and deepen its presence in the U.S. market. \u201cWith $100 million of additional funding, we will become the dominant AI robotics company for manufacturing in the U.S. and Europe,\u201d stated Roman H\u00f6lzl, founder and CEO of RobCo. \u201cThis will allow us to execute on our purpose of automating the ordinary, so humans can do the extraordinary.\u201d Founded in 2020, RobCo said it develops robotic systems that bring learning and autonomy into industrial operations. The Munich-based company said its Autonomous Manufacturing Platform combines modular hardware with a physical AI software stack that enables fast deployment, continuous improvement, and application-specific performance. RobCo builds full-stack platform for autonomy RobCo asserted that it &#8220;has been vertically integrated from Day 1, developing hardware and software as a single full-stack platform.&#8221; The platform combines perception, motion planning, and self-learning methods to enable increasingly autonomous robot operations inside real production environments. The company said its robots can acquire task-specific skills through demonstration and self-learning rather than manual programming. This allows for rapid deployment and iteration, as well as easier adaptation to complex or variable processes. RobCo claimed that it acts as a &#8220;single pane of glass&#8221; for customers. In addition, RobCo said it designed its system &#8220;to reduce friction between today\u2019s processes and end-to-end automation, allowing teams to focus less on setting up and maintaining systems and more on their core business processes and value drivers.&#8221; RobCo has expanded into U.S. manufacturing. Source: RobCo Deployments scale for U.S. enterprises RobCo delivers its technology through a recurring robotics-as-a-service ( RaaS ) model, which it said helps companies automate manual tasks while minimizing operational complexity and risk. The company supports a wide range of workflows, including machine tending , palletizing , dispensing, and welding . Last year, RobCo expanded into the U.S., and it now operates in San Francisco and Austin. The U.S. has become both a strategic priority and a major growth market as manufacturers accelerate automation efforts in response to labor constraints, reshoring initiatives, and rising operational complexity, the company noted. RobCo added that its robots are deployed across a range of industrial environments, from large global manufacturers such as BMW to companies including DynaEnergetics, Fabricated Extrusion Company, T-Systems, and Rosenberger. Lightspeed doubles down on industrial robotics Lightspeed Venture Partners and Lingotto Innovation led RobCo&#8217;s Series C round. Other participants included Sequoia Capital, Greenfield Partners, Kindred Capital, Leitmotif, and The Friedkin Group. \u201cAfter leading RobCo\u2019s Series B , we\u2019re excited to double down and co-lead this $100 million round,\u201d said Alexander Schmitt, a partner at Lightspeed. &#8220;Our bar is exceptionally high, and RobCo has continued to raise the standard for what modern robotics can look like in real-world production.&#8221; \u201cRobCo has what it takes to build a global champion: systems that already deliver in industrial environments today and a platform grounded in physical AI that can scale across use cases and geographies,&#8221; he added. RobCo said its venture capital investors have experience building category-defining technology companies, while its industrial investors use deep connections in industry to back growth companies over the long term. \u201cManufacturing is entering a new phase where autonomy will be a decisive advantage,&#8221; said Morgan Samet, managing partner and co-head of Lingotto Innovation, an investment management company now owned by Exor. &#8220;RobCo stands out because it brings physical AI into real production environments, combining proven deployment today with a clear, step-by-step path toward higher autonomy &#8212; allowing learning systems to support people where it matters most on the factory floor.\u201d The post RobCo raises Series C funding to scale industrial automation appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "artificial intelligence",
+        "artificial intelligence / cognition",
+        "cobot arms",
+        "collaborative robots",
+        "industrial robots",
+        "investments",
+        "manufacturing",
+        "motion control",
+        "news"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7542006188268849
+    },
+    {
+      "title": "ABB Robotics seeks to standardize measurement of robot energy consumption",
+      "url": "https://www.therobotreport.com/abb-robotics-standardizes-measurement-robot-energy-consumption/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-29T15:16:28",
+      "summary": "ABB says that automating more of construction can reduce carbon emissions. Source: ABB Robotics The potential for industrial robots to make production more efficient and environmentally sustainable is commonly cited as a potential benefit of automation. However, this has been difficult to quantify and compare. ABB Robotics this week announced an initiative to develop a global, standardized method for measuring the energy consumption and efficiency of industrial robots. \u201cWith no global standard c...",
+      "content": "ABB says that automating more of construction can reduce carbon emissions. Source: ABB Robotics The potential for industrial robots to make production more efficient and environmentally sustainable is commonly cited as a potential benefit of automation. However, this has been difficult to quantify and compare. ABB Robotics this week announced an initiative to develop a global, standardized method for measuring the energy consumption and efficiency of industrial robots. \u201cWith no global standard currently in place, it\u2019s a challenge for customers to compare the energy consumption of different robots and choose the most energy efficient solution.\u201d said Gianluca Brotto, head of sustainability at ABB Robotics. \u201cUnlike other products such as fridges, TVs, washing machines and motors, which have clearly defined standards for how to measure and compare energy efficiency, there is no standard for measuring the energy consumption of a robot,&#8221; he noted. &#8220;This initiative will empower customers to make informed decisions and help the industry reduce its carbon footprint.\u201d Measurement the first step to greater energy efficiency More than 4 million industrial robots are operating worldwide, and automation is expanding into new sectors, according to the International Federation of Robotics ( IFR ). Reducing the environmental impact of robotic systems is paramount, as companies aim to reduce their emissions from energy consumption in line with the Paris Agreement, noted ABB Robotics. Internal ABB studies found that more than 70% of its customer robots&#8217; carbon footprint comes from electricity usage during their operational phase. The company has worked with the Swedish Institute for Standards ( SIS ) to develop a proposal with experts from different robot manufacturers and research institutes in 11 countries. This led to the creation of an International Organization for Standardization ( ISO ) technical specification for global adoption due to be completed by August 2026. ABB Robotics hails global specification &#8220;This effort marks a critical step toward improving transparency and supporting the global transition to more sustainable manufacturing,&#8221; stated ABB Robotics. &#8220;With a new, global ISO technical specification in place, industrial robotics customers will be able to clearly choose the most energy-efficient robot for the job.&#8221; ABB Robotics&#8217; portfolio includes industrial robots, force- and power-limited cobot arms , and autonomous mobile robots ( AMRs ), designed and orchestrated by its software and AI. It launched an Energy Efficiency Service in 2024. The company said its &#8220;autonomous versatile robotics&#8221; (AVR) and ecosystem help businesses of all sizes and sectors &#8212; from automotive to electronics and logistics \u2013 to become more resilient, flexible, and efficient. In October 2025, ABB Group announced plans to sell its robotics unit to SoftBank Group for $5.3 billion. ABB Robotics has about 7,000 employees, and its U.S. headquarters and factory are in Auburn Hills, Mich. The post ABB Robotics seeks to standardize measurement of robot energy consumption appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "6-axis",
+        "batteries / power supplies",
+        "industrial robots",
+        "logistics",
+        "manufacturing",
+        "news",
+        "abb robotics",
+        "iso",
+        "standards"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7511291901773314
+    },
+    {
+      "title": "OnRobot to share automation roadmap advice in Dallas",
+      "url": "https://www.therobotreport.com/onrobot-share-automation-roadmap-advice-in-dallas/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-29T13:25:35",
+      "summary": "OnRobot and FANUC will demonstrate applications such as machine tending in Dallas. Source: OnRobot Manufacturers in North Texas face the same struggles with hiring and retaining skilled workers as companies worldwide, but robotics can help. OnRobot A/S plans to host an event in Dallas on Feb. 19 that it said will bring practical automation solutions directly to the region&#8217;s manufacturing community. Kristian Hulgard, OnRobot \u201cAs one of the largest and fastest-growing manufacturing hubs in t...",
+      "content": "OnRobot and FANUC will demonstrate applications such as machine tending in Dallas. Source: OnRobot Manufacturers in North Texas face the same struggles with hiring and retaining skilled workers as companies worldwide, but robotics can help. OnRobot A/S plans to host an event in Dallas on Feb. 19 that it said will bring practical automation solutions directly to the region&#8217;s manufacturing community. Kristian Hulgard, OnRobot \u201cAs one of the largest and fastest-growing manufacturing hubs in the country, Dallas\u2013Fort Worth is feeling the strain of today\u2019s labor market more than most,\u201d said Kristian Hulgard, general manager for the Americas at OnRobot. \u201cMany manufacturers here are running strong order books but simply can\u2019t find enough skilled operators, machinists, or technicians. This roadmap event is about showing practical, proven ways automation can help fill those gaps.\u201d Founded in 2018, OnRobot was formed with the merger of three end-of-arm tooling ( EOAT ) companies: Perception Robotics, OptoForce, and OnRobot. The Odense, Denmark-based company also acquired Purple Robotics in 2018 and Blue Workforce in 2019. Texas manufacturers have big needs Manufacturers across North Texas are facing persistent hiring challenges. A lack of available applicants and shortages of candidates with the right technical skills remain among the top barriers to hiring for manufacturers , according to the Federal Reserve Bank of Dallas\u2019 Texas Business Outlook Survey . Many companies also reported increased competition for labor and rising wage pressures. These challenges are forcing manufacturers to rethink how they maintain output, meet customer demand, and scale operations, said OnRobot. The provider of hardware and software for collaborative applications said its grippers can help manufacturers optimize processes such as palletizing, pick and place, sanding, and screwdriving. OnRobot offers firsthand look at applications At the \u201cBuild your Automation Roadmap\u201d event, attendees will see live demonstrations of FANUC robot arms equipped with OnRobot EOAT for common applications such as machine tending , material handling , assembly , packaging , and quality inspection . Automation experts will be on hand to share real-world experience in robotics, tooling, and integration. Their goal is to help manufacturers move from curiosity to confident implementation, the company said. Brent Lindell, FANUC America Kristian Hulgard , general manager, Americas, at OnRobot, will deliver an opening keynote on macrotrends affecting U.S. automation growth, why adoption is accelerating across manufacturing, and what it means for Dallas operations. Brent Lindell , district manager at FANUC America , will provide live demonstrations of FANUC robots, identifying the practical approach to the automation journey. Ruben Lanz, Adaptive Vision and Robotics Ruben Lanz , vice president at Adaptive Vision and Robotics , will explain how the right components, sourcing strategy, and distribution support can keep automation projects on track. Derrell Guillory, AWC Derrell Guillory, technical account manager at AWC , will discuss why system integration matters, how integrators add value, and how to reduce risk while accelerating deployment. Registration including lunch is free, but space is limited. To learn more, visit: https://en.onrobot.info/industrial_openhouse The post OnRobot to share automation roadmap advice in Dallas appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "6-axis",
+        "arms / manipulators",
+        "cobot arms",
+        "collaborative robots",
+        "end effectors / grippers",
+        "end of arm tooling",
+        "grippers",
+        "manufacturing",
+        "news"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7494791404942956
+    },
+    {
+      "title": "Gartner predicts fewer than 20 companies will deploy humanoids at scale by 2028",
+      "url": "https://www.therobotreport.com/gartner-predicts-fewer-than-20-companies-will-deploy-humanoids-at-scale-by-2028/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-28T21:31:40",
+      "summary": "From left to right: Unitree&#8217;s G1, Boston Dynamics&#8217; Atlas, Figure AI&#8217;s Figure 02, Apptronik&#8217;s Apollo, and Tesla&#8217;s Optimus robot. | Source: Unitree, Boston Dynamics, Figure, Apptronik, and Tesla In recent years, humanoid robots have dominated headlines, and the companies developing them have raised hundreds of millions of dollars to get them working in the real world. Despite these efforts, actual humanoid deployments are few and far between, noted Gartner Inc. The ma...",
+      "content": "From left to right: Unitree&#8217;s G1, Boston Dynamics&#8217; Atlas, Figure AI&#8217;s Figure 02, Apptronik&#8217;s Apollo, and Tesla&#8217;s Optimus robot. | Source: Unitree, Boston Dynamics, Figure, Apptronik, and Tesla In recent years, humanoid robots have dominated headlines, and the companies developing them have raised hundreds of millions of dollars to get them working in the real world. Despite these efforts, actual humanoid deployments are few and far between, noted Gartner Inc. The market research firm doesn&#8217;t expect this to change anytime soon. It said that through 2028, fewer than 100 companies will progress with humanoid proofs of concept beyond experimentation, even though close to 200 exist today. Gartner also predicted that fewer than 20 companies will be going live in production for supply chain and manufacturing use cases. Most deployments of humanoid robots during this time will remain limited to tightly controlled environments, rather than in dynamic and high-throughput operations, it said. \u201cThe promise of humanoid robots is compelling, but the reality is that the technology remains immature and far from meeting expectations for versatility and cost-effectiveness,\u201d said Abdil Tunca, senior principal analyst in Gartner\u2019s Supply Chain practice. \u201cCSCOs [chief supply chain officers] must carefully evaluate readiness and avoid overcommitting resources to solutions that cannot yet deliver on their potential.\u201d Robots designed to mimic the human body in shape, function, and locomotion are attracting attention from CSCOs seeking solutions to workforce challenges and rising labor costs. These humanoids feature AI -enabled systems, advanced sensors, and machine learning algorithms intended to dynamically adapt to multiple tasks. Barriers persist for humanoid progress Humanoid robots incorporate heads with sensors and cameras, arms and grippers for manipulation, and legs for locomotion. While this form factor offers certain advantages, Gartner noted that alternative designs\u2014such as &#8220;polyfunctional&#8221; robots equipped with wheels or sensors in unconventional placements\u2014may provide superior performance and adaptability for supply chain operations. Despite their potential, Stamford, Conn.-based Gartner said humanoid robots face significant barriers to supply chain, logistics, and manufacturing adoption: Technological limitations: Current models lack the dexterity, intelligence, and adaptability required for complex, unstructured environments such as mixed SKU picking , trailer unloading , or exception handling in high velocity warehouses . Integration complexity: Compatibility with existing systems and workflows remains a challenge, as is safety . High costs: Substantial upfront investment and ongoing maintenance expenses must be weighed against uncertain returns. With the current technology, humanoids cost multiple times more than task-specific robots while delivering lower throughput and uptime. Energy constraints: Limited battery life restricts operational time for high-mobility tasks. Polyfunctional robots will win the warehouse, says Gartner Polyfunctional robots, from left: Moxi, Kinisi 01, HMND 01, and Titan. | Source: Diligent Robotics, Kinisi Robotics, Humanoid, and RoboForce Unlike humanoid robots, polyfunctional robots are optimized for flexibility without being constrained by human-like design, Gartner observed. For example, a mobile manipulator with wheels and a telescopic arm can move boxes, pick cases, scan inventory, and perform inspections, usually with higher uptime and using less energy than a humanoid that is attempting the same tasks. Such robots can integrate features that enhance efficiency and durability, making them better suited for dynamic supply chain environments, said the business and intelligence firm. \u201cCompanies with a high risk appetite and focus on innovation are the best candidates for pursuing humanoid robots at present, given the unproven capabilities of these solutions and related lack of clarity for return on investment,\u201d said Caleb Thomson, senior director analyst in Gartner\u2019s Supply Chain practice. \u201cFor the majority of companies that will need to prioritize robots that maximize throughput-per-dollar invested, we expect polyfunctional robots to be the superior solution.\u201d To navigate robotics investment decisions effectively, Gartner advised CSCOs to: Pursue pilot programs to validate feasibility before committing to full-scale deployment. Collaborate with emerging providers to influence product development and align solutions with operational needs. Implement continuous monitoring to track performance and guide iterative improvements. Foster a culture of innovation that supports experimentation and calculated risk-taking. Prioritize outcome-driven automation that targets specific bottlenecks, rather than generalized \u201cheadcount reduction\u201d strategies, which is also less risky from an investment standpoint. The post Gartner predicts fewer than 20 companies will deploy humanoids at scale by 2028 appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "academia / research",
+        "humanoids",
+        "logistics",
+        "manufacturing",
+        "news",
+        "robots / platforms",
+        "gartner",
+        "mobile manipulation"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.735283951967758
+    },
+    {
+      "title": "Introducing Sprout, a new humanoid development platform",
+      "url": "https://www.therobotreport.com/introducing-sprout-a-new-humanoid-development-platform/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-28T20:06:17",
+      "summary": "In the high-stakes artificial intelligence race, New York-based Fauna Robotics is betting that the path to general intelligence runs through the physical world. Led by founders Rob Cochran and Josh Merel , the startup is developing a specialized hardware and AI platform to move robots out of factories and into the unstructured environments of everyday life. By engineering safe, lightweight, and inexpensive machines, Fauna said it aims to create a data-driven &#8220;flywheel&#8221; for embodied A...",
+      "content": "In the high-stakes artificial intelligence race, New York-based Fauna Robotics is betting that the path to general intelligence runs through the physical world. Led by founders Rob Cochran and Josh Merel , the startup is developing a specialized hardware and AI platform to move robots out of factories and into the unstructured environments of everyday life. By engineering safe, lightweight, and inexpensive machines, Fauna said it aims to create a data-driven &#8220;flywheel&#8221; for embodied AI . The company said it is pursuing a vision where general-purpose robots don\u2019t just perform tasks, but also live, work, and play alongside their human counterparts. Startup focuses on building applications over teaching fundamentals Cochran described the concept for Sprout to The Robot Report : &#8220;It gives people the tools to start building interesting applications, rather than focusing on the kind of fundamentals that make it quite a small community of roboticists that are able to actually engage with robotics today, and so that feels like a really great opportunity.&#8221; He added that Fauna was founded on the idea of solving problems immediately. &#8220;One of the things we identified when we started this company is &#8230; now is the time when we can maybe start to solve some general-purpose robotics problems and in a general-purpose form factor, like a humanoid ,&#8221; Cochran said. Sprout is engineered for expressive engagement within human-centric environments. These interactions are enhanced by an articulated neck that provides a controllable gaze, allowing Sprout to &#8220;look&#8221; at people and objects. Fluid movements of the arms and torso further humanize the robot, enabling it to perform social gestures like high-fives, handshakes, and playful poses that bridge the gap between machine and companion, according to Fauna Robotics. Sprout designed for positive interactions with people Fauna Robotics said it balanced a friendly aesthetic with rigorous safety features in Sprout. The robot\u2019s compact, lightweight frame has soft exterior panels and back-drivable motors to minimize impact forces and ensure safe interactions. Standing at 107 cm and weighing just 22.7 kg, Sprout is designed to be inherently safe. | Credit: Fauna Robotics The company said it engineered Sprout&#8217;s physical form factor for approachability. With a maximum size of 107 cm (42 in.) and weighing 22.7 kg (50 lb.), the robot is intended to be unintimidating, particularly for children. In addition to its small size, Sprout works with a dedicated safety subsystem that monitors real-time conditions to enforce constraints across all mechanical and software levels, explained Fauna. Beyond its protective design, Sprout emphasizes emotional connection through a character-like appearance, which includes an articulated neck, actuated eyebrows, and an LED array that facilitates natural, non-verbal communication and social trust. The robot&#8217;s modular architecture has 29 degrees of freedom and is designed for both durability and ease of use. It has a 3.5-hour swappable battery and a resilient build capable of recovering from falls. Fauna asserted that this blend of approachable materials and personalized aesthetics supports its mission to build a versatile platform for education, therapy, and interactive research. Fauna Robotics builds a platform for AI development Sprout also serves as a high-performance, scalable platform powered by the NVIDIA Jetson AGX Orin for advanced perception and decision-making. For developers, the platform offers a streamlined experience through stable APIs and containerized services that support everything from low-level motor control to high-level autonomy. By using consumer electronics manufacturing processes and a low part count, Fauna said its design ensures that Sprout can scale efficiently from research labs to mass-market production. Cochran compared Sprout to the early development of PCs. &#8220;The analogy I like to draw is to the early days of personal computing, [where] it wasn&#8217;t really until you had certain things like the Apple II and the invention of BASIC, the programming language, that you had this abstraction that allowed for the concept of an application developer,&#8221; he said. &#8220;And then you started to get interesting applications, and then the market got bigger. I think that same trajectory could make a lot of sense in the context of [physical AI-based] robotics as well.&#8221; Sprout is more a character rather than a machine Core to Sprout\u2019s design is a character-like presence over utilitarian machinery, drawing on popular culture to foster immediate emotional connections, said Fauna Robotics. Sprout appears more like an animated character come to life than an industrial machine. Central to this design approach is a &#8220;non-screen-based&#8221; facial design that emphasizes physical embodiment rather than digital displays. With its motorized eyebrows and LED array, the robot can convey a wide range of emotions and intentions, such as &#8220;thinking&#8221; animations or safety warnings, making it more relatable and engaging for human interaction, Fauna said. Sprout features a &#8220;non-screen-based&#8221; facial design that emphasizes physical embodiment rather than digital displays. | Credit: Fauna Robotics These physical cues are governed by a slot-based behavior hierarchy, ensuring that visual and mechanical elements work in harmony to produce coherent, lifelike behaviors. &#8220;We&#8217;ve provided a software and developer experience packaged around this idea that you can do very low-level programming on this,&#8221; Cochran noted. &#8220;But you also get mapping and navigation and voice interaction, and HRI features right out of the box.&#8221; To facilitate natural social engagement, Sprout incorporates a sophisticated audio-visual and movement suite. A four-microphone array enables speech recognition and sound-source localization, while integrated speakers allow the robot to respond with speech, sound effects, and tones that complement its physical gestures. Hardware overview. Key features of the Sprout robot platform from different perspectives: (A) and (B) are true-color renders (C) and (D) are semi-transparent renders. | Credit: Fauna Robotics Full specifications for Sprout are available on the Fauna Robotics product page . The robot&#8217;s soft, deformable exterior panels encourage physical contact, while the inclusion of standardized interlocking toy brick components allows for cosmetic customization (see image below). Sprout includes a plastic grid structure on its head, suitable for attaching LEGO bricks, to personalize the robot. | Credit: Fauna Robotics. The post Introducing Sprout, a new humanoid development platform appeared first on The Robot Report .",
+      "author": "Mike Oitzman",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "artificial intelligence / cognition",
+        "consumer robotics",
+        "human robot interaction / haptics",
+        "humanoids",
+        "markets / industries",
+        "news",
+        "press release",
+        "research",
+        "soft robotics"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7340133666135913
+    },
+    {
+      "title": "1X launches world model enabling NEO robot to learn tasks by watching videos",
+      "url": "https://www.therobotreport.com/1x-launches-world-model-enabling-neo-robot-to-learn-tasks-by-watching-videos/",
+      "source_type": "rss",
+      "source_name": "Robot Report - 1X Technologies",
+      "published_at": "2026-01-24T13:30:47",
+      "summary": "1X said its new world model puts it a step closer to a future where robots can teach themselves to do any task a human can do. | Source: 1X Technologies 1X Technologies AS last week announced its latest 1X World Model. The company said the AI update for NEO enables the humanoid robot to turn any request into an AI capability on demand, using a video model grounded in real-world physics. \u201cAfter years of developing our World Model and making NEO\u2019s design as close to human as possible, NEO can now ...",
+      "content": "1X said its new world model puts it a step closer to a future where robots can teach themselves to do any task a human can do. | Source: 1X Technologies 1X Technologies AS last week announced its latest 1X World Model. The company said the AI update for NEO enables the humanoid robot to turn any request into an AI capability on demand, using a video model grounded in real-world physics. \u201cAfter years of developing our World Model and making NEO\u2019s design as close to human as possible, NEO can now learn from internet-scale video and apply that knowledge directly to the physical world,\u201d said Bernt B\u00f8rnich, founder and CEO of 1X. &#8220;With the ability to transform any prompt into new actions\u2014even without prior examples\u2014this marks the starting point of NEO\u2019s ability to teach itself to master nearly anything you could think to ask.&#8221; With this update, 1X said NEO can use video data fine-tuned on robot data to perform AI tasks, even with objects and environments it has never encountered before. The Palo Alto, Calif.-based company said it has designed NEO for household use. The humanoid is available through 1X&#8217;s early access program for $20,000, which includes priority delivery in 2026. A subscription model will also be available for $499/month. NEO can do old tasks in unfamiliar places, plus learn new ones With this update, users can give NEO a simple voice or text prompt, and the robot uses what it\u2019s looking at to generate visualizations of future actions. A built-in inverse dynamics model then translates these into precise movements for NEO to complete the request, 1X explained. \u201cWith the 1X World Model, you can turn any prompt into a fully autonomous robot action \u2014 even with tasks and objects NEO\u2019s never seen before,\u201d said Daniel Ho, an AI researcher at 1X. Demonstrations in 1X\u2019s latest video (below) demonstrate NEO&#8217;s ability to generalize beyond training data. For simple prompts like packing a lunch box, it visualizes and executes, even with unfamiliar objects. The robot can also handle completely novel tasks, such as operating a toilet seat, opening a sliding door, ironing a shirt, brushing a human&#8217;s hair, and more, without any prior examples in its dataset, said 1X. This highlights the transfer of broad human knowledge through the World Model, 1X said. 1X says robot can learn on its own Where traditional AI models for humanoid robots have relied on data collected by human operators, the 1X World Model enables NEO to collect its own data and autonomously master new capabilities. This opens the door for robots to eventually teach themselves anything, 1X claimed. Where improvement in AI capabilities for humanoids has been bottlenecked by the speed in which robot data can be collected by human operators, 1X said its World Model doesn\u2019t only self improve from NEO collecting it\u2019s own data. It also benefits from the improvement of video models, given that the world model uses a video model at its core. Traditional models have historically struggled with changes in lighting, clutter, or chaos that are commonplace in the home. The 1X World Model applies human-like understanding to navigate extreme variability, maintaining composure amid rapid environmental shifts, according to the company. The post 1X launches world model enabling NEO robot to learn tasks by watching videos appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "robot-report---1x-technologies",
+        "artificial intelligence",
+        "artificial intelligence / cognition",
+        "design / development",
+        "humanoids",
+        "news",
+        "robots / platforms",
+        "software / simulation",
+        "1x",
+        "1x technologies"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6424136637953869
+    },
+    {
+      "title": "Thomas Pilz on innovation and safety in robotics",
+      "url": "https://www.therobotreport.com/thomas-pilz-on-innovation-and-safety-in-robotics/",
+      "source_type": "rss",
+      "source_name": "Robot Report - Boston Dynamics",
+      "published_at": "2026-01-23T20:50:56",
+      "summary": "\ufeff The Robot Report Podcast \u00b7 Thomas Pilz on Innovation and Safety in Robotics In Episode 228 of The Robot Report Podcast, hosts Steve Crowe and Mike Oitzman recap the major robotics news of the week. Thomas Pilz, managing partner of Pilz GmbH & Co. KG Our guest on this show is Thomas Pilz, managing partner of Pilz GmbH & Co. KG \u2014 a dynamic leader and innovator in robotics safety. He oversees IT, purchasing, research and development, quality management, and production. Pilz previously served as C...",
+      "content": "\ufeff The Robot Report Podcast \u00b7 Thomas Pilz on Innovation and Safety in Robotics In Episode 228 of The Robot Report Podcast, hosts Steve Crowe and Mike Oitzman recap the major robotics news of the week. Thomas Pilz, managing partner of Pilz GmbH & Co. KG Our guest on this show is Thomas Pilz, managing partner of Pilz GmbH & Co. KG \u2014 a dynamic leader and innovator in robotics safety. He oversees IT, purchasing, research and development, quality management, and production. Pilz previously served as CEO of Pilz Automation Safety L.P. in Michigan, leading the company\u2019s North American operations. He also contributes to several technical and scientific boards, including the VDMA and various research associations in the fields of automation and microelectronics. During the interview, we touch on current concerns with the rapidly evolving robotic landscape. We gather Thomas&#8217; insights into new cutting-edge technologies like those being developed by 3Laws . Show timeline 0:45 &#8211; John Deere Excavator demo recap 10:21 &#8211; News of the week 33:25 &#8211; Thomas Pilz, Managing Partner of Pilz GmbH & Co. KG Editor and cohost Mike Oitzman gets his first opportunity to operate a John Deere excavator. | Credit: The Robot Report News of the week iRobot emerges from Chapter 11 as restructured Picea U.S. subsidiary iRobot Corp. is back from bankruptcy with the completion of Shenzhen Picea Robotics Co.\u2019s acquisition of the consumer robotics pioneer. iRobot said it has emerged from a pre-packaged Chapter 11 process \u201cwith an improved financial foundation and additional capacity to invest in the next generation of smart home robotics.\u201d Last month, iRobot announced that it had entered into a restructuring support agreement with its creditor Santrum Hong Kong Co. and contract manufacturer Picea. The company had faced falling revenue, diversification challenges, and antitrust concerns that doomed its proposed acquisition by Amazon. However, it said it remains committed to continuing to produce and support its fleet of millions of robotic vacuum cleaners. Serve Robotics to acquire hospital logistics provider Diligent Robotics Serve Robotics Inc., a developer of sidewalk delivery robots, is acquiring Diligent Robotics Inc. for $29 million. The companies said the acquisition will open up new opportunities. With the Diligent acquisition, Serve Robotics is making its first foray into indoor environments, mobile manipulation, and the healthcare industry. Diligent currently operates its Moxi robots in more than 25 hospitals, where robots have completed over 1.25 million deliveries of medical supplies. Serve Robotics said it has spent the past year rapidly expanding the number of robots it has operating in the world, doing real work. With this experience, CEO Ali Kashani said he hopes to use Serve\u2019s scaling and manufacturing capabilities to help Diligent Robotics to do the same. Microsoft Research reveals Rho-alpha vision-language-action model for robots Microsoft announced Rho-alpha, or \u03c1\u03b1, the first robotics model derived from its Phi series of vision-language models (VLAs). The new models built on Phi are intended to make robots more adaptable and trustworthy, the company said. \u201cRho-alpha translates natural language commands into control signals for robotic systems performing bimanual manipulation tasks,\u201d wrote Ashley Llorens, corporate vice president and managing director of the Microsoft Research Accelerator. \u201cIt can be described as a VLA+ model in that it expands the set of perceptual and learning modalities beyond those typically used by VLAs.\u201d For perception, Rho-alpha adds tactile sensing, and Microsoft said it is working to include modalities such as force. For learning, the company claimed that Rho-alpha can continually improve with feedback provided by people. Microsoft said it is looking to work with robotics manufacturers, integrators, and end users to see how Rho-alpha and associated tooling can help them train, deploy, and adapt cloud-hosted physical AI with their own data. Hyundai Motor&#8217;s Korean union warns of humanoid robot plan, sees threat to jobs While South Korea is a leading adopter of industrial and service robots, fears of job displacement exist there as well as in other regions. Hyundai Motor Group &#8216;s labor union warned the automaker not to deploy humanoid robots without its approval because of concerns about &#8220;employment shocks,&#8221; reported Reuters. Hyundai is the owner of Boston Dynamics and has said it plans to buy &#8220;tens of thousands&#8221; of robots in the coming years. Boston Dynamics is also testing its Atlas humanoid with Hyundai. The post Thomas Pilz on innovation and safety in robotics appeared first on The Robot Report .",
+      "author": "Mike Oitzman",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "robot-report---boston-dynamics",
+        "collaborative robots",
+        "humanoids",
+        "industrial robots",
+        "markets / industries",
+        "news",
+        "opinion",
+        "podcast",
+        "robots / platforms",
+        "safety & security"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6275349435984624
+    },
+    {
+      "title": "Causal World Modeling for Robot Control",
+      "url": "https://arxiv.org/abs/2601.21998v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-29T17:07:43",
+      "summary": "This work highlights that video world modeling, alongside vision-language pre-training, establishes a fresh and independent foundation for robot learning. Intuitively, video world models provide the ability to imagine the near future by understanding the causality between actions and visual dynamics. Inspired by this, we introduce LingBot-VA, an autoregressive diffusion framework that learns frame prediction and policy execution simultaneously. Our model features three carefully crafted designs: (1) a shared latent space, integrating vision and action tokens, driven by a Mixture-of-Transformers (MoT) architecture, (2) a closed-loop rollout mechanism, allowing for ongoing acquisition of environmental feedback with ground-truth observations, (3) an asynchronous inference pipeline, parallelizing action prediction and motor execution to support efficient control. We evaluate our model on both simulation benchmarks and real-world scenarios, where it shows significant promise in long-horizon...",
+      "content": "This work highlights that video world modeling, alongside vision-language pre-training, establishes a fresh and independent foundation for robot learning. Intuitively, video world models provide the ability to imagine the near future by understanding the causality between actions and visual dynamics. Inspired by this, we introduce LingBot-VA, an autoregressive diffusion framework that learns frame prediction and policy execution simultaneously. Our model features three carefully crafted designs: (1) a shared latent space, integrating vision and action tokens, driven by a Mixture-of-Transformers (MoT) architecture, (2) a closed-loop rollout mechanism, allowing for ongoing acquisition of environmental feedback with ground-truth observations, (3) an asynchronous inference pipeline, parallelizing action prediction and motor execution to support efficient control. We evaluate our model on both simulation benchmarks and real-world scenarios, where it shows significant promise in long-horizon manipulation, data efficiency in post-training, and strong generalizability to novel configurations. The code and model are made publicly available to facilitate the community.",
+      "author": "Lin Li, Qihang Zhang, Yiming Luo, Shuai Yang, Ruilin Wang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.21998v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.21998v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Lin Li",
+          "Qihang Zhang",
+          "Yiming Luo",
+          "Shuai Yang",
+          "Ruilin Wang",
+          "Fei Han",
+          "Mingrui Yu",
+          "Zelin Gao",
+          "Nan Xue",
+          "Xing Zhu",
+          "Yujun Shen",
+          "Yinghao Xu"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.6015981735159818,
+      "final_score": 0.5934239660296566
+    },
+    {
+      "title": "PocketDP3: Efficient Pocket-Scale 3D Visuomotor Policy",
+      "url": "https://arxiv.org/abs/2601.22018v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-29T17:23:25",
+      "summary": "Recently, 3D vision-based diffusion policies have shown strong capability in learning complex robotic manipulation skills. However, a common architectural mismatch exists in these models: a tiny yet efficient point-cloud encoder is often paired with a massive decoder. Given a compact scene representation, we argue that this may lead to substantial parameter waste in the decoder. Motivated by this observation, we propose PocketDP3, a pocket-scale 3D diffusion policy that replaces the heavy conditional U-Net decoder used in prior methods with a lightweight Diffusion Mixer (DiM) built on MLP-Mixer blocks. This architecture enables efficient fusion across temporal and channel dimensions, significantly reducing model size. Notably, without any additional consistency distillation techniques, our method supports two-step inference without sacrificing performance, improving practicality for real-time deployment. Across three simulation benchmarks--RoboTwin2.0, Adroit, and MetaWorld--PocketDP3 ...",
+      "content": "Recently, 3D vision-based diffusion policies have shown strong capability in learning complex robotic manipulation skills. However, a common architectural mismatch exists in these models: a tiny yet efficient point-cloud encoder is often paired with a massive decoder. Given a compact scene representation, we argue that this may lead to substantial parameter waste in the decoder. Motivated by this observation, we propose PocketDP3, a pocket-scale 3D diffusion policy that replaces the heavy conditional U-Net decoder used in prior methods with a lightweight Diffusion Mixer (DiM) built on MLP-Mixer blocks. This architecture enables efficient fusion across temporal and channel dimensions, significantly reducing model size. Notably, without any additional consistency distillation techniques, our method supports two-step inference without sacrificing performance, improving practicality for real-time deployment. Across three simulation benchmarks--RoboTwin2.0, Adroit, and MetaWorld--PocketDP3 achieves state-of-the-art performance with fewer than 1% of the parameters of prior methods, while also accelerating inference. Real-world experiments further demonstrate the practicality and transferability of our method in real-world settings. Code will be released.",
+      "author": "Jinhao Zhang, Zhexuan Zhou, Huizhe Li, Yichen Lai, Wenlong Xia...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22018v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22018v1.pdf",
+        "categories": [
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Jinhao Zhang",
+          "Zhexuan Zhou",
+          "Huizhe Li",
+          "Yichen Lai",
+          "Wenlong Xia",
+          "Haoming Song",
+          "Youmin Gong",
+          "Jie Me"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.5970319634703196,
+      "final_score": 0.5918311130111438
+    },
+    {
+      "title": "Macro-Scale Electrostatic Origami Motor",
+      "url": "https://arxiv.org/abs/2601.21976v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-29T16:53:24",
+      "summary": "Foldable robots have been an active area of robotics research due to their high volume-to-mass ratio, easy packability, and shape adaptability. For locomotion, previously developed foldable robots have either embedded linear actuators in, or attached non-folding rotary motors to, their structure. Further, those actuators directly embedded in the structure of the folding medium all contributed to linear or folding motion, not to continuous rotary motion. On the macro-scale there has not yet been a folding continuous rotary actuator. This paper details the development and testing of the first macro-scale origami rotary motor that can be folded flat, and then unfurled to operate. Using corona discharge for torque production, the prototype motor achieved an expansion ratio of 2.5:1, reached a top speed of 1440 rpm when driven at -29 kV, and exhibited a maximum output torque over 0.15 mN m with an active component torque density of 0.04 Nm/kg.",
+      "content": "Foldable robots have been an active area of robotics research due to their high volume-to-mass ratio, easy packability, and shape adaptability. For locomotion, previously developed foldable robots have either embedded linear actuators in, or attached non-folding rotary motors to, their structure. Further, those actuators directly embedded in the structure of the folding medium all contributed to linear or folding motion, not to continuous rotary motion. On the macro-scale there has not yet been a folding continuous rotary actuator. This paper details the development and testing of the first macro-scale origami rotary motor that can be folded flat, and then unfurled to operate. Using corona discharge for torque production, the prototype motor achieved an expansion ratio of 2.5:1, reached a top speed of 1440 rpm when driven at -29 kV, and exhibited a maximum output torque over 0.15 mN m with an active component torque density of 0.04 Nm/kg.",
+      "author": "Alex S. Miller, Leo McElroy, Jeffrey H. Lang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.21976v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.21976v1.pdf",
+        "categories": [
+          "cs.RO",
+          "physics.app-ph"
+        ],
+        "all_authors": [
+          "Alex S. Miller",
+          "Leo McElroy",
+          "Jeffrey H. Lang"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.5924657534246576,
+      "final_score": 0.589557952260488
+    },
+    {
+      "title": "mjlab: A Lightweight Framework for GPU-Accelerated Robot Learning",
+      "url": "https://arxiv.org/abs/2601.22074v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-29T18:11:26",
+      "summary": "We present mjlab, a lightweight, open-source framework for robot learning that combines GPU-accelerated simulation with composable environments and minimal setup friction. mjlab adopts the manager-based API introduced by Isaac Lab, where users compose modular building blocks for observations, rewards, and events, and pairs it with MuJoCo Warp for GPU-accelerated physics. The result is a framework installable with a single command, requiring minimal dependencies, and providing direct access to native MuJoCo data structures. mjlab ships with reference implementations of velocity tracking, motion imitation, and manipulation tasks.",
+      "content": "We present mjlab, a lightweight, open-source framework for robot learning that combines GPU-accelerated simulation with composable environments and minimal setup friction. mjlab adopts the manager-based API introduced by Isaac Lab, where users compose modular building blocks for observations, rewards, and events, and pairs it with MuJoCo Warp for GPU-accelerated physics. The result is a framework installable with a single command, requiring minimal dependencies, and providing direct access to native MuJoCo data structures. mjlab ships with reference implementations of velocity tracking, motion imitation, and manipulation tasks.",
+      "author": "Kevin Zakka, Qiayuan Liao, Brent Yi, Louis Le Lay, Koushil Sreenath...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22074v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22074v1.pdf",
+        "categories": [
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Kevin Zakka",
+          "Qiayuan Liao",
+          "Brent Yi",
+          "Louis Le Lay",
+          "Koushil Sreenath",
+          "Pieter Abbeel"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.5639269406392694,
+      "final_score": 0.5793036376567494
+    },
+    {
+      "title": "Video Friday: Humans and Robots Team Up in Battlefield Triage",
+      "url": "https://spectrum.ieee.org/darpa-triage-challenge-robot",
+      "source_type": "rss",
+      "source_name": "IEEE Spectrum Robotics",
+      "published_at": "2026-01-23T17:00:03",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1\u20135 June 2026, VIENNA Enjoy today\u2019s videos! One of my favorite parts of robotics is watching research collide with non-roboticists in the real (or real-ish) world. [ DARPA ] Spot will put out fires for you. Eventually. If it feels like it. [ M...",
+      "content": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1\u20135 June 2026, VIENNA Enjoy today\u2019s videos! One of my favorite parts of robotics is watching research collide with non-roboticists in the real (or real-ish) world. [ DARPA ] Spot will put out fires for you. Eventually. If it feels like it. [ Mechatronic and Robotic Systems Laboratory ] All those robots rising out of their crates is not sinister at all. [ LimX ] The Lynx M20 quadruped robot recently completed an extreme cold-weather field test in Yakeshi, Hulunbuir, operating reliably in temperatures as low as \u201330\u00b0C. [ DEEP Robotics ] This is a teaser video for KIMLAB\u2019s new teleoperation robot. For now, we invite you to enjoy the calm atmosphere, with students walking, gathering, and chatting across the UIUC Main Quad\u2014along with its scenery and ambient sounds, without any technical details. More details will be shared soon. Enjoy the moment. The most incredible part of this video is that they have publicly available power in the middle of their quad. [ KIMLAB ] For the eleventy-billionth time: Just because you can do a task with a humanoid robot doesn\u2019t mean you should do a task with a humanoid robot. [ UBTECH ] I am less interested in this autonomous urban delivery robot and more interested in whatever that docking station is at the beginning that loads the box into it. [ KAIST ] Okay, so figuring out where Spot\u2019s face is just got a lot more complicated. [ Boston Dynamics ] An undergraduate team at HKU\u2019s Tam Wing Fan Innovation Wing developed CLIO, an embodied tour-guide robot, just in months. Built on LimX Dynamics TRON 1, it uses LLMs for tour planning, computer vision for visitor recognition, and a laser pointer/expressive display for engaging tours. [ CLIO ] The future of work is doing work so that robots can then do the same work, except less well. [ AgileX ]",
+      "author": "Evan Ackerman",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "ieee-spectrum-robotics",
+        "robotics",
+        "video-friday",
+        "darpa",
+        "human-robot-interaction",
+        "quadruped-robots",
+        "humanoid-robots"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6015981735159818,
+      "final_score": 0.4656392694063927
+    },
+    {
+      "title": "Vine-inspired robotic gripper gently lifts heavy and fragile objects",
+      "url": "https://robohub.org/vine-inspired-robotic-gripper-gently-lifts-heavy-and-fragile-objects/",
+      "source_type": "rss",
+      "source_name": "Robohub",
+      "published_at": "2026-01-23T03:08:38",
+      "summary": "The researchers demonstrated that the vine robot can safely and stably lift a variety of heavy and fragile objects, like a watermelon. Image credit: Courtesy of the researchers By Jennifer Chu In the horticultural world, some vines are especially grabby. As they grow, the woody tendrils can wrap around obstacles with enough force to pull down entire fences and trees. Inspired by vines\u2019 twisty tenacity, engineers at MIT and Stanford University have developed a robotic gripper that can snake aroun...",
+      "content": "The researchers demonstrated that the vine robot can safely and stably lift a variety of heavy and fragile objects, like a watermelon. Image credit: Courtesy of the researchers By Jennifer Chu In the horticultural world, some vines are especially grabby. As they grow, the woody tendrils can wrap around obstacles with enough force to pull down entire fences and trees. Inspired by vines\u2019 twisty tenacity, engineers at MIT and Stanford University have developed a robotic gripper that can snake around and lift a variety of objects, including a glass vase and a watermelon, offering a gentler approach compared to conventional gripper designs. A larger version of the robo-tendrils can also safely lift a human out of bed. The new bot consists of a pressurized box, positioned near the target object, from which long, vine-like tubes inflate and grow, like socks being turned inside out. As they extend, the vines twist and coil around the object before continuing back toward the box, where they are automatically clamped in place and mechanically wound back up to gently lift the object in a soft, sling-like grasp. The researchers demonstrated that the vine robot can safely and stably lift a variety of heavy and fragile objects. The robot can also squeeze through tight quarters and push through clutter to reach and grasp a desired object. The team envisions that this type of robot gripper could be used in a wide range of scenarios, from agricultural harvesting to loading and unloading heavy cargo. In the near term, the group is exploring applications in eldercare settings, where soft inflatable robotic vines could help to gently lift a person out of bed. \u201cTransferring a person out of bed is one of the most physically strenuous tasks that a caregiver carries out,\u201d says Kentaro Barhydt, a PhD candidate in MIT\u2019s Department of Mechanical Engineering. \u201cThis kind of robot can help relieve the caretaker, and can be gentler and more comfortable for the patient.\u201d Barhydt, along with his co-first author from Stanford, O. Godson Osele, and their colleagues, present the new robotic design in the journal Science Advances . The study\u2019s co-authors are Harry Asada, the Ford Professor of Engineering at MIT, and Allison Okamura, the Richard W. Weiland Professor of Engineering at Stanford University, along with Sreela Kodali and Cosmia du Pasquier at Stanford University, and former MIT graduate student Chase Hartquist, now at the University of Florida, Gainesville. Open and closed As they extend, the vines twist and coil around the object before continuing back toward the box, where they are automatically clamped in place and mechanically wound back up to gently lift the object in a soft, sling-like grasp. Image credit: Courtesy of the researchers . The team\u2019s Stanford collaborators, led by Okamura, pioneered the development of soft, vine-inspired robots that grow outward from their tips. These designs are largely built from thin yet sturdy pneumatic tubes that grow and inflate with controlled air pressure. As they grow, the tubes can twist, bend, and snake their way through the environment, and squeeze through tight and cluttered spaces. Researchers have mostly explored vine robots for use in safety inspections and search and rescue operations. But at MIT, Barhydt and Asada, whose group has developed robotic aides for the elderly, wondered whether such vine-inspired robots could address certain challenges in eldercare \u2014 specifically, the challenge of safely lifting a person out of bed. Often in nursing and rehabilitation settings, this transfer process is done with a patient lift, operated by a caretaker who must first physically move a patient onto their side, then back onto a hammock-like sheet. The caretaker straps the sheet around the patient and hooks it onto the mechanical lift, which then can gently hoist the patient out of bed, similar to suspending a hammock or sling. The MIT and Stanford team imagined that as an alternative, a vine-like robot could gently snake under and around a patient to create its own sort of sling, without a caretaker having to physically maneuver the patient. But in order to lift the sling, the researchers realized they would have to add an element that was missing in existing vine robot designs: Essentially, they would have to close the loop. Most vine-inspired robots are designed as \u201copen-loop\u201d systems, meaning they act as open-ended strings that can extend and bend in different configurations, but they are not designed to secure themselves to anything to form a closed loop. If a vine robot could be made to transform from an open loop to a closed loop, Barhydt surmised that it could make itself into a sling around the object and pull itself up, along with whatever, or whomever, it might hold. For their new study, Barhydt, Osele, and their colleagues outline the design for a new vine-inspired robotic gripper that combines both open- and closed-loop actions. In an open-loop configuration, a robotic vine can grow and twist around an object to create a firm grasp. It can even burrow under a human lying on a bed. Once a grasp is made, the vine can continue to grow back toward and attach to its source, creating a closed loop that can then be retracted to retrieve the object. \u201cPeople might assume that in order to grab something, you just reach out and grab it,\u201d Barhydt says. \u201cBut there are different stages, such as positioning and holding. By transforming between open and closed loops, we can achieve new levels of performance by leveraging the advantages of both forms for their respective stages.\u201d Gentle suspension As a demonstration of their new open- and closed-loop concept, the team built a large-scale robotic system designed to safely lift a person up from a bed. The system comprises a set of pressurized boxes attached on either end of an overhead bar. An air pump inside the boxes slowly inflates and unfurls thin vine-like tubes that extend down toward the head and foot of a bed. The air pressure can be controlled to gently work the tubes under and around a person, before stretching back up to their respective boxes. The vines then thread through a clamping mechanism that secures the vines to each box. A winch winds the vines back up toward the boxes, gently lifting the person up in the process. \u201cHeavy but fragile objects, such as a human body, are difficult to grasp with the robotic hands that are available today,\u201d Asada says. \u201cWe have developed a vine-like, growing robot gripper that can wrap around an object and suspend it gently and securely.\u201d &#8220;There\u2019s an entire design space we hope this work inspires our colleagues to continue to explore,\u201d says co-lead author Osele. \u201cI especially look forward to the implications for patient transfer applications in health care.\u201d \u201cI am very excited about future work to use robots like these for physically assisting people with mobility challenges,\u201d adds co-author Okamura. \u201cSoft robots can be relatively safe, low-cost, and optimally designed for specific human needs, in contrast to other approaches like humanoid robots.\u201d While the team\u2019s design was motivated by challenges in eldercare, the researchers realized the new design could also be adapted to perform other grasping tasks. In addition to their large-scale system, they have built a smaller version that can attach to a commercial robotic arm. With this version, the team has shown that the vine robot can grasp and lift a variety of heavy and fragile objects, including a watermelon, a glass vase, a kettle bell, a stack of metal rods, and a playground ball. The vines can also snake through a cluttered bin to pull out a desired object. \u201cWe think this kind of robot design can be adapted to many applications,\u201d Barhydt says. \u201cWe are also thinking about applying this to heavy industry, and things like automating the operation of cranes at ports and warehouses.\u201d This work was supported, in part, by the National Science Foundation and the Ford Foundation.",
+      "author": "MIT News",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "robohub",
+        "news"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5639269406392694,
+      "final_score": 0.45057077625570774
+    },
+    {
+      "title": "MoE-ACT: Improving Surgical Imitation Learning Policies through Supervised Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2601.21971v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-29T16:50:14",
+      "summary": "Imitation learning has achieved remarkable success in robotic manipulation, yet its application to surgical robotics remains challenging due to data scarcity, constrained workspaces, and the need for an exceptional level of safety and predictability. We present a supervised Mixture-of-Experts (MoE) architecture designed for phase-structured surgical manipulation tasks, which can be added on top of any autonomous policy. Unlike prior surgical robot learning approaches that rely on multi-camera setups or thousands of demonstrations, we show that a lightweight action decoder policy like Action Chunking Transformer (ACT) can learn complex, long-horizon manipulation from less than 150 demonstrations using solely stereo endoscopic images, when equipped with our architecture. We evaluate our approach on the collaborative surgical task of bowel grasping and retraction, where a robot assistant interprets visual cues from a human surgeon, executes targeted grasping on deformable tissue, and perf...",
+      "content": "Imitation learning has achieved remarkable success in robotic manipulation, yet its application to surgical robotics remains challenging due to data scarcity, constrained workspaces, and the need for an exceptional level of safety and predictability. We present a supervised Mixture-of-Experts (MoE) architecture designed for phase-structured surgical manipulation tasks, which can be added on top of any autonomous policy. Unlike prior surgical robot learning approaches that rely on multi-camera setups or thousands of demonstrations, we show that a lightweight action decoder policy like Action Chunking Transformer (ACT) can learn complex, long-horizon manipulation from less than 150 demonstrations using solely stereo endoscopic images, when equipped with our architecture. We evaluate our approach on the collaborative surgical task of bowel grasping and retraction, where a robot assistant interprets visual cues from a human surgeon, executes targeted grasping on deformable tissue, and performs sustained retraction. We benchmark our method against state-of-the-art Vision-Language-Action (VLA) models and the standard ACT baseline. Our results show that generalist VLAs fail to acquire the task entirely, even under standard in-distribution conditions. Furthermore, while standard ACT achieves moderate success in-distribution, adopting a supervised MoE architecture significantly boosts its performance, yielding higher success rates in-distribution and demonstrating superior robustness in out-of-distribution scenarios, including novel grasp locations, reduced illumination, and partial occlusions. Notably, it generalizes to unseen testing viewpoints and also transfers zero-shot to ex vivo porcine tissue without additional training, offering a promising pathway toward in vivo deployment. To support this, we present qualitative preliminary results of policy roll-outs during in vivo porcine surgery.",
+      "author": "Lorenzo Mazza, Ariel Rodriguez, Rayan Younis, Martin Lelis, Ortrun Hellig...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.21971v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.21971v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Lorenzo Mazza",
+          "Ariel Rodriguez",
+          "Rayan Younis",
+          "Martin Lelis",
+          "Ortrun Hellig",
+          "Chenpan Li",
+          "Sebastian Bodenstedt",
+          "Martin Wagner",
+          "Stefanie Speidel"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.09703196347031966,
+      "final_score": 0.3913373132122846
+    },
+    {
+      "title": "Waymo robotaxi hits a child near an elementary school in Santa Monica",
+      "url": "https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-29T14:08:56",
+      "summary": null,
+      "content": null,
+      "author": "voxadam",
+      "score": 453,
+      "num_comments": 740,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46810401,
+        "hn_url": "https://news.ycombinator.com/item?id=46810401",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.05136986301369863,
+      "final_score": 0.3652335174462962
+    },
+    {
+      "title": "Show HN: Ourguide \u2013 OS wide task guidance system that shows you where to click",
+      "url": "https://ourguide.ai",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-26T18:19:45",
+      "summary": "Hey! I&#x27;m eshaan and I&#x27;m building Ourguide -an on-screen task guidance system that can show you where to click step-by-step when you need help.<p>I started building this because whenever I didn\u2019t know how to do something on my computer, I found myself constantly tabbing between chatbots and the app, pasting screenshots, and asking \u201cwhat do I do next?\u201d Ourguide solves this with two modes. In Guide mode, the app overlays your screen and highlights the specific element to click next, eliminating the need to leave your current window. There is also Ask mode, which is a vision-integrated chat that captures your screen context\u2014which you can toggle on and off anytime -so you can ask, &quot;How do I fix this error?&quot; without having to explain what &quot;this&quot; is.<p>It\u2019s an Electron app that works OS-wide, is vision-based, and isn&#x27;t restricted to the browser.<p>Figuring out how to show the user where to click was the hardest part of the process. I originally trained a computer vision model with 2300 screenshots to identify and segment all UI elements on a screen and used a VLM to find the correct icon to highlight. While this worked extremely well\u2014better than SOTA grounding models like UI Tars\u2014the latency was just too high. I&#x27;ll be making that CV+VLM pipeline OSS soon, but for now, I\u2019ve resorted to a simpler implementation that achieves &lt;1s latency.<p>You may ask: if I can show you where to click, why can&#x27;t I just click too? While trying to build computer-use agents during my job in Palo Alto, I hit the core limitation of today\u2019s computer-use models where benchmarks hover in the mid-50% range (OSWorld). VLMs often know what to do but not what it looks like; without reliable visual grounding, agents misclick and stall. So, I built computer use\u2014without the &quot;use.&quot; It provides the visual grounding of an agent but keeps the human in the loop for the actual execution to prevent misclicks.<p>I personally use it for the AWS Console&#x27;s &quot;treasure hunt&quot; UI, like creating a public S3 bucket with specific CORS rules. It\u2019s also been surprisingly helpful for non-technical tasks, like navigating obscure settings in Gradescope or Spotify. Ourguide really works for any task when you\u2019re stuck or don&#x27;t know what to do.<p>You can download and test Ourguide here: <a href=\"https:&#x2F;&#x2F;ourguide.ai&#x2F;downloads\" rel=\"nofollow\">https:&#x2F;&#x2F;ourguide.ai&#x2F;downloads</a><p>The project is still very early, and I\u2019d love your feedback on where it fails, where you think it worked well, and which specific niches you think Ourguide would be most helpful for.",
+      "content": null,
+      "author": "eshaangulati",
+      "score": 50,
+      "num_comments": 22,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 46769422,
+        "hn_url": "https://news.ycombinator.com/item?id=46769422",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5445205479452054,
+      "final_score": 0.2996015296041144
+    },
+    {
+      "title": "Robot Talk Episode 141 \u2013 Our relationship with robot swarms, with Razanne Abu-Aisheh",
+      "url": "https://robohub.org/robot-talk-episode-141-our-relationship-with-robot-swarms-with-razanne-abu-aisheh/",
+      "source_type": "rss",
+      "source_name": "Robohub",
+      "published_at": "2026-01-23T13:48:54",
+      "summary": "Claire chatted to Razanne Abu-Aisheh from the University of Bristol about how people feel about interacting with robot swarms. Razanne Abu-Aisheh is a Senior Research Associate in the Centre for Sociodigital Futures at the University of Bristol. Her work explores how people interact with robot swarms, with a focus on how collective robot behaviours influence human perception. In her current research, she collaborates with communities to imagine more inclusive and meaningful futures with robotics...",
+      "content": "Claire chatted to Razanne Abu-Aisheh from the University of Bristol about how people feel about interacting with robot swarms. Razanne Abu-Aisheh is a Senior Research Associate in the Centre for Sociodigital Futures at the University of Bristol. Her work explores how people interact with robot swarms, with a focus on how collective robot behaviours influence human perception. In her current research, she collaborates with communities to imagine more inclusive and meaningful futures with robotics, working towards community-centred design. Her broader interests include bringing robot swarms into real-world settings and designing them with people in mind.",
+      "author": "Robot Talk",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "robohub",
+        "interviews"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.09703196347031964,
+      "final_score": 0.26381278538812786
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "The Robot Report",
+    "date_range": {
+      "start": "2026-01-23T03:08:38",
+      "end": "2026-01-30T13:30:12"
+    }
+  }
+}

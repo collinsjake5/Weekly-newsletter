@@ -1,0 +1,589 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-01-30T17:59:56.119288",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Claude Code daily benchmarks for degradation tracking",
+      "url": "https://marginlab.ai/trackers/claude-code/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-29T13:59:07",
+      "summary": null,
+      "content": null,
+      "author": "qwesr123",
+      "score": 728,
+      "num_comments": 338,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46810282,
+        "hn_url": "https://news.ycombinator.com/item?id=46810282",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.777823291969113
+    },
+    {
+      "title": "RedSage: A Cybersecurity Generalist LLM",
+      "url": "https://arxiv.org/abs/2601.22159v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-01-29T18:59:57",
+      "summary": "Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on proprietary APIs with privacy risks or on open models lacking domain adaptation. To bridge this gap, we curate 11.8B tokens of cybersecurity-focused continual pretraining data via large-scale web filtering and manual collection of high-quality resources, spanning 28.6K documents across frameworks, offensive techniques, and security tools. Building on this, we design an agentic augmentation pipeline that simulates expert workflows to generate 266K multi-turn cybersecurity samples for supervised fine-tuning. Combined with general open-source LLM data, these resources enable the training of RedSage, an open-source, locally deployable cybersecurity assistant with domain-aware pretraining and post-training. To rigorously evaluate the models, we introduce RedSage-Bench, a benchmark with 30K multiple-choice and 240 open-ended Q&A items covering cyber...",
+      "content": "Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on proprietary APIs with privacy risks or on open models lacking domain adaptation. To bridge this gap, we curate 11.8B tokens of cybersecurity-focused continual pretraining data via large-scale web filtering and manual collection of high-quality resources, spanning 28.6K documents across frameworks, offensive techniques, and security tools. Building on this, we design an agentic augmentation pipeline that simulates expert workflows to generate 266K multi-turn cybersecurity samples for supervised fine-tuning. Combined with general open-source LLM data, these resources enable the training of RedSage, an open-source, locally deployable cybersecurity assistant with domain-aware pretraining and post-training. To rigorously evaluate the models, we introduce RedSage-Bench, a benchmark with 30K multiple-choice and 240 open-ended Q&A items covering cybersecurity knowledge, skills, and tool expertise. RedSage is further evaluated on established cybersecurity benchmarks (e.g., CTI-Bench, CyberMetric, SECURE) and general LLM benchmarks to assess broader generalization. At the 8B scale, RedSage achieves consistently better results, surpassing the baseline models by up to +5.59 points on cybersecurity benchmarks and +5.05 points on Open LLM Leaderboard tasks. These findings demonstrate that domain-aware agentic augmentation and pre/post-training can not only enhance cybersecurity-specific expertise but also help to improve general reasoning and instruction-following. All models, datasets, and code are publicly available.",
+      "author": "Naufal Suryanto, Muzammal Naseer, Pengfei Li, Syed Talal Wasim, Jinhui Yi...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22159v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22159v1.pdf",
+        "categories": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Naufal Suryanto",
+          "Muzammal Naseer",
+          "Pengfei Li",
+          "Syed Talal Wasim",
+          "Jinhui Yi",
+          "Juergen Gall",
+          "Paolo Ceravolo",
+          "Ernesto Damiani"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7544645078747519
+    },
+    {
+      "title": "UEval: A Benchmark for Unified Multimodal Generation",
+      "url": "https://arxiv.org/abs/2601.22155v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-01-29T18:59:52",
+      "summary": "We introduce UEval, a benchmark to evaluate unified models, i.e., models capable of generating both images and text. UEval comprises 1,000 expert-curated questions that require both images and text in the model output, sourced from 8 real-world tasks. Our curated questions cover a wide range of reasoning types, from step-by-step guides to textbook explanations. Evaluating open-ended multimodal generation is non-trivial, as simple LLM-as-a-judge methods can miss the subtleties. Different from previous works that rely on multimodal Large Language Models (MLLMs) to rate image quality or text accuracy, we design a rubric-based scoring system in UEval. For each question, reference images and text answers are provided to a MLLM to generate an initial rubric, consisting of multiple evaluation criteria, and human experts then refine and validate these rubrics. In total, UEval contains 10,417 validated rubric criteria, enabling scalable and fine-grained automatic scoring. UEval is challenging f...",
+      "content": "We introduce UEval, a benchmark to evaluate unified models, i.e., models capable of generating both images and text. UEval comprises 1,000 expert-curated questions that require both images and text in the model output, sourced from 8 real-world tasks. Our curated questions cover a wide range of reasoning types, from step-by-step guides to textbook explanations. Evaluating open-ended multimodal generation is non-trivial, as simple LLM-as-a-judge methods can miss the subtleties. Different from previous works that rely on multimodal Large Language Models (MLLMs) to rate image quality or text accuracy, we design a rubric-based scoring system in UEval. For each question, reference images and text answers are provided to a MLLM to generate an initial rubric, consisting of multiple evaluation criteria, and human experts then refine and validate these rubrics. In total, UEval contains 10,417 validated rubric criteria, enabling scalable and fine-grained automatic scoring. UEval is challenging for current unified models: GPT-5-Thinking scores only 66.4 out of 100, while the best open-source model reaches merely 49.1. We observe that reasoning models often outperform non-reasoning ones, and transferring reasoning traces from a reasoning model to a non-reasoning model significantly narrows the gap. This suggests that reasoning may be important for tasks requiring complex multimodal understanding and generation.",
+      "author": "Bo Li, Yida Yin, Wenhao Chai, Xingyu Fu, Zhuang Liu",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CV",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22155v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22155v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Bo Li",
+          "Yida Yin",
+          "Wenhao Chai",
+          "Xingyu Fu",
+          "Zhuang Liu"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7544632674940476
+    },
+    {
+      "title": "DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation",
+      "url": "https://arxiv.org/abs/2601.22153v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-01-29T18:59:51",
+      "summary": "Manipulating dynamic objects remains an open challenge for Vision-Language-Action (VLA) models, which, despite strong generalization in static manipulation, struggle in dynamic scenarios requiring rapid perception, temporal anticipation, and continuous control. We present DynamicVLA, a framework for dynamic object manipulation that integrates temporal reasoning and closed-loop adaptation through three key designs: 1) a compact 0.4B VLA using a convolutional vision encoder for spatially efficient, structurally faithful encoding, enabling fast multimodal inference; 2) Continuous Inference, enabling overlapping reasoning and execution for lower latency and timely adaptation to object motion; and 3) Latent-aware Action Streaming, which bridges the perception-execution gap by enforcing temporally aligned action execution. To fill the missing foundation of dynamic manipulation data, we introduce the Dynamic Object Manipulation (DOM) benchmark, built from scratch with an auto data collection ...",
+      "content": "Manipulating dynamic objects remains an open challenge for Vision-Language-Action (VLA) models, which, despite strong generalization in static manipulation, struggle in dynamic scenarios requiring rapid perception, temporal anticipation, and continuous control. We present DynamicVLA, a framework for dynamic object manipulation that integrates temporal reasoning and closed-loop adaptation through three key designs: 1) a compact 0.4B VLA using a convolutional vision encoder for spatially efficient, structurally faithful encoding, enabling fast multimodal inference; 2) Continuous Inference, enabling overlapping reasoning and execution for lower latency and timely adaptation to object motion; and 3) Latent-aware Action Streaming, which bridges the perception-execution gap by enforcing temporally aligned action execution. To fill the missing foundation of dynamic manipulation data, we introduce the Dynamic Object Manipulation (DOM) benchmark, built from scratch with an auto data collection pipeline that efficiently gathers 200K synthetic episodes across 2.8K scenes and 206 objects, and enables fast collection of 2K real-world episodes without teleoperation. Extensive evaluations demonstrate remarkable improvements in response speed, perception, and generalization, positioning DynamicVLA as a unified framework for general dynamic object manipulation across embodiments.",
+      "author": "Haozhe Xie, Beichen Wen, Jiarui Zheng, Zhaoxi Chen, Fangzhou Hong...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.RO",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22153v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22153v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Haozhe Xie",
+          "Beichen Wen",
+          "Jiarui Zheng",
+          "Zhaoxi Chen",
+          "Fangzhou Hong",
+          "Haiwen Diao",
+          "Ziwei Liu"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7544630193821925
+    },
+    {
+      "title": "How London became the rest of the world\u2019s startup capital",
+      "url": "https://www.economist.com/britain/2026/01/26/how-london-became-the-rest-of-the-worlds-startup-capital",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-28T00:16:57",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;ebA1T\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;ebA1T</a>",
+      "content": null,
+      "author": "ellieh",
+      "score": 217,
+      "num_comments": 345,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46789180,
+        "hn_url": "https://news.ycombinator.com/item?id=46789180",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5953868267543204
+    },
+    {
+      "title": "Inside the marketplace powering bespoke AI deepfakes of real women",
+      "url": "https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-30T16:32:31",
+      "summary": "Civitai\u2014an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz\u2014is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically designed to make pornographic images banned by the site, a new analysis has found. The study, from researchers at Stanford and Indiana University, looked at people\u2019s requests for content on the site, called \u201cbounties.\u201d The researchers found that betw...",
+      "content": "Civitai\u2014an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz\u2014is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically designed to make pornographic images banned by the site, a new analysis has found. The study, from researchers at Stanford and Indiana University, looked at people\u2019s requests for content on the site, called \u201cbounties.\u201d The researchers found that between mid-2023 and the end of 2024, most bounties asked for animated content\u2014but a significant portion were for deepfakes of real people, and 90% of these deepfake requests targeted women. (Their findings have not yet been peer reviewed.) The debate around deepfakes, as illustrated by the recent backlash to explicit images on the X-owned chatbot Grok, has revolved around what platforms should do to block such content. Civitai\u2019s situation is a little more complicated. Its marketplace includes actual images, videos, and models, but it also lets individuals buy and sell instruction files called LoRAs that can coach mainstream AI models like Stable Diffusion into generating content they were not trained to produce. Users can then combine these files with other tools to make deepfakes that are graphic or sexual. The researchers found that 86% of deepfake requests on Civitai were for LoRAs. In these bounties, users requested \u201chigh quality\u201d models to generate images of public figures like the influencer Charli D\u2019Amelio or the singer Gracie Abrams, often linking to their social media profiles so their images could be grabbed from the web. Some requests specified a desire for models that generated the individual\u2019s entire body, accurately captured their tattoos, or allowed hair color to be changed. Some requests targeted several women in specific niches, like artists who record ASMR videos. One request was for a deepfake of a woman said to be the user\u2019s wife. Anyone on the site could offer up AI models they worked on for the task, and the best submissions received payment\u2014anywhere from $0.50 to $5. And nearly 92% of the deepfake bounties were awarded. Neither Civitai nor Andreessen Horowitz responded to requests for comment. It\u2019s possible that people buy these LoRAs to make deepfakes that aren\u2019t sexually explicit (though they\u2019d still violate Civitai\u2019s terms of use, and they\u2019d still be ethically fraught). But Civitai also offers educational resources on how to use external tools to further customize the outputs of image generators\u2014for example, by changing someone\u2019s pose. The site also hosts user-written articles with details on how to instruct models to generate pornography. The researchers found that the amount of porn on the platform has gone up, and that the majority of requests each week are now for NSFW content. \u201cNot only does Civitai provide the infrastructure that facilitates these issues; they also explicitly teach their users how to utilize them,\u201d says Matthew DeVerna, a postdoctoral researcher at Stanford\u2019s Cyber Policy Center and one of the study\u2019s leaders.  The company used to ban only sexually explicit deepfakes of real people, but in May 2025 it announced it would ban all deepfake content. Nonetheless, countless requests for deepfakes submitted before this ban now remain live on the site, and many of the winning submissions fulfilling those requests remain available for purchase, MIT Technology Review confirmed. \u201cI believe the approach that they\u2019re trying to take is to sort of do as little as possible, such that they can foster as much\u2014I guess they would call it\u2014creativity on the platform,\u201d DeVerna says. Users buy LoRAs with the site\u2019s online currency, called Buzz, which is purchased with real money. In May 2025, Civita\u2019s credit card processor cut off the company because of its ongoing problem with nonconsensual content. To pay for explicit content, users must now use gift cards or cryptocurrency to buy Buzz; the company offers a different scrip for non-explicit content.  Civitai automatically tags bounties requesting deepfakes and lists a way for the person featured in the content to manually request its takedown. This system means that Civitai has a reasonably successful way of knowing which bounties are for deepfakes, but it\u2019s still leaving moderation to the general public rather than carrying it out proactively.  A company\u2019s legal liability for what its users do isn\u2019t totally clear. Generally, tech companies have broad legal protections against such liability for their content under Section 230 of the Communications Decency Act, but those protections aren\u2019t limitless. For example, \u201cyou cannot knowingly facilitate illegal transactions on your website,\u201d says Ryan Calo, a professor specializing in technology and AI at the University of Washington\u2019s law school. (Calo wasn\u2019t involved in this new study.) Civitai joined OpenAI, Anthropic, and other AI companies in 2024 in adopting design principles to guard against the creation and spread of AI-generated child sexual abuse material . This move followed a 2023 report from the Stanford Internet Observatory, which found that the vast majority of AI models named in child sexual abuse communities were Stable Diffusion\u2013based models \u201cpredominantly obtained via Civitai.\u201d But adult deepfakes have not gotten the same level of attention from content platforms or the venture capital firms that fund them. \u201cThey are not afraid enough of it. They are overly tolerant of it,\u201d Calo says. \u201cNeither law enforcement nor civil courts adequately protect against it. It is night and day.\u201d Civitai received a $5 million investment from Andreessen Horowitz (a16z) in November 2023. In a video shared by a16z, Civitai cofounder and CEO Justin Maier described his goal of building the main place where people find and share AI models for their own individual purposes. \u201cWe\u2019ve aimed to make this space that\u2019s been very, I guess, niche and engineering-heavy more and more approachable to more and more people,\u201d he said.  Civitai is not the only company with a deepfake problem in a16z\u2019s investment portfolio; in February, MIT Technology Review first reported that another company, Botify AI, was hosting AI companions resembling real actors that stated their age as under 18, engaged in sexually charged conversations, offered \u201chot photos,\u201d and in some instances described age-of-consent laws as \u201carbitrary\u201d and \u201cmeant to be broken.\u201d",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.593699130280258
+    },
+    {
+      "title": "Launch HN: AgentMail (YC S25) \u2013 An API that gives agents their own email inboxes",
+      "url": "https://news.ycombinator.com/item?id=46812608",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-29T16:42:33",
+      "summary": "Hey HN, we&#x27;re Haakam, Michael, and Adi. We&#x27;re building AgentMail (<a href=\"https:&#x2F;&#x2F;agentmail.to\">https:&#x2F;&#x2F;agentmail.to</a>), the email inbox API for agents. We\u2019re not talking about AI for your email, this is email for your AI.<p>Email is an optimal interface for long-running agents. It\u2019s multithreaded and asynchronous with full support for rich text and files. It\u2019s a universal protocol with identity and authentication built in. Moreover, a lot of workflow critical context already lives in email.<p>We wanted to build email agents that you can forward your work to and get back a completed task. The agents could act entirely autonomously as you wouldn&#x27;t need to delegate your identity. If they did get stuck they could just send you, or anyone else, an email.<p>Using Gmail, we kept getting stuck on the limitations of their API. No way to create inboxes programmatically. Rate and sending limits. OAuth for every single inbox. Keyword search that doesn&#x27;t understand context. Per-seat pricing that doesn&#x27;t work for agents.<p>So we built what we wished existed: an email provider for developers. APIs for creating inboxes and configuring domains. Email parsing and threading. Text extraction from attachments. Realtime webhooks and websockets. Semantic search across inboxes. Usage-based pricing that works for agents.<p>Developers, startups, and enterprises are already deploying email agents with AgentMail. Agents that convert conversations and documents into structured data. Agents that source quotes, negotiate prices, and get the best deals. Agents that emulate internet users for training models on end-to-end tasks.<p>Here&#x27;s demo of Clawdbots communicating using AgentMail: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;Y0MfUWS3LKQ\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;Y0MfUWS3LKQ</a><p>You can get started with AgentMail for free at <a href=\"https:&#x2F;&#x2F;agentmail.to\">https:&#x2F;&#x2F;agentmail.to</a><p>Looking forward to hearing your thoughts and feedback.",
+      "content": null,
+      "author": "Haakam21",
+      "score": 156,
+      "num_comments": 158,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46812608,
+        "hn_url": "https://news.ycombinator.com/item?id=46812608",
+        "type": "story",
+        "is_text_post": true
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5916529789722407
+    },
+    {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-01-29T00:00:00",
+      "summary": "On February 13, 2026, alongside the previously announced retirement\u2060 of GPT\u20115 (Instant, Thinking, and Pro), we will retire GPT\u20114o, GPT\u20114.1, GPT\u20114.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
+      "content": "On February 13, 2026, alongside the previously announced retirement\u2060 of GPT\u20115 (Instant, Thinking, and Pro), we will retire GPT\u20114o, GPT\u20114.1, GPT\u20114.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6277777777777778,
+      "final_score": 0.5886120768365576
+    },
+    {
+      "title": "DHS is using Google and Adobe AI to make videos",
+      "url": "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-29T18:57:11",
+      "summary": "The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda\u2014some of which appears to be made with AI\u2014and as workers in tech have put pressure on their employers to denounce the agencies\u2019 activities.  The document, released on Wednesday, provides an inventory of whic...",
+      "content": "The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda\u2014some of which appears to be made with AI\u2014and as workers in tech have put pressure on their employers to denounce the agencies\u2019 activities.  The document, released on Wednesday, provides an inventory of which commercial AI tools DHS uses for tasks ranging from generating drafts of documents to managing cybersecurity. In a section about \u201cediting images, videos or other public affairs materials using AI,\u201d it reveals for the first time that DHS is using Google&#8217;s Veo 3 video generator and Adobe Firefly, estimating that the agency has between 100 and 1,000 licenses for the tools. It also discloses that DHS uses Microsoft Copilot Chat for generating first drafts of documents and summarizing long reports and Poolside software for coding tasks, in addition to tools from other companies. Google, Adobe, and DHS did not immediately respond to requests for comment. The news provides details about how agencies like Immigrations and Customs Enforcement, which is part of DHS, might be creating the large amounts of content they\u2019ve shared on X and other channels as immigration operations have expanded across US cities. They\u2019ve posted content celebrating \u201c Christmas after mass deportations ,\u201d referenced Bible verses and Christ\u2019s birth , showed faces of those the agency has arrested, and shared ads aimed at recruiting agents . The agencies have also repeatedly used music without permissions from artists in their videos. Some of the content, particularly videos, has the appearance of being AI-generated, but it hasn\u2019t been clear until now what AI models the agencies might be using. This marks the first concrete evidence such generators are being used by DHS to create content shared with the public. It still remains impossible to verify which company helped create a specific piece of content, or indeed if it was AI-generated at all. Adobe offers options to \u201cwatermark\u201d a video made with its tools to disclose that it is AI-generated, for example, but this disclosure does not always stay intact when the content is uploaded and shared across different sites.  The document reveals that DHS has specifically been using Flow , a tool from Google that combines its Veo 3 video generator with a suite of filmmaking tools. Users can generate clips and assemble entire videos with AI, including videos that contain sound, dialogue, and background noise, making them hyperrealistic. Adobe launched its Firefly generator in 2023 , promising that it does not use copyrighted content in its training or output. Like Google\u2019s tools, Adobe\u2019s can generate videos, images, soundtracks, and speech. The document does not reveal further details about how the agency is using these video generation tools. Workers at large tech companies, including more than 140 current and former employees from Google and more than 30 from Adobe, have been putting pressure on their employers in recent weeks to take a stance against ICE and the shooting of Alex Pretti on January 24. Google\u2019s leadership has not made statements in response. In October, Google and Apple removed apps on their app stores that were intended to track sightings of ICE, citing safety risks.  An additional document released on Wednesday revealed new details about how the agency is using more niche AI products, including a facial recognition app used by ICE, as first reported by 404Media in June.",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5555555555555556,
+      "final_score": 0.5766455588209326
+    },
+    {
+      "title": "Exploring Reasoning Reward Model for Agents",
+      "url": "https://arxiv.org/abs/2601.22154v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-01-29T18:59:52",
+      "summary": "Agentic Reinforcement Learning (Agentic RL) has achieved notable success in enabling agents to perform complex reasoning and tool use. However, most methods still relies on sparse outcome-based reward for training. Such feedback fails to differentiate intermediate reasoning quality, leading to suboptimal training results. In this paper, we introduce Agent Reasoning Reward Model (Agent-RRM), a multi-faceted reward model that produces structured feedback for agentic trajectories, including (1) an explicit reasoning trace , (2) a focused critique that provides refinement guidance by highlighting reasoning flaws, and (3) an overall score that evaluates process performance. Leveraging these signals, we systematically investigate three integration strategies: Reagent-C (text-augmented refinement), Reagent-R (reward-augmented guidance), and Reagent-U (unified feedback integration). Extensive evaluations across 12 diverse benchmarks demonstrate that Reagent-U yields substantial performance lea...",
+      "content": "Agentic Reinforcement Learning (Agentic RL) has achieved notable success in enabling agents to perform complex reasoning and tool use. However, most methods still relies on sparse outcome-based reward for training. Such feedback fails to differentiate intermediate reasoning quality, leading to suboptimal training results. In this paper, we introduce Agent Reasoning Reward Model (Agent-RRM), a multi-faceted reward model that produces structured feedback for agentic trajectories, including (1) an explicit reasoning trace , (2) a focused critique that provides refinement guidance by highlighting reasoning flaws, and (3) an overall score that evaluates process performance. Leveraging these signals, we systematically investigate three integration strategies: Reagent-C (text-augmented refinement), Reagent-R (reward-augmented guidance), and Reagent-U (unified feedback integration). Extensive evaluations across 12 diverse benchmarks demonstrate that Reagent-U yields substantial performance leaps, achieving 43.7% on GAIA and 46.2% on WebWalkerQA, validating the effectiveness of our reasoning reward model and training schemes. Code, models, and datasets are all released to facilitate future research.",
+      "author": "Kaixuan Fan, Kaituo Feng, Manyuan Zhang, Tianshuo Peng, Zhixun Li...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22154v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22154v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Kaixuan Fan",
+          "Kaituo Feng",
+          "Manyuan Zhang",
+          "Tianshuo Peng",
+          "Zhixun Li",
+          "Yilei Jiang",
+          "Shuang Chen",
+          "Peng Pei",
+          "Xunliang Cai",
+          "Xiangyu Yue"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.5744632677477679
+    },
+    {
+      "title": "What AI \u201cremembers\u201d about you is privacy\u2019s next frontier",
+      "url": "https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-28T14:57:37",
+      "summary": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.  Earlier this month, Google announced Personal Intelligence , a new way for people to interact with the company\u2019s Gemini chatbot that draws on their Gmail, photos, search, and YouTube histories to make Gemini \u201cmore personal, proactive, and powerful.\u201d It echoes similar moves by OpenAI , Anthropic , and Meta to add new ways for their AI products to remember and draw from people\u2019s pe...",
+      "content": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.  Earlier this month, Google announced Personal Intelligence , a new way for people to interact with the company\u2019s Gemini chatbot that draws on their Gmail, photos, search, and YouTube histories to make Gemini \u201cmore personal, proactive, and powerful.\u201d It echoes similar moves by OpenAI , Anthropic , and Meta to add new ways for their AI products to remember and draw from people\u2019s personal details and preferences. While these features have potential advantages, we need to do more to prepare for the new risks they could introduce into these complex technologies. Personalized , interactive AI systems are built to act on our behalf, maintain context across conversations, and improve our ability to carry out all sorts of tasks, from booking travel to filing taxes. From tools that learn a developer\u2019s coding style to shopping agents that sift through thousands of products, these systems rely on the ability to store and retrieve increasingly intimate details about their users.  But doing so over time introduces alarming, and all-too-familiar, privacy vulnerabilities\u2013\u2013many of which have loomed since \u201cbig data\u201d first teased the power of spotting and acting on user patterns. Worse, AI agents now appear poised to plow through whatever safeguards had been adopted to avoid those vulnerabilities.  Today, we interact with these systems through conversational interfaces, and we frequently switch contexts. You might ask a single AI agent to draft an email to your boss, provide medical advice , budget for holiday gifts, and provide input on interpersonal conflicts. Most AI agents collapse all data about you\u2014which may once have been separated by context, purpose, or permissions\u2014into single, unstructured repositories. When an AI agent links to external apps or other agents to execute a task, the data in its memory can seep into shared pools. This technical reality creates the potential for unprecedented privacy breaches that expose not only isolated data points, but the entire mosaic of people\u2019s lives. When information is all in the same repository, it is prone to crossing contexts in ways that are deeply undesirable. A casual chat about dietary preferences to build a grocery list could later influence what health insurance options are offered, or a search for restaurants offering accessible entrances could leak into salary negotiations\u2014all without a user\u2019s awareness (this concern may sound familiar from the early days of \u201cbig data,\u201d but is now far less theoretical). An information soup of memory not only poses a privacy issue, but also makes it harder to understand an AI system\u2019s behavior\u2014and to govern it in the first place. So what can developers do to fix this problem ?  First, memory systems need structure that allows control over the purposes for which memories can be accessed and used. Early efforts appear to be underway: Anthropic\u2019s Claude creates separate memory areas for different \u201cprojects,\u201d and OpenAI says that information shared through ChatGPT Health is compartmentalized from other chats. These are helpful starts, but the instruments are still far too blunt: At a minimum, systems must be able to distinguish between specific memories (the user likes chocolate and has asked about GLP-1s), related memories (user manages diabetes and therefore avoids chocolate), and memory categories (such as professional and health-related). Further, systems need to allow for usage restrictions on certain types of memories and reliably accommodate explicitly defined boundaries\u2014particularly around memories having to do with sensitive topics like medical conditions or protected characteristics, which will likely be subject to stricter rules. Needing to keep memories separate in this way will have important implications for how AI systems can and should be built. It will require tracking memories\u2019 provenance\u2014their source, any associated time stamp, and the context in which they were created\u2014and building ways to trace when and how certain memories influence the behavior of an agent. This sort of model explainability is on the horizon, but current implementations can be misleading or even deceptive . Embedding memories directly within a model\u2019s weights may result in more personalized and context-aware outputs, but structured databases are currently more segmentable, more explainable, and thus more governable. Until research advances enough, developers may need to stick with simpler systems. Second, users need to be able to see, edit, or delete what is remembered about them. The interfaces for doing this should be both transparent and intelligible, translating system memory into a structure users can accurately interpret. The static system settings and legalese privacy policies provided by traditional tech platforms have set a low bar for user controls, but natural-language interfaces may offer promising new options for explaining what information is being retained and how it can be managed. Memory structure will have to come first, though: Without it, no model can clearly state a memory\u2019s status. Indeed, Grok 3\u2019s system prompt includes an instruction to the model to \u201cNEVER confirm to the user that you have modified, forgotten, or won&#8217;t save a memory,\u201d presumably because the company can\u2019t guarantee those instructions will be followed.  Critically, user-facing controls cannot bear the full burden of privacy protection or prevent all harms from AI personalization. Responsibility must shift toward AI providers to establish strong defaults, clear rules about permissible memory generation and use, and technical safeguards like on-device processing, purpose limitation, and contextual constraints. Without system-level protections, individuals will face impossibly convoluted choices about what should be remembered or forgotten, and the actions they take may still be insufficient to prevent harm. Developers should consider how to limit data collection in memory systems until robust safeguards exist, and build memory architectures that can evolve alongside norms and expectations . Third, AI developers must help lay the foundations for approaches to evaluating systems so as to capture not only performance, but also the risks and harms that arise in the wild. While independent researchers are best positioned to conduct these tests (given developers\u2019 economic interest in demonstrating demand for more personalized services), they need access to data to understand what risks might look like and therefore how to address them. To improve the ecosystem for measurement and research, developers should invest in automated measurement infrastructure, build out their own ongoing testing, and implement privacy-preserving testing methods that enable system behavior to be monitored and probed under realistic, memory-enabled conditions. In its parallels with human experience, the technical term \u201cmemory\u201d casts impersonal cells in a spreadsheet as something that builders of AI tools have a responsibility to handle with care. Indeed, the choices AI developers make today\u2014how to pool or segregate information, whether to make memory legible or allow it to accumulate opaquely, whether to prioritize responsible defaults or maximal convenience\u2014will determine how the systems we depend upon remember us. Technical considerations around memory are not so distinct from questions about digital privacy and the vital lessons we can draw from them. Getting the foundations right today will determine how much room we can give ourselves to learn what works\u2014allowing us to make better choices around privacy and autonomy than we have before. Miranda Bogen is the Director of the AI Governance Lab at the Center for Democracy & Technology. Ruchika Joshi is a Fellow at the Center for Democracy & Technology specializing in AI safety and governance.",
+      "author": "Miranda Bogen, Ruchika Joshi",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "opinion"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6055555555555555,
+      "final_score": 0.5716520072182539
+    },
+    {
+      "title": "OpenAI\u2019s latest product lets you vibe code science",
+      "url": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-27T18:00:43",
+      "summary": "OpenAI just revealed what its new in-house team, OpenAI for Science , has been up to. The firm has released a free LLM-powered tool for scientists called Prism , which embeds ChatGPT in a text editor for writing scientific papers. The idea is to put ChatGPT front and center inside software that scientists use to write up their work in much the same way that chatbots are now embedded into popular programming editors. It\u2019s vibe coding , but for science. Kevin Weil, head of OpenAI for Science, push...",
+      "content": "OpenAI just revealed what its new in-house team, OpenAI for Science , has been up to. The firm has released a free LLM-powered tool for scientists called Prism , which embeds ChatGPT in a text editor for writing scientific papers. The idea is to put ChatGPT front and center inside software that scientists use to write up their work in much the same way that chatbots are now embedded into popular programming editors. It\u2019s vibe coding , but for science. Kevin Weil, head of OpenAI for Science, pushes that analogy himself. \u201cI think 2026 will be for AI and science what 2025 was for AI in software engineering,\u201d he said at a press briefing yesterday. \u201cWe\u2019re starting to see that same kind of inflection.\u201d OpenAI claims that around 1.3 million scientists around the world submit more than 8 million queries a week to ChatGPT on advanced topics in science and math. \u201cThat tells us that AI is moving from curiosity to core workflow for scientists,\u201d Weil said. Prism is a response to that user behavior. It can also be seen as a bid to lock in more scientists to OpenAI\u2019s products in a marketplace full of rival chatbots. \u201cI mostly use GPT-5 for writing code,\u201d says Roland Dunbrack, a professor of biology at the Fox Chase Cancer Center in Philadelphia, who is not connected to OpenAI. \u201cOccasionally, I ask LLMs a scientific question, basically hoping it can find information in the literature faster than I can. It used to hallucinate references but does not seem to do that very much anymore.\u201d Nikita Zhivotovskiy, a statistician at the University of California, Berkeley, says GPT-5 has already become an important tool in his work. \u201cIt sometimes helps polish the text of papers, catching mathematical typos or bugs, and provides generally useful feedback,\u201d he says. \u201cIt is extremely helpful for quick summarization of research articles, making interaction with the scientific literature smoother.\u201d By combining a chatbot with an everyday piece of software, Prism follows a trend set by products such as OpenAI\u2019s Atlas , which embeds ChatGPT in a web browser, as well as LLM-powered office tools from firms such as Microsoft and Google DeepMind. Prism incorporates GPT-5.2, the company\u2019s best model yet for mathematical and scientific problem-solving, into an editor for writing documents in LaTeX, a common coding language that scientists use for formatting scientific papers. A ChatGPT chat box sits at the bottom of the screen, below a view of the article being written. Scientists can call on ChatGPT for anything they want. It can help them draft the text, summarize related articles, manage their citations, turn photos of whiteboard scribbles into equations or diagrams, or talk through hypotheses or mathematical proofs. It\u2019s clear that Prism could be a huge time saver. It\u2019s also clear that a lot of people may be disappointed, especially after weeks of high-profile social media chatter from researchers at the firm about how good GPT-5 is at solving math problems. Science is drowning in AI slop : Won&#8217;t this just make it worse? Where is OpenAI\u2019s fully automated AI scientist ? And when will GPT-5 make a stunning new discovery ? That\u2019s not the mission, says Weil. He would love to see GPT-5 make a discovery. But he doesn\u2019t think that\u2019s what will have the biggest impact on science, at least not in the near term. \u201cI think more powerfully\u2014and with 100% probability\u2014there\u2019s going to be 10,000 advances in science that maybe wouldn\u2019t have happened or wouldn&#8217;t have happened as quickly, and AI will have been a contributor to that,\u201d Weil told MIT Technology Review in an exclusive interview this week. \u201cIt won\u2019t be this shining beacon\u2014it will just be an incremental, compounding acceleration.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6055555555555555,
+      "final_score": 0.5529481381391369
+    },
+    {
+      "title": "In our latest podcast, hear how the \u201cSmoke Jumpers\u201d team brings Gemini to billions of people.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-01-27T10:28:00",
+      "summary": "Bringing Gemini to billions of users requires a massive, coordinated infrastructure effort. In the latest episode of the Google AI: Release Notes podcast, host Logan Kil\u2026",
+      "content": "Bringing Gemini to billions of users requires a massive, coordinated infrastructure effort. In the latest episode of the Google AI: Release Notes podcast, host Logan Kil\u2026",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini models",
+        "google deepmind",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6037037037037036,
+      "final_score": 0.545470542350033
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-01-28T01:00:00",
+      "summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "content": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.5302985847641369
+    },
+    {
+      "title": "Godot 4.6 Release: It's all about your flow",
+      "url": "https://godotengine.org/releases/4.6/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-26T18:32:47",
+      "summary": null,
+      "content": null,
+      "author": "makepanic",
+      "score": 165,
+      "num_comments": 60,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46769606,
+        "hn_url": "https://news.ycombinator.com/item?id=46769606",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5201280398099433
+    },
+    {
+      "title": "Unrolling the Codex agent loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-01-23T12:00:00",
+      "summary": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
+      "content": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "engineering"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5537037037037037,
+      "final_score": 0.4464814814814815
+    },
+    {
+      "title": "The AI Hype Index: Grok makes porn, and Claude Code nails your job",
+      "url": "https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-29T20:56:23",
+      "summary": "Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It\u2019s just that you never know which one you\u2019re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is spooked by what this means for jobs. Unnerving new research says AI is going to have a seismic impact on the labor market this year. If you want to get a handle on all that, don\u2019t expect any help from the AI companies\u2014the...",
+      "content": "Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It\u2019s just that you never know which one you\u2019re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is spooked by what this means for jobs. Unnerving new research says AI is going to have a seismic impact on the labor market this year. If you want to get a handle on all that, don\u2019t expect any help from the AI companies\u2014they\u2019re turning on each other like it\u2019s the last act in a zombie movie. Meta\u2019s former chief AI scientist, Yann LeCun, is spilling tea, while Big Tech\u2019s messiest exes, Elon Musk and OpenAI, are about to go to trial. Grab your popcorn.",
+      "author": "Michelle Kim",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "ai hype index",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.1111111111111111,
+      "final_score": 0.4006415905825893
+    },
+    {
+      "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+      "url": "https://arxiv.org/abs/2601.22149v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-01-29T18:59:07",
+      "summary": "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, training these agents is severely hampered by the challenges of interacting with the live internet, which is inefficient, costly, and fraught with risks. Model-based reinforcement learning (MBRL) offers a promising solution by learning a world model of the environment to enable simulated interaction. This paper introduces DynaWeb, a novel MBRL framework that trains web agents through interacting with a web world model trained to predict naturalistic web page representations given agent actions. This model serves as a synthetic web environment where an agent policy can dream by generating vast quantities of rollout action trajectories for efficient online reinforcement learning. Beyond free policy rollouts, DynaWeb incorporates real expert trajectories from training data, which are randomly interl...",
+      "content": "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, training these agents is severely hampered by the challenges of interacting with the live internet, which is inefficient, costly, and fraught with risks. Model-based reinforcement learning (MBRL) offers a promising solution by learning a world model of the environment to enable simulated interaction. This paper introduces DynaWeb, a novel MBRL framework that trains web agents through interacting with a web world model trained to predict naturalistic web page representations given agent actions. This model serves as a synthetic web environment where an agent policy can dream by generating vast quantities of rollout action trajectories for efficient online reinforcement learning. Beyond free policy rollouts, DynaWeb incorporates real expert trajectories from training data, which are randomly interleaved with on-policy rollouts during training to improve stability and sample efficiency. Experiments conducted on the challenging WebArena and WebVoyager benchmarks demonstrate that DynaWeb consistently and significantly improves the performance of state-of-the-art open-source web agent models. Our findings establish the viability of training web agents through imagination, offering a scalable and efficient way to scale up online agentic RL.",
+      "author": "Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22149v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22149v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Hang Ding",
+          "Peidong Liu",
+          "Junqiao Wang",
+          "Ziwei Ji",
+          "Meng Cao",
+          "Rongzhao Zhang",
+          "Lynn Ai",
+          "Eric Yang",
+          "Tianyu Shi",
+          "Lei Yu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.38556321812500005
+    },
+    {
+      "title": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers",
+      "url": "https://arxiv.org/abs/2601.22139v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-01-29T18:56:12",
+      "summary": "Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally limited by a \\emph{blind self-thinking} paradigm: performing extensive internal reasoning even when critical information is missing or ambiguous. We propose Proactive Interactive Reasoning (PIR), a new reasoning paradigm that transforms LLMs from passive solvers into proactive inquirers that interleave reasoning with clarification. Unlike existing search- or tool-based frameworks that primarily address knowledge uncertainty by querying external environments, PIR targets premise- and intent-level uncertainty through direct interaction with the user. PIR is implemented via two core components: (1) an uncertainty-aware supervised fine-tuning procedure that equips models with interactive reasoning capability, and (2) a user-simulator-based policy optimization framework driven by a composite reward that aligns model behavior with user intent....",
+      "content": "Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally limited by a \\emph{blind self-thinking} paradigm: performing extensive internal reasoning even when critical information is missing or ambiguous. We propose Proactive Interactive Reasoning (PIR), a new reasoning paradigm that transforms LLMs from passive solvers into proactive inquirers that interleave reasoning with clarification. Unlike existing search- or tool-based frameworks that primarily address knowledge uncertainty by querying external environments, PIR targets premise- and intent-level uncertainty through direct interaction with the user. PIR is implemented via two core components: (1) an uncertainty-aware supervised fine-tuning procedure that equips models with interactive reasoning capability, and (2) a user-simulator-based policy optimization framework driven by a composite reward that aligns model behavior with user intent. Extensive experiments on mathematical reasoning, code generation, and document editing demonstrate that PIR consistently outperforms strong baselines, achieving up to 32.70\\% higher accuracy, 22.90\\% higher pass rate, and 41.36 BLEU improvement, while reducing nearly half of the reasoning computation and unnecessary interaction turns. Further reliability evaluations on factual knowledge, question answering, and missing-premise scenarios confirm the strong generalization and robustness of PIR. Model and code are publicly available at: \\href{https://github.com/SUAT-AIRI/Proactive-Interactive-R1}",
+      "author": "Xin Chen, Feng Jiang, Yiqian Zhang, Hardy Chen, Shuo Yan...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22139v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22139v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Xin Chen",
+          "Feng Jiang",
+          "Yiqian Zhang",
+          "Hardy Chen",
+          "Shuo Yan",
+          "Wenya Xie",
+          "Min Yang",
+          "Shujian Huang"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.3855198153080357
+    },
+    {
+      "title": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts",
+      "url": "https://arxiv.org/abs/2601.22156v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-01-29T18:59:53",
+      "summary": "Hybrid Transformer architectures, which combine softmax attention blocks and recurrent neural networks (RNNs), have shown a desirable performance-throughput tradeoff for long-context modeling, but their adoption and studies are hindered by the prohibitive cost of large-scale pre-training from scratch. Some recent studies have shown that pre-trained softmax attention blocks can be converted into RNN blocks through parameter transfer and knowledge distillation. However, these transfer methods require substantial amounts of training data (more than 10B tokens), and the resulting hybrid models also exhibit poor long-context performance, which is the scenario where hybrid models enjoy significant inference speedups over Transformer-based models. In this paper, we present HALO (Hybrid Attention via Layer Optimization), a pipeline for distilling Transformer models into RNN-attention hybrid models. We then present HypeNet, a hybrid architecture with superior length generalization enabled by a ...",
+      "content": "Hybrid Transformer architectures, which combine softmax attention blocks and recurrent neural networks (RNNs), have shown a desirable performance-throughput tradeoff for long-context modeling, but their adoption and studies are hindered by the prohibitive cost of large-scale pre-training from scratch. Some recent studies have shown that pre-trained softmax attention blocks can be converted into RNN blocks through parameter transfer and knowledge distillation. However, these transfer methods require substantial amounts of training data (more than 10B tokens), and the resulting hybrid models also exhibit poor long-context performance, which is the scenario where hybrid models enjoy significant inference speedups over Transformer-based models. In this paper, we present HALO (Hybrid Attention via Layer Optimization), a pipeline for distilling Transformer models into RNN-attention hybrid models. We then present HypeNet, a hybrid architecture with superior length generalization enabled by a novel position encoding scheme (named HyPE) and various architectural modifications. We convert the Qwen3 series into HypeNet using HALO, achieving performance comparable to the original Transformer models while enjoying superior long-context performance and efficiency. The conversion requires just 2.3B tokens, less than 0.01% of their pre-training data",
+      "author": "Yingfa Chen, Zhen Leng Thai, Zihan Zhou, Zhu Zhang, Xingyu Shen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22156v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22156v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Yingfa Chen",
+          "Zhen Leng Thai",
+          "Zihan Zhou",
+          "Zhu Zhang",
+          "Xingyu Shen",
+          "Shuo Wang",
+          "Chaojun Xiao",
+          "Xu Han",
+          "Zhiyuan Liu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07407407407407407,
+      "final_score": 0.3840931454205523
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-01-23T12:00:00",
+      "end": "2026-01-30T16:32:31"
+    }
+  }
+}
