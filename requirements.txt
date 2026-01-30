@@ -1,0 +1,32 @@
+# Weekly Newsletter Builder Dependencies
+# ======================================
+
+# HTTP requests
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Data processing
+pyyaml>=6.0
+python-dateutil>=2.8.2
+
+# RSS/Atom feed parsing
+feedparser>=6.0.10
+
+# XML parsing (for ArXiv)
+lxml>=5.0.0
+
+# Text processing
+beautifulsoup4>=4.12.0
+
+# Similarity detection for deduplication
+scikit-learn>=1.3.0
+
+# Async support
+asyncio-throttle>=1.0.2
+
+# CLI interface
+click>=8.1.0
+rich>=13.0.0
+
+# Environment variables
+python-dotenv>=1.0.0

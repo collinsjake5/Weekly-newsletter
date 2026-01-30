@@ -1,0 +1,129 @@
+# Weekly Newsletter Builder Configuration
+# ========================================
+
+# Newsletter definitions
+newsletters:
+  ai:
+    name: "AI Weekly Digest"
+    description: "Weekly roundup of artificial intelligence news, research, and discussions"
+    topics:
+      - "artificial intelligence"
+      - "machine learning"
+      - "large language models"
+      - "LLM"
+      - "GPT"
+      - "Claude"
+      - "deep learning"
+      - "neural networks"
+      - "AI safety"
+      - "generative AI"
+
+    sources:
+      reddit:
+        - "MachineLearning"
+        - "artificial"
+        - "LocalLLaMA"
+        - "singularity"
+        - "ChatGPT"
+        - "ClaudeAI"
+      hackernews:
+        enabled: true
+        min_score: 50
+      arxiv:
+        categories:
+          - "cs.AI"
+          - "cs.LG"
+          - "cs.CL"
+        max_results: 20
+      rss:
+        - name: "OpenAI Blog"
+          url: "https://openai.com/blog/rss.xml"
+        - name: "Anthropic Blog"
+          url: "https://www.anthropic.com/rss.xml"
+        - name: "Google AI Blog"
+          url: "https://blog.google/technology/ai/rss/"
+        - name: "MIT Technology Review AI"
+          url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+        - name: "The Batch"
+          url: "https://www.deeplearning.ai/the-batch/feed/"
+
+  robotics:
+    name: "Robotics Weekly Digest"
+    description: "Weekly roundup of robotics news, research, and innovations"
+    topics:
+      - "robotics"
+      - "robot"
+      - "autonomous systems"
+      - "humanoid robot"
+      - "Boston Dynamics"
+      - "Figure AI"
+      - "Tesla Optimus"
+      - "robotic manipulation"
+      - "legged robots"
+      - "drone"
+      - "UAV"
+
+    sources:
+      reddit:
+        - "robotics"
+        - "Automate"
+        - "drones"
+        - "SelfDrivingCars"
+        - "BostonDynamics"
+      hackernews:
+        enabled: true
+        min_score: 30
+      arxiv:
+        categories:
+          - "cs.RO"
+        max_results: 15
+      rss:
+        - name: "IEEE Spectrum Robotics"
+          url: "https://spectrum.ieee.org/feeds/topic/robotics.rss"
+        - name: "The Robot Report"
+          url: "https://www.therobotreport.com/feed/"
+        - name: "Robohub"
+          url: "https://robohub.org/feed/"
+
+# Collection settings
+collection:
+  # Number of days to look back (7 = weekly)
+  lookback_days: 7
+
+  # Maximum items per source before filtering
+  max_items_per_source: 50
+
+  # Minimum engagement score to include
+  min_engagement_score: 10
+
+# Scoring weights
+scoring:
+  # How much to weight recency (newer = higher score)
+  recency_weight: 0.3
+
+  # How much to weight engagement (upvotes, comments)
+  engagement_weight: 0.4
+
+  # How much to weight relevance to topics
+  relevance_weight: 0.3
+
+# Output settings
+output:
+  # Output directory for generated newsletters
+  directory: "output"
+
+  # Formats to generate
+  formats:
+    - "markdown"
+    - "json"
+
+  # Maximum items in final newsletter
+  max_items: 25
+
+  # Include full summaries or just headlines
+  include_summaries: true
+
+# Web search settings (for trending topics)
+websearch:
+  enabled: true
+  queries_per_newsletter: 3
