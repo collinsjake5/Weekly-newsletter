@@ -1,0 +1,148 @@
+# Newsletter Content Guidelines
+# ==============================
+# Add examples of content that's a perfect fit for each newsletter.
+# The system will use these to better score and filter incoming content.
+#
+# How to use:
+# 1. When you see an article that's exactly what you want, add it below
+# 2. Include the title and a brief note on WHY it's a good fit
+# 3. The system will learn from these patterns
+#
+# You can also add examples of content to EXCLUDE (things that slip through
+# but shouldn't be included)
+
+ai:
+  # Examples of GOOD content - exactly what we want
+  good_examples:
+    - title: "OpenAI announces GPT-5 release date"
+      why: "Major product announcement from key AI company"
+    - title: "Claude 3.5 Sonnet benchmarks show 40% improvement"
+      why: "Significant technical advancement with measurable results"
+    - title: "Google DeepMind publishes new reasoning research"
+      why: "Research breakthrough from major lab"
+    # Add your examples here as you find them:
+    # - title: "Example article title"
+    #   why: "Why this is relevant"
+
+  # Examples of BAD content - should be filtered out
+  bad_examples:
+    - title: "I just cancelled my subscription"
+      why: "Personal opinion/rant, not industry news"
+    - title: "Funny meme about ChatGPT"
+      why: "Entertainment, not substantive content"
+    # Add examples of content that slipped through but shouldn't have:
+    # - title: "Example bad article"
+    #   why: "Why this should be excluded"
+
+  # Keywords that strongly indicate GOOD content
+  priority_keywords:
+    - "breakthrough"
+    - "announces"
+    - "launches"
+    - "research paper"
+    - "benchmark"
+    - "open source"
+    - "API"
+    - "release"
+
+  # Keywords that indicate content should be EXCLUDED
+  exclude_keywords:
+    - "meme"
+    - "funny"
+    - "cancelled my subscription"
+    - "rant"
+    - "unpopular opinion"
+
+robotics:
+  # Examples of GOOD content
+  good_examples:
+    - title: "Figure AI demonstrates new warehouse picking capability"
+      why: "Real-world application of humanoid robotics in manufacturing"
+    - title: "Boston Dynamics Atlas now handles irregular objects"
+      why: "Technical advancement in manipulation"
+    - title: "Amazon deploys 10,000 new warehouse robots"
+      why: "Major deployment news with scale"
+    - title: "1X Technologies ships first NEO humanoids to factories"
+      why: "Commercial deployment of humanoid robots"
+    - title: "Unitree G1 humanoid robot production exceeds 5,000 units"
+      why: "Manufacturing scale milestone"
+    - title: "Locus Robotics reaches 6 billion picks milestone"
+      why: "Warehouse automation success metric"
+    - title: "FANUC introduces new collaborative robot line"
+      why: "Major industrial robotics product launch"
+    - title: "Vecna Robotics raises $100M for warehouse automation"
+      why: "Significant funding for AMR company"
+    # Add your examples here:
+    # - title: "Example article title"
+    #   why: "Why this is relevant"
+
+  # Examples of BAD content
+  bad_examples:
+    - title: "Apple takes 30% cut from Patreon"
+      why: "Completely unrelated to robotics/manufacturing"
+    - title: "Vitamin D effects on depression"
+      why: "Health news, not robotics"
+    - title: "Best robot toys for kids 2026"
+      why: "Consumer toys, not industrial robotics"
+    # Add examples of content that slipped through:
+    # - title: "Example bad article"
+    #   why: "Why this should be excluded"
+
+  # Keywords that strongly indicate GOOD content
+  priority_keywords:
+    # Deployment & Scale
+    - "deployment"
+    - "deployed"
+    - "ships"
+    - "shipments"
+    - "production"
+    - "manufacturing"
+    - "warehouse"
+    - "factory"
+    - "facility"
+    - "production line"
+    # Technology
+    - "automation"
+    - "cobot"
+    - "collaborative robot"
+    - "industrial robot"
+    - "humanoid"
+    - "AMR"
+    - "AGV"
+    - "vision system"
+    - "vSLAM"
+    - "bin picking"
+    # Companies
+    - "Figure AI"
+    - "Boston Dynamics"
+    - "1X Technologies"
+    - "Unitree"
+    - "Agility Robotics"
+    - "Locus Robotics"
+    - "Vecna Robotics"
+    - "FANUC"
+    - "Universal Robots"
+    - "ABB"
+    - "KUKA"
+    # Business
+    - "funding"
+    - "raises"
+    - "partnership"
+    - "acquisition"
+    - "milestone"
+    - "record"
+
+  # Keywords that indicate content should be EXCLUDED
+  exclude_keywords:
+    - "toy robot"
+    - "robot vacuum"
+    - "roomba"
+    - "hobby"
+    - "DIY robot"
+    - "robot kit for kids"
+    - "entertainment robot"
+    - "robot dog pet"
+    - "patreon"
+    - "vitamin"
+    - "antidepressant"
+    - "cancelled my subscription"

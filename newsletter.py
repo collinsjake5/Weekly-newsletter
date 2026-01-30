@@ -177,7 +177,9 @@ class NewsletterOrchestrator:
             recency_weight=self.config.get('scoring', {}).get('recency_weight', 0.3),
             engagement_weight=self.config.get('scoring', {}).get('engagement_weight', 0.4),
             relevance_weight=self.config.get('scoring', {}).get('relevance_weight', 0.3),
-            lookback_days=self.lookback_days
+            lookback_days=self.lookback_days,
+            newsletter_type=newsletter_type,
+            guidelines_path=str(self.config_path.parent / "guidelines.yaml")
         )
         scored_items = scorer.score_items(all_items)
         print(f"   Scored {len(scored_items)} items")
@@ -187,10 +189,14 @@ class NewsletterOrchestrator:
         unique_items = self.deduplicator.deduplicate(scored_items)
         print(f"   {len(unique_items)} unique items (removed {len(scored_items) - len(unique_items)} duplicates)")
 
-        # Stage 4: Filter and limit
+        # Stage 4: Filter by relevance and limit
         print("\n🎯 Stage 4: Filtering top items...")
-        max_items = self.config.get('output', {}).get('max_items', 25)
-        top_items = scorer.get_top_items(unique_items, n=max_items, ensure_diversity=True)
+        min_relevance = self.config.get('scoring', {}).get('min_relevance_score', 0.05)
+        filtered_items = scorer.filter_by_score(unique_items, min_relevance_score=min_relevance)
+        print(f"   {len(filtered_items)} items passed relevance filter (removed {len(unique_items) - len(filtered_items)} off-topic)")
+
+        max_items = self.config.get('output', {}).get('max_items', 20)
+        top_items = scorer.get_top_items(filtered_items, n=max_items, ensure_diversity=True)
         print(f"   Selected top {len(top_items)} items")
 
         # Stage 5: Generate output

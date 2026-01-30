@@ -110,7 +110,7 @@ newsletters:
     name: "Manufacturing Robotics Weekly"
     description: "Weekly roundup of manufacturing robotics: humanoids, AMRs, AGVs, cobots, robotic arms, and industrial automation"
     topics:
-      # Humanoid Robots
+      # Humanoid Robots - Companies
       - "humanoid robot"
       - "humanoid"
       - "Figure AI"
@@ -118,13 +118,19 @@ newsletters:
       - "Figure 02"
       - "Tesla Optimus"
       - "Optimus robot"
+      - "Boston Dynamics"
       - "Boston Dynamics Atlas"
       - "Agility Robotics"
       - "Digit robot"
       - "Apptronik"
       - "1X Technologies"
+      - "1X NEO"
+      - "NEO robot"
       - "Sanctuary AI"
       - "Fourier Intelligence"
+      - "Unitree"
+      - "Unitree G1"
+      - "Unitree H1"
 
       # Mobile Robots (AMR/AGV)
       - "AMR"
@@ -140,6 +146,7 @@ newsletters:
       - "mobile industrial robots"
       - "Kiva"
       - "Amazon robotics"
+      - "Vecna Robotics"
 
       # Industrial Arms & Cobots
       - "robotic arm"
@@ -156,6 +163,18 @@ newsletters:
       - "palletizing"
       - "welding robot"
       - "assembly robot"
+
+      # Vision Systems
+      - "machine vision"
+      - "robot vision"
+      - "visual inspection"
+      - "defect detection"
+      - "quality control robot"
+      - "visual SLAM"
+      - "vSLAM"
+      - "3D vision"
+      - "computer vision manufacturing"
+      - "vision guided robot"
 
       # Drones & Aerial
       - "industrial drone"
@@ -176,13 +195,6 @@ newsletters:
       - "bin picking"
       - "machine tending"
 
-      # Vision & AI for Manufacturing
-      - "machine vision"
-      - "robot vision"
-      - "visual inspection"
-      - "defect detection"
-      - "quality control robot"
-
     sources:
       reddit:
         - "robotics"
@@ -195,6 +207,7 @@ newsletters:
         - "warehouseworkers"
         - "supplychain"
         - "automation"
+        - "Unitree"
       hackernews:
         enabled: true
         min_score: 25
@@ -204,22 +217,40 @@ newsletters:
           - "cs.SY"  # Systems and Control
         max_results: 20
       rss:
+        # Industry News
         - name: "IEEE Spectrum Robotics"
           url: "https://spectrum.ieee.org/feeds/topic/robotics.rss"
         - name: "The Robot Report"
           url: "https://www.therobotreport.com/feed/"
         - name: "Robohub"
           url: "https://robohub.org/feed/"
-        - name: "Automation World"
-          url: "https://www.automationworld.com/rss.xml"
-        - name: "Modern Materials Handling"
-          url: "https://www.mmh.com/rss"
-        - name: "Robotics Business Review"
-          url: "https://www.roboticsbusinessreview.com/feed/"
-        - name: "Assembly Magazine"
-          url: "https://www.assemblymag.com/rss"
-        - name: "Material Handling & Logistics"
-          url: "https://www.mhlnews.com/rss"
+        - name: "Robotics 24/7"
+          url: "https://www.robotics247.com/rss/rss.xml"
+        - name: "Wevolver Robotics"
+          url: "https://www.wevolver.com/feed"
+        # Humanoid Companies
+        - name: "Robot Report - Figure AI"
+          url: "https://www.therobotreport.com/tag/figure-ai/feed/"
+        - name: "Robot Report - Boston Dynamics"
+          url: "https://www.therobotreport.com/tag/boston-dynamics/feed/"
+        - name: "Robot Report - 1X Technologies"
+          url: "https://www.therobotreport.com/tag/1x-technologies/feed/"
+        - name: "Robot Report - Unitree"
+          url: "https://www.therobotreport.com/tag/unitree-robotics/feed/"
+        - name: "Robot Report - Agility Robotics"
+          url: "https://www.therobotreport.com/tag/agility-robotics/feed/"
+        # AMR/Warehouse Companies
+        - name: "Robot Report - Locus Robotics"
+          url: "https://www.therobotreport.com/tag/locus-robotics/feed/"
+        - name: "Robot Report - Vecna Robotics"
+          url: "https://www.therobotreport.com/tag/vecna-robotics/feed/"
+        # Industrial Robotics
+        - name: "Robot Report - FANUC"
+          url: "https://www.therobotreport.com/tag/fanuc/feed/"
+        - name: "Robot Report - Universal Robots"
+          url: "https://www.therobotreport.com/tag/universal-robots/feed/"
+        - name: "Robot Report - ABB"
+          url: "https://www.therobotreport.com/tag/abb/feed/"
 
 # Collection settings
 collection:
@@ -235,13 +266,18 @@ collection:
 # Scoring weights
 scoring:
   # How much to weight recency (newer = higher score)
-  recency_weight: 0.3
+  # Reduced to give older high-engagement content fair consideration
+  recency_weight: 0.15
 
   # How much to weight engagement (upvotes, comments)
-  engagement_weight: 0.4
+  engagement_weight: 0.45
 
   # How much to weight relevance to topics
-  relevance_weight: 0.3
+  # Increased to filter out off-topic content
+  relevance_weight: 0.40
+
+  # Minimum relevance score required (0-1, higher = stricter filtering)
+  min_relevance_score: 0.03
 
 # Output settings
 output:
@@ -253,8 +289,8 @@ output:
     - "markdown"
     - "json"
 
-  # Maximum items in final newsletter
-  max_items: 25
+  # Maximum items in final newsletter (quality over quantity)
+  max_items: 20
 
   # Include full summaries or just headlines
   include_summaries: true

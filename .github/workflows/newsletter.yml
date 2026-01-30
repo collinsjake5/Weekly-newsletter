@@ -1,0 +1,78 @@
+# GitHub Actions workflow to automatically generate newsletters
+# Runs every Monday at 8 AM EST (1 PM UTC)
+# Free tier: 2,000 minutes/month for private repos, unlimited for public repos
+
+name: Generate Weekly Newsletter
+
+on:
+  # Run on schedule (cron syntax, UTC time)
+  schedule:
+    - cron: '0 13 * * 1'  # Every Monday at 1 PM UTC (8 AM EST)
+
+  # Also allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  generate-newsletter:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Generate newsletters
+      - name: Generate newsletters
+        run: |
+          python newsletter.py
+
+      # 5. Upload newsletters as artifacts (downloadable from GitHub)
+      - name: Upload newsletter artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletters-${{ github.run_number }}
+          path: output/
+          retention-days: 30
+
+      # 6. Commit output files to repository (optional)
+      - name: Commit newsletter files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add output/
+          git diff --staged --quiet || git commit -m "📰 Auto-generated newsletters - $(date +'%Y-%m-%d')"
+          git push
+
+      # 7. Send email notification (optional - requires secrets setup)
+      - name: Send email notification
+        if: ${{ vars.SEND_EMAIL == 'true' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Weekly Newsletter Ready - ${{ github.run_number }}"
+          body: |
+            Your weekly newsletters have been generated!
+
+            Download them from:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Or view them directly in the repository:
+            https://github.com/${{ github.repository }}/tree/main/output
+          to: ${{ secrets.EMAIL_TO }}
+          from: ${{ secrets.EMAIL_USERNAME }}
+          attachments: output/*.html

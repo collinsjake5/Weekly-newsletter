@@ -6,7 +6,9 @@ Ranks content items by relevance, recency, and engagement.
 
 import re
 from datetime import datetime, timedelta
-from typing import List, Dict
+from pathlib import Path
+from typing import List, Dict, Optional
+import yaml
 from sources.base import ContentItem, SourceType
 
 
@@ -26,7 +28,9 @@ class ContentScorer:
         recency_weight: float = 0.3,
         engagement_weight: float = 0.4,
         relevance_weight: float = 0.3,
-        lookback_days: int = 7
+        lookback_days: int = 7,
+        newsletter_type: str = "ai",
+        guidelines_path: Optional[str] = None
     ):
         """
         Initialize scorer.
@@ -37,12 +41,18 @@ class ContentScorer:
             engagement_weight: Weight for engagement score (0-1)
             relevance_weight: Weight for relevance score (0-1)
             lookback_days: Number of days for recency calculation
+            newsletter_type: Type of newsletter (ai, robotics) for guidelines
+            guidelines_path: Path to guidelines.yaml file
         """
         self.topics = [t.lower() for t in topics]
         self.recency_weight = recency_weight
         self.engagement_weight = engagement_weight
         self.relevance_weight = relevance_weight
         self.lookback_days = lookback_days
+        self.newsletter_type = newsletter_type
+
+        # Load guidelines if available
+        self.guidelines = self._load_guidelines(guidelines_path, newsletter_type)
 
         # Normalize weights
         total = recency_weight + engagement_weight + relevance_weight
@@ -50,6 +60,22 @@ class ContentScorer:
             self.recency_weight /= total
             self.engagement_weight /= total
             self.relevance_weight /= total
+
+    def _load_guidelines(self, guidelines_path: Optional[str], newsletter_type: str) -> Dict:
+        """Load guidelines from YAML file."""
+        if guidelines_path is None:
+            guidelines_path = "guidelines.yaml"
+
+        path = Path(guidelines_path)
+        if not path.exists():
+            return {}
+
+        try:
+            with open(path) as f:
+                all_guidelines = yaml.safe_load(f) or {}
+            return all_guidelines.get(newsletter_type, {})
+        except Exception:
+            return {}
 
     def score_items(self, items: List[ContentItem]) -> List[ContentItem]:
         """
@@ -89,12 +115,19 @@ class ContentScorer:
 
     def _calculate_relevance(self, item: ContentItem) -> float:
         """
-        Calculate relevance score based on topic matching.
+        Calculate relevance score based on topic matching and guidelines.
 
         Returns:
-            Score between 0 and 1
+            Score between 0 and 1, or -1 if item should be excluded
         """
         text = f"{item.title} {item.summary or ''} {' '.join(item.tags)}".lower()
+        title_lower = item.title.lower()
+
+        # Check exclude keywords first - if found, mark for exclusion
+        exclude_keywords = self.guidelines.get('exclude_keywords', [])
+        for keyword in exclude_keywords:
+            if keyword.lower() in text:
+                return -1.0  # Mark for exclusion
 
         # Count topic matches
         matches = 0
@@ -104,7 +137,7 @@ class ContentScorer:
             # Exact phrase match gets higher weight
             if topic in text:
                 # Weight by position (title matches worth more)
-                if topic in item.title.lower():
+                if topic in title_lower:
                     matches += 2
                 else:
                     matches += 1
@@ -118,11 +151,22 @@ class ContentScorer:
                     matches += word_matches / len(topic_words)
                     total_weight += 1
 
-        if total_weight == 0:
+        # Boost score for priority keywords from guidelines
+        priority_keywords = self.guidelines.get('priority_keywords', [])
+        priority_boost = 0
+        for keyword in priority_keywords:
+            if keyword.lower() in text:
+                priority_boost += 0.5
+                if keyword.lower() in title_lower:
+                    priority_boost += 0.5  # Extra boost for title match
+
+        if total_weight == 0 and priority_boost == 0:
             return 0.0
 
         # Normalize to 0-1 range
         raw_score = matches / (len(self.topics) * 2)  # Max possible is 2 per topic
+        raw_score += min(priority_boost, 1.0)  # Cap priority boost at 1.0
+
         return min(1.0, raw_score)
 
     def _calculate_recency(self, item: ContentItem) -> float:
@@ -194,7 +238,8 @@ class ContentScorer:
         """
         return [
             item for item in items
-            if item.final_score >= min_final_score
+            if item.relevance_score >= 0  # Exclude items marked with -1
+            and item.final_score >= min_final_score
             and item.relevance_score >= min_relevance_score
         ]
 

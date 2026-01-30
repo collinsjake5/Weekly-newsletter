@@ -79,6 +79,12 @@ class NewsletterGenerator:
         prompt_path.write_text(prompt_content)
         outputs['prompt'] = str(prompt_path)
 
+        # Generate HTML
+        html_content = self._generate_html(items)
+        html_path = self.output_dir / f"{self.newsletter_type}_{timestamp}.html"
+        html_path.write_text(html_content, encoding='utf-8')
+        outputs['html'] = str(html_path)
+
         return outputs
 
     def _generate_markdown(self, items: List[ContentItem]) -> str:
@@ -114,6 +120,9 @@ class NewsletterGenerator:
             "",
         ])
 
+        # Track shown items to prevent duplicates
+        shown_urls = set()
+
         # Top 5 Headlines
         lines.extend([
             "## 🔥 Top Stories",
@@ -122,57 +131,54 @@ class NewsletterGenerator:
 
         top_items = items[:5]
         for i, item in enumerate(top_items, 1):
+            shown_urls.add(item.url)
             lines.append(self._format_top_story(item, i))
             lines.append("")
 
-        # Research Papers (if any)
+        # Research Papers (exclude items already shown)
         if 'Research Papers' in grouped and grouped['Research Papers']:
-            lines.extend([
-                "---",
-                "",
-                "## 📚 Research Highlights",
-                "",
-            ])
-            for item in grouped['Research Papers'][:5]:
-                lines.append(self._format_paper(item))
-                lines.append("")
+            papers_to_show = [p for p in grouped['Research Papers'] if p.url not in shown_urls][:5]
+            if papers_to_show:
+                lines.extend([
+                    "---",
+                    "",
+                    "## 📚 Research Highlights",
+                    "",
+                ])
+                for item in papers_to_show:
+                    shown_urls.add(item.url)
+                    lines.append(self._format_paper(item))
+                    lines.append("")
 
-        # Community Discussions
+        # Community Discussions (exclude items already shown)
         if 'Community Discussions' in grouped and grouped['Community Discussions']:
-            lines.extend([
-                "---",
-                "",
-                "## 💬 Community Buzz",
-                "",
-            ])
-            for item in grouped['Community Discussions'][:5]:
-                lines.append(self._format_discussion(item))
-                lines.append("")
+            discussions_to_show = [d for d in grouped['Community Discussions'] if d.url not in shown_urls][:5]
+            if discussions_to_show:
+                lines.extend([
+                    "---",
+                    "",
+                    "## 💬 Community Buzz",
+                    "",
+                ])
+                for item in discussions_to_show:
+                    shown_urls.add(item.url)
+                    lines.append(self._format_discussion(item))
+                    lines.append("")
 
-        # News & Announcements
+        # News & Announcements (exclude items already shown)
         if 'News & Announcements' in grouped and grouped['News & Announcements']:
-            lines.extend([
-                "---",
-                "",
-                "## 📰 News & Announcements",
-                "",
-            ])
-            for item in grouped['News & Announcements'][:5]:
-                lines.append(self._format_news(item))
-                lines.append("")
-
-        # Quick Links (remaining items)
-        remaining = items[5:]
-        if remaining:
-            lines.extend([
-                "---",
-                "",
-                "## 🔗 Quick Links",
-                "",
-            ])
-            for item in remaining[:15]:
-                source = item.source_name.replace('r/', '').replace('ArXiv ', '')[:15]
-                lines.append(f"- [{item.title}]({item.url}) *({source})*")
+            news_to_show = [n for n in grouped['News & Announcements'] if n.url not in shown_urls][:5]
+            if news_to_show:
+                lines.extend([
+                    "---",
+                    "",
+                    "## 📰 News & Announcements",
+                    "",
+                ])
+                for item in news_to_show:
+                    shown_urls.add(item.url)
+                    lines.append(self._format_news(item))
+                    lines.append("")
 
         # Footer
         lines.extend([
@@ -311,3 +317,348 @@ class NewsletterGenerator:
             'start': min(dates).isoformat(),
             'end': max(dates).isoformat(),
         }
+
+    def _generate_html(self, items: List[ContentItem]) -> str:
+        """
+        Generate HTML newsletter suitable for email distribution.
+
+        Args:
+            items: Content items
+
+        Returns:
+            HTML string
+        """
+        date_str = datetime.now().strftime("%B %d, %Y")
+        week_num = datetime.now().isocalendar()[1]
+
+        # Group items by category
+        grouped = self.summarizer.group_by_category(items)
+
+        # Build HTML
+        html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{self.newsletter_name} - Week {week_num}</title>
+    <style>
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }}
+        .container {{
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }}
+        .header {{
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }}
+        .header h1 {{
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }}
+        .header .date {{
+            color: #6b7280;
+            font-size: 14px;
+        }}
+        .stats {{
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }}
+        .stats span {{
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }}
+        .section {{
+            margin-bottom: 30px;
+        }}
+        .section-title {{
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }}
+        .story {{
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }}
+        .story:last-child {{
+            border-bottom: none;
+        }}
+        .story-rank {{
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }}
+        .story-title {{
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }}
+        .story-title a {{
+            color: #1e40af;
+            text-decoration: none;
+        }}
+        .story-title a:hover {{
+            text-decoration: underline;
+        }}
+        .story-meta {{
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }}
+        .story-summary {{
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }}
+        .paper {{
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }}
+        .paper-title a {{
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }}
+        .paper-title a:hover {{
+            text-decoration: underline;
+        }}
+        .paper-author {{
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }}
+        .paper-summary {{
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }}
+        .discussion {{
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }}
+        .discussion-title a {{
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }}
+        .discussion-meta {{
+            font-size: 12px;
+            color: #15803d;
+        }}
+        .news {{
+            margin-bottom: 15px;
+        }}
+        .news-title a {{
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }}
+        .news-meta {{
+            font-size: 12px;
+            color: #6b7280;
+        }}
+        .news-summary {{
+            font-size: 14px;
+            color: #4b5563;
+        }}
+        .quick-links {{
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }}
+        .quick-links ul {{
+            margin: 0;
+            padding-left: 20px;
+        }}
+        .quick-links li {{
+            margin-bottom: 8px;
+        }}
+        .quick-links a {{
+            color: #2563eb;
+            text-decoration: none;
+        }}
+        .quick-links a:hover {{
+            text-decoration: underline;
+        }}
+        .quick-links .source {{
+            color: #9ca3af;
+            font-size: 12px;
+        }}
+        .footer {{
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>{self.newsletter_name}</h1>
+            <div class="date">Week {week_num} | {date_str}</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>{len(items)}</strong> items</span>
+            <span>📰 <strong>{self._count_sources(items)}</strong> sources</span>
+            <span>🏆 Top: <strong>{self._get_top_source(items)}</strong></span>
+        </div>
+'''
+
+        # Track which items have been shown to prevent duplicates
+        shown_urls = set()
+
+        # Top Stories (top 5 items by score)
+        html += '''
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+'''
+        for i, item in enumerate(items[:5], 1):
+            shown_urls.add(item.url)
+            summary_html = ""
+            if item.summary:
+                summary = item.summary[:250] + "..." if len(item.summary) > 250 else item.summary
+                summary_html = f'<p class="story-summary">{self._escape_html(summary)}</p>'
+
+            html += f'''
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">{i}</span>
+                    <a href="{item.url}" target="_blank">{self._escape_html(item.title)}</a>
+                </div>
+                <div class="story-meta">
+                    {self._escape_html(item.source_name)} | {item.published_at.strftime('%b %d')}
+                    {f' | ⬆️ {item.score} | 💬 {item.num_comments}' if item.score > 0 else ''}
+                </div>
+                {summary_html}
+            </div>
+'''
+        html += '        </div>\n'
+
+        # Research Papers (exclude items already shown)
+        if 'Research Papers' in grouped and grouped['Research Papers']:
+            papers_to_show = [p for p in grouped['Research Papers'] if p.url not in shown_urls][:5]
+            if papers_to_show:
+                html += '''
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+'''
+                for item in papers_to_show:
+                    shown_urls.add(item.url)
+                    summary_html = ""
+                    if item.summary:
+                        summary = item.summary[:200] + "..." if len(item.summary) > 200 else item.summary
+                        summary_html = f'<div class="paper-summary">{self._escape_html(summary)}</div>'
+
+                    author_html = f'<div class="paper-author">{self._escape_html(item.author)}</div>' if item.author else ''
+
+                    html += f'''
+            <div class="paper">
+                <div class="paper-title"><a href="{item.url}" target="_blank">{self._escape_html(item.title)}</a></div>
+                {author_html}
+                {summary_html}
+            </div>
+'''
+                html += '        </div>\n'
+
+        # Community Discussions (exclude items already shown)
+        if 'Community Discussions' in grouped and grouped['Community Discussions']:
+            discussions_to_show = [d for d in grouped['Community Discussions'] if d.url not in shown_urls][:5]
+            if discussions_to_show:
+                html += '''
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+'''
+                for item in discussions_to_show:
+                    shown_urls.add(item.url)
+                    html += f'''
+            <div class="discussion">
+                <div class="discussion-title"><a href="{item.url}" target="_blank">{self._escape_html(item.title)}</a></div>
+                <div class="discussion-meta">{self._escape_html(item.source_name)} | ⬆️ {item.score} | 💬 {item.num_comments}</div>
+            </div>
+'''
+                html += '        </div>\n'
+
+        # News & Announcements (exclude items already shown)
+        if 'News & Announcements' in grouped and grouped['News & Announcements']:
+            news_to_show = [n for n in grouped['News & Announcements'] if n.url not in shown_urls][:5]
+            if news_to_show:
+                html += '''
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+'''
+                for item in news_to_show:
+                    shown_urls.add(item.url)
+                    summary_html = ""
+                    if item.summary:
+                        summary = item.summary[:150] + "..." if len(item.summary) > 150 else item.summary
+                        summary_html = f'<div class="news-summary">{self._escape_html(summary)}</div>'
+
+                    html += f'''
+            <div class="news">
+                <div class="news-title"><a href="{item.url}" target="_blank">{self._escape_html(item.title)}</a></div>
+                <div class="news-meta">{self._escape_html(item.source_name)} | {item.published_at.strftime('%b %d')}</div>
+                {summary_html}
+            </div>
+'''
+                html += '        </div>\n'
+
+        # Footer
+        html += f'''
+        <div class="footer">
+            Generated on {datetime.now().strftime('%Y-%m-%d %H:%M')} UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>'''
+
+        return html
+
+    def _escape_html(self, text: str) -> str:
+        """Escape HTML special characters."""
+        if not text:
+            return ""
+        return (text
+                .replace('&', '&amp;')
+                .replace('<', '&lt;')
+                .replace('>', '&gt;')
+                .replace('"', '&quot;')
+                .replace("'", '&#39;'))
