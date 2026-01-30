@@ -7,16 +7,64 @@ newsletters:
     name: "AI Weekly Digest"
     description: "Weekly roundup of artificial intelligence news, research, and discussions"
     topics:
+      # General AI/ML
       - "artificial intelligence"
       - "machine learning"
       - "large language models"
       - "LLM"
-      - "GPT"
-      - "Claude"
       - "deep learning"
       - "neural networks"
       - "AI safety"
       - "generative AI"
+      - "foundation models"
+      - "transformer"
+
+      # OpenAI
+      - "GPT"
+      - "GPT-4"
+      - "GPT-5"
+      - "ChatGPT"
+      - "OpenAI"
+      - "o1"
+      - "DALL-E"
+      - "Sora"
+
+      # Anthropic
+      - "Claude"
+      - "Anthropic"
+      - "Claude 3"
+      - "Claude Opus"
+      - "Claude Sonnet"
+
+      # Google / DeepMind
+      - "Gemini"
+      - "Gemini Pro"
+      - "Gemini Ultra"
+      - "Google DeepMind"
+      - "DeepMind"
+      - "Bard"
+      - "PaLM"
+      - "Imagen"
+      - "Veo"
+      - "AlphaFold"
+      - "AlphaCode"
+
+      # xAI
+      - "Grok"
+      - "xAI"
+      - "Grok-2"
+
+      # Meta
+      - "Llama"
+      - "Llama 3"
+      - "Meta AI"
+
+      # Other players
+      - "Mistral"
+      - "Cohere"
+      - "AI21"
+      - "Stability AI"
+      - "Midjourney"
 
     sources:
       reddit:
@@ -26,15 +74,20 @@ newsletters:
         - "singularity"
         - "ChatGPT"
         - "ClaudeAI"
+        - "OpenAI"
+        - "Bard"
+        - "StableDiffusion"
+        - "midjourney"
       hackernews:
         enabled: true
         min_score: 50
       arxiv:
         categories:
-          - "cs.AI"
-          - "cs.LG"
-          - "cs.CL"
-        max_results: 20
+          - "cs.AI"   # Artificial Intelligence
+          - "cs.LG"   # Machine Learning
+          - "cs.CL"   # Computation and Language (NLP)
+          - "cs.CV"   # Computer Vision
+        max_results: 25
       rss:
         - name: "OpenAI Blog"
           url: "https://openai.com/blog/rss.xml"
@@ -42,10 +95,16 @@ newsletters:
           url: "https://www.anthropic.com/rss.xml"
         - name: "Google AI Blog"
           url: "https://blog.google/technology/ai/rss/"
+        - name: "DeepMind Blog"
+          url: "https://deepmind.google/blog/rss.xml"
         - name: "MIT Technology Review AI"
           url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"
         - name: "The Batch"
           url: "https://www.deeplearning.ai/the-batch/feed/"
+        - name: "Hugging Face Blog"
+          url: "https://huggingface.co/blog/feed.xml"
+        - name: "Meta AI Blog"
+          url: "https://ai.meta.com/blog/rss/"
 
   robotics:
     name: "Manufacturing Robotics Weekly"

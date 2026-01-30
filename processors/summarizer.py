@@ -161,9 +161,21 @@ Please generate the newsletter in Markdown format.
 
         theme_keywords = {
             'ai': [
-                'gpt', 'llm', 'language model', 'chatgpt', 'claude',
-                'openai', 'anthropic', 'google', 'gemini', 'training',
-                'fine-tuning', 'rlhf', 'safety', 'alignment'
+                # General
+                'llm', 'language model', 'transformer', 'foundation model',
+                'training', 'fine-tuning', 'rlhf', 'safety', 'alignment',
+                # OpenAI
+                'gpt', 'gpt-4', 'gpt-5', 'chatgpt', 'openai', 'o1', 'sora', 'dall-e',
+                # Anthropic
+                'claude', 'anthropic', 'opus', 'sonnet',
+                # Google/DeepMind
+                'gemini', 'deepmind', 'bard', 'palm', 'alphafold', 'alphacode', 'veo',
+                # xAI
+                'grok', 'xai',
+                # Meta
+                'llama', 'meta ai',
+                # Others
+                'mistral', 'cohere', 'stability', 'midjourney'
             ],
             'robotics': [
                 # Humanoids
