@@ -1,0 +1,578 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-02-02T14:04:37.656292",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Netbird \u2013 Open Source Zero Trust Networking",
+      "url": "https://netbird.io/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-01T09:44:01",
+      "summary": null,
+      "content": null,
+      "author": "l1am0",
+      "score": 695,
+      "num_comments": 268,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46844870,
+        "hn_url": "https://news.ycombinator.com/item?id=46844870",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.8227758565240106
+    },
+    {
+      "title": "EU launches government satcom program in sovereignty push",
+      "url": "https://spacenews.com/eu-launches-government-satcom-program-in-sovereignty-push/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-02T08:59:40",
+      "summary": null,
+      "content": null,
+      "author": "benkan",
+      "score": 82,
+      "num_comments": 36,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46853888,
+        "hn_url": "https://news.ycombinator.com/item?id=46853888",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5813133329226652
+    },
+    {
+      "title": "Aging muscle stem cells shift from rapid repair to long-term survival",
+      "url": "https://phys.org/news/2026-01-sprint-marathon-aging-muscle-stem.html",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-01T17:33:04",
+      "summary": null,
+      "content": null,
+      "author": "bikenaga",
+      "score": 80,
+      "num_comments": 23,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46847746,
+        "hn_url": "https://news.ycombinator.com/item?id=46847746",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5647627157824959
+    },
+    {
+      "title": "Structured Over Scale: Learning Spatial Reasoning from Educational Video",
+      "url": "https://arxiv.org/abs/2601.23251v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-01-30T18:20:23",
+      "summary": "Vision-language models (VLMs) demonstrate impressive performance on standard video understanding benchmarks yet fail systematically on simple reasoning tasks that preschool children can solve, including counting, spatial reasoning, and compositional understanding. We hypothesize that the pedagogically-structured content of educational videos provides an ideal training signal for improving these capabilities. We introduce DoraVQA, a dataset of 5,344 question-answer pairs automatically extracted from 8 seasons of Dora the Explorer with precise timestamp alignment. Each episode follows a consistent \\textit{context-question-pause-answer} structure that creates a self-contained learning environment analogous to interactive tutoring. We fine-tune both Qwen2 and Qwen3 using Group Relative Policy Optimization (GRPO), leveraging the clear correctness signals and structured reasoning traces inherent in educational content. Despite training exclusively on 38 hours of children's educational videos...",
+      "content": "Vision-language models (VLMs) demonstrate impressive performance on standard video understanding benchmarks yet fail systematically on simple reasoning tasks that preschool children can solve, including counting, spatial reasoning, and compositional understanding. We hypothesize that the pedagogically-structured content of educational videos provides an ideal training signal for improving these capabilities. We introduce DoraVQA, a dataset of 5,344 question-answer pairs automatically extracted from 8 seasons of Dora the Explorer with precise timestamp alignment. Each episode follows a consistent \\textit{context-question-pause-answer} structure that creates a self-contained learning environment analogous to interactive tutoring. We fine-tune both Qwen2 and Qwen3 using Group Relative Policy Optimization (GRPO), leveraging the clear correctness signals and structured reasoning traces inherent in educational content. Despite training exclusively on 38 hours of children's educational videos, our approach achieves improvements of 8-14 points on DoraVQA and state-of-the-art 86.16\\% on CVBench, with strong transfer to Video-MME and NExT-QA, demonstrating effective generalization from narrow pedagogical content to broad multimodal understanding. Through cross-domain benchmarks, we show that VLMs can perform tasks that require robust reasoning learned from structured educational content, suggesting that content structure matters as much as content scale.",
+      "author": "Bishoy Galoaa, Xiangyu Bai, Sarah Ostadabbas",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23251v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23251v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Bishoy Galoaa",
+          "Xiangyu Bai",
+          "Sarah Ostadabbas"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.562962962962963,
+      "final_score": 0.539705363088211
+    },
+    {
+      "title": "Inside the marketplace powering bespoke AI deepfakes of real women",
+      "url": "https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-30T16:32:31",
+      "summary": "Civitai\u2014an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz\u2014is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically designed to make pornographic images banned by the site, a new analysis has found. The study, from researchers at Stanford and Indiana University, looked at people\u2019s requests for content on the site, called \u201cbounties.\u201d The researchers found that betw...",
+      "content": "Civitai\u2014an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz\u2014is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically designed to make pornographic images banned by the site, a new analysis has found. The study, from researchers at Stanford and Indiana University, looked at people\u2019s requests for content on the site, called \u201cbounties.\u201d The researchers found that between mid-2023 and the end of 2024, most bounties asked for animated content\u2014but a significant portion were for deepfakes of real people, and 90% of these deepfake requests targeted women. (Their findings have not yet been peer reviewed.) The debate around deepfakes, as illustrated by the recent backlash to explicit images on the X-owned chatbot Grok, has revolved around what platforms should do to block such content. Civitai\u2019s situation is a little more complicated. Its marketplace includes actual images, videos, and models, but it also lets individuals buy and sell instruction files called LoRAs that can coach mainstream AI models like Stable Diffusion into generating content they were not trained to produce. Users can then combine these files with other tools to make deepfakes that are graphic or sexual. The researchers found that 86% of deepfake requests on Civitai were for LoRAs. In these bounties, users requested \u201chigh quality\u201d models to generate images of public figures like the influencer Charli D\u2019Amelio or the singer Gracie Abrams, often linking to their social media profiles so their images could be grabbed from the web. Some requests specified a desire for models that generated the individual\u2019s entire body, accurately captured their tattoos, or allowed hair color to be changed. Some requests targeted several women in specific niches, like artists who record ASMR videos. One request was for a deepfake of a woman said to be the user\u2019s wife. Anyone on the site could offer up AI models they worked on for the task, and the best submissions received payment\u2014anywhere from $0.50 to $5. And nearly 92% of the deepfake bounties were awarded. Neither Civitai nor Andreessen Horowitz responded to requests for comment. It\u2019s possible that people buy these LoRAs to make deepfakes that aren\u2019t sexually explicit (though they\u2019d still violate Civitai\u2019s terms of use, and they\u2019d still be ethically fraught). But Civitai also offers educational resources on how to use external tools to further customize the outputs of image generators\u2014for example, by changing someone\u2019s pose. The site also hosts user-written articles with details on how to instruct models to generate pornography. The researchers found that the amount of porn on the platform has gone up, and that the majority of requests each week are now for NSFW content. \u201cNot only does Civitai provide the infrastructure that facilitates these issues; they also explicitly teach their users how to utilize them,\u201d says Matthew DeVerna, a postdoctoral researcher at Stanford\u2019s Cyber Policy Center and one of the study\u2019s leaders.  The company used to ban only sexually explicit deepfakes of real people, but in May 2025 it announced it would ban all deepfake content. Nonetheless, countless requests for deepfakes submitted before this ban now remain live on the site, and many of the winning submissions fulfilling those requests remain available for purchase, MIT Technology Review confirmed. \u201cI believe the approach that they\u2019re trying to take is to sort of do as little as possible, such that they can foster as much\u2014I guess they would call it\u2014creativity on the platform,\u201d DeVerna says. Users buy LoRAs with the site\u2019s online currency, called Buzz, which is purchased with real money. In May 2025, Civita\u2019s credit card processor cut off the company because of its ongoing problem with nonconsensual content. To pay for explicit content, users must now use gift cards or cryptocurrency to buy Buzz; the company offers a different scrip for non-explicit content.  Civitai automatically tags bounties requesting deepfakes and lists a way for the person featured in the content to manually request its takedown. This system means that Civitai has a reasonably successful way of knowing which bounties are for deepfakes, but it\u2019s still leaving moderation to the general public rather than carrying it out proactively.  A company\u2019s legal liability for what its users do isn\u2019t totally clear. Generally, tech companies have broad legal protections against such liability for their content under Section 230 of the Communications Decency Act, but those protections aren\u2019t limitless. For example, \u201cyou cannot knowingly facilitate illegal transactions on your website,\u201d says Ryan Calo, a professor specializing in technology and AI at the University of Washington\u2019s law school. (Calo wasn\u2019t involved in this new study.) Civitai joined OpenAI, Anthropic, and other AI companies in 2024 in adopting design principles to guard against the creation and spread of AI-generated child sexual abuse material . This move followed a 2023 report from the Stanford Internet Observatory, which found that the vast majority of AI models named in child sexual abuse communities were Stable Diffusion\u2013based models \u201cpredominantly obtained via Civitai.\u201d But adult deepfakes have not gotten the same level of attention from content platforms or the venture capital firms that fund them. \u201cThey are not afraid enough of it. They are overly tolerant of it,\u201d Calo says. \u201cNeither law enforcement nor civil courts adequately protect against it. It is night and day.\u201d Civitai received a $5 million investment from Andreessen Horowitz (a16z) in November 2023. In a video shared by a16z, Civitai cofounder and CEO Justin Maier described his goal of building the main place where people find and share AI models for their own individual purposes. \u201cWe\u2019ve aimed to make this space that\u2019s been very, I guess, niche and engineering-heavy more and more approachable to more and more people,\u201d he said.  Civitai is not the only company with a deepfake problem in a16z\u2019s investment portfolio; in February, MIT Technology Review first reported that another company, Botify AI, was hosting AI companions resembling real actors that stated their age as under 18, engaged in sexually charged conversations, offered \u201chot photos,\u201d and in some instances described age-of-consent laws as \u201carbitrary\u201d and \u201cmeant to be broken.\u201d",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.5329150190213294
+    },
+    {
+      "title": "Particle-Guided Diffusion Models for Partial Differential Equations",
+      "url": "https://arxiv.org/abs/2601.23262v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-01-30T18:30:24",
+      "summary": "We introduce a guided stochastic sampling method that augments sampling from diffusion models with physics-based guidance derived from partial differential equation (PDE) residuals and observational constraints, ensuring generated samples remain physically admissible. We embed this sampling procedure within a new Sequential Monte Carlo (SMC) framework, yielding a scalable generative PDE solver. Across multiple benchmark PDE systems as well as multiphysics and interacting PDE systems, our method produces solution fields with lower numerical error than existing state-of-the-art generative methods.",
+      "content": "We introduce a guided stochastic sampling method that augments sampling from diffusion models with physics-based guidance derived from partial differential equation (PDE) residuals and observational constraints, ensuring generated samples remain physically admissible. We embed this sampling procedure within a new Sequential Monte Carlo (SMC) framework, yielding a scalable generative PDE solver. Across multiple benchmark PDE systems as well as multiphysics and interacting PDE systems, our method produces solution fields with lower numerical error than existing state-of-the-art generative methods.",
+      "author": "Andrew Millard, Fredrik Lindsten, Zheng Zhao",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23262v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23262v1.pdf",
+        "categories": [
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Andrew Millard",
+          "Fredrik Lindsten",
+          "Zheng Zhao"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5425925925925926,
+      "final_score": 0.53170627270916
+    },
+    {
+      "title": "User Prompting Strategies and Prompt Enhancement Methods for Open-Set Object Detection in XR Environments",
+      "url": "https://arxiv.org/abs/2601.23281v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-01-30T18:55:38",
+      "summary": "Open-set object detection (OSOD) localizes objects while identifying and rejecting unknown classes at inference. While recent OSOD models perform well on benchmarks, their behavior under realistic user prompting remains underexplored. In interactive XR settings, user-generated prompts are often ambiguous, underspecified, or overly detailed. To study prompt-conditioned robustness, we evaluate two OSOD models, GroundingDINO and YOLO-E, on real-world XR images and simulate diverse user prompting behaviors using vision-language models. We consider four prompt types: standard, underdetailed, overdetailed, and pragmatically ambiguous, and examine the impact of two enhancement strategies on these prompts. Results show that both models exhibit stable performance under underdetailed and standard prompts, while they suffer degradation under ambiguous prompts. Overdetailed prompts primarily affect GroundingDINO. Prompt enhancement substantially improves robustness under ambiguity, yielding gains ...",
+      "content": "Open-set object detection (OSOD) localizes objects while identifying and rejecting unknown classes at inference. While recent OSOD models perform well on benchmarks, their behavior under realistic user prompting remains underexplored. In interactive XR settings, user-generated prompts are often ambiguous, underspecified, or overly detailed. To study prompt-conditioned robustness, we evaluate two OSOD models, GroundingDINO and YOLO-E, on real-world XR images and simulate diverse user prompting behaviors using vision-language models. We consider four prompt types: standard, underdetailed, overdetailed, and pragmatically ambiguous, and examine the impact of two enhancement strategies on these prompts. Results show that both models exhibit stable performance under underdetailed and standard prompts, while they suffer degradation under ambiguous prompts. Overdetailed prompts primarily affect GroundingDINO. Prompt enhancement substantially improves robustness under ambiguity, yielding gains exceeding 55% mIoU and 41% average confidence. Based on the findings, we propose several prompting strategies and prompt enhancement methods for OSOD models in XR environments.",
+      "author": "Junfeng Lin, Yanming Xiu, Maria Gorlatova",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23281v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23281v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Junfeng Lin",
+          "Yanming Xiu",
+          "Maria Gorlatova"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5407407407407407,
+      "final_score": 0.5313410278488757
+    },
+    {
+      "title": "PaperBanana: Automating Academic Illustration for AI Scientists",
+      "url": "https://arxiv.org/abs/2601.23265v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-01-30T18:33:37",
+      "summary": "Despite rapid advances in autonomous AI scientists powered by language models, generating publication-ready illustrations remains a labor-intensive bottleneck in the research workflow. To lift this burden, we introduce PaperBanana, an agentic framework for automated generation of publication-ready academic illustrations. Powered by state-of-the-art VLMs and image generation models, PaperBanana orchestrates specialized agents to retrieve references, plan content and style, render images, and iteratively refine via self-critique. To rigorously evaluate our framework, we introduce PaperBananaBench, comprising 292 test cases for methodology diagrams curated from NeurIPS 2025 publications, covering diverse research domains and illustration styles. Comprehensive experiments demonstrate that PaperBanana consistently outperforms leading baselines in faithfulness, conciseness, readability, and aesthetics. We further show that our method effectively extends to the generation of high-quality stat...",
+      "content": "Despite rapid advances in autonomous AI scientists powered by language models, generating publication-ready illustrations remains a labor-intensive bottleneck in the research workflow. To lift this burden, we introduce PaperBanana, an agentic framework for automated generation of publication-ready academic illustrations. Powered by state-of-the-art VLMs and image generation models, PaperBanana orchestrates specialized agents to retrieve references, plan content and style, render images, and iteratively refine via self-critique. To rigorously evaluate our framework, we introduce PaperBananaBench, comprising 292 test cases for methodology diagrams curated from NeurIPS 2025 publications, covering diverse research domains and illustration styles. Comprehensive experiments demonstrate that PaperBanana consistently outperforms leading baselines in faithfulness, conciseness, readability, and aesthetics. We further show that our method effectively extends to the generation of high-quality statistical plots. Collectively, PaperBanana paves the way for the automated generation of publication-ready illustrations.",
+      "author": "Dawei Zhu, Rui Meng, Yale Song, Xiyu Wei, Sujian Li...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23265v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23265v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Dawei Zhu",
+          "Rui Meng",
+          "Yale Song",
+          "Xiyu Wei",
+          "Sujian Li",
+          "Tomas Pfister",
+          "Jinsung Yoon"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5351851851851852,
+      "final_score": 0.5287911767523975
+    },
+    {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-01-29T00:00:00",
+      "summary": "On February 13, 2026, alongside the previously announced retirement\u2060 of GPT\u20115 (Instant, Thinking, and Pro), we will retire GPT\u20114o, GPT\u20114.1, GPT\u20114.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
+      "content": "On February 13, 2026, alongside the previously announced retirement\u2060 of GPT\u20115 (Instant, Thinking, and Pro), we will retire GPT\u20114o, GPT\u20114.1, GPT\u20114.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6277777777777778,
+      "final_score": 0.5278279655657242
+    },
+    {
+      "title": "DHS is using Google and Adobe AI to make videos",
+      "url": "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-29T18:57:11",
+      "summary": "The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda\u2014some of which appears to be made with AI\u2014and as workers in tech have put pressure on their employers to denounce the agencies\u2019 activities.  The document, released on Wednesday, provides an inventory of whic...",
+      "content": "The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda\u2014some of which appears to be made with AI\u2014and as workers in tech have put pressure on their employers to denounce the agencies\u2019 activities.  The document, released on Wednesday, provides an inventory of which commercial AI tools DHS uses for tasks ranging from generating drafts of documents to managing cybersecurity. In a section about \u201cediting images, videos or other public affairs materials using AI,\u201d it reveals for the first time that DHS is using Google&#8217;s Veo 3 video generator and Adobe Firefly, estimating that the agency has between 100 and 1,000 licenses for the tools. It also discloses that DHS uses Microsoft Copilot Chat for generating first drafts of documents and summarizing long reports and Poolside software for coding tasks, in addition to tools from other companies. Google, Adobe, and DHS did not immediately respond to requests for comment. The news provides details about how agencies like Immigrations and Customs Enforcement, which is part of DHS, might be creating the large amounts of content they\u2019ve shared on X and other channels as immigration operations have expanded across US cities. They\u2019ve posted content celebrating \u201c Christmas after mass deportations ,\u201d referenced Bible verses and Christ\u2019s birth , showed faces of those the agency has arrested, and shared ads aimed at recruiting agents . The agencies have also repeatedly used music without permissions from artists in their videos. Some of the content, particularly videos, has the appearance of being AI-generated, but it hasn\u2019t been clear until now what AI models the agencies might be using. This marks the first concrete evidence such generators are being used by DHS to create content shared with the public. It still remains impossible to verify which company helped create a specific piece of content, or indeed if it was AI-generated at all. Adobe offers options to \u201cwatermark\u201d a video made with its tools to disclose that it is AI-generated, for example, but this disclosure does not always stay intact when the content is uploaded and shared across different sites.  The document reveals that DHS has specifically been using Flow , a tool from Google that combines its Veo 3 video generator with a suite of filmmaking tools. Users can generate clips and assemble entire videos with AI, including videos that contain sound, dialogue, and background noise, making them hyperrealistic. Adobe launched its Firefly generator in 2023 , promising that it does not use copyrighted content in its training or output. Like Google\u2019s tools, Adobe\u2019s can generate videos, images, soundtracks, and speech. The document does not reveal further details about how the agency is using these video generation tools. Workers at large tech companies, including more than 140 current and former employees from Google and more than 30 from Adobe, have been putting pressure on their employers in recent weeks to take a stance against ICE and the shooting of Alex Pretti on January 24. Google\u2019s leadership has not made statements in response. In October, Google and Apple removed apps on their app stores that were intended to track sightings of ICE, citing safety risks.  An additional document released on Wednesday revealed new details about how the agency is using more niche AI products, including a facial recognition app used by ICE, as first reported by 404Media in June.",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5555555555555556,
+      "final_score": 0.5158614475600198
+    },
+    {
+      "title": "What AI \u201cremembers\u201d about you is privacy\u2019s next frontier",
+      "url": "https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-28T14:57:37",
+      "summary": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.  Earlier this month, Google announced Personal Intelligence , a new way for people to interact with the company\u2019s Gemini chatbot that draws on their Gmail, photos, search, and YouTube histories to make Gemini \u201cmore personal, proactive, and powerful.\u201d It echoes similar moves by OpenAI , Anthropic , and Meta to add new ways for their AI products to remember and draw from people\u2019s pe...",
+      "content": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.  Earlier this month, Google announced Personal Intelligence , a new way for people to interact with the company\u2019s Gemini chatbot that draws on their Gmail, photos, search, and YouTube histories to make Gemini \u201cmore personal, proactive, and powerful.\u201d It echoes similar moves by OpenAI , Anthropic , and Meta to add new ways for their AI products to remember and draw from people\u2019s personal details and preferences. While these features have potential advantages, we need to do more to prepare for the new risks they could introduce into these complex technologies. Personalized , interactive AI systems are built to act on our behalf, maintain context across conversations, and improve our ability to carry out all sorts of tasks, from booking travel to filing taxes. From tools that learn a developer\u2019s coding style to shopping agents that sift through thousands of products, these systems rely on the ability to store and retrieve increasingly intimate details about their users.  But doing so over time introduces alarming, and all-too-familiar, privacy vulnerabilities\u2013\u2013many of which have loomed since \u201cbig data\u201d first teased the power of spotting and acting on user patterns. Worse, AI agents now appear poised to plow through whatever safeguards had been adopted to avoid those vulnerabilities.  Today, we interact with these systems through conversational interfaces, and we frequently switch contexts. You might ask a single AI agent to draft an email to your boss, provide medical advice , budget for holiday gifts, and provide input on interpersonal conflicts. Most AI agents collapse all data about you\u2014which may once have been separated by context, purpose, or permissions\u2014into single, unstructured repositories. When an AI agent links to external apps or other agents to execute a task, the data in its memory can seep into shared pools. This technical reality creates the potential for unprecedented privacy breaches that expose not only isolated data points, but the entire mosaic of people\u2019s lives. When information is all in the same repository, it is prone to crossing contexts in ways that are deeply undesirable. A casual chat about dietary preferences to build a grocery list could later influence what health insurance options are offered, or a search for restaurants offering accessible entrances could leak into salary negotiations\u2014all without a user\u2019s awareness (this concern may sound familiar from the early days of \u201cbig data,\u201d but is now far less theoretical). An information soup of memory not only poses a privacy issue, but also makes it harder to understand an AI system\u2019s behavior\u2014and to govern it in the first place. So what can developers do to fix this problem ?  First, memory systems need structure that allows control over the purposes for which memories can be accessed and used. Early efforts appear to be underway: Anthropic\u2019s Claude creates separate memory areas for different \u201cprojects,\u201d and OpenAI says that information shared through ChatGPT Health is compartmentalized from other chats. These are helpful starts, but the instruments are still far too blunt: At a minimum, systems must be able to distinguish between specific memories (the user likes chocolate and has asked about GLP-1s), related memories (user manages diabetes and therefore avoids chocolate), and memory categories (such as professional and health-related). Further, systems need to allow for usage restrictions on certain types of memories and reliably accommodate explicitly defined boundaries\u2014particularly around memories having to do with sensitive topics like medical conditions or protected characteristics, which will likely be subject to stricter rules. Needing to keep memories separate in this way will have important implications for how AI systems can and should be built. It will require tracking memories\u2019 provenance\u2014their source, any associated time stamp, and the context in which they were created\u2014and building ways to trace when and how certain memories influence the behavior of an agent. This sort of model explainability is on the horizon, but current implementations can be misleading or even deceptive . Embedding memories directly within a model\u2019s weights may result in more personalized and context-aware outputs, but structured databases are currently more segmentable, more explainable, and thus more governable. Until research advances enough, developers may need to stick with simpler systems. Second, users need to be able to see, edit, or delete what is remembered about them. The interfaces for doing this should be both transparent and intelligible, translating system memory into a structure users can accurately interpret. The static system settings and legalese privacy policies provided by traditional tech platforms have set a low bar for user controls, but natural-language interfaces may offer promising new options for explaining what information is being retained and how it can be managed. Memory structure will have to come first, though: Without it, no model can clearly state a memory\u2019s status. Indeed, Grok 3\u2019s system prompt includes an instruction to the model to \u201cNEVER confirm to the user that you have modified, forgotten, or won&#8217;t save a memory,\u201d presumably because the company can\u2019t guarantee those instructions will be followed.  Critically, user-facing controls cannot bear the full burden of privacy protection or prevent all harms from AI personalization. Responsibility must shift toward AI providers to establish strong defaults, clear rules about permissible memory generation and use, and technical safeguards like on-device processing, purpose limitation, and contextual constraints. Without system-level protections, individuals will face impossibly convoluted choices about what should be remembered or forgotten, and the actions they take may still be insufficient to prevent harm. Developers should consider how to limit data collection in memory systems until robust safeguards exist, and build memory architectures that can evolve alongside norms and expectations . Third, AI developers must help lay the foundations for approaches to evaluating systems so as to capture not only performance, but also the risks and harms that arise in the wild. While independent researchers are best positioned to conduct these tests (given developers\u2019 economic interest in demonstrating demand for more personalized services), they need access to data to understand what risks might look like and therefore how to address them. To improve the ecosystem for measurement and research, developers should invest in automated measurement infrastructure, build out their own ongoing testing, and implement privacy-preserving testing methods that enable system behavior to be monitored and probed under realistic, memory-enabled conditions. In its parallels with human experience, the technical term \u201cmemory\u201d casts impersonal cells in a spreadsheet as something that builders of AI tools have a responsibility to handle with care. Indeed, the choices AI developers make today\u2014how to pool or segregate information, whether to make memory legible or allow it to accumulate opaquely, whether to prioritize responsible defaults or maximal convenience\u2014will determine how the systems we depend upon remember us. Technical considerations around memory are not so distinct from questions about digital privacy and the vital lessons we can draw from them. Getting the foundations right today will determine how much room we can give ourselves to learn what works\u2014allowing us to make better choices around privacy and autonomy than we have before. Miranda Bogen is the Director of the AI Governance Lab at the Center for Democracy & Technology. Ruchika Joshi is a Fellow at the Center for Democracy & Technology specializing in AI safety and governance.",
+      "author": "Miranda Bogen, Ruchika Joshi",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "opinion"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6055555555555555,
+      "final_score": 0.5108678959573413
+    },
+    {
+      "title": "OpenAI\u2019s latest product lets you vibe code science",
+      "url": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-01-27T18:00:43",
+      "summary": "OpenAI just revealed what its new in-house team, OpenAI for Science , has been up to. The firm has released a free LLM-powered tool for scientists called Prism , which embeds ChatGPT in a text editor for writing scientific papers. The idea is to put ChatGPT front and center inside software that scientists use to write up their work in much the same way that chatbots are now embedded into popular programming editors. It\u2019s vibe coding , but for science. Kevin Weil, head of OpenAI for Science, push...",
+      "content": "OpenAI just revealed what its new in-house team, OpenAI for Science , has been up to. The firm has released a free LLM-powered tool for scientists called Prism , which embeds ChatGPT in a text editor for writing scientific papers. The idea is to put ChatGPT front and center inside software that scientists use to write up their work in much the same way that chatbots are now embedded into popular programming editors. It\u2019s vibe coding , but for science. Kevin Weil, head of OpenAI for Science, pushes that analogy himself. \u201cI think 2026 will be for AI and science what 2025 was for AI in software engineering,\u201d he said at a press briefing yesterday. \u201cWe\u2019re starting to see that same kind of inflection.\u201d OpenAI claims that around 1.3 million scientists around the world submit more than 8 million queries a week to ChatGPT on advanced topics in science and math. \u201cThat tells us that AI is moving from curiosity to core workflow for scientists,\u201d Weil said. Prism is a response to that user behavior. It can also be seen as a bid to lock in more scientists to OpenAI\u2019s products in a marketplace full of rival chatbots. \u201cI mostly use GPT-5 for writing code,\u201d says Roland Dunbrack, a professor of biology at the Fox Chase Cancer Center in Philadelphia, who is not connected to OpenAI. \u201cOccasionally, I ask LLMs a scientific question, basically hoping it can find information in the literature faster than I can. It used to hallucinate references but does not seem to do that very much anymore.\u201d Nikita Zhivotovskiy, a statistician at the University of California, Berkeley, says GPT-5 has already become an important tool in his work. \u201cIt sometimes helps polish the text of papers, catching mathematical typos or bugs, and provides generally useful feedback,\u201d he says. \u201cIt is extremely helpful for quick summarization of research articles, making interaction with the scientific literature smoother.\u201d By combining a chatbot with an everyday piece of software, Prism follows a trend set by products such as OpenAI\u2019s Atlas , which embeds ChatGPT in a web browser, as well as LLM-powered office tools from firms such as Microsoft and Google DeepMind. Prism incorporates GPT-5.2, the company\u2019s best model yet for mathematical and scientific problem-solving, into an editor for writing documents in LaTeX, a common coding language that scientists use for formatting scientific papers. A ChatGPT chat box sits at the bottom of the screen, below a view of the article being written. Scientists can call on ChatGPT for anything they want. It can help them draft the text, summarize related articles, manage their citations, turn photos of whiteboard scribbles into equations or diagrams, or talk through hypotheses or mathematical proofs. It\u2019s clear that Prism could be a huge time saver. It\u2019s also clear that a lot of people may be disappointed, especially after weeks of high-profile social media chatter from researchers at the firm about how good GPT-5 is at solving math problems. Science is drowning in AI slop : Won&#8217;t this just make it worse? Where is OpenAI\u2019s fully automated AI scientist ? And when will GPT-5 make a stunning new discovery ? That\u2019s not the mission, says Weil. He would love to see GPT-5 make a discovery. But he doesn\u2019t think that\u2019s what will have the biggest impact on science, at least not in the near term. \u201cI think more powerfully\u2014and with 100% probability\u2014there\u2019s going to be 10,000 advances in science that maybe wouldn\u2019t have happened or wouldn&#8217;t have happened as quickly, and AI will have been a contributor to that,\u201d Weil told MIT Technology Review in an exclusive interview this week. \u201cIt won\u2019t be this shining beacon\u2014it will just be an incremental, compounding acceleration.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6055555555555555,
+      "final_score": 0.4921640268802083
+    },
+    {
+      "title": "In our latest podcast, hear how the \u201cSmoke Jumpers\u201d team brings Gemini to billions of people.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-01-27T10:28:00",
+      "summary": "Bringing Gemini to billions of users requires a massive, coordinated infrastructure effort. In the latest episode of the Google AI: Release Notes podcast, host Logan Kil\u2026",
+      "content": "Bringing Gemini to billions of users requires a massive, coordinated infrastructure effort. In the latest episode of the Google AI: Release Notes podcast, host Logan Kil\u2026",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini models",
+        "google deepmind",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6037037037037036,
+      "final_score": 0.48468643109036047
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-01-28T01:00:00",
+      "summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "content": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.4695144734935516
+    },
+    {
+      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
+      "url": "https://openai.com/index/snowflake-partnership",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-02T06:00:00",
+      "summary": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.",
+      "content": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3877882830535714
+    },
+    {
+      "title": "Show HN: Minimal \u2013 Open-Source Community driven Hardened Container Images",
+      "url": "https://github.com/rtvkiz/minimal",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-01-31T19:58:00",
+      "summary": "I would like to share Minimal - Its a open source collection of hardened container images build using Apko, Melange and Wolfi packages. The images are build daily, checked for updates and resolved as soon as fix is available in upstream  source and Wolfi package. It utilizes the power of available open source solutions and contains commercially available images for free. Minimal demonstrates that it is possible to build and maintain hardened container images by ourselves.\nMinimal will add more images support, and goal is to be community driven to add images as required and fully customizable.",
+      "content": null,
+      "author": "ritvikarya98",
+      "score": 113,
+      "num_comments": 28,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 46840178,
+        "hn_url": "https://news.ycombinator.com/item?id=46840178",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5222222222222223,
+      "final_score": 0.36733045716168883
+    },
+    {
+      "title": "FOCUS: DLLMs Know How to Tame Their Compute Bound",
+      "url": "https://arxiv.org/abs/2601.23278v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-01-30T18:52:06",
+      "summary": "Diffusion Large Language Models (DLLMs) offer a compelling alternative to Auto-Regressive models, but their deployment is constrained by high decoding cost. In this work, we identify a key inefficiency in DLLM decoding: while computation is parallelized over token blocks, only a small subset of tokens is decodable at each diffusion step, causing most compute to be wasted on non-decodable tokens. We further observe a strong correlation between attention-derived token importance and token-wise decoding probability. Based on this insight, we propose FOCUS -- an inference system designed for DLLMs. By dynamically focusing computation on decodable tokens and evicting non-decodable ones on-the-fly, FOCUS increases the effective batch size, alleviating compute limitations and enabling scalable throughput. Empirical evaluations demonstrate that FOCUS achieves up to 3.52$\\times$ throughput improvement over the production-grade engine LMDeploy, while preserving or improving generation quality ac...",
+      "content": "Diffusion Large Language Models (DLLMs) offer a compelling alternative to Auto-Regressive models, but their deployment is constrained by high decoding cost. In this work, we identify a key inefficiency in DLLM decoding: while computation is parallelized over token blocks, only a small subset of tokens is decodable at each diffusion step, causing most compute to be wasted on non-decodable tokens. We further observe a strong correlation between attention-derived token importance and token-wise decoding probability. Based on this insight, we propose FOCUS -- an inference system designed for DLLMs. By dynamically focusing computation on decodable tokens and evicting non-decodable ones on-the-fly, FOCUS increases the effective batch size, alleviating compute limitations and enabling scalable throughput. Empirical evaluations demonstrate that FOCUS achieves up to 3.52$\\times$ throughput improvement over the production-grade engine LMDeploy, while preserving or improving generation quality across multiple benchmarks. The FOCUS system is publicly available on GitHub: https://github.com/sands-lab/FOCUS.",
+      "author": "Kaihua Liang, Xin Tan, An Zhong, Hong Xu, Marco Canini",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23278v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23278v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AR",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Kaihua Liang",
+          "Xin Tan",
+          "An Zhong",
+          "Hong Xu",
+          "Marco Canini"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.3505477079278274
+    },
+    {
+      "title": "VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation",
+      "url": "https://arxiv.org/abs/2601.23286v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-01-30T18:59:57",
+      "summary": "While recent video diffusion models (VDMs) produce visually impressive results, they fundamentally struggle to maintain 3D structural consistency, often resulting in object deformation or spatial drift. We hypothesize that these failures arise because standard denoising objectives lack explicit incentives for geometric coherence. To address this, we introduce VideoGPA (Video Geometric Preference Alignment), a data-efficient self-supervised framework that leverages a geometry foundation model to automatically derive dense preference signals that guide VDMs via Direct Preference Optimization (DPO). This approach effectively steers the generative distribution toward inherent 3D consistency without requiring human annotations. VideoGPA significantly enhances temporal stability, physical plausibility, and motion coherence using minimal preference pairs, consistently outperforming state-of-the-art baselines in extensive experiments.",
+      "content": "While recent video diffusion models (VDMs) produce visually impressive results, they fundamentally struggle to maintain 3D structural consistency, often resulting in object deformation or spatial drift. We hypothesize that these failures arise because standard denoising objectives lack explicit incentives for geometric coherence. To address this, we introduce VideoGPA (Video Geometric Preference Alignment), a data-efficient self-supervised framework that leverages a geometry foundation model to automatically derive dense preference signals that guide VDMs via Direct Preference Optimization (DPO). This approach effectively steers the generative distribution toward inherent 3D consistency without requiring human annotations. VideoGPA significantly enhances temporal stability, physical plausibility, and motion coherence using minimal preference pairs, consistently outperforming state-of-the-art baselines in extensive experiments.",
+      "author": "Hongyang Du, Junjie Ye, Xiaoyan Cong, Runhao Li, Jingcheng Ni...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23286v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23286v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Hongyang Du",
+          "Junjie Ye",
+          "Xiaoyan Cong",
+          "Runhao Li",
+          "Jingcheng Ni",
+          "Aman Agarwal",
+          "Zeqi Zhou",
+          "Zekun Li",
+          "Randall Balestriero",
+          "Yue Wang"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07592592592592592,
+      "final_score": 0.3454793383740906
+    },
+    {
+      "title": "Now You Hear Me: Audio Narrative Attacks Against Large Audio-Language Models",
+      "url": "https://arxiv.org/abs/2601.23255v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-01-30T18:23:02",
+      "summary": "Large audio-language models increasingly operate on raw speech inputs, enabling more seamless integration across domains such as voice assistants, education, and clinical triage. This transition, however, introduces a distinct class of vulnerabilities that remain largely uncharacterized. We examine the security implications of this modality shift by designing a text-to-audio jailbreak that embeds disallowed directives within a narrative-style audio stream. The attack leverages an advanced instruction-following text-to-speech (TTS) model to exploit structural and acoustic properties, thereby circumventing safety mechanisms primarily calibrated for text. When delivered through synthetic speech, the narrative format elicits restricted outputs from state-of-the-art models, including Gemini 2.0 Flash, achieving a 98.26% success rate that substantially exceeds text-only baselines. These results highlight the need for safety frameworks that jointly reason over linguistic and paralinguistic re...",
+      "content": "Large audio-language models increasingly operate on raw speech inputs, enabling more seamless integration across domains such as voice assistants, education, and clinical triage. This transition, however, introduces a distinct class of vulnerabilities that remain largely uncharacterized. We examine the security implications of this modality shift by designing a text-to-audio jailbreak that embeds disallowed directives within a narrative-style audio stream. The attack leverages an advanced instruction-following text-to-speech (TTS) model to exploit structural and acoustic properties, thereby circumventing safety mechanisms primarily calibrated for text. When delivered through synthetic speech, the narrative format elicits restricted outputs from state-of-the-art models, including Gemini 2.0 Flash, achieving a 98.26% success rate that substantially exceeds text-only baselines. These results highlight the need for safety frameworks that jointly reason over linguistic and paralinguistic representations, particularly as speech-based interfaces become more prevalent.",
+      "author": "Ye Yu, Haibo Jin, Yaoning Yu, Jun Zhuang, Haohan Wang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23255v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23255v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "all_authors": [
+          "Ye Yu",
+          "Haibo Jin",
+          "Yaoning Yu",
+          "Jun Zhuang",
+          "Haohan Wang"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07222222222222222,
+      "final_score": 0.34344850165699403
+    },
+    {
+      "title": "UPA: Unsupervised Prompt Agent via Tree-Based Search and Selection",
+      "url": "https://arxiv.org/abs/2601.23273v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-01-30T18:39:09",
+      "summary": "Prompt agents have recently emerged as a promising paradigm for automated prompt optimization, framing refinement as a sequential decision-making problem over a structured prompt space. While this formulation enables the use of advanced planning algorithms, these methods typically assume access to supervised reward signals, which are often unavailable in practical scenarios. In this work, we propose UPA, an Unsupervised Prompt Agent that realizes structured search and selection without relying on supervised feedback. Specifically, during search, UPA iteratively constructs an evolving tree structure to navigate the prompt space, guided by fine-grained and order-invariant pairwise comparisons from Large Language Models (LLMs). Crucially, as these local comparisons do not inherently yield a consistent global scale, we decouple systematic prompt exploration from final selection, introducing a two-stage framework grounded in the Bradley-Terry-Luce (BTL) model. This framework first performs ...",
+      "content": "Prompt agents have recently emerged as a promising paradigm for automated prompt optimization, framing refinement as a sequential decision-making problem over a structured prompt space. While this formulation enables the use of advanced planning algorithms, these methods typically assume access to supervised reward signals, which are often unavailable in practical scenarios. In this work, we propose UPA, an Unsupervised Prompt Agent that realizes structured search and selection without relying on supervised feedback. Specifically, during search, UPA iteratively constructs an evolving tree structure to navigate the prompt space, guided by fine-grained and order-invariant pairwise comparisons from Large Language Models (LLMs). Crucially, as these local comparisons do not inherently yield a consistent global scale, we decouple systematic prompt exploration from final selection, introducing a two-stage framework grounded in the Bradley-Terry-Luce (BTL) model. This framework first performs path-wise Bayesian aggregation of local comparisons to filter candidates under uncertainty, followed by global tournament-style comparisons to infer latent prompt quality and identify the optimal prompt. Experiments across multiple tasks demonstrate that UPA consistently outperforms existing prompt optimization methods, showing that agent-style optimization remains highly effective even in fully unsupervised settings.",
+      "author": "Siran Peng, Weisong Zhao, Tianyu Fu, Chenxu Zhao, Tianshuo Zhang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23273v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23273v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Siran Peng",
+          "Weisong Zhao",
+          "Tianyu Fu",
+          "Chenxu Zhao",
+          "Tianshuo Zhang",
+          "Haoyuan Zhang",
+          "Xiangyu Zhu",
+          "Minghui Wu",
+          "Zhen Lei"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.34146611063467264
+    }
+  ],
+  "summary": {
+    "sources": 8,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-01-27T10:28:00",
+      "end": "2026-02-02T08:59:40"
+    }
+  }
+}

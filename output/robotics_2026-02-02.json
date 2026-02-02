@@ -1,0 +1,444 @@
+{
+  "newsletter": {
+    "name": "Manufacturing Robotics Weekly",
+    "type": "robotics",
+    "generated_at": "2026-02-02T14:05:10.032642",
+    "item_count": 14
+  },
+  "items": [
+    {
+      "title": "What evolving robot standards mean for implementations of cobots",
+      "url": "https://www.therobotreport.com/evolving-robot-standards-mean-cobots-implementations/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-02-01T13:35:05",
+      "summary": "New standards for force- and power-limited robots are intended to improve safety. Source: IDEC Industrial automation continues as a fast-growing market, with manufacturers and end users of all types eager to reap the benefits of reliable and rapid execution for many types of tasks. Some people think of autonomous vehicles, remote-controlled drones, and software \u201cbots\u201d as robots, but industrial robots and cobots are characterized as programmable manipulators of three or more axes. Many industries...",
+      "content": "New standards for force- and power-limited robots are intended to improve safety. Source: IDEC Industrial automation continues as a fast-growing market, with manufacturers and end users of all types eager to reap the benefits of reliable and rapid execution for many types of tasks. Some people think of autonomous vehicles, remote-controlled drones, and software \u201cbots\u201d as robots, but industrial robots and cobots are characterized as programmable manipulators of three or more axes. Many industries use traditional robots, which have experienced a 7% compound annual growth rate (CAGR) over the past five years, according to the International Federation of Robotics ( IFR ). However, the market for force- and power-limited robots &#8212; commonly referred to as collaborative robots or cobots &#8212; in its infancy, and the IFR predicted that its growth rate could be much stronger. While both robots and cobot arms include provisions to protect workers, cobots are designed to work side-by-side with plant personnel. Various safety standards have been established for both types of systems, and each category has been independently recognized (Figure 1). Figure 1: Robots and cobot standards are evolving, and this will affect how designers and original equipment manufacturers comply with safety requirements. Source: IDEC The safety requirements for all types of robots are evolving. Designers, original equipment manufacturers (OEMs), and end users need to know what the new standards mean for their implementations, as explained below. Standards differentiate for industrial robots and cobots The classic industrial robot most people think of is large, powerful, and fast. It is ideal for applications that are difficult or dangerous for people, such as manipulating large payloads, repetitively performing accurate tasks, and/or operating in challenging environments. There are many variations of these robots and the tools/grippers they use, but common examples of the tasks they perform are welding , painting, assembly , and material handling . These robots are typically located within safety-fenced work cells to keep plant personnel away from them when in operation. Cobots are a subcategory of robots that are relatively lightweight and designed to collaborate with humans. Because speed and force are limited, such systems can operate in shared workspaces to safely to assist with, or completely perform, many tasks. In addition, cobots are designed to be easily configured or programmed so they can be frequently re-deployed for multiple applications. Cobot makers say this feature democratizes the implementation of these systems. Users often configure these robots by manually directing the manipulator arm through the desired operation. These characteristics enable cobots to be introduced into manual work environments where no such automation previously existed. Previously, the ISO 10218 series standard applied to industrial robots and robot systems, while the ISO/TS 15066 standard addressed collaborative systems. A revised ISO 10218 series was published in 2025, with ISO 10218-1 addressing industrial robots, and ISO 10218-2 covering industrial robot systems, robot applications, and robot cells. Effectively, all robot types are integrated into one standard series, without the previous robot/cobot distinction and differentiation. The same rules apply to all industrial robots, and the term \u201ccollaborative robot\u201d is eliminated. Instead, the new ISO 10218 standards now emphasize that when an operator and a robot coexist or collaborate in the same space, then the entire system must be treated as a collaborative application . Note that the industrial robot category includes the manipulator\u2014consisting of one or more arms\u2014and the associated controller and teach pendant. An industrial robot system includes the robot end effector or tool, work products, associated machinery, safeguards and sensing devices, and guard hardware. A new class of robot is defined With the new standard, two classes of robots are defined: Robot Class I: Defined as robots designed for a total manipulator mass of 10 kg (22 lb.) and under, with a maximum force of 50N and less, and a maximum speed of 250mm/s (0.5 mph) and under. Robot Class II: Defined as robots designed for a total manipulator mass, a maximum force, and/or a maximum speed exceeding any of the values for a Robot Class I. Therefore, Robot Class I involves smaller, lighter robots more likely to work around humans, while Class II are larger, heavier robots. The standard allows Class I robots to do certain collaborative tasks without any safety features. For Class II robots to be used in collaborative applications, one or more of the following safety-oriented technologies must be added, depending on the application: Speed and separation monitoring (SSM): Ensures a minimum distance between robot and human is maintained during operation; this can be accomplished by integrating a safety laser scanner into the application, which uses reflected laser beams to detect if a human or other object is present. Power and force limiting (PFL): Ensures that even if a robot and human come into contact, the human is unharmed. Hand-guided controls (HGC): Workers control the robot motion for a collaborative portion of the task, and the robot executes an automated task once the worker presses a hold-to-run button. Both classes of robots will need certain common safety functionality, such as hardwired emergency stop (estop) buttons. The larger Class II robots will have a greater need for protected/restricted zone safety devices, which can include cage door interlock switches, light curtain sensors , safety laser scanners, and other forms of a presence-sensing device (PSD). These measures are imperative to detect workers in the protective/restricted zone of a robot. Additionally, most robots include some option for a teach pendant, which is a type of human-machine interface ( HMI ) usually cable-connected in such a way as to allow the user to move about with it a bit. Teaching pendant requirements for safe cobots Robot teach pendants may have digital elements but also might need some specific hardwired devices, depending on the applications. Safety functions for these applications are required to be hardwired, as opposed to touchscreen controls. A key example of a hardwired function other than an e-stop is an enabling switch. Figure 2: The IDEC HExB series of three-position enabling switches comply with IEC 60947-5-8, permitting robots to operate only when users are consciously holding the switch in a mid-position. Equipment will stop if the operator squeezes too hard or releases the switch. Source: IDEC An enabling switch\u2014sometimes colloquially known as a \u201cdead man\u2019s switch\u201d or more formally as a three-position enabling (3PE) device\u2014is a hardwired switch arranged on the teaching pendant where it is convenient for the user to grip it. When the operator desires the robot to run, they must positively hold the enable switch in a mid-position to enable hold-to-run control functionality. Letting go of the enabling switch for any reason, or gripping the switch too tightly such as in a panic or electric shock situation, immediately stops robot operation. These switches are specified by IEC 60947-5-8 (Figure 2). For Class II robots, it is mandatory for the teaching pendant to include a 3PE device due to the hazard involved if an operator is in proximity to the robot in manual mode. For Class I robots, a risk assessment must be performed to see if this is necessary. For Class I robots, if sufficient risk reduction is achieved through a risk assessment, the use of 3PE switch is not required. However, under the new standard for Class I robots, if a teach pendant is used to initiate motion for common manual tasks such as maintenance or troubleshooting, then integrating a 3PE switch is likely the best way to achieve compliance. Or, if the robot is operated using HGC, then a 3PE switch may be a good option. How interface designs can comply with the new standard Robot OEMs typically create their own teach pendants, whether fully customized, or assembled from other commercial off-the-shelf (COTS) components, or a combination of the two. Smaller robots with fewer axes just need basic pendants, but larger and more capable robots often have pendants with touchscreen HMIs. Moving forward, these OEMs may need to adapt their designs to include 3PE switches that comply with IEC 60947-5-8. This could involve costly revisions to custom hardware. However, there is another option on the market that can help OEMs deliver a complete and safe solution, while taking advantage of the latest COTS interface technology. Modern consumer-grade tablets already offer the display size and computing power needed to provide a rich user interface and visualization experience for many types of automation. These could be useful for industrial applicaitons, but this is only possible if the tablet can be physically protected, supplied with power, connected to networking, and incorporate the necessary hardwired safety/control components. Figure 3: The IDEC HT4P Safety Commander can be used by OEMs to incorporate digital HMI capabilities using tablets, while complying with ISO 10218 series standards for safety. Source: IDEC A new mobile device holder is available to meet all these requirements (Figure 3). Key features include: Incorporates wired power and networking, a hardwired estop with LED indicator and retrofittable guard, and a hardwired 3PE switch Capability to integrate other hardwired devices such as a manual/automatic standard or keyed mode selector switch, start/restart switch/ reset switch, and/or a normal stop switch Adjustable grippers to hold tablets up to 33 cm (13 in.) Ability to lock the holder in vertical/portrait or horizontal/landscape orientation. Can be handheld by left- and right-handed users, with a hand or shoulder strap to minimize fatigue. Rated IP54, with a wide operating temperature range, and drop resistance tested to 1.2 m (3.9 ft.) Available cable lengths of 5 through 20 m (16.4 to 65.6 ft.), and a wall-mount bracket. Using this mobile device holder for robotics applications, OEMs can quickly and economically develop and deploy teach pendants compliant with the ISO 10218 series standards while using inexpensive tablets to provide a comprehensive HMI. Standards change to keep robots safe Robot safety standards are changing and are expected to impact the rapidly growing market share of cobots. However, OEMs can approach this evolution as an opportunity to provide safer equipment, with greater features that differentiate their offerings. Standards-compliant 3PE switches and mobile device holders are cost-effective COTS products that can add significant flexibility and capability to robot designs, while ensuring compliance with associated safety standards. About the author Luiz Shida is a marketing specialist at IDEC Corp. and responsible for safety product marketing. Since joining IDEC Japan headquarters more than seven years ago, he has become certified as a safety sub-assessor in Japan. Shida is also a specialist in safety products. The post What evolving robot standards mean for implementations of cobots appeared first on The Robot Report .",
+      "author": "Luiz Shida, IDEC",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "arms / manipulators",
+        "cobot arms",
+        "collaborative robots",
+        "controllers",
+        "grippers",
+        "motion control",
+        "news",
+        "safety & security",
+        "cobot"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7531237550803571
+    },
+    {
+      "title": "Top 10 robotics developments of January 2026",
+      "url": "https://www.therobotreport.com/top-10-robotics-developments-of-january-2026/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-31T13:35:49",
+      "summary": "The robotics industry hit the ground running in January 2026. The year kicked off with CES, which brought an avalanche of news, and the momentum continued with companies hitting milestones and debuting new systems. Here are the 10 most popular articles on The Robot Report in the past month. Subscribe to The Robot Report Newsletter and listen to The Robot Report Podcast to stay up to date on the latest robotics developments. 10. Doosan Bobcat unveils RX3 autonomous concept loader At CES, Doosan B...",
+      "content": "The robotics industry hit the ground running in January 2026. The year kicked off with CES, which brought an avalanche of news, and the momentum continued with companies hitting milestones and debuting new systems. Here are the 10 most popular articles on The Robot Report in the past month. Subscribe to The Robot Report Newsletter and listen to The Robot Report Podcast to stay up to date on the latest robotics developments. 10. Doosan Bobcat unveils RX3 autonomous concept loader At CES, Doosan Bobcat Inc. introduced a suite of AI-powered, autonomous, and electrified technologies such as the Rogue X3 concept loader. It is designed to simplify operations and increase productivity for construction equipment. The electric-powered Bobcat RX3 is in its third generation. Read more . 9. Neocis\u2019 Yomi platform completes over 100,000 osteotomies Neocis said in January 2026 that clinicians have completed numerous bone surgeries using the Yomi platform. The company also confirmed that the first clinical cases using Yomi S, its second-generation robotic system, have now been successfully completed by Dr. Jay Neugarten. Read more . 8. Four physical AI predictions for January 2026 \u2014 and beyond, from UR The robotics industry is evolving faster than ever. Anders Billes\u00f8 Beck, vice president for AI robotics products at Universal Robots discusses four trends that could redefine how physical AI creates value. They include smarter math. Read more . 7. State of robotics industry report 2026 The robotics industry found itself at an inflection point in January 2026. After years of innovation, bold claims, and headline-grabbing demonstrations, the conversation is shifting from what robots could do to what they can reliably do in the real world. Read more . 6. CES 2026 robotics recap; industry experts make predictions In Episode 226 of The Robot Report Podcast, hosts Steve Crowe and Mike Oitzman discuss the latest robotics news and highlights from CES 2026. Steve attended the event, formerly the Consumer Electronics Show, and he shares his assessment of products demonstrated in Las Vegas. Read more . 5. Wing is bringing drone delivery to 150 more Walmart stores Wing Aviation and Walmart plan to expand drone deliveries to 150 more Walmart stores over the next year. Wing said this will give more than 40 million Americans access to the service. The partners plan will establish a network of over 270 drone delivery locations by 2027. Read more . 4. Boston Dynamics, Google reunite on next-gen Atlas humanoid You can sell Boston Dynamics, but you can\u2019t fully quit it. Nearly a decade after Google sold the robotics company to SoftBank, the two are working together again, announcing in January 2026 that DeepMind will help make the Atlas humanoid smarter with its Gemini Robotics foundation models. Read more . 3. Microsoft Research reveals Rho-alpha VLA model for robots To be useful in more dynamic environments, robots need AI trained on a variety of sensory inputs. Microsoft announced Rho-alpha, or \u03c1\u03b1, the first robotics model derived from its Phi series of models. Vision-language-action models (VLAs) enable physical AI systems to perceive, reason, and act with increasing levels of autonomy, noted Microsoft. Read more . 2. Boston Dynamics shows Atlas humanoid working at Georgia Hyundai plant in January 2026 On 60 Minutes , Boston Dynamics demonstrated how AI is enabling its Atlas robot to conduct tasks at new factory of parent company Hyundai near Savannah, Ga. As much as $4.6 billion was invested in humanoid developers in 2025. Read more . 1. Amazon acquires Rightbot, adds to Robotics Delivery and Packaging Innovation team Truck loading and unloading is a task ripe for automation because it is strenuous and happens in all kinds of weather. However, competition is stiff. Amazon has acquired Rightbot, which has developed a robot for unstructured load handling. Read more . The post Top 10 robotics developments of January 2026 appeared first on The Robot Report .",
+      "author": "Brianna Wessling",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "artificial intelligence",
+        "artificial intelligence / cognition",
+        "design / development",
+        "events",
+        "financial",
+        "humanoids",
+        "investments",
+        "mergers & acquisitions",
+        "news"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7317060963149802
+    },
+    {
+      "title": "Robust and Generalized Humanoid Motion Tracking",
+      "url": "https://arxiv.org/abs/2601.23080v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-30T15:27:43",
+      "summary": "Learning a general humanoid whole-body controller is challenging because practical reference motions can exhibit noise and inconsistencies after being transferred to the robot domain, and local defects may be amplified by closed-loop execution, causing drift or failure in highly dynamic and contact-rich behaviors. We propose a dynamics-conditioned command aggregation framework that uses a causal temporal encoder to summarize recent proprioception and a multi-head cross-attention command encoder to selectively aggregate a context window based on the current dynamics. We further integrate a fall recovery curriculum with random unstable initialization and an annealed upward assistance force to improve robustness and disturbance rejection. The resulting policy requires only about 3.5 hours of motion data and supports single-stage end-to-end training without distillation. The proposed method is evaluated under diverse reference inputs and challenging motion regimes, demonstrating zero-shot ...",
+      "content": "Learning a general humanoid whole-body controller is challenging because practical reference motions can exhibit noise and inconsistencies after being transferred to the robot domain, and local defects may be amplified by closed-loop execution, causing drift or failure in highly dynamic and contact-rich behaviors. We propose a dynamics-conditioned command aggregation framework that uses a causal temporal encoder to summarize recent proprioception and a multi-head cross-attention command encoder to selectively aggregate a context window based on the current dynamics. We further integrate a fall recovery curriculum with random unstable initialization and an annealed upward assistance force to improve robustness and disturbance rejection. The resulting policy requires only about 3.5 hours of motion data and supports single-stage end-to-end training without distillation. The proposed method is evaluated under diverse reference inputs and challenging motion regimes, demonstrating zero-shot transfer to unseen motions as well as robust sim-to-real transfer on a physical humanoid robot.",
+      "author": "Yubiao Ma, Han Yu, Jiayin Xie, Changtai Lv, Qiang Luo...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23080v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23080v1.pdf",
+        "categories": [
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Yubiao Ma",
+          "Han Yu",
+          "Jiayin Xie",
+          "Changtai Lv",
+          "Qiang Luo",
+          "Chi Zhang",
+          "Yunpeng Yin",
+          "Boyang Xing",
+          "Xuemei Ren",
+          "Dongdong Zheng"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.711942703858135
+    },
+    {
+      "title": "About an Automating Annotation Method for Robot Markers",
+      "url": "https://arxiv.org/abs/2601.22982v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-30T13:44:56",
+      "summary": "Factory automation has become increasingly important due to labor shortages, leading to the introduction of autonomous mobile robots for tasks such as material transportation. Markers are commonly used for robot self-localization and object identification. In the RoboCup Logistics League (RCLL), ArUco markers are employed both for robot localization and for identifying processing modules. Conventional recognition relies on OpenCV-based image processing, which detects black-and-white marker patterns. However, these methods often fail under noise, motion blur, defocus, or varying illumination conditions. Deep-learning-based recognition offers improved robustness under such conditions, but requires large amounts of annotated data. Annotation must typically be done manually, as the type and position of objects cannot be detected automatically, making dataset preparation a major bottleneck. In contrast, ArUco markers include built-in recognition modules that provide both ID and positional i...",
+      "content": "Factory automation has become increasingly important due to labor shortages, leading to the introduction of autonomous mobile robots for tasks such as material transportation. Markers are commonly used for robot self-localization and object identification. In the RoboCup Logistics League (RCLL), ArUco markers are employed both for robot localization and for identifying processing modules. Conventional recognition relies on OpenCV-based image processing, which detects black-and-white marker patterns. However, these methods often fail under noise, motion blur, defocus, or varying illumination conditions. Deep-learning-based recognition offers improved robustness under such conditions, but requires large amounts of annotated data. Annotation must typically be done manually, as the type and position of objects cannot be detected automatically, making dataset preparation a major bottleneck. In contrast, ArUco markers include built-in recognition modules that provide both ID and positional information, enabling automatic annotation. This paper proposes an automated annotation method for training deep-learning models on ArUco marker images. By leveraging marker detection results obtained from the ArUco module, the proposed approach eliminates the need for manual labeling. A YOLO-based model is trained using the automatically annotated dataset, and its performance is evaluated under various conditions. Experimental results demonstrate that the proposed method improves recognition performance compared with conventional image-processing techniques, particularly for images affected by blur or defocus. Automatic annotation also reduces human effort and ensures consistent labeling quality. Future work will investigate the relationship between confidence thresholds and recognition performance.",
+      "author": "Wataru Uemura, Takeru Nagashima",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22982v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22982v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Wataru Uemura",
+          "Takeru Nagashima"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7104131897705853
+    },
+    {
+      "title": "Robot Talk Episode 142 \u2013 Collaborative robot arms, with Mark Gray",
+      "url": "https://robohub.org/robot-talk-episode-142-collaborative-robot-arms-with-mark-gray/",
+      "source_type": "rss",
+      "source_name": "Robohub",
+      "published_at": "2026-01-30T13:30:12",
+      "summary": "Claire chatted to Mark Gray from Universal Robots about their lightweight robotic arms that work alongside humans. Mark Gray has worked in automation for the last 30 years, first involved in machine vision and robotics and finally collaborative robots or cobots. As country manager, Mark was the first person to work for Universal Robots in the UK and has carried out projects with many research institutes such as the Advanced Manufacturing Research Centre (AMRC), The Manufacturing Technology Centr...",
+      "content": "Claire chatted to Mark Gray from Universal Robots about their lightweight robotic arms that work alongside humans. Mark Gray has worked in automation for the last 30 years, first involved in machine vision and robotics and finally collaborative robots or cobots. As country manager, Mark was the first person to work for Universal Robots in the UK and has carried out projects with many research institutes such as the Advanced Manufacturing Research Centre (AMRC), The Manufacturing Technology Centre (MTC), the National Robotarium, and Bristol Robotics Lab.",
+      "author": "Robot Talk",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "robohub",
+        "interviews"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7101939430017361
+    },
+    {
+      "title": "RobCo raises Series C funding to scale industrial automation",
+      "url": "https://www.therobotreport.com/robco-raises-100m-scale-industrial-automation/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-29T18:42:52",
+      "summary": "RobCo applies physical AI and modular hardware to industrial automation. Source: Lightspeed Venture Partners The new year is bringing fresh funding across the robotics landscape. RobCo GmbH today said it has raised Series C funding of $100 million to advance its physical AI roadmap, expand enterprise deployments, and deepen its presence in the U.S. market. \u201cWith $100 million of additional funding, we will become the dominant AI robotics company for manufacturing in the U.S. and Europe,\u201d stated R...",
+      "content": "RobCo applies physical AI and modular hardware to industrial automation. Source: Lightspeed Venture Partners The new year is bringing fresh funding across the robotics landscape. RobCo GmbH today said it has raised Series C funding of $100 million to advance its physical AI roadmap, expand enterprise deployments, and deepen its presence in the U.S. market. \u201cWith $100 million of additional funding, we will become the dominant AI robotics company for manufacturing in the U.S. and Europe,\u201d stated Roman H\u00f6lzl, founder and CEO of RobCo. \u201cThis will allow us to execute on our purpose of automating the ordinary, so humans can do the extraordinary.\u201d Founded in 2020, RobCo said it develops robotic systems that bring learning and autonomy into industrial operations. The Munich-based company said its Autonomous Manufacturing Platform combines modular hardware with a physical AI software stack that enables fast deployment, continuous improvement, and application-specific performance. RobCo builds full-stack platform for autonomy RobCo asserted that it &#8220;has been vertically integrated from Day 1, developing hardware and software as a single full-stack platform.&#8221; The platform combines perception, motion planning, and self-learning methods to enable increasingly autonomous robot operations inside real production environments. The company said its robots can acquire task-specific skills through demonstration and self-learning rather than manual programming. This allows for rapid deployment and iteration, as well as easier adaptation to complex or variable processes. RobCo claimed that it acts as a &#8220;single pane of glass&#8221; for customers. In addition, RobCo said it designed its system &#8220;to reduce friction between today\u2019s processes and end-to-end automation, allowing teams to focus less on setting up and maintaining systems and more on their core business processes and value drivers.&#8221; RobCo has expanded into U.S. manufacturing. Source: RobCo Deployments scale for U.S. enterprises RobCo delivers its technology through a recurring robotics-as-a-service ( RaaS ) model, which it said helps companies automate manual tasks while minimizing operational complexity and risk. The company supports a wide range of workflows, including machine tending , palletizing , dispensing, and welding . Last year, RobCo expanded into the U.S., and it now operates in San Francisco and Austin. The U.S. has become both a strategic priority and a major growth market as manufacturers accelerate automation efforts in response to labor constraints, reshoring initiatives, and rising operational complexity, the company noted. RobCo added that its robots are deployed across a range of industrial environments, from large global manufacturers such as BMW to companies including DynaEnergetics, Fabricated Extrusion Company, T-Systems, and Rosenberger. Lightspeed doubles down on industrial robotics Lightspeed Venture Partners and Lingotto Innovation led RobCo&#8217;s Series C round. Other participants included Sequoia Capital, Greenfield Partners, Kindred Capital, Leitmotif, and The Friedkin Group. \u201cAfter leading RobCo\u2019s Series B , we\u2019re excited to double down and co-lead this $100 million round,\u201d said Alexander Schmitt, a partner at Lightspeed. &#8220;Our bar is exceptionally high, and RobCo has continued to raise the standard for what modern robotics can look like in real-world production.&#8221; \u201cRobCo has what it takes to build a global champion: systems that already deliver in industrial environments today and a platform grounded in physical AI that can scale across use cases and geographies,&#8221; he added. RobCo said its venture capital investors have experience building category-defining technology companies, while its industrial investors use deep connections in industry to back growth companies over the long term. \u201cManufacturing is entering a new phase where autonomy will be a decisive advantage,&#8221; said Morgan Samet, managing partner and co-head of Lingotto Innovation, an investment management company now owned by Exor. &#8220;RobCo stands out because it brings physical AI into real production environments, combining proven deployment today with a clear, step-by-step path toward higher autonomy &#8212; allowing learning systems to support people where it matters most on the factory floor.\u201d The post RobCo raises Series C funding to scale industrial automation appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "artificial intelligence",
+        "artificial intelligence / cognition",
+        "cobot arms",
+        "collaborative robots",
+        "industrial robots",
+        "investments",
+        "manufacturing",
+        "motion control",
+        "news"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6934181497323909
+    },
+    {
+      "title": "ABB Robotics seeks to standardize measurement of robot energy consumption",
+      "url": "https://www.therobotreport.com/abb-robotics-standardizes-measurement-robot-energy-consumption/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-29T15:16:28",
+      "summary": "ABB says that automating more of construction can reduce carbon emissions. Source: ABB Robotics The potential for industrial robots to make production more efficient and environmentally sustainable is commonly cited as a potential benefit of automation. However, this has been difficult to quantify and compare. ABB Robotics this week announced an initiative to develop a global, standardized method for measuring the energy consumption and efficiency of industrial robots. \u201cWith no global standard c...",
+      "content": "ABB says that automating more of construction can reduce carbon emissions. Source: ABB Robotics The potential for industrial robots to make production more efficient and environmentally sustainable is commonly cited as a potential benefit of automation. However, this has been difficult to quantify and compare. ABB Robotics this week announced an initiative to develop a global, standardized method for measuring the energy consumption and efficiency of industrial robots. \u201cWith no global standard currently in place, it\u2019s a challenge for customers to compare the energy consumption of different robots and choose the most energy efficient solution.\u201d said Gianluca Brotto, head of sustainability at ABB Robotics. \u201cUnlike other products such as fridges, TVs, washing machines and motors, which have clearly defined standards for how to measure and compare energy efficiency, there is no standard for measuring the energy consumption of a robot,&#8221; he noted. &#8220;This initiative will empower customers to make informed decisions and help the industry reduce its carbon footprint.\u201d Measurement the first step to greater energy efficiency More than 4 million industrial robots are operating worldwide, and automation is expanding into new sectors, according to the International Federation of Robotics ( IFR ). Reducing the environmental impact of robotic systems is paramount, as companies aim to reduce their emissions from energy consumption in line with the Paris Agreement, noted ABB Robotics. Internal ABB studies found that more than 70% of its customer robots&#8217; carbon footprint comes from electricity usage during their operational phase. The company has worked with the Swedish Institute for Standards ( SIS ) to develop a proposal with experts from different robot manufacturers and research institutes in 11 countries. This led to the creation of an International Organization for Standardization ( ISO ) technical specification for global adoption due to be completed by August 2026. ABB Robotics hails global specification &#8220;This effort marks a critical step toward improving transparency and supporting the global transition to more sustainable manufacturing,&#8221; stated ABB Robotics. &#8220;With a new, global ISO technical specification in place, industrial robotics customers will be able to clearly choose the most energy-efficient robot for the job.&#8221; ABB Robotics&#8217; portfolio includes industrial robots, force- and power-limited cobot arms , and autonomous mobile robots ( AMRs ), designed and orchestrated by its software and AI. It launched an Energy Efficiency Service in 2024. The company said its &#8220;autonomous versatile robotics&#8221; (AVR) and ecosystem help businesses of all sizes and sectors &#8212; from automotive to electronics and logistics \u2013 to become more resilient, flexible, and efficient. In October 2025, ABB Group announced plans to sell its robotics unit to SoftBank Group for $5.3 billion. ABB Robotics has about 7,000 employees, and its U.S. headquarters and factory are in Auburn Hills, Mich. The post ABB Robotics seeks to standardize measurement of robot energy consumption appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "6-axis",
+        "batteries / power supplies",
+        "industrial robots",
+        "logistics",
+        "manufacturing",
+        "news",
+        "abb robotics",
+        "iso",
+        "standards"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6903467210815972
+    },
+    {
+      "title": "OnRobot to share automation roadmap advice in Dallas",
+      "url": "https://www.therobotreport.com/onrobot-share-automation-roadmap-advice-in-dallas/",
+      "source_type": "rss",
+      "source_name": "The Robot Report",
+      "published_at": "2026-01-29T13:25:35",
+      "summary": "OnRobot and FANUC will demonstrate applications such as machine tending in Dallas. Source: OnRobot Manufacturers in North Texas face the same struggles with hiring and retaining skilled workers as companies worldwide, but robotics can help. OnRobot A/S plans to host an event in Dallas on Feb. 19 that it said will bring practical automation solutions directly to the region&#8217;s manufacturing community. Kristian Hulgard, OnRobot \u201cAs one of the largest and fastest-growing manufacturing hubs in t...",
+      "content": "OnRobot and FANUC will demonstrate applications such as machine tending in Dallas. Source: OnRobot Manufacturers in North Texas face the same struggles with hiring and retaining skilled workers as companies worldwide, but robotics can help. OnRobot A/S plans to host an event in Dallas on Feb. 19 that it said will bring practical automation solutions directly to the region&#8217;s manufacturing community. Kristian Hulgard, OnRobot \u201cAs one of the largest and fastest-growing manufacturing hubs in the country, Dallas\u2013Fort Worth is feeling the strain of today\u2019s labor market more than most,\u201d said Kristian Hulgard, general manager for the Americas at OnRobot. \u201cMany manufacturers here are running strong order books but simply can\u2019t find enough skilled operators, machinists, or technicians. This roadmap event is about showing practical, proven ways automation can help fill those gaps.\u201d Founded in 2018, OnRobot was formed with the merger of three end-of-arm tooling ( EOAT ) companies: Perception Robotics, OptoForce, and OnRobot. The Odense, Denmark-based company also acquired Purple Robotics in 2018 and Blue Workforce in 2019. Texas manufacturers have big needs Manufacturers across North Texas are facing persistent hiring challenges. A lack of available applicants and shortages of candidates with the right technical skills remain among the top barriers to hiring for manufacturers , according to the Federal Reserve Bank of Dallas\u2019 Texas Business Outlook Survey . Many companies also reported increased competition for labor and rising wage pressures. These challenges are forcing manufacturers to rethink how they maintain output, meet customer demand, and scale operations, said OnRobot. The provider of hardware and software for collaborative applications said its grippers can help manufacturers optimize processes such as palletizing, pick and place, sanding, and screwdriving. OnRobot offers firsthand look at applications At the \u201cBuild your Automation Roadmap\u201d event, attendees will see live demonstrations of FANUC robot arms equipped with OnRobot EOAT for common applications such as machine tending , material handling , assembly , packaging , and quality inspection . Automation experts will be on hand to share real-world experience in robotics, tooling, and integration. Their goal is to help manufacturers move from curiosity to confident implementation, the company said. Brent Lindell, FANUC America Kristian Hulgard , general manager, Americas, at OnRobot, will deliver an opening keynote on macrotrends affecting U.S. automation growth, why adoption is accelerating across manufacturing, and what it means for Dallas operations. Brent Lindell , district manager at FANUC America , will provide live demonstrations of FANUC robots, identifying the practical approach to the automation journey. Ruben Lanz, Adaptive Vision and Robotics Ruben Lanz , vice president at Adaptive Vision and Robotics , will explain how the right components, sourcing strategy, and distribution support can keep automation projects on track. Derrell Guillory, AWC Derrell Guillory, technical account manager at AWC , will discuss why system integration matters, how integrators add value, and how to reduce risk while accelerating deployment. Registration including lunch is free, but space is limited. To learn more, visit: https://en.onrobot.info/industrial_openhouse The post OnRobot to share automation roadmap advice in Dallas appeared first on The Robot Report .",
+      "author": "The Robot Report Staff",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "the-robot-report",
+        "6-axis",
+        "arms / manipulators",
+        "cobot arms",
+        "collaborative robots",
+        "end effectors / grippers",
+        "end of arm tooling",
+        "grippers",
+        "manufacturing",
+        "news"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6886966714025298
+    },
+    {
+      "title": "Treasures found on HS2 route stored in secret warehouse",
+      "url": "https://www.bbc.com/news/articles/c93v21q5xdvo",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-01T22:14:39",
+      "summary": null,
+      "content": null,
+      "author": "breve",
+      "score": 81,
+      "num_comments": 50,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46849926,
+        "hn_url": "https://news.ycombinator.com/item?id=46849926",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5735179198006671
+    },
+    {
+      "title": "Video Friday: Multitasking Robots Smoothly Do the Things Together",
+      "url": "https://spectrum.ieee.org/multitasking-robot",
+      "source_type": "rss",
+      "source_name": "IEEE Spectrum Robotics",
+      "published_at": "2026-01-30T18:30:02",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1\u20135 June 2026, VIENNA Enjoy this week\u2019s videos! Westwood Robotics is proud to announce a major update: THEMIS Gen2.5, the world\u2019s first commercial full-size humanoid robot capable of manipulation on the move! Now that you mention it, the bit a...",
+      "content": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1\u20135 June 2026, VIENNA Enjoy this week\u2019s videos! Westwood Robotics is proud to announce a major update: THEMIS Gen2.5, the world\u2019s first commercial full-size humanoid robot capable of manipulation on the move! Now that you mention it, the bit at the end where the robot picks up a can while walking? I haven\u2019t seen a lot of that. [ Westwood Robotics ] Last year, Helix showed that a single neural network could control a humanoid\u2019s upper body from pixels. Today, Helix 02 extends that control to the entire robot\u2014walking, manipulating, and balancing as one continuous system. Why yes, I am a normal human and this is very similar to the default state of my kitchen. [ Figure ] Harry Goldstein , our Editor in Chief, went to meet Sprout from Fauna Robotics. He was skeptical at first, but Sprout won him over with its robotic charm. [ Fauna Robotics ] Kimberly Elenberg is showing how the data collected by robotic responders can save lives in mass casualty events. [ Carnegie Mellon University ] The educational robotics market is tough, but you\u2019ve got to hand it to Sphero \u2014going strong since 2011, which is pretty incredible. [ Sphero ] If you want to fly in crazy conditions, you have to flight test in those conditions. Here\u2019s how and why we do it! [ Zipline ] I want to be impressed more by the idea of 3D printing skin and skeleton at the same time, but come on, animals have been doing that for literally hundreds of years without even trying. [ JSK Lab, University of tokyo ] If there is a market for small bipedal robots that can both ski and be dinosaurs, LimX has it covered. [ LimX ] How do you remotely control robots that change shape? We introduce a method for user-guided control of modular robots using reconfigurable joint-space joysticks (JoJo) and real-time optimization. We demonstrate this system on two different robots, Mori3 and Roombots. The video shows examples of these robots performing object manipulation, locomotion, human-assistance, and reconfiguration, controlled by our system. [ EPFL Reconfigurable Robotics Lab ] via [ Nature Communications ] Quadrotor Biplane Tailsitter (QBiT) UAVs at four different sizes (4, 12, 25, and 50 lbs) developed at Texas A&M University. QBiT combines the mechanical simplicity of a quadrotor drone with the cruise efficiency of a fixed-wing aircraft. [ Texas A&M University ] There\u2019s a new DARPA challenge for \u201cnovel drone designs that can carry payloads more than four times their weight, which would revolutionize the way we use drones across all sectors.\u201d [ DARPA ] Here are a couple of plenary and keynote talks from IROS 2025, from Marco Hutter and Karinne Ramirez Amaro . [ IROS 2025 ]",
+      "author": "Evan Ackerman",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "ieee-spectrum-robotics",
+        "humanoid-robots",
+        "video-friday",
+        "commercial-robots",
+        "drones",
+        "educational-robots",
+        "bipedal-robots"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6210045662100456,
+      "final_score": 0.5630575756534131
+    },
+    {
+      "title": "MOSAIC: Modular Scalable Autonomy for Intelligent Coordination of Heterogeneous Robotic Teams",
+      "url": "https://arxiv.org/abs/2601.23038v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-30T14:46:15",
+      "summary": "Mobile robots have become indispensable for exploring hostile environments, such as in space or disaster relief scenarios, but often remain limited to teleoperation by a human operator. This restricts the deployment scale and requires near-continuous low-latency communication between the operator and the robot. We present MOSAIC: a scalable autonomy framework for multi-robot scientific exploration using a unified mission abstraction based on Points of Interest (POIs) and multiple layers of autonomy, enabling supervision by a single operator. The framework dynamically allocates exploration and measurement tasks based on each robot's capabilities, leveraging team-level redundancy and specialization to enable continuous operation. We validated the framework in a space-analog field experiment emulating a lunar prospecting scenario, involving a heterogeneous team of five robots and a single operator. Despite the complete failure of one robot during the mission, the team completed 82.3% of a...",
+      "content": "Mobile robots have become indispensable for exploring hostile environments, such as in space or disaster relief scenarios, but often remain limited to teleoperation by a human operator. This restricts the deployment scale and requires near-continuous low-latency communication between the operator and the robot. We present MOSAIC: a scalable autonomy framework for multi-robot scientific exploration using a unified mission abstraction based on Points of Interest (POIs) and multiple layers of autonomy, enabling supervision by a single operator. The framework dynamically allocates exploration and measurement tasks based on each robot's capabilities, leveraging team-level redundancy and specialization to enable continuous operation. We validated the framework in a space-analog field experiment emulating a lunar prospecting scenario, involving a heterogeneous team of five robots and a single operator. Despite the complete failure of one robot during the mission, the team completed 82.3% of assigned tasks at an Autonomy Ratio of 86%, while the operator workload remained at only 78.2%. These results demonstrate that the proposed framework enables robust, scalable multi-robot scientific exploration with limited operator intervention. We further derive practical lessons learned in robot interoperability, networking architecture, team composition, and operator workload management to inform future multi-robot exploration missions.",
+      "author": "David Oberacker, Julia Richer, Philip Arm, Marvin Grosse Besselmann, Lennart Puck...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23038v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23038v1.pdf",
+        "categories": [
+          "cs.RO"
+        ],
+        "all_authors": [
+          "David Oberacker",
+          "Julia Richer",
+          "Philip Arm",
+          "Marvin Grosse Besselmann",
+          "Lennart Puck",
+          "William Talbot",
+          "Maximilian Schik",
+          "Sabine Bellmann",
+          "Tristan Schnell",
+          "Hendrik Kolvenbach",
+          "R\u00fcdiger Dillmann",
+          "Marco Hutter",
+          "Arne Roennau"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.5993150684931507,
+      "final_score": 0.5510516676641254
+    },
+    {
+      "title": "Ode to Very Small Devices",
+      "url": "https://spectrum.ieee.org/poetry-for-engineers-ode",
+      "source_type": "rss",
+      "source_name": "IEEE Spectrum Robotics",
+      "published_at": "2026-01-30T19:02:06",
+      "summary": "As fairies for the Irish or leeks for Welsh, it\u2019s the secret lives of small hidden machines, their junctures, and networks that inspire me: Mystic hidden functionaries that make our made world live, brave little servo motors, whose couplers, whose eccentric fire-filled sensors are encased in bakelite with brass screws, who stare with red eyes, who gauge moisture, who notice tiny motions and respond, whose cooling fans call out in white-noise registers like older folk singers\u2013I can almost hear th...",
+      "content": "As fairies for the Irish or leeks for Welsh, it\u2019s the secret lives of small hidden machines, their junctures, and networks that inspire me: Mystic hidden functionaries that make our made world live, brave little servo motors, whose couplers, whose eccentric fire-filled sensors are encased in bakelite with brass screws, who stare with red eyes, who gauge moisture, who notice tiny motions and respond, whose cooling fans call out in white-noise registers like older folk singers\u2013I can almost hear their earlier songs, their strong voices now yelps, their thumps, their throbs, their hum, their chant\u2013, they click, they whir, they are sent spinning inside like teen girls giggling over boy bands. Most of all: ones waiting silently, concealing the surprise of their purpose, tasks not yet known, their true natures found only in connections. Those that listen, those that speak, those that control cool and heat, those that open doors, those that lock all the things that we\u2019ve forgot, those that hide, those that disclose those embedded in our clothes those in our ears, those in our hearts those that bring together, those a part of divisions, those like birds, like parrots that complete our words, those like fish, those that entrap, those that free, those that freely flap in fierce winds, those that replace what we have lost, those that see at night, in fog, in brightness, in fear, those that show what we hold dear, those that tempt, those that repel, those that buy and those that sell, those that keep us alive, those that don\u2019t, won\u2019t, couldn\u2019t and cannot. Parts of one mind, not mine, blunt orchestra of information, bundles of feelers reaching out to touch us, teach us, guide us to form better futures better understood. May your sounds, your chimes, your silence calm us. May your tender tendrils touch what we seek. Small parts becoming one being intertwined, a world in itself, remind us to be kind.",
+      "author": "Paul Jones",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "ieee-spectrum-robotics",
+        "poetry",
+        "robotics",
+        "type:departments",
+        "verse-becomes-electric"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.09360730593607308,
+      "final_score": 0.35257585412219705
+    },
+    {
+      "title": "Learning Geometrically-Grounded 3D Visual Representations for View-Generalizable Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2601.22988v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-30T13:53:53",
+      "summary": "Real-world robotic manipulation demands visuomotor policies capable of robust spatial scene understanding and strong generalization across diverse camera viewpoints. While recent advances in 3D-aware visual representations have shown promise, they still suffer from several key limitations, including reliance on multi-view observations during inference which is impractical in single-view restricted scenarios, incomplete scene modeling that fails to capture holistic and fine-grained geometric structures essential for precise manipulation, and lack of effective policy training strategies to retain and exploit the acquired 3D knowledge. To address these challenges, we present MethodName, a unified representation-policy learning framework for view-generalizable robotic manipulation. MethodName introduces a single-view 3D pretraining paradigm that leverages point cloud reconstruction and feed-forward gaussian splatting under multi-view supervision to learn holistic geometric representations....",
+      "content": "Real-world robotic manipulation demands visuomotor policies capable of robust spatial scene understanding and strong generalization across diverse camera viewpoints. While recent advances in 3D-aware visual representations have shown promise, they still suffer from several key limitations, including reliance on multi-view observations during inference which is impractical in single-view restricted scenarios, incomplete scene modeling that fails to capture holistic and fine-grained geometric structures essential for precise manipulation, and lack of effective policy training strategies to retain and exploit the acquired 3D knowledge. To address these challenges, we present MethodName, a unified representation-policy learning framework for view-generalizable robotic manipulation. MethodName introduces a single-view 3D pretraining paradigm that leverages point cloud reconstruction and feed-forward gaussian splatting under multi-view supervision to learn holistic geometric representations. During policy learning, MethodName performs multi-step distillation to preserve the pretrained geometric understanding and effectively transfer it to manipulation skills. We conduct experiments on 12 RLBench tasks, where our approach outperforms the previous state-of-the-art method by 12.7% in average success rate. Further evaluation on six representative tasks demonstrates strong zero-shot view generalization, with success rate drops of only 22.0% and 29.7% under moderate and large viewpoint shifts respectively, whereas the state-of-the-art method suffers larger decreases of 41.6% and 51.5%.",
+      "author": "Di Zhang, Weicheng Duan, Dasen Gu, Hongye Lu, Hai Zhang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.22988v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.22988v1.pdf",
+        "categories": [
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Di Zhang",
+          "Weicheng Duan",
+          "Dasen Gu",
+          "Hongye Lu",
+          "Hai Zhang",
+          "Hang Yu",
+          "Junqiao Zhao",
+          "Guang Chen"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.09246575342465754,
+      "final_score": 0.3475326757126209
+    },
+    {
+      "title": "Temporally Coherent Imitation Learning via Latent Action Flow Matching for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2601.23087v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.RO]",
+      "published_at": "2026-01-30T15:36:43",
+      "summary": "Learning long-horizon robotic manipulation requires jointly achieving expressive behavior modeling, real-time inference, and stable execution, which remains challenging for existing generative policies. Diffusion-based approaches provide strong modeling capacity but typically incur high inference latency, while flow matching enables fast one-step generation yet often leads to unstable execution when applied directly in the raw action space.   We propose LG-Flow Policy, a trajectory-level imitation learning framework that performs flow matching in a continuous latent action space. By encoding action sequences into temporally regularized latent trajectories and learning an explicit latent-space flow, the proposed approach decouples global motion structure from low-level control noise, resulting in smooth and reliable long-horizon execution.   LG-Flow Policy further incorporates geometry-aware point cloud conditioning and execution-time multimodal modulation, with visual cues evaluated as...",
+      "content": "Learning long-horizon robotic manipulation requires jointly achieving expressive behavior modeling, real-time inference, and stable execution, which remains challenging for existing generative policies. Diffusion-based approaches provide strong modeling capacity but typically incur high inference latency, while flow matching enables fast one-step generation yet often leads to unstable execution when applied directly in the raw action space.   We propose LG-Flow Policy, a trajectory-level imitation learning framework that performs flow matching in a continuous latent action space. By encoding action sequences into temporally regularized latent trajectories and learning an explicit latent-space flow, the proposed approach decouples global motion structure from low-level control noise, resulting in smooth and reliable long-horizon execution.   LG-Flow Policy further incorporates geometry-aware point cloud conditioning and execution-time multimodal modulation, with visual cues evaluated as a representative modality in real-world settings. Experimental results in simulation and on physical robot platforms demonstrate that LG-Flow Policy achieves near single-step inference, substantially improves trajectory smoothness and task success over flow-based baselines operating in the raw action space, and remains significantly more efficient than diffusion-based policies.",
+      "author": "Wu Songwei, Jiang Zhiduo, Xie Guanghu, Liu Yang, Liu Hong",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.RO",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2601.23087v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.23087v1.pdf",
+        "categories": [
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Wu Songwei",
+          "Jiang Zhiduo",
+          "Xie Guanghu",
+          "Liu Yang",
+          "Liu Hong"
+        ],
+        "primary_category": "cs.RO"
+      },
+      "relevance_score": 0.07648401826484019,
+      "final_score": 0.3426702397828706
+    }
+  ],
+  "summary": {
+    "sources": 5,
+    "top_source": "The Robot Report",
+    "date_range": {
+      "start": "2026-01-29T13:25:35",
+      "end": "2026-02-01T22:14:39"
+    }
+  }
+}

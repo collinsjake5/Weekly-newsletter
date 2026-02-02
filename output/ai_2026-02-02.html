@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 6</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 6 | February 02, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://netbird.io/" target="_blank">Netbird – Open Source Zero Trust Networking</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Feb 01
+                     | ⬆️ 695 | 💬 268
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://spacenews.com/eu-launches-government-satcom-program-in-sovereignty-push/" target="_blank">EU launches government satcom program in sovereignty push</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Feb 02
+                     | ⬆️ 82 | 💬 36
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://phys.org/news/2026-01-sprint-marathon-aging-muscle-stem.html" target="_blank">Aging muscle stem cells shift from rapid repair to long-term survival</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Feb 01
+                     | ⬆️ 80 | 💬 23
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2601.23251v1" target="_blank">Structured Over Scale: Learning Spatial Reasoning from Educational Video</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Jan 30
+                    
+                </div>
+                <p class="story-summary">Vision-language models (VLMs) demonstrate impressive performance on standard video understanding benchmarks yet fail systematically on simple reasoning tasks that preschool children can solve, including counting, spatial reasoning, and compositional ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/" target="_blank">Inside the marketplace powering bespoke AI deepfakes of real women</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | Jan 30
+                    
+                </div>
+                <p class="story-summary">Civitai—an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz—is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically ...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.23262v1" target="_blank">Particle-Guided Diffusion Models for Partial Differential Equations</a></div>
+                <div class="paper-author">Andrew Millard, Fredrik Lindsten, Zheng Zhao</div>
+                <div class="paper-summary">We introduce a guided stochastic sampling method that augments sampling from diffusion models with physics-based guidance derived from partial differential equation (PDE) residuals and observational c...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.23281v1" target="_blank">User Prompting Strategies and Prompt Enhancement Methods for Open-Set Object Detection in XR Environments</a></div>
+                <div class="paper-author">Junfeng Lin, Yanming Xiu, Maria Gorlatova</div>
+                <div class="paper-summary">Open-set object detection (OSOD) localizes objects while identifying and rejecting unknown classes at inference. While recent OSOD models perform well on benchmarks, their behavior under realistic use...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.23265v1" target="_blank">PaperBanana: Automating Academic Illustration for AI Scientists</a></div>
+                <div class="paper-author">Dawei Zhu, Rui Meng, Yale Song, Xiyu Wei, Sujian Li...</div>
+                <div class="paper-summary">Despite rapid advances in autonomous AI scientists powered by language models, generating publication-ready illustrations remains a labor-intensive bottleneck in the research workflow. To lift this bu...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.23278v1" target="_blank">FOCUS: DLLMs Know How to Tame Their Compute Bound</a></div>
+                <div class="paper-author">Kaihua Liang, Xin Tan, An Zhong, Hong Xu, Marco Canini</div>
+                <div class="paper-summary">Diffusion Large Language Models (DLLMs) offer a compelling alternative to Auto-Regressive models, but their deployment is constrained by high decoding cost. In this work, we identify a key inefficienc...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2601.23286v1" target="_blank">VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation</a></div>
+                <div class="paper-author">Hongyang Du, Junjie Ye, Xiaoyan Cong, Runhao Li, Jingcheng Ni...</div>
+                <div class="paper-summary">While recent video diffusion models (VDMs) produce visually impressive results, they fundamentally struggle to maintain 3D structural consistency, often resulting in object deformation or spatial drif...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://github.com/rtvkiz/minimal" target="_blank">Show HN: Minimal – Open-Source Community driven Hardened Container Images</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 113 | 💬 28</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/retiring-gpt-4o-and-older-models" target="_blank">Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT</a></div>
+                <div class="news-meta">OpenAI Blog | Jan 29</div>
+                <div class="news-summary">On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mi...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/" target="_blank">DHS is using Google and Adobe AI to make videos</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jan 29</div>
+                <div class="news-summary">The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new docum...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/" target="_blank">What AI “remembers” about you is privacy’s next frontier</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jan 28</div>
+                <div class="news-summary">The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.  Earlier this month, Google annou...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/" target="_blank">OpenAI’s latest product lets you vibe code science</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jan 27</div>
+                <div class="news-summary">OpenAI just revealed what its new in-house team, OpenAI for Science , has been up to. The firm has released a free LLM-powered tool for scientists cal...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/" target="_blank">In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.</a></div>
+                <div class="news-meta">Google AI Blog | Jan 27</div>
+                <div class="news-summary">Bringing Gemini to billions of users requires a massive, coordinated infrastructure effort. In the latest episode of the Google AI: Release Notes podc...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-02-02 14:04 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
