@@ -6,6 +6,7 @@ from .hackernews import HackerNewsCollector
 from .arxiv import ArxivCollector
 from .rss import RSSCollector
 from .inbox import InboxCollector
+from .youtube import YouTubeCollector
 from .base import BaseCollector, ContentItem
 
 __all__ = [
@@ -16,4 +17,5 @@ __all__ = [
     'ArxivCollector',
     'RSSCollector',
     'InboxCollector',
+    'YouTubeCollector',
 ]

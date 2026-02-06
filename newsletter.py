@@ -30,6 +30,7 @@ from sources import (
     ArxivCollector,
     RSSCollector,
     InboxCollector,
+    YouTubeCollector,
     ContentItem,
 )
 from processors import ContentScorer, Deduplicator, ContentSummarizer
@@ -76,6 +77,7 @@ class NewsletterOrchestrator:
         self.arxiv_collector = ArxivCollector(lookback_days)
         self.rss_collector = RSSCollector(lookback_days)
         self.inbox_collector = InboxCollector(lookback_days, inbox_path="inbox.txt")
+        self.youtube_collector = YouTubeCollector(lookback_days, transcripts_path="transcripts")
 
         # Initialize processors
         self.deduplicator = Deduplicator(similarity_threshold=0.8)
@@ -143,9 +145,10 @@ class NewsletterOrchestrator:
             result = await self._generate_newsletter(ntype, dry_run)
             results[ntype] = result
 
-        # Clear inbox after successful generation (not in dry run)
+        # Clear inbox and archive transcripts after successful generation (not in dry run)
         if not dry_run and any(r.get('status') == 'success' for r in results.values()):
             self.inbox_collector.clear_inbox()
+            self.youtube_collector.clear_processed_transcripts()
 
         return results
 
@@ -323,6 +326,19 @@ class NewsletterOrchestrator:
                 print(f"     ✓ {len(items)} articles")
             except Exception as e:
                 print(f"     ✗ Error: {e}")
+
+        # Collect from YouTube transcripts
+        try:
+            items = await self.youtube_collector.collect(
+                topics=topics,
+                newsletter_type=newsletter_type
+            )
+            if items:
+                print(f"   - YouTube: processing transcript files...")
+                all_items.extend(items)
+                print(f"     ✓ {len(items)} video transcripts")
+        except Exception as e:
+            print(f"     ✗ YouTube Error: {e}")
 
         return all_items
 

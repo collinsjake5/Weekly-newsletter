@@ -30,3 +30,6 @@ rich>=13.0.0
 
 # Environment variables
 python-dotenv>=1.0.0
+
+# YouTube transcripts (optional - for auto-fetching transcripts)
+youtube-transcript-api>=0.6.0
