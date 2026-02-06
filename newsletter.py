@@ -29,6 +29,7 @@ from sources import (
     HackerNewsCollector,
     ArxivCollector,
     RSSCollector,
+    InboxCollector,
     ContentItem,
 )
 from processors import ContentScorer, Deduplicator, ContentSummarizer
@@ -74,6 +75,7 @@ class NewsletterOrchestrator:
         self.hn_collector = HackerNewsCollector(lookback_days)
         self.arxiv_collector = ArxivCollector(lookback_days)
         self.rss_collector = RSSCollector(lookback_days)
+        self.inbox_collector = InboxCollector(lookback_days, inbox_path="inbox.txt")
 
         # Initialize processors
         self.deduplicator = Deduplicator(similarity_threshold=0.8)
@@ -141,6 +143,10 @@ class NewsletterOrchestrator:
             result = await self._generate_newsletter(ntype, dry_run)
             results[ntype] = result
 
+        # Clear inbox after successful generation (not in dry run)
+        if not dry_run and any(r.get('status') == 'success' for r in results.values()):
+            self.inbox_collector.clear_inbox()
+
         return results
 
     async def _generate_newsletter(
@@ -164,7 +170,7 @@ class NewsletterOrchestrator:
 
         # Stage 1: Collect content from all sources
         print("📥 Stage 1: Collecting content...")
-        all_items = await self._collect_all(topics, sources_config)
+        all_items = await self._collect_all(topics, sources_config, newsletter_type)
         print(f"   Collected {len(all_items)} items")
 
         if not all_items:
@@ -230,7 +236,8 @@ class NewsletterOrchestrator:
     async def _collect_all(
         self,
         topics: List[str],
-        sources_config: Dict[str, Any]
+        sources_config: Dict[str, Any],
+        newsletter_type: str
     ) -> List[ContentItem]:
         """
         Collect content from all configured sources.
@@ -238,11 +245,26 @@ class NewsletterOrchestrator:
         Args:
             topics: Topic keywords
             sources_config: Source configuration
+            newsletter_type: Type of newsletter (for inbox filtering)
 
         Returns:
             List of all collected items
         """
         all_items = []
+
+        # Collect from inbox (manual URLs)
+        inbox_count = self.inbox_collector.get_inbox_count()
+        if inbox_count > 0:
+            print(f"   - Inbox: processing {inbox_count} manually added URLs...")
+            try:
+                items = await self.inbox_collector.collect(
+                    topics=topics,
+                    newsletter_type=newsletter_type
+                )
+                all_items.extend(items)
+                print(f"     ✓ {len(items)} curated items")
+            except Exception as e:
+                print(f"     ✗ Error: {e}")
 
         # Collect from Reddit
         reddit_subs = sources_config.get('reddit', [])

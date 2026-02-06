@@ -1,0 +1,20 @@
+# URL Inbox
+# ==========
+# Add URLs here (one per line) throughout the week.
+# They will be included in your next newsletter run.
+#
+# Format options:
+#   https://example.com/article
+#   https://example.com/article | Optional note about the article
+#   ai: https://example.com/article | Force into AI newsletter
+#   robotics: https://example.com/article | Force into Robotics newsletter
+#
+# Lines starting with # are ignored.
+# This file is automatically cleared after each newsletter run.
+#
+# Example:
+#   https://techcrunch.com/2024/01/15/figure-ai-robots/
+#   ai: https://openai.com/blog/new-model | New GPT model announcement
+#   robotics: https://spectrum.ieee.org/warehouse-robots | Amazon's new AMRs
+#
+
