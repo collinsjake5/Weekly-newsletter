@@ -2,7 +2,7 @@
 # ==========
 # Add URLs here (one per line) throughout the week.
 # They will be included in your next newsletter run.
-#
+robotics: https://blogs.nvidia.com/blog/huang-3dexperience-2026/?ncid=so-twit-241697&linkId=100000406112672 | Digital twins for training in manufacturing
 # Format options:
 #   https://example.com/article
 #   https://example.com/article | Optional note about the article
