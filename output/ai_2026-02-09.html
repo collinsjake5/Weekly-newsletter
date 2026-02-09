@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 7</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 7 | February 09, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2602.06965v1" target="_blank">MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Feb 06
+                    
+                </div>
+                <p class="story-summary">Multimodal large language models (MLLMs) have rapidly advanced, yet their adoption in medicine remains limited by gaps in domain coverage, modality alignment, and grounded reasoning. In this work, we introduce MedMO, a medical foundation model built ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2602.06920v1" target="_blank">Halluverse-M^3: A multitask multilingual benchmark for hallucination in LLMs</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Feb 06
+                    
+                </div>
+                <p class="story-summary">Hallucinations in large language models remain a persistent challenge, particularly in multilingual and generative settings where factual consistency is difficult to maintain. While recent models show strong performance on English-centric benchmarks,...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/" target="_blank">Advancing AI benchmarking with Game Arena</a>
+                </div>
+                <div class="story-meta">
+                    Google AI Blog | Feb 02
+                    
+                </div>
+                <p class="story-summary">We’re expanding Game Arena with Poker and Werewolf, while Gemini 3 Pro and Flash top our chess leaderboard.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://donotnotify.com/opensource.html" target="_blank">DoNotNotify is now Open Source</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Feb 08
+                     | ⬆️ 397 | 💬 47
+                </div>
+                <p class="story-summary">A month ago, I submitted my app &amp;quot;DoNotNotify&amp;quot; to control Android notifications on Show HN [0], and it trended on the front page for a day. I was happy, but the most upvoted comments on the thread were asking for the app to be open sourced, ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2602.06914v1" target="_blank">Seeing Beyond Redundancy: Task Complexity&#39;s Role in Vision Token Specialization in VLLMs</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Feb 06
+                    
+                </div>
+                <p class="story-summary">Vision capabilities in vision large language models (VLLMs) have consistently lagged behind their linguistic capabilities. In particular, numerous benchmark studies have demonstrated that VLLMs struggle when fine-grained visual information or spatial...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.06964v1" target="_blank">Learning a Generative Meta-Model of LLM Activations</a></div>
+                <div class="paper-author">Grace Luo, Jiahai Feng, Trevor Darrell, Alec Radford, Jacob Steinhardt</div>
+                <div class="paper-summary">Existing approaches for analyzing neural network activations, such as PCA and sparse autoencoders, rely on strong structural assumptions. Generative models offer an alternative: they can uncover struc...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.06941v1" target="_blank">Endogenous Resistance to Activation Steering in Language Models</a></div>
+                <div class="paper-author">Alex McKenzie, Keenan Pepper, Stijn Servaes, Martin Leitgab, Murat Cubuktepe...</div>
+                <div class="paper-summary">Large language models can resist task-misaligned activation steering during inference, sometimes recovering mid-generation to produce improved responses even when steering remains active. We term this...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.06938v1" target="_blank">Reliable Mislabel Detection for Video Capsule Endoscopy Data</a></div>
+                <div class="paper-author">Julia Werner, Julius Oexle, Oliver Bause, Maxime Le Floch, Franz Brinkmann...</div>
+                <div class="paper-summary">The classification performance of deep neural networks relies strongly on access to large, accurately annotated datasets. In medical imaging, however, obtaining such datasets is particularly challengi...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.06953v1" target="_blank">DAWN: Dependency-Aware Fast Inference for Diffusion LLMs</a></div>
+                <div class="paper-author">Lizhuo Luo, Zhuoran Shi, Jiajun Luo, Zhi Wang, Shen Ren...</div>
+                <div class="paper-summary">Diffusion large language models (dLLMs) have shown advantages in text generation, particularly due to their inherent ability for parallel decoding. However, constrained by the quality--speed trade-off...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.06960v1" target="_blank">InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinforcement Learning</a></div>
+                <div class="paper-author">Yuchen Yan, Liang Jiang, Jin Jiang, Shuaicheng Li, Zujie Wen...</div>
+                <div class="paper-summary">Large reasoning models achieve strong performance by scaling inference-time chain-of-thought, but this paradigm suffers from quadratic cost, context length limits, and degraded reasoning due to lost-i...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.anthropic.com/news/claude-opus-4-6" target="_blank">Claude Opus 4.6</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 2338 | 💬 1022</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://github.com/localgpt-app/localgpt" target="_blank">Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 321 | 💬 150</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://openai.com/index/introducing-gpt-5-3-codex/" target="_blank">GPT-5.3-Codex</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 1524 | 💬 602</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.wirewiki.com" target="_blank">Show HN: Browse Internet Infrastructure</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 55 | 💬 10</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/unlocking-the-codex-harness" target="_blank">Unlocking the Codex harness: how we built the App Server</a></div>
+                <div class="news-meta">OpenAI Blog | Feb 04</div>
+                <div class="news-summary">Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diff...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/" target="_blank">Making AI Work, MIT Technology Review’s new AI newsletter, is here</a></div>
+                <div class="news-meta">MIT Technology Review AI | Feb 09</div>
+                <div class="news-summary">For years, our newsroom has explored AI’s limitations and potential dangers, as well as its growing energy needs . And our reporters have looked close...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/" target="_blank">Moltbook was peak AI theater</a></div>
+                <div class="news-meta">MIT Technology Review AI | Feb 06</div>
+                <div class="news-summary">For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook , which billed itself as a social netwo...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/our-approach-to-localization" target="_blank">Making AI work for everyone, everywhere: our approach to localization</a></div>
+                <div class="news-meta">OpenAI Blog | Feb 06</div>
+                <div class="news-summary">OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures witho...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-02-09 14:17 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

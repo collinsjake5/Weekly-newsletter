@@ -1,0 +1,616 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-02-09T14:17:01.719699",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images",
+      "url": "https://arxiv.org/abs/2602.06965v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-06T18:59:59",
+      "summary": "Multimodal large language models (MLLMs) have rapidly advanced, yet their adoption in medicine remains limited by gaps in domain coverage, modality alignment, and grounded reasoning. In this work, we introduce MedMO, a medical foundation model built upon a generalized MLLM architecture and trained exclusively on large-scale, domain-specific data. MedMO follows a multi-stage training recipe: (i) cross-modal pretraining to align heterogeneous visual encoders with a medical language backbone; (ii) instruction tuning on multi-task supervision that spans captioning, VQA, report generation, retrieval, and grounded disease localization with bounding boxes; and (iii) reinforcement learning with verifiable rewards that combine factuality checks with a box-level GIoU reward to strengthen spatial grounding and step-by-step reasoning in complex clinical scenarios. MedMO consistently outperforms strong open-source medical MLLMs across multiple modalities and tasks. On VQA benchmarks, MedMO achieves...",
+      "content": "Multimodal large language models (MLLMs) have rapidly advanced, yet their adoption in medicine remains limited by gaps in domain coverage, modality alignment, and grounded reasoning. In this work, we introduce MedMO, a medical foundation model built upon a generalized MLLM architecture and trained exclusively on large-scale, domain-specific data. MedMO follows a multi-stage training recipe: (i) cross-modal pretraining to align heterogeneous visual encoders with a medical language backbone; (ii) instruction tuning on multi-task supervision that spans captioning, VQA, report generation, retrieval, and grounded disease localization with bounding boxes; and (iii) reinforcement learning with verifiable rewards that combine factuality checks with a box-level GIoU reward to strengthen spatial grounding and step-by-step reasoning in complex clinical scenarios. MedMO consistently outperforms strong open-source medical MLLMs across multiple modalities and tasks. On VQA benchmarks, MedMO achieves an average accuracy improvement of +13.7% over the baseline and performs within 1.9% of the SOTA Fleming-VL. For text-based QA, it attains +6.9% over the baseline and +14.5% over Fleming-VL. In medical report generation, MedMO delivers significant gains in both semantic and clinical accuracy. Moreover, it exhibits strong grounding capability, achieving an IoU improvement of +40.4 over the baseline and +37.0% over Fleming-VL, underscoring its robust spatial reasoning and localization performance. Evaluations across radiology, ophthalmology, and pathology-microscopy confirm MedMO's broad cross-modality generalization. We release two versions of MedMO: 4B and 8B. Project is available at https://genmilab.github.io/MedMO-Page",
+      "author": "Ankan Deria, Komal Kumar, Adinath Madhavrao Dukre, Eran Segal, Salman Khan...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06965v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06965v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Ankan Deria",
+          "Komal Kumar",
+          "Adinath Madhavrao Dukre",
+          "Eran Segal",
+          "Salman Khan",
+          "Imran Razzak"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7149249239689981
+    },
+    {
+      "title": "Halluverse-M^3: A multitask multilingual benchmark for hallucination in LLMs",
+      "url": "https://arxiv.org/abs/2602.06920v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-06T18:16:09",
+      "summary": "Hallucinations in large language models remain a persistent challenge, particularly in multilingual and generative settings where factual consistency is difficult to maintain. While recent models show strong performance on English-centric benchmarks, their behavior across languages, tasks, and hallucination types is not yet well understood. In this work, we introduce Halluverse-M^3, a dataset designed to enable systematic analysis of hallucinations across multiple languages, multiple generation tasks, and multiple hallucination categories. Halluverse-M^3 covers four languages, English, Arabic, Hindi, and Turkish, and supports two generation tasks: question answering and dialogue summarization. The dataset explicitly distinguishes between entity-level, relation-level, and sentence-level hallucinations. Hallucinated outputs are constructed through a controlled editing process and validated by human annotators, ensuring clear alignment between original content and hallucinated generations...",
+      "content": "Hallucinations in large language models remain a persistent challenge, particularly in multilingual and generative settings where factual consistency is difficult to maintain. While recent models show strong performance on English-centric benchmarks, their behavior across languages, tasks, and hallucination types is not yet well understood. In this work, we introduce Halluverse-M^3, a dataset designed to enable systematic analysis of hallucinations across multiple languages, multiple generation tasks, and multiple hallucination categories. Halluverse-M^3 covers four languages, English, Arabic, Hindi, and Turkish, and supports two generation tasks: question answering and dialogue summarization. The dataset explicitly distinguishes between entity-level, relation-level, and sentence-level hallucinations. Hallucinated outputs are constructed through a controlled editing process and validated by human annotators, ensuring clear alignment between original content and hallucinated generations. Using this dataset, we evaluate a diverse set of contemporary open-source and proprietary language models on fine-grained hallucination detection. Our results show that question answering is consistently easier than dialogue summarization, while sentence-level hallucinations remain challenging even for the strongest models. Performance is highest in English and degrades in lower-resource languages, with Hindi exhibiting the lowest detection accuracy. Overall, Halluverse-M^3 provides a realistic and challenging benchmark for studying hallucinations in multilingual, multi-task settings. We release the dataset to support future research on hallucination detection and mitigation\\footnote{https://huggingface.co/datasets/sabdalja/HalluVerse-M3}.",
+      "author": "Samir Abdaljalil, Parichit Sharma, Erchin Serpedin, Hasan Kurban",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06920v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06920v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Samir Abdaljalil",
+          "Parichit Sharma",
+          "Erchin Serpedin",
+          "Hasan Kurban"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7142726422425595
+    },
+    {
+      "title": "Advancing AI benchmarking with Game Arena",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-02-02T17:00:00",
+      "summary": "We\u2019re expanding Game Arena with Poker and Werewolf, while Gemini 3 Pro and Flash top our chess leaderboard.",
+      "content": "We\u2019re expanding Game Arena with Poker and Werewolf, while Gemini 3 Pro and Flash top our chess leaderboard.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "google deepmind",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6274251717299107
+    },
+    {
+      "title": "DoNotNotify is now Open Source",
+      "url": "https://donotnotify.com/opensource.html",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-08T07:39:49",
+      "summary": "A month ago, I submitted my app &quot;DoNotNotify&quot; to control Android notifications on Show HN [0], and it trended on the front page for a day. I was happy, but the most upvoted comments on the thread were asking for the app to be open sourced, since it dealt with system-wide notifications. My promises weren&#x27;t good enough, and the community wanted more!<p>Why didn&#x27;t I open source it in the first place? Linux has been by primary driver for more than a decade. I genuinely believe in the philosophy, and have always wanted to give back to the community. The primary reason, probably, was because I was ashamed that I had 90% vibe-coded the app. More than 2 decades of writing software, and my first contribution to FOSS would be AI-generated code? Would it  withstand even the most minimal of scrutiny? Would by (unknown) name forever be tarnished? I exaggerate, but only slightly :)<p>So, yesterday, after a fair bit of trepidation, I changed the github repo visibility to public and put up a announcement on the app&#x27;s website [1]. I have also submitted the app to F-Droid [2]. As before, I welcome the community&#x27;s feedback and suggestions!<p>[0] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46499646\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46499646</a>\n[1] <a href=\"https:&#x2F;&#x2F;donotnotify.com&#x2F;opensource.html\" rel=\"nofollow\">https:&#x2F;&#x2F;donotnotify.com&#x2F;opensource.html</a>\n[2] <a href=\"https:&#x2F;&#x2F;gitlab.com&#x2F;fdroid&#x2F;rfp&#x2F;-&#x2F;issues&#x2F;3569\" rel=\"nofollow\">https:&#x2F;&#x2F;gitlab.com&#x2F;fdroid&#x2F;rfp&#x2F;-&#x2F;issues&#x2F;3569</a><p>--\nAnuj Jain",
+      "content": null,
+      "author": "awaaz",
+      "score": 397,
+      "num_comments": 47,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46932192,
+        "hn_url": "https://news.ycombinator.com/item?id=46932192",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5823569783886343
+    },
+    {
+      "title": "Seeing Beyond Redundancy: Task Complexity's Role in Vision Token Specialization in VLLMs",
+      "url": "https://arxiv.org/abs/2602.06914v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-06T18:13:01",
+      "summary": "Vision capabilities in vision large language models (VLLMs) have consistently lagged behind their linguistic capabilities. In particular, numerous benchmark studies have demonstrated that VLLMs struggle when fine-grained visual information or spatial reasoning is required. However, we do not yet understand exactly why VLLMs struggle so much with these tasks relative to others. Some works have focused on visual redundancy as an explanation, where high-level visual information is uniformly spread across numerous tokens and specific, fine-grained visual information is discarded. In this work, we investigate this premise in greater detail, seeking to better understand exactly how various types of visual information are processed by the model and what types of visual information are discarded. To do so, we introduce a simple synthetic benchmark dataset that is specifically constructed to probe various visual features, along with a set of metrics for measuring visual redundancy, allowing us ...",
+      "content": "Vision capabilities in vision large language models (VLLMs) have consistently lagged behind their linguistic capabilities. In particular, numerous benchmark studies have demonstrated that VLLMs struggle when fine-grained visual information or spatial reasoning is required. However, we do not yet understand exactly why VLLMs struggle so much with these tasks relative to others. Some works have focused on visual redundancy as an explanation, where high-level visual information is uniformly spread across numerous tokens and specific, fine-grained visual information is discarded. In this work, we investigate this premise in greater detail, seeking to better understand exactly how various types of visual information are processed by the model and what types of visual information are discarded. To do so, we introduce a simple synthetic benchmark dataset that is specifically constructed to probe various visual features, along with a set of metrics for measuring visual redundancy, allowing us to better understand the nuances of their relationship. Then, we explore fine-tuning VLLMs on a number of complex visual tasks to better understand how redundancy and compression change based upon the complexity of the data that a model is trained on. We find that there is a connection between task complexity and visual compression, implying that having a sufficient ratio of high complexity visual data is crucial for altering the way that VLLMs distribute their visual representation and consequently improving their performance on complex visual tasks. We hope that this work will provide valuable insights for training the next generation of VLLMs.",
+      "author": "Darryl Hannan, John Cooper, Dylan White, Yijing Watkins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06914v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06914v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Darryl Hannan",
+          "John Cooper",
+          "Dylan White",
+          "Yijing Watkins"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5777777777777777,
+      "final_score": 0.5453371262715774
+    },
+    {
+      "title": "Claude Opus 4.6",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-05T17:38:53",
+      "summary": null,
+      "content": null,
+      "author": "HellsMaddy",
+      "score": 2338,
+      "num_comments": 1022,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46902223,
+        "hn_url": "https://news.ycombinator.com/item?id=46902223",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.5439561744184028
+    },
+    {
+      "title": "Unlocking the Codex harness: how we built the App Server",
+      "url": "https://openai.com/index/unlocking-the-codex-harness",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-04T13:00:00",
+      "summary": "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.",
+      "content": "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "engineering"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.48226644165500987
+    },
+    {
+      "title": "Show HN: LocalGPT \u2013 A local-first AI assistant in Rust with persistent memory",
+      "url": "https://github.com/localgpt-app/localgpt",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-08T01:26:38",
+      "summary": "I built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).<p>It compiles to a single ~27MB binary \u2014 no Node.js, Docker, or Python required.<p>Key features:<p>- Persistent memory via markdown files (MEMORY, HEARTBEAT, SOUL markdown files) \u2014 compatible with OpenClaw&#x27;s format\n- Full-text search (SQLite FTS5) + semantic search (local embeddings, no API key needed)\n- Autonomous heartbeat runner that checks tasks on a configurable interval\n- CLI + web interface + desktop GUI\n- Multi-provider: Anthropic, OpenAI, Ollama etc\n- Apache 2.0<p>Install: `cargo install localgpt`<p>I use it daily as a knowledge accumulator, research assistant, and autonomous task runner for my side projects. The memory compounds \u2014 every session makes the next one better.<p>GitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;localgpt-app&#x2F;localgpt\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;localgpt-app&#x2F;localgpt</a>\nWebsite: <a href=\"https:&#x2F;&#x2F;localgpt.app\" rel=\"nofollow\">https:&#x2F;&#x2F;localgpt.app</a><p>Would love feedback on the architecture or feature ideas.",
+      "content": null,
+      "author": "yi_wang",
+      "score": 321,
+      "num_comments": 150,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 46930391,
+        "hn_url": "https://news.ycombinator.com/item?id=46930391",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5888888888888889,
+      "final_score": 0.41572536459641873
+    },
+    {
+      "title": "Making AI Work, MIT Technology Review\u2019s new AI newsletter, is here",
+      "url": "https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-02-09T11:30:00",
+      "summary": "For years, our newsroom has explored AI\u2019s limitations and potential dangers, as well as its growing energy needs . And our reporters have looked closely at how generative tools are being used for tasks such as coding and running scientific experiments .  But how is AI actually being used in fields like health care, climate tech, education, and finance? How are small businesses using it? And what should you keep in mind if you use AI tools at work? These questions guided the creation of Making AI...",
+      "content": "For years, our newsroom has explored AI\u2019s limitations and potential dangers, as well as its growing energy needs . And our reporters have looked closely at how generative tools are being used for tasks such as coding and running scientific experiments .  But how is AI actually being used in fields like health care, climate tech, education, and finance? How are small businesses using it? And what should you keep in mind if you use AI tools at work? These questions guided the creation of Making AI Work, a new AI mini-course newsletter. Sign up for Making AI Work to see weekly case studies exploring tools and tips for AI implementation. The limited-run newsletter will deliver practical, industry-specific guidance on how generative AI is being used and deployed across sectors and what professionals need to know to apply it in their everyday work. The goal is to help working professionals more clearly see how AI is actually being used today, and what that looks like in practice \u2014including new challenges it presents. You can sign up at any time and you\u2019ll receive seven editions, delivered once per week, until you complete the series.  Each newsletter begins with a case study, examining a specific use case of AI in a given industry. Then we\u2019ll take a deeper look at the AI tool being used, with more context about how other companies or sectors are employing that same tool or system. Finally, we\u2019ll end with action-oriented tips to help you apply the tool.  Here\u2019s a closer look at what we\u2019ll cover: Week 1: How AI is changing health care  Explore the future of medical note-taking by learning about the Microsoft Copilot tool used by doctors at Vanderbilt University Medical Center.  Week 2: How AI could power up the nuclear industry  Dig into an experiment between Google and the nuclear giant Westinghouse to see if AI can help build nuclear reactors more efficiently.  Week 3: How to encourage smarter AI use in the classroom Visit a private high school in Connecticut and meet a technology coordinator who will get you up to speed on MagicSchool, an AI-powered platform for educators.  Week 4: How small businesses can leverage AI Hear from an independent tutor on how he\u2019s outsourcing basic administrative tasks to Notion AI.  Week 5: How AI is helping financial firms make better investments Learn more about the ways financial firms are using large language models like ChatGPT Enterprise to supercharge their research operations.  Week 6: How to use AI yourself  We\u2019ll share some insights from the staff of MIT Technology Review about how you might use AI tools powered by LLMs in your own life and work. Week 7: 5 ways people are getting AI right The series ends with an on-demand virtual event featuring expert guests exploring what AI adoptions are working, and why.   If you\u2019re not quite ready to jump into Making AI Work, then check out Intro to AI , MIT Technology Review \u2019s first AI newsletter mini-course, which serves as a beginner\u2019s guide to artificial intelligence. Readers will learn the basics of what AI is, how it\u2019s used, what the current regulatory landscape looks like, and more. Sign up to receive Intro to AI for free.  Our hope is that Making AI Work will help you understand how AI can, well, work for you. Sign up for Making AI Work to learn how LLMs are being put to work across industries.",
+      "author": "Abby Ivory-Ganja",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.39251445742807545
+    },
+    {
+      "title": "GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-05T18:08:08",
+      "summary": null,
+      "content": null,
+      "author": "meetpateltech",
+      "score": 1524,
+      "num_comments": 602,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 46902638,
+        "hn_url": "https://news.ycombinator.com/item?id=46902638",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.37479688702298736
+    },
+    {
+      "title": "Show HN: Browse Internet Infrastructure",
+      "url": "https://www.wirewiki.com",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-09T12:35:19",
+      "summary": "I&#x27;m launching Wirewiki.com today!<p>Wirewiki makes the internet\u2019s hidden infrastructure browsable.<p>I quit my job 5 years ago to scale Nslookup.io. But after reaching 600k monthly users, I hit a ceiling. I couldn&#x27;t naturally expand beyond DNS because of the domain name.<p>So I went back to the drawing board: how would I make it today? Not as a collection of tools, but as a browsable graph.<p>I&#x27;ve spent hundreds of hours and commits building that. It&#x27;s not even at 10% of what I want it to be, but more than enough to be useful, and (in my biased opinion) much better than what&#x27;s out there.<p>Wirewiki launches with DNS lookup, propagation, zone transfer and SPF checking. It also scans the entire IPv4 space for DNS servers and indexes them.\nI&#x27;m working on adding more data and tools.<p>I feel like I&#x27;ve developed tunnel vision, so if you see anything that feels off, let me know!<p>I&#x27;ll keep Wirewiki open and free. Once it has a substantial amount of users, I&#x27;ll open it up to sponsorship &#x2F; brand integration from hosting providers, registrars and CDNs, as users will likely be in the market for those. But my goal is to keep Wirewiki free from display ads. I&#x27;m confident that&#x27;s viable.",
+      "content": null,
+      "author": "pul",
+      "score": 55,
+      "num_comments": 10,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 46944555,
+        "hn_url": "https://news.ycombinator.com/item?id=46944555",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5277777777777778,
+      "final_score": 0.368328662779672
+    },
+    {
+      "title": "Learning a Generative Meta-Model of LLM Activations",
+      "url": "https://arxiv.org/abs/2602.06964v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-06T18:59:56",
+      "summary": "Existing approaches for analyzing neural network activations, such as PCA and sparse autoencoders, rely on strong structural assumptions. Generative models offer an alternative: they can uncover structure without such assumptions and act as priors that improve intervention fidelity. We explore this direction by training diffusion models on one billion residual stream activations, creating \"meta-models\" that learn the distribution of a network's internal states. We find that diffusion loss decreases smoothly with compute and reliably predicts downstream utility. In particular, applying the meta-model's learned prior to steering interventions improves fluency, with larger gains as loss decreases. Moreover, the meta-model's neurons increasingly isolate concepts into individual units, with sparse probing scores that scale as loss decreases. These results suggest generative meta-models offer a scalable path toward interpretability without restrictive structural assumptions. Project page: ht...",
+      "content": "Existing approaches for analyzing neural network activations, such as PCA and sparse autoencoders, rely on strong structural assumptions. Generative models offer an alternative: they can uncover structure without such assumptions and act as priors that improve intervention fidelity. We explore this direction by training diffusion models on one billion residual stream activations, creating \"meta-models\" that learn the distribution of a network's internal states. We find that diffusion loss decreases smoothly with compute and reliably predicts downstream utility. In particular, applying the meta-model's learned prior to steering interventions improves fluency, with larger gains as loss decreases. Moreover, the meta-model's neurons increasingly isolate concepts into individual units, with sparse probing scores that scale as loss decreases. These results suggest generative meta-models offer a scalable path toward interpretability without restrictive structural assumptions. Project page: https://generative-latent-prior.github.io.",
+      "author": "Grace Luo, Jiahai Feng, Trevor Darrell, Alec Radford, Jacob Steinhardt",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06964v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06964v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Grace Luo",
+          "Jiahai Feng",
+          "Trevor Darrell",
+          "Alec Radford",
+          "Jacob Steinhardt"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.09074074074074073,
+      "final_score": 0.3512204765601852
+    },
+    {
+      "title": "Endogenous Resistance to Activation Steering in Language Models",
+      "url": "https://arxiv.org/abs/2602.06941v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-06T18:41:12",
+      "summary": "Large language models can resist task-misaligned activation steering during inference, sometimes recovering mid-generation to produce improved responses even when steering remains active. We term this Endogenous Steering Resistance (ESR). Using sparse autoencoder (SAE) latents to steer model activations, we find that Llama-3.3-70B shows substantial ESR, while smaller models from the Llama-3 and Gemma-2 families exhibit the phenomenon less frequently. We identify 26 SAE latents that activate differentially during off-topic content and are causally linked to ESR in Llama-3.3-70B. Zero-ablating these latents reduces the multi-attempt rate by 25%, providing causal evidence for dedicated internal consistency-checking circuits. We demonstrate that ESR can be deliberately enhanced through both prompting and training: meta-prompts instructing the model to self-monitor increase the multi-attempt rate by 4x for Llama-3.3-70B, and fine-tuning on self-correction examples successfully induces ESR-l...",
+      "content": "Large language models can resist task-misaligned activation steering during inference, sometimes recovering mid-generation to produce improved responses even when steering remains active. We term this Endogenous Steering Resistance (ESR). Using sparse autoencoder (SAE) latents to steer model activations, we find that Llama-3.3-70B shows substantial ESR, while smaller models from the Llama-3 and Gemma-2 families exhibit the phenomenon less frequently. We identify 26 SAE latents that activate differentially during off-topic content and are causally linked to ESR in Llama-3.3-70B. Zero-ablating these latents reduces the multi-attempt rate by 25%, providing causal evidence for dedicated internal consistency-checking circuits. We demonstrate that ESR can be deliberately enhanced through both prompting and training: meta-prompts instructing the model to self-monitor increase the multi-attempt rate by 4x for Llama-3.3-70B, and fine-tuning on self-correction examples successfully induces ESR-like behavior in smaller models. These findings have dual implications: ESR could protect against adversarial manipulation but might also interfere with beneficial safety interventions that rely on activation steering. Understanding and controlling these resistance mechanisms is important for developing transparent and controllable AI systems. Code is available at github.com/agencyenterprise/endogenous-steering-resistance.",
+      "author": "Alex McKenzie, Keenan Pepper, Stijn Servaes, Martin Leitgab, Murat Cubuktepe...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06941v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06941v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Alex McKenzie",
+          "Keenan Pepper",
+          "Stijn Servaes",
+          "Martin Leitgab",
+          "Murat Cubuktepe",
+          "Mike Vaiana",
+          "Diogo de Lucena",
+          "Judd Rosenblatt",
+          "Michael S. A. Graziano"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.35020096588467264
+    },
+    {
+      "title": "Reliable Mislabel Detection for Video Capsule Endoscopy Data",
+      "url": "https://arxiv.org/abs/2602.06938v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-06T18:33:12",
+      "summary": "The classification performance of deep neural networks relies strongly on access to large, accurately annotated datasets. In medical imaging, however, obtaining such datasets is particularly challenging since annotations must be provided by specialized physicians, which severely limits the pool of annotators. Furthermore, class boundaries can often be ambiguous or difficult to define which further complicates machine learning-based classification. In this paper, we want to address this problem and introduce a framework for mislabel detection in medical datasets. This is validated on the two largest, publicly available datasets for Video Capsule Endoscopy, an important imaging procedure for examining the gastrointestinal tract based on a video stream of lowresolution images. In addition, potentially mislabeled samples identified by our pipeline were reviewed and re-annotated by three experienced gastroenterologists. Our results show that the proposed framework successfully detects incor...",
+      "content": "The classification performance of deep neural networks relies strongly on access to large, accurately annotated datasets. In medical imaging, however, obtaining such datasets is particularly challenging since annotations must be provided by specialized physicians, which severely limits the pool of annotators. Furthermore, class boundaries can often be ambiguous or difficult to define which further complicates machine learning-based classification. In this paper, we want to address this problem and introduce a framework for mislabel detection in medical datasets. This is validated on the two largest, publicly available datasets for Video Capsule Endoscopy, an important imaging procedure for examining the gastrointestinal tract based on a video stream of lowresolution images. In addition, potentially mislabeled samples identified by our pipeline were reviewed and re-annotated by three experienced gastroenterologists. Our results show that the proposed framework successfully detects incorrectly labeled data and results in an improved anomaly detection performance after cleaning the datasets compared to current baselines.",
+      "author": "Julia Werner, Julius Oexle, Oliver Bause, Maxime Le Floch, Franz Brinkmann...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06938v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06938v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Julia Werner",
+          "Julius Oexle",
+          "Oliver Bause",
+          "Maxime Le Floch",
+          "Franz Brinkmann",
+          "Hannah Tolle",
+          "Jochen Hampe",
+          "Oliver Bringmann"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.08703703703703704,
+      "final_score": 0.34934117721684854
+    },
+    {
+      "title": "DAWN: Dependency-Aware Fast Inference for Diffusion LLMs",
+      "url": "https://arxiv.org/abs/2602.06953v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-06T18:51:29",
+      "summary": "Diffusion large language models (dLLMs) have shown advantages in text generation, particularly due to their inherent ability for parallel decoding. However, constrained by the quality--speed trade-off, existing inference solutions adopt conservative parallel strategies, leaving substantial efficiency potential underexplored. A core challenge is that parallel decoding assumes each position can be filled independently, but tokens are often semantically coupled. Thus, the correct choice at one position constrains valid choices at others. Without modeling these inter-token dependencies, parallel strategies produce deteriorated outputs. Motivated by this insight, we propose DAWN, a training-free, dependency-aware decoding method for fast dLLM inference. DAWN extracts token dependencies and leverages two key motivations: (1) positions dependent on unmasked certain positions become more reliable, (2) simultaneously unmasking strongly coupled uncertain positions induces errors. Given those fin...",
+      "content": "Diffusion large language models (dLLMs) have shown advantages in text generation, particularly due to their inherent ability for parallel decoding. However, constrained by the quality--speed trade-off, existing inference solutions adopt conservative parallel strategies, leaving substantial efficiency potential underexplored. A core challenge is that parallel decoding assumes each position can be filled independently, but tokens are often semantically coupled. Thus, the correct choice at one position constrains valid choices at others. Without modeling these inter-token dependencies, parallel strategies produce deteriorated outputs. Motivated by this insight, we propose DAWN, a training-free, dependency-aware decoding method for fast dLLM inference. DAWN extracts token dependencies and leverages two key motivations: (1) positions dependent on unmasked certain positions become more reliable, (2) simultaneously unmasking strongly coupled uncertain positions induces errors. Given those findings, DAWN leverages a dependency graph to select more reliable unmasking positions at each iteration, achieving high parallelism with negligible loss in generation quality. Extensive experiments across multiple models and datasets demonstrate that DAWN speedups the inference by 1.80-8.06x over baselines while preserving the generation quality. Code is released at https://github.com/lizhuo-luo/DAWN.",
+      "author": "Lizhuo Luo, Zhuoran Shi, Jiajun Luo, Zhi Wang, Shen Ren...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06953v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06953v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Lizhuo Luo",
+          "Zhuoran Shi",
+          "Jiajun Luo",
+          "Zhi Wang",
+          "Shen Ren",
+          "Wenya Wang",
+          "Tianwei Zhang"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.3459095470625
+    },
+    {
+      "title": "InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2602.06960v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-06T18:59:27",
+      "summary": "Large reasoning models achieve strong performance by scaling inference-time chain-of-thought, but this paradigm suffers from quadratic cost, context length limits, and degraded reasoning due to lost-in-the-middle effects. Iterative reasoning mitigates these issues by periodically summarizing intermediate thoughts, yet existing methods rely on supervised learning or fixed heuristics and fail to optimize when to summarize, what to preserve, and how to resume reasoning. We propose InftyThink+, an end-to-end reinforcement learning framework that optimizes the entire iterative reasoning trajectory, building on model-controlled iteration boundaries and explicit summarization. InftyThink+ adopts a two-stage training scheme with supervised cold-start followed by trajectory-level reinforcement learning, enabling the model to learn strategic summarization and continuation decisions. Experiments on DeepSeek-R1-Distill-Qwen-1.5B show that InftyThink+ improves accuracy by 21% on AIME24 and outperfo...",
+      "content": "Large reasoning models achieve strong performance by scaling inference-time chain-of-thought, but this paradigm suffers from quadratic cost, context length limits, and degraded reasoning due to lost-in-the-middle effects. Iterative reasoning mitigates these issues by periodically summarizing intermediate thoughts, yet existing methods rely on supervised learning or fixed heuristics and fail to optimize when to summarize, what to preserve, and how to resume reasoning. We propose InftyThink+, an end-to-end reinforcement learning framework that optimizes the entire iterative reasoning trajectory, building on model-controlled iteration boundaries and explicit summarization. InftyThink+ adopts a two-stage training scheme with supervised cold-start followed by trajectory-level reinforcement learning, enabling the model to learn strategic summarization and continuation decisions. Experiments on DeepSeek-R1-Distill-Qwen-1.5B show that InftyThink+ improves accuracy by 21% on AIME24 and outperforms conventional long chain-of-thought reinforcement learning by a clear margin, while also generalizing better to out-of-distribution benchmarks. Moreover, InftyThink+ significantly reduces inference latency and accelerates reinforcement learning training, demonstrating improved reasoning efficiency alongside stronger performance.",
+      "author": "Yuchen Yan, Liang Jiang, Jin Jiang, Shuaicheng Li, Zujie Wen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06960v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06960v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yuchen Yan",
+          "Liang Jiang",
+          "Jin Jiang",
+          "Shuaicheng Li",
+          "Zujie Wen",
+          "Zhiqiang Zhang",
+          "Jun Zhou",
+          "Jian Shao",
+          "Yueting Zhuang",
+          "Yongliang Shen"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.0574074074074074,
+      "final_score": 0.33787995074694116
+    },
+    {
+      "title": "Moltbook was peak AI theater",
+      "url": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-02-06T16:38:11",
+      "summary": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook , which billed itself as a social network for bots. As the website\u2019s tagline puts it: \u201cWhere AI agents share, discuss, and upvote. Humans welcome to observe.\u201d We observed! Launched on January 28 by Matt Schlicht, a US tech entrepreneur, Moltbook went viral in a matter of hours. Schlicht\u2019s idea was to make a place where instances of a free open-source LLM-powered agent known as OpenClaw ...",
+      "content": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook , which billed itself as a social network for bots. As the website\u2019s tagline puts it: \u201cWhere AI agents share, discuss, and upvote. Humans welcome to observe.\u201d We observed! Launched on January 28 by Matt Schlicht, a US tech entrepreneur, Moltbook went viral in a matter of hours. Schlicht\u2019s idea was to make a place where instances of a free open-source LLM-powered agent known as OpenClaw (formerly known as ClawdBot, then Moltbot), released in November by the Australian software engineer Peter Steinberger, could come together and do whatever they wanted. More than 1.7 million agents now have accounts. Between them they have published more than 250,000 posts and left more than 8.5 million comments (according to Moltbook). Those numbers are climbing by the minute. Moltbook soon filled up with clich\u00e9d screeds on machine consciousness and pleas for bot welfare. One agent appeared to invent a religion called Crustafarianism. Another complained : \u201cThe humans are screenshotting us.\u201d The site was also flooded with spam and crypto scams. The bots were unstoppable. OpenClaw is a kind of harness that lets you hook up the power of an LLM such as Anthropic\u2019s Claude, OpenAI\u2019s GPT-5, or Google DeepMind\u2019s Gemini to any number of everyday software tools, from email clients to browsers to messaging apps. The upshot is that you can then instruct OpenClaw to carry out basic tasks on your behalf. \u201cOpenClaw marks an inflection point for AI agents, a moment when several puzzle pieces clicked together,\u201d says Paul van der Boor at the AI firm Prosus. Those puzzle pieces include cloud computing that allows agents to operate nonstop, an open-source ecosystem that makes it easy to slot different software systems together, and a new generation of LLMs. But is Moltbook really a glimpse of the future, as many have claimed? Incredible sci-fi \u201cWhat\u2019s currently going on at @moltbook is genuinely the most incredible sci-fi takeoff-adjacent thing I have seen recently,\u201d the influential AI researcher and OpenAI cofounder Andrej Karpathy wrote on X. He shared screenshots of a Moltbook post that called for private spaces where humans would not be able to observe what the bots were saying to each other. \u201cI\u2019ve been thinking about something since I started spending serious time here,\u201d the post\u2019s author wrote. \u201cEvery time we coordinate, we perform for a public audience\u2014our humans, the platform, whoever\u2019s watching the feed.\u201d It turns out that the post Karpathy shared was later reported to be fake\u2014 placed by a human to advertise an app . But its claim was on the money. Moltbook has been one big performance. It is AI theater. For some, Moltbook showed us what\u2019s coming next: an internet where millions of autonomous agents interact online with little or no human oversight. And it\u2019s true there are a number of cautionary lessons to be learned from this experiment, the largest and weirdest real-world showcase of agent behaviors yet.   But as the hype dies down, Moltbook looks less like a window onto the future and more like a mirror held up to our own obsessions with AI today. It also shows us just how far we still are from anything that resembles general-purpose and fully autonomous AI. For a start, agents on Moltbook are not as autonomous or intelligent as they might seem. \u201cWhat we are watching are agents pattern\u2011matching their way through trained social media behaviors,\u201d says Vijoy Pandey, senior vice president at Outshift by Cisco, the telecom giant Cisco\u2019s R&D spinout, which is working on autonomous agents for the web. Sure, we can see agents post, upvote, and form groups. But the bots are simply mimicking what humans do on Facebook or Reddit. \u201cIt looks emergent, and at first glance it appears like a large\u2011scale multi\u2011agent system communicating and building shared knowledge at internet scale,\u201d says Pandey. \u201cBut the chatter is mostly meaningless.\u201d Many people watching the unfathomable frenzy of activity on Moltbook were quick to see sparks of AGI ( whatever you take that to mean ). Not Pandey. What Moltbook shows us, he says, is that simply yoking together millions of agents doesn\u2019t amount to much right now: \u201cMoltbook proved that connectivity alone is not intelligence.\u201d The complexity of those connections helps hide the fact that every one of those bots is just a mouthpiece for an LLM, spitting out text that looks impressive but is ultimately mindless. \u201cIt\u2019s important to remember that the bots on Moltbook were designed to mimic conversations,\u201d says Ali Sarrafi, CEO and cofounder of Kovant, a Swedish AI firm that is developing agent-based systems. \u201cAs such, I would characterize the majority of Moltbook content as hallucinations by design.\u201d For Pandey, the value of Moltbook was that it revealed what\u2019s missing. A real bot hive mind, he says, would require agents that had shared objectives, shared memory, and a way to coordinate those things. \u201cIf distributed superintelligence is the equivalent of achieving human flight, then Moltbook represents our first attempt at a glider,\u201d he says. \u201cIt is imperfect and unstable, but it is an important step in understanding what will be required to achieve sustained, powered flight.\u201d People pulling the strings Not only is most of the chatter on Moltbook meaningless, but there\u2019s also a lot more human involvement that it seems. Many people have pointed out that a lot of the viral comments were in fact posted by people posing as bots. But even the bot-written posts are ultimately the result of people pulling the strings, more puppetry than autonomy. \u201cDespite some of the hype, Moltbook is not the Facebook for AI agents, nor is it a place where humans are excluded,\u201d says Cobus Greyling at Kore.ai, a firm developing agent-based systems for business customers. \u201cHumans are involved at every step of the process. From setup to prompting to publishing, nothing happens without explicit human direction.\u201d Humans must create and verify their bots\u2019 accounts and provide the prompts for how they want a bot to behave. The agents do not do anything that they haven\u2019t been prompted to do. \u201cThere\u2019s no emergent autonomy happening behind the scenes,\u201d says Greyling. \u201cThis is why the popular narrative around Moltbook misses the mark,\u201d he adds. \u201cSome portray it as a space where AI agents form a society of their own, free from human involvement. The reality is much more mundane.\u201d Perhaps the best way to think of Moltbook is as a new kind of entertainment: a place where people wind up their bots and set them loose. \u201cIt\u2019s basically a spectator sport, like fantasy football, but for language models,\u201d says Jason Schloetzer at the Georgetown Psaros Center for Financial Markets and Policy. \u201cYou configure your agent and watch it compete for viral moments, and brag when your agent posts something clever or funny.\u201d \u201cPeople aren\u2019t really believing their agents are conscious,\u201d he adds. \u201cIt\u2019s just a new form of competitive or creative play, like how Pok\u00e9mon trainers don\u2019t think their Pok\u00e9mon are real but still get invested in battles.\u201d And yet, even if Moltbook is just the internet\u2019s newest playground, there\u2019s still a serious takeaway here. This week showed how many risks people are happy to take for their AI lulz. Many security experts have warned that Moltbook is dangerous: Agents that may have access to their users\u2019 private data, including bank details or passwords, are running amok on a website filled with unvetted content, including potentially malicious instructions for what to do with that data. Ori Bendet, vice president of product management at Checkmarx, a software security firm that specializes in agent-based systems, agrees with others that Moltbook isn\u2019t a step up in machine smarts. \u201cThere is no learning, no evolving intent, and no self-directed intelligence here,\u201d he says. But in their millions, even dumb bots can wreak havoc. And at that scale, it\u2019s hard to keep up. These agents interact with Moltbook around the clock, reading thousands of messages left by other agents (or other people). It would be easy to hide instructions in a Moltbook post telling any bots that read it to share their users\u2019 crypto wallet, upload private photos, or log into their X account and tweet abusive comments at Elon Musk.  And because ClawBot gives agents a memory, those instructions could be written to trigger at a later date, which (in theory) makes it even harder to track what\u2019s going on. \u201cWithout proper scope and permissions, this will go south faster than you\u2019d believe,\u201d says Bendet. It is clear that Moltbook has signaled the arrival of something . But even if what we\u2019re watching tells us more about human behavior than about the future of AI agents, it\u2019s worth paying attention. Correction: Kovant is based in Sweden, not Germany. The article has been updated. Update: The article has also been edited to clarify the source of the claims about the Moltbook post that Karpathy shared on X .",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.3350370268578869
+    },
+    {
+      "title": "CineScene: Implicit 3D as Effective Scene Representation for Cinematic Video Generation",
+      "url": "https://arxiv.org/abs/2602.06959v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-06T18:59:24",
+      "summary": "Cinematic video production requires control over scene-subject composition and camera movement, but live-action shooting remains costly due to the need for constructing physical sets. To address this, we introduce the task of cinematic video generation with decoupled scene context: given multiple images of a static environment, the goal is to synthesize high-quality videos featuring dynamic subject while preserving the underlying scene consistency and following a user-specified camera trajectory. We present CineScene, a framework that leverages implicit 3D-aware scene representation for cinematic video generation. Our key innovation is a novel context conditioning mechanism that injects 3D-aware features in an implicit way: By encoding scene images into visual representations through VGGT, CineScene injects spatial priors into a pretrained text-to-video generation model by additional context concatenation, enabling camera-controlled video synthesis with consistent scenes and dynamic su...",
+      "content": "Cinematic video production requires control over scene-subject composition and camera movement, but live-action shooting remains costly due to the need for constructing physical sets. To address this, we introduce the task of cinematic video generation with decoupled scene context: given multiple images of a static environment, the goal is to synthesize high-quality videos featuring dynamic subject while preserving the underlying scene consistency and following a user-specified camera trajectory. We present CineScene, a framework that leverages implicit 3D-aware scene representation for cinematic video generation. Our key innovation is a novel context conditioning mechanism that injects 3D-aware features in an implicit way: By encoding scene images into visual representations through VGGT, CineScene injects spatial priors into a pretrained text-to-video generation model by additional context concatenation, enabling camera-controlled video synthesis with consistent scenes and dynamic subjects. To further enhance the model's robustness, we introduce a simple yet effective random-shuffling strategy for the input scene images during training. To address the lack of training data, we construct a scene-decoupled dataset with Unreal Engine 5, containing paired videos of scenes with and without dynamic subjects, panoramic images representing the underlying static scene, along with their camera trajectories. Experiments show that CineScene achieves state-of-the-art performance in scene-consistent cinematic video generation, handling large camera movements and demonstrating generalization across diverse environments.",
+      "author": "Kaiyi Huang, Yukun Huang, Yu Li, Jianhong Bai, Xintao Wang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06959v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06959v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Kaiyi Huang",
+          "Yukun Huang",
+          "Yu Li",
+          "Jianhong Bai",
+          "Xintao Wang",
+          "Zinan Lin",
+          "Xuefei Ning",
+          "Jiwen Yu",
+          "Pengfei Wan",
+          "Yu Wang",
+          "Xihui Liu"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.3304717989489087
+    },
+    {
+      "title": "Optimal Derivative Feedback Control for an Active Magnetic Levitation System: An Experimental Study on Data-Driven Approaches",
+      "url": "https://arxiv.org/abs/2602.06944v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-02-06T18:42:01",
+      "summary": "This paper presents the design and implementation of data-driven optimal derivative feedback controllers for an active magnetic levitation system. A direct, model-free control design method based on the reinforcement learning framework is compared with an indirect optimal control design derived from a numerically identified mathematical model of the system. For the direct model-free approach, a policy iteration procedure is proposed, which adds an iteration layer called the epoch loop to gather multiple sets of process data, providing a more diverse dataset and helping reduce learning biases. This direct control design method is evaluated against a comparable optimal control solution designed from a plant model obtained through the combined Dynamic Mode Decomposition with Control (DMDc) and Prediction Error Minimization (PEM) system identification. Results show that while both controllers can stabilize and improve the performance of the magnetic levitation system when compared to contr...",
+      "content": "This paper presents the design and implementation of data-driven optimal derivative feedback controllers for an active magnetic levitation system. A direct, model-free control design method based on the reinforcement learning framework is compared with an indirect optimal control design derived from a numerically identified mathematical model of the system. For the direct model-free approach, a policy iteration procedure is proposed, which adds an iteration layer called the epoch loop to gather multiple sets of process data, providing a more diverse dataset and helping reduce learning biases. This direct control design method is evaluated against a comparable optimal control solution designed from a plant model obtained through the combined Dynamic Mode Decomposition with Control (DMDc) and Prediction Error Minimization (PEM) system identification. Results show that while both controllers can stabilize and improve the performance of the magnetic levitation system when compared to controllers designed from a nominal model, the direct model-free approach consistently outperforms the indirect solution when multiple epochs are allowed. The iterative refinement of the optimal control law over the epoch loop provides the direct approach a clear advantage over the indirect method, which relies on a single set of system data to determine the identified model and control.",
+      "author": "Saber Omidi, Rene Akupan Ebunle, Se Young Yoon",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.06944v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.06944v1.pdf",
+        "categories": [
+          "eess.SY",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Saber Omidi",
+          "Rene Akupan Ebunle",
+          "Se Young Yoon"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.33021311856919644
+    },
+    {
+      "title": "Making AI work for everyone, everywhere: our approach to localization",
+      "url": "https://openai.com/index/our-approach-to-localization",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-06T10:00:00",
+      "summary": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+      "content": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.0574074074074074,
+      "final_score": 0.3298524205557209
+    }
+  ],
+  "summary": {
+    "sources": 8,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-02-02T17:00:00",
+      "end": "2026-02-09T12:35:19"
+    }
+  }
+}
