@@ -1,0 +1,598 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-02-16T14:07:18.538100",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "News publishers limit Internet Archive access due to AI scraping concerns",
+      "url": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-14T18:46:32",
+      "summary": null,
+      "content": null,
+      "author": "ninjagoo",
+      "score": 560,
+      "num_comments": 361,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47017138,
+        "hn_url": "https://news.ycombinator.com/item?id=47017138",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7144783378682418
+    },
+    {
+      "title": "I\u2019m joining OpenAI",
+      "url": "https://steipete.me/posts/2026/openclaw",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-15T21:54:15",
+      "summary": null,
+      "content": null,
+      "author": "mfiguiere",
+      "score": 1193,
+      "num_comments": 881,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47028013,
+        "hn_url": "https://news.ycombinator.com/item?id=47028013",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.6032977381143353
+    },
+    {
+      "title": "Semantic Chunking and the Entropy of Natural Language",
+      "url": "https://arxiv.org/abs/2602.13194v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-13T18:58:10",
+      "summary": "The entropy rate of printed English is famously estimated to be about one bit per character, a benchmark that modern large language models (LLMs) have only recently approached. This entropy rate implies that English contains nearly 80 percent redundancy relative to the five bits per character expected for random text. We introduce a statistical model that attempts to capture the intricate multi-scale structure of natural language, providing a first-principles account of this redundancy level. Our model describes a procedure of self-similarly segmenting text into semantically coherent chunks down to the single-word level. The semantic structure of the text can then be hierarchically decomposed, allowing for analytical treatment. Numerical experiments with modern LLMs and open datasets suggest that our model quantitatively captures the structure of real texts at different levels of the semantic hierarchy. The entropy rate predicted by our model agrees with the estimated entropy rate of p...",
+      "content": "The entropy rate of printed English is famously estimated to be about one bit per character, a benchmark that modern large language models (LLMs) have only recently approached. This entropy rate implies that English contains nearly 80 percent redundancy relative to the five bits per character expected for random text. We introduce a statistical model that attempts to capture the intricate multi-scale structure of natural language, providing a first-principles account of this redundancy level. Our model describes a procedure of self-similarly segmenting text into semantically coherent chunks down to the single-word level. The semantic structure of the text can then be hierarchically decomposed, allowing for analytical treatment. Numerical experiments with modern LLMs and open datasets suggest that our model quantitatively captures the structure of real texts at different levels of the semantic hierarchy. The entropy rate predicted by our model agrees with the estimated entropy rate of printed English. Moreover, our theory further reveals that the entropy rate of natural language is not fixed but should increase systematically with the semantic complexity of corpora, which are captured by the only free parameter in our model.",
+      "author": "Weishun Zhong, Doron Sivan, Tankut Can, Mikhail Katkov, Misha Tsodyks",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13194v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13194v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cond-mat.dis-nn",
+          "cond-mat.stat-mech",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Weishun Zhong",
+          "Doron Sivan",
+          "Tankut Can",
+          "Mikhail Katkov",
+          "Misha Tsodyks"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5777777777777777,
+      "final_score": 0.5461536403933531
+    },
+    {
+      "title": "In-Context Autonomous Network Incident Response: An End-to-End Large Language Model Agent Approach",
+      "url": "https://arxiv.org/abs/2602.13156v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-13T18:09:30",
+      "summary": "Rapidly evolving cyberattacks demand incident response systems that can autonomously learn and adapt to changing threats. Prior work has extensively explored the reinforcement learning approach, which involves learning response strategies through extensive simulation of the incident. While this approach can be effective, it requires handcrafted modeling of the simulator and suppresses useful semantics from raw system logs and alerts. To address these limitations, we propose to leverage large language models' (LLM) pre-trained security knowledge and in-context learning to create an end-to-end agentic solution for incident response planning. Specifically, our agent integrates four functionalities, perception, reasoning, planning, and action, into one lightweight LLM (14b model). Through fine-tuning and chain-of-thought reasoning, our LLM agent is capable of processing system logs and inferring the underlying network state (perception), updating its conjecture of attack models (reasoning)...",
+      "content": "Rapidly evolving cyberattacks demand incident response systems that can autonomously learn and adapt to changing threats. Prior work has extensively explored the reinforcement learning approach, which involves learning response strategies through extensive simulation of the incident. While this approach can be effective, it requires handcrafted modeling of the simulator and suppresses useful semantics from raw system logs and alerts. To address these limitations, we propose to leverage large language models' (LLM) pre-trained security knowledge and in-context learning to create an end-to-end agentic solution for incident response planning. Specifically, our agent integrates four functionalities, perception, reasoning, planning, and action, into one lightweight LLM (14b model). Through fine-tuning and chain-of-thought reasoning, our LLM agent is capable of processing system logs and inferring the underlying network state (perception), updating its conjecture of attack models (reasoning), simulating consequences under different response strategies (planning), and generating an effective response (action). By comparing LLM-simulated outcomes with actual observations, the LLM agent repeatedly refines its attack conjecture and corresponding response, thereby demonstrating in-context adaptation. Our agentic approach is free of modeling and can run on commodity hardware. When evaluated on incident logs reported in the literature, our agent achieves recovery up to 23% faster than those of frontier LLMs.",
+      "author": "Yiran Gao, Kim Hammar, Tao Li",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13156v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13156v1.pdf",
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yiran Gao",
+          "Kim Hammar",
+          "Tao Li"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5777777777777777,
+      "final_score": 0.5454294339655258
+    },
+    {
+      "title": "Conversational Image Segmentation: Grounding Abstract Concepts with Scalable Supervision",
+      "url": "https://arxiv.org/abs/2602.13195v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-13T18:58:30",
+      "summary": "Conversational image segmentation grounds abstract, intent-driven concepts into pixel-accurate masks. Prior work on referring image grounding focuses on categorical and spatial queries (e.g., \"left-most apple\") and overlooks functional and physical reasoning (e.g., \"where can I safely store the knife?\"). We address this gap and introduce Conversational Image Segmentation (CIS) and ConverSeg, a benchmark spanning entities, spatial relations, intent, affordances, functions, safety, and physical reasoning. We also present ConverSeg-Net, which fuses strong segmentation priors with language understanding, and an AI-powered data engine that generates prompt-mask pairs without human supervision. We show that current language-guided segmentation models are inadequate for CIS, while ConverSeg-Net trained on our data engine achieves significant gains on ConverSeg and maintains strong performance on existing language-guided segmentation benchmarks. Project webpage: https://glab-caltech.github.io/...",
+      "content": "Conversational image segmentation grounds abstract, intent-driven concepts into pixel-accurate masks. Prior work on referring image grounding focuses on categorical and spatial queries (e.g., \"left-most apple\") and overlooks functional and physical reasoning (e.g., \"where can I safely store the knife?\"). We address this gap and introduce Conversational Image Segmentation (CIS) and ConverSeg, a benchmark spanning entities, spatial relations, intent, affordances, functions, safety, and physical reasoning. We also present ConverSeg-Net, which fuses strong segmentation priors with language understanding, and an AI-powered data engine that generates prompt-mask pairs without human supervision. We show that current language-guided segmentation models are inadequate for CIS, while ConverSeg-Net trained on our data engine achieves significant gains on ConverSeg and maintains strong performance on existing language-guided segmentation benchmarks. Project webpage: https://glab-caltech.github.io/converseg/",
+      "author": "Aadarsh Sahoo, Georgia Gkioxari",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13195v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13195v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Aadarsh Sahoo",
+          "Georgia Gkioxari"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5462962962962963,
+      "final_score": 0.5335660078002645
+    },
+    {
+      "title": "OpenLID-v3: Improving the Precision of Closely Related Language Identification -- An Experience Report",
+      "url": "https://arxiv.org/abs/2602.13139v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-13T17:47:08",
+      "summary": "Language identification (LID) is an essential step in building high-quality multilingual datasets from web data. Existing LID tools (such as OpenLID or GlotLID) often struggle to identify closely related languages and to distinguish valid natural language from noise, which contaminates language-specific subsets, especially for low-resource languages. In this work we extend the OpenLID classifier by adding more training data, merging problematic language variant clusters, and introducing a special label for marking noise. We call this extended system OpenLID-v3 and evaluate it against GlotLID on multiple benchmarks. During development, we focus on three groups of closely related languages (Bosnian, Croatian, and Serbian; Romance varieties of Northern Italy and Southern France; and Scandinavian languages) and contribute new evaluation datasets where existing ones are inadequate. We find that ensemble approaches improve precision but also substantially reduce coverage for low-resource lan...",
+      "content": "Language identification (LID) is an essential step in building high-quality multilingual datasets from web data. Existing LID tools (such as OpenLID or GlotLID) often struggle to identify closely related languages and to distinguish valid natural language from noise, which contaminates language-specific subsets, especially for low-resource languages. In this work we extend the OpenLID classifier by adding more training data, merging problematic language variant clusters, and introducing a special label for marking noise. We call this extended system OpenLID-v3 and evaluate it against GlotLID on multiple benchmarks. During development, we focus on three groups of closely related languages (Bosnian, Croatian, and Serbian; Romance varieties of Northern Italy and Southern France; and Scandinavian languages) and contribute new evaluation datasets where existing ones are inadequate. We find that ensemble approaches improve precision but also substantially reduce coverage for low-resource languages. OpenLID-v3 is available on https://huggingface.co/HPLT/OpenLID-v3.",
+      "author": "Mariia Fedorova, Nikolay Arefyev, Maja Buljan, Jind\u0159ich Helcl, Stephan Oepen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13139v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13139v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Mariia Fedorova",
+          "Nikolay Arefyev",
+          "Maja Buljan",
+          "Jind\u0159ich Helcl",
+          "Stephan Oepen",
+          "Egil R\u00f8nningstad",
+          "Yves Scherrer"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5425925925925926,
+      "final_score": 0.5310225224137731
+    },
+    {
+      "title": "What\u2019s next for Chinese open-source AI",
+      "url": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-02-12T10:00:00",
+      "summary": "MIT Technology Review \u2019s What\u2019s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them  here . The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025, Chinese companies have repeatedly delivered AI models that match the performance of leading Western models at a fraction of the cost.  Just last week the Chinese firm Moonshot AI released its latest open-wei...",
+      "content": "MIT Technology Review \u2019s What\u2019s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them  here . The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025, Chinese companies have repeatedly delivered AI models that match the performance of leading Western models at a fraction of the cost.  Just last week the Chinese firm Moonshot AI released its latest open-weight model, Kimi K2.5, which came close to top proprietary systems such as Anthropic\u2019s Claude Opus on some early benchmarks. The difference: K2.5 is roughly one-seventh Opus\u2019s price. On Hugging Face, Alibaba\u2019s Qwen family\u2014after ranking as the most downloaded model series in 2025 and 2026\u2014has overtaken Meta\u2019s Llama models in cumulative downloads. And a recent MIT study found that Chinese open-source models have surpassed US models in total downloads. For developers and builders worldwide, access to near-frontier AI capabilities has never been this broad or this affordable. But these models differ in a crucial way from most US models like ChatGPT or Claude, which you pay to access and can\u2019t inspect. The Chinese companies publish their models\u2019 weights\u2014numerical values that get set when a model is trained\u2014so anyone can download, run, study, and modify them.  If these open-source AI models keep getting better, they will not just offer the cheapest options for people who want access to frontier AI capabilities; they will change where innovation happens and who sets the standards.  Here\u2019s what may come next. China\u2019s commitment to open source will continue When DeepSeek launched R1, much of the initial shock centered on its origin. Suddenly, a Chinese team had released a reasoning model that could stand alongside the best systems from US labs. But the long tail of DeepSeek\u2019s impact had less to do with nationality than with distribution. R1 was released as an open-weight model under a permissive MIT license, allowing anyone to download, inspect, and deploy it. On top of that, DeepSeek also published a paper detailing its training process and techniques. For developers who access models via an API, DeepSeek also undercut competitors on price, offering access at a fraction the cost of OpenAI\u2019s o1, the leading proprietary reasoning model at the time. Within days of its release, DeepSeek replaced ChatGPT as the most downloaded free app in the US App Store. The moment spilled beyond developer circles into financial markets, triggering a sharp sell-off in US tech stocks that briefly erased roughly $1 trillion in market value. Almost overnight, DeepSeek went from a little-known spin-off team backed by a quantitative hedge fund to the most visible symbol of China\u2019s push for open-source AI. China\u2019s decision to lean in to open source isn\u2019t surprising. It has the world\u2019s second-largest concentration of AI talent after the US. plus a vast, well-resourced tech industry. After ChatGPT broke into the mainstream, China\u2019s AI sector went through a reckoning\u2014and emerged determined to catch up. Pursuing an open-source strategy was seen as the fastest way to close the gap by rallying developers, spreading adoption, and setting standards. DeepSeek\u2019s success injected confidence into an industry long used to following global standards rather than setting them. \u201cThirty years ago, no Chinese person would believe they could be at the center of global innovation,\u201d says Alex Chenglin Wu, CEO and founder of Atoms, an AI agent company and prominent contributor to China\u2019s open-source ecosystem. \u201cDeepSeek shows that with solid technical talent, a supportive environment, and the right organizational culture, it\u2019s possible to do truly world-class work.\u201d DeepSeek\u2019s breakout moment wasn\u2019t China\u2019s first open-source success. Alibaba\u2019s Qwen Lab had been releasing open-weight models for years. By September 2024,  well before DeepSeek\u2019s V3 launch, Alibaba was saying that global downloads had exceeded 600 million. On Hugging Face, Qwen accounted for more than 30% of all model downloads in 2024. Other institutions, including the Beijing Academy of Artificial Intelligence and the AI firm Baichuan, were also releasing open models as early as 2023.  But since the success of DeepSeek, the field has widened rapidly. Companies such as Z.ai (formerly Zhipu), MiniMax, Tencent, and a growing number of smaller labs have released models that are competitive on reasoning, coding, and agent-style tasks. The growing number of capable models has sped up progress. Capabilities that once took months to make it to the open-source world now emerge within weeks, even days. \u201cChinese AI firms have seen real gains from the open-source playbook,\u201d says Liu Zhiyuan, a professor of computer science at Tsinghua University and chief scientist at the AI startup ModelBest. \u201cBy releasing strong research, they build reputation and gain free publicity.\u201d Beyond commercial incentives, Liu says, open source has taken on cultural and strategic weight. \u201cIn the Chinese programmer community, open source has become politically correct,\u201d he says, framing it as a response to US dominance in proprietary AI systems. That shift is also reflected at the institutional level. Universities including Tsinghua have begun encouraging AI development and open-source contributions, while policymakers have moved to formalize those incentives. In August, China\u2019s State Council released a draft policy encouraging universities to reward open-source work, proposing that students\u2019 contributions on platforms such as GitHub or Gitee could eventually be counted toward academic credit. With growing momentum and a reinforcing feedback loop, China\u2019s push for open-source models is likely to continue in the near term, though its long-term sustainability still hinges on financial results, says Tiezhen Wang, who helps lead work on global AI at Hugging Face. In January, the model labs Z.ai and MiniMax went public in Hong Kong. \u201cRight now, the focus is on making the cake bigger,\u201d says Wang. \u201cThe next challenge is figuring out how each company secures its share.\u201d The next wave of models will be narrower\u2014and better Chinese open-source models are leading not just in download volume but also in variety. Alibaba\u2019s Qwen has become one of the most diversified open model families in circulation, offering a wide range of variants optimized for different uses. The lineup ranges from lightweight models that can run on a single laptop to large, multi-hundred-billion-parameter systems designed for data-center deployment. Qwen features many task-optimized variants created by the community: the \u201cinstruct\u201d models are good at following orders, and \u201ccode\u201d variants specialize in coding. Although this strategy isn\u2019t unique to Chinese labs, Qwen was the first open model family to roll out so many high-quality options that it started to feel like a full product line\u2014one that\u2019s free to use. The open-weight nature of these releases also makes it easy for others to adapt them through techniques like fine-tuning and distillation, which means training a smaller model to mimic a larger one. According to ATOM (American Truly Open Models), a project by the AI researcher Nathan Lambert, by August 4, 2025, model variations derived from Qwen were \u201cmore than 40%\u201d of new Hugging Face language-model derivatives, while Llama had fallen to about 15%. This means that Qwen has become the default base model for all the \u201cremixes.\u201d This pattern has made the case for smaller, more specialized models. \u201cCompute and energy are real constraints for any deployment,\u201d Liu says. He told MIT Technology Review that the rise of small models is about making AI cheaper to run and easier for more people to use. His company, ModelBest, focuses on small language models designed to run locally on devices such as phones, cars, and other consumer hardware. While an average user might interact with AI only through the web or an app for simple conversations, power users of AI models with some technical background are experimenting with giving AI more autonomy to solve large-scale problems. OpenClaw, an open-source AI agent that recently went viral within the AI hacker world, allows AI to take over your computer\u2014it can run 24-7, going through your emails and work tasks without supervision.  OpenClaw, like many other open-source tools, allows users to connect to different AI models via an application programming interface, or API. Within days of OpenClaw\u2019s release, the team revealed that Kimi\u2019s K2.5 had surpassed Claude Opus and became the most used AI model\u2014by token count, meaning it was handling more total text processed across user prompts and model responses. Cost has been a major reason Chinese models have gained traction, but it would be a mistake to treat them as mere \u201cdupes\u201d of Western frontier systems, Wang suggests. Like any product, a model only needs to be good enough for the job at hand.  The landscape of open-source models in China is also getting more specialized. Research groups such as Shanghai AI Laboratory have released models geared toward scientific and technical tasks; several projects from Tencent have focused specifically on music generation. Ubiquant, a quantitative finance firm like DeepSeek\u2019s parent High-Flyer, has released an open model aimed at medical reasoning. In the meantime, innovative architectural ideas from Chinese labs are being picked up more broadly. DeepSeek has published work exploring model efficiency and memory; techniques that compress the model\u2019s attention \u201ccache,\u201d reducing memory and inference costs while mostly preserving performance, have drawn significant attention in the research community.  \u201cThe impact of these research breakthroughs is amplified because they\u2019re open-sourced and can be picked up quickly across the field,\u201d says Wang. Chinese open models will become infrastructure for global AI builders The adoption of Chinese models is picking up in Silicon Valley, too. Martin Casado, a general partner at Andreessen Horowitz, has put a number on it: Among startups pitching with open-source stacks, there\u2019s about an 80% chance they\u2019re running on Chinese open models, according to a post he made on X. Usage data tells a similar story. OpenRouter,  a middleman that tracks how people use different AI models through its API, shows Chinese open models rising from almost none in late 2024 to nearly 30% of usage in some recent weeks. The demand is also rising globally. Z.ai limited new subscriptions to its GLM coding plan (a coding tool based on its flagship GLM models) after demand surged, citing compute constraints. What\u2019s notable is where the demand is coming from: CNBC reports that the system\u2019s user base is primarily concentrated in the United States and China, followed by India, Japan, Brazil, and the UK. \u201cThe open-source ecosystems in China and the US are tightly bound together,\u201d says Wang at Hugging Face. Many Chinese open models still rely on Nvidia and US cloud platforms to train and serve them, which keeps the business ties tangled. Talent is fluid too: Researchers move across borders and companies, and many still operate as a global community, sharing code and ideas in public. That interdependence is part of what makes Chinese developers feel optimistic about this moment: The work travels, gets remixed, and actually shows up in products. But openness can also accelerate the competition. Dario Amodei, the CEO of Anthropic, made a version of this point after DeepSeek\u2019s 2025 releases: He wrote that export controls are \u201cnot a way to duck the competition\u201d between the US and China, and that AI companies in the US \u201cmust have better models\u201d if they want to prevail.  For the past decade, the story of Chinese tech in the West has been one of big expectations that ran into scrutiny, restrictions, and political backlash. This time the export isn\u2019t just an app or a consumer platform. It\u2019s the underlying model layer that other people build on. Whether that will play out differently is still an open question.",
+      "author": "Caiwei Chen",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "what's next in tech"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5592592592592592,
+      "final_score": 0.5093092284854498
+    },
+    {
+      "title": "Is a secure AI assistant possible?",
+      "url": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-02-11T20:08:35",
+      "summary": "AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That might explain why the first breakthrough LLM personal assistant came not from one of the major AI labs, which have to worry about reputation and liability, but from an independent software engineer, Pe...",
+      "content": "AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That might explain why the first breakthrough LLM personal assistant came not from one of the major AI labs, which have to worry about reputation and liability, but from an independent software engineer, Peter Steinberger. In November of 2025, Steinberger uploaded his tool, now called OpenClaw, to GitHub, and in late January the project went viral. OpenClaw harnesses existing LLMs to let users create their own bespoke assistants. For some users, this means handing over reams of personal data, from years of emails to the contents of their hard drive. That has security experts thoroughly freaked out. The risks posed by OpenClaw are so extensive that it would probably take someone the better part of a week to read all of the security blog posts on it that have cropped up in the past few weeks. The Chinese government took the step of issuing a public warning about OpenClaw\u2019s security vulnerabilities. In response to these concerns, Steinberger posted on X that nontechnical people should not use the software. (He did not respond to a request for comment for this article.) But there\u2019s a clear appetite for what OpenClaw is offering, and it\u2019s not limited to people who can run their own software security audits. Any AI companies that hope to get in on the personal assistant business will need to figure out how to build a system that will keep users\u2019 data safe and secure. To do so, they\u2019ll need to borrow approaches from the cutting edge of agent security research. Risk management OpenClaw is, in essence, a mecha suit for LLMs. Users can choose any LLM they like to act as the pilot; that LLM then gains access to improved memory capabilities and the ability to set itself tasks that it repeats on a regular cadence. Unlike the agentic offerings from the major AI companies, OpenClaw agents are meant to be on 24-7, and users can communicate with them using WhatsApp or other messaging apps. That means they can act like a superpowered personal assistant who wakes you each morning with a personalized to-do list, plans vacations while you work, and spins up new apps in its spare time. But all that power has consequences. If you want your AI personal assistant to manage your inbox, then you need to give it access to your email\u2014and all the sensitive information contained there. If you want it to make purchases on your behalf, you need to give it your credit card info. And if you want it to do tasks on your computer, such as writing code, it needs some access to your local files.  There are a few ways this can go wrong. The first is that the AI assistant might make a mistake, as when a user\u2019s Google Antigravity coding agent reportedly wiped his entire hard drive . The second is that someone might gain access to the agent using conventional hacking tools and use it to either extract sensitive data or run malicious code. In the weeks since OpenClaw went viral, security researchers have demonstrated numerous such vulnerabilities that put security-na\u00efve users at risk. Both of these dangers can be managed: Some users are choosing to run their OpenClaw agents on separate computers or in the cloud, which protects data on their hard drives from being erased, and other vulnerabilities could be fixed using tried-and-true security approaches. But the experts I spoke to for this article were focused on a much more insidious security risk known as prompt injection. Prompt injection is effectively LLM hijacking: Simply by posting malicious text or images on a website that an LLM might peruse, or sending them to an inbox that an LLM reads, attackers can bend it to their will. And if that LLM has access to any of its user\u2019s private information, the consequences could be dire. \u201cUsing something like OpenClaw is like giving your wallet to a stranger in the street,\u201d says Nicolas Papernot, a professor of electrical and computer engineering at the University of Toronto. Whether or not the major AI companies can feel comfortable offering personal assistants may come down to the quality of the defenses that they can muster against such attacks. It\u2019s important to note here that prompt injection has not yet caused any catastrophes, or at least none that have been publicly reported. But now that there are likely hundreds of thousands of OpenClaw agents buzzing around the internet, prompt injection might start to look like a much more appealing strategy for cybercriminals. \u201cTools like this are incentivizing malicious actors to attack a much broader population,\u201d Papernot says.  Building guardrails The term \u201cprompt injection\u201d was coined by the popular LLM blogger Simon Willison in 2022, a couple of months before ChatGPT was released. Even back then, it was possible to discern that LLMs would introduce a completely new type of security vulnerability once they came into widespread use. LLMs can\u2019t tell apart the instructions that they receive from users and the data that they use to carry out those instructions, such as emails and web search results\u2014to an LLM, they\u2019re all just text. So if an attacker embeds a few sentences in an email and the LLM mistakes them for an instruction from its user, the attacker can get the LLM to do anything it wants. Prompt injection is a tough problem, and it doesn\u2019t seem to be going away anytime soon. \u201cWe don\u2019t really have a silver-bullet defense right now,\u201d says Dawn Song, a professor of computer science at UC Berkeley. But there\u2019s a robust academic community working on the problem, and they\u2019ve come up with strategies that could eventually make AI personal assistants safe. Technically speaking, it is possible to use OpenClaw today without risking prompt injection: Just don\u2019t connect it to the internet. But restricting OpenClaw from reading your emails, managing your calendar, and doing online research defeats much of the purpose of using an AI assistant. The trick of protecting against prompt injection is to prevent the LLM from responding to hijacking attempts while still giving it room to do its job. One strategy is to train the LLM to ignore prompt injections. A major part of the LLM development process, called post-training, involves taking a model that knows how to produce realistic text and turning it into a useful assistant by \u201crewarding\u201d it for answering questions appropriately and \u201cpunishing\u201d it when it fails to do so. These rewards and punishments are metaphorical, but the LLM learns from them as an animal would. Using this process, it\u2019s possible to train an LLM not to respond to specific examples of prompt injection. But there\u2019s a balance: Train an LLM to reject injected commands too enthusiastically, and it might also start to reject legitimate requests from the user. And because there\u2019s a fundamental element of randomness in LLM behavior, even an LLM that has been very effectively trained to resist prompt injection will likely still slip up every once in a while. Another approach involves halting the prompt injection attack before it ever reaches the LLM. Typically, this involves using a specialized detector LLM to determine whether or not the data being sent to the original LLM contains any prompt injections. In a recent study , however, even the best-performing detector completely failed to pick up on certain categories of prompt injection attack. The third strategy is more complicated. Rather than controlling the inputs to an LLM by detecting whether or not they contain a prompt injection, the goal is to formulate a policy that guides the LLM\u2019s outputs\u2014i.e., its behaviors\u2014and prevents it from doing anything harmful. Some defenses in this vein are quite simple: If an LLM is allowed to email only a few pre-approved addresses, for example, then it definitely won\u2019t send its user\u2019s credit card information to an attacker. But such a policy would prevent the LLM from completing many useful tasks, such as researching and reaching out to potential professional contacts on behalf of its user. \u201cThe challenge is how to accurately define those policies,\u201d says Neil Gong, a professor of electrical and computer engineering at Duke University. \u201cIt\u2019s a trade-off between utility and security.\u201d On a larger scale, the entire agentic world is wrestling with that trade-off: At what point will agents be secure enough to be useful? Experts disagree. Song, whose startup, Virtue AI, makes an agent security platform, says she thinks it\u2019s possible to safely deploy an AI personal assistant now. But Gong says, \u201cWe\u2019re not there yet.\u201d  Even if AI agents can\u2019t yet be entirely protected against prompt injection, there are certainly ways to mitigate the risks. And it\u2019s possible that some of those techniques could be implemented in OpenClaw. Last week, at the inaugural ClawCon event in San Francisco, Steinberger announced that he\u2019d brought a security person on board to work on the tool. As of now, OpenClaw remains vulnerable, though that hasn\u2019t dissuaded its multitude of enthusiastic users. George Pickett, a volunteer maintainer of the OpenGlaw GitHub repository and a fan of the tool, says he\u2019s taken some security measures to keep himself safe while using it: He runs it in the cloud, so that he doesn\u2019t have to worry about accidentally deleting his hard drive, and he\u2019s put mechanisms in place to ensure that no one else can connect to his assistant. But he hasn\u2019t taken any specific actions to prevent prompt injection. He\u2019s aware of the risk but says he hasn\u2019t yet seen any reports of it happening with OpenClaw. \u201cMaybe my perspective is a stupid way to look at it, but it\u2019s unlikely that I\u2019ll be the first one to be hacked,\u201d he says.",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5555555555555556,
+      "final_score": 0.4954554751656747
+    },
+    {
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-09T11:00:00",
+      "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "content": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5833333333333334,
+      "final_score": 0.45833333333333337
+    },
+    {
+      "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
+      "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+      "source_type": "rss",
+      "source_name": "DeepMind Blog",
+      "published_at": "2026-02-09T16:12:06",
+      "summary": "Research papers point to the growing impact of Deep Think across fields",
+      "content": "Research papers point to the growing impact of Deep Think across fields",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "deepmind-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5555555555555556,
+      "final_score": 0.4490792351304564
+    },
+    {
+      "title": "An AI agent published a hit piece on me \u2013 more things have happened",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-14T00:37:53",
+      "summary": "<a href=\"https:&#x2F;&#x2F;infosec.exchange&#x2F;@mttaggart&#x2F;116065340523529645\" rel=\"nofollow\">https:&#x2F;&#x2F;infosec.exchange&#x2F;@mttaggart&#x2F;116065340523529645</a>",
+      "content": null,
+      "author": "scottshambaugh",
+      "score": 744,
+      "num_comments": 610,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47009949,
+        "hn_url": "https://news.ycombinator.com/item?id=47009949",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.39835043066156905
+    },
+    {
+      "title": "Quantization-Robust LLM Unlearning via Low-Rank Adaptation",
+      "url": "https://arxiv.org/abs/2602.13151v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-13T18:01:40",
+      "summary": "Large Language Model (LLM) unlearning aims to remove targeted knowledge from a trained model, but practical deployments often require post-training quantization (PTQ) for efficient inference. However, aggressive low-bit PTQ can mask or erase unlearning updates, causing quantized models to revert to pre-unlearning behavior. We show that standard full-parameter fine-tuning often induce parameter changes that are too small to survive 4-bit quantization. We propose quantization-robust unlearning via low-rank adaptation (LoRA): we freeze the base model and concentrate unlearning into trainable adapters so that the effective update is preserved after quantization. On Llama-2-7B evaluated with MUSE dataset (BOOKS and NEWS), LoRA improves 4-bit utility by up to 7.93 points (NPO+GDR on BOOKS: 50.17 to 58.10) and yields higher 4-bit utility on NEWS for GA+GDR (40.06 to 44.82, increase of 4.76). LoRA also substantially reduces privacy leakage under 4-bit PTQ, e.g., for GA+KLR on BOOKS, PrivLeak m...",
+      "content": "Large Language Model (LLM) unlearning aims to remove targeted knowledge from a trained model, but practical deployments often require post-training quantization (PTQ) for efficient inference. However, aggressive low-bit PTQ can mask or erase unlearning updates, causing quantized models to revert to pre-unlearning behavior. We show that standard full-parameter fine-tuning often induce parameter changes that are too small to survive 4-bit quantization. We propose quantization-robust unlearning via low-rank adaptation (LoRA): we freeze the base model and concentrate unlearning into trainable adapters so that the effective update is preserved after quantization. On Llama-2-7B evaluated with MUSE dataset (BOOKS and NEWS), LoRA improves 4-bit utility by up to 7.93 points (NPO+GDR on BOOKS: 50.17 to 58.10) and yields higher 4-bit utility on NEWS for GA+GDR (40.06 to 44.82, increase of 4.76). LoRA also substantially reduces privacy leakage under 4-bit PTQ, e.g., for GA+KLR on BOOKS, PrivLeak moves from -25.68 to -5.86 (closer to ideal 0), while maintaining strong forgetting (VerMem and KnowMem near 0). Thus, using LoRA for Machine Unlearning is beneficial for scenarios where quantization is necessary for model deployment.",
+      "author": "Jo\u00e3o Vitor Boer Abitante, Joana Meneguzzo Pasquali, Luan Fonseca Garcia, Ewerton de Oliveira, Thomas da Silva Paula...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13151v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13151v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Jo\u00e3o Vitor Boer Abitante",
+          "Joana Meneguzzo Pasquali",
+          "Luan Fonseca Garcia",
+          "Ewerton de Oliveira",
+          "Thomas da Silva Paula",
+          "Rodrigo C. Barros",
+          "Lucas S. Kupssinsk\u00fc"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.10555555555555556,
+      "final_score": 0.3564239774608135
+    },
+    {
+      "title": "Asynchronous Verified Semantic Caching for Tiered LLM Architectures",
+      "url": "https://arxiv.org/abs/2602.13165v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-13T18:25:00",
+      "summary": "Large language models (LLMs) now sit in the critical path of search, assistance, and agentic workflows, making semantic caching essential for reducing inference cost and latency. Production deployments typically use a tiered static-dynamic design: a static cache of curated, offline vetted responses mined from logs, backed by a dynamic cache populated online. In practice, both tiers are commonly governed by a single embedding similarity threshold, which induces a hard tradeoff: conservative thresholds miss safe reuse opportunities, while aggressive thresholds risk serving semantically incorrect responses. We introduce \\textbf{Krites}, an asynchronous, LLM-judged caching policy that expands static coverage without changing serving decisions. On the critical path, Krites behaves exactly like a standard static threshold policy. When the nearest static neighbor of the prompt falls just below the static threshold, Krites asynchronously invokes an LLM judge to verify whether the static respon...",
+      "content": "Large language models (LLMs) now sit in the critical path of search, assistance, and agentic workflows, making semantic caching essential for reducing inference cost and latency. Production deployments typically use a tiered static-dynamic design: a static cache of curated, offline vetted responses mined from logs, backed by a dynamic cache populated online. In practice, both tiers are commonly governed by a single embedding similarity threshold, which induces a hard tradeoff: conservative thresholds miss safe reuse opportunities, while aggressive thresholds risk serving semantically incorrect responses. We introduce \\textbf{Krites}, an asynchronous, LLM-judged caching policy that expands static coverage without changing serving decisions. On the critical path, Krites behaves exactly like a standard static threshold policy. When the nearest static neighbor of the prompt falls just below the static threshold, Krites asynchronously invokes an LLM judge to verify whether the static response is acceptable for the new prompt. Approved matches are promoted into the dynamic cache, allowing future repeats and paraphrases to reuse curated static answers and expanding static reach over time. In trace-driven simulations on conversational and search workloads, Krites increases the fraction of requests served with curated static answers (direct static hits plus verified promotions) by up to $\\textbf{3.9}$ times for conversational traffic and search-style queries relative to tuned baselines, with unchanged critical path latency.",
+      "author": "Asmit Kumar Singh, Haozhe Wang, Laxmi Naga Santosh Attaluri, Tak Chiam, Weihua Zhu",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13165v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13165v1.pdf",
+        "categories": [
+          "cs.IR",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Asmit Kumar Singh",
+          "Haozhe Wang",
+          "Laxmi Naga Santosh Attaluri",
+          "Tak Chiam",
+          "Weihua Zhu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.3456600887470238
+    },
+    {
+      "title": "LongStream: Long-Sequence Streaming Autoregressive Visual Geometry",
+      "url": "https://arxiv.org/abs/2602.13172v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-13T18:30:51",
+      "summary": "Long-sequence streaming 3D reconstruction remains a significant open challenge. Existing autoregressive models often fail when processing long sequences. They typically anchor poses to the first frame, which leads to attention decay, scale drift, and extrapolation errors. We introduce LongStream, a novel gauge-decoupled streaming visual geometry model for metric-scale scene reconstruction across thousands of frames. Our approach is threefold. First, we discard the first-frame anchor and predict keyframe-relative poses. This reformulates long-range extrapolation into a constant-difficulty local task. Second, we introduce orthogonal scale learning. This method fully disentangles geometry from scale estimation to suppress drift. Finally, we solve Transformer cache issues such as attention-sink reliance and long-term KV-cache contamination. We propose cache-consistent training combined with periodic cache refresh. This approach suppresses attention degradation over ultra-long sequences and...",
+      "content": "Long-sequence streaming 3D reconstruction remains a significant open challenge. Existing autoregressive models often fail when processing long sequences. They typically anchor poses to the first frame, which leads to attention decay, scale drift, and extrapolation errors. We introduce LongStream, a novel gauge-decoupled streaming visual geometry model for metric-scale scene reconstruction across thousands of frames. Our approach is threefold. First, we discard the first-frame anchor and predict keyframe-relative poses. This reformulates long-range extrapolation into a constant-difficulty local task. Second, we introduce orthogonal scale learning. This method fully disentangles geometry from scale estimation to suppress drift. Finally, we solve Transformer cache issues such as attention-sink reliance and long-term KV-cache contamination. We propose cache-consistent training combined with periodic cache refresh. This approach suppresses attention degradation over ultra-long sequences and reduces the gap between training and inference. Experiments show LongStream achieves state-of-the-art performance. It delivers stable, metric-scale reconstruction over kilometer-scale sequences at 18 FPS. Project Page: https://3dagentworld.github.io/longstream/",
+      "author": "Chong Cheng, Xianda Chen, Tao Xie, Wei Yin, Weiqiang Ren...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13172v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13172v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Chong Cheng",
+          "Xianda Chen",
+          "Tao Xie",
+          "Wei Yin",
+          "Weiqiang Ren",
+          "Qian Zhang",
+          "Xiaoyuang Guo",
+          "Hao Wang"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.07592592592592592,
+      "final_score": 0.34500640124041004
+    },
+    {
+      "title": "Learning functional components of PDEs from data using neural networks",
+      "url": "https://arxiv.org/abs/2602.13174v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-02-13T18:32:33",
+      "summary": "Partial differential equations often contain unknown functions that are difficult or impossible to measure directly, hampering our ability to derive predictions from the model. Workflows for recovering scalar PDE parameters from data are well studied: here we show how similar workflows can be used to recover functions from data. Specifically, we embed neural networks into the PDE and show how, as they are trained on data, they can approximate unknown functions with arbitrary accuracy. Using nonlocal aggregation-diffusion equations as a case study, we recover interaction kernels and external potentials from steady state data. Specifically, we investigate how a wide range of factors, such as the number of available solutions, their properties, sampling density, and measurement noise, affect our ability to successfully recover functions. Our approach is advantageous because it can utilise standard parameter-fitting workflows, and in that the trained PDE can be treated as a normal PDE for ...",
+      "content": "Partial differential equations often contain unknown functions that are difficult or impossible to measure directly, hampering our ability to derive predictions from the model. Workflows for recovering scalar PDE parameters from data are well studied: here we show how similar workflows can be used to recover functions from data. Specifically, we embed neural networks into the PDE and show how, as they are trained on data, they can approximate unknown functions with arbitrary accuracy. Using nonlocal aggregation-diffusion equations as a case study, we recover interaction kernels and external potentials from steady state data. Specifically, we investigate how a wide range of factors, such as the number of available solutions, their properties, sampling density, and measurement noise, affect our ability to successfully recover functions. Our approach is advantageous because it can utilise standard parameter-fitting workflows, and in that the trained PDE can be treated as a normal PDE for purposes such as generating system predictions.",
+      "author": "Torkel E. Loman, Yurij Salmaniw, Antonio Leon Villares, Jose A. Carrillo, Ruth E. Baker",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13174v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13174v1.pdf",
+        "categories": [
+          "cs.LG",
+          "math.AP"
+        ],
+        "all_authors": [
+          "Torkel E. Loman",
+          "Yurij Salmaniw",
+          "Antonio Leon Villares",
+          "Jose A. Carrillo",
+          "Ruth E. Baker"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07222222222222222,
+      "final_score": 0.3435502176192956
+    },
+    {
+      "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+      "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-13T10:00:00",
+      "summary": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.",
+      "content": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "safety"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.34258965188616075
+    },
+    {
+      "title": "GPT-5.2 derives a new result in theoretical physics",
+      "url": "https://openai.com/index/new-result-theoretical-physics",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-13T11:00:00",
+      "summary": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
+      "content": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.34126028681448417
+    },
+    {
+      "title": "CoPE-VideoLM: Codec Primitives For Efficient Video Language Models",
+      "url": "https://arxiv.org/abs/2602.13191v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-13T18:57:31",
+      "summary": "Video Language Models (VideoLMs) empower AI systems to understand temporal dynamics in videos. To fit to the maximum context window constraint, current methods use keyframe sampling which can miss both macro-level events and micro-level details due to the sparse temporal coverage. Furthermore, processing full images and their tokens for each frame incurs substantial computational overhead. To address these limitations, we propose to leverage video codec primitives (specifically motion vectors and residuals) which natively encode video redundancy and sparsity without requiring expensive full-image encoding for most frames. To this end, we introduce lightweight transformer-based encoders that aggregate codec primitives and align their representations with image encoder embeddings through a pre-training strategy that accelerates convergence during end-to-end fine-tuning. Our approach reduces the time-to-first-token by up to $86\\%$ and token usage by up to $93\\%$ compared to standard Video...",
+      "content": "Video Language Models (VideoLMs) empower AI systems to understand temporal dynamics in videos. To fit to the maximum context window constraint, current methods use keyframe sampling which can miss both macro-level events and micro-level details due to the sparse temporal coverage. Furthermore, processing full images and their tokens for each frame incurs substantial computational overhead. To address these limitations, we propose to leverage video codec primitives (specifically motion vectors and residuals) which natively encode video redundancy and sparsity without requiring expensive full-image encoding for most frames. To this end, we introduce lightweight transformer-based encoders that aggregate codec primitives and align their representations with image encoder embeddings through a pre-training strategy that accelerates convergence during end-to-end fine-tuning. Our approach reduces the time-to-first-token by up to $86\\%$ and token usage by up to $93\\%$ compared to standard VideoLMs. Moreover, by varying the keyframe and codec primitive densities we are able to maintain or exceed performance on $14$ diverse video understanding benchmarks spanning general question answering, temporal reasoning, long-form understanding, and spatial scene understanding.",
+      "author": "Sayan Deb Sarkar, R\u00e9mi Pautrat, Ondrej Miksik, Marc Pollefeys, Iro Armeni...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13191v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13191v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Sayan Deb Sarkar",
+          "R\u00e9mi Pautrat",
+          "Ondrej Miksik",
+          "Marc Pollefeys",
+          "Iro Armeni",
+          "Mahdi Rad",
+          "Mihai Dusmanu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06296296296296296,
+      "final_score": 0.3402180418285384
+    },
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-02-12T16:13:00",
+      "summary": "We\u2019re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
+      "content": "We\u2019re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini models",
+        "google one",
+        "google deepmind",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.1148148148148148,
+      "final_score": 0.33708204600876324
+    },
+    {
+      "title": "Selection of CMIP6 Models for Regional Precipitation Projection and Climate Change Assessment in the Jhelum and Chenab River Basins",
+      "url": "https://arxiv.org/abs/2602.13181v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-02-13T18:41:40",
+      "summary": "Effective water resource management depends on accurate projections of flows in water channels. For projected climate data, use of different General Circulation Models (GCM) simulates contrasting results. This study shows selection of GCM for the latest generation CMIP6 for hydroclimate change impact studies. Envelope based method was used for the selection, which includes components based on machine learning techniques, allowing the selection of GCMs without the need for in-situ reference data. According to our knowledge, for the first time, such a comparison was performed for the CMIP6 Shared Socioeconomic Pathway (SSP) scenarios data. In addition, the effect of climate change under SSP scenarios was studied, along with the calculation of extreme indices. Finally, GCMs were compared to quantify spatiotemporal differences between CMIP5 and CMIP6 data. Results provide NorESM2 LM, FGOALS g3 as selected models for the Jhelum and Chenab River. Highly vulnerable regions under the effect of...",
+      "content": "Effective water resource management depends on accurate projections of flows in water channels. For projected climate data, use of different General Circulation Models (GCM) simulates contrasting results. This study shows selection of GCM for the latest generation CMIP6 for hydroclimate change impact studies. Envelope based method was used for the selection, which includes components based on machine learning techniques, allowing the selection of GCMs without the need for in-situ reference data. According to our knowledge, for the first time, such a comparison was performed for the CMIP6 Shared Socioeconomic Pathway (SSP) scenarios data. In addition, the effect of climate change under SSP scenarios was studied, along with the calculation of extreme indices. Finally, GCMs were compared to quantify spatiotemporal differences between CMIP5 and CMIP6 data. Results provide NorESM2 LM, FGOALS g3 as selected models for the Jhelum and Chenab River. Highly vulnerable regions under the effect of climate change were highlighted through spatial maps, which included parts of Punjab, Jammu, and Kashmir. Upon comparison of CMIP5 and CMIP6, no discernible difference was found between the RCP and SSP scenarios precipitation projections. In the future, more detailed statistical comparisons could further reinforce the proposition.",
+      "author": "Saad Ahmed Jamal, Ammara Nusrat, Muhammad Azmat, Muhammad Osama Nusrat",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.13181v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.13181v1.pdf",
+        "categories": [
+          "physics.ao-ph",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Saad Ahmed Jamal",
+          "Ammara Nusrat",
+          "Muhammad Azmat",
+          "Muhammad Osama Nusrat"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.05370370370370371,
+      "final_score": 0.3362784749147652
+    }
+  ],
+  "summary": {
+    "sources": 9,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-02-09T11:00:00",
+      "end": "2026-02-15T21:54:15"
+    }
+  }
+}
