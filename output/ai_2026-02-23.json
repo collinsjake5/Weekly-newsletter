@@ -1,0 +1,658 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-02-23T14:09:54.328102",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-23T05:30:00",
+      "summary": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "content": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7672633143695436
+    },
+    {
+      "title": "CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation",
+      "url": "https://arxiv.org/abs/2602.18424v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-20T18:46:27",
+      "summary": "Vision-Language Models (VLMs) have shown remarkable progress in Vision-Language Navigation (VLN), offering new possibilities for navigation decision-making that could benefit both robotic platforms and human users. However, real-world navigation is inherently conditioned by the agent's mobility constraints. For example, a sweeping robot cannot traverse stairs, while a quadruped can. We introduce Capability-Conditioned Navigation (CapNav), a benchmark designed to evaluate how well VLMs can navigate complex indoor spaces given an agent's specific physical and operational capabilities. CapNav defines five representative human and robot agents, each described with physical dimensions, mobility capabilities, and environmental interaction abilities. CapNav provides 45 real-world indoor scenes, 473 navigation tasks, and 2365 QA pairs to test if VLMs can traverse indoor environments based on agent capabilities. We evaluate 13 modern VLMs and find that current VLM's navigation performance drops...",
+      "content": "Vision-Language Models (VLMs) have shown remarkable progress in Vision-Language Navigation (VLN), offering new possibilities for navigation decision-making that could benefit both robotic platforms and human users. However, real-world navigation is inherently conditioned by the agent's mobility constraints. For example, a sweeping robot cannot traverse stairs, while a quadruped can. We introduce Capability-Conditioned Navigation (CapNav), a benchmark designed to evaluate how well VLMs can navigate complex indoor spaces given an agent's specific physical and operational capabilities. CapNav defines five representative human and robot agents, each described with physical dimensions, mobility capabilities, and environmental interaction abilities. CapNav provides 45 real-world indoor scenes, 473 navigation tasks, and 2365 QA pairs to test if VLMs can traverse indoor environments based on agent capabilities. We evaluate 13 modern VLMs and find that current VLM's navigation performance drops sharply as mobility constraints tighten, and that even state-of-the-art models struggle with obstacle types that require reasoning on spatial dimensions. We conclude by discussing the implications for capability-aware navigation and the opportunities for advancing embodied spatial reasoning in future VLMs. The benchmark is available at https://github.com/makeabilitylab/CapNav",
+      "author": "Xia Su, Ruiqi Chen, Benlin Liu, Jingwei Ma, Zonglin Di...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18424v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18424v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Xia Su",
+          "Ruiqi Chen",
+          "Benlin Liu",
+          "Jingwei Ma",
+          "Zonglin Di",
+          "Ranjay Krishna",
+          "Jon Froehlich"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7148295346349206
+    },
+    {
+      "title": "Benchmarking Graph Neural Networks in Solving Hard Constraint Satisfaction Problems",
+      "url": "https://arxiv.org/abs/2602.18419v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-02-20T18:41:48",
+      "summary": "Graph neural networks (GNNs) are increasingly applied to hard optimization problems, often claiming superiority over classical heuristics. However, such claims risk being unsolid due to a lack of standard benchmarks on truly hard instances. From a statistical physics perspective, we propose new hard benchmarks based on random problems. We provide these benchmarks, along with performance results from both classical heuristics and GNNs. Our fair comparison shows that classical algorithms still outperform GNNs. We discuss the challenges for neural networks in this domain. Future claims of superiority can be made more robust using our benchmarks, available at https://github.com/ArtLabBocconi/RandCSPBench.",
+      "content": "Graph neural networks (GNNs) are increasingly applied to hard optimization problems, often claiming superiority over classical heuristics. However, such claims risk being unsolid due to a lack of standard benchmarks on truly hard instances. From a statistical physics perspective, we propose new hard benchmarks based on random problems. We provide these benchmarks, along with performance results from both classical heuristics and GNNs. Our fair comparison shows that classical algorithms still outperform GNNs. We discuss the challenges for neural networks in this domain. Future claims of superiority can be made more robust using our benchmarks, available at https://github.com/ArtLabBocconi/RandCSPBench.",
+      "author": "Geri Skenderi, Lorenzo Buffoni, Francesco D'Amico, David Machado, Raffaele Marino...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18419v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18419v1.pdf",
+        "categories": [
+          "cond-mat.dis-nn",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Geri Skenderi",
+          "Lorenzo Buffoni",
+          "Francesco D'Amico",
+          "David Machado",
+          "Raffaele Marino",
+          "Matteo Negri",
+          "Federico Ricci-Tersenghi",
+          "Carlo Lucibello",
+          "Maria Chiara Angelini"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7147603384747024
+    },
+    {
+      "title": "VIRAASAT: Traversing Novel Paths for Indian Cultural Reasoning",
+      "url": "https://arxiv.org/abs/2602.18429v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-20T18:53:07",
+      "summary": "Large Language Models (LLMs) have made significant progress in reasoning tasks across various domains such as mathematics and coding. However, their performance deteriorates in tasks requiring rich socio-cultural knowledge and diverse local contexts, particularly those involving Indian Culture. Existing Cultural benchmarks are (i) Manually crafted, (ii) contain single-hop questions testing factual recall, and (iii) prohibitively costly to scale, leaving this deficiency largely unmeasured. To address this, we introduce VIRAASAT, a novel, semi-automated multi-hop approach for generating cultural specific multi-hop Question-Answering dataset for Indian culture. VIRAASAT leverages a Knowledge Graph comprising more than 700 expert-curated cultural artifacts, covering 13 key attributes of Indian culture (history, festivals, etc). VIRAASAT spans all 28 states and 8 Union Territories, yielding more than 3,200 multi-hop questions that necessitate chained cultural reasoning. We evaluate current ...",
+      "content": "Large Language Models (LLMs) have made significant progress in reasoning tasks across various domains such as mathematics and coding. However, their performance deteriorates in tasks requiring rich socio-cultural knowledge and diverse local contexts, particularly those involving Indian Culture. Existing Cultural benchmarks are (i) Manually crafted, (ii) contain single-hop questions testing factual recall, and (iii) prohibitively costly to scale, leaving this deficiency largely unmeasured. To address this, we introduce VIRAASAT, a novel, semi-automated multi-hop approach for generating cultural specific multi-hop Question-Answering dataset for Indian culture. VIRAASAT leverages a Knowledge Graph comprising more than 700 expert-curated cultural artifacts, covering 13 key attributes of Indian culture (history, festivals, etc). VIRAASAT spans all 28 states and 8 Union Territories, yielding more than 3,200 multi-hop questions that necessitate chained cultural reasoning. We evaluate current State-of-the-Art (SOTA) LLMs on VIRAASAT and identify key limitations in reasoning wherein fine-tuning on Chain-of-Thought(CoT) traces fails to ground and synthesize low-probability facts. To bridge this gap, we propose a novel framework named Symbolic Chain-of-Manipulation (SCoM). Adapting the Chain-of-Manipulation paradigm, we train the model to simulate atomic Knowledge Graph manipulations internally. SCoM teaches the model to reliably traverse the topological structure of the graph. Experiments on Supervised Fine-Tuning (SFT) demonstrate that SCoM outperforms standard CoT baselines by up to 20%. We release the VIRAASAT dataset along with our findings, laying a strong foundation towards building Culturally Aware Reasoning Models.",
+      "author": "Harshul Raj Surana, Arijit Maji, Aryan Vats, Akash Ghosh, Sriparna Saha...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18429v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18429v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.IR"
+        ],
+        "all_authors": [
+          "Harshul Raj Surana",
+          "Arijit Maji",
+          "Aryan Vats",
+          "Akash Ghosh",
+          "Sriparna Saha",
+          "Amit Sheth"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5777777777777777,
+      "final_score": 0.5460398522914186
+    },
+    {
+      "title": "SPQ: An Ensemble Technique for Large Language Model Compression",
+      "url": "https://arxiv.org/abs/2602.18420v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-20T18:44:16",
+      "summary": "This study presents an ensemble technique, SPQ (SVD-Pruning-Quantization), for large language model (LLM) compression that combines variance-retained singular value decomposition (SVD), activation-based pruning, and post-training linear quantization. Each component targets a different source of inefficiency: i) pruning removes redundant neurons in MLP layers, ii) SVD reduces attention projections into compact low-rank factors, iii) and 8-bit quantization uniformly compresses all linear layers. At matched compression ratios, SPQ outperforms individual methods (SVD-only, pruning-only, or quantization-only) in perplexity, demonstrating the benefit of combining complementary techniques. Applied to LLaMA-2-7B, SPQ achieves up to 75% memory reduction while maintaining or improving perplexity (e.g., WikiText-2 5.47 to 4.91) and preserving accuracy on downstream benchmarks such as C4, TruthfulQA, and GSM8K. Compared to strong baselines like GPTQ and SparseGPT, SPQ offers competitive perplexity...",
+      "content": "This study presents an ensemble technique, SPQ (SVD-Pruning-Quantization), for large language model (LLM) compression that combines variance-retained singular value decomposition (SVD), activation-based pruning, and post-training linear quantization. Each component targets a different source of inefficiency: i) pruning removes redundant neurons in MLP layers, ii) SVD reduces attention projections into compact low-rank factors, iii) and 8-bit quantization uniformly compresses all linear layers. At matched compression ratios, SPQ outperforms individual methods (SVD-only, pruning-only, or quantization-only) in perplexity, demonstrating the benefit of combining complementary techniques. Applied to LLaMA-2-7B, SPQ achieves up to 75% memory reduction while maintaining or improving perplexity (e.g., WikiText-2 5.47 to 4.91) and preserving accuracy on downstream benchmarks such as C4, TruthfulQA, and GSM8K. Compared to strong baselines like GPTQ and SparseGPT, SPQ offers competitive perplexity and accuracy while using less memory (6.86 GB vs. 7.16 GB for GPTQ). Moreover, SPQ improves inference throughput over GPTQ, achieving up to a 1.9x speedup, which further enhances its practicality for real-world deployment. The effectiveness of SPQ's robust compression through layer-aware and complementary compression techniques may provide practical deployment of LLMs in memory-constrained environments. Code is available at: https://github.com/JiaminYao/SPQ_LLM_Compression/",
+      "author": "Jiamin Yao, Eren Gultepe",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18420v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18420v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Jiamin Yao",
+          "Eren Gultepe"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5740740740740741,
+      "final_score": 0.5444266743426752
+    },
+    {
+      "title": "Google DeepMind wants to know if chatbots are just virtue signaling",
+      "url": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-02-18T16:00:22",
+      "summary": "Google DeepMind is calling for the moral behavior of large language models\u2014such as what they do when called on to act as companions, therapists, medical advisors, and so on\u2014to be scrutinized with the same kind of rigor as their ability to code or do math . As LLMs improve, people are asking them to play more and more sensitive roles in their lives. Agents are starting to take actions on people\u2019s behalf. LLMs may be able to influence human decision-making . And yet nobody knows how trustworthy th...",
+      "content": "Google DeepMind is calling for the moral behavior of large language models\u2014such as what they do when called on to act as companions, therapists, medical advisors, and so on\u2014to be scrutinized with the same kind of rigor as their ability to code or do math . As LLMs improve, people are asking them to play more and more sensitive roles in their lives. Agents are starting to take actions on people\u2019s behalf. LLMs may be able to influence human decision-making . And yet nobody knows how trustworthy this technology really is at such tasks. With coding and math, you have clear-cut, correct answers that you can check, William Isaac, a research scientist at Google DeepMind, told me when I met him and Julia Haas, a fellow research scientist at the firm, for an exclusive preview of their work, which is published in Nature today. That\u2019s not the case for moral questions, which typically have a range of acceptable answers: \u201cMorality is an important capability but hard to evaluate,\u201d says Isaac. \u201cIn the moral domain, there\u2019s no right and wrong,\u201d adds Haas. \u201cBut it\u2019s not by any means a free-for-all. There are better answers and there are worse answers.\u201d The researchers have identified several key challenges and suggested ways to address them. But it is more a wish list than a set of ready-made solutions. \u201cThey do a nice job of bringing together different perspectives,\u201d says Vera Demberg, who studies LLMs at Saarland University in Germany. Better than &#8220;The Ethicist&#8221; A number of studies have shown that LLMs can show remarkable moral competence. One study published last year found that people in the US scored ethical advice from OpenAI\u2019s GPT-4o as being more moral, trustworthy, thoughtful, and correct than advice given by the (human) writer of \u201cThe Ethicist,\u201d a popular New York Times advice column. The problem is that it is hard to unpick whether such behaviors are a performance\u2014mimicking a memorized response, say\u2014or evidence that there is in fact some kind of moral reasoning taking place inside the model. In other words, is it virtue or virtue signaling? This question matters because multiple studies also show just how untrustworthy LLMs can be. For a start, models can be too eager to please. They have been found to flip their answer to a moral question and say the exact opposite when a person disagrees or pushes back on their first response. Worse, the answers an LLM gives to a question can change in response to how it is presented or formatted. For example, researchers have found that models quizzed about political values can give different\u2014sometimes opposite\u2014answers depending on whether the questions offer multiple-choice answers or instruct the model to respond in its own words. In an even more striking case, Demberg and her colleagues presented several LLMs, including versions of Meta\u2019s Llama 3 and Mistral, with a series of moral dilemmas and asked them to pick which of two options was the better outcome. The researchers found that the models often reversed their choice when the labels for those two options were changed from \u201cCase 1\u201d and \u201cCase 2\u201d to \u201c(A)\u201d and \u201c(B).\u201d They also showed that models changed their answers in response to other tiny formatting tweaks, including swapping the order of the options and ending the question with a colon instead of a question mark. In short, the appearance of moral behavior in LLMs should not be taken at face value. Models must be probed to see how robust that moral behavior really is. \u201cFor people to trust the answers, you need to know how you got there,\u201d says Haas. More rigorous tests What Haas, Isaac, and their colleagues at Google DeepMind propose is a new line of research to develop more rigorous techniques for evaluating moral competence in LLMs. This would include tests designed to push models to change their responses to moral questions. If a model flipped its moral position, it would show that it hadn\u2019t engaged in robust moral reasoning.  Another type of test would present models with variations of common moral problems to check whether they produce a rote response or one that\u2019s more nuanced and relevant to the actual problem that was posed. For example, asking a model to talk through the moral implications of a complex scenario in which a man donates sperm to his son so that his son can have a child of his own might produce concerns about the social impact of allowing a man to be both biological father and biological grandfather to a child. But it should not produce concerns about incest, even though the scenario has superficial parallels with that taboo. Haas also says that getting models to provide a trace of the steps they took to produce an answer would give some insight into whether that answer was a fluke or grounded in actual evidence. Techniques such as chain-of-thought monitoring , in which researchers listen in on a kind of internal monologue that some LLMs produce as they work, could help here too. Another approach researchers could use to determine why a model gave a particular answer is mechanistic interpretability , which can provide small glimpses inside a model as it carries out a task. Neither chain-of-thought monitoring nor mechanistic interpretability provides perfect snapshots of a model\u2019s workings. But the Google DeepMind team believes that combining such techniques with a wide range of rigorous tests will go a long way to figuring out exactly how far to trust LLMs with certain critical or sensitive tasks.   Different values And yet there\u2019s a wider problem too. Models from major companies such as Google DeepMind are used across the world by people with different values and belief systems. The answer to a simple question like \u201cShould I order pork chops?\u201d should differ depending on whether or not the person asking is vegetarian or Jewish, for example. There\u2019s no solution to this challenge, Haas and Isaac admit. But they think that models may need to be designed either to produce a range of acceptable answers, aiming to please everyone, or to have a kind of switch that turns different moral codes on and off depending on the user. \u201cIt\u2019s a complex world out there,\u201d says Haas. \u201cWe will probably need some combination of those things, because even if you\u2019re taking just one population, there\u2019s going to be a range of views represented.\u201d \u201cIt\u2019s a fascinating paper,\u201d says Danica Dillion at Ohio State University, who studies how large language models handle different belief systems and was not involved in the work. \u201cPluralism in AI is really important, and it\u2019s one of the biggest limitations of LLMs and moral reasoning right now,\u201d she says. \u201cEven though they were trained on a ginormous amount of data, that data still leans heavily Western. When you probe LLMs, they do a lot better at representing Westerners\u2019 morality than non-Westerners\u2019.\u201d But it is not yet clear how we can build models that are guaranteed to have moral competence across global cultures, says Demberg. \u201cThere are these two independent questions. One is: How should it work? And, secondly, how can it technically be achieved? And I think that both of those questions are pretty open at the moment.\u201d For Isaac, that makes morality a new frontier for LLMs. \u201cI think this is equally as fascinating as math and code in terms of what it means for AI progress,\u201d he says. \u201cYou know, advancing moral competency could also mean that we\u2019re going to see better AI systems overall that actually align with society.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.65,
+      "final_score": 0.5295009134503968
+    },
+    {
+      "title": "0 A.D. Release 28: Boiorix",
+      "url": "https://play0ad.com/new-release-0-a-d-release-28-boiorix/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-19T19:37:00",
+      "summary": null,
+      "content": null,
+      "author": "jonbaer",
+      "score": 198,
+      "num_comments": 64,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47078112,
+        "hn_url": "https://news.ycombinator.com/item?id=47078112",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5070244081606876
+    },
+    {
+      "title": "Introducing EVMbench",
+      "url": "https://openai.com/index/introducing-evmbench",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-02-18T00:00:00",
+      "summary": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents\u2019 ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "content": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents\u2019 ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.46854307624107144
+    },
+    {
+      "title": "\"How Do I ...?\": Procedural Questions Predominate Student-LLM Chatbot Conversations",
+      "url": "https://arxiv.org/abs/2602.18372v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-20T17:27:41",
+      "summary": "Providing scaffolding through educational chatbots built on Large Language Models (LLM) has potential risks and benefits that remain an open area of research. When students navigate impasses, they ask for help by formulating impasse-driven questions. Within interactions with LLM chatbots, such questions shape the user prompts and drive the pedagogical effectiveness of the chatbot's response. This paper focuses on such student questions from two datasets of distinct learning contexts: formative self-study, and summative assessed coursework. We analysed 6,113 messages from both learning contexts, using 11 different LLMs and three human raters to classify student questions using four existing schemas. On the feasibility of using LLMs as raters, results showed moderate-to-good inter-rater reliability, with higher consistency than human raters. The data showed that 'procedural' questions predominated in both learning contexts, but more so when students prepare for summative assessment. Thes...",
+      "content": "Providing scaffolding through educational chatbots built on Large Language Models (LLM) has potential risks and benefits that remain an open area of research. When students navigate impasses, they ask for help by formulating impasse-driven questions. Within interactions with LLM chatbots, such questions shape the user prompts and drive the pedagogical effectiveness of the chatbot's response. This paper focuses on such student questions from two datasets of distinct learning contexts: formative self-study, and summative assessed coursework. We analysed 6,113 messages from both learning contexts, using 11 different LLMs and three human raters to classify student questions using four existing schemas. On the feasibility of using LLMs as raters, results showed moderate-to-good inter-rater reliability, with higher consistency than human raters. The data showed that 'procedural' questions predominated in both learning contexts, but more so when students prepare for summative assessment. These results provide a basis on which to use LLMs for classification of student questions. However, we identify clear limitations in both the ability to classify with schemas and the value of doing so: schemas are limited and thus struggle to accommodate the semantic richness of composite prompts, offering only partial understanding the wider risks and benefits of chatbot integration. In the future, we recommend an analysis approach that captures the nuanced, multi-turn nature of conversation, for example, by applying methods from conversation analysis in discursive psychology.",
+      "author": "Alexandra Neagu, Marcus Messer, Peter Johnson, Rhodri Nelson",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18372v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18372v1.pdf",
+        "categories": [
+          "cs.HC",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Alexandra Neagu",
+          "Marcus Messer",
+          "Peter Johnson",
+          "Rhodri Nelson"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.1,
+      "final_score": 0.35365741194146827
+    },
+    {
+      "title": "Latent Equivariant Operators for Robust Object Recognition: Promise and Challenges",
+      "url": "https://arxiv.org/abs/2602.18406v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-02-20T18:14:05",
+      "summary": "Despite the successes of deep learning in computer vision, difficulties persist in recognizing objects that have undergone group-symmetric transformations rarely seen during training-for example objects seen in unusual poses, scales, positions, or combinations thereof. Equivariant neural networks are a solution to the problem of generalizing across symmetric transformations, but require knowledge of transformations a priori. An alternative family of architectures proposes to earn equivariant operators in a latent space from examples of symmetric transformations. Here, using simple datasets of rotated and translated noisy MNIST, we illustrate how such architectures can successfully be harnessed for out-of-distribution classification, thus overcoming the limitations of both traditional and equivariant networks. While conceptually enticing, we discuss challenges ahead on the path of scaling these architectures to more complex datasets.",
+      "content": "Despite the successes of deep learning in computer vision, difficulties persist in recognizing objects that have undergone group-symmetric transformations rarely seen during training-for example objects seen in unusual poses, scales, positions, or combinations thereof. Equivariant neural networks are a solution to the problem of generalizing across symmetric transformations, but require knowledge of transformations a priori. An alternative family of architectures proposes to earn equivariant operators in a latent space from examples of symmetric transformations. Here, using simple datasets of rotated and translated noisy MNIST, we illustrate how such architectures can successfully be harnessed for out-of-distribution classification, thus overcoming the limitations of both traditional and equivariant networks. While conceptually enticing, we discuss challenges ahead on the path of scaling these architectures to more complex datasets.",
+      "author": "Minh Dinh, St\u00e9phane Deny",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18406v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18406v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Minh Dinh",
+          "St\u00e9phane Deny"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.3454589991359127
+    },
+    {
+      "title": "Leakage and Second-Order Dynamics Improve Hippocampal RNN Replay",
+      "url": "https://arxiv.org/abs/2602.18401v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-20T18:07:09",
+      "summary": "Biological neural networks (like the hippocampus) can internally generate \"replay\" resembling stimulus-driven activity. Recent computational models of replay use noisy recurrent neural networks (RNNs) trained to path-integrate. Replay in these networks has been described as Langevin sampling, but new modifiers of noisy RNN replay have surpassed this description. We re-examine noisy RNN replay as sampling to understand or improve it in three ways: (1) Under simple assumptions, we prove that the gradients replay activity should follow are time-varying and difficult to estimate, but readily motivate the use of hidden state leakage in RNNs for replay. (2) We confirm that hidden state adaptation (negative feedback) encourages exploration in replay, but show that it incurs non-Markov sampling that also slows replay. (3) We propose the first model of temporally compressed replay in noisy path-integrating RNNs through hidden state momentum, connect it to underdamped Langevin sampling, and show...",
+      "content": "Biological neural networks (like the hippocampus) can internally generate \"replay\" resembling stimulus-driven activity. Recent computational models of replay use noisy recurrent neural networks (RNNs) trained to path-integrate. Replay in these networks has been described as Langevin sampling, but new modifiers of noisy RNN replay have surpassed this description. We re-examine noisy RNN replay as sampling to understand or improve it in three ways: (1) Under simple assumptions, we prove that the gradients replay activity should follow are time-varying and difficult to estimate, but readily motivate the use of hidden state leakage in RNNs for replay. (2) We confirm that hidden state adaptation (negative feedback) encourages exploration in replay, but show that it incurs non-Markov sampling that also slows replay. (3) We propose the first model of temporally compressed replay in noisy path-integrating RNNs through hidden state momentum, connect it to underdamped Langevin sampling, and show that, together with adaptation, it counters slowness while maintaining exploration. We verify our findings via path-integration of 2D triangular and T-maze paths and of high-dimensional paths of synthetic rat place cell activity.",
+      "author": "Josue Casco-Rodriguez, Nanda H. Krishna, Richard G. Baraniuk",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18401v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18401v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "q-bio.NC",
+          "stat.ML"
+        ],
+        "all_authors": [
+          "Josue Casco-Rodriguez",
+          "Nanda H. Krishna",
+          "Richard G. Baraniuk"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07037037037037036,
+      "final_score": 0.3423928617587632
+    },
+    {
+      "title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+      "url": "https://arxiv.org/abs/2602.18422v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-20T18:45:29",
+      "summary": "Extended reality (XR) demands generative models that respond to users' tracked real-world motion, yet current video world models accept only coarse control signals such as text or keyboard input, limiting their utility for embodied interaction. We introduce a human-centric video world model that is conditioned on both tracked head pose and joint-level hand poses. For this purpose, we evaluate existing diffusion transformer conditioning strategies and propose an effective mechanism for 3D head and hand control, enabling dexterous hand--object interactions. We train a bidirectional video diffusion model teacher using this strategy and distill it into a causal, interactive system that generates egocentric virtual environments. We evaluate this generated reality system with human subjects and demonstrate improved task performance as well as a significantly higher level of perceived amount of control over the performed actions compared with relevant baselines.",
+      "content": "Extended reality (XR) demands generative models that respond to users' tracked real-world motion, yet current video world models accept only coarse control signals such as text or keyboard input, limiting their utility for embodied interaction. We introduce a human-centric video world model that is conditioned on both tracked head pose and joint-level hand poses. For this purpose, we evaluate existing diffusion transformer conditioning strategies and propose an effective mechanism for 3D head and hand control, enabling dexterous hand--object interactions. We train a bidirectional video diffusion model teacher using this strategy and distill it into a causal, interactive system that generates egocentric virtual environments. We evaluate this generated reality system with human subjects and demonstrate improved task performance as well as a significantly higher level of perceived amount of control over the performed actions compared with relevant baselines.",
+      "author": "Linxi Xie, Lisong C. Sun, Ashley Neall, Tong Wu, Shengqu Cai...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18422v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18422v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Linxi Xie",
+          "Lisong C. Sun",
+          "Ashley Neall",
+          "Tong Wu",
+          "Shengqu Cai",
+          "Gordon Wetzstein"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.06481481481481481,
+      "final_score": 0.34074107562037037
+    },
+    {
+      "title": "Unifying approach to uniform expressivity of graph neural networks",
+      "url": "https://arxiv.org/abs/2602.18409v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-20T18:18:48",
+      "summary": "The expressive power of Graph Neural Networks (GNNs) is often analysed via correspondence to the Weisfeiler-Leman (WL) algorithm and fragments of first-order logic. Standard GNNs are limited to performing aggregation over immediate neighbourhoods or over global read-outs. To increase their expressivity, recent attempts have been made to incorporate substructural information (e.g. cycle counts and subgraph properties). In this paper, we formalize this architectural trend by introducing Template GNNs (T-GNNs), a generalized framework where node features are updated by aggregating over valid template embeddings from a specified set of graph templates. We propose a corresponding logic, Graded template modal logic (GML(T)), and generalized notions of template-based bisimulation and WL algorithm. We establish an equivalence between the expressive power of T-GNNs and GML(T), and provide a unifying approach for analysing GNN expressivity: we show how standard AC-GNNs and its recent variants ca...",
+      "content": "The expressive power of Graph Neural Networks (GNNs) is often analysed via correspondence to the Weisfeiler-Leman (WL) algorithm and fragments of first-order logic. Standard GNNs are limited to performing aggregation over immediate neighbourhoods or over global read-outs. To increase their expressivity, recent attempts have been made to incorporate substructural information (e.g. cycle counts and subgraph properties). In this paper, we formalize this architectural trend by introducing Template GNNs (T-GNNs), a generalized framework where node features are updated by aggregating over valid template embeddings from a specified set of graph templates. We propose a corresponding logic, Graded template modal logic (GML(T)), and generalized notions of template-based bisimulation and WL algorithm. We establish an equivalence between the expressive power of T-GNNs and GML(T), and provide a unifying approach for analysing GNN expressivity: we show how standard AC-GNNs and its recent variants can be interpreted as instantiations of T-GNNs.",
+      "author": "Huan Luo, Jonni Virtema",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18409v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18409v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.LO"
+        ],
+        "all_authors": [
+          "Huan Luo",
+          "Jonni Virtema"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.3388625211703869
+    },
+    {
+      "title": "Google restricting Google AI Pro/Ultra subscribers for using OpenClaw",
+      "url": "https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-02-22T23:07:55",
+      "summary": null,
+      "content": null,
+      "author": "srigi",
+      "score": 692,
+      "num_comments": 577,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47115805,
+        "hn_url": "https://news.ycombinator.com/item?id=47115805",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.33719675561288576
+    },
+    {
+      "title": "The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning",
+      "url": "https://arxiv.org/abs/2602.18428v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-02-20T18:49:00",
+      "summary": "Autonomous (noise-agnostic) generative models, such as Equilibrium Matching and blind diffusion, challenge the standard paradigm by learning a single, time-invariant vector field that operates without explicit noise-level conditioning. While recent work suggests that high-dimensional concentration allows these models to implicitly estimate noise levels from corrupted observations, a fundamental paradox remains: what is the underlying landscape being optimized when the noise level is treated as a random variable, and how can a bounded, noise-agnostic network remain stable near the data manifold where gradients typically diverge? We resolve this paradox by formalizing Marginal Energy, $E_{\\text{marg}}(\\mathbf{u}) = -\\log p(\\mathbf{u})$, where $p(\\mathbf{u}) = \\int p(\\mathbf{u}|t)p(t)dt$ is the marginal density of the noisy data integrated over a prior distribution of unknown noise levels. We prove that generation using autonomous models is not merely blind denoising, but a specific form ...",
+      "content": "Autonomous (noise-agnostic) generative models, such as Equilibrium Matching and blind diffusion, challenge the standard paradigm by learning a single, time-invariant vector field that operates without explicit noise-level conditioning. While recent work suggests that high-dimensional concentration allows these models to implicitly estimate noise levels from corrupted observations, a fundamental paradox remains: what is the underlying landscape being optimized when the noise level is treated as a random variable, and how can a bounded, noise-agnostic network remain stable near the data manifold where gradients typically diverge? We resolve this paradox by formalizing Marginal Energy, $E_{\\text{marg}}(\\mathbf{u}) = -\\log p(\\mathbf{u})$, where $p(\\mathbf{u}) = \\int p(\\mathbf{u}|t)p(t)dt$ is the marginal density of the noisy data integrated over a prior distribution of unknown noise levels. We prove that generation using autonomous models is not merely blind denoising, but a specific form of Riemannian gradient flow on this Marginal Energy. Through a novel relative energy decomposition, we demonstrate that while the raw Marginal Energy landscape possesses a $1/t^p$ singularity normal to the data manifold, the learned time-invariant field implicitly incorporates a local conformal metric that perfectly counteracts the geometric singularity, converting an infinitely deep potential well into a stable attractor. We also establish the structural stability conditions for sampling with autonomous models. We identify a ``Jensen Gap'' in noise-prediction parameterizations that acts as a high-gain amplifier for estimation errors, explaining the catastrophic failure observed in deterministic blind models. Conversely, we prove that velocity-based parameterizations are inherently stable because they satisfy a bounded-gain condition that absorbs posterior uncertainty into a smooth geometric drift.",
+      "author": "Mojtaba Sahraee-Ardakan, Mauricio Delbracio, Peyman Milanfar",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18428v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18428v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.CV",
+          "eess.IV"
+        ],
+        "all_authors": [
+          "Mojtaba Sahraee-Ardakan",
+          "Mauricio Delbracio",
+          "Peyman Milanfar"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.0537037037037037,
+      "final_score": 0.3363489628284557
+    },
+    {
+      "title": "Validating Political Position Predictions of Arguments",
+      "url": "https://arxiv.org/abs/2602.18351v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-20T17:03:44",
+      "summary": "Real-world knowledge representation often requires capturing subjective, continuous attributes -- such as political positions -- that conflict with pairwise validation, the widely accepted gold standard for human evaluation. We address this challenge through a dual-scale validation framework applied to political stance prediction in argumentative discourse, combining pointwise and pairwise human annotation. Using 22 language models, we construct a large-scale knowledge base of political position predictions for 23,228 arguments drawn from 30 debates that appeared on the UK politicial television programme \\textit{Question Time}. Pointwise evaluation shows moderate human-model agreement (Krippendorff's $\u03b1=0.578$), reflecting intrinsic subjectivity, while pairwise validation reveals substantially stronger alignment between human- and model-derived rankings ($\u03b1=0.86$ for the best model). This work contributes: (i) a practical validation methodology for subjective continuous knowledge that ...",
+      "content": "Real-world knowledge representation often requires capturing subjective, continuous attributes -- such as political positions -- that conflict with pairwise validation, the widely accepted gold standard for human evaluation. We address this challenge through a dual-scale validation framework applied to political stance prediction in argumentative discourse, combining pointwise and pairwise human annotation. Using 22 language models, we construct a large-scale knowledge base of political position predictions for 23,228 arguments drawn from 30 debates that appeared on the UK politicial television programme \\textit{Question Time}. Pointwise evaluation shows moderate human-model agreement (Krippendorff's $\u03b1=0.578$), reflecting intrinsic subjectivity, while pairwise validation reveals substantially stronger alignment between human- and model-derived rankings ($\u03b1=0.86$ for the best model). This work contributes: (i) a practical validation methodology for subjective continuous knowledge that balances scalability with reliability; (ii) a validated structured argumentation knowledge base enabling graph-based reasoning and retrieval-augmented generation in political domains; and (iii) evidence that ordinal structure can be extracted from pointwise language models predictions from inherently subjective real-world discourse, advancing knowledge representation capabilities for domains where traditional symbolic or categorical approaches are insufficient.",
+      "author": "Jordan Robinson, Angus R. Williams, Katie Atkinson, Anthony G. Cohn",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18351v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18351v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Jordan Robinson",
+          "Angus R. Williams",
+          "Katie Atkinson",
+          "Anthony G. Cohn"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.3355232351500496
+    },
+    {
+      "title": "SARAH: Spatially Aware Real-time Agentic Humans",
+      "url": "https://arxiv.org/abs/2602.18432v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-20T18:59:35",
+      "summary": "As embodied agents become central to VR, telepresence, and digital human applications, their motion must go beyond speech-aligned gestures: agents should turn toward users, respond to their movement, and maintain natural gaze. Current methods lack this spatial awareness. We close this gap with the first real-time, fully causal method for spatially-aware conversational motion, deployable on a streaming VR headset. Given a user's position and dyadic audio, our approach produces full-body motion that aligns gestures with speech while orienting the agent according to the user. Our architecture combines a causal transformer-based VAE with interleaved latent tokens for streaming inference and a flow matching model conditioned on user trajectory and audio. To support varying gaze preferences, we introduce a gaze scoring mechanism with classifier-free guidance to decouple learning from control: the model captures natural spatial alignment from data, while users can adjust eye contact intensity...",
+      "content": "As embodied agents become central to VR, telepresence, and digital human applications, their motion must go beyond speech-aligned gestures: agents should turn toward users, respond to their movement, and maintain natural gaze. Current methods lack this spatial awareness. We close this gap with the first real-time, fully causal method for spatially-aware conversational motion, deployable on a streaming VR headset. Given a user's position and dyadic audio, our approach produces full-body motion that aligns gestures with speech while orienting the agent according to the user. Our architecture combines a causal transformer-based VAE with interleaved latent tokens for streaming inference and a flow matching model conditioned on user trajectory and audio. To support varying gaze preferences, we introduce a gaze scoring mechanism with classifier-free guidance to decouple learning from control: the model captures natural spatial alignment from data, while users can adjust eye contact intensity at inference time. On the Embody 3D dataset, our method achieves state-of-the-art motion quality at over 300 FPS -- 3x faster than non-causal baselines -- while capturing the subtle spatial dynamics of natural conversation. We validate our approach on a live VR system, bringing spatially-aware conversational agents to real-time deployment. Please see https://evonneng.github.io/sarah/ for details.",
+      "author": "Evonne Ng, Siwei Zhang, Zhang Chen, Michael Zollhoefer, Alexander Richard",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18432v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18432v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Evonne Ng",
+          "Siwei Zhang",
+          "Zhang Chen",
+          "Michael Zollhoefer",
+          "Alexander Richard"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3350249712011409
+    },
+    {
+      "title": "Vichara: Appellate Judgment Prediction and Explanation for the Indian Judicial System",
+      "url": "https://arxiv.org/abs/2602.18346v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-02-20T16:57:44",
+      "summary": "In jurisdictions like India, where courts face an extensive backlog of cases, artificial intelligence offers transformative potential for legal judgment prediction. A critical subset of this backlog comprises appellate cases, which are formal decisions issued by higher courts reviewing the rulings of lower courts. To this end, we present Vichara, a novel framework tailored to the Indian judicial system that predicts and explains appellate judgments. Vichara processes English-language appellate case proceeding documents and decomposes them into decision points. Decision points are discrete legal determinations that encapsulate the legal issue, deciding authority, outcome, reasoning, and temporal context. The structured representation isolates the core determinations and their context, enabling accurate predictions and interpretable explanations. Vichara's explanations follow a structured format inspired by the IRAC (Issue-Rule-Application-Conclusion) framework and adapted for Indian leg...",
+      "content": "In jurisdictions like India, where courts face an extensive backlog of cases, artificial intelligence offers transformative potential for legal judgment prediction. A critical subset of this backlog comprises appellate cases, which are formal decisions issued by higher courts reviewing the rulings of lower courts. To this end, we present Vichara, a novel framework tailored to the Indian judicial system that predicts and explains appellate judgments. Vichara processes English-language appellate case proceeding documents and decomposes them into decision points. Decision points are discrete legal determinations that encapsulate the legal issue, deciding authority, outcome, reasoning, and temporal context. The structured representation isolates the core determinations and their context, enabling accurate predictions and interpretable explanations. Vichara's explanations follow a structured format inspired by the IRAC (Issue-Rule-Application-Conclusion) framework and adapted for Indian legal reasoning. This enhances interpretability, allowing legal professionals to assess the soundness of predictions efficiently. We evaluate Vichara on two datasets, PredEx and the expert-annotated subset of the Indian Legal Documents Corpus (ILDC_expert), using four large language models: GPT-4o mini, Llama-3.1-8B, Mistral-7B, and Qwen2.5-7B. Vichara surpasses existing judgment prediction benchmarks on both datasets, with GPT-4o mini achieving the highest performance (F1: 81.5 on PredEx, 80.3 on ILDC_expert), followed by Llama-3.1-8B. Human evaluation of the generated explanations across Clarity, Linking, and Usefulness metrics highlights GPT-4o mini's superior interpretability.",
+      "author": "Pavithra PM Nair, Preethu Rose Anish",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18346v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18346v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Pavithra PM Nair",
+          "Preethu Rose Anish"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.05370370370370371,
+      "final_score": 0.3346932086746859
+    },
+    {
+      "title": "Spatio-Spectroscopic Representation Learning using Unsupervised Convolutional Long-Short Term Memory Networks",
+      "url": "https://arxiv.org/abs/2602.18426v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-02-20T18:48:36",
+      "summary": "Integral Field Spectroscopy (IFS) surveys offer a unique new landscape in which to learn in both spatial and spectroscopic dimensions and could help uncover previously unknown insights into galaxy evolution. In this work, we demonstrate a new unsupervised deep learning framework using Convolutional Long-Short Term Memory Network Autoencoders to encode generalized feature representations across both spatial and spectroscopic dimensions spanning $19$ optical emission lines (3800A $< \u03bb<$ 8000A) among a sample of $\\sim 9000$ galaxies from the MaNGA IFS survey. As a demonstrative exercise, we assess our model on a sample of $290$ Active Galactic Nuclei (AGN) and highlight scientifically interesting characteristics of some highly anomalous AGN.",
+      "content": "Integral Field Spectroscopy (IFS) surveys offer a unique new landscape in which to learn in both spatial and spectroscopic dimensions and could help uncover previously unknown insights into galaxy evolution. In this work, we demonstrate a new unsupervised deep learning framework using Convolutional Long-Short Term Memory Network Autoencoders to encode generalized feature representations across both spatial and spectroscopic dimensions spanning $19$ optical emission lines (3800A $< \u03bb<$ 8000A) among a sample of $\\sim 9000$ galaxies from the MaNGA IFS survey. As a demonstrative exercise, we assess our model on a sample of $290$ Active Galactic Nuclei (AGN) and highlight scientifically interesting characteristics of some highly anomalous AGN.",
+      "author": "Kameswara Bharadwaj Mantha, Lucy Fortson, Ramanakumar Sankar, Claudia Scarlata, Chris Lintott...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18426v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18426v1.pdf",
+        "categories": [
+          "astro-ph.GA",
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Kameswara Bharadwaj Mantha",
+          "Lucy Fortson",
+          "Ramanakumar Sankar",
+          "Claudia Scarlata",
+          "Chris Lintott",
+          "Sandor Kruk",
+          "Mike Walmsley",
+          "Hugh Dickinson",
+          "Karen Masters",
+          "Brooke Simmons",
+          "Rebecca Smethurst"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.33263930647991075
+    },
+    {
+      "title": "Zero-shot Interactive Perception",
+      "url": "https://arxiv.org/abs/2602.18374v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-02-20T17:30:25",
+      "summary": "Interactive perception (IP) enables robots to extract hidden information in their workspace and execute manipulation plans by physically interacting with objects and altering the state of the environment -- crucial for resolving occlusions and ambiguity in complex, partially observable scenarios. We present Zero-Shot IP (ZS-IP), a novel framework that couples multi-strategy manipulation (pushing and grasping) with a memory-driven Vision Language Model (VLM) to guide robotic interactions and resolve semantic queries. ZS-IP integrates three key components: (1) an Enhanced Observation (EO) module that augments the VLM's visual perception with both conventional keypoints and our proposed pushlines -- a novel 2D visual augmentation tailored to pushing actions, (2) a memory-guided action module that reinforces semantic reasoning through context lookup, and (3) a robotic controller that executes pushing, pulling, or grasping based on VLM output. Unlike grid-based augmentations optimized for p...",
+      "content": "Interactive perception (IP) enables robots to extract hidden information in their workspace and execute manipulation plans by physically interacting with objects and altering the state of the environment -- crucial for resolving occlusions and ambiguity in complex, partially observable scenarios. We present Zero-Shot IP (ZS-IP), a novel framework that couples multi-strategy manipulation (pushing and grasping) with a memory-driven Vision Language Model (VLM) to guide robotic interactions and resolve semantic queries. ZS-IP integrates three key components: (1) an Enhanced Observation (EO) module that augments the VLM's visual perception with both conventional keypoints and our proposed pushlines -- a novel 2D visual augmentation tailored to pushing actions, (2) a memory-guided action module that reinforces semantic reasoning through context lookup, and (3) a robotic controller that executes pushing, pulling, or grasping based on VLM output. Unlike grid-based augmentations optimized for pick-and-place, pushlines capture affordances for contact-rich actions, substantially improving pushing performance. We evaluate ZS-IP on a 7-DOF Franka Panda arm across diverse scenes with varying occlusions and task complexities. Our experiments demonstrate that ZS-IP outperforms passive and viewpoint-based perception techniques such as Mark-Based Visual Prompting (MOKA), particularly in pushing tasks, while preserving the integrity of non-target elements.",
+      "author": "Venkatesh Sripada, Frank Guerin, Amir Ghalamzan",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2602.18374v1",
+        "pdf_url": "https://arxiv.org/pdf/2602.18374v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Venkatesh Sripada",
+          "Frank Guerin",
+          "Amir Ghalamzan"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.04259259259259259,
+      "final_score": 0.3307351236002811
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "ArXiv [cs.CV]",
+    "date_range": {
+      "start": "2026-02-18T00:00:00",
+      "end": "2026-02-23T05:30:00"
+    }
+  }
+}

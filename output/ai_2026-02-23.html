@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 9</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 9 | February 23, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>7</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.CV]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://openai.com/index/frontier-alliance-partners" target="_blank">OpenAI announces Frontier Alliance Partners</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | Feb 23
+                    
+                </div>
+                <p class="story-summary">OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2602.18424v1" target="_blank">CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Feb 20
+                    
+                </div>
+                <p class="story-summary">Vision-Language Models (VLMs) have shown remarkable progress in Vision-Language Navigation (VLN), offering new possibilities for navigation decision-making that could benefit both robotic platforms and human users. However, real-world navigation is i...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2602.18419v1" target="_blank">Benchmarking Graph Neural Networks in Solving Hard Constraint Satisfaction Problems</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.LG] | Feb 20
+                    
+                </div>
+                <p class="story-summary">Graph neural networks (GNNs) are increasingly applied to hard optimization problems, often claiming superiority over classical heuristics. However, such claims risk being unsolid due to a lack of standard benchmarks on truly hard instances. From a st...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2602.18429v1" target="_blank">VIRAASAT: Traversing Novel Paths for Indian Cultural Reasoning</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Feb 20
+                    
+                </div>
+                <p class="story-summary">Large Language Models (LLMs) have made significant progress in reasoning tasks across various domains such as mathematics and coding. However, their performance deteriorates in tasks requiring rich socio-cultural knowledge and diverse local contexts,...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2602.18420v1" target="_blank">SPQ: An Ensemble Technique for Large Language Model Compression</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Feb 20
+                    
+                </div>
+                <p class="story-summary">This study presents an ensemble technique, SPQ (SVD-Pruning-Quantization), for large language model (LLM) compression that combines variance-retained singular value decomposition (SVD), activation-based pruning, and post-training linear quantization....</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.18372v1" target="_blank">&quot;How Do I ...?&quot;: Procedural Questions Predominate Student-LLM Chatbot Conversations</a></div>
+                <div class="paper-author">Alexandra Neagu, Marcus Messer, Peter Johnson, Rhodri Nelson</div>
+                <div class="paper-summary">Providing scaffolding through educational chatbots built on Large Language Models (LLM) has potential risks and benefits that remain an open area of research. When students navigate impasses, they ask...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.18406v1" target="_blank">Latent Equivariant Operators for Robust Object Recognition: Promise and Challenges</a></div>
+                <div class="paper-author">Minh Dinh, Stéphane Deny</div>
+                <div class="paper-summary">Despite the successes of deep learning in computer vision, difficulties persist in recognizing objects that have undergone group-symmetric transformations rarely seen during training-for example objec...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.18401v1" target="_blank">Leakage and Second-Order Dynamics Improve Hippocampal RNN Replay</a></div>
+                <div class="paper-author">Josue Casco-Rodriguez, Nanda H. Krishna, Richard G. Baraniuk</div>
+                <div class="paper-summary">Biological neural networks (like the hippocampus) can internally generate &quot;replay&quot; resembling stimulus-driven activity. Recent computational models of replay use noisy recurrent neural networks (RNNs)...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.18422v1" target="_blank">Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control</a></div>
+                <div class="paper-author">Linxi Xie, Lisong C. Sun, Ashley Neall, Tong Wu, Shengqu Cai...</div>
+                <div class="paper-summary">Extended reality (XR) demands generative models that respond to users&#39; tracked real-world motion, yet current video world models accept only coarse control signals such as text or keyboard input, limi...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.18409v1" target="_blank">Unifying approach to uniform expressivity of graph neural networks</a></div>
+                <div class="paper-author">Huan Luo, Jonni Virtema</div>
+                <div class="paper-summary">The expressive power of Graph Neural Networks (GNNs) is often analysed via correspondence to the Weisfeiler-Leman (WL) algorithm and fragments of first-order logic. Standard GNNs are limited to perfor...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://play0ad.com/new-release-0-a-d-release-28-boiorix/" target="_blank">0 A.D. Release 28: Boiorix</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 198 | 💬 64</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778" target="_blank">Google restricting Google AI Pro/Ultra subscribers for using OpenClaw</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 692 | 💬 577</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/" target="_blank">Google DeepMind wants to know if chatbots are just virtue signaling</a></div>
+                <div class="news-meta">MIT Technology Review AI | Feb 18</div>
+                <div class="news-summary">Google DeepMind is calling for the moral behavior of large language models—such as what they do when called on to act as companions, therapists, medic...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/introducing-evmbench" target="_blank">Introducing EVMbench</a></div>
+                <div class="news-meta">OpenAI Blog | Feb 18</div>
+                <div class="news-summary">OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabi...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-02-23 14:09 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
