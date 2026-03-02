@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Robotics Weekly - Week 10</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manufacturing Robotics Weekly</h1>
+            <div class="date">Week 10 | March 02, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>The Robot Report</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.youtube.com/watch?v=BYXbuik3dgA" target="_blank">Elon Musk – &quot;In 36 months, the cheapest place to put AI will be space”</a>
+                </div>
+                <div class="story-meta">
+                    YouTube - Dwarkesh Patel and Stripe | Mar 02
+                     | ⬆️ 150 | 💬 0
+                </div>
+                <p class="story-summary">Optimus and humanoid manufacturing, Tesla will use 10,000 to 30,000 Optimus robots for self-training, similar to FSD Elon Musk revealed Optimus&#39;s new strategy: creating an &quot;Optimus Academy&quot; with 10,000 to 30,000 real robots that will continuously per...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/" target="_blank">Motorola announces a partnership with GrapheneOS Foundation</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Mar 02
+                     | ⬆️ 1045 | 💬 359
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.therobotreport.com/ais-role-in-the-future-of-robotics-insights-from-3laws/" target="_blank">AI’s role in the future of robotics: Insights from 3Laws</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Feb 27
+                    
+                </div>
+                <p class="story-summary">The Robot Report Podcast · AI&amp;#8217;s Role in the Future of Robotics: Insights from 3Laws Episode 233 of The Robot Report Podcast features Andrew Singletary, CEO, and Amir Sharif, chief operating officer of 3Laws. They discuss the evolution of the co...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://www.therobotreport.com/how-to-integrate-collaborative-robots-existing-production-lines-without-disruption/" target="_blank">How to integrate collaborative robots into existing production lines without disruption</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Feb 27
+                    
+                </div>
+                <p class="story-summary">Kassow says its collaborative robots bring accuracy, efficiency, and customization to dispensing tasks. | Source: Kassow Robots Collaborative robots are being adopted across manufacturing floors as a practical way to automate specific tasks within ex...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2602.24156v1" target="_blank">Humanoid Robots as First Assistants in Endoscopic Surgery</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.RO] | Feb 27
+                    
+                </div>
+                <p class="story-summary">Humanoid robots have become a focal point of technological ambition, with claims of surgical capability within years in mainstream discourse. These projections are aspirational yet lack empirical grounding. To date, no humanoid has assisted a surgeon...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.24104v1" target="_blank">Geometry-based pneumatic actuators for soft robotics</a></div>
+                <div class="paper-author">Rui Chen, Daniele Leonardis, Domenico Chiaradia, Antonio Frisoli</div>
+                <div class="paper-summary">Soft pneumatic actuators enable safe human-machine interaction with lightweight and powerful applied parts. On the other side, they suffer design limitations as regards complex actuation patterns, inc...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.23972v1" target="_blank">Learning Robust Control Policies for Inverted Pose on Miniature Blimp Robots</a></div>
+                <div class="paper-author">Yuanlin Yang, Lin Hong, Fumin Zhang</div>
+                <div class="paper-summary">The ability to achieve and maintain inverted poses is essential for unlocking the full agility of miniature blimp robots (MBRs). However, developing reliable control methods for MBRs remains challengi...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2602.24143v1" target="_blank">Robust Skills, Brittle Grounding: Diagnosing Restricted Generalization in Vision-Language Action Policies via Multi-Object Picking</a></div>
+                <div class="paper-author">David Emukpere, Romain Deffayet, Jean-Michel Renders</div>
+                <div class="paper-summary">Vision-language action (VLA) policies often report strong manipulation benchmark performance with relatively few demonstrations, but it remains unclear whether this reflects robust language-to-object ...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae" target="_blank">Everett shuts down Flock camera network after judge rules footage public record</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 326 | 💬 95</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://atlas.flexport.com/" target="_blank">Flightradar24 for Ships</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 238 | 💬 49</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://ellanew.com/2026/03/02/ptpl-197-record-retrieve-from-a-personal-knowledgebase" target="_blank">How to record and retrieve anything you&#39;ve ever had to look up twice</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 96 | 💬 35</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/hyundai-show-mobed-aw-2026-robotics-ai-expand-manufacturing/" target="_blank">Hyundai to show MobED at AW as robotics, AI expand in manufacturing</a></div>
+                <div class="news-meta">The Robot Report | Feb 27</div>
+                <div class="news-summary">The MobED robot will be among the Korean systems on display at AW 2026. Source: Hyundai Motor Group As robotics and artificial intelligence continue t...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/intrinsic-is-joining-google-to-advance-physical-ai-in-robotics/" target="_blank">Intrinsic is joining Google to advance physical AI in robotics</a></div>
+                <div class="news-meta">The Robot Report | Feb 26</div>
+                <div class="news-summary">Intrinsic Flowstate is a developer environment to build production-grade robotics. | Source: Intrinsic Just five years after spinning out from Alphabe...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/automation-world-seoul-features-china-humanoid-makers/" target="_blank">Automation World in Seoul to feature Chinese humanoid makers</a></div>
+                <div class="news-meta">The Robot Report | Feb 26</div>
+                <div class="news-summary">Five leading humanoid robot developers from China will exhibit and speak in Seoul. Source: AW 2026 As humanoid robots continue to draw attention from ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://spectrum.ieee.org/perseverance-mars-rover-autonomous-driving" target="_blank">Perseverance Smashes Autonomous Driving Record on Mars</a></div>
+                <div class="news-meta">IEEE Spectrum Robotics | Feb 25</div>
+                <div class="news-summary">This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore . In past missions to Mars, like with the Curiosity an...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blogs.nvidia.com/blog/huang-3dexperience-2026/?ncid=so-twit-241697&linkId=100000406112672" target="_blank">Everything Will Be Represented in a Virtual Twin, NVIDIA CEO Jensen Huang Says at 3DEXPERIENCE World</a></div>
+                <div class="news-meta">Manual Inbox | Mar 02</div>
+                <div class="news-summary">Digital twins for training in manufacturing</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-03-02 14:03 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
