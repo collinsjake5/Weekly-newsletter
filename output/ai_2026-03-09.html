@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 11</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 11 | March 09, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>7</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2603.06570v1" target="_blank">SUREON: A Benchmark and Vision-Language-Model for Surgical Reasoning</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Mar 06
+                    
+                </div>
+                <p class="story-summary">Surgeons don&#39;t just see -- they interpret. When an expert observes a surgical scene, they understand not only what instrument is being used, but why it was chosen, what risk it poses, and what comes next. Current surgical AI cannot answer such questi...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html" target="_blank">Cloud VM benchmarks 2026</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Mar 08
+                     | ⬆️ 339 | 💬 158
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://github.com/BigBodyCobain/Shadowbroker" target="_blank">Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Mar 08
+                     | ⬆️ 269 | 💬 108
+                </div>
+                <p class="story-summary">Sup HN,&lt;p&gt;So I got tired of bouncing between Flightradar, MarineTraffic, and Twitter every time something kicked off globally, so I wrote a dashboard to aggregate it all locally. It’s called Shadowbroker.&lt;p&gt;I’ll admit I leaned way too hard into the &amp;...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://github.com/knowsuchagency/mcp2cli" target="_blank">Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Mar 09
+                     | ⬆️ 121 | 💬 72
+                </div>
+                <p class="story-summary">Every MCP server injects its full tool schemas into context on every turn — 30 tools costs ~3,600 tokens&amp;#x2F;turn whether the model uses them or not. Over 25 turns with 120 tools, that&amp;#x27;s 362,000 tokens just for schemas.&lt;p&gt;mcp2cli turns any MCP ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2603.06503v1" target="_blank">Beyond Rows to Reasoning: Agentic Retrieval for Multimodal Spreadsheet Understanding and Editing</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Mar 06
+                    
+                </div>
+                <p class="story-summary">Recent advances in multimodal Retrieval-Augmented Generation (RAG) enable Large Language Models (LLMs) to analyze enterprise spreadsheet workbooks containing millions of cells, cross-sheet dependencies, and embedded visual artifacts. However, state-o...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.06567v1" target="_blank">A recipe for scalable attention-based MLIPs: unlocking long-range accuracy with all-to-all node attention</a></div>
+                <div class="paper-author">Eric Qu, Brandon M. Wood, Aditi S. Krishnapriyan, Zachary W. Ulissi</div>
+                <div class="paper-summary">Machine-learning interatomic potentials (MLIPs) have advanced rapidly, with many top models relying on strong physics-based inductive biases. However, as models scale to larger systems like biomolecul...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.06542v1" target="_blank">RAMoEA-QA: Hierarchical Specialization for Robust Respiratory Audio Question Answering</a></div>
+                <div class="paper-author">Gaia A. Bertolino, Yuwei Zhang, Tong Xia, Domenico Talia, Cecilia Mascolo</div>
+                <div class="paper-summary">Conversational generative AI is rapidly entering healthcare, where general-purpose models must integrate heterogeneous patient signals and support diverse interaction styles while producing clinically...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.06573v1" target="_blank">Fly360: Omnidirectional Obstacle Avoidance within Drone View</a></div>
+                <div class="paper-author">Xiangkai Zhang, Dizhe Zhang, WenZhuo Cao, Zhaoliang Wan, Yingjie Niu...</div>
+                <div class="paper-summary">Obstacle avoidance in unmanned aerial vehicles (UAVs), as a fundamental capability, has gained increasing attention with the growing focus on spatial intelligence. However, current obstacle-avoidance ...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.06557v1" target="_blank">Causal Interpretation of Neural Network Computations with Contribution Decomposition</a></div>
+                <div class="paper-author">Joshua Brendan Melander, Zaki Alaoui, Shenghua Liu, Surya Ganguli, Stephen A. Baccus</div>
+                <div class="paper-summary">Understanding how neural networks transform inputs into outputs is crucial for interpreting and manipulating their behavior. Most existing approaches analyze internal representations by identifying hi...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.06485v1" target="_blank">PONTE: Personalized Orchestration for Natural Language Trustworthy Explanations</a></div>
+                <div class="paper-author">Vittoria Vineis, Matteo Silvestri, Lorenzo Antonelli, Filippo Betello, Gabriele Tolomei</div>
+                <div class="paper-summary">Explainable Artificial Intelligence (XAI) seeks to enhance the transparency and accountability of machine learning systems, yet most methods follow a one-size-fits-all paradigm that neglects user diff...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://news.ycombinator.com/item?id=47296547" target="_blank">Ask HN: How to be alone?</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 555 | 💬 409</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/balyasny-asset-management" target="_blank">How Balyasny Asset Management built an AI research engine for investing</a></div>
+                <div class="news-meta">OpenAI Blog | Mar 06</div>
+                <div class="news-summary">See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/descript" target="_blank">How Descript enables multilingual video dubbing at scale</a></div>
+                <div class="news-meta">OpenAI Blog | Mar 06</div>
+                <div class="news-summary">Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural a...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/" target="_blank">Is the Pentagon allowed to surveil Americans with AI?</a></div>
+                <div class="news-meta">MIT Technology Review AI | Mar 06</div>
+                <div class="news-summary">The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law a...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-03-09 14:08 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
