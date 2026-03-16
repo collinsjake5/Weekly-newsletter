@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Robotics Weekly - Week 12</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manufacturing Robotics Weekly</h1>
+            <div class="date">Week 12 | March 16, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>The Robot Report</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.youtube.com/watch?v=BYXbuik3dgA" target="_blank">Elon Musk – &quot;In 36 months, the cheapest place to put AI will be space”</a>
+                </div>
+                <div class="story-meta">
+                    YouTube - Dwarkesh Patel and Stripe | Mar 16
+                     | ⬆️ 150 | 💬 0
+                </div>
+                <p class="story-summary">Optimus and humanoid manufacturing, Tesla will use 10,000 to 30,000 Optimus robots for self-training, similar to FSD Elon Musk revealed Optimus&#39;s new strategy: creating an &quot;Optimus Academy&quot; with 10,000 to 30,000 real robots that will continuously per...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://www.therobotreport.com/humanoid-robotics-developers-must-address-a-wide-range-of-applications/" target="_blank">Humanoid robotics developers must address a wide range of applications</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Mar 15
+                    
+                </div>
+                <p class="story-summary">Humanoid robots such as Optimus need to evolve from industrial to more general applications. Source: Tesla Humanoid robots are becoming an important part of our technological reality, opening up new horizons in science, industry, and everyday life. T...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.therobotreport.com/data-security-foundation-trust-physical-ai/" target="_blank">Data security is the foundation of trust in physical AI</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Mar 14
+                    
+                </div>
+                <p class="story-summary">Cyber and data security are key concerns for physical AI such as this ANYmal inspection robot. Source: ANYbotics If you follow the robotics industry, you have likely seen the wave of humanoids performing backflips, robot dogs navigating parkour, and ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://www.therobotreport.com/ed-mehr-transforming-manufacturing-machina-labs-aw26-recap/" target="_blank">Ed Mehr on transforming manufacturing at Machina Labs; AW26 Recap</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Mar 13
+                    
+                </div>
+                <p class="story-summary">The Robot Report Podcast · Ed Mehr on Transforming Manufacturing at Machina Labs Episode 235 of The Robot Report Podcast features Ed Mehr, co-founder and CEO of Machina Labs. In addition, Eugene Demaitre, editorial director for The Robot Report , is ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2603.13228v1" target="_blank">PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.RO] | Mar 13
+                    
+                </div>
+                <p class="story-summary">Recent progress in text-conditioned human motion generation has been largely driven by diffusion models trained on large-scale human motion data. Building on this progress, recent methods attempt to transfer such models for character animation and re...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.13033v1" target="_blank">ESPIRE: A Diagnostic Benchmark for Embodied Spatial Reasoning of Vision-Language Models</a></div>
+                <div class="paper-author">Yanpeng Zhao, Wentao Ding, Hongtao Li, Baoxiong Jia, Zilong Zheng</div>
+                <div class="paper-summary">A recent trend in vision-language models (VLMs) has been to enhance their spatial cognition for embodied domains. Despite progress, existing evaluations have been limited both in paradigm and in cover...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.12994v1" target="_blank">Route Fragmentation Based on Resource-centric Prioritisation for Efficient Multi-Robot Path Planning in Agricultural Environments</a></div>
+                <div class="paper-author">James R. Heselden, Gautham P. Das</div>
+                <div class="paper-summary">Agricultural environments present high proportions of spatially dense navigation bottlenecks for long-term navigation and operational planning of agricultural mobile robots. The existing agent-centric...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.13108v1" target="_blank">Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots</a></div>
+                <div class="paper-author">Guoqiang Zhao, Zhe Yang, Sheng Wu, Fei Teng, Mengfei Duan...</div>
+                <div class="paper-summary">Panoramic imagery provides holistic 360° visual coverage for perception in quadruped robots. However, existing occupancy prediction methods are mainly designed for wheeled autonomous driving and rely ...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.13100v1" target="_blank">Evaluating VLMs&#39; Spatial Reasoning Over Robot Motion: A Step Towards Robot Planning with Motion Preferences</a></div>
+                <div class="paper-author">Wenxi Wu, Jingjing Zhang, Martim Brandão</div>
+                <div class="paper-summary">Understanding user instructions and object spatial relations in surrounding environments is crucial for intelligent robot systems to assist humans in various tasks. The natural language and spatial re...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://zzk273.github.io/LATENT/" target="_blank">Learning athletic humanoid tennis skills from imperfect human motion data</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 164 | 💬 36</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.worksinprogress.news/p/many-of-the-tastiest-vegetables-are" target="_blank">Centuries of selective breeding turned wild cabbage into different vegetables</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 135 | 💬 53</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://signet.watch" target="_blank">Show HN: Signet – Autonomous wildfire tracking from satellite and weather data</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 113 | 💬 31</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://spectrum.ieee.org/legged-modular-robot" target="_blank">Video Friday: These Robots Were Born to Run</a></div>
+                <div class="news-meta">IEEE Spectrum Robotics | Mar 13</div>
+                <div class="news-summary">Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/oxa-closes-series-d-funding-bring-industrial-mobility-automation-market/" target="_blank">Oxa closes Series D funding to bring industrial mobility automation to market</a></div>
+                <div class="news-meta">The Robot Report | Mar 13</div>
+                <div class="news-summary">Oxa’s systems tow and carry goods in ports, airports, or manufacturing facilities, as well as monitor assets and perimeters in solar farms or industri...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/three-companies-demonstrate-global-commercialization-potential-aw-2026/" target="_blank">Three companies demonstrate global commercialization potential at AW 2026</a></div>
+                <div class="news-meta">The Robot Report | Mar 13</div>
+                <div class="news-summary">The Robot Report recognized Hypergram, Epson, and Polaris3D at AW 2026. Credit: Sewong Chloe Park SEOUL &amp;#8212; Among the highlights at last week&amp;#821...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blogs.nvidia.com/blog/huang-3dexperience-2026/?ncid=so-twit-241697&linkId=100000406112672" target="_blank">Everything Will Be Represented in a Virtual Twin, NVIDIA CEO Jensen Huang Says at 3DEXPERIENCE World</a></div>
+                <div class="news-meta">Manual Inbox | Mar 16</div>
+                <div class="news-summary">Digital twins for training in manufacturing</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.youtube.com/watch?v=LFh9GAzHg1c&list=WL&index=9&t=1s" target="_blank">Ashok Elluswamy: Building Foundational Models for Robotics at Tesla</a></div>
+                <div class="news-meta">YouTube - Matroid | Mar 16</div>
+                <div class="news-summary">Foundational models for robotics</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-03-16 14:23 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
