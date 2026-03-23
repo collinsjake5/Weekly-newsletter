@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 13</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 13 | March 23, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>9</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://opencode.ai/" target="_blank">OpenCode – Open source AI coding agent</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Mar 20
+                     | ⬆️ 1249 | 💬 617
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2603.20193v1" target="_blank">From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Mar 20
+                    
+                </div>
+                <p class="story-summary">Existing tampering detection benchmarks largely rely on object masks, which severely misalign with the true edit signal: many pixels inside a mask are untouched or only trivially modified, while subtle yet consequential edits outside the mask are tre...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://huggingface.co/blog/ibm-granite/granite-libraries" target="_blank">What&#39;s New in Mellea 0.4.0 + Granite Libraries Release</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Mar 20
+                    
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026" target="_blank">State of Open Source on Hugging Face: Spring 2026</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Mar 17
+                    
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/" target="_blank">Our latest investment in open source security for the AI era</a>
+                </div>
+                <div class="story-meta">
+                    Google AI Blog | Mar 17
+                    
+                </div>
+                <p class="story-summary">Google is making new investments, building new tools and developing code security to improve open source security.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.20194v1" target="_blank">MME-CoF-Pro: Evaluating Reasoning Coherence in Video Generative Models with Text and Visual Hints</a></div>
+                <div class="paper-author">Yu Qi, Xinyi Xu, Ziyu Guo, Siyuan Ma, Renrui Zhang...</div>
+                <div class="paper-summary">Video generative models show emerging reasoning behaviors. It is essential to ensure that generated events remain causally consistent across frames for reliable deployment, a property we define as rea...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.20192v1" target="_blank">LumosX: Relate Any Identities with Their Attributes for Personalized Video Generation</a></div>
+                <div class="paper-author">Jiazheng Xing, Fei Du, Hangjie Yuan, Pengwei Liu, Hongbin Xu...</div>
+                <div class="paper-summary">Recent advances in diffusion models have significantly improved text-to-video generation, enabling personalized content creation with fine-grained control over both foreground and background elements....</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.20184v1" target="_blank">Kolmogorov-Arnold causal generative models</a></div>
+                <div class="paper-author">Alejandro Almodóvar, Mar Elizo, Patricia A. Apellániz, Santiago Zazo, Juan Parras</div>
+                <div class="paper-summary">Causal generative models provide a principled framework for answering observational, interventional, and counterfactual queries from observational data. However, many deep causal models rely on highly...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.20190v1" target="_blank">CoVR-R:Reason-Aware Composed Video Retrieval</a></div>
+                <div class="paper-author">Omkar Thawakar, Dmitry Demidov, Vaishnav Potlapalli, Sai Prasanna Teja Reddy Bogireddy, Viswanatha Reddy Gajjala...</div>
+                <div class="paper-summary">Composed Video Retrieval (CoVR) aims to find a target video given a reference video and a textual modification. Prior work assumes the modification text fully specifies the visual changes, overlooking...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.20185v1" target="_blank">VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking</a></div>
+                <div class="paper-author">Jingyang Lin, Jialian Wu, Jiang Liu, Ximeng Sun, Ze Wang...</div>
+                <div class="paper-summary">Video agentic models have advanced challenging video-language tasks. However, most agentic approaches still heavily rely on greedy parsing over densely sampled video frames, resulting in high computat...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.royalbhati.com/hoptab" target="_blank">HopTab – Open source macOS app switcher and tiler that replaces Cmd+Tab</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 129 | 💬 45</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html" target="_blank">How to attract AI bots to your open source project</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 149 | 💬 25</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://tinygrad.org/#tinybox" target="_blank">Tinybox – A powerful computer for deep learning</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 584 | 💬 340</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/japan-teen-safety-blueprint" target="_blank">OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first</a></div>
+                <div class="news-meta">OpenAI Blog | Mar 17</div>
+                <div class="news-summary">OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens u...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/introducing-gpt-5-4-mini-and-nano" target="_blank">Introducing GPT-5.4 mini and nano</a></div>
+                <div class="news-meta">OpenAI Blog | Mar 17</div>
+                <div class="news-summary">GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/" target="_blank">Nurturing agentic AI beyond the toddler stage</a></div>
+                <div class="news-meta">MIT Technology Review AI | Mar 16</div>
+                <div class="news-summary">Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/" target="_blank">The Bay Area’s animal welfare movement wants to recruit AI</a></div>
+                <div class="news-meta">MIT Technology Review AI | Mar 23</div>
+                <div class="news-summary">In early February, animal welfare advocates and AI researchers gathered in stocking feet at Mox, a scrappy, shoes-free coworking space in San Francisc...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/" target="_blank">OpenAI is throwing everything into building a fully automated researcher</a></div>
+                <div class="news-meta">MIT Technology Review AI | Mar 20</div>
+                <div class="news-summary">OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-03-23 14:17 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

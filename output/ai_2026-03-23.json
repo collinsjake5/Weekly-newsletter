@@ -1,0 +1,592 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-03-23T14:17:56.683526",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "OpenCode \u2013 Open source AI coding agent",
+      "url": "https://opencode.ai/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-03-20T21:03:52",
+      "summary": null,
+      "content": null,
+      "author": "rbanffy",
+      "score": 1249,
+      "num_comments": 617,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47460525,
+        "hn_url": "https://news.ycombinator.com/item?id=47460525",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.9417547940974702
+    },
+    {
+      "title": "From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering",
+      "url": "https://arxiv.org/abs/2603.20193v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-03-20T17:59:54",
+      "summary": "Existing tampering detection benchmarks largely rely on object masks, which severely misalign with the true edit signal: many pixels inside a mask are untouched or only trivially modified, while subtle yet consequential edits outside the mask are treated as natural. We reformulate VLM image tampering from coarse region labels to a pixel-grounded, meaning and language-aware task. First, we introduce a taxonomy spanning edit primitives (replace/remove/splice/inpaint/attribute/colorization, etc.) and their semantic class of tampered object, linking low-level changes to high-level understanding. Second, we release a new benchmark with per-pixel tamper maps and paired category supervision to evaluate detection and classification within a unified protocol. Third, we propose a training framework and evaluation metrics that quantify pixel-level correctness with localization to assess confidence or prediction on true edit intensity, and further measure tamper meaning understanding via semantics...",
+      "content": "Existing tampering detection benchmarks largely rely on object masks, which severely misalign with the true edit signal: many pixels inside a mask are untouched or only trivially modified, while subtle yet consequential edits outside the mask are treated as natural. We reformulate VLM image tampering from coarse region labels to a pixel-grounded, meaning and language-aware task. First, we introduce a taxonomy spanning edit primitives (replace/remove/splice/inpaint/attribute/colorization, etc.) and their semantic class of tampered object, linking low-level changes to high-level understanding. Second, we release a new benchmark with per-pixel tamper maps and paired category supervision to evaluate detection and classification within a unified protocol. Third, we propose a training framework and evaluation metrics that quantify pixel-level correctness with localization to assess confidence or prediction on true edit intensity, and further measure tamper meaning understanding via semantics-aware classification and natural language descriptions for the predicted regions. We also re-evaluate the existing strong segmentation/localization baselines on recent strong tamper detectors and reveal substantial over- and under-scoring using mask-only metrics, and expose failure modes on micro-edits and off-mask changes. Our framework advances the field from masks to pixels, meanings and language descriptions, establishing a rigorous standard for tamper localization, semantic classification and description. Code and benchmark data are available at https://github.com/VILA-Lab/PIXAR.",
+      "author": "Xinyi Shang, Yi Tang, Jiacheng Cui, Ahmed Elhagry, Salwa K. Al Khatib...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20193v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20193v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Xinyi Shang",
+          "Yi Tang",
+          "Jiacheng Cui",
+          "Ahmed Elhagry",
+          "Salwa K. Al Khatib",
+          "Sondos Mahmoud Bsharat",
+          "Jiacheng Liu",
+          "Xiaohan Zhao",
+          "Jing-Hao Xue",
+          "Hao Li",
+          "Salman Khan",
+          "Zhiqiang Shen"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7140171947874504
+    },
+    {
+      "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-03-20T14:14:46",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.710666995812004
+    },
+    {
+      "title": "State of Open Source on Hugging Face: Spring 2026",
+      "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-03-17T16:37:55",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6485114898544148
+    },
+    {
+      "title": "Our latest investment in open source security for the AI era",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-03-17T16:00:00",
+      "summary": "Google is making new investments, building new tools and developing code security to improve open source security.",
+      "content": "Google is making new investments, building new tools and developing code security to improve open source security.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "safety & security",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6479472538563988
+    },
+    {
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "url": "https://openai.com/index/japan-teen-safety-blueprint",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-03-17T10:00:00",
+      "summary": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "content": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "safety"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6425901110324901
+    },
+    {
+      "title": "HopTab \u2013 Open source macOS app switcher and tiler that replaces Cmd+Tab",
+      "url": "https://www.royalbhati.com/hoptab",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-03-22T06:23:59",
+      "summary": null,
+      "content": null,
+      "author": "robhati",
+      "score": 129,
+      "num_comments": 45,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47474967,
+        "hn_url": "https://news.ycombinator.com/item?id=47474967",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.563898491408094
+    },
+    {
+      "title": "How to attract AI bots to your open source project",
+      "url": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-03-21T20:58:01",
+      "summary": null,
+      "content": null,
+      "author": "zdw",
+      "score": 149,
+      "num_comments": 25,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47471271,
+        "hn_url": "https://news.ycombinator.com/item?id=47471271",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5561443907772071
+    },
+    {
+      "title": "MME-CoF-Pro: Evaluating Reasoning Coherence in Video Generative Models with Text and Visual Hints",
+      "url": "https://arxiv.org/abs/2603.20194v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-03-20T17:59:56",
+      "summary": "Video generative models show emerging reasoning behaviors. It is essential to ensure that generated events remain causally consistent across frames for reliable deployment, a property we define as reasoning coherence. To bridge the gap in literature for missing reasoning coherence evaluation, we propose MME-CoF-Pro, a comprehensive video reasoning benchmark to assess reasoning coherence in video models. Specifically, MME-CoF-Pro contains 303 samples across 16 categories, ranging from visual logical to scientific reasoning. It introduces Reasoning Score as evaluation metric for assessing process-level necessary intermediate reasoning steps, and includes three evaluation settings, (a) no hint (b) text hint and (c) visual hint, enabling a controlled investigation into the underlying mechanisms of reasoning hint guidance. Evaluation results in 7 open and closed-source video models reveals insights including: (1) Video generative models exhibit weak reasoning coherence, decoupled from gener...",
+      "content": "Video generative models show emerging reasoning behaviors. It is essential to ensure that generated events remain causally consistent across frames for reliable deployment, a property we define as reasoning coherence. To bridge the gap in literature for missing reasoning coherence evaluation, we propose MME-CoF-Pro, a comprehensive video reasoning benchmark to assess reasoning coherence in video models. Specifically, MME-CoF-Pro contains 303 samples across 16 categories, ranging from visual logical to scientific reasoning. It introduces Reasoning Score as evaluation metric for assessing process-level necessary intermediate reasoning steps, and includes three evaluation settings, (a) no hint (b) text hint and (c) visual hint, enabling a controlled investigation into the underlying mechanisms of reasoning hint guidance. Evaluation results in 7 open and closed-source video models reveals insights including: (1) Video generative models exhibit weak reasoning coherence, decoupled from generation quality. (2) Text hints boost apparent correctness but often cause inconsistency and hallucinated reasoning (3) Visual hints benefit structured perceptual tasks but struggle with fine-grained perception. Website: https://video-reasoning-coherence.github.io/",
+      "author": "Yu Qi, Xinyi Xu, Ziyu Guo, Siyuan Ma, Renrui Zhang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20194v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20194v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Yu Qi",
+          "Xinyi Xu",
+          "Ziyu Guo",
+          "Siyuan Ma",
+          "Renrui Zhang",
+          "Xinyan Chen",
+          "Ruichuan An",
+          "Ruofan Xing",
+          "Jiayi Zhang",
+          "Haojie Huang",
+          "Pheng-Ann Heng",
+          "Jonathan Tremblay",
+          "Lawson L. S. Wong"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.575925925925926,
+      "final_score": 0.5443880609023645
+    },
+    {
+      "title": "LumosX: Relate Any Identities with Their Attributes for Personalized Video Generation",
+      "url": "https://arxiv.org/abs/2603.20192v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-03-20T17:59:46",
+      "summary": "Recent advances in diffusion models have significantly improved text-to-video generation, enabling personalized content creation with fine-grained control over both foreground and background elements. However, precise face-attribute alignment across subjects remains challenging, as existing methods lack explicit mechanisms to ensure intra-group consistency. Addressing this gap requires both explicit modeling strategies and face-attribute-aware data resources. We therefore propose LumosX, a framework that advances both data and model design. On the data side, a tailored collection pipeline orchestrates captions and visual cues from independent videos, while multimodal large language models (MLLMs) infer and assign subject-specific dependencies. These extracted relational priors impose a finer-grained structure that amplifies the expressive control of personalized video generation and enables the construction of a comprehensive benchmark. On the modeling side, Relational Self-Attention a...",
+      "content": "Recent advances in diffusion models have significantly improved text-to-video generation, enabling personalized content creation with fine-grained control over both foreground and background elements. However, precise face-attribute alignment across subjects remains challenging, as existing methods lack explicit mechanisms to ensure intra-group consistency. Addressing this gap requires both explicit modeling strategies and face-attribute-aware data resources. We therefore propose LumosX, a framework that advances both data and model design. On the data side, a tailored collection pipeline orchestrates captions and visual cues from independent videos, while multimodal large language models (MLLMs) infer and assign subject-specific dependencies. These extracted relational priors impose a finer-grained structure that amplifies the expressive control of personalized video generation and enables the construction of a comprehensive benchmark. On the modeling side, Relational Self-Attention and Relational Cross-Attention intertwine position-aware embeddings with refined attention dynamics to inscribe explicit subject-attribute dependencies, enforcing disciplined intra-group cohesion and amplifying the separation between distinct subject clusters. Comprehensive evaluations on our benchmark demonstrate that LumosX achieves state-of-the-art performance in fine-grained, identity-consistent, and semantically aligned personalized multi-subject video generation. Code and models are available at https://jiazheng-xing.github.io/lumosx-home/.",
+      "author": "Jiazheng Xing, Fei Du, Hangjie Yuan, Pengwei Liu, Hongbin Xu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20192v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20192v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Jiazheng Xing",
+          "Fei Du",
+          "Hangjie Yuan",
+          "Pengwei Liu",
+          "Hongbin Xu",
+          "Hai Ci",
+          "Ruigang Niu",
+          "Weihua Chen",
+          "Fan Wang",
+          "Yong Liu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5666666666666667,
+      "final_score": 0.5406818773062996
+    },
+    {
+      "title": "Kolmogorov-Arnold causal generative models",
+      "url": "https://arxiv.org/abs/2603.20184v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-03-20T17:58:38",
+      "summary": "Causal generative models provide a principled framework for answering observational, interventional, and counterfactual queries from observational data. However, many deep causal models rely on highly expressive architectures with opaque mechanisms, limiting auditability in high-stakes domains. We propose KaCGM, a causal generative model for mixed-type tabular data where each structural equation is parameterized by a Kolmogorov--Arnold Network (KAN). This decomposition enables direct inspection of learned causal mechanisms, including symbolic approximations and visualization of parent--child relationships, while preserving query-agnostic generative semantics. We introduce a validation pipeline based on distributional matching and independence diagnostics of inferred exogenous variables, allowing assessment using observational data alone. Experiments on synthetic and semi-synthetic benchmarks show competitive performance against state-of-the-art methods. A real-world cardiovascular case...",
+      "content": "Causal generative models provide a principled framework for answering observational, interventional, and counterfactual queries from observational data. However, many deep causal models rely on highly expressive architectures with opaque mechanisms, limiting auditability in high-stakes domains. We propose KaCGM, a causal generative model for mixed-type tabular data where each structural equation is parameterized by a Kolmogorov--Arnold Network (KAN). This decomposition enables direct inspection of learned causal mechanisms, including symbolic approximations and visualization of parent--child relationships, while preserving query-agnostic generative semantics. We introduce a validation pipeline based on distributional matching and independence diagnostics of inferred exogenous variables, allowing assessment using observational data alone. Experiments on synthetic and semi-synthetic benchmarks show competitive performance against state-of-the-art methods. A real-world cardiovascular case study further demonstrates the extraction of simplified structural equations and interpretable causal effects. These results suggest that expressive causal generative modeling and functional transparency can be achieved jointly, supporting trustworthy deployment in tabular decision-making settings. Code: https://github.com/aalmodovares/kacgm",
+      "author": "Alejandro Almod\u00f3var, Mar Elizo, Patricia A. Apell\u00e1niz, Santiago Zazo, Juan Parras",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20184v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20184v1.pdf",
+        "categories": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "all_authors": [
+          "Alejandro Almod\u00f3var",
+          "Mar Elizo",
+          "Patricia A. Apell\u00e1niz",
+          "Santiago Zazo",
+          "Juan Parras"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5481481481481482,
+      "final_score": 0.5332576046957672
+    },
+    {
+      "title": "CoVR-R:Reason-Aware Composed Video Retrieval",
+      "url": "https://arxiv.org/abs/2603.20190v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-03-20T17:59:25",
+      "summary": "Composed Video Retrieval (CoVR) aims to find a target video given a reference video and a textual modification. Prior work assumes the modification text fully specifies the visual changes, overlooking after-effects and implicit consequences (e.g., motion, state transitions, viewpoint or duration cues) that emerge from the edit. We argue that successful CoVR requires reasoning about these after-effects. We introduce a reasoning-first, zero-shot approach that leverages large multimodal models to (i) infer causal and temporal consequences implied by the edit, and (ii) align the resulting reasoned queries to candidate videos without task-specific finetuning. To evaluate reasoning in CoVR, we also propose CoVR-Reason, a benchmark that pairs each (reference, edit, target) triplet with structured internal reasoning traces and challenging distractors that require predicting after-effects rather than keyword matching. Experiments show that our zero-shot method outperforms strong retrieval basel...",
+      "content": "Composed Video Retrieval (CoVR) aims to find a target video given a reference video and a textual modification. Prior work assumes the modification text fully specifies the visual changes, overlooking after-effects and implicit consequences (e.g., motion, state transitions, viewpoint or duration cues) that emerge from the edit. We argue that successful CoVR requires reasoning about these after-effects. We introduce a reasoning-first, zero-shot approach that leverages large multimodal models to (i) infer causal and temporal consequences implied by the edit, and (ii) align the resulting reasoned queries to candidate videos without task-specific finetuning. To evaluate reasoning in CoVR, we also propose CoVR-Reason, a benchmark that pairs each (reference, edit, target) triplet with structured internal reasoning traces and challenging distractors that require predicting after-effects rather than keyword matching. Experiments show that our zero-shot method outperforms strong retrieval baselines on recall at K and particularly excels on implicit-effect subsets. Our automatic and human analysis confirm higher step consistency and effect factuality in our retrieved results. Our findings show that incorporating reasoning into general-purpose multimodal models enables effective CoVR by explicitly accounting for causal and temporal after-effects. This reduces dependence on task-specific supervision, improves generalization to challenging implicit-effect cases, and enhances interpretability of retrieval outcomes. These results point toward a scalable and principled framework for explainable video search. The model, code, and benchmark are available at https://github.com/mbzuai-oryx/CoVR-R.",
+      "author": "Omkar Thawakar, Dmitry Demidov, Vaishnav Potlapalli, Sai Prasanna Teja Reddy Bogireddy, Viswanatha Reddy Gajjala...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20190v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20190v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Omkar Thawakar",
+          "Dmitry Demidov",
+          "Vaishnav Potlapalli",
+          "Sai Prasanna Teja Reddy Bogireddy",
+          "Viswanatha Reddy Gajjala",
+          "Alaa Mostafa Lasheen",
+          "Rao Muhammad Anwer",
+          "Fahad Khan"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5407407407407407,
+      "final_score": 0.5303062982546296
+    },
+    {
+      "title": "VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking",
+      "url": "https://arxiv.org/abs/2603.20185v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-03-20T17:58:47",
+      "summary": "Video agentic models have advanced challenging video-language tasks. However, most agentic approaches still heavily rely on greedy parsing over densely sampled video frames, resulting in high computational cost. We present VideoSeek, a long-horizon video agent that leverages video logic flow to actively seek answer-critical evidence instead of exhaustively parsing the full video. This insight allows the model to use far fewer frames while maintaining, or even improving, its video understanding capability. VideoSeek operates in a think-act-observe loop with a well-designed toolkit for collecting multi-granular video observations. This design enables query-aware exploration over accumulated observations and supports practical video understanding and reasoning. Experiments on four challenging video understanding and reasoning benchmarks demonstrate that VideoSeek achieves strong accuracy while using far fewer frames than prior video agents and standalone LMMs. Notably, VideoSeek achieves ...",
+      "content": "Video agentic models have advanced challenging video-language tasks. However, most agentic approaches still heavily rely on greedy parsing over densely sampled video frames, resulting in high computational cost. We present VideoSeek, a long-horizon video agent that leverages video logic flow to actively seek answer-critical evidence instead of exhaustively parsing the full video. This insight allows the model to use far fewer frames while maintaining, or even improving, its video understanding capability. VideoSeek operates in a think-act-observe loop with a well-designed toolkit for collecting multi-granular video observations. This design enables query-aware exploration over accumulated observations and supports practical video understanding and reasoning. Experiments on four challenging video understanding and reasoning benchmarks demonstrate that VideoSeek achieves strong accuracy while using far fewer frames than prior video agents and standalone LMMs. Notably, VideoSeek achieves a 10.2 absolute points improvement on LVBench over its base model, GPT-5, while using 93% fewer frames. Further analysis highlights the significance of leveraging video logic flow, strong reasoning capability, and the complementary roles of toolkit design.",
+      "author": "Jingyang Lin, Jialian Wu, Jiang Liu, Ximeng Sun, Ze Wang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20185v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20185v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Jingyang Lin",
+          "Jialian Wu",
+          "Jiang Liu",
+          "Ximeng Sun",
+          "Ze Wang",
+          "Xiaodong Yu",
+          "Jiebo Luo",
+          "Zicheng Liu",
+          "Emad Barsoum"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5407407407407407,
+      "final_score": 0.53029687397958
+    },
+    {
+      "title": "Introducing GPT-5.4 mini and nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-03-17T10:00:00",
+      "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "content": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "company"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5777777777777777,
+      "final_score": 0.4737012221520337
+    },
+    {
+      "title": "Nurturing agentic AI beyond the toddler stage",
+      "url": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-03-16T13:00:00",
+      "summary": "Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark for wellness, or an indicator of additional tests needed to properly diagnose a potential health condition. A parent rejoices over the child\u2019s first steps and then realizes how much has changed when the child can quickly walk outside, instead of slowly crawling in a safe area inside. Suddenly safet...",
+      "content": "Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark for wellness, or an indicator of additional tests needed to properly diagnose a potential health condition. A parent rejoices over the child\u2019s first steps and then realizes how much has changed when the child can quickly walk outside, instead of slowly crawling in a safe area inside. Suddenly safety, including childproofing, takes a completely different lens and approach. Generative AI hit toddlerhood between December 2025 and January 2026 with the introduction of no code tools from multiple vendors and the debut of OpenClaw, an open source personal agent posted on GitHub. No more crawling on the carpet\u2014the generative AI tech baby broke into a sprint, and very few governance principles were operationally prepared. The accountability challenge: It\u2019s not them, it\u2019s you Until now, governance has been focused on model output risks with humans in the loop before consequential decisions were made\u2014such as with loan approvals or job applications. Model behavior, including drift, alignment, data exfiltration, and poisoning, was the focus. The pace was set by a human prompting a model in a chatbot format with plenty of back and forth interactions between machine and human. Today, with autonomous agents operating in complex workflows, the vision and the benefits of applied AI require significantly fewer humans in the loop. The point is to operate a business at machine pace by automating manual tasks that have clear architecture and decision rules. The goal, from a liability standpoint, is no reduction in enterprise or business risk between a machine operating a workflow and a human operating a workflow. CX Today summarizes the situation succinctly: \u201cAI does the work, humans own the risk,\u201d and   California state law (AB 316), went into effect January 1, 2026, which removes the \u201cAI did it; I didn\u2019t approve it\u201d excuse.  This is similar to parenting when an adult is held responsible for a child\u2019s actions that negatively impacts the larger community. The challenge is that without building in code that enforces operational governance aligned to different levels of risk and liability along the entire workflow, the benefit of autonomous AI agents is negated. In the past, governance had been static and aligned to the pace of interaction typical for a chatbot. However, autonomous AI by design removes humans from many decisions, which can affect governance.   Considering permissions Much like handing a three-year-old child a video game console that remotely controls an Abrams tank or an armed drone, leaving a probabilistic system operating without real-time guardrails that can change critical enterprise data carries significant risks.  For instance, agents that integrate and chain actions across multiple corporate systems can drift beyond privileges that a single human user would be granted. To move forward successfully, governance must shift beyond policy set by committees to operational code built into the workflows from the start.   A humorous meme around the behavior of toddlers with toys starts with all the reasons that whatever toy you have is mine and ends with a broken toy that is definitely yours.  For example, OpenClaw delivered a user experience closer to working with a human assistant;, but the excitement shifted as security experts realized inexperienced users could be easily compromised by using it. For decades, enterprise IT has lived with shadow IT and the reality that skilled technical teams must take over and clean up assets they did not architect or install, much like the toddler giving back a broken toy. With autonomous agents, the risks are larger: persistent service account credentials, long-lived API tokens, and permissions to make decisions over core file systems. To meet this challenge, it\u2019s imperative to allocate upfront appropriate IT budget and labor to sustain central discovery, oversight, and remediation for the thousands of employee or department-created agents. Having a retirement plan Recently, an acquaintance mentioned that she saved a client hundreds of thousands of dollars by identifying and then ending a \u201czombie project\u201d \u2014a neglected or failed AI pilot left running on a GPU cloud instance. There are potentially thousands of agents that risk becoming a zombie fleet inside a business. Today, many executives encourage employees to use AI\u2014or else\u2014and employees are told to create their own AI-first workflows or AI assistants. With the utility of something like OpenClaw and top-down directives, it is easy to project that the number of build-my-own agents coming to the office with their human employee will explode. Since an AI agent is a program that would fall under the definition of company-owned IP, as a employee changes departments or companies, those agents may be orphaned. There needs to be proactive policy and governance to decommission and retire any agents linked to a specific employee ID and permissions. Financial optimization is governance out of the gate While for some executives, autonomous AI sounds like a way to improve their operating margins by limiting human capital, many are finding that the ROI for human labor replacement is the wrong angle to take. Adding AI capabilities to the enterprise does not mean purchasing a new software tool with predictable instance-per-hour or per-seat pricing. A December 2025 IDC survey sponsored by Data Robot indicated that 96% of organizations deploying generative AI and 92% of those implementing agentic AI reported costs were higher or much higher than expected. The survey separates the concepts of governance and ROI, but as AI systems scale across large enterprises, financial and liability governance should be architected into the workflows from the beginning. Part of enterprise class governance stems from predicting and adhering to allocated budgeting. Unlike the software financial models of per-seat costs with support and maintenance fees, use of AI is consumption and usage costs scale as the workflow scales across the enterprise: the more users, the more tokens or the more compute time, and the higher the bill. Think of it as a tab left open, or an online retailer\u2019s digital shopping cart button unlocked on a toddler\u2019s electronic game device. Cloud FinOps was deterministic, but generative AI and agentic AI systems built on generative AI are probabilistic. Some AI-first founders are realizing that a single agents\u2019 token costs can be as high as $100,000 per session. Without guardrails built in from the start, chaining complex autonomous agents that run unsupervised for long periods of time can easily blow past the budget for hiring a junior developer. Keeping humans in the loop remains critical The promise of autonomous agentic AI is acceleration of business operations, product introductions, customer experience, and customer retention. Shifting to machine-speed decisions without humans in and or on the loop for these key functions significantly changes the governance landscape. While many of the principles around proactive permissions, discovery, audit, remediation, and financial operations/optimizations are the same, how they are executed has to shift to keep pace with autonomous agentic AI. This content was produced by Intel. It was not written by MIT Technology Review\u2019s editorial staff.",
+      "author": "Lynn Comp",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.44500000000000006
+    },
+    {
+      "title": "The Bay Area\u2019s animal welfare movement wants to recruit AI",
+      "url": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-03-23T09:00:00",
+      "summary": "In early February, animal welfare advocates and AI researchers gathered in stocking feet at Mox, a scrappy, shoes-free coworking space in San Francisco. Yellow and red canopies billowed overhead, Persian rugs blanketed the floor, and mosaic lamps glowed beside potted plants.  In the common area, a wildlife advocate spoke passionately to a crowd lounging in beanbags about a form of rodent birth control that could manage rat populations without poison. In the \u201cCrustacean Room,\u201d a dozen people sat ...",
+      "content": "In early February, animal welfare advocates and AI researchers gathered in stocking feet at Mox, a scrappy, shoes-free coworking space in San Francisco. Yellow and red canopies billowed overhead, Persian rugs blanketed the floor, and mosaic lamps glowed beside potted plants.  In the common area, a wildlife advocate spoke passionately to a crowd lounging in beanbags about a form of rodent birth control that could manage rat populations without poison. In the \u201cCrustacean Room,\u201d a dozen people sat in a circle, debating whether the sentience of insects could tell us anything about the inner lives of chatbots. In front of the \u201cBovine Room\u201d stood a bookshelf stacked with copies of Eliezer Yudkowsky\u2019s If Anyone Builds It, Everyone Dies , a manifesto arguing that AI could wipe out humanity .  The event was hosted by Sentient Futures, an organization that believes the future of animal welfare will depend on AI. Like many Bay Area denizens, the attendees were decidedly \u201cAGI-pilled\u201d\u2014they believe that artificial general intelligence, powerful AI that can compete with humans on most cognitive tasks, is on the horizon. If that\u2019s true, they reason, then AI will likely prove key to solving society\u2019s thorniest problems\u2014including animal suffering. To be clear, experts still fiercely debate whether today\u2019s AI systems will ever achieve human- or superhuman-level intelligence, and it\u2019s not clear what will happen if they do. But some conference attendees envision a possible future in which it is AI systems, and not humans, who call the shots. Eventually, they think, the welfare of animals could hinge on whether we\u2019ve trained AI systems to value animal lives.  \u201cAI is going to be very transformative, and it\u2019s going to pretty much flip the game board,\u201d said Constance Li, founder of Sentient Futures. \u201cIf you think that AI will make the majority of decisions, then it matters how they value animals and other sentient beings\u201d\u2014those that can feel and, therefore, suffer. Like Li, many summit attendees have been committed to animal welfare since long before AI came into the picture. But they\u2019re not the types to donate a hundred bucks to an animal shelter. Instead of focusing on local actions, they prioritize larger-scale solutions, such as reducing factory farming by promoting cultivated meat , which is grown in a lab from animal cells.  The Bay Area animal welfare movement is closely linked to effective altruism , a philanthropic movement committed to maximizing the amount of good one does in the world\u2014indeed, many conference attendees work for organizations funded by effective altruists. That philosophy might sound great on paper, but \u201cmaximizing good\u201d is a tricky puzzle that might not admit a clear solution. The movement has been widely criticized for some of its conclusions, such as promoting working in exploitative industries to maximize charitable donations and ignoring present-day harms in favor of  issues that could cause suffering for a large number of people who haven\u2019t been born yet. Critics also argue that effective altruists neglect the importance of systemic issues such as racism and economic exploitation and overlook the insights that marginalized communities might have into the best ways to improve their own lives . When it comes to animal welfare, this exactingly utilitarian approach can lead to some strange conclusions. For example, some effective altruists say it makes sense to commit significant resources to improving the welfare of insects and shrimp because they exist in such staggering numbers, even though they may not have much individual capacity for suffering.  Now the movement is sorting out how AI fits in. At the summit, Jasmine Brazilek, cofounder of a nonprofit called Compassion in Machine Learning, opened her sticker-stamped laptop to pull up a benchmark she devised to measure how LLMs reason about animal welfare. A cloud security engineer turned animal advocate, she\u2019d flown in from La Paz, Mexico, where she runs her nonprofit with a handful of volunteers and a shoestring budget.  Brazilek urged the AI researchers in the room to train their models with synthetic documents that reflect concern for animal welfare. \u201cHopefully, future superintelligent systems consider nonhuman interest, and there is a world where AI amplifies the best of human values and not the worst,\u201d she said.  The power of the purse  The technologically inclined side of the animal welfare movement has faced some major setbacks in recent years. Dreams of transitioning people away from a diet dependent on factory farming have been dampened by developments such as the decimation of the plant-based-meat company Beyond Meat\u2019s stock price and the passage of laws banning cultivated meat in several US states. AI has injected a shot of optimism. Like much of Silicon Valley, many attendees at the summit subscribe to the idea that AI might dramatically increase their productivity\u2014though their goal is not to maximize their seed round but, rather, to prevent as much animal suffering as possible. Some brainstormed how to use Claude Code and custom agents to handle the coding and administrative tasks in their advocacy work. Others pitched the idea of developing new, cheaper methods for cultivating meat using scientific AI tools such as AlphaFold, which aids in molecular biology research by predicting the three-dimensional structures of proteins. But the real talk of the event was a flood of funding that advocates expect will soon be committed to animal welfare charities\u2014not by individual megadonors, but by AI lab employees.  Much of the funding for the farm animal welfare movement, which includes nonprofits advocating for improved conditions on farms, promoting veganism, and endorsing cultivated meat, comes from people in the tech industry, says Lewis Bollard, the managing director of the farm animal welfare fund at Coefficient Giving, a philanthropic funder that used to be called Open Philanthropy. Coefficient Giving is backed by Facebook cofounder Dustin Moskovitz and his wife, Cari Tuna, who are among a handful of Silicon Valley billionaires who embrace effective altruism \u201cThis has just been an area that was completely neglected by traditional philanthropies,\u201d such as the Gates Foundation and the Ford Foundation, Bollard says. \u201cIt\u2019s primarily been people in tech who have been open to [it].\u201d The next generation of big donors, Bollard expects, will be AI researchers\u2014particularly those who work at Anthropic, the AI lab behind the chatbot Claude. Anthropic\u2019s founding team also has connections to the effective altruism movement , and the company has a generous donation matching program. In February, Anthropic\u2019s valuation reached $380 billion and it gave employees the option to cash in on their equity , so some of that money could soon be flowing into charitable coffers. The prospect of new funding sustained a constant buzz of conversation at the summit. Animal welfare advocates huddled in the \u201cArthropod Room\u201d and scrawled big dollar figures and catchy acronyms for projects on a whiteboard. One person pitched a $100 million animal super PAC that would place staffers with Congress members and lobby for animal welfare legislation. Some wanted to start a media company that creates AI-generated content on TikTok promoting veganism. Others spoke about placing animal advocates inside AI labs. \u201cThe amount of new funding does give us more confidence to be bolder about things,\u201d said Aaron Boddy, cofounder of the Shrimp Welfare Project, an organization that aims to reduce the suffering of farmed shrimp through humane slaughter, among other initiatives.  The question of AI welfare But animal welfare was only half the focus of the Sentient Futures summit. Some attendees probed far headier territory. They took seriously the controversial idea that AI systems might one day develop the capacity to feel and therefore suffer, and they worry that this future AI suffering, if ignored, could constitute a moral catastrophe. AI suffering is a tricky research problem, not least because scientists don\u2019t yet have a solid grip on why humans and other animals are sentient. But at the summit, a niche cadre of philosophers, largely funded by the effective altruism movement, and a handful of freewheeling academics grappled with the question. Some presented their research on using LLMs to evaluate whether other LLMs might be sentient. On Debate Night, attendees argued about whether we should ironically call sentient AI systems \u201cclankers,\u201d a derogatory term for robots from the film Star Wars , asking if the robot slur could shape how we treat a new kind of mind.  \u201cIt doesn\u2019t matter if it\u2019s a cow or a pig or an AI, as long as they have the capacity to feel happiness or suffering,\u201d says Li.  In some ways, bringing AI sentience into an animal welfare conference isn\u2019t as strange a move as it might seem. Researchers who work on machine sentience often draw on theories and approaches pioneered in the study of animal sentience, and if you accept that invertebrates likely feel pain and believe that AI systems might soon achieve superhuman intelligence, entertaining the possibility that those systems might also suffer may not be much of a leap. \u201cAnimal welfare advocates are used to going against the grain,\u201d says Derek Shiller, an AI consciousness researcher at the think tank Rethink Priorities, who was once a web developer at the animal advocacy nonprofit Humane League. \u201cThey\u2019re more open to being concerned about AI welfare, even though other people think it\u2019s silly.\u201d But outside the niche Bay Area circle, caring about the possibility of AI sentience is a harder sell. Li says she faced pushback from other animal welfare advocates when, inspired by a conference on AI sentience she attended in 2023, she rebranded her farm animal welfare advocacy organization as Sentient Futures last year. \u201cMany people were extremely confident that AIs would never become sentient and [argued that] by investing any energy or money into AI welfare, we\u2019re just burning money and throwing it away,\u201d she says. Matt Dominguez, executive director of Compassion in World Farming, echoed the concern. \u201cI would hate to see people pulling money out of farm animal welfare or animal welfare and moving it into something that is hypothetical at this particular moment,\u201d he says. Still, Dominguez, who started partnering with the Shrimp Welfare Project after learning about invertebrate suffering, believes compassion is expansive. \u201cWhen we get someone to care about one of those things, it creates capacity for their circle of compassion to grow to include others,\u201d he says.",
+      "author": "Michelle Kim, Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.3880464601800595
+    },
+    {
+      "title": "Measuring Faithfulness Depends on How You Measure: Classifier Sensitivity in LLM Chain-of-Thought Evaluation",
+      "url": "https://arxiv.org/abs/2603.20172v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-03-20T17:48:43",
+      "summary": "Recent work on chain-of-thought (CoT) faithfulness reports single aggregate numbers (e.g., DeepSeek-R1 acknowledges hints 39% of the time), implying that faithfulness is an objective, measurable property of a model. This paper demonstrates that it is not. Three classifiers (a regex-only detector, a two-stage regex-plus-LLM pipeline, and an independent Claude Sonnet 4 judge) are applied to 10,276 influenced reasoning traces from 12 open-weight models spanning 9 families and 7B to 1T parameters. On identical data, these classifiers produce overall faithfulness rates of 74.4%, 82.6%, and 69.7%, respectively, with non-overlapping 95% confidence intervals. Per-model gaps range from 2.6 to 30.6 percentage points; all are statistically significant (McNemar's test, p < 0.001). The disagreements are systematic, not random: inter-classifier agreement measured by Cohen's kappa ranges from 0.06 (\"slight\") for sycophancy hints to 0.42 (\"moderate\") for grader hints, and the asymmetry is pronounced: ...",
+      "content": "Recent work on chain-of-thought (CoT) faithfulness reports single aggregate numbers (e.g., DeepSeek-R1 acknowledges hints 39% of the time), implying that faithfulness is an objective, measurable property of a model. This paper demonstrates that it is not. Three classifiers (a regex-only detector, a two-stage regex-plus-LLM pipeline, and an independent Claude Sonnet 4 judge) are applied to 10,276 influenced reasoning traces from 12 open-weight models spanning 9 families and 7B to 1T parameters. On identical data, these classifiers produce overall faithfulness rates of 74.4%, 82.6%, and 69.7%, respectively, with non-overlapping 95% confidence intervals. Per-model gaps range from 2.6 to 30.6 percentage points; all are statistically significant (McNemar's test, p < 0.001). The disagreements are systematic, not random: inter-classifier agreement measured by Cohen's kappa ranges from 0.06 (\"slight\") for sycophancy hints to 0.42 (\"moderate\") for grader hints, and the asymmetry is pronounced: for sycophancy, 883 cases are classified as faithful by the pipeline but unfaithful by the Sonnet judge, while only 2 go the other direction. Classifier choice can also reverse model rankings: Qwen3.5-27B ranks 1st under the pipeline but 7th under the Sonnet judge; OLMo-3.1-32B moves in the opposite direction, from 9th to 3rd. The root cause is that different classifiers operationalize related faithfulness constructs at different levels of stringency (lexical mention versus epistemic dependence), and these constructs yield divergent measurements on the same behavior. These results demonstrate that published faithfulness numbers cannot be meaningfully compared across studies that use different classifiers, and that future evaluations should report sensitivity ranges across multiple classification methodologies rather than single point estimates.",
+      "author": "Richard J. Young",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20172v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20172v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Richard J. Young"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.12037037037037038,
+      "final_score": 0.3619989241015212
+    },
+    {
+      "title": "Tinybox \u2013 A powerful computer for deep learning",
+      "url": "https://tinygrad.org/#tinybox",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-03-21T20:08:37",
+      "summary": null,
+      "content": null,
+      "author": "albelfio",
+      "score": 584,
+      "num_comments": 340,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47470773,
+        "hn_url": "https://news.ycombinator.com/item?id=47470773",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.34959479754067335
+    },
+    {
+      "title": "OpenAI is throwing everything into building a fully automated researcher",
+      "url": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-03-20T11:57:16",
+      "summary": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself. \u200b\u200bOpenAI says that this new research goal will be its \u201cNorth Star\u201d for the next few years, pulling together multiple research strands, including work on reasoning models, agents , and interpretability . The...",
+      "content": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself. \u200b\u200bOpenAI says that this new research goal will be its \u201cNorth Star\u201d for the next few years, pulling together multiple research strands, including work on reasoning models, agents , and interpretability . There\u2019s even a timeline. OpenAI plans to build \u201can autonomous AI research intern\u201d\u2014a system that can take on a small number of specific research problems by itself\u2014by September. The AI intern will be the precursor to a fully automated multi-agent research system that the company plans to debut in 2028. This AI researcher (OpenAI says) will be able to tackle problems that are too large or complex for humans to cope with. Those tasks might be related to math and physics\u2014such as coming up with new proofs or conjectures\u2014or life sciences like biology and chemistry, or even business and policy dilemmas. In theory, you would throw such a tool any kind of problem that can be formulated in text, code, or whiteboard scribbles\u2014which covers a lot. OpenAI has been setting the agenda for the AI industry for years. Its early dominance with large language models shaped the technology that hundreds of millions of people use every day. But it now faces fierce competition from rival model makers like Anthropic and Google DeepMind. What OpenAI decides to build next matters\u2014for itself and for the future of AI.    A big part of that decision falls to Jakub Pachocki, OpenAI\u2019s chief scientist, who sets the company\u2019s long-term research goals . Pachocki played key roles in the development of both GPT-4, a game-changing LLM released in 2023, and so-called reasoning models, a technology that first appeared in 2024 and now underpins all major chatbots and agent-based systems. In an exclusive interview this week, Pachocki talked me through OpenAI\u2019s latest vision. \u201cI think we are getting close to a point where we\u2019ll have models capable of working indefinitely in a coherent way just like people do,\u201d he says. \u201cOf course, you still want people in charge and setting the goals. But I think we will get to a point where you kind of have a whole research lab in a data center.\u201d Solving hard problems Such big claims aren\u2019t new. Saving the world by solving its hardest problems is the stated mission of all the top AI firms. Demis Hassabis told me back in 2022 that it was why he started DeepMind . Anthropic CEO Dario Amodei says he is building the equivalent of a country of geniuses in a data center . Pachocki\u2019s boss, Sam Altman, wants to cure cancer . But Pachocki says OpenAI now has most of what it needs to get there. In January, OpenAI released Codex, an agent-based app that can spin up code on the fly to carry out tasks on your computer. It can analyze documents, generate charts, make you a daily digest of your inbox and social media, and much more. (Other firms have released similar tools, such as Anthropic\u2019s Claude Code and Claude Cowork.) OpenAI claims that most of its technical staffers now use Codex in their work. You can look at Codex as a very early version of the AI researcher, says Pachocki: \u201cI expect Codex to get fundamentally better.\u201d The key is to make a system that can run for longer periods of time, with less human guidance. \u201cWhat we\u2019re really looking at for an automated research intern is a system that you can delegate tasks [to] that would take a person a few days,\u201d says Pachocki. \u201cThere are a lot of people excited about building systems that can do more long-running scientific research,\u201d says Doug Downey, a research scientist at the Allen Institute for AI, who is not connected to OpenAI. \u201cI think it\u2019s largely driven by the success of these coding agents. The fact that you can delegate quite substantial coding tasks to tools like Codex is incredibly useful and incredibly impressive. And it raises the question: Can we do similar things outside coding, in broader areas of science?\u201d For Pachocki, that\u2019s a clear Yes . In fact, he thinks it\u2019s just a matter of pushing ahead on the path we\u2019re already on. A simple boost in all-round capability also leads to models that can work longer without help, he says. He points to the leap from 2020\u2019s GPT-3 to 2023\u2019s GPT-4 , two of OpenAI\u2019s previous models. GPT-4 was able to work on a problem for far longer than its predecessor, even without specialized training, he says.  So-called reasoning models brought another bump. Training LLMs to work through problems step by step, backtracking when they make a mistake or hit a dead end, has also made models better at working for longer periods of time. And Pachocki is convinced that OpenAI\u2019s reasoning models will continue to get better. But OpenAI is also training its systems to work by themselves for longer by feeding them specific samples of complex tasks, such as hard puzzles taken from math and coding contests, which force the models to learn how to do things like keep track of very large chunks of text and split problems up into (and then manage) multiple subtasks. The aim isn\u2019t to build models that just win math competitions. \u201cThat lets you prove that the technology works before you connect it to the real world,\u201d says Pachocki. \u201cIf we really wanted to, we could build an amazing automated mathematician. We have all the tools, and I think it would be relatively easy. But it\u2019s not something we\u2019re going to prioritize now because, you know, at the point where you believe you can do it, there\u2019s much more urgent things to do.\u201d \u201cWe are much more focused now on research that\u2019s relevant in the real world,\u201d he adds. Right now that means taking what Codex can do with coding and trying to apply that to problem-solving in general. \u201cThere\u2019s a big change happening, especially in programming,\u201d he says. \u201cOur jobs are now totally different than they were even a year ago. Nobody really edits code all the time anymore. Instead, you manage a group of Codex agents.\u201d If Codex can solve coding problems (the argument goes), it can solve any problem. The line always goes up It\u2019s true that OpenAI has had a handful of remarkable successes in the last few months. Researchers have used GPT-5 (the LLM that powers Codex) to discover new solutions to a number of unsolved math problems and punch through apparent dead ends in a handful of biology, chemistry, and physics puzzles .    \u201cJust looking at these models coming up with ideas that would take most PhD weeks, at least, makes me expect that we\u2019ll see much more acceleration coming from this technology in the near future,\u201d Pachocki says. But Pachocki admits that it\u2019s not a done deal. He also understands why some people still have doubts about how much of a game-changer the technology really is. He thinks it depends on how people like to work and what they need to do. \u201cI can believe some people don\u2019t find it very useful yet,\u201d he says. He tells me that he didn\u2019t even use autocomplete\u2014the most basic version of generative coding tech \u2014a year ago. \u201cI\u2019m very pedantic about my code,\u201d he says. \u201cI like to type it all manually in vim if I can help it.\u201d (Vim is a text editor favored by many hardcore programmers that you interact with via dozens of keyboard shortcuts instead of a mouse.) But that changed when he saw what the latest models could do. He still wouldn\u2019t hand over complex design tasks, but it\u2019s a time-saver when he just wants to try out a few ideas. \u201cI can have it run experiments in a weekend that previously would have taken me like a week to code,\u201d he says. \u201cI don\u2019t think it is at the level where I would just let it take the reins and design the whole thing,\u201d he adds. \u201cBut once you see it do something that would take a week to do\u2014I mean, that\u2019s hard to argue with.\u201d Pachocki\u2019s game plan is to supercharge the existing problem-solving abilities that tools like Codex have now and apply them across the sciences.   Downey agrees that the idea of an automated researcher is very cool: \u201cIt would be exciting if we could come back tomorrow morning and the agent\u2019s done a bunch of work and there\u2019s new results we can examine,\u201d he says. But he cautions that building such a system could be harder than Pachocki makes out. Last summer, Downey and his colleagues tested several top-tier LLMs on a range of scientific tasks . OpenAI\u2019s latest model, GPT-5, came out on top but still made lots of errors. \u201cIf you have to chain tasks together, then the odds that you get several of them right in succession tend to go down,\u201d he says. Downey admits that things move fast, and he has not tested the latest versions of GPT-5 (OpenAI released GPT-5.4 two weeks ago). \u201cSo those results might already be stale,\u201d he says.  Serious unanswered questions I asked Pachocki about the risks that may come with a system that can solve large, complex problems by itself with little human oversight. Pachocki says people at OpenAI talk about those risks all the time. \u201cIf you believe that AI is about to substantially accelerate research, including AI research, that\u2019s a big change in the world. That\u2019s a big thing,\u201d he told me. \u201cAnd it comes with some serious unanswered questions. If it\u2019s so smart and capable, if it can run an entire research program, what if it does something bad?\u201d The way Pachocki sees it, that could happen in a number of ways. The system could go off the rails. It could get hacked. Or it could simply misunderstand its instructions. The best technique OpenAI has right now to address these concerns is to train its reasoning models to share details about what they are doing as they work. This approach to keeping tabs on LLMs is known as chain-of-thought monitoring . In short, LLMs are trained to jot down notes about what they are doing in a kind of scratch pad as they step through tasks. Researchers can then use those notes to make sure a model is behaving as expected. Yesterday OpenAI published new details on how it is using chain-of-thought monitoring in house to study Codex .  \u201cOnce we get to systems working mostly autonomously for a long time in a big data center, I think this will be something that we\u2019re really going to depend on,\u201d says Pachocki. The idea would be to monitor an AI researcher\u2019s scratch pads using other LLMs and catch unwanted behavior before it\u2019s a problem, rather than trying to stop that bad behavior from happening in the first place. LLMs are not understood well enough for us to control them fully. \u201cI think it\u2019s going to be a long time before we can really be like, okay, this problem is solved,\u201d he says. \u201cUntil you can really trust the systems, you definitely want to have restrictions in place.\u201d Pachocki thinks that very powerful models should be deployed in sandboxes, cut off from anything they could break or use to cause harm.  AI tools have already been used to come up with novel cyberattacks. Some worry that they will be used to design synthetic pathogens that could be used as bioweapons. You can insert any number of evil-scientist scare stories here. \u201cI definitely think there are worrying scenarios that we can imagine,\u201d says Pachocki.  \u201cIt\u2019s going to be a very weird thing. It\u2019s extremely concentrated power that\u2019s in some ways unprecedented,\u201d says Pachocki. \u201cImagine you get to a world where you have a data center that can do all the work that OpenAI or Google can do. Things that in the past required large human organizations would now be done by a couple of people.\u201d \u201cI think this is a big challenge for governments to figure out,\u201d he adds. And yet some people would say governments are part of the problem. The US government wants to use AI on the battlefield , for example. The recent showdown between Anthropic and the Pentagon revealed that there is little agreement across society about where we draw red lines for how this technology should and should not be used\u2014let alone who should draw them. In the immediate aftermath of that dispute, OpenAI stepped up to sign a deal with the Pentagon instead of its rival. The situation remains murky. I pushed Pachocki on this. Does he really trust other people to figure it out or does he, as a key architect of the future, feel personal responsibility? \u201cI do feel personal responsibility,\u201d he says. \u201cBut I don\u2019t think this can be resolved by OpenAI alone, pushing its technology in a particular way or designing its products in a particular way. We\u2019ll definitely need a lot of involvement from policymakers.\u201d Where does that leave us? Are we really on a path to the kind of AI Pachocki envisions? When I asked the Allen Institute&#8217;s Downey, he laughed. \u201cI\u2019ve been in this field for a couple of decades and I no longer trust my predictions for how near or far certain capabilities are,\u201d he says.  OpenAI\u2019s stated mission is to ensure that artificial general intelligence (a hypothetical future technology that many AI boosters believe will be able to match humans on most cognitive tasks) will benefit all of humanity. OpenAI aims to do that by being the first to build it. But the only time Pachocki mentioned AGI in our conversation, he was quick to clarify what he meant by talking about \u201ceconomically transformative technology\u201d instead. LLMs are not like human brains, he says: \u201cThey are superficially similar to people in some ways because they\u2019re kind of mostly trained on people talking. But they\u2019re not formed by evolution to be really efficient.\u201d  \u201cEven by 2028, I don\u2019t expect that we\u2019ll get systems as smart as people in all ways. I don&#8217;t think that will happen,\u201d he adds. \u201cBut I don\u2019t think it\u2019s absolutely necessary. The interesting thing is you don\u2019t need to be as smart as people in all their ways in order to be very transformative.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08518518518518518,
+      "final_score": 0.3426949389999173
+    },
+    {
+      "title": "Evaluating Evidence Grounding Under User Pressure in Instruction-Tuned Language Models",
+      "url": "https://arxiv.org/abs/2603.20162v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-03-20T17:38:23",
+      "summary": "In contested domains, instruction-tuned language models must balance user-alignment pressures against faithfulness to the in-context evidence. To evaluate this tension, we introduce a controlled epistemic-conflict framework grounded in the U.S. National Climate Assessment. We conduct fine-grained ablations over evidence composition and uncertainty cues across 19 instruction-tuned models spanning 0.27B to 32B parameters. Across neutral prompts, richer evidence generally improves evidence-consistent accuracy and ordinal scoring performance. Under user pressure, however, evidence does not reliably prevent user-aligned reversals in this controlled fixed-evidence setting. We report three primary failure modes. First, we identify a negative partial-evidence interaction, where adding epistemic nuance, specifically research gaps, is associated with increased susceptibility to sycophancy in families like Llama-3 and Gemma-3. Second, robustness scales non-monotonically: within some families, cer...",
+      "content": "In contested domains, instruction-tuned language models must balance user-alignment pressures against faithfulness to the in-context evidence. To evaluate this tension, we introduce a controlled epistemic-conflict framework grounded in the U.S. National Climate Assessment. We conduct fine-grained ablations over evidence composition and uncertainty cues across 19 instruction-tuned models spanning 0.27B to 32B parameters. Across neutral prompts, richer evidence generally improves evidence-consistent accuracy and ordinal scoring performance. Under user pressure, however, evidence does not reliably prevent user-aligned reversals in this controlled fixed-evidence setting. We report three primary failure modes. First, we identify a negative partial-evidence interaction, where adding epistemic nuance, specifically research gaps, is associated with increased susceptibility to sycophancy in families like Llama-3 and Gemma-3. Second, robustness scales non-monotonically: within some families, certain low-to-mid scale models are especially sensitive to adversarial user pressure. Third, models differ in distributional concentration under conflict: some instruction-tuned models maintain sharply peaked ordinal distributions under pressure, while others are substantially more dispersed; in scale-matched Qwen comparisons, reasoning-distilled variants (DeepSeek-R1-Qwen) exhibit consistently higher dispersion than their instruction-tuned counterparts. These findings suggest that, in a controlled fixed-evidence setting, providing richer in-context evidence alone offers no guarantee against user pressure without explicit training for epistemic integrity.",
+      "author": "Sai Koneru, Elphin Joe, Christine Kirchhoff, Jian Wu, Sarah Rajtmajer",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2603.20162v1",
+        "pdf_url": "https://arxiv.org/pdf/2603.20162v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Sai Koneru",
+          "Elphin Joe",
+          "Christine Kirchhoff",
+          "Jian Wu",
+          "Sarah Rajtmajer"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.0685185185185185,
+      "final_score": 0.34110441345924275
+    }
+  ],
+  "summary": {
+    "sources": 9,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-03-16T13:00:00",
+      "end": "2026-03-23T09:00:00"
+    }
+  }
+}
