@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 14</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 14 | March 30, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>OpenAI Blog</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2603.26664v1" target="_blank">Learning to Commit: Generating Organic Pull Requests via Online Repository Memory</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Mar 27
+                    
+                </div>
+                <p class="story-summary">Large language model (LLM)-based coding agents achieve impressive results on controlled benchmarks yet routinely produce pull requests that real maintainers reject. The root cause is not functional incorrectness but a lack of organicity: generated co...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2603.26653v1" target="_blank">PerceptionComp: A Video Benchmark for Complex Perception-Centric Reasoning</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Mar 27
+                    
+                </div>
+                <p class="story-summary">We introduce PerceptionComp, a manually annotated benchmark for complex, long-horizon, perception-centric video reasoning. PerceptionComp is designed so that no single moment is sufficient: answering each question requires multiple temporally separat...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2603.26648v1" target="_blank">Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Mar 27
+                    
+                </div>
+                <p class="story-summary">Recent advances in large language models have improved the capabilities of coding agents, yet systematic evaluation of complex, end-to-end website development remains limited. To address this gap, we introduce Vision2Web, a hierarchical benchmark for...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2603.26646v1" target="_blank">Beyond Language: Grounding Referring Expressions with Hand Pointing in Egocentric Vision</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Mar 27
+                    
+                </div>
+                <p class="story-summary">Traditional Visual Grounding (VG) predominantly relies on textual descriptions to localize objects, a paradigm that inherently struggles with linguistic ambiguity and often ignores non-verbal deictic cues prevalent in real-world interactions. In natu...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2603.26556v1" target="_blank">When Perplexity Lies: Generation-Focused Distillation of Hybrid Sequence Models</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Mar 27
+                    
+                </div>
+                <p class="story-summary">Converting a pretrained Transformer into a more efficient hybrid model through distillation offers a promising approach to reducing inference costs. However, achieving high-quality generation in distilled models requires careful joint design of both ...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.26658v1" target="_blank">Zero-Shot Depth from Defocus</a></div>
+                <div class="paper-author">Yiming Zuo, Hongyu Wen, Venkat Subramanian, Patrick Chen, Karhan Kayan...</div>
+                <div class="paper-summary">Depth from Defocus (DfD) is the task of estimating a dense metric depth map from a focus stack. Unlike previous works overfitting to a certain dataset, this paper focuses on the challenging and practi...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.26660v1" target="_blank">Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning</a></div>
+                <div class="paper-author"> Xinqi,  Liu, Ruoxi Hu, Alejandro Ojeda Olarte, Zhuoran Chen...</div>
+                <div class="paper-summary">Lack of accessible and dexterous robot hardware has been a significant bottleneck to achieving human-level dexterity in robots. Last year, we released Ruka, a fully open-sourced, tendon-driven humanoi...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.26629v1" target="_blank">Context-specific Credibility-aware Multimodal Fusion with Conditional Probabilistic Circuits</a></div>
+                <div class="paper-author">Pranuthi Tenali, Sahil Sidheekh, Saurabh Mathur, Erik Blasch, Kristian Kersting...</div>
+                <div class="paper-summary">Multimodal fusion requires integrating information from multiple sources that may conflict depending on context. Existing fusion approaches typically rely on static assumptions about source reliabilit...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.26632v1" target="_blank">Machine Learning Transferability for Malware Detection</a></div>
+                <div class="paper-author">César Vieira, João Vitorino, Eva Maia, Isabel Praça</div>
+                <div class="paper-summary">Malware continues to be a predominant operational risk for organizations, especially when obfuscation techniques are used to evade detection. Despite the ongoing efforts in the development of Machine ...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2603.26557v1" target="_blank">MemBoost: A Memory-Boosted Framework for Cost-Aware LLM Inference</a></div>
+                <div class="paper-author">Joris Köster, Zixuan Liu, Siavash Khajavi, Zizhan Zheng</div>
+                <div class="paper-summary">Large Language Models (LLMs) deliver strong performance but incur high inference cost in real-world services, especially under workloads with repeated or near-duplicate queries across users and sessio...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/" target="_blank">ChatGPT won&#39;t let you type until Cloudflare reads your React state</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 797 | 💬 518</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research" target="_blank">AI overly affirms users asking for personal advice</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 779 | 💬 607</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://github.com/elixir-volt/quickbeam" target="_blank">Show HN: QuickBEAM – run JavaScript as supervised Erlang/OTP processes</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 99 | 💬 15</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/" target="_blank">Build with Lyria 3, our newest music generation model</a></div>
+                <div class="news-meta">Google AI Blog | Mar 25</div>
+                <div class="news-summary">Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/" target="_blank">This startup wants to change how mathematicians do math</a></div>
+                <div class="news-meta">MIT Technology Review AI | Mar 25</div>
+                <div class="news-summary">Axiom Math, a startup based in Palo Alto, California, has released a free new AI tool for mathematicians , designed to discover mathematical patterns ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/safety-bug-bounty" target="_blank">Introducing the OpenAI Safety Bug Bounty program</a></div>
+                <div class="news-meta">OpenAI Blog | Mar 25</div>
+                <div class="news-summary">OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfil...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/teen-safety-policies-gpt-oss-safeguard" target="_blank">Helping developers build safer AI experiences for teens</a></div>
+                <div class="news-meta">OpenAI Blog | Mar 24</div>
+                <div class="news-summary">OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/update-on-the-openai-foundation" target="_blank">Update on the OpenAI Foundation</a></div>
+                <div class="news-meta">OpenAI Blog | Mar 24</div>
+                <div class="news-summary">The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-03-30 14:28 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
