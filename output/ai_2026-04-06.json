@@ -1,0 +1,599 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-04-06T14:12:22.409846",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Google releases Gemma 4 open models",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-02T16:10:54",
+      "summary": null,
+      "content": null,
+      "author": "jeffmcjunkin",
+      "score": 1799,
+      "num_comments": 470,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47616361,
+        "hn_url": "https://news.ycombinator.com/item?id=47616361",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.8585220332222794
+    },
+    {
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-04-02T16:00:00",
+      "summary": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "content": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "developer tools",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6908873027777778
+    },
+    {
+      "title": "AI benchmarks are broken. Here\u2019s what we need instead.",
+      "url": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-03-31T12:01:08",
+      "summary": "For decades, artificial intelligence has been evaluated through the question of whether machines outperform humans. From chess to advanced math, from coding to essay writing, the performance of AI models and applications is tested against that of individual humans completing tasks.  This framing is seductive: An AI vs. human comparison on isolated problems with clear right or wrong answers is easy to standardize, compare, and optimize. It generates rankings and headlines.  But there\u2019s a problem:...",
+      "content": "For decades, artificial intelligence has been evaluated through the question of whether machines outperform humans. From chess to advanced math, from coding to essay writing, the performance of AI models and applications is tested against that of individual humans completing tasks.  This framing is seductive: An AI vs. human comparison on isolated problems with clear right or wrong answers is easy to standardize, compare, and optimize. It generates rankings and headlines.  But there\u2019s a problem: AI is almost never used in the way it is benchmarked. Although   researchers and industry have started to improve benchmarking by moving beyond static tests to more dynamic evaluation methods , these  innovations resolve only part of the issue. That\u2019s because they still evaluate AI\u2019s performance outside the human teams and organizational workflows where its real-world performance ultimately unfolds.  While AI is evaluated at the task level in a vacuum, it is used in messy, complex environments where it usually interacts with more than one person. Its performance (or lack thereof) emerges only over extended periods of use. This misalignment leaves us misunderstanding AI\u2019s capabilities, overlooking systemic risks, and misjudging its economic and social consequences. To mitigate this, it\u2019s time to shift from narrow methods to benchmarks that assess how AI systems perform over longer time horizons within human teams, workflows, and organizations. I have studied real-world AI deployment since 2022 in small businesses and health, humanitarian, nonprofit, and higher-education organizations in the UK, the United States, and Asia, as well as within leading AI design ecosystems in London and Silicon Valley. I propose a different approach, which I call HAIC benchmarks \u2014 Human\u2013AI, Context-Specific Evaluation . What happens when AI fails  For governments and businesses, AI benchmark scores appear more objective than vendor claims. They\u2019re a critical part of determining whether an AI model or application is \u201cgood enough\u201d for real-world deployment. Imagine an AI model that achieves impressive technical scores on the most cutting-edge benchmarks\u201498% accuracy, groundbreaking speed, compelling outputs. On the strength of these results, organizations may decide to adopt the model, committing sizable financial and technical resources to purchasing and integrating it.  But then, once it\u2019s adopted, the gap between benchmark and real-world performance quickly becomes visible. For example, take the swathe of FDA-approved AI models that can read medical scans faster and more accurately than an expert radiologist. In the radiology units of hospitals from the heart of California to the outskirts of London, I witnessed staff using highly ranked radiology AI applications. Repeatedly, it took them extra time to interpret AI\u2019s outputs alongside hospital-specific reporting standards and nation-specific regulatory requirements. What appeared as a productivity-enhancing AI tool when tested in a vacuum introduced delays in practice.  It soon became clear that the benchmark tests on which medical AI models are assessed do not capture how medical decisions are actually made. Hospitals rely on multidisciplinary teams\u2014radiologists, oncologists, physicists, nurses\u2014who jointly review patients. Treatment planning rarely hinges on a static decision; it evolves as new information emerges over days or weeks. Decisions often arise through constructive debate and trade-offs between professional standards, patient preferences, and the shared goal of long-term patient well-being. No wonder even highly scored AI models struggle to deliver the promised performance once they encounter the complex, collaborative processes of real clinical care. The same pattern emerges in my research across other sectors: When embedded within real-world work environments, even AI models that perform brilliantly on standardized tests don\u2019t perform as promised.  When high benchmark scores fail to translate into real-world performance, even the most highly scored AI is soon abandoned to what I call the \u201cAI graveyard.\u201d The costs are significant: Time, effort and money end up being wasted. And over time, repeated experiences like this erode organizational confidence in AI and\u2014in critical settings such as health\u2014may erode broader public trust in the technology as well.  When current benchmarks provide only a partial and potentially misleading signal of an AI model\u2019s readiness for real-world use, this creates regulatory blind spots: Oversight is shaped by metrics that do not reflect reality. It also leaves organizations and governments to shoulder the risks of testing AI in sensitive real-world settings, often with limited resources and support.  How to build better tests  To close the gap between benchmark and real-world performance, we must pay attention to the actual conditions in which AI models will be used. The critical questions: Can AI function as a productive participant within human teams? And can it generate sustained, collective value?  Through my research on AI deployment across multiple sectors, I have seen a number of organizations already moving\u2014deliberately and experimentally\u2014toward the HAIC benchmarks I favor.  HAIC benchmarks reframe current benchmarking in four ways:  1.     From individual and single-task performance to team and workflow performance (shifting the unit of analysis ) 2.     From one-off testing with right/wrong answers to long-term impacts (expanding the time horizon ) 3.     From correctness and speed to organizational outcomes, coordination quality, and error detectability (expanding outcome measures ) 4.     From isolated outputs to upstream and downstream consequences ( system effects ) Across the organizations where this approach has emerged and started to be applied, the first step is shifting the unit of analysis.  For example, in one UK hospital system in the period 2021\u20132024, the question expanded from whether a medical AI application improves diagnostic accuracy to how the presence of AI within the hospital\u2019s multidisciplinary teams affects not only accuracy but also coordination and deliberation. The hospital specifically assessed coordination and deliberation in human teams using and not using AI. Multiple stakeholders (within and outside the hospital) decided on metrics like how AI influences collective reasoning, whether it surfaces overlooked considerations, whether it strengthens or weakens coordination, and whether it changes established risk and compliance practices.  This shift is fundamental. It matters a lot in high-stakes contexts where system-level effects matter more than task-level accuracy. It also matters for the economy. It may help recalibrate inflated expectations of sweeping productivity gains that are so far predicated largely on the promise of improving individual task performance.  Once that foundation is set, HAIC benchmarking can begin to take on the element of time.  Today\u2019s benchmarks resemble school exams\u2014one-off, standardized tests of accuracy. But real professional competence is assessed differently. Junior doctors and lawyers are evaluated continuously inside real workflows, under supervision, with feedback loops and accountability structures. Performance is judged over time and in a specific context, because competence is relational. If AI systems are meant to operate alongside professionals, their impact should be judged longitudinally, reflecting how performance unfolds over repeated interactions.  I saw this aspect of HAIC applied in one of my humanitarian-sector case studies. Over 18 months, an AI system was evaluated within real workflows, with particular attention to how detectable its errors were\u2014that is, how easily human teams could identify and correct them. This long-term \u201crecord of error detectability\u201d meant the organizations involved could design and test context-specific guardrails to promote trust in the system, despite the inevitability of occasional AI mistakes. A longer time horizon also makes visible the system-level consequences that short-term benchmarks miss. An AI application may outperform a single doctor on a narrow diagnostic task yet fail to improve multidisciplinary decision-making. Worse, it may introduce systemic distortions: anchoring teams too early in plausible but incomplete answers, adding to people\u2019s  cognitive workloads, or generating downstream inefficiencies that offset any speed or efficiency gains at the point of the AI\u2019s use. These knock-on effects\u2014often invisible to current benchmarks\u2014are central to understanding real impact.  The HAIC approach, admittedly promises to make benchmarking more complex, resource-intensive, and harder to standardize. But continuing to evaluate AI in sanitized conditions detached from the world of work will leave us misunderstanding what it truly can and cannot do for us. To deploy AI responsibly in real-world settings, we must measure what actually matters: not just what a model can do alone, but what it enables\u2014or undermines\u2014when humans and teams in the real world work with it.   Angela Aristidou is a professor at University College London and a faculty fellow at the Stanford Digital Economy Lab and the Stanford Human-Centered AI Institute. She speaks, writes, and advises about the real-life deployment of artificial-intelligence tools for public good.",
+      "author": "Angela Aristidou",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "app",
+        "artificial intelligence",
+        "opinion"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6444755963268849
+    },
+    {
+      "title": "Show HN: Gemma Gem \u2013 AI model embedded in a browser \u2013 no API keys, no cloud",
+      "url": "https://github.com/kessler/gemma-gem",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-06T00:14:37",
+      "summary": "Gemma Gem is a Chrome extension that loads Google&#x27;s Gemma 4 (2B) through WebGPU in an offscreen document and gives it tools to interact with any webpage: read content, take screenshots, click elements, type text, scroll, and run JavaScript.<p>You get a small chat overlay on every page. Ask it about the page and it (usually) figures out which tools to call. It has a thinking mode that shows chain-of-thought reasoning as it works.<p>It&#x27;s a 2B model in a browser. It works for simple page questions and running JavaScript, but multi-step tool chains are unreliable and it sometimes ignores its tools entirely. The agent loop has zero external dependencies and can be extracted as a standalone library if anyone wants to experiment with it.",
+      "content": null,
+      "author": "ikessler",
+      "score": 111,
+      "num_comments": 18,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 47655367,
+        "hn_url": "https://news.ycombinator.com/item?id=47655367",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5599362156591883
+    },
+    {
+      "title": "Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents",
+      "url": "https://arxiv.org/abs/2604.03173v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-04-03T16:49:02",
+      "summary": "Large language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been systematically measured. We address six research questions about citation URL validity using 10 models and agents on DRBench (53,090 URLs) and 3 models on ExpertQA (168,021 URLs across 32 academic fields). We find that 3--13\\% of citation URLs are hallucinated -- they have no record in the Wayback Machine and likely never existed -- while 5--18\\% are non-resolving overall. Deep research agents generate substantially more citations per query than search-augmented LLMs but hallucinate URLs at higher rates. Domain effects are pronounced: non-resolving rates range from 5.4\\% (Business) to 11.4\\% (Theology), with per-model effects even larger. Decomposing failures reveals that some models fabricate every non-resolving URL, while others show substantial link-rot fractions indicating genuine retrieval. As a solution, we release urlhealth, an open-sou...",
+      "content": "Large language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been systematically measured. We address six research questions about citation URL validity using 10 models and agents on DRBench (53,090 URLs) and 3 models on ExpertQA (168,021 URLs across 32 academic fields). We find that 3--13\\% of citation URLs are hallucinated -- they have no record in the Wayback Machine and likely never existed -- while 5--18\\% are non-resolving overall. Deep research agents generate substantially more citations per query than search-augmented LLMs but hallucinate URLs at higher rates. Domain effects are pronounced: non-resolving rates range from 5.4\\% (Business) to 11.4\\% (Theology), with per-model effects even larger. Decomposing failures reveals that some models fabricate every non-resolving URL, while others show substantial link-rot fractions indicating genuine retrieval. As a solution, we release urlhealth, an open-source tool for URL liveness checking and stale-vs-hallucinated classification using the Wayback Machine. In agentic self-correction experiments, models equipped with urlhealth reduce non-resolving citation URLs by $6\\textrm{--}79\\times$ to under 1\\%, though effectiveness depends on the model's tool-use competence. The tool and all data are publicly available. Our characterization findings, failure taxonomy, and open-source tooling establish that citation URL validity is both measurable at scale and correctable in practice.",
+      "author": "Delip Rao, Eric Wong, Chris Callison-Burch",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03173v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03173v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Delip Rao",
+          "Eric Wong",
+          "Chris Callison-Burch"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.6,
+      "final_score": 0.5530455370652282
+    },
+    {
+      "title": "Real-Time Surrogate Modeling for Personalized Blood Flow Prediction and Hemodynamic Analysis",
+      "url": "https://arxiv.org/abs/2604.03197v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-04-03T17:15:34",
+      "summary": "Cardiovascular modeling has rapidly advanced over the past few decades due to the rising needs for health tracking and early detection of cardiovascular diseases. While 1-D arterial models offer an attractive compromise between computational efficiency and solution fidelity, their application on large populations or for generating large \\emph{in silico} cohorts remains challenging. Certain hemodynamic parameters like the terminal resistance/compliance, are difficult to clinically estimate and often yield non-physiological hemodynamics when sampled naively, resulting in large portions of simulated datasets to be discarded. In this work, we present a systematic framework for training machine learning (ML) models, capable of instantaneous hemodynamic prediction and parameter estimation. We initially start with generating a parametric virtual cohort of patients which is based on the multivariate correlations observed in the large Asklepios clinical dataset, ensuring that physiological para...",
+      "content": "Cardiovascular modeling has rapidly advanced over the past few decades due to the rising needs for health tracking and early detection of cardiovascular diseases. While 1-D arterial models offer an attractive compromise between computational efficiency and solution fidelity, their application on large populations or for generating large \\emph{in silico} cohorts remains challenging. Certain hemodynamic parameters like the terminal resistance/compliance, are difficult to clinically estimate and often yield non-physiological hemodynamics when sampled naively, resulting in large portions of simulated datasets to be discarded. In this work, we present a systematic framework for training machine learning (ML) models, capable of instantaneous hemodynamic prediction and parameter estimation. We initially start with generating a parametric virtual cohort of patients which is based on the multivariate correlations observed in the large Asklepios clinical dataset, ensuring that physiological parameter distributions are respected. We then train a deep neural surrogate model, able to predict patient-specific arterial pressure and cardiac output (CO), enabling rapid a~priori screening of input parameters. This allows for immediate rejection of non-physiological combinations and drastically reduces the cost of targeted synthetic dataset generation (e.g. hypertensive groups). The model also provides a principled means of sampling the terminal resistance to minimize the uncertainties of unmeasurable parameters. Moreover, by assessing the model's predictive performance we determine the theoretical information which suffices for solving the inverse problem of estimating the CO. Finally, we apply the surrogate on a clinical dataset for the estimation of central aortic hemodynamics i.e. the CO and aortic systolic blood pressure (cSBP).",
+      "author": "Sokratis J. Anagnostopoulos, George Rovas, Vasiliki Bikia, Theodore G. Papaioannou, Athanase D. Protogerou...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03197v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03197v1.pdf",
+        "categories": [
+          "cs.LG",
+          "physics.comp-ph"
+        ],
+        "all_authors": [
+          "Sokratis J. Anagnostopoulos",
+          "George Rovas",
+          "Vasiliki Bikia",
+          "Theodore G. Papaioannou",
+          "Athanase D. Protogerou",
+          "Nikolaos Stergiopulos"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5685185185185185,
+      "final_score": 0.5408477858580523
+    },
+    {
+      "title": "A Tsetlin Machine-driven Intrusion Detection System for Next-Generation IoMT Security",
+      "url": "https://arxiv.org/abs/2604.03205v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-04-03T17:26:52",
+      "summary": "The rapid adoption of the Internet of Medical Things (IoMT) is transforming healthcare by enabling seamless connectivity among medical devices, systems, and services. However, it also introduces serious cybersecurity and patient safety concerns as attackers increasingly exploit new methods and emerging vulnerabilities to infiltrate IoMT networks. This paper proposes a novel Tsetlin Machine (TM)-based Intrusion Detection System (IDS) for detecting a wide range of cyberattacks targeting IoMT networks. The TM is a rule-based and interpretable machine learning (ML) approach that models attack patterns using propositional logic. Extensive experiments conducted on the CICIoMT-2024 dataset, which includes multiple IoMT protocols and cyberattack types, demonstrate that the proposed TM-based IDS outperforms traditional ML classifiers. The proposed model achieves an accuracy of 99.5\\% in binary classification and 90.7\\% in multi-class classification, surpassing existing state-of-the-art approach...",
+      "content": "The rapid adoption of the Internet of Medical Things (IoMT) is transforming healthcare by enabling seamless connectivity among medical devices, systems, and services. However, it also introduces serious cybersecurity and patient safety concerns as attackers increasingly exploit new methods and emerging vulnerabilities to infiltrate IoMT networks. This paper proposes a novel Tsetlin Machine (TM)-based Intrusion Detection System (IDS) for detecting a wide range of cyberattacks targeting IoMT networks. The TM is a rule-based and interpretable machine learning (ML) approach that models attack patterns using propositional logic. Extensive experiments conducted on the CICIoMT-2024 dataset, which includes multiple IoMT protocols and cyberattack types, demonstrate that the proposed TM-based IDS outperforms traditional ML classifiers. The proposed model achieves an accuracy of 99.5\\% in binary classification and 90.7\\% in multi-class classification, surpassing existing state-of-the-art approaches. Moreover, to enhance model trust and interpretability, the proposed TM-based model presents class-wise vote scores and clause activation heatmaps, providing clear insights into the most influential clauses and the dominant class contributing to the final model decision.",
+      "author": "Rahul Jaiswal, Per-Arne Andersen, Linga Reddy Cenkeramaddi, Lei Jiao, Ole-Christoffer Granmo",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03205v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03205v1.pdf",
+        "categories": [
+          "cs.CR",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Rahul Jaiswal",
+          "Per-Arne Andersen",
+          "Linga Reddy Cenkeramaddi",
+          "Lei Jiao",
+          "Ole-Christoffer Granmo"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5537037037037037,
+      "final_score": 0.5350900147533069
+    },
+    {
+      "title": "ProtoFlow: Mitigating Forgetting in Class-Incremental Remote Sensing Segmentation via Low-Curvature Prototype Flow",
+      "url": "https://arxiv.org/abs/2604.03212v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-04-03T17:40:58",
+      "summary": "Remote sensing segmentation in real deployment is inherently continual: new semantic categories emerge, and acquisition conditions shift across seasons, cities, and sensors. Despite recent progress, many incremental approaches still treat training steps as isolated updates, which leaves representation drift and forgetting insufficiently controlled. We present ProtoFlow, a time-aware prototype dynamics framework that models class prototypes as trajectories and learns their evolution with an explicit temporal vector field. By jointly enforcing low-curvature motion and inter-class separation, ProtoFlow stabilizes prototype geometry throughout incremental learning. Experiments on standard class- and domain-incremental remote sensing benchmarks show consistent gains over strong baselines, including up to 1.5-2.0 points improvement in mIoUall, together with reduced forgetting. These results suggest that explicitly modeling temporal prototype evolution is a practical and interpretable strateg...",
+      "content": "Remote sensing segmentation in real deployment is inherently continual: new semantic categories emerge, and acquisition conditions shift across seasons, cities, and sensors. Despite recent progress, many incremental approaches still treat training steps as isolated updates, which leaves representation drift and forgetting insufficiently controlled. We present ProtoFlow, a time-aware prototype dynamics framework that models class prototypes as trajectories and learns their evolution with an explicit temporal vector field. By jointly enforcing low-curvature motion and inter-class separation, ProtoFlow stabilizes prototype geometry throughout incremental learning. Experiments on standard class- and domain-incremental remote sensing benchmarks show consistent gains over strong baselines, including up to 1.5-2.0 points improvement in mIoUall, together with reduced forgetting. These results suggest that explicitly modeling temporal prototype evolution is a practical and interpretable strategy for robust continual remote sensing segmentation.",
+      "author": "Jiekai Wu, Rong Fu, Chuangqi Li, Zijian Zhang, Guangxin Wu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03212v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03212v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Jiekai Wu",
+          "Rong Fu",
+          "Chuangqi Li",
+          "Zijian Zhang",
+          "Guangxin Wu",
+          "Hao Zhang",
+          "Shiyin Lin",
+          "Jianyuan Ni",
+          "Yang Li",
+          "Dongxu Zhang",
+          "Amir H. Gandomi",
+          "Simon Fong",
+          "Pengbin Feng"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5481481481481482,
+      "final_score": 0.5330776137051918
+    },
+    {
+      "title": "Build with Veo 3.1 Lite, our most cost-effective video generation model",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-03-31T16:00:00",
+      "summary": "Veo 3.1 Lite is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
+      "content": "Veo 3.1 Lite is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "developer tools",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5833333333333334,
+      "final_score": 0.4813634932192461
+    },
+    {
+      "title": "There are more AI health tools than ever\u2014but how well do they work?",
+      "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-03-30T16:00:00",
+      "summary": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to members of its One Medical service, would now be widely available. These products join the ranks of ChatGPT Health, which OpenAI released back in January, and Anthropic\u2019s Claude, which can access use...",
+      "content": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to members of its One Medical service, would now be widely available. These products join the ranks of ChatGPT Health, which OpenAI released back in January, and Anthropic\u2019s Claude, which can access user health records if granted permission. Health AI for the masses is officially a trend.  There\u2019s a clear demand for chatbots that provide health advice, given how hard it is for many people to access it through existing medical systems. And some research suggests that current LLMs are capable of making safe and useful recommendations. But researchers say that these tools should be more rigorously evaluated by independent experts, ideally before they are widely released.  In a high-stakes area like health, trusting companies to evaluate their own products could prove unwise, especially if those evaluations aren\u2019t made available for external expert review. And even if the companies are doing quality, rigorous research\u2014which some, including OpenAI, do seem to be\u2014they might still have blind spots that the broader research community could help to fill. \u201cTo the extent that you always are going to need more health care, I think we should definitely be chasing every route that works,\u201d says Andrew Bean, a doctoral candidate at the Oxford Internet Institute. \u201cIt\u2019s entirely plausible to me that these models have reached a point where they\u2019re actually worth rolling out.\u201d \u201cBut,\u201d he adds, \u201cthe evidence base really needs to be there.\u201d Tipping points  To hear developers tell it, these health products are now being released because large language models have indeed reached a point where they can effectively provide medical advice. Dominic King, the vice president of health at Microsoft AI and a former surgeon, cites AI advancement as a core reason why the company\u2019s health team was formed, and why Copilot Health now exists. \u201cWe\u2019ve seen this enormous progress in the capabilities of generative AI to be able to answer health questions and give good responses,\u201d he says. But that\u2019s only half the story, according to King. The other key factor is demand. Shortly before Copilot Health was launched, Microsoft published a report , and an accompanying blog post , detailing how people used Copilot for health advice. The company says it receives 50 million health questions each day, and health is the most popular discussion topic on the Copilot mobile app. Other AI companies have noticed, and responded to, this trend. \u201cEven before our health products, we were seeing just a rapid, rapid increase in the rate of people using ChatGPT for health-related questions,\u201d says Karan Singhal, who leads OpenAI\u2019s Health AI team. (OpenAI and Microsoft have a long-standing partnership, and Copilot is powered by OpenAI\u2019s models.) It\u2019s possible that people simply prefer posing their health problems to a nonjudgmental bot that\u2019s available to them 24-7. But many experts interpret this pattern in light of the current state of the health-care system. \u201cThere is a reason that these tools exist and they have a position in the overall landscape,\u201d says Girish Nadkarni, chief AI officer\u200b at the Mount Sinai Health System. \u201cThat\u2019s because access to health care is hard, and it\u2019s particularly hard for certain populations.\u201d The virtuous vision of consumer-facing LLM health chatbots hinges on the possibility that they could improve user health while reducing pressure on the health-care system. That might involve helping users decide whether or not they need medical attention, a task known as triage. If chatbot triage works, then patients who need emergency care might seek it out earlier than they would have otherwise, and patients with more mild concerns might feel comfortable managing their symptoms at home with the chatbot\u2019s advice rather than unnecessarily busying emergency rooms and doctor\u2019s offices. But a recent, widely discussed study from Nadkarni and other researchers at Mount Sinai found that ChatGPT Health sometimes recommends too much care for mild conditions and fails to identify emergencies. Though Singhal and  some other experts have suggested that its methodology might not provide a complete picture of ChatGPT Health\u2019s capabilities, the study has surfaced concerns about how little external evaluation these tools see before being released to the public. Most of the academic experts interviewed for this piece agreed that LLM health chatbots could have real upsides, given how little access to health care some people have. But all six of them expressed concerns that these tools are being launched without testing from independent researchers to assess whether they are safe. While some advertised uses of these tools, such as recommending exercise plans or suggesting questions that a user might ask a doctor, are relatively harmless, others carry clear risks. Triage is one; another is asking a chatbot to provide a diagnosis or a treatment plan.  The ChatGPT Health interface includes a prominent disclaimer stating that it is not intended for diagnosis or treatment, and the announcements for Copilot Health and Amazon\u2019s Health AI include similar warnings. But those warnings are easy to ignore. \u201cWe all know that people are going to use it for diagnosis and management,\u201d says Adam Rodman, an internal medicine physician and researcher at Beth Israel Deaconess Medical Center and a visiting researcher at Google. Medical testing Companies say they are testing the chatbots to ensure that they provide safe responses the vast majority of the time. OpenAI has designed and released HealthBench, a benchmark that scores LLMs on how they respond in realistic health-related conversations\u2014though the conversations themselves are LLM-generated. When GPT-5, which powers both ChatGPT Health and Copilot Health, was released last year, OpenAI reported the model\u2019s HealthBench scores: It did substantially better than previous OpenAI models, though its overall performance was far from perfect.  But evaluations like HealthBench have limitations. In a study published last month, Bean\u2014the Oxford doctoral candidate\u2014and his colleagues found that even if an LLM can accurately identify a medical condition from a fictional written scenario on its own, a non-expert user who is given the scenario and asked to determine the condition with LLM assistance might figure it out only a third of the time. If they lack medical expertise, users might not know which parts of a scenario\u2014or their real-life experience\u2014are important to include in their prompt, or they might misinterpret the information that an LLM gives them. Bean says that this performance gap could be significant for OpenAI\u2019s models. In the original HealthBench study, the company reported that its models performed relatively poorly in conversations that required them to seek more information from the user. If that\u2019s the case, then users who don\u2019t have enough medical knowledge to provide a health chatbot with the information that it needs from the get-go might get unhelpful or inaccurate advice. Singhal, the OpenAI health lead, notes that the company\u2019s current GPT-5 series of models, which had not yet been released when the original HealthBench study was conducted, do a much better job of soliciting additional information than their predecessors. However, OpenAI has reported that GPT-5.4, the current flagship, is actually worse at seeking context than GPT-5.2, an earlier version. Ideally, Bean says, health chatbots would be subjected to controlled tests with human users, as they were in his study, before being released to the public. That might be a heavy lift, particularly given how fast the AI world moves and how long human studies can take. Bean\u2019s own study used GPT-4o, which came out almost a year ago and is now outdated.  Earlier this month, Google released a study that meets Bean\u2019s standards. In the study, patients discussed medical concerns with the company\u2019s Articulate Medical Intelligence Explorer (AMIE), a medical LLM chatbot that is not yet available to the public, before meeting with a human physician. Overall, AMIE\u2019s diagnoses were just as accurate as physicians\u2019, and none of the conversations raised major safety concerns for researchers.  Despite the encouraging results, Google isn\u2019t planning to release AMIE anytime soon. \u201cWhile the research has advanced, there are significant limitations that must be addressed before real-world translation of systems for diagnosis and treatment, including further research into equity, fairness, and safety testing,\u201d wrote Alan Karthikesalingam, a research scientist at Google DeepMind, in an email. Google did recently reveal that Health100, a health platform it is building in partnership with CVS, will include an AI assistant powered by its flagship Gemini models, though that tool will presumably not be intended for diagnosis or treatment. Rodman, who led the AMIE study with Karthikesalingam, doesn\u2019t think such extensive, multiyear studies are necessarily the right approach for chatbots like ChatGPT Health and Copilot Health. \u201cThere\u2019s lots of reasons that the clinical trial paradigm doesn\u2019t always work in generative AI,\u201d he says. \u201cAnd that\u2019s where this benchmarking conversation comes in. Are there benchmarks [from] a trusted third party that we can agree are meaningful, that the labs can hold themselves to?\u201d They key there is \u201cthird party.\u201d No matter how extensively companies evaluate their own products, it\u2019s tough to trust their conclusions completely. Not only does a third-party evaluation bring impartiality, but if there are many third parties involved, it also helps protect against blind spots. OpenAI\u2019s Singhal says he\u2019s strongly in favor of external evaluation. \u201cWe try our best to support the community,\u201d he says. \u201cPart of why we put out HealthBench was actually to give the community and other model developers an example of what a very good evaluation looks like.\u201d  Given how expensive it is to produce a high-quality evaluation, he says, he\u2019s skeptical that any individual academic laboratory would be able to produce what he calls \u201cthe one evaluation to rule them all.\u201d But he does speak highly of efforts that academic groups have made to bring preexisting and novel evaluations together into comprehensive evaluations suites\u2014such as Stanford\u2019s MedHELM framework, which tests models on a wide variety of medical tasks. Currently, OpenAI\u2019s GPT-5 holds the highest MedHELM score. Nigam Shah, a professor of medicine at Stanford University who led the MedHELM project, says it has limitations. In particular, it only evaluates individual chatbot responses, but someone who\u2019s seeking medical advice from a chatbot tool might engage it in a multi-turn, back-and-forth conversation. He says that he and some collaborators are gearing up to build an evaluation that can score those complex conversations, but that it will take time, and money. \u201cYou and I have zero ability to stop these companies from releasing [health-oriented products], so they\u2019re going to do whatever they damn please,\u201d he says. \u201cThe only thing people like us can do is find a way to fund the benchmark.\u201d No one interviewed for this article argued that health LLMs need to perform perfectly on third-party evaluations in order to be released. Doctors themselves make mistakes\u2014and for someone who has only occasional access to a doctor, a consistently accessible LLM that sometimes messes up could still be a huge improvement over the status quo, as long as its errors aren\u2019t too grave.  With the current state of the evidence, however, it\u2019s impossible to know for sure whether the currently available tools do in fact constitute an improvement, or whether their risks outweigh their benefits.",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6333333333333333,
+      "final_score": 0.47993492170436514
+    },
+    {
+      "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+      "url": "https://news.ycombinator.com/item?id=47633396",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-03T22:55:24",
+      "summary": "Received the following email from Anthropic:<p>Hi,<p>Starting April 4 at 12pm PT &#x2F; 8pm BST, you\u2019ll no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw. You can still use them with your Claude account, but they will require extra usage, a pay-as-you-go option billed separately from your subscription.<p>Your subscription still covers all Claude products, including Claude Code and Claude Cowork. To keep using third-party harnesses with your Claude login, turn on extra usage for your account. This will be enforced April 4 starting with OpenClaw, but this policy applies to all third-party harnesses and will be rolled out to more shortly (read more).<p>To make the transition easier, we\u2019re offering a one-time credit for extra usage equal to your monthly subscription price. Redeem your credit by April 17. We\u2019re also introducing discounts when you pre-purchase bundles of extra usage (up to 30%).<p>We\u2019ve been working to manage demand across the board, but these tools put an outsized strain on our systems. Capacity is a resource we manage carefully and we need to prioritize our customers using our core products. You will receive another email from us tomorrow where you\u2019ll have the ability to refund your subscription if you prefer.",
+      "content": null,
+      "author": "firloop",
+      "score": 1081,
+      "num_comments": 819,
+      "tags": [
+        "hackernews",
+        "tell-hn"
+      ],
+      "metadata": {
+        "hn_id": 47633396,
+        "hn_url": "https://news.ycombinator.com/item?id=47633396",
+        "type": "story",
+        "is_text_post": true
+      },
+      "relevance_score": 0.1,
+      "final_score": 0.45777757810283676
+    },
+    {
+      "title": "AI is changing how small online sellers decide what to make",
+      "url": "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-06T11:00:00",
+      "summary": "For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand. The product, designed for brightness and durability, became one of his most popular items ever. Even after he stopped offering it around 2017, customers kept sending him emails asking where they could buy it.  When McClary decided to revisit the Guardian flashlight in 2025, he didn\u2019t begin the way he might have in the past, by combing through supplier listings and sending in...",
+      "content": "For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand. The product, designed for brightness and durability, became one of his most popular items ever. Even after he stopped offering it around 2017, customers kept sending him emails asking where they could buy it.  When McClary decided to revisit the Guardian flashlight in 2025, he didn\u2019t begin the way he might have in the past, by combing through supplier listings and sending inquiries to factories. Instead, he opened Accio, an AI sourcing and researching tool on Alibaba.com. For small entrepreneurs in the US, deciding what to sell and where to make it has traditionally been a slow, labor-intensive process that can take months. Now that work is increasingly being done by AI tools like Accio, which help connect businesses with manufacturers in countries including China and India. Business owners and e-commerce experts told MIT Technology Review that these AI tools are making sourcing more accessible and significantly shortening the time it takes to go from product idea to launch.  McClary, 51, who runs his business from his Illinois living room, has sold products ranging from leather conditioner to camping lights, including one rechargeable lantern that brought in half a million dollars. Like many small online merchants, he built his business by being extremely scrappy\u2014spotting demand for a product, tweaking existing designs, finding a factory, doing modest marketing, and getting the goods in front of customers fast.  This time, though, he began by telling Accio about the flashlight\u2019s original design, production cost, and profit margin. Then Accio suggested several changes, making it smaller and slightly less bright and switching its charging method to battery power. It also identified a manufacturer in Ningbo, China, that McClary said could cut the manufacturing cost from $17 to about $2.50 per unit. McClary took the process from there, contacting the supplier himself to discuss the revised design. Within a month, the new version of the Guardian flashlight was back up for sale on Amazon and on his brand\u2019s website. The new factory hunt Although Alibaba is better known for owning Taobao, the biggest shopping site in China, its first business was Alibaba.com , the primary website that lists Chinese factories open for bulk orders. Placing an order with a manufacturer usually requires far more than clicking \u201cBuy.\u201d Sellers often spend days or weeks browsing listings, comparing suppliers\u2019 reviews and manufacturing capacities, asking about minimum order quantities, requesting samples, and negotiating timelines and customization options.  But Accio has gained significant momentum by changing how that sourcing gets done. Launched in 2024, Accio exceeded 10 million monthly active users in March 2026, according to the company. That means about one in five Alibaba users consults with AI about product sourcing. Accio\u2019s interface looks a lot like ChatGPT or Claude: Users type a question into an empty box and choose between \u201cfast\u201d and \u201cthinking\u201d modes. But when asked about products, the tool returns more than text, offering charts, links, and visuals and asking follow-up questions to clarify the buyer\u2019s needs. It then narrows the field to one or a handful of suppliers that appear capable of delivering. After that, the human work begins: Users still have to reach out to suppliers themselves and negotiate the details. Zhang Kuo, the president of Alibaba.com , told MIT Technology Review that the tool is built on multiple frontier models, including the company\u2019s own Qwen series, a popular family of open-source large language models. The system is able to pull from the site\u2019s millions of supplier profiles and is trained on 26 years of proprietary transaction data. For tasks like product research and sourcing analysis, the tool \u201cblows it away\u201d compared with general AI tools like ChatGPT, says Richard Kostick, CEO of the beauty brand 100% Pure. Many websites have tried using AI to assist shopping, but Alibaba has been one of the most aggressive. In March, Eddie Wu, CEO of the site\u2019s parent company Alibaba Group, told managers that integrating the company\u2019s core services with Qwen\u2019s AI capabilities is a top priority. During a Chinese New Year promotion of Qwen\u2019s personal shopping AI agent, where the company gave away cash, customers placed 200 million orders, the firm says. Vincenzo Toscano, an e-commerce seller and consultant, recommended Accio to his clients before deciding to try it himself for a new sunglasses brand. He came in with a rough vision: a brand shaped by his Italian heritage, his personal style, and a boutique aesthetic. He says the AI helped turn that concept into something more concrete, suggesting materials, refining the look, and pointing to design ideas that felt current. But the tool has clear limits. McClary, who uses AI tools regularly, says Accio is strongest when it comes to product ideation, but less helpful on marketing questions such as advertising and social media outreach. To use it well, he says, buyers still need to challenge its recommendations, since some can be generic. The rest of the business As platforms become more AI-driven, manufacturers are adjusting too. Sally Yan, a representative at a makeup packaging company in Wuhan, China, says her firm has started writing more detailed product descriptions and adding information about its equipment and manufacturing experience on Alibaba.com because it suspects those details make its listings more likely to be surfaced by AI. Yan says manufacturers cannot tell whether an inquiry from a customer was generated or guided by AI, and that her firm is not using AI to negotiate pricing or product details. \u201cAI agents are increasingly used by people to assist decision making or even directly making transactions, and in certain situations, they can become extremely useful,\u201d \u201cAI agents are increasingly used by people to assist purchase decisions and even directly making transactions, and with clear data guardrails, they can become extremely useful,\u201d says Jiaxin Pei, a research scientist at the Stanford Institute for Human-Centered AI, \u201cbut agents need to act transparently, securely, and in the customer\u2019s best interest.\u201d Pei says developers of these tools should disclose the data they collect and the incentives built into them to ensure that the marketplace remains fair. Zhang, of Alibaba.com, says Accio currently does not include advertising. Suppliers can pay for higher placement in Alibaba.com\u2019s regular search results, but Zhang says Accio is \u201cnot integrated\u201d with that system. \u201cWe haven\u2019t had a clear answer in terms of how to monetize this tool,\u201d he says. For now, users can pay for additional tokens to continue chatting with the agent after their free queries run out. Sellers say that while AI tools have made it easier to come up with ideas and get a business off the ground, they do not replace the core skills that make someone good at e-commerce. McClary believes that even when sellers have access to the same market information, some are still better at making decisions, acting quickly, and actually delivering on orders. Those differences, he says, still go a long way. Toscano, the brand founder and e-commerce consultant, feels good about officially launching his new brand of sunglasses in just a few months: \u201cWe [small business owners] always have to bootstrap a lot of decisions. Deciding what to sell often comes down to an educated guess,\u201d he says, \u201cAnd we\u2019re now in an era when making those decisions is easier than ever.\u201d",
+      "author": "Caiwei Chen",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3921373027207341
+    },
+    {
+      "title": "Industrial policy for the Intelligence Age",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-04-06T02:30:00",
+      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era\u2014focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "content": "Explore our ambitious, people-first industrial policy ideas for the AI era\u2014focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.38232579487921625
+    },
+    {
+      "title": "Show HN: Contrapunk \u2013 Real-time counterpoint harmony from guitar input",
+      "url": "https://contrapunk.com/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-05T00:40:18",
+      "summary": "Hi HN, I built Contrapunk because I wanted to play guitar and hear\ncounterpoint harmonies generated in real-time. It takes audio from your guitar, MIDI player or your computer keyboard and generates harmony voices that follow counterpoint rules to generate harmonies. You can choose the key you would like to improvise&#x2F;play in and the voice leading style and which part of the harmony you would like to play as, as well.<p>macOS DMG:\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;contrapunk-audio&#x2F;contrapunk&#x2F;releases&#x2F;tag&#x2F;v1.0.0\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;contrapunk-audio&#x2F;contrapunk&#x2F;releases&#x2F;tag&#x2F;...</a><p>Source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;contrapunk-audio&#x2F;contrapunk\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;contrapunk-audio&#x2F;contrapunk</a> (do open any issues if you have any)<p>Would love feedback on the DSP approach and the harmony algorithms. I am also looking at training a ML model for better realtime guitar to midi detection. I believe that will take some time.",
+      "content": null,
+      "author": "waveywaves",
+      "score": 113,
+      "num_comments": 49,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 47645025,
+        "hn_url": "https://news.ycombinator.com/item?id=47645025",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5277777777777778,
+      "final_score": 0.35546103222984177
+    },
+    {
+      "title": "Learning the Signature of Memorization in Autoregressive Language Models",
+      "url": "https://arxiv.org/abs/2604.03199v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-04-03T17:17:51",
+      "summary": "All prior membership inference attacks for fine-tuned language models use hand-crafted heuristics (e.g., loss thresholding, Min-K\\%, reference calibration), each bounded by the designer's intuition. We introduce the first transferable learned attack, enabled by the observation that fine-tuning any model on any corpus yields unlimited labeled data, since membership is known by construction. This removes the shadow model bottleneck and brings membership inference into the deep learning era: learning what matters rather than designing it, with generalization through training diversity and scale. We discover that fine-tuning language models produces an invariant signature of memorization detectable across architectural families and data domains. We train a membership inference classifier exclusively on transformer-based models. It transfers zero-shot to Mamba (state-space), RWKV-4 (linear attention), and RecurrentGemma (gated recurrence), achieving 0.963, 0.972, and 0.936 AUC respectively....",
+      "content": "All prior membership inference attacks for fine-tuned language models use hand-crafted heuristics (e.g., loss thresholding, Min-K\\%, reference calibration), each bounded by the designer's intuition. We introduce the first transferable learned attack, enabled by the observation that fine-tuning any model on any corpus yields unlimited labeled data, since membership is known by construction. This removes the shadow model bottleneck and brings membership inference into the deep learning era: learning what matters rather than designing it, with generalization through training diversity and scale. We discover that fine-tuning language models produces an invariant signature of memorization detectable across architectural families and data domains. We train a membership inference classifier exclusively on transformer-based models. It transfers zero-shot to Mamba (state-space), RWKV-4 (linear attention), and RecurrentGemma (gated recurrence), achieving 0.963, 0.972, and 0.936 AUC respectively. Each evaluation combines an architecture and dataset never seen during training, yet all three exceed performance on held-out transformers (0.908 AUC). These four families share no computational mechanisms, their only commonality is gradient descent on cross-entropy loss. Even simple likelihood-based methods exhibit strong transfer, confirming the signature exists independently of the detection method. Our method, Learned Transfer MIA (LT-MIA), captures this signal most effectively by reframing membership inference as sequence classification over per-token distributional statistics. On transformers, LT-MIA achieves 2.8$\\times$ higher TPR at 0.1\\% FPR than the strongest baseline. The method also transfers to code (0.865 AUC) despite training only on natural language texts. Code and trained classifier available at https://github.com/JetBrains-Research/learned-mia.",
+      "author": "David Ili\u0107, Kostadin Cvejoski, David Stanojevi\u0107, Evgeny Grigorenko",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03199v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03199v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.CR",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "David Ili\u0107",
+          "Kostadin Cvejoski",
+          "David Stanojevi\u0107",
+          "Evgeny Grigorenko"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.09074074074074073,
+      "final_score": 0.34977065294163356
+    },
+    {
+      "title": "Beyond the Parameters: A Technical Survey of Contextual Enrichment in Large Language Models: From In-Context Prompting to Causal Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2604.03174v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-04-03T16:49:09",
+      "summary": "Large language models (LLMs) encode vast world knowledge in their parameters, yet they remain fundamentally limited by static knowledge, finite context windows, and weakly structured causal reasoning. This survey provides a unified account of augmentation strategies along a single axis: the degree of structured context supplied at inference time. We cover in-context learning and prompt engineering, Retrieval-Augmented Generation (RAG), GraphRAG, and CausalRAG. Beyond conceptual comparison, we provide a transparent literature-screening protocol, a claim-audit framework, and a structured cross-paper evidence synthesis that distinguishes higher-confidence findings from emerging results. The paper concludes with a deployment-oriented decision framework and concrete research priorities for trustworthy retrieval-augmented NLP.",
+      "content": "Large language models (LLMs) encode vast world knowledge in their parameters, yet they remain fundamentally limited by static knowledge, finite context windows, and weakly structured causal reasoning. This survey provides a unified account of augmentation strategies along a single axis: the degree of structured context supplied at inference time. We cover in-context learning and prompt engineering, Retrieval-Augmented Generation (RAG), GraphRAG, and CausalRAG. Beyond conceptual comparison, we provide a transparent literature-screening protocol, a claim-audit framework, and a structured cross-paper evidence synthesis that distinguishes higher-confidence findings from emerging results. The paper concludes with a deployment-oriented decision framework and concrete research priorities for trustworthy retrieval-augmented NLP.",
+      "author": "Prakhar Bansal, Shivangi Agarwal",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03174v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03174v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Prakhar Bansal",
+          "Shivangi Agarwal"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.3486028287509921
+    },
+    {
+      "title": "PR3DICTR: A modular AI framework for medical 3D image-based detection and outcome prediction",
+      "url": "https://arxiv.org/abs/2604.03203v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-04-03T17:25:17",
+      "summary": "Three-dimensional medical image data and computer-aided decision making, particularly using deep learning, are becoming increasingly important in the medical field. To aid in these developments we introduce PR3DICTR: Platform for Research in 3D Image Classification and sTandardised tRaining. Built using community-standard distributions (PyTorch and MONAI), PR3DICTR provides an open-access, flexible and convenient framework for prediction model development, with an explicit focus on classification using three-dimensional medical image data. By combining modular design principles and standardization, it aims to alleviate developmental burden whilst retaining adjustability. It provides users with a wealth of pre-established functionality, for instance in model architecture design options, hyper-parameter solutions and training methodologies, but still gives users the opportunity and freedom to ``plug in'' their own solutions or modules. PR3DICTR can be applied to any binary or event-based...",
+      "content": "Three-dimensional medical image data and computer-aided decision making, particularly using deep learning, are becoming increasingly important in the medical field. To aid in these developments we introduce PR3DICTR: Platform for Research in 3D Image Classification and sTandardised tRaining. Built using community-standard distributions (PyTorch and MONAI), PR3DICTR provides an open-access, flexible and convenient framework for prediction model development, with an explicit focus on classification using three-dimensional medical image data. By combining modular design principles and standardization, it aims to alleviate developmental burden whilst retaining adjustability. It provides users with a wealth of pre-established functionality, for instance in model architecture design options, hyper-parameter solutions and training methodologies, but still gives users the opportunity and freedom to ``plug in'' their own solutions or modules. PR3DICTR can be applied to any binary or event-based three-dimensional classification task and can work with as little as two lines of code.",
+      "author": "Daniel C. MacRae, Luuk van der Hoek, Robert van der Wal, Suzanne P. M. de Vette, Hendrike Neh...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03203v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03203v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Daniel C. MacRae",
+          "Luuk van der Hoek",
+          "Robert van der Wal",
+          "Suzanne P. M. de Vette",
+          "Hendrike Neh",
+          "Baoqiang Ma",
+          "Peter M. A. van Ooijen",
+          "Lisanne V. van Dijk"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07222222222222222,
+      "final_score": 0.3424738607938988
+    },
+    {
+      "title": "BAS: A Decision-Theoretic Approach to Evaluating Large Language Model Confidence",
+      "url": "https://arxiv.org/abs/2604.03216v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-04-03T17:44:32",
+      "summary": "Large language models (LLMs) often produce confident but incorrect answers in settings where abstention would be safer. Standard evaluation protocols, however, require a response and do not account for how confidence should guide decisions under different risk preferences. To address this gap, we introduce the Behavioral Alignment Score (BAS), a decision-theoretic metric for evaluating how well LLM confidence supports abstention-aware decision making. BAS is derived from an explicit answer-or-abstain utility model and aggregates realized utility across a continuum of risk thresholds, yielding a measure of decision-level reliability that depends on both the magnitude and ordering of confidence. We show theoretically that truthful confidence estimates uniquely maximize expected BAS utility, linking calibration to decision-optimal behavior. BAS is related to proper scoring rules such as log loss, but differs structurally: log loss penalizes underconfidence and overconfidence symmetrically...",
+      "content": "Large language models (LLMs) often produce confident but incorrect answers in settings where abstention would be safer. Standard evaluation protocols, however, require a response and do not account for how confidence should guide decisions under different risk preferences. To address this gap, we introduce the Behavioral Alignment Score (BAS), a decision-theoretic metric for evaluating how well LLM confidence supports abstention-aware decision making. BAS is derived from an explicit answer-or-abstain utility model and aggregates realized utility across a continuum of risk thresholds, yielding a measure of decision-level reliability that depends on both the magnitude and ordering of confidence. We show theoretically that truthful confidence estimates uniquely maximize expected BAS utility, linking calibration to decision-optimal behavior. BAS is related to proper scoring rules such as log loss, but differs structurally: log loss penalizes underconfidence and overconfidence symmetrically, whereas BAS imposes an asymmetric penalty that strongly prioritizes avoiding overconfident errors. Using BAS alongside widely used metrics such as ECE and AURC, we then construct a benchmark of self-reported confidence reliability across multiple LLMs and tasks. Our results reveal substantial variation in decision-useful confidence, and while larger and more accurate models tend to achieve higher BAS, even frontier models remain prone to severe overconfidence. Importantly, models with similar ECE or AURC can exhibit very different BAS due to highly overconfident errors, highlighting limitations of standard metrics. We further show that simple interventions, such as top-$k$ confidence elicitation and post-hoc calibration, can meaningfully improve confidence reliability. Overall, our work provides both a principled metric and a comprehensive benchmark for evaluating LLM confidence reliability.",
+      "author": "Sean Wu, Fredrik K. Gustafsson, Edward Phillips, Boyan Gao, Anshul Thakur...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03216v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03216v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Sean Wu",
+          "Fredrik K. Gustafsson",
+          "Edward Phillips",
+          "Boyan Gao",
+          "Anshul Thakur",
+          "David A. Clifton"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.3405380966857639
+    },
+    {
+      "title": "Show HN: OsintRadar \u2013 Curated directory for osint tools",
+      "url": "https://osintradar.com/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-05T05:58:22",
+      "summary": "A project which groups together curated open source intelligence tools, frameworks, and techniques.",
+      "content": null,
+      "author": "lexalizer",
+      "score": 74,
+      "num_comments": 9,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 47646504,
+        "hn_url": "https://news.ycombinator.com/item?id=47646504",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5111111111111111,
+      "final_score": 0.34010530016593554
+    },
+    {
+      "title": "PRISM: LLM-Guided Semantic Clustering for High-Precision Topics",
+      "url": "https://arxiv.org/abs/2604.03180v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-04-03T16:56:47",
+      "summary": "In this paper, we propose Precision-Informed Semantic Modeling (PRISM), a structured topic modeling framework combining the benefits of rich representations captured by LLMs with the low cost and interpretability of latent semantic clustering methods. PRISM fine-tunes a sentence encoding model using a sparse set of LLM- provided labels on samples drawn from some corpus of interest. We segment this embedding space with thresholded clustering, yielding clusters that separate closely related topics within some narrow domain. Across multiple corpora, PRISM improves topic separability over state-of-the-art local topic models and even over clustering on large, frontier embedding models while requiring only a small number of LLM queries to train. This work contributes to several research streams by providing (i) a student-teacher pipeline to distill sparse LLM supervision into a lightweight model for topic discovery; (ii) an analysis of the efficacy of sampling strategies to improve local geo...",
+      "content": "In this paper, we propose Precision-Informed Semantic Modeling (PRISM), a structured topic modeling framework combining the benefits of rich representations captured by LLMs with the low cost and interpretability of latent semantic clustering methods. PRISM fine-tunes a sentence encoding model using a sparse set of LLM- provided labels on samples drawn from some corpus of interest. We segment this embedding space with thresholded clustering, yielding clusters that separate closely related topics within some narrow domain. Across multiple corpora, PRISM improves topic separability over state-of-the-art local topic models and even over clustering on large, frontier embedding models while requiring only a small number of LLM queries to train. This work contributes to several research streams by providing (i) a student-teacher pipeline to distill sparse LLM supervision into a lightweight model for topic discovery; (ii) an analysis of the efficacy of sampling strategies to improve local geometry for cluster separability; and (iii) an effective approach for web-scale text analysis, enabling researchers and practitioners to track nuanced claims and subtopics online with an interpretable, locally deployable framework.",
+      "author": "Connor Douglas, Utkucan Balci, Joseph Aylett-Bullock",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.03180v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.03180v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.CL",
+          "cs.IR",
+          "cs.SI"
+        ],
+        "all_authors": [
+          "Connor Douglas",
+          "Utkucan Balci",
+          "Joseph Aylett-Bullock"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06296296296296296,
+      "final_score": 0.33834604966881615
+    }
+  ],
+  "summary": {
+    "sources": 8,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-03-30T16:00:00",
+      "end": "2026-04-06T11:00:00"
+    }
+  }
+}

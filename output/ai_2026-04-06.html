@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 15</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 15 | April 06, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://deepmind.google/models/gemma/gemma-4/" target="_blank">Google releases Gemma 4 open models</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Apr 02
+                     | ⬆️ 1799 | 💬 470
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/" target="_blank">New ways to balance cost and reliability in the Gemini API</a>
+                </div>
+                <div class="story-meta">
+                    Google AI Blog | Apr 02
+                    
+                </div>
+                <p class="story-summary">Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/" target="_blank">AI benchmarks are broken. Here’s what we need instead.</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | Mar 31
+                    
+                </div>
+                <p class="story-summary">For decades, artificial intelligence has been evaluated through the question of whether machines outperform humans. From chess to advanced math, from coding to essay writing, the performance of AI models and applications is tested against that of ind...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://github.com/kessler/gemma-gem" target="_blank">Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Apr 06
+                     | ⬆️ 111 | 💬 18
+                </div>
+                <p class="story-summary">Gemma Gem is a Chrome extension that loads Google&amp;#x27;s Gemma 4 (2B) through WebGPU in an offscreen document and gives it tools to interact with any webpage: read content, take screenshots, click elements, type text, scroll, and run JavaScript.&lt;p&gt;Yo...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2604.03173v1" target="_blank">Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Apr 03
+                    
+                </div>
+                <p class="story-summary">Large language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been systematically measured. We address six research questions about citation URL validity using 10 models an...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.03197v1" target="_blank">Real-Time Surrogate Modeling for Personalized Blood Flow Prediction and Hemodynamic Analysis</a></div>
+                <div class="paper-author">Sokratis J. Anagnostopoulos, George Rovas, Vasiliki Bikia, Theodore G. Papaioannou, Athanase D. Protogerou...</div>
+                <div class="paper-summary">Cardiovascular modeling has rapidly advanced over the past few decades due to the rising needs for health tracking and early detection of cardiovascular diseases. While 1-D arterial models offer an at...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.03205v1" target="_blank">A Tsetlin Machine-driven Intrusion Detection System for Next-Generation IoMT Security</a></div>
+                <div class="paper-author">Rahul Jaiswal, Per-Arne Andersen, Linga Reddy Cenkeramaddi, Lei Jiao, Ole-Christoffer Granmo</div>
+                <div class="paper-summary">The rapid adoption of the Internet of Medical Things (IoMT) is transforming healthcare by enabling seamless connectivity among medical devices, systems, and services. However, it also introduces serio...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.03212v1" target="_blank">ProtoFlow: Mitigating Forgetting in Class-Incremental Remote Sensing Segmentation via Low-Curvature Prototype Flow</a></div>
+                <div class="paper-author">Jiekai Wu, Rong Fu, Chuangqi Li, Zijian Zhang, Guangxin Wu...</div>
+                <div class="paper-summary">Remote sensing segmentation in real deployment is inherently continual: new semantic categories emerge, and acquisition conditions shift across seasons, cities, and sensors. Despite recent progress, m...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.03199v1" target="_blank">Learning the Signature of Memorization in Autoregressive Language Models</a></div>
+                <div class="paper-author">David Ilić, Kostadin Cvejoski, David Stanojević, Evgeny Grigorenko</div>
+                <div class="paper-summary">All prior membership inference attacks for fine-tuned language models use hand-crafted heuristics (e.g., loss thresholding, Min-K\%, reference calibration), each bounded by the designer&#39;s intuition. W...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.03174v1" target="_blank">Beyond the Parameters: A Technical Survey of Contextual Enrichment in Large Language Models: From In-Context Prompting to Causal Retrieval-Augmented Generation</a></div>
+                <div class="paper-author">Prakhar Bansal, Shivangi Agarwal</div>
+                <div class="paper-summary">Large language models (LLMs) encode vast world knowledge in their parameters, yet they remain fundamentally limited by static knowledge, finite context windows, and weakly structured causal reasoning....</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://news.ycombinator.com/item?id=47633396" target="_blank">Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 1081 | 💬 819</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://contrapunk.com/" target="_blank">Show HN: Contrapunk – Real-time counterpoint harmony from guitar input</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 113 | 💬 49</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://osintradar.com/" target="_blank">Show HN: OsintRadar – Curated directory for osint tools</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 74 | 💬 9</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/" target="_blank">Build with Veo 3.1 Lite, our most cost-effective video generation model</a></div>
+                <div class="news-meta">Google AI Blog | Mar 31</div>
+                <div class="news-summary">Veo 3.1 Lite is now available in paid preview through the Gemini API and for testing in Google AI Studio.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/" target="_blank">There are more AI health tools than ever—but how well do they work?</a></div>
+                <div class="news-meta">MIT Technology Review AI | Mar 30</div>
+                <div class="news-summary">Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records an...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/" target="_blank">AI is changing how small online sellers decide what to make</a></div>
+                <div class="news-meta">MIT Technology Review AI | Apr 06</div>
+                <div class="news-summary">For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand. The product, designed for b...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/industrial-policy-for-the-intelligence-age" target="_blank">Industrial policy for the Intelligence Age</a></div>
+                <div class="news-meta">OpenAI Blog | Apr 06</div>
+                <div class="news-summary">Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilien...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-04-06 14:12 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
