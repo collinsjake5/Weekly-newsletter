@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Robotics Weekly - Week 16</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manufacturing Robotics Weekly</h1>
+            <div class="date">Week 16 | April 13, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>19</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>The Robot Report</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.youtube.com/watch?v=BYXbuik3dgA" target="_blank">Elon Musk – &quot;In 36 months, the cheapest place to put AI will be space”</a>
+                </div>
+                <div class="story-meta">
+                    YouTube - Dwarkesh Patel and Stripe | Apr 13
+                     | ⬆️ 150 | 💬 0
+                </div>
+                <p class="story-summary">Optimus and humanoid manufacturing, Tesla will use 10,000 to 30,000 Optimus robots for self-training, similar to FSD Elon Musk revealed Optimus&#39;s new strategy: creating an &quot;Optimus Academy&quot; with 10,000 to 30,000 real robots that will continuously per...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://www.therobotreport.com/transforming-asset-management-with-physical-ai/" target="_blank">Transforming asset management with physical AI</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Apr 11
+                    
+                </div>
+                <p class="story-summary">The Robot Report Podcast · The future of Real Sense 3D vision with Chris Matthieu Episode 239 of The Robot Report Podcast features Christian Pedersen, chief product officer at enterprise software provider IFS. Christian Pedersen, chief product office...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2604.09474v1" target="_blank">SafeMind: A Risk-Aware Differentiable Control Framework for Adaptive and Safe Quadruped Locomotion</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.RO] | Apr 10
+                    
+                </div>
+                <p class="story-summary">Learning-based quadruped controllers achieve impressive agility but typically lack formal safety guarantees under model uncertainty, perception noise, and unstructured contact conditions. We introduce SafeMind, a differentiable stochastic safety-cont...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://www.therobotreport.com/robotic-welding-3x-speed-dextalls-blueprint-industrial-scale-facade-manufacturing/" target="_blank">Robotic welding at 3x speed: Dextall’s blueprint for industrial-scale facade manufacturing</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Apr 10
+                    
+                </div>
+                <p class="story-summary">Precision robotic welding triples production speed for Dextall’s high-rise facade components. | Credit: Dextall Dextall, a facade manufacturer with a $210 million project pipeline, has unveiled a proprietary robotic welding platform that is tripling ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.therobotreport.com/scsp-launches-national-security-commission-robotics-advanced-manufacturing/" target="_blank">SCSP launches National Security Commission on Robotics for Advanced Manufacturing</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Apr 10
+                    
+                </div>
+                <p class="story-summary">A plenary session of the new National Security Commission on Robotics for Advanced Manufacturing convened on Capitol Hill. Source: SCSP, via X Robotics and AI are increasingly viewed as not just important for U.S. economic competitiveness, but also k...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.09487v1" target="_blank">Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks</a></div>
+                <div class="paper-author">Jan Schneider, Mridul Mahajan, Le Chen, Simon Guist, Bernhard Schölkopf...</div>
+                <div class="paper-summary">Tendon drives paired with soft muscle actuation enable faster and safer robots while potentially accelerating skill acquisition. Still, these systems are rarely used in practice due to inherent nonlin...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.09499v1" target="_blank">Physics-Informed Reinforcement Learning of Spatial Density Velocity Potentials for Map-Free Racing</a></div>
+                <div class="paper-author">Shathushan Sivashangaran, Apoorva Khairnar, Sepideh Gohari, Vihaan Dutta, Azim Eskandarian</div>
+                <div class="paper-summary">Autonomous racing without prebuilt maps is a grand challenge for embedded robotics that requires kinodynamic planning from instantaneous sensor data at the acceleration and tire friction limits. Out-O...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.09326v1" target="_blank">Multimodal Anomaly Detection for Human-Robot Interaction</a></div>
+                <div class="paper-author">Guilherme Ribeiro, Iordanis Antypas, Leonardo Bizzaro, João Bimbo, Nuno Cruz Garcia</div>
+                <div class="paper-summary">Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events that could lead to system failures or unsafe behaviours. Anomaly detection thus play...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.09330v1" target="_blank">VAG: Dual-Stream Video-Action Generation for Embodied Data Synthesis</a></div>
+                <div class="paper-author">Xiaolei Lang, Yang Wang, Yukun Zhou, Chaojun Ni, Kerui Li...</div>
+                <div class="paper-summary">Recent advances in robot foundation models trained on large-scale human teleoperation data have enabled robots to perform increasingly complex real-world tasks. However, scaling these systems remains ...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://apnews.com/article/aadam-jacobs-collection-concerts-internet-archive-chicago-b1c9c4466a2db409a83523ad84b79d62" target="_blank">Volunteers turn a fan&#39;s recordings of 10K concerts into an online treasure trove</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 385 | 💬 76</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://news.ycombinator.com/item?id=47738883" target="_blank">Tell HN: Docker pull fails in Spain due to football Cloudflare block</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 1036 | 💬 378</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/amazon-ceo-says-robotics-key-faster-delivery-lower-costs/" target="_blank">Amazon CEO says robotics is key for faster delivery, lower costs</a></div>
+                <div class="news-meta">The Robot Report | Apr 09</div>
+                <div class="news-summary">On the left, the RIVR TWO robot, and on the right, Fauna Robotics&amp;#8217; Sprout. | Sources: RIVR, Fauna Robotics Andy Jassy, CEO of Amazon.com Inc., t...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/ifr-reports-robot-density-increase-across-europe-asia-americas/" target="_blank">IFR reports robot density increase across Europe, Asia, and the Americas</a></div>
+                <div class="news-meta">The Robot Report | Apr 08</div>
+                <div class="news-summary">Industrial robot deployments have continued to climb across much of the world. Click here to enlarge. Source: International Federation of Robotics. Fa...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://robohub.org/generative-ai-improves-a-wireless-vision-system-that-sees-through-obstructions/" target="_blank">Generative AI improves a wireless vision system that sees through obstructions</a></div>
+                <div class="news-meta">Robohub | Apr 08</div>
+                <div class="news-summary">MIT researchers utilized specially trained generative AI models to create a system that can complete the shape of hidden 3D objects, like the ones pic...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blogs.nvidia.com/blog/huang-3dexperience-2026/?ncid=so-twit-241697&linkId=100000406112672" target="_blank">Everything Will Be Represented in a Virtual Twin, NVIDIA CEO Jensen Huang Says at 3DEXPERIENCE World</a></div>
+                <div class="news-meta">Manual Inbox | Apr 13</div>
+                <div class="news-summary">Digital twins for training in manufacturing</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.youtube.com/watch?v=LFh9GAzHg1c&list=WL&index=9&t=1s" target="_blank">Ashok Elluswamy: Building Foundational Models for Robotics at Tesla</a></div>
+                <div class="news-meta">YouTube - Matroid | Apr 13</div>
+                <div class="news-summary">Foundational models for robotics</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-04-13 14:55 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

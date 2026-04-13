@@ -1,0 +1,398 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-04-13T14:55:05.461110",
+    "item_count": 17
+  },
+  "items": [
+    {
+      "title": "Exploiting the most prominent AI agent benchmarks",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-11T19:15:56",
+      "summary": null,
+      "content": null,
+      "author": "Anon84",
+      "score": 549,
+      "num_comments": 134,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47733217,
+        "hn_url": "https://news.ycombinator.com/item?id=47733217",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6568964781257018
+    },
+    {
+      "title": "Applications of AI at OpenAI",
+      "url": "https://openai.com/academy/applications-of-ai",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-04-10T00:00:00",
+      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+      "content": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "openai academy"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5722222222222222,
+      "final_score": 0.5262833707993552
+    },
+    {
+      "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-11T06:19:25",
+      "summary": "<a href=\"https:&#x2F;&#x2F;pardonned.com\" rel=\"nofollow\">https:&#x2F;&#x2F;pardonned.com</a><p>Inspired by the videos of Liz Oyer, I wanted to be able to verify her claims and just look up all the pardons more easily.<p>Tech Stack: \n Playwright - to sccrape the DOJ website\n SQLite - local database\n Astro 6 - Build out a static website from the sqlite db<p>All code is open source and available on Github.",
+      "content": null,
+      "author": "vidluther",
+      "score": 490,
+      "num_comments": 263,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 47727960,
+        "hn_url": "https://news.ycombinator.com/item?id=47727960",
+        "type": "story",
+        "is_text_post": true
+      },
+      "relevance_score": 0.5222222222222223,
+      "final_score": 0.46055244068429146
+    },
+    {
+      "title": "Want to understand the current state of AI? Check out these charts.",
+      "url": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-13T13:00:00",
+      "summary": "If you\u2019re following AI news, you\u2019re probably getting whiplash. AI is a gold rush. AI is a bubble. AI is taking your job. AI can\u2019t even read a clock. The 2026 AI Index from Stanford University\u2019s Institute for Human-Centered Artificial Intelligence, AI\u2019s annual report card, comes out today and cuts through some of that noise.  Despite predictions that AI development may hit a wall, the report says that the top models just keep getting better. People are adopting AI faster than they picked up the p...",
+      "content": "If you\u2019re following AI news, you\u2019re probably getting whiplash. AI is a gold rush. AI is a bubble. AI is taking your job. AI can\u2019t even read a clock. The 2026 AI Index from Stanford University\u2019s Institute for Human-Centered Artificial Intelligence, AI\u2019s annual report card, comes out today and cuts through some of that noise.  Despite predictions that AI development may hit a wall, the report says that the top models just keep getting better. People are adopting AI faster than they picked up the personal computer or the internet. AI companies are generating revenue faster than companies in any previous technology boom, but they\u2019re also spending hundreds of billions of dollars on data centers and chips. The benchmarks designed to measure AI, the policies meant to govern it, and the job market are struggling to keep up. AI is sprinting, and the rest of us are trying to find our shoes. All that speed comes at a cost. AI data centers around the world can now draw 29.6 gigawatts of power, enough to run the entire state of New York at peak demand. Annual water use from running OpenAI\u2019s GPT-4o alone may exceed the drinking water needs of 12 million people. At the same time, the supply chain for chips is alarmingly fragile. The US hosts most of the world\u2019s AI data centers, and one company in Taiwan, TSMC, fabricates almost every leading AI chip.  The data reveals a technology evolving faster than we can manage. Here\u2019s a look at some of the key points from this year\u2019s report.  The US and China are nearly tied In a long, heated race with immense geopolitical stakes, the US and China are almost neck and neck on AI model performance, according to Arena, a community-driven ranking platform that allows users to compare the outputs of large language models on identical prompts. In early 2023, OpenAI had a lead with ChatGPT, but this gap narrowed in 2024 as Google and Anthropic released their own models. In February 2025, R1, an AI model built by the Chinese lab DeepSeek, briefly matched the top US model, ChatGPT. As of March 2026, Anthropic leads, trailed closely by xAI, Google, and OpenAI. Chinese models like DeepSeek and Alibaba lag only modestly. With the best AI models separated in the rankings by razor-thin margins, they\u2019re now competing on cost, reliability, and real-world usefulness.  The index notes that the US and China have different AI advantages. While the US has more powerful AI models, more capital, and an estimated 5,427 data centers (more than 10 times as many as any other country), China leads in AI research publications, patents, and robotics.  As competition intensifies, companies like OpenAI, Anthropic, and Google no longer disclose their training code, parameter counts, or data-set sizes. \u201cWe don\u2019t know a lot of things about predicting model behaviors,\u201d says Yolanda Gil, a computer scientist at the University of Southern California who coauthored the report. This lack of transparency makes it difficult for independent researchers to study how to make AI models safer, she says. AI models are advancing super fast Despite predictions that development will plateau, AI models keep getting better and better. By some measures, they now meet or exceed the performance of human experts on tests that aim to measure PhD-level science, math, and language understanding. SWE-bench Verified, a software engineering benchmark for AI models, saw top scores jump from around 60% in 2024 to almost 100% in 2025. In 2025, an AI system produced a weather forecast on its own.   \u201cI am stunned that this technology continues to improve, and it\u2019s just not plateauing in any way,\u201d says Gil. However, AI still struggles in plenty of other areas. Because the models learn by processing enormous amounts of text and images rather than by experiencing the physical world, AI exhibits \u201cjagged intelligence.\u201d Robots are still in their early days and succeed in only 12% of household tasks. Self-driving cars are farther along: Waymos are now roaming across five US cities, and Baidu\u2019s Apollo Go vehicles are shuttling riders around in China. AI is also expanding into professional domains like law and finance, but no model dominates the field yet.  But the way we test AI is broken These reports of progress should be taken with a grain of salt. The benchmarks designed to track AI progress are struggling to keep up as models quickly blow past their ceilings , the Stanford report says. Some are poorly constructed \u2014a popular benchmark that tests a model\u2019s math abilities has a 42% error rate. Others can be gamed : when models are trained on benchmark test data, for example, they can learn to score well without getting smarter. Because AI is rarely used the same way it\u2019s tested, strong benchmark performance doesn\u2019t always translate to real-world performance. And for complex, interactive technologies such as AI agents and robots, benchmarks barely exist yet. AI companies are also sharing less about how their models are trained, and independent testing sometimes tells a different story from what they report. \u201cA lot of companies are not releasing how their models do in certain benchmarks, particularly the responsible-AI benchmarks,\u201d says Gil. \u201cThe absence of how your model is doing on a benchmark maybe says something.\u201d  AI is starting to affect jobs Within three years of going mainstream, AI is now used by more than half of people around the world, a rate of adoption faster than the personal computer or the internet. An estimated 88% of organizations now use AI, and four in five university students use it.  It\u2019s early days for deployment, and AI\u2019s impact on jobs is hard to measure. Still, some studies suggest AI is beginning to affect young workers in certain professions. According to a 2025 study by economists at Stanford, employment for software developers aged 22 to 25 has fallen nearly 20% since 2022. The decline might not be pinned on AI alone, as broader macroeconomic conditions could be to blame, but AI appears to be playing a part. Employers say that hiring may continue to tighten. According to a 2025 survey conducted by McKinsey & Company, a third of organizations expect AI to shrink their workforce in the coming year, particularly in service and supply chain operations and software engineering. AI is boosting productivity by 14% in customer service and 26% in software development , according to research cited by the index, but such gains are not seen in tasks requiring more judgment. Overall, it\u2019s still too early to understand the bigger economic impact of AI.  People have complicated feelings about AI  Around the world, people feel both optimistic and anxious about AI: 59% of people think that it will provide more benefits than drawbacks, while 52% say that it makes them nervous, according to an Ipsos survey cited in the index.  Notably, experts and the public see the future of AI very differently, according to a Pew survey. The biggest gap is around the future of work: While 73% of experts think that AI will have a positive impact on how people do their jobs, only 23% of the American public thinks so. Experts are also more optimistic than the public about AI\u2019s impact on education and medical care, but they agree that AI will hurt elections and personal relationships. Among all countries surveyed, Americans trust their government least to regulate AI appropriately, according to another Ipsos survey. More Americans worry federal AI regulation won\u2019t go far enough than worry it will go too far.  Governments are struggling to regulate AI Governments around the world are struggling to regulate AI, but there were some minor successes last year. The EU AI Act\u2019s first prohibitions, which ban the use of AI in predictive policing and emotion recognition , took effect. Japan, South Korea, and Italy also passed national AI laws. Meanwhile, the US federal government moved toward deregulation, with President Trump issuing an executive order seeking to handcuff states from regulating AI.  Despite this federal action, state legislatures in the US passed a record 150 AI-related bills. California enacted landmark legislation, including SB 53, which mandates safety disclosures and whistleblower protections for developers of AI models. New York passed the RAISE Act, requiring AI companies to publish safety protocols and report critical safety incidents. But for all the legislative activity, Gil says, regulation is running behind the technology because we don\u2019t really understand how it works. \u201cGovernments are cautious to regulate AI because \u2026 we don\u2019t understand many things very well,\u201d she says. \u201cWe don\u2019t have a good handle on those systems.\u201d",
+      "author": "Michelle Kim",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05925925925925927,
+      "final_score": 0.39699104252463624
+    },
+    {
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-04-13T06:00:00",
+      "summary": "Cloudflare brings OpenAI\u2019s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "content": "Cloudflare brings OpenAI\u2019s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.39370400573462305
+    },
+    {
+      "title": "AI fundamentals",
+      "url": "https://openai.com/academy/what-is-ai",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-04-10T00:00:00",
+      "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+      "content": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "openai academy"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.10555555555555556,
+      "final_score": 0.3396167040709326
+    },
+    {
+      "title": "ChatGPT for operations teams",
+      "url": "https://openai.com/academy/operations",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-04-10T00:00:00",
+      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+      "content": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "openai academy"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.330727815250744
+    },
+    {
+      "title": "ChatGPT for finance teams",
+      "url": "https://openai.com/academy/finance",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-04-10T00:00:00",
+      "summary": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
+      "content": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "openai academy"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.33072781523660716
+    },
+    {
+      "title": "Multimodal Embedding & Reranker Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-04-09T00:00:00",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03148148148148148,
+      "final_score": 0.28855850276719575
+    },
+    {
+      "title": "Mustafa Suleyman: AI development won\u2019t hit a wall anytime soon\u2014here\u2019s why",
+      "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-08T14:00:00",
+      "summary": "We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intuition served us well on the savannah. But it catastrophically fails when confronting AI and the core exponential trends at its heart. From the time I began work on AI in 2010 to now, the amount of training data that goes into frontier AI models has grown by a staggering 1 trillion times\u2014from roughly 10\u00b9\u2074 flops (floating-point operations\u201a the core u...",
+      "content": "We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intuition served us well on the savannah. But it catastrophically fails when confronting AI and the core exponential trends at its heart. From the time I began work on AI in 2010 to now, the amount of training data that goes into frontier AI models has grown by a staggering 1 trillion times\u2014from roughly 10\u00b9\u2074 flops (floating-point operations\u201a the core unit of computation) for early systems to over 10\u00b2\u2076 flops for today\u2019s largest models. This is an explosion. Everything else in AI follows from this fact. The skeptics keep predicting walls. And they keep being wrong in the face of this epic generational compute ramp. Often, they point out that Moore\u2019s Law is slowing. They also mention a lack of data, or they cite limitations on energy. But when you look at the combined forces driving this revolution, the exponential trend seems quite predictable. To understand why, it\u2019s worth looking at the complex and fast-moving reality beneath the headlines. Think of AI training as a room full of people working calculators. For years, adding computational power meant adding more people with calculators to that room. Much of the time those workers sat idle, drumming their fingers on desks, waiting for the numbers to come through for their next calculation. Every pause was wasted potential. Today\u2019s revolution goes beyond more and better calculators (although it delivers those); it is actually about ensuring that all those calculators never stop, and that they work together as one. Three advances are now converging to enable this. First, the basic calculators got faster. Nvidia\u2019s chips have delivered an over sevenfold increase in raw performance in just six years, from 312 teraflops in 2020 to 2,250 teraflops today . Our own Maia 200 chip, launched this January, delivers 30% better performance per dollar than any other hardware in our fleet. Second, the numbers arrive faster thanks to a technology called HBM, or high bandwidth memory, which stacks chips vertically like tiny skyscrapers; the latest generation, HBM3, triples the bandwidth of its predecessor, feeding data to processors fast enough to keep them busy all the time. Third, the room of people with calculators became an office and then a whole campus or city. Technologies like NVLink and InfiniBand connect hundreds of thousands of GPUs into warehouse-size supercomputers that function as single cognitive entities. A few years ago this was impossible. These gains all come together to deliver dramatically more compute. Where training a language model took 167 minutes on eight GPUs in 2020, it now takes under four minutes on equivalent modern hardware. To put this in perspective: Moore\u2019s Law would predict only about a 5x improvement over this period. We saw 50x. We\u2019ve gone from two GPUs training AlexNet, the image recognition model that kicked off the modern boom in deep learning in 2012, to over 100,000 GPUs in today\u2019s largest clusters, each one individually far more powerful than its predecessors. Then there\u2019s the revolution in software. Research from Epoch AI suggests that the compute required to reach a fixed performance level halves approximately every eight months, much faster than the traditional 18-to-24-month doubling of Moore\u2019s Law. The costs of serving some recent models have collapsed by a factor of up to 900 on an annualized basis. AI is becoming radically cheaper to deploy. The numbers for the near future are just as staggering. Consider that leading labs are growing capacity at nearly 4x annually. Since 2020, the compute used to train frontier models has grown 5x every year . Global AI-relevant compute is forecast to hit 100 million H100-equivalents by 2027, a tenfold increase in three years. Put all this together and we\u2019re looking at something like another 1,000x in effective compute by the end of 2028. It\u2019s plausible that by 2030 we\u2019ll bring an additional 200 gigawatts of compute online every year\u2014akin to the peak energy use of the UK, France, Germany, and Italy put together. What does all this get us? I believe it will drive the transition from chatbots to nearly human-level agents\u2014semiautonomous systems capable of writing code for days, carrying out weeks- and months-long projects, making calls, negotiating contracts, managing logistics. Forget basic assistants that answer questions. Think teams of AI workers that deliberate, collaborate, and execute. Right now we\u2019re only in the foothills of this transition, and the implications stretch far beyond tech. Every industry built on cognitive work will be transformed. The obvious constraint here is energy. A single refrigerator-size AI rack consumes 120 kilowatts, equivalent to 100 homes. But this hunger collides with another exponential: Solar costs have fallen by a factor of nearly 100 over 50 years; battery prices have dropped 97% over three decades. There is a pathway to clean scaling coming into view. The capital is deployed. The engineering is delivering. The $100 billion clusters, the 10-gigawatt power draws, the warehouse-scale supercomputers &#8230; these are no longer science fiction. Ground is being broken for these projects now across the US and the world. As a result, we are heading toward true cognitive abundance. At Microsoft AI, this is the world our superintelligence lab is planning for and building. Skeptics accustomed to a linear world will continue predicting diminishing returns. They will continue being surprised. The compute explosion is the technological story of our time, full stop. And it is still only just beginning. Mustafa Suleyman is CEO of Microsoft AI.",
+      "author": "Mustafa Suleyman",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "app",
+        "artificial intelligence",
+        "opinion",
+        "subscriber-only stories"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05370370370370371,
+      "final_score": 0.288518820286045
+    },
+    {
+      "title": "ALTK\u2011Evolve: On\u2011the\u2011Job Learning for AI Agents",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-04-08T14:27:42",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.28078287445411704
+    },
+    {
+      "title": "Enabling agent-first process redesign",
+      "url": "https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-07T14:00:00",
+      "summary": "Unlike static, rules-based systems, AI agents can learn, adapt, and optimize processes dynamically. As they interact with data, systems, people, and other agents in real time, AI agents can execute entire workflows autonomously. But unlocking their potential requires redesigning processes around agents rather than bolting them onto fragmented legacy workflows using traditional optimization methods. Companies must become agent first. DOWNLOAD THE ARTICLE In an agent-first enterprise, AI systems o...",
+      "content": "Unlike static, rules-based systems, AI agents can learn, adapt, and optimize processes dynamically. As they interact with data, systems, people, and other agents in real time, AI agents can execute entire workflows autonomously. But unlocking their potential requires redesigning processes around agents rather than bolting them onto fragmented legacy workflows using traditional optimization methods. Companies must become agent first. DOWNLOAD THE ARTICLE In an agent-first enterprise, AI systems operate processes while humans set goals, define policy constraints, and handle exceptions. \u201cYou need to shift the operating model to humans as governors and agents as operators,\u201d says Scott Rodgers, global chief architect and U.S. CTO of the Deloitte Microsoft Technology Practice. The agent-first imperative With technology budgets for AI expected to increase more than 70% over the next two years, AI agents, powered by generative AI, are poised to fundamentally transform organizations and achieve results beyond traditional automation. These initiatives have the potential to produce significant performance gains, while shifting humans toward higher value work. AI is advancing so quickly that static approaches to task automation will likely only produce incremental gains. Because legacy processes aren\u2019t built for autonomous systems, AI agents require machine-readable process definitions, explicit policy constraints, and structured data flows, according to Rodgers. Further complicating matters, many organizations don\u2019t understand the full economic drivers of their business, such as cost to serve and per-transaction costs. As a result, they have trouble prioritizing agents that can create the most value and instead focus on flashy pilots. To achieve structural change, executives should think differently. Companies must instead orchestrate outcomes faster than competitors. \u201cThe real risk isn\u2019t that AI won\u2019t work\u2014it\u2019s that competitors will redesign their operating models while you\u2019re still piloting agents and copilots,\u201d says Rodgers. \u201cNonlinear gains come when companies create agent-centric workflows with human governance and adaptive orchestration.\u201d Routine and repetitive tasks are increasingly handled automatically, freeing employees to focus on higher value, creative, and strategic work. This shift improves operational efficiency, fosters stronger collaboration, and generates faster decision-making\u2014helping organizations modernize the workplace without sacrificing enterprise security. Download the article. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.26560876735987105
+    },
+    {
+      "title": "The one piece of data that could actually shed light on your job and AI",
+      "url": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-06T16:33:35",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,  sign up here . Within Silicon Valley\u2019s orbit, an AI-fueled jobs apocalypse is spoken about as a given. The mood is so grim that a societal impacts researcher at Anthropic, responding Wednesday to a call for more optimistic visions of AI\u2019s future, predicted we&#8217;ll see a recession and a \u201cbreakdown of the early-career ladder\u201d before eventually seeing upsides. Her less-me...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,  sign up here . Within Silicon Valley\u2019s orbit, an AI-fueled jobs apocalypse is spoken about as a given. The mood is so grim that a societal impacts researcher at Anthropic, responding Wednesday to a call for more optimistic visions of AI\u2019s future, predicted we&#8217;ll see a recession and a \u201cbreakdown of the early-career ladder\u201d before eventually seeing upsides. Her less-measured colleague Dario Amodei, the company\u2019s CEO, has called AI \u201ca general labor substitute for humans\u201d that could do all jobs in less than five years. And those ideas are not just coming from Anthropic, of course. These conversations have unsurprisingly left many workers in a panic (and are probably contributing to support for efforts to entirely pause the construction of data centers, some of which gained steam last week). The panic isn\u2019t being helped by lawmakers, none of whom have articulated a coherent plan for what comes next. Even economists who have cautioned that AI has not yet cut jobs and may not result in a cliff ahead are coming around to the idea that it could have a unique and unprecedented impact on how we work.  Alex Imas, based at the University of Chicago, is one of those economists. He shared two things with me when we spoke on Friday morning: a blunt assessment that our tools for predicting what this will look like are pretty abysmal, and a \u201ccall to arms\u201d for economists to start collecting the one type of data that could make a plan to address AI in the workforce possible at all.  On our abysmal tools: consider the fact that any job is made up of individual tasks. One part of a real estate agent\u2019s job, for example, is to ask clients what sort of property they want to buy. The US government chronicled thousands of these tasks in a massive catalogue first launched in 1998 and updated regularly since then. This was the data that researchers at OpenAI used in December to judge how \u201c exposed \u201d a job is to AI (they found a real estate agent to be 28% exposed, for example). Then in February, Anthropic used this data in its analysis of millions of Claude conversations to see which tasks people are actually using its AI to complete and where the two lists overlapped. But knowing the AI exposure of tasks leads to an illusory understanding of how much a given job is at risk, Imas says. \u201cExposure alone is a completely meaningless tool for predicting displacement,\u201d he told me. Sure, it is illustrative in the gloomiest case\u2014for a job in which literally every task could be done by AI with no human direction. If it costs less for an AI model to do all those tasks than what you\u2019re paid\u2014which is not a given, since reasoning models and agentic AI can rack up quite a bill \u2014and it can do them well, the job likely disappears, Imas says. This is the oft-mentioned case of the elevator operator from decades ago; maybe today\u2019s parallel is a customer service agent solely doing phone call triage.  But for the vast majority of jobs, the case is not so simple. And the specifics matter, too: Some jobs are likely to have dark days ahead, but knowing how and when this will play out is hard to answer when only looking at exposure. Take writing code, for example. Someone who builds premium dating apps, let\u2019s say, might use AI coding tools to create in one day what used to take three days. That means the worker is more productive. The worker\u2019s employer, spending the same amount of money, can now get more output. So then will the employer want more employees or fewer?  This is the question that Imas says should keep any policymaker up at night, because the answer will change depending on the industry. And we are operating in the dark.  In this coder\u2019s case, these efficiencies make it possible for dating apps to lower prices. (A skeptic might expect companies to simply pocket the gains, but in a competitive market, they risk being undercut if they do.) These lower prices will always drive some increase in demand for the apps. But how much? If millions more people want it, the company might grow and ultimately hire more engineers to meet this demand. But if demand barely ticks up\u2014maybe the people who don\u2019t use premium dating apps still won\u2019t want them even at a lower price\u2014fewer coders are needed, and layoffs will happen. Repeat this hypothetical across every job with tasks that AI can do, and you have the most pressing economic question of our time: the specifics of price elasticity, or how much demand for something changes when its price changes. And this is the second part of what Imas emphasized last week: We don\u2019t currently have this data across the economy. But we could .  We do have the numbers for grocery items like cereal and milk, Imas says, because the University of Chicago partners with supermarkets to get data from their price scanners. But we don\u2019t have such figures for tutors or web developers or dietitians (all jobs found to have \u201cexposure\u201d to AI, by the way). Or at least not in a way that\u2019s been widely compiled or made accessible to researchers; sometimes it\u2019s scattered across private companies or consultancies.  \u201cWe need, like, a Manhattan Project to collect this,\u201d Imas says. And we don\u2019t need it just for jobs that could obviously be affected by AI now: \u201cFields that are not exposed now will become exposed in the future, so you just want to track these statistics across the entire economy.\u201d Getting all this information would take time and money, but Imas makes the case that it\u2019s worth it; it would give economists the first realistic look at how our AI-enabled future could unfold and give policymakers a shot at making a plan for it. Update: This story was updated on April 8 with more context of a post by an Anthropic researcher.",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "the algorithm"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.24868788440699405
+    },
+    {
+      "title": "AI is changing how small online sellers decide what to make",
+      "url": "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-06T11:00:00",
+      "summary": "For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand. The product, designed for brightness and durability, became one of his most popular items ever. Even after he stopped offering it around 2017, customers kept sending him emails asking where they could buy it.  When McClary decided to revisit the Guardian flashlight in 2025, he didn\u2019t begin the way he might have in the past, by combing through supplier listings and sending in...",
+      "content": "For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand. The product, designed for brightness and durability, became one of his most popular items ever. Even after he stopped offering it around 2017, customers kept sending him emails asking where they could buy it.  When McClary decided to revisit the Guardian flashlight in 2025, he didn\u2019t begin the way he might have in the past, by combing through supplier listings and sending inquiries to factories. Instead, he opened Accio, an AI sourcing and researching tool on Alibaba.com. For small entrepreneurs in the US, deciding what to sell and where to make it has traditionally been a slow, labor-intensive process that can take months. Now that work is increasingly being done by AI tools like Accio, which help connect businesses with manufacturers in countries including China and India. Business owners and e-commerce experts told MIT Technology Review that these AI tools are making sourcing more accessible and significantly shortening the time it takes to go from product idea to launch.  McClary, 51, who runs his business from his Illinois living room, has sold products ranging from leather conditioner to camping lights, including one rechargeable lantern that brought in half a million dollars. Like many small online merchants, he built his business by being extremely scrappy\u2014spotting demand for a product, tweaking existing designs, finding a factory, doing modest marketing, and getting the goods in front of customers fast.  This time, though, he began by telling Accio about the flashlight\u2019s original design, production cost, and profit margin. Then Accio suggested several changes, making it smaller and slightly less bright and switching its charging method to battery power. It also identified a manufacturer in Ningbo, China, that McClary said could cut the manufacturing cost from $17 to about $2.50 per unit. McClary took the process from there, contacting the supplier himself to discuss the revised design. Within a month, the new version of the Guardian flashlight was back up for sale on Amazon and on his brand\u2019s website. The new factory hunt Although Alibaba is better known for owning Taobao, the biggest shopping site in China, its first business was Alibaba.com , the primary website that lists Chinese factories open for bulk orders. Placing an order with a manufacturer usually requires far more than clicking \u201cBuy.\u201d Sellers often spend days or weeks browsing listings, comparing suppliers\u2019 reviews and manufacturing capacities, asking about minimum order quantities, requesting samples, and negotiating timelines and customization options.  But Accio has gained significant momentum by changing how that sourcing gets done. Launched in 2024, Accio exceeded 10 million monthly active users in March 2026, according to the company. That means about one in five Alibaba users consults with AI about product sourcing. Accio\u2019s interface looks a lot like ChatGPT or Claude: Users type a question into an empty box and choose between \u201cfast\u201d and \u201cthinking\u201d modes. But when asked about products, the tool returns more than text, offering charts, links, and visuals and asking follow-up questions to clarify the buyer\u2019s needs. It then narrows the field to one or a handful of suppliers that appear capable of delivering. After that, the human work begins: Users still have to reach out to suppliers themselves and negotiate the details. Zhang Kuo, the president of Alibaba.com , told MIT Technology Review that the tool is built on multiple frontier models, including the company\u2019s own Qwen series, a popular family of open-source large language models. The system is able to pull from the site\u2019s millions of supplier profiles and is trained on 26 years of proprietary transaction data. For tasks like product research and sourcing analysis, the tool \u201cblows it away\u201d compared with general AI tools like ChatGPT, says Richard Kostick, CEO of the beauty brand 100% Pure. Many websites have tried using AI to assist shopping, but Alibaba has been one of the most aggressive. In March, Eddie Wu, CEO of the site\u2019s parent company Alibaba Group, told managers that integrating the company\u2019s core services with Qwen\u2019s AI capabilities is a top priority. During a Chinese New Year promotion of Qwen\u2019s personal shopping AI agent, where the company gave away cash, customers placed 200 million orders, the firm says. Vincenzo Toscano, an e-commerce seller and consultant, recommended Accio to his clients before deciding to try it himself for a new sunglasses brand. He came in with a rough vision: a brand shaped by his Italian heritage, his personal style, and a boutique aesthetic. He says the AI helped turn that concept into something more concrete, suggesting materials, refining the look, and pointing to design ideas that felt current. But the tool has clear limits. McClary, who uses AI tools regularly, says Accio is strongest when it comes to product ideation, but less helpful on marketing questions such as advertising and social media outreach. To use it well, he says, buyers still need to challenge its recommendations, since some can be generic. The rest of the business As platforms become more AI-driven, manufacturers are adjusting too. Sally Li, a representative at a makeup packaging company in Wuhan, China, says her firm has started writing more detailed product descriptions and adding information about its equipment and manufacturing experience on Alibaba.com because it suspects those details make its listings more likely to be surfaced by AI. Yan says manufacturers cannot tell whether an inquiry from a customer was generated or guided by AI, and that her firm is not using AI to negotiate pricing or product details. \u201cAI agents are increasingly used by people to assist purchase decisions and even directly making transactions, and with clear guardrails, they can become extremely useful,\u201d says Jiaxin Pei, a research scientist at the Stanford Institute for Human-Centered AI, \u201cbut agents need to act transparently, securely, and in the customer\u2019s best interest.\u201d Pei says developers of these tools should disclose the data they collect and the incentives built into them to ensure that the marketplace remains fair. Zhang, of Alibaba.com, says Accio currently does not include advertising. Suppliers can pay for higher placement in Alibaba.com\u2019s regular search results, but Zhang says Accio is \u201cnot integrated\u201d with that system. \u201cWe haven\u2019t had a clear answer in terms of how to monetize this tool,\u201d he says. For now, users can pay for additional tokens to continue chatting with the agent after their free queries run out. Sellers say that while AI tools have made it easier to come up with ideas and get a business off the ground, they do not replace the core skills that make someone good at e-commerce. McClary believes that even when sellers have access to the same market information, some are still better at making decisions, acting quickly, and actually delivering on orders. Those differences, he says, still go a long way. Toscano, the brand founder and e-commerce consultant, feels good about officially launching his new brand of sunglasses in just a few months: \u201cWe [small business owners] always have to bootstrap a lot of decisions. Deciding what to sell often comes down to an educated guess,\u201d he says, \u201cAnd we\u2019re now in an era when making those decisions is easier than ever.\u201d",
+      "author": "Caiwei Chen",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.245
+    },
+    {
+      "title": "Cirrus Labs to join OpenAI",
+      "url": "https://cirruslabs.org/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-11T13:01:34",
+      "summary": null,
+      "content": null,
+      "author": "seekdeep",
+      "score": 279,
+      "num_comments": 142,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47730194,
+        "hn_url": "https://news.ycombinator.com/item?id=47730194",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.20870016104010797
+    },
+    {
+      "title": "Show HN: I built a social media management tool in 3 weeks with Claude and Codex",
+      "url": "https://github.com/brightbeanxyz/brightbean-studio",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-13T09:26:56",
+      "summary": null,
+      "content": null,
+      "author": "JanSchu",
+      "score": 129,
+      "num_comments": 85,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 47749674,
+        "hn_url": "https://news.ycombinator.com/item?id=47749674",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.20760212939969766
+    },
+    {
+      "title": "Show HN: Claudraband \u2013 Claude Code for the Power User",
+      "url": "https://github.com/halfwhey/claudraband",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-12T16:55:20",
+      "summary": "Hello everyone.<p>Claudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI.<p>One example of a workflow I use now is having my current Claude Code interrogate older sessions for certain decisions it made: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;halfwhey&#x2F;claudraband?tab=readme-ov-file#self-interrogation\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;halfwhey&#x2F;claudraband?tab=readme-ov-file#s...</a><p>This project provides:<p>- Resumable non-interactive workflows. Essentially `claude -p` with session support: `cband continue &lt;session-id&gt; &#x27;what was the result of the research?&#x27;`\n- HTTP server to remotely control a Claude Code session: `cband serve --port 8123`\n- ACP server to use with alternative frontends such as Zed or Toad (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;batrachianai&#x2F;toad\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;batrachianai&#x2F;toad</a>): `cband acp --model haiku`.\n- TypeScript library so you can integrate these workflows into your own application.<p>This exists cause I was using `tmux send-keys` heavily in a lot of my Claude Code workflows, but I wanted to streamline it.",
+      "content": null,
+      "author": "halfwhey",
+      "score": 113,
+      "num_comments": 39,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 47741889,
+        "hn_url": "https://news.ycombinator.com/item?id=47741889",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.19324829589461776
+    }
+  ],
+  "summary": {
+    "sources": 4,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-04-06T11:00:00",
+      "end": "2026-04-13T13:00:00"
+    }
+  }
+}

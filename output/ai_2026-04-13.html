@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 16</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 16 | April 13, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>17</strong> items</span>
+            <span>📰 <strong>4</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/" target="_blank">Exploiting the most prominent AI agent benchmarks</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Apr 11
+                     | ⬆️ 549 | 💬 134
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://openai.com/academy/applications-of-ai" target="_blank">Applications of AI at OpenAI</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | Apr 10
+                    
+                </div>
+                <p class="story-summary">Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://news.ycombinator.com/item?id=47727960" target="_blank">Show HN: Pardonned.com – A searchable database of US Pardons</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Apr 11
+                     | ⬆️ 490 | 💬 263
+                </div>
+                <p class="story-summary">&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;pardonned.com&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;pardonned.com&lt;/a&gt;&lt;p&gt;Inspired by the videos of Liz Oyer, I wanted to be able to verify her claims and just look up all the pardons more easily.&lt;p&gt;Tech Stack: 
+ Playwright - to ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/" target="_blank">Want to understand the current state of AI? Check out these charts.</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | Apr 13
+                    
+                </div>
+                <p class="story-summary">If you’re following AI news, you’re probably getting whiplash. AI is a gold rush. AI is a bubble. AI is taking your job. AI can’t even read a clock. The 2026 AI Index from Stanford University’s Institute for Human-Centered Artificial Intelligence, AI...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://openai.com/index/cloudflare-openai-agent-cloud" target="_blank">Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | Apr 13
+                    
+                </div>
+                <p class="story-summary">Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://cirruslabs.org/" target="_blank">Cirrus Labs to join OpenAI</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 279 | 💬 142</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://github.com/brightbeanxyz/brightbean-studio" target="_blank">Show HN: I built a social media management tool in 3 weeks with Claude and Codex</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 129 | 💬 85</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://github.com/halfwhey/claudraband" target="_blank">Show HN: Claudraband – Claude Code for the Power User</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 113 | 💬 39</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/academy/what-is-ai" target="_blank">AI fundamentals</a></div>
+                <div class="news-meta">OpenAI Blog | Apr 10</div>
+                <div class="news-summary">Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial int...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/academy/operations" target="_blank">ChatGPT for operations teams</a></div>
+                <div class="news-meta">OpenAI Blog | Apr 10</div>
+                <div class="news-summary">Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/academy/finance" target="_blank">ChatGPT for finance teams</a></div>
+                <div class="news-meta">OpenAI Blog | Apr 10</div>
+                <div class="news-summary">Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://huggingface.co/blog/multimodal-sentence-transformers" target="_blank">Multimodal Embedding &amp; Reranker Models with Sentence Transformers</a></div>
+                <div class="news-meta">Hugging Face Blog | Apr 09</div>
+                
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/" target="_blank">Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why</a></div>
+                <div class="news-meta">MIT Technology Review AI | Apr 08</div>
+                <div class="news-summary">We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intu...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-04-13 14:55 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
