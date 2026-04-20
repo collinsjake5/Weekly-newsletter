@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 17</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 17 | April 20, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>7</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2604.16272v1" target="_blank">VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Apr 17
+                    
+                </div>
+                <p class="story-summary">As AI-assisted video creation becomes increasingly practical, instruction-guided video editing has become essential for refining generated or captured footage to meet professional requirements. Yet the field still lacks both a large-scale human-annot...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2604.16270v1" target="_blank">From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Apr 17
+                    
+                </div>
+                <p class="story-summary">The complexity of Vietnam&#39;s legal texts presents a significant barrier to public access to justice. While Large Language Models offer a promising solution for legal text simplification, evaluating their true capabilities requires a multifaceted appro...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/" target="_blank">Turtle WoW classic server announces shutdown after Blizzard wins injunction</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Apr 19
+                     | ⬆️ 286 | 💬 250
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://stripe.dev/blog/payment-api-design" target="_blank">Stripe&#39;s Payment APIs: the first 10 years (2020)</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Apr 20
+                     | ⬆️ 82 | 💬 43
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://github.com/esutcu/planb-lpm" target="_blank">A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Apr 20
+                     | ⬆️ 52 | 💬 19
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.16278v1" target="_blank">Learning to Reason with Insight for Informal Theorem Proving</a></div>
+                <div class="paper-author">Yunhe Li, Hao Shi, Bowen Deng, Wei Wang, Mengzhe Ruan...</div>
+                <div class="paper-summary">Although most of the automated theorem-proving approaches depend on formal proof systems, informal theorem proving can align better with large language models&#39; (LLMs) strength in natural language proc...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.16279v1" target="_blank">Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design</a></div>
+                <div class="paper-author">Shriram Chennakesavalu, Kirill Shmilovich, Hayley Weir, Colin Grambow, John Bradshaw...</div>
+                <div class="paper-summary">Large Language Models (LLMs) have the potential to accelerate small molecule drug design due to their ability to reason about information from diverse sources and formats. However, their practical uti...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.16262v1" target="_blank">SwanNLP at SemEval-2026 Task 5: An LLM-based Framework for Plausibility Scoring in Narrative Word Sense Disambiguation</a></div>
+                <div class="paper-author">Deshan Sumanathilaka, Nicholas Micallef, Julian Hough, Saman Jayasinghe</div>
+                <div class="paper-summary">Recent advances in language models have substantially improved Natural Language Understanding (NLU). Although widely used benchmarks suggest that Large Language Models (LLMs) can effectively disambigu...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.16286v1" target="_blank">ASMR-Bench: Auditing for Sabotage in ML Research</a></div>
+                <div class="paper-author">Eric Gan, Aryan Bhatt, Buck Shlegeris, Julian Stastny, Vivek Hebbar</div>
+                <div class="paper-summary">As AI systems are increasingly used to conduct research autonomously, misaligned systems could introduce subtle flaws that produce misleading results while evading detection. We introduce ASMR-Bench (...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2604.16299v1" target="_blank">Repurposing 3D Generative Model for Autoregressive Layout Generation</a></div>
+                <div class="paper-author">Haoran Feng, Yifan Niu, Zehuan Huang, Yang-Tian Sun, Chunchao Guo...</div>
+                <div class="paper-summary">We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation. Unlike previous methods that infer object layouts from textual descriptions, LaviGen operates directly ...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.anthropic.com/news/claude-design-anthropic-labs" target="_blank">Claude Design</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 1223 | 💬 752</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/" target="_blank">Treating enterprise AI as an operating layer</a></div>
+                <div class="news-meta">MIT Technology Review AI | Apr 16</div>
+                <div class="news-summary">There’s a fault line running through enterprise AI, and it’s not the one getting the most attention. The public conversation still tracks foundation m...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/04/14/1134397/redefining-the-future-of-software-engineering/" target="_blank">Redefining the future of software engineering</a></div>
+                <div class="news-meta">MIT Technology Review AI | Apr 14</div>
+                <div class="news-summary">Software engineering has experienced two seismic shifts this century. First was the rise of the open source movement, which gradually made code access...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/04/14/1135298/coming-soon-10-things-that-matter-in-ai-right-now/" target="_blank">Coming soon: 10 Things That Matter in AI Right Now</a></div>
+                <div class="news-meta">MIT Technology Review AI | Apr 14</div>
+                <div class="news-summary">Each year we compile our 10 Breakthrough Technologies list, featuring our educated predictions for which technologies will have the biggest impact on ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise" target="_blank">OpenAI helps Hyatt advance AI among colleagues</a></div>
+                <div class="news-meta">OpenAI Blog | Apr 20</div>
+                <div class="news-summary">Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/" target="_blank">Chinese tech workers are starting to train their AI doubles–and pushing back</a></div>
+                <div class="news-meta">MIT Technology Review AI | Apr 20</div>
+                <div class="news-summary">Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherw...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-04-20 14:54 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

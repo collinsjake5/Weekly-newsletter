@@ -1,0 +1,625 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-04-20T14:54:34.525994",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects",
+      "url": "https://arxiv.org/abs/2604.16272v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-04-17T17:28:24",
+      "summary": "As AI-assisted video creation becomes increasingly practical, instruction-guided video editing has become essential for refining generated or captured footage to meet professional requirements. Yet the field still lacks both a large-scale human-annotated dataset with complete editing examples and a standardized evaluator for comparing editing systems. Existing resources are limited by small scale, missing edited outputs, or the absence of human quality labels, while current evaluation often relies on expensive manual inspection or generic vision-language model judges that are not specialized for editing quality. We introduce VEFX-Dataset, a human-annotated dataset containing 5,049 video editing examples across 9 major editing categories and 32 subcategories, each labeled along three decoupled dimensions: Instruction Following, Rendering Quality, and Edit Exclusivity. Building on VEFX-Dataset, we propose VEFX-Reward, a reward model designed specifically for video editing quality assessm...",
+      "content": "As AI-assisted video creation becomes increasingly practical, instruction-guided video editing has become essential for refining generated or captured footage to meet professional requirements. Yet the field still lacks both a large-scale human-annotated dataset with complete editing examples and a standardized evaluator for comparing editing systems. Existing resources are limited by small scale, missing edited outputs, or the absence of human quality labels, while current evaluation often relies on expensive manual inspection or generic vision-language model judges that are not specialized for editing quality. We introduce VEFX-Dataset, a human-annotated dataset containing 5,049 video editing examples across 9 major editing categories and 32 subcategories, each labeled along three decoupled dimensions: Instruction Following, Rendering Quality, and Edit Exclusivity. Building on VEFX-Dataset, we propose VEFX-Reward, a reward model designed specifically for video editing quality assessment. VEFX-Reward jointly processes the source video, the editing instruction, and the edited video, and predicts per-dimension quality scores via ordinal regression. We further release VEFX-Bench, a benchmark of 300 curated video-prompt pairs for standardized comparison of editing systems. Experiments show that VEFX-Reward aligns more strongly with human judgments than generic VLM judges and prior reward models on both standard IQA/VQA metrics and group-wise preference evaluation. Using VEFX-Reward as an evaluator, we benchmark representative commercial and open-source video editing systems, revealing a persistent gap between visual plausibility, instruction following, and edit locality in current models.",
+      "author": "Xiangbo Gao, Sicong Jiang, Bangya Liu, Xinghao Chen, Minglai Yang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16272v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16272v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Xiangbo Gao",
+          "Sicong Jiang",
+          "Bangya Liu",
+          "Xinghao Chen",
+          "Minglai Yang",
+          "Siyuan Yang",
+          "Mingyang Wu",
+          "Jiongze Yu",
+          "Qi Zheng",
+          "Haozhi Wang",
+          "Jiayi Zhang",
+          "Jared Yang",
+          "Jie Yang",
+          "Zihan Wang",
+          "Qing Yin",
+          "Zhengzhong Tu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7130033460243056
+    },
+    {
+      "title": "From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text",
+      "url": "https://arxiv.org/abs/2604.16270v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-04-17T17:28:23",
+      "summary": "The complexity of Vietnam's legal texts presents a significant barrier to public access to justice. While Large Language Models offer a promising solution for legal text simplification, evaluating their true capabilities requires a multifaceted approach that goes beyond surface-level metrics. This paper introduces a comprehensive dual-aspect evaluation framework to address this need. First, we establish a performance benchmark for four state-of-the-art large language models (GPT-4o, Claude 3 Opus, Gemini 1.5 Pro, and Grok-1) across three key dimensions: Accuracy, Readability, and Consistency. Second, to understand the \"why\" behind these performance scores, we conduct a large-scale error analysis on a curated dataset of 60 complex Vietnamese legal articles, using a novel, expert-validated error typology. Our results reveal a crucial trade-off: models like Grok-1 excel in Readability and Consistency but compromise on fine-grained legal Accuracy, while models like Claude 3 Opus achieve hi...",
+      "content": "The complexity of Vietnam's legal texts presents a significant barrier to public access to justice. While Large Language Models offer a promising solution for legal text simplification, evaluating their true capabilities requires a multifaceted approach that goes beyond surface-level metrics. This paper introduces a comprehensive dual-aspect evaluation framework to address this need. First, we establish a performance benchmark for four state-of-the-art large language models (GPT-4o, Claude 3 Opus, Gemini 1.5 Pro, and Grok-1) across three key dimensions: Accuracy, Readability, and Consistency. Second, to understand the \"why\" behind these performance scores, we conduct a large-scale error analysis on a curated dataset of 60 complex Vietnamese legal articles, using a novel, expert-validated error typology. Our results reveal a crucial trade-off: models like Grok-1 excel in Readability and Consistency but compromise on fine-grained legal Accuracy, while models like Claude 3 Opus achieve high Accuracy scores that mask a significant number of subtle but critical reasoning errors. The error analysis pinpoints \\textit{Incorrect Example} and \\textit{Misinterpretation} as the most prevalent failures, confirming that the primary challenge for current LLMs is not summarization but controlled, accurate legal reasoning. By integrating a quantitative benchmark with a qualitative deep dive, our work provides a holistic and actionable assessment of LLMs for legal applications.",
+      "author": "Van-Truong Le",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16270v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16270v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Van-Truong Le"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7130030979883433
+    },
+    {
+      "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-19T15:48:40",
+      "summary": null,
+      "content": null,
+      "author": "Brajeshwar",
+      "score": 286,
+      "num_comments": 250,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47825160,
+        "hn_url": "https://news.ycombinator.com/item?id=47825160",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6479198049382415
+    },
+    {
+      "title": "Stripe's Payment APIs: the first 10 years (2020)",
+      "url": "https://stripe.dev/blog/payment-api-design",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-20T05:05:43",
+      "summary": null,
+      "content": null,
+      "author": "tibbar",
+      "score": 82,
+      "num_comments": 43,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47830575,
+        "hn_url": "https://news.ycombinator.com/item?id=47830575",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5700768365058861
+    },
+    {
+      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+      "url": "https://github.com/esutcu/planb-lpm",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-20T03:24:21",
+      "summary": null,
+      "content": null,
+      "author": "debugga",
+      "score": 52,
+      "num_comments": 19,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47830071,
+        "hn_url": "https://news.ycombinator.com/item?id=47830071",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5565329922761064
+    },
+    {
+      "title": "Claude Design",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-04-17T15:04:09",
+      "summary": "Related: <a href=\"https:&#x2F;&#x2F;x.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458</a> (<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458</a>)",
+      "content": null,
+      "author": "meetpateltech",
+      "score": 1223,
+      "num_comments": 752,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 47806725,
+        "hn_url": "https://news.ycombinator.com/item?id=47806725",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.555856768797371
+    },
+    {
+      "title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "url": "https://arxiv.org/abs/2604.16278v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-04-17T17:36:21",
+      "summary": "Although most of the automated theorem-proving approaches depend on formal proof systems, informal theorem proving can align better with large language models' (LLMs) strength in natural language processing. In this work, we identify a primary bottleneck in informal theorem proving as a lack of insight, namely the difficulty of recognizing the core techniques required to solve complex problems. To address this, we propose a novel framework designed to cultivate this essential reasoning skill and enable LLMs to perform insightful reasoning. We propose $\\mathtt{DeepInsightTheorem}$, a hierarchical dataset that structures informal proofs by explicitly extracting core techniques and proof sketches alongside the final proof. To fully exploit this dataset, we design a Progressive Multi-Stage SFT strategy that mimics the human learning process, guiding the model from basic proof writing to insightful thinking. Our experiments on challenging mathematical benchmarks demonstrate that this insigh...",
+      "content": "Although most of the automated theorem-proving approaches depend on formal proof systems, informal theorem proving can align better with large language models' (LLMs) strength in natural language processing. In this work, we identify a primary bottleneck in informal theorem proving as a lack of insight, namely the difficulty of recognizing the core techniques required to solve complex problems. To address this, we propose a novel framework designed to cultivate this essential reasoning skill and enable LLMs to perform insightful reasoning. We propose $\\mathtt{DeepInsightTheorem}$, a hierarchical dataset that structures informal proofs by explicitly extracting core techniques and proof sketches alongside the final proof. To fully exploit this dataset, we design a Progressive Multi-Stage SFT strategy that mimics the human learning process, guiding the model from basic proof writing to insightful thinking. Our experiments on challenging mathematical benchmarks demonstrate that this insight-aware generation strategy significantly outperforms baselines. These results demonstrate that teaching models to identify and apply core techniques can substantially improve their mathematical reasoning.",
+      "author": "Yunhe Li, Hao Shi, Bowen Deng, Wei Wang, Mengzhe Ruan...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16278v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16278v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Yunhe Li",
+          "Hao Shi",
+          "Bowen Deng",
+          "Wei Wang",
+          "Mengzhe Ruan",
+          "Hanxu Hou",
+          "Zhongxiang Dai",
+          "Siyang Gao",
+          "Chao Wang",
+          "Shuang Qiu",
+          "Linqi Song"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5833333333333334,
+      "final_score": 0.5464549829499008
+    },
+    {
+      "title": "Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design",
+      "url": "https://arxiv.org/abs/2604.16279v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-04-17T17:40:26",
+      "summary": "Large Language Models (LLMs) have the potential to accelerate small molecule drug design due to their ability to reason about information from diverse sources and formats. However, their practical utility remains unclear due to the lack of benchmarks that reflect real-world scenarios. In this work, we introduce a suite of chemically-grounded tasks spanning molecular property prediction, molecular representation transformations, and molecular design. Importantly, we formulate these tasks as reinforcement learning (RL) environments, enabling a unified approach for evaluation and post-training. Across three model families, we find that frontier models are increasingly proficient at chemical tasks, but that there is significant room for improvement, especially in experimental settings with low data. Critically, we show that RL-based post-training can substantially improve performance. A smaller model post-trained on our environments becomes competitive with state-of-the-art frontier models...",
+      "content": "Large Language Models (LLMs) have the potential to accelerate small molecule drug design due to their ability to reason about information from diverse sources and formats. However, their practical utility remains unclear due to the lack of benchmarks that reflect real-world scenarios. In this work, we introduce a suite of chemically-grounded tasks spanning molecular property prediction, molecular representation transformations, and molecular design. Importantly, we formulate these tasks as reinforcement learning (RL) environments, enabling a unified approach for evaluation and post-training. Across three model families, we find that frontier models are increasingly proficient at chemical tasks, but that there is significant room for improvement, especially in experimental settings with low data. Critically, we show that RL-based post-training can substantially improve performance. A smaller model post-trained on our environments becomes competitive with state-of-the-art frontier models, despite a significantly weaker base model. This suggests a practical route toward employing LLMs in drug discovery; by combining carefully-designed evaluation tasks with targeted post-training, we can both elucidate and close critical capability gaps.",
+      "author": "Shriram Chennakesavalu, Kirill Shmilovich, Hayley Weir, Colin Grambow, John Bradshaw...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16279v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16279v1.pdf",
+        "categories": [
+          "cs.LG",
+          "physics.chem-ph"
+        ],
+        "all_authors": [
+          "Shriram Chennakesavalu",
+          "Kirill Shmilovich",
+          "Hayley Weir",
+          "Colin Grambow",
+          "John Bradshaw",
+          "Patricia Suriana",
+          "Chen Cheng",
+          "Kangway Chuang"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5777777777777777,
+      "final_score": 0.5442935245114087
+    },
+    {
+      "title": "SwanNLP at SemEval-2026 Task 5: An LLM-based Framework for Plausibility Scoring in Narrative Word Sense Disambiguation",
+      "url": "https://arxiv.org/abs/2604.16262v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-04-17T17:18:51",
+      "summary": "Recent advances in language models have substantially improved Natural Language Understanding (NLU). Although widely used benchmarks suggest that Large Language Models (LLMs) can effectively disambiguate, their practical applicability in real-world narrative contexts remains underexplored. SemEval-2026 Task 5 addresses this gap by introducing a task that predicts the human-perceived plausibility of a word sense within a short story. In this work, we propose an LLM-based framework for plausibility scoring of homonymous word senses in narrative texts using a structured reasoning mechanism. We examine the impact of fine-tuning low-parameter LLMs with diverse reasoning strategies, alongside dynamic few-shot prompting for large-parameter models, on accurate sense identification and plausibility estimation. Our results show that commercial large-parameter LLMs with dynamic few-shot prompting closely replicate human-like plausibility judgments. Furthermore, model ensembling slightly improves ...",
+      "content": "Recent advances in language models have substantially improved Natural Language Understanding (NLU). Although widely used benchmarks suggest that Large Language Models (LLMs) can effectively disambiguate, their practical applicability in real-world narrative contexts remains underexplored. SemEval-2026 Task 5 addresses this gap by introducing a task that predicts the human-perceived plausibility of a word sense within a short story. In this work, we propose an LLM-based framework for plausibility scoring of homonymous word senses in narrative texts using a structured reasoning mechanism. We examine the impact of fine-tuning low-parameter LLMs with diverse reasoning strategies, alongside dynamic few-shot prompting for large-parameter models, on accurate sense identification and plausibility estimation. Our results show that commercial large-parameter LLMs with dynamic few-shot prompting closely replicate human-like plausibility judgments. Furthermore, model ensembling slightly improves performance, better simulating the agreement patterns of five human annotators compared to single-model predictions",
+      "author": "Deshan Sumanathilaka, Nicholas Micallef, Julian Hough, Saman Jayasinghe",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16262v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16262v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Deshan Sumanathilaka",
+          "Nicholas Micallef",
+          "Julian Hough",
+          "Saman Jayasinghe"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5777777777777777,
+      "final_score": 0.5439723437757936
+    },
+    {
+      "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+      "url": "https://arxiv.org/abs/2604.16286v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-04-17T17:47:32",
+      "summary": "As AI systems are increasingly used to conduct research autonomously, misaligned systems could introduce subtle flaws that produce misleading results while evading detection. We introduce ASMR-Bench (Auditing for Sabotage in ML Research), a benchmark for evaluating the ability of auditors to detect sabotage in ML research codebases. ASMR-Bench consists of 9 ML research codebases with sabotaged variants that produce qualitatively different experimental results. Each sabotage modifies implementation details, such as hyperparameters, training data, or evaluation code, while preserving the high-level methodology described in the paper. We evaluated frontier LLMs and LLM-assisted human auditors on ASMR-Bench and found that both struggled to reliably detect sabotage: the best performance was an AUROC of 0.77 and a top-1 fix rate of 42%, achieved by Gemini 3.1 Pro. We also tested LLMs as red teamers and found that LLM-generated sabotages were weaker than human-generated ones but still sometim...",
+      "content": "As AI systems are increasingly used to conduct research autonomously, misaligned systems could introduce subtle flaws that produce misleading results while evading detection. We introduce ASMR-Bench (Auditing for Sabotage in ML Research), a benchmark for evaluating the ability of auditors to detect sabotage in ML research codebases. ASMR-Bench consists of 9 ML research codebases with sabotaged variants that produce qualitatively different experimental results. Each sabotage modifies implementation details, such as hyperparameters, training data, or evaluation code, while preserving the high-level methodology described in the paper. We evaluated frontier LLMs and LLM-assisted human auditors on ASMR-Bench and found that both struggled to reliably detect sabotage: the best performance was an AUROC of 0.77 and a top-1 fix rate of 42%, achieved by Gemini 3.1 Pro. We also tested LLMs as red teamers and found that LLM-generated sabotages were weaker than human-generated ones but still sometimes evaded same-capability LLM auditors. We release ASMR-Bench to support research on monitoring and auditing techniques for AI-conducted research.",
+      "author": "Eric Gan, Aryan Bhatt, Buck Shlegeris, Julian Stastny, Vivek Hebbar",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16286v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16286v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Eric Gan",
+          "Aryan Bhatt",
+          "Buck Shlegeris",
+          "Julian Stastny",
+          "Vivek Hebbar"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5722222222222222,
+      "final_score": 0.5421769571956845
+    },
+    {
+      "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "url": "https://arxiv.org/abs/2604.16299v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-04-17T17:59:50",
+      "summary": "We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation. Unlike previous methods that infer object layouts from textual descriptions, LaviGen operates directly in the native 3D space, formulating layout generation as an autoregressive process that explicitly models geometric relations and physical constraints among objects, producing coherent and physically plausible 3D scenes. To further enhance this process, we propose an adapted 3D diffusion model that integrates scene, object, and instruction information and employs a dual-guidance self-rollout distillation mechanism to improve efficiency and spatial accuracy. Extensive experiments on the LayoutVLM benchmark show LaviGen achieves superior 3D layout generation performance, with 19% higher physical plausibility than the state of the art and 65% faster computation. Our code is publicly available at https://github.com/fenghora/LaviGen.",
+      "content": "We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation. Unlike previous methods that infer object layouts from textual descriptions, LaviGen operates directly in the native 3D space, formulating layout generation as an autoregressive process that explicitly models geometric relations and physical constraints among objects, producing coherent and physically plausible 3D scenes. To further enhance this process, we propose an adapted 3D diffusion model that integrates scene, object, and instruction information and employs a dual-guidance self-rollout distillation mechanism to improve efficiency and spatial accuracy. Extensive experiments on the LayoutVLM benchmark show LaviGen achieves superior 3D layout generation performance, with 19% higher physical plausibility than the state of the art and 65% faster computation. Our code is publicly available at https://github.com/fenghora/LaviGen.",
+      "author": "Haoran Feng, Yifan Niu, Zehuan Huang, Yang-Tian Sun, Chunchao Guo...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16299v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16299v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Haoran Feng",
+          "Yifan Niu",
+          "Zehuan Huang",
+          "Yang-Tian Sun",
+          "Chunchao Guo",
+          "Yuxin Peng",
+          "Lu Sheng"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5648148148148148,
+      "final_score": 0.5393970296020172
+    },
+    {
+      "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
+      "url": "https://arxiv.org/abs/2604.16298v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-04-17T17:59:48",
+      "summary": "UAV vision-language navigation (VLN) requires an agent to navigate complex 3D environments from an egocentric perspective while following ambiguous multi-step instructions over long horizons. Existing zero-shot methods remain limited, as they often rely on large base models, generic prompts, and loosely coordinated modules. In this work, we propose FineCog-Nav, a top-down framework inspired by human cognition that organizes navigation into fine-grained modules for language processing, perception, attention, memory, imagination, reasoning, and decision-making. Each module is driven by a moderate-sized foundation model with role-specific prompts and structured input-output protocols, enabling effective collaboration and improved interpretability. To support fine-grained evaluation, we construct AerialVLN-Fine, a curated benchmark of 300 trajectories derived from AerialVLN, with sentence-level instruction-trajectory alignment and refined instructions containing explicit visual endpoints a...",
+      "content": "UAV vision-language navigation (VLN) requires an agent to navigate complex 3D environments from an egocentric perspective while following ambiguous multi-step instructions over long horizons. Existing zero-shot methods remain limited, as they often rely on large base models, generic prompts, and loosely coordinated modules. In this work, we propose FineCog-Nav, a top-down framework inspired by human cognition that organizes navigation into fine-grained modules for language processing, perception, attention, memory, imagination, reasoning, and decision-making. Each module is driven by a moderate-sized foundation model with role-specific prompts and structured input-output protocols, enabling effective collaboration and improved interpretability. To support fine-grained evaluation, we construct AerialVLN-Fine, a curated benchmark of 300 trajectories derived from AerialVLN, with sentence-level instruction-trajectory alignment and refined instructions containing explicit visual endpoints and landmark references. Experiments show that FineCog-Nav consistently outperforms zero-shot baselines in instruction adherence, long-horizon planning, and generalization to unseen environments. These results suggest the effectiveness of fine-grained cognitive modularization for zero-shot aerial navigation. Project page: https://smartdianlab.github.io/projects-FineCogNav.",
+      "author": "Dian Shao, Zhengzheng Xu, Peiyang Wang, Like Liu, Yule Wang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16298v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16298v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Dian Shao",
+          "Zhengzheng Xu",
+          "Peiyang Wang",
+          "Like Liu",
+          "Yule Wang",
+          "Jieqi Shi",
+          "Jing Huo"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5611111111111111,
+      "final_score": 0.5379150520687004
+    },
+    {
+      "title": "Treating enterprise AI as an operating layer",
+      "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-16T13:00:00",
+      "summary": "There\u2019s a fault line running through enterprise AI, and it\u2019s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks\u2014GPT versus Gemini, reasoning scores, and marginal capability gains. But in practice, the more durable advantage is structural: who owns the operating layer where intelligence is applied, governed, and improved. One model treats AI as an on-demand utility; the other embeds it as an operating layer\u2014the combination of operation so...",
+      "content": "There\u2019s a fault line running through enterprise AI, and it\u2019s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks\u2014GPT versus Gemini, reasoning scores, and marginal capability gains. But in practice, the more durable advantage is structural: who owns the operating layer where intelligence is applied, governed, and improved. One model treats AI as an on-demand utility; the other embeds it as an operating layer\u2014the combination of operation software, data capture, feedback loops and governance that sits between models and real work\u2014that compounds with use. Model providers like OpenAI and Anthropic sell intelligence as a service: you have a problem, you call an API, you get an answer. That intelligence is general-purpose, largely stateless, and only loosely connected to the day-to-day operations where decisions are made. It\u2019s highly capable and increasingly interchangeable. The distinction that matters is whether intelligence resets on every prompt or accumulates over time. Incumbent organizations, by contrast, can treat AI as an operating layer: instrumentation across operations, feedback loops from human decisions, and governance that turns individual tasks into reusable policy. In that setup, every exception, correction, and approval becomes a chance to learn\u2014and intelligence can improve as the platform absorbs more of the organization\u2019s work. The organizations most likely to shape the enterprise AI era are those that can embed intelligence directly into operational platforms and instrument those platforms so work generates usable signals. The prevailing narrative says nimble startups will out-innovate incumbents by building AI-native from scratch. If AI is primarily a model problem, that story holds. But in many enterprise domains, AI is a systems problem\u2014integrations, permissions, evaluation, and change management\u2014where advantage accrues to whomever already sits inside high-volume, high-stakes operations and converts that position into learning and automation. The inversion: AI executes, humans adjudicate Traditional services organizations are built on a simple architecture: humans use software to do expert work. Operators log into systems, navigate operations, make decisions, and process cases. Technology is the medium. Human judgment is the product. An AI-native platform inverts this. It ingests a problem, applies accumulated domain knowledge, executes autonomously what it can with high confidence, and routes targeted sub-tasks to human experts when the situation demands judgment that the system can\u2019t yet reliably provide. But inverting human-AI interaction isn\u2019t just a UI redesign\u2014it requires raw material. It\u2019s only possible when the platform is built on a foundation of domain expertise, behavioral data, and operational knowledge accumulated over years. The three compounding assets incumbents already own AI-native startups begin with a clean architectural slate and can move quickly. What they can\u2019t easily manufacture is the raw material that makes domain AI defensible at scale: Proprietary operational data A large workforce of domain experts whose day-to-day decisions generate training signals Accumulated tacit knowledge about how complex work actually gets done Services companies already have all three. But these ingredients aren\u2019t moats on their own. They become an advantage only when a company can systematically convert messy operations into AI-ready signals and institutional knowledge\u2014then feed the results back into operations so the system keeps improving. Codifying expertise into reusable signals In most services organizations, expertise is tacit and perishable. The best operators know things they cannot easily articulate: heuristics developed over the years, edge-case intuitions, and pattern recognition that operate below the level of conscious reasoning. At Ensemble, the strategy for addressing this challenge is knowledge distillation. The systematic conversion of expert judgment and operational decisions into machine-readable training signals. In health-care revenue cycle management, for example, systems can be seeded with explicit domain knowledge and then deepen their coverage through structured daily interaction with operators. In Ensemble\u2019s implementation, the system identifies gaps, formulates targeted questions, and cross-checks answers across multiple experts to capture both consensus and edge-case nuance. It then synthesizes these inputs into a living knowledge base that reflects the situational reasoning behind expert-level performance. Turning decisions into a learning flywheel Once a system is constrained enough to be trusted, the next question is how it gets better without waiting for annual model upgrades. Every time a skilled operator makes a decision, they generate more than a completed task. They generate a potential labeled example\u2014context paired with an expert action (and sometimes an outcome). At scale, across thousands of operators and millions of decisions, that stream can power supervised learning, evaluation, and targeted forms of reinforcement\u2014teaching systems to behave more like experts in real conditions. For example, if an organization processes 50,000 cases a week and captures just three high-quality decision points per case, that\u2019s 150,000 labeled examples every week without creating a separate data-collection program. A more advanced human-in-the-loop design places experts inside the decision process, so systems learn not just what the right answer was, but how ambiguity gets resolved. Practically, humans intervene at branch points\u2014selecting from AI-generated options, correcting assumptions, and redirecting operations. Each intervention becomes a high-value training signal. When the platform detects an edge case or a deviation from the expected process, it can prompt for a brief, structured rationale, capturing decision factors without requiring lengthy free-form reasoning logs. Building toward expertise amplification The goal is to permanently embed the accumulated expertise of thousands of domain experts\u2014their knowledge, decisions, and reasoning\u2014into an AI platform that amplifies what every operator can accomplish. Done well, this produces a quality of execution that neither humans nor AI achieve independently: higher consistency, improved throughput, and measurable operational gains. Operators can focus on more consequential work, supported by an AI that has already completed the analytical groundwork across thousands of analogous prior cases. The broader implication for enterprise leaders is straightforward. Advantages in AI won\u2019t be determined by access to general-purpose models alone. It will come from an organization\u2019s ability to capture, refine, and compound what it knows, its data, decisions, and operational judgment, while building the controls required for high-stakes environments. As AI shifts from experimentation to infrastructure, the most durable edge may belong to the companies that understand the work well enough to instrument it and can turn that understanding into systems that improve with use. This content was produced by Ensemble. It was not written by MIT Technology Review\u2019s editorial staff.",
+      "author": "Dr. Wael Salloum",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6092592592592593,
+      "final_score": 0.5312844301097057
+    },
+    {
+      "title": "Information Router for Mitigating Modality Dominance in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2604.16264v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-04-17T17:20:42",
+      "summary": "Vision Language models (VLMs) have demonstrated strong performance across a wide range of benchmarks, yet they often suffer from modality dominance, where predictions rely disproportionately on a single modality. Prior approaches primarily address this issue by steering model's attention allocation, implicitly assuming that all modalities provide sufficient information. However, attention only determines where the model focuses, and cannot enrich information that is missing or ambiguous. In the real world, input modalities often differ in information density and their signal-to-noise ratios. In such cases, simply adjusting model's attention does not resolve the underlying lack of information. In this paper, we propose \\textsc{MoIR}: \\textit{Multi-modal Information Router}, an information-level fusion method that explicitly reduces information disparity prior to fusion. \\textsc{MoIR} identifies less informative tokens and routes complementary information from a stronger modality, constr...",
+      "content": "Vision Language models (VLMs) have demonstrated strong performance across a wide range of benchmarks, yet they often suffer from modality dominance, where predictions rely disproportionately on a single modality. Prior approaches primarily address this issue by steering model's attention allocation, implicitly assuming that all modalities provide sufficient information. However, attention only determines where the model focuses, and cannot enrich information that is missing or ambiguous. In the real world, input modalities often differ in information density and their signal-to-noise ratios. In such cases, simply adjusting model's attention does not resolve the underlying lack of information. In this paper, we propose \\textsc{MoIR}: \\textit{Multi-modal Information Router}, an information-level fusion method that explicitly reduces information disparity prior to fusion. \\textsc{MoIR} identifies less informative tokens and routes complementary information from a stronger modality, constructing information-dense token representations before they are processed by a large language model. By modifying information availability, \\textsc{MoIR} enables reliable shifts in modality dominance, even when one modality is degraded. We evaluate \\textsc{MoIR} on three widely used multi-modal benchmarks across multiple model backbones. Experimental results show that \\textsc{MoIR} consistently demonstrates more balanced modality contribution, and improves robustness and downstream performance, particularly even under modality degradation. These findings demonstrate that explicitly modifying cross-modal information is an effective and complementary strategy for mitigating modality dominance in multi-modal reasoning models.",
+      "author": "Seulgi Kim, Mohit Prabhushankar, Ghassan AlRegib",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16264v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16264v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Seulgi Kim",
+          "Mohit Prabhushankar",
+          "Ghassan AlRegib"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5185185185185185,
+      "final_score": 0.5202961699510582
+    },
+    {
+      "title": "Redefining the future of software engineering",
+      "url": "https://www.technologyreview.com/2026/04/14/1134397/redefining-the-future-of-software-engineering/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-14T18:00:00",
+      "summary": "Software engineering has experienced two seismic shifts this century. First was the rise of the open source movement, which gradually made code accessible to developers and engineers everywhere. Second, the adoption of development operations (DevOps) and agile methodologies took software from siloed to collaborative development and from batch to continuous delivery. Now, a third such shift looks to be taking shape with the adoption of agentic AI in software engineering. Thus far, engineering tea...",
+      "content": "Software engineering has experienced two seismic shifts this century. First was the rise of the open source movement, which gradually made code accessible to developers and engineers everywhere. Second, the adoption of development operations (DevOps) and agile methodologies took software from siloed to collaborative development and from batch to continuous delivery. Now, a third such shift looks to be taking shape with the adoption of agentic AI in software engineering. Thus far, engineering teams have mainly used AI to assist with coding, testing, and other individual tasks, within tightly designed parameters. But with agentic capabilities, AI agents become reasoning, self-directing entities that can manage not just discrete tasks but entire software projects\u2014and do so largely autonomously. If adopted and fully embraced by engineering teams, agentic AI will usher in end-to-end software process automation and, ultimately, agent-managed development and product lifecycle automation. DOWNLOAD THE REPORT This report, which is based on a survey of 300 engineering and technology executives, finds that software engineering teams are seeing the potential in agentic AI and are beginning to put it to use, but so far in a mainly limited fashion. Their ambitions for it are high, but most realize it will take time and effort to reduce the barriers to its full diffusion in software operations. As with DevOps and agile, reaping the full benefits of agentic AI in engineering will require sometimes difficult organizational and process change to accompany technology adoption. But the gains to be won in speed, efficiency, and quality promise to make any such pain well worthwhile. Key findings include the following: Adoption momentum is building. While half of organizations deem agentic AI a top investment priority for software engineering today, it will be a leading investment for over four-fifths in two years. That spending is driving accelerated adoption. Agentic AI is in (mostly limited) use by 51% of software teams today, and 45% have plans to adopt it within the next 12 months. Early gains will be incremental. It will take time for software teams\u2019 investments in agentic AI to start bearing fruit. Over the next two years, most expect the improvements from agent use to be slight (14%) or at best moderate (52%). But around one-third (32%) have higher expectations, and 9% think the improvements will be game changing. Agents will accelerate time-to-market. The chief gains from agentic AI use over that two-year time frame will come from greater speed. Nearly all respondents (98%) expect their teams\u2019 delivery of software projects from pilot to production to accelerate, with the anticipated increase in speed averaging 37% across the group. The goal for most is full agentic lifecycle management. Teams\u2019 ambitions for scaling agentic AI are high. Most aim for AI agents to be managing the product development and software development lifecycles (PDLC and SDLC) end to end relatively quickly. At 41% of organizations, teams aim to achieve this for most or all products in 18 months. That figure will rise to 72% two years from now, if expectations are met. Compute costs and integration pose key early challenges. For all survey respondents\u2014but especially in early-adopter verticals such as media and entertainment and technology hardware\u2014integrating agents with existing applications and the cost of computing resources are the main challenges they face with agentic AI in software engineering. The experts we interviewed, meanwhile, emphasize the bigger change management difficulties teams will face in changing workflows. Download the report This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.4669656469928075
+    },
+    {
+      "title": "Coming soon: 10 Things That Matter in AI Right Now",
+      "url": "https://www.technologyreview.com/2026/04/14/1135298/coming-soon-10-things-that-matter-in-ai-right-now/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-14T11:00:00",
+      "summary": "Each year we compile our 10 Breakthrough Technologies list, featuring our educated predictions for which technologies will have the biggest impact on how we live and work. This year, however, we had a dilemma. While our final picks encompass all our core coverage areas (energy, AI, and biotech, plus a few more), our 2026 list was harder to wrangle than normal. Why? We had so many worthy AI candidates we couldn\u2019t fit them all in! (The ones that made it were AI companions , mechanistic interpretab...",
+      "content": "Each year we compile our 10 Breakthrough Technologies list, featuring our educated predictions for which technologies will have the biggest impact on how we live and work. This year, however, we had a dilemma. While our final picks encompass all our core coverage areas (energy, AI, and biotech, plus a few more), our 2026 list was harder to wrangle than normal. Why? We had so many worthy AI candidates we couldn\u2019t fit them all in! (The ones that made it were AI companions , mechanistic interpretability , generative coding , and hyperscale data centers .) Many great ideas fell by the wayside to keep the list as wide-ranging as possible. Well, that got us thinking: What if we made an entirely new list that was all about AI? We got excited about that idea\u2014and before we knew it we had the beginnings of what we\u2019re calling 10 Things That Matter in AI Right Now . It\u2019s an entirely new annual list that we\u2019re proud to be publishing for the first time on April 21, 2026. We\u2019ll unveil it on stage for attendees at our signature AI conference, EmTech AI, held on MIT\u2019s campus ( it\u2019s not too late to get tickets ), and then publish the list online later that day. The process for coming up with the list was similar to the way we pick our 10 Breakthrough Technologies. We petitioned our AI team of reporters and editors to propose ideas, put them all in a document, and engaged in some robust discussion. Eventually, we voted for our favorites and whittled the long list down to a final 10. But there\u2019s a slight difference between this list and our 10 Breakthrough Technologies. AI is already such a big part of our lives that we didn\u2019t want to restrict ourselves to nominating only technologies . Instead, we wanted to put together a definitive annual list that highlights what we believe are the biggest ideas, topics, and research directions in AI right now. So yes, it will include cutting-edge AI technologies, but it will also feature other trends and developments in AI that we want to bring to our subscribers\u2019 attention. Think of it as a sneak peek inside the collective brain of our crack AI reporting team: These are the things that our reporters will be watching this year. We intend to follow the items on this list really closely, and you will see it reflected in the news and feature stories we publish in 2026. For us, 10 Things That Matter in AI Right Now is a guide to how we view the current AI landscape. It will be a source of discussion, debate, and maybe some arguments! We are so excited to share it with you on April 21. If you want to be among the first to see it\u2014 join us at EmTech AI or become a subscriber to livestream the announcement.",
+      "author": "Niall Firth, Amy Nordrum",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai10 2026",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.46071564697743056
+    },
+    {
+      "title": "No Universal Courtesy: A Cross-Linguistic, Multi-Model Study of Politeness Effects on LLMs Using the PLUM Corpus",
+      "url": "https://arxiv.org/abs/2604.16275v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-04-17T17:33:48",
+      "summary": "This paper explores the response of Large Language Models (LLMs) to user prompts with different degrees of politeness and impoliteness. The Politeness Theory by Brown and Levinson and the Impoliteness Framework by Culpeper form the basis of experiments conducted across three languages (English, Hindi, Spanish), five models (Gemini-Pro, GPT-4o Mini, Claude 3.7 Sonnet, DeepSeek-Chat, and Llama 3), and three interaction histories between users (raw, polite, and impolite). Our sample consists of 22,500 pairs of prompts and responses of various types, evaluated across five levels of politeness using an eight-factor assessment framework: coherence, clarity, depth, responsiveness, context retention, toxicity, conciseness, and readability. The findings show that model performance is highly influenced by tone, dialogue history, and language. While polite prompts enhance the average response quality by up to ~11% and impolite tones worsen it, these effects are neither consistent nor universal ac...",
+      "content": "This paper explores the response of Large Language Models (LLMs) to user prompts with different degrees of politeness and impoliteness. The Politeness Theory by Brown and Levinson and the Impoliteness Framework by Culpeper form the basis of experiments conducted across three languages (English, Hindi, Spanish), five models (Gemini-Pro, GPT-4o Mini, Claude 3.7 Sonnet, DeepSeek-Chat, and Llama 3), and three interaction histories between users (raw, polite, and impolite). Our sample consists of 22,500 pairs of prompts and responses of various types, evaluated across five levels of politeness using an eight-factor assessment framework: coherence, clarity, depth, responsiveness, context retention, toxicity, conciseness, and readability. The findings show that model performance is highly influenced by tone, dialogue history, and language. While polite prompts enhance the average response quality by up to ~11% and impolite tones worsen it, these effects are neither consistent nor universal across languages and models. English is best served by courteous or direct tones, Hindi by deferential and indirect tones, and Spanish by assertive tones. Among the models, Llama is the most tone-sensitive (11.5% range), whereas GPT is more robust to adversarial tone. These results indicate that politeness is a quantifiable computational variable that affects LLM behaviour, though its impact is language- and model-dependent rather than universal. To support reproducibility and future work, we additionally release PLUM (Politeness Levels in Utterances, Multilingual), a publicly available corpus of 1,500 human-validated prompts across three languages and five politeness categories, and provide a formal supplementary analysis of six falsifiable hypotheses derived from politeness theory, empirically assessed against the dataset.",
+      "author": "Hitesh Mehta, Arjit Saxena, Garima Chhikara, Rohit Kumar",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16275v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16275v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Hitesh Mehta",
+          "Arjit Saxena",
+          "Garima Chhikara",
+          "Rohit Kumar"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.2222222222222222,
+      "final_score": 0.4019725918514385
+    },
+    {
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-04-20T00:00:00",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+      "content": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.39502120277232144
+    },
+    {
+      "title": "Chinese tech workers are starting to train their AI doubles\u2013and pushing back",
+      "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-04-20T09:00:00",
+      "summary": "Tech workers in China are being instructed by their bosses to train AI agents to replace them\u2014and it\u2019s prompting a wave of soul-searching among otherwise enthusiastic early adopters.  Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to \u201cdistill\u201d their colleagues\u2019 skills and personality traits and replicate them with an AI agent, went viral on Chinese social media. Though the project was created as a spoof, it struck a nerve among tech workers, a numb...",
+      "content": "Tech workers in China are being instructed by their bosses to train AI agents to replace them\u2014and it\u2019s prompting a wave of soul-searching among otherwise enthusiastic early adopters.  Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to \u201cdistill\u201d their colleagues\u2019 skills and personality traits and replicate them with an AI agent, went viral on Chinese social media. Though the project was created as a spoof, it struck a nerve among tech workers, a number of whom told MIT Technology Review that their bosses are encouraging them to document their workflows in order to automate specific tasks and processes using AI agent tools like OpenClaw or Claude Code.  To set up Colleague Skill, a user names the coworker whose tasks they want to replicate and adds basic profile details. The tool then automatically imports chat history and files from Lark and DingTalk, both popular workplace apps in China, and generates reusable manuals describing that coworker\u2019s duties\u2014and even their unique quirks\u2014for an AI agent to replicate.  Colleague Skill was created by Tianyi Zhou, who works as an engineer at the Shanghai Artificial Intelligence Laboratory. Earlier this week he told Chinese outlet Southern Metropolis Daily that the project was started as a stunt, prompted by AI-related layoffs and by the growing tendency of companies to ask employees to automate themselves. He didn\u2019t respond to requests for further comment. Internet users have found humor in the idea behind the tool, joking about automating their coworkers before themselves. However, Colleague Skill\u2019s virality has sparked a lot of debate about workers\u2019 dignity and individuality in the age of AI. After seeing Colleague Skill on social media, Amber Li, 27, a tech worker in Shanghai, used it to recreate a former coworker as a personal experiment. Within minutes, the tool created a file detailing how that person did their job. \u201cIt is surprisingly good,\u201d Li says. \u201cIt even captures the person\u2019s little quirks, like how they react and their punctuation habits.\u201d With this skill, Li can use an AI agent as a new \u201ccoworker\u201d that helps debug her code and replies instantly. It felt uncanny and uncomfortable, Li says.  Even so,  replacing coworkers with agents could become a norm. Since OpenClaw became a national craze , bosses in China have been pushing tech workers to experiment with agents.  Although AI agents can take control of your computer, read and summarize news, reply to emails, and book restaurant reservations for you, tech workers on the ground say their utility has so far proven to be limited in business contexts. Asking employees to make manuals describing the minutiae of their day-to-day jobs the way Colleague Skill does is one way to help bridge that gap.  Hancheng Cao, an assistant professor at Emory University who studies AI and work, believes that companies have good reasons to push employees to create work blueprints like these, beyond simply following a trend. \u201cFirms gain not only internal experience with the tools, but also richer data on employee know-how, workflows, and decision patterns. That helps companies see which parts of work can be standardized or codified into systems, and which still depend on human judgment,\u201d he says. To employees, though, making agents or even blueprints for them can feel strange and alienating. One software engineer, who spoke with MIT Technology Review anonymously because of concerns about their job security, trained an AI (not Colleague Skill) on their workflow and found that the process felt reductive\u2014as if their work had been flattened into modules in a way that made them easier to replace. On social media, workers have turned to bleak humor to express similar feelings. In one comment on Rednote, a user wrote that \u201ca cold farewell can be turned into warm tokens,\u201d quipping that if they use Colleague Skill to distill their coworkers into tasks first, they themselves might survive a little longer. The push for creating agents has also spurred clever countermeasures. Irritated by the idea of reducing a person to a skill, Koki Xu, 26 an AI product manager in Beijing, published an \u201canti-distillation\u201d skill on GitHub on April 4. The tool, which took Xu about an hour to build, is designed to sabotage the process of creating workflows for agents. Users can choose between light, medium, and heavy sabotage modes depending on how closely their boss is observing the process, and the agent rewrites the material into generic, non-actionable language that would produce a less useful AI stand-in. A video Xu posted about the project went viral, drawing more than 5 million likes across platforms. Xu told MIT Technology Review that she has been following the Colleague Skill trend from the start and that it has made her think about alienation, disempowerment, and broader implications for labor. \u201cI originally wanted to write an op-ed, but decided it would be more useful to make something that pushes back against it,\u201d she says. Xu, who has undergraduate and master\u2019s degrees in law, said the trend also raises legal questions. While a company may be able to argue that work chat histories and materials created on a work laptop are corporate property, a skill like this can also capture elements of personality, tone, and judgment, making ownership much less clear. She said she hopes Colleague Skill prompts more discussion about how to protect workers\u2019 dignity and identity in the age of AI. \u201cI believe it\u2019s important to keep up with these trends so we (employees) can participate in shaping how they are used,\u201d she says. Xu herself is an avid AI adopter, with seven OpenClaw agents set up across her personal and work devices. Li, the tech worker in Shanghai, says her company has not yet found a way to replace actual workers with AI tools, largely because they remain unreliable and require constant supervision. \u201cI don\u2019t feel like my job is immediately at risk,\u201d she says. \u201cBut I do feel that my value is being cheapened, and I don\u2019t know what to do about it.\u201d",
+      "author": "Caiwei Chen",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3897235835944941
+    },
+    {
+      "title": "Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing",
+      "url": "https://arxiv.org/abs/2604.16280v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-04-17T17:41:17",
+      "summary": "Explaining Machine Learning (ML) results in a transparent and user-friendly manner remains a challenging task of Explainable Artificial Intelligence (XAI). In this paper, we present a method to enhance the interpretability of ML models by using a Knowledge Graph (KG). We store domain-specific data along with ML results and their corresponding explanations, establishing a structured connection between domain knowledge and ML insights. To make these insights accessible to users, we designed a selective retrieval method in which relevant triplets are extracted from the KG and processed by a Large Language Model (LLM) to generate user-friendly explanations of ML results. We evaluated our method in a manufacturing environment using the XAI Question Bank. Beyond standard questions, we introduce more complex, tailored questions that highlight the strengths of our approach. We evaluated 33 questions, analyzing responses using quantitative metrics such as accuracy and consistency, as well as qu...",
+      "content": "Explaining Machine Learning (ML) results in a transparent and user-friendly manner remains a challenging task of Explainable Artificial Intelligence (XAI). In this paper, we present a method to enhance the interpretability of ML models by using a Knowledge Graph (KG). We store domain-specific data along with ML results and their corresponding explanations, establishing a structured connection between domain knowledge and ML insights. To make these insights accessible to users, we designed a selective retrieval method in which relevant triplets are extracted from the KG and processed by a Large Language Model (LLM) to generate user-friendly explanations of ML results. We evaluated our method in a manufacturing environment using the XAI Question Bank. Beyond standard questions, we introduce more complex, tailored questions that highlight the strengths of our approach. We evaluated 33 questions, analyzing responses using quantitative metrics such as accuracy and consistency, as well as qualitative ones such as clarity and usefulness. Our contribution is both theoretical and practical: from a theoretical perspective, we present a novel approach for effectively enabling LLMs to dynamically access a KG in order to improve the explainability of ML results. From a practical perspective, we provide empirical evidence showing that such explanations can be successfully applied in real-world manufacturing environments, supporting better decision-making in manufacturing processes.",
+      "author": "Thomas Bayer, Alexander Lohr, Sarah Wei\u00df, Bernd Michelberger, Wolfram H\u00f6pken",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2604.16280v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.16280v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Thomas Bayer",
+          "Alexander Lohr",
+          "Sarah Wei\u00df",
+          "Bernd Michelberger",
+          "Wolfram H\u00f6pken"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.16111111111111112,
+      "final_score": 0.37763950677926583
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-04-14T11:00:00",
+      "end": "2026-04-20T09:00:00"
+    }
+  }
+}
