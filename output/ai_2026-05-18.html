@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 21</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 21 | May 18, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>14</strong> items</span>
+            <span>📰 <strong>5</strong> sources</span>
+            <span>🏆 Top: <strong>OpenAI Blog</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://github.com/MinishLab/semble" target="_blank">Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | May 17
+                     | ⬆️ 402 | 💬 135
+                </div>
+                <p class="story-summary">Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can&amp;#x27;t find something directly, it falls back to grep, reading full files or launching ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://openai.com/index/openai-launches-the-deployment-company" target="_blank">OpenAI launches DeployCo to help businesses build around intelligence</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | May 11
+                    
+                </div>
+                <p class="story-summary">OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/" target="_blank">Fostering breakthrough AI innovation through customer-back engineering</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | May 11
+                    
+                </div>
+                <p class="story-summary">Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research . That’s because most big companies begin with technological capabilities and bolt applications on...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://openai.com/index/databricks" target="_blank">Databricks brings GPT-5.5 to enterprise agent workflows</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | May 15
+                    
+                </div>
+                <p class="story-summary">Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/" target="_blank">Inside Anduril and Meta’s quest to make smart glasses for warfare</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | May 18
+                    
+                </div>
+                <p class="story-summary">The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it’s prototyping with Meta, including a vision for ordering drone strikes via eye-tracking and voice commands. Quay Barnett, who leads the ef...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/" target="_blank">Moving away from Tailwind, and learning to structure my CSS</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 680 | 💬 379</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers" target="_blank">PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend</a></div>
+                <div class="news-meta">Hugging Face Blog | May 18</div>
+                
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/malta-chatgpt-plus-partnership" target="_blank">OpenAI and Malta partner to bring ChatGPT Plus to all citizens</a></div>
+                <div class="news-meta">OpenAI Blog | May 16</div>
+                <div class="news-summary">OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/" target="_blank">Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.</a></div>
+                <div class="news-meta">MIT Technology Review AI | May 15</div>
+                <div class="news-summary">In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on hi...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/personal-finance-chatgpt" target="_blank">A new personal finance experience in ChatGPT</a></div>
+                <div class="news-meta">OpenAI Blog | May 15</div>
+                <div class="news-summary">Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights an...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/" target="_blank">How Chinese short dramas became AI content machines</a></div>
+                <div class="news-meta">MIT Technology Review AI | May 15</div>
+                <div class="news-summary">In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across he...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-05-18 16:28 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

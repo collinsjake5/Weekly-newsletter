@@ -1,0 +1,322 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-05-18T16:28:48.197961",
+    "item_count": 14
+  },
+  "items": [
+    {
+      "title": "Show HN: Semble \u2013 Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-05-17T15:37:07",
+      "summary": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can&#x27;t find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for this, but they were either too slow to index on demand, needed API keys, or had poor retrieval quality.<p>Semble is our solution for this. It combines static Model2Vec embeddings (using our latest static model: potion-code-16M) with BM25, fused via RRF and reranked with code-aware signals. Everything runs on CPU since there&#x27;s no transformers involved. On our benchmark of ~1250 query&#x2F;document pairs across 63 repos and 19 languages, it uses 98% fewer tokens than grep+read and reaches 99% of the retrieval quality of a 137M-parameter code-trained transformer, while being ~200x faster.<p>Main features:<p>- Token-efficient: 98% fewer tokens than grep+read<p>- Fast: ~250ms to index a typical repo on our benchmark, ~1.5ms per query on CPU (very large repos may take longer)<p>- Accurate: 0.854 NDCG@10, 99% of the best transformer setup we tested<p>- MCP server: drop-in for Claude Code, Cursor, Codex, OpenCode<p>- Zero config: no API keys, no GPU, no external services<p>Install in Claude Code with:\nclaude mcp add semble -s user -- uvx --from &quot;semble[mcp]&quot; semble<p>Or check our README for other installation instructions, benchmarks, and methodology:<p>Semble: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;MinishLab&#x2F;semble\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;MinishLab&#x2F;semble</a><p>Benchmarks: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;MinishLab&#x2F;semble&#x2F;tree&#x2F;main&#x2F;benchmarks\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;MinishLab&#x2F;semble&#x2F;tree&#x2F;main&#x2F;benchmarks</a><p>Model: <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;minishlab&#x2F;potion-code-16M\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;minishlab&#x2F;potion-code-16M</a><p>Let us know if you have any feedback or questions!",
+      "content": null,
+      "author": "Bibabomas",
+      "score": 402,
+      "num_comments": 135,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 48169874,
+        "hn_url": "https://news.ycombinator.com/item?id=48169874",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6656032305023936
+    },
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-11T06:00:00",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "content": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "company"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.625
+    },
+    {
+      "title": "Fostering breakthrough AI innovation through customer-back engineering",
+      "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-11T13:33:06",
+      "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research . That\u2019s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed customer experiences; and ultimately, failed transformations. Organizations that...",
+      "content": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research . That\u2019s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed customer experiences; and ultimately, failed transformations. Organizations that achieve outsized results from AI flip the script. They adopt a \u201ccustomer-back engineering\u201d mindset, putting customers at the heart of technology transformation. It\u2019s a strategy in which products and services are developed with the customer experience first in mind, including the customers\u2019 challenges, needs, and expectations. Product development teams then work backward in a nimble and agile way to find the steps necessary to design and build solutions that achieve the desired experience. \u201cWhen you get your engineers closer to customers, you get a lot more sideways innovation,\u201d says Ashish Agrawal, managing vice president of business cards and payments tech at Capital One. \u201cThat leads to a multiplier effect, because engineers can approach a problem from a different dimension that can be unique to the sales or product perspective.\u201d The case for customer-centricity in engineering Engineers are problem-solvers by nature, says Agrawal. When they hear about challenges customers are experiencing, or how they are using products and services in the real world, they can devise ways to efficiently address customer needs, since they are naturally closer to systems and data than many other teams across the company. \u201cFostering a customer-centric culture has a motivational effect on engineers when they actually start seeing how the core changes they\u2019re making, or the features they\u2019re adding, are having a direct impact on the lives of customers,\u201d says Agrawal. It also takes discipline. Agrawal explains that Capital One has set a goal for every engineer in his organization to establish several touchpoints with customers throughout the year in different forms, including: Digital empathy sessions to observe user journeys and identify where users hit friction Embedded customer support for periods of time to deepen understanding of servicing needs Engineering ride-alongs , in which engineers join customer success, sales, and support staff on calls or on-site visits Hackathon competitions to build solutions around real customer problems The AI opportunities with customer-centricity \u201cThe biggest challenge engineers within large companies face is a lack of direct access to customers,\u201d says Agrawal. \u201cThis can make it harder for technologists to work with customers to identify problems and innovate solutions.\u201d AI has accelerated the challenges as well as the opportunities. The lifecycle of launching products has become significantly faster. But the good news is that engineers are closer to the data that feeds into AI, so they can more rapidly apply AI-informed data techniques to solve customer problems. Agrawal outlines a recent scenario: In the customer servicing space, conversations can instantly be summarized and give a customer agent context on the member\u2019s original request and remaining action points. Agentic AI can also be enabled to ask pointed follow-up questions about the interaction that would otherwise take human agents time to read through the entire thread. \u201cA solution would have been a lot harder in an ecosystem without a lot of high-quality data,\u201d says Agrawal. \u201cBut when you combine a rich data ecosystem with agentic tools, you move from incremental fixes to high-velocity transformation.\u201d By investing in AI data and tools and focusing on rapid experimentation, Agrawal says the cycle of deploying solutions can be accelerated. Teams learn that if they meet customer needs and iterate on a wider range of solutions much faster, then the entire innovation cycle speeds up. For example, Capital One used customer insights to build a state-of-the-art, multi-agent AI framework called Chat Concierge to enhance the customer experience for car buyers and dealers. In a single conversation, Chat Concierge can perform tasks like comparing vehicles to help car buyers decide on the best choice and scheduling test drives or appointments with salespeople. Agrawal explains that car buyers can engage with Chat Concierge directly through participating dealer websites. Dealers can access and can take over the chat through Navigator Platform. The AI assistant consists of multiple logical agents that work together to mimic human reasoning, allowing it to provide information and take action based on the customer&#8217;s requests. The elements of an AI-first mindset According to a recent MIT Technology Review Insights survey , 70% of leaders say their firm uses agentic AI to some degree. Roughly half of executives say agentic AI systems are highly capable of improving fraud detection (56%) and security (51%), reducing cost and increasing efficiency (41%), and improving the customer experience (41%). Looking into the future, achieving these outcomes looks even more likely. More than half of the banking executives surveyed say they expect to continue to improve fraud detection (75%), security (64%), and the customer experience (51%). Agentic AI use cases that show strong potential to transform the customer experience in financial services include responding to customer services requests, adjusting bill payments to align with regular paychecks, or extracting key terms and conditions from financial agreements. Placing the customer at the center of a transformation requires an AI-first mindset. Companies must shift from simply augmenting an existing product to fundamentally reimagining the problem and the user&#8217;s needs through the lens of AI&#8217;s capabilities. A few best practices that Agrawal recommends include: Reimagine the core function of AI to solve a user\u2019s problem: \u201cThe true value isn\u2019t in chasing the AI hype; it\u2019s in solving meaningful customer problems. By focusing on impact, we ensure that our innovation isn&#8217;t just fast; it\u2019s transformative,\u201d says Agrawal. Start with high-quality, well-governed data as the foundation: \u201cData readiness and unified information across systems are the non-negotiable foundations of AI. A clean data layer is what orchestrates the agentic loop\u2014 enabling the perception, reasoning, and execution required to solve a customer\u2019s problem before they even have to ask,\u201d explains Agrawal. Rebuild workflows with AI embedded from the start: \u201cPeople treat models as black boxes, but agentic systems require tremendous rigor and oversight. Having a data ecosystem that is well-governed and responsible AI standards are essential pillars for building trust in these systems,\u201d says Agrawal. Build a cross-functional team involving data science, engineering, product, design, and other partners: Agrawal advises, \u201cIt\u2019s important to be open and nimble to transforming how we work and create impact as AI becomes more integrated into workflows. It\u2019s also important to take a \u2018crawl, walk, run approach\u2019 if you are new to AI, as opposed to simply jumping into it.\u201d In the end, achieving end-to-end transformation depends on empowering engineers and partner teams to start with customer needs and work backward to technology solutions, rather than starting with technological capabilities first and finding applications for them. When organizations make a customer-back approach second nature, they are able to not only reimagine the customer experience from the inside out, but to also place the customer front and center from the very start. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.625
+    },
+    {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "url": "https://openai.com/index/databricks",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-15T00:00:00",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "content": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5833333333333334,
+      "final_score": 0.5293332871961806
+    },
+    {
+      "title": "Inside Anduril and Meta\u2019s quest to make smart glasses for warfare",
+      "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-18T16:01:39",
+      "summary": "The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it\u2019s prototyping with Meta, including a vision for ordering drone strikes via eye-tracking and voice commands. Quay Barnett, who leads the efforts as a vice president at Anduril following a career in the Army\u2019s Special Operations Command, says his fundamental goal is to optimize \u201cthe human as a weapons system.\u201d The vision is undoubtedly cyborg-inspired: Barnett wants drones and soldiers t...",
+      "content": "The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it\u2019s prototyping with Meta, including a vision for ordering drone strikes via eye-tracking and voice commands. Quay Barnett, who leads the efforts as a vice president at Anduril following a career in the Army\u2019s Special Operations Command, says his fundamental goal is to optimize \u201cthe human as a weapons system.\u201d The vision is undoubtedly cyborg-inspired: Barnett wants drones and soldiers to see together, share information seamlessly, and make decisions as one.  Anduril actually has two such projects in the works. The first is the Army\u2019s Soldier Born Mission Command, or SBMC, for which the company won a $159 million prototyping contract last year to work with Meta on augmented-reality glasses to attach to existing military helmets. But Anduril has also embarked on a self-funded side quest, announced in October, to design its own helmet and headset combo called EagleEye. This is something the military has not asked for, but Anduril insists it will prefer it and purchase it in the end. So far, both systems are years away. The Army isn&#8217;t expected to move its top choice for the SBMC program into production until 2028, if it picks one at all (the previous lead for the effort, Microsoft, was set to receive a $22 billion production contract that was ultimately cancelled when the glasses didn&#8217;t prove viable). But Barnett told MIT Technology Review about where both Anduril&#8217;s prototypes are headed. Depending on the situation, the glasses for either prototype will overlay certain information onto a soldier\u2019s field of view. This might be as simple as a compass or as complex as an entire map of the area, information about where nearby drones are flying, or AI-driven recognition of a target like a truck. The soldier would then speak to the interface in plain language\u2014for example, to order an evacuation for someone who\u2019s been injured or to plan a route taking into account which areas are off limits. A large language model\u2014Anduril is in tests with Google\u2019s Gemini, Meta\u2019s Llama, and even Anthropic\u2019s Claude, despite the company\u2019s conflict with the Pentagon\u2014will be used to help translate a soldier\u2019s speech into commands the software can follow. And the engine for it all will be Anduril\u2019s software Lattice, which incorporates data from lots of different military hardware into one picture. The Army announced in March that it would spend $20 billion to integrate Lattice with essentially its entire infrastructure. Barnett\u2019s team is designing the headset to carry out multi-step tasks. A soldier might send a drone to surveil an area and instruct it to come back once it\u2019s found something that looks like an artillery unit; then the system would recommend courses of action, like sending a nearby drone to strike, that would have to be approved by the normal chain of command. Leading the system through this, if all goes to plan, might not even require speech; the soldier could instead communicate through tracked eye movements and subtle taps. That\u2019s the idea, anyway. It&#8217;s worked on early prototypes, Barnett says, but there aren\u2019t yet versions ready for the Army to test at scale. The component parts began arriving in March. Because of federal military contracting rules, these parts\u2014unlike Meta\u2019s commercial smart glasses\u2014required new supply chains that don\u2019t rely on Chinese companies. It\u2019s a lot for soldiers already bogged down in information overload, says Jonathan Wong, a former US Marine who works as a senior policy researcher at RAND on Army efforts to buy new tech. Both smart glasses projects aim to create a clean interface that presents only the right information at the right time. But it\u2019s a product that soldiers will reject if it costs more of their attention than it saves. \u201cHow much mental bandwidth do you have to be both aware of your surroundings and to operate this technology in a way that makes you and your whole unit better?\u201d he says. Wong recalls that as a platoon commander, for example, he had a radio that operated on three different channels at once. \u201cThe moment that two people were on different channels talking at the same time, I immediately couldn\u2019t comprehend anything that either one of them was trying to tell me, and I was probably not aware of my own surroundings,\u201d he says. \u201cI think there are limits to what you can take in.\u201d Ideally, Barnett says, smart glasses can ease that information overload. Anduril\u2019s approach is to get creative with ways the user can access necessary information quickly. Voice commands and eye tracking are a piece of that strategy. But even if it\u2019s all technically feasible, it might take years of field testing to know if the system is actually useful for soldiers, Wong says.  Such a system would mark a major escalation in how closely soldiers rely on imperfect AI systems. While computer vision models used to identify objects have long been employed by militaries, and chatbots have recently entered decision-making during the war in Iran, these technologies have not yet made their way to most frontline soldiers. A smart glasses system tasked with identifying threats and recommending strikes would introduce massive new risks of errors.  Anduril is not the only one competing to develop smart goggles for combat. Rivet, which specializes in wearable sensors for the military, received a $195 million prototyping contract the same time, and in March the Israeli defense-tech company Elbit received its own $120 million contract. This all comes after Microsoft lost its role leading the Army\u2019s smart glasses effort, following a Pentagon audit that found the Army wasn&#8217;t properly testing the glasses, a mistake that could have wasted $22 billion. For both Anduril&#8217;s prototypes, the company is testing a new system for digital night vision, which uses electronic sensors and algorithms to boost low levels of light. It\u2019s been a promised technology for decades but has tended to work too slowly for practical use and produce grainy images. Anduril says it has found improvements over previous prototypes through techniques rooted in both new generative AI and older machine learning.  Much of the other hardware for both projects is being built by Meta, including the displays and the waveguides that send visuals to the user\u2019s eye without blocking the view. That might be a surprise to anyone who knows the backstory: In 2017, Facebook (now Meta) ousted Anduril founder Palmer Luckey following an internal conflict involving his support for Donald Trump. The two are now back in the augmented-reality business together, while Mark Zuckerberg has also adopted a friendlier posture toward the second Trump administration. For the Army initiative, this suite of smart glasses, night vision, and sensors will be attached to the helmets and other gear soldiers already wear, with a separate battery pack. The EagleEye version will instead incorporate the tech into the helmet itself. Even if the Army doesn&#8217;t prefer EagleEye in the end, Barnett says, Anduril will attempt to sell the system to foreign militaries. Multiple challenges must still be overcome. Unlike Meta\u2019s Ray-Ban glasses, the prototypes have to operate in an environment full of dust, explosions, and smoke. Adding the computing power and battery life they need also means more weight for soldiers already carrying upwards of 100 pounds. Then the technology has to work in environments without ubiquitous 5G cell connections; powerful computer vision and AI models will need to run locally on the device. For the Army to want to buy it at scale, \u201cit\u2019s got to work, and it\u2019s got to be pretty seamless,\u201d Wong says. \u201cIt\u2019s a high bar.\u201d",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.39681815809350196
+    },
+    {
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-05-18T15:12:46",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.3872018384903274
+    },
+    {
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-05-16T09:14:26",
+      "summary": null,
+      "content": null,
+      "author": "mpweiher",
+      "score": 680,
+      "num_comments": 379,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48158400,
+        "hn_url": "https://news.ycombinator.com/item?id=48158400",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.3847689283401066
+    },
+    {
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-16T00:00:00",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "content": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.35298408088839284
+    },
+    {
+      "title": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other\u2019s credibility. Now the jury will pick a side.",
+      "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-15T23:39:35",
+      "summary": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk\u2019s and OpenAI CEO Sam Altman\u2019s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who wanted to control the development of artificial general intelligence (AGI)\u2014powerful AI that can compete with humans on most cognitive tasks.  As evidence of their commitment to AI safety, OpenAI brough...",
+      "content": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk\u2019s and OpenAI CEO Sam Altman\u2019s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who wanted to control the development of artificial general intelligence (AGI)\u2014powerful AI that can compete with humans on most cognitive tasks.  As evidence of their commitment to AI safety, OpenAI brought out a golden trophy of a donkey\u2019s ass that was gifted to an employee after he was called a \u201cjackass\u201d for standing up to Musk\u2019s plans to race toward AGI.  Lawyers for both sides also presented their closing arguments, floating unflattering mugshot-style photos of Musk and Altman next to each other on a giant screen. Musk\u2019s lawyer Steven Molo argued that Altman and OpenAI president Greg Brockman broke their promise to use money Musk donated to maintain OpenAI as a nonprofit that develops AI for the benefit of humanity. Instead, they created a for-profit subsidiary that made them extraordinarily wealthy. OpenAI\u2019s lawyer Sarah Eddy argued that Altman and Brockman never promised to keep OpenAI a nonprofit. She added that even though it\u2019s been restructured, OpenAI remains a nonprofit dedicated to developing AI safely. She claimed that Musk sued too late\u2014and that his real motive is to sabotage a competitor to his own AI company, xAI, which he launched in 2023.  Musk is asking the court to unwind the 2025 restructuring that converted OpenAI\u2019s for-profit subsidiary into a public benefit corporation and to remove Altman and Brockman from their roles. He is also seeking as much as $134 billion in damages from OpenAI and Microsoft, to be awarded to OpenAI\u2019s nonprofit.  The jury will begin deliberating on Monday and deliver an advisory verdict as soon as next week. The jury verdict is not binding on the judge, who will decide the case. If the judge rules in Musk\u2019s favor, it could upend OpenAI\u2019s race toward an IPO at a valuation approaching $1 trillion. Meanwhile, xAI is expected to go public as a part of Musk\u2019s rocket company SpaceX as early as June, at a target valuation of $1.75 trillion . Musk the power-seeker, Altman the liar. In the first week of the trial, Musk said he was suing to save OpenAI\u2019s mission to build AI safely for the benefit of humanity. This week, Altman denied Musk was a paladin of AI safety and painted him as a power-seeker who wanted to control OpenAI.  Altman told the jury that in 2017, when Musk and other cofounders were discussing creating a for-profit arm, they asked Musk what would happen to his control over such an entity if he died. \u201cMaybe the control of OpenAI should pass to my children,\u201d Musk said, according to Altman. Musk\u2019s lawyer shot back, grilling Altman on his alleged history of lying . He pointed out that OpenAI\u2019s former executives Ilya Sutskever and Mira Murati, and former board members Helen Toner and Tasha McCauley, all testified that Altman had lied to them. In 2023, Altman was briefly fired as CEO over the alleged behavior. Molo also pressed Altman about his personal investments in startups that do business with OpenAI. Altman testified that he tried to steer OpenAI to buying power from the nuclear energy company Helion Energy, a third of which he owns. (Last Friday, the US House oversight committee launched an investigation into Altman\u2019s potential conflicts of interest. Attorneys general from more than a half-dozen states called for the Securities and Exchange Commission to review them.) During his closing statement, Molo put Altman\u2019s credibility on the stand again. \u201cImagine that you\u2019re on a hike, and you come upon one of those wooden bridges that you see on a trail, and it\u2019s over a gorge,\u201d he said. \u201cA woman standing by the entry to the bridge says, \u2018Don\u2019t worry\u2014the bridge is built on Sam Altman\u2019s version of the truth.\u2019 Would you walk across that bridge?\u201d Altman, who sat behind his lawyers, looked up uneasily every time his name was mentioned.  During her closing argument, Eddy fired back. Musk \u201cnever cared about the nonprofit structure,\u201d she said. \u201cWhat he cared about was winning.&#8221;  Musk, though, was absent. Despite the judge\u2019s order that he remain available, he flew to China with President Trump. Did Altman promise to keep OpenAI a nonprofit? During her closing argument, Eddy argued that no testimony or evidence showed any conditions on Musk\u2019s donations, or any promises made by Altman and Brockman to keep the company a nonprofit. \u201cNo commitments or promises were made. No restrictions were placed on Mr. Musk\u2019s donations,\u201d she said. Eddy added that it was evident Musk wasn\u2019t truly committed to keeping OpenAI a nonprofit. She noted that in 2017, he tried to create a for-profit subsidiary and fought a bitter battle with Altman and Brockman to have control over it. \u201cI was not opposed to there being a small for-profit that provides funding to the nonprofit,\u201d Musk told the jury earlier in the trial, \u201cas long as the tail didn\u2019t wag the dog.\u201d  Eddy then argued that Musk sued too late, filing in 2024 after the statutes of limitations on his claims ran out. In 2019, OpenAI created a for-profit subsidiary, under which employees and investors received a capped return on their investment.  But Musk testified that he discovered OpenAI had abandoned its nonprofit mission only in 2022, when Microsoft was preparing to invest $10 billion in OpenAI\u2014a deal that closed in 2023. \u201cI was disturbed to see OpenAI with a $20B valuation,\u201d he texted Altman after reading the news. \u201cThis is a bait and switch.\u201d Musk told the jury that the $20 billion valuation made him realize \u201cthe for-profit is the tail wagging the dog.\u201d  \u201cThe 2023 deal was different,\u201d Molo hammered home during his closing argument. Is OpenAI still a nonprofit committed to its mission? A central question raised in the last week of trial was whether OpenAI remains a nonprofit committed to developing AGI safely for the benefit of humanity. Eddy, the OpenAI lawyer, argued that the nonprofit still controls the for-profit and seeks to \u201chelp AGI turn out well for humanity.\u201d \u201cThe OpenAI nonprofit is the best-resourced nonprofit in the world,\u201d thanks to the for-profit, she added. Molo countered that while the OpenAI\u2019s nonprofit nominally controls the company, it does not do so in practice. OpenAI\u2019s nonprofit and for-profit are controlled by the same people\u2014seven of the nonprofit\u2019s eight board members are on the for-profit\u2019s board. The nonprofit hired employees only a month before the trial started and does work only in grant-making rather than AI research.  Molo played a video interview of Altman saying that the nonprofit board\u2019s failure to fire him in 2023 was \u201cits own kind of governance failure.&#8221; \u201cWe\u2019re left with this nonprofit that doesn\u2019t have any voice,\u201d Jill Horwitz, a law professor at Northwestern University who studies nonprofits, told MIT Technology Review . \u201cIt doesn\u2019t have much money, and OpenAI doesn\u2019t think it has any obligation to fund it. It barely has a staff,\u201d she says. \u201cIt\u2019s unclear how on earth the nonprofit is supposed to exercise its duties and control the entire company.\u201d  Civil society groups and policymakers have spoken out against OpenAI\u2019s restructuring over the years. So has Musk, although his own stake in the AI race makes him a dubious champion for the public interest.  \u201cThe public interest in the nonprofit loses, no matter who wins or loses this trial,\u201d says Horwitz. Jackass for AI safety Despite US District Judge Yvonne Gonzalez Rogers\u2019s warning during the first week that this trial was not about AI safety, the issue stole the show again. Throughout the trial, the lawyers from both sides traded barbs over the safety track records of ChatGPT (which has allegedly caused teen suicides ) and Grok (which has flooded X with porn ).   On the last day of testimony, OpenAI\u2019s lawyer Bradley Wilson handed the judge a small golden trophy of a donkey\u2019s ass, inscribed: \u201cNever stop being a jackass for safety.\u201d  The trophy belonged to Joshua Achiam, OpenAI\u2019s chief futurist. He testified that he\u2019d warned, when Musk announced in 2018 that he was leaving OpenAI to race toward building AGI, that speed could compromise safety. Musk snapped and called him a \u201cjackass,\u201d said Achiam. His colleagues, including Dario Amodei, now CEO of Anthropic, gave him the trophy to enshrine the diss. \u201cI don\u2019t want it,\u201d said the judge. The shenanigans spilled out into the street too. In front of the Oakland courthouse, a protester paraded around wearing a costume of Musk holding a bag of ketamine and driving a Cybertruck. Another held a photo of Sam Altman and a poster reading, \u201cStop AGI or we\u2019re all gonna die.\u201d",
+      "author": "Michelle Kim",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.35045803902579364
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-15T00:00:00",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "content": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.32933328721205357
+    },
+    {
+      "title": "How Chinese short dramas became AI content machines",
+      "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-15T09:00:00",
+      "summary": "In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across her body, fusing with her flesh. She levitates, then drops. A dragon-shaped tattoo appears across her chest. \u201cTwo months,\u201d the man says. \u201cGive me an heir, or I will eat you.\u201d The scene is from Carrying the Dragon King\u2019s Baby , one of the many hundreds of short dramas that appear on apps like DramaWave and ReelShort. There\u2019s just something about this ...",
+      "content": "In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across her body, fusing with her flesh. She levitates, then drops. A dragon-shaped tattoo appears across her chest. \u201cTwo months,\u201d the man says. \u201cGive me an heir, or I will eat you.\u201d The scene is from Carrying the Dragon King\u2019s Baby , one of the many hundreds of short dramas that appear on apps like DramaWave and ReelShort. There\u2019s just something about this one that isn\u2019t quite right. The lighting may be glossy and cinematic, but the show has an odd visual texture like something between a movie and a video game cutscene.  That\u2019s because Carrying the Dragon King\u2019s Baby is part of a new trend for making these shows entirely with AI: no actors, camera operators, cinematographers, or CGI specialists required. China\u2019s short drama industry has boomed since its launch, in 2018. These ultrashort, melodramatic, and often smutty shows are designed for smartphone viewing, with episodes often running just one or two minutes long: Viewers can finish an entire series in as little as 30 minutes to an hour. The films are made for endless scrolling, packed with emotional confrontations and melodramatic plot twists. The trend\u2019s growth is driven by apps that bombard TikTok, Instagram, and Facebook with cliffhanger-heavy ads designed to lure viewers into buying subscriptions. In 2024, China\u2019s short drama market reached roughly $6.9 billion in revenue, surpassing the country\u2019s annual box office earnings for the first time.  Since 2022, Chinese short drama companies have aggressively expanded overseas, translating existing hits and producing localized series featuring local actors. Globally, short drama apps have approached a billion cumulative downloads. The United States is the biggest market outside of China, providing around 50% of the revenue, according to research firm DataEye. Now the industry is reinventing itself. Chinese short drama companies\u2014already masters of low-budget, algorithmically optimized entertainment\u2014are embracing generative AI to produce content faster and cheaper than ever. An average of 470 AI-generated short dramas were released every day in January, according to DataEye. Short-drama companies like Kunlun Tech are ramping up AI productions, shrinking film crews, and reorganizing the labor pipeline from the ground up. For some studios, AI has moved from being a supporting tool to providing the backbone of production itself. Infinite stories, infinite tropes Short dramas are already famously low-budget. But AI has made them dramatically cheaper to mass-produce, helping to accelerate the entire process\u2014and save money. Production timelines have collapsed. Conceptualization, script writing, casting, shooting, and editing used to take three to four months. With AI, the process can now take less than a month, says Tang Tang, vice president at short-drama platform FlexTV. Producing a short drama in North America once cost roughly $200,000, but AI can cut that cost by 80% to 90%, according to Tang. After expanding into the US market, Chinese short drama companies largely followed the same playbook they used in China: Buy traffic aggressively on TikTok, Facebook, and YouTube; offer a handful of free episodes; then charge viewers to unlock the rest inside the companies\u2019 apps. Decisions about what to produce next are often driven less by creative instinct than by performance data. \u201cWe look at what themes, plotlines, and writers resonate with audiences, then quickly adjust,\u201d says Tang. The industry operates at a relentless pace. \u201cEveryone expects quick returns,\u201d Tang says. \u201cIn China, if a series doesn\u2019t break even within a month, the industry considers it a failure.\u201d  As a result, screenwriters who spoke with MIT Technology Review said platforms often categorize projects using highly specific keywords that encompass everything from genre and setting to plot structure, such as \u201ccampus romance,\u201d \u201cgang rivalry,\u201d \u201cenemies to lovers,\u201d or \u201crags to riches.\u201d Recently, one of the most popular genres has been \u201creborn revenge,\u201d a fantasy trope in which a wronged protagonist is miraculously reborn and given a chance to change their fate. \u201cYou kind of have to keep the emotional intensity extremely high throughout the show, using the same plot devices over and over again: sudden deaths, betrayals, physical violence, huge confrontations,\u201d says Phoenix Zhu, a freelance short drama screenwriter based in Suzhou. \u201cIt\u2019s common to sacrifice narrative logic for shock value, because otherwise people are more likely to scroll away.\u201d Those simple tropes have made the format particularly compatible with AI-generated production. Earlier this year, FlexTV halted all traditionally shot productions and shifted entirely to AI-generated dramas. Kunlun Tech, the parent company of drama apps DramaWave and FreeReels, began producing AI-generated short dramas in 2025 and now offers more than 1,000 AI titles on its platforms. StoReels, another popular short drama company targeting a global audience, has said it aims to produce 100 AI-generated dramas per month. \u201cPeople\u2019s attention spans are getting shorter, and serialized drama naturally has to get shorter,\u201d says Han \u201cDaniel\u201d Fang, the CEO of Kunlun Tech. Fang told MIT Technology Review that the company is not going to stop investing in traditionally shot short dramas with real actors. But the company is expanding AI-generated productions and gradually increasing their share on its platforms as a low-cost way to experiment with new genres, themes, and ideas. \u201cWe want to bring the amount of AI work to 20% of the platform,\u201d Fang says. The format is also rapidly growing overseas. Research firm Omdia estimates that the global microdrama market reached $11 billion in 2025 and will grow to $14 billion by the end of 2026. The United States is expected to generate $1.5 billion in revenue in that market this year. \u201cNo one comes to short dramas expecting high art,\u201d says investor Shangguan Hong, former partner of Legend Capital. \u201cThe short-drama industry already stands out from traditional TV and filmmaking by being real-time and data-driven. AI only furthers that logic. In a sense, short drama is perfectly compatible with AI.\u201d Inside the content machine The industry\u2019s AI revolution is already changing the type of roles required to make short dramas.  Phoenix Zhu graduated from college in 2024 with a degree in philosophy. After months of rejections from traditional media and film studios, she eventually found work writing scripts for short dramas. \u201cIt was a very difficult job market for young people,\u201d Zhu says. \u201cI couldn\u2019t afford to be picky about what I wrote.\u201d To support herself, Zhu worked a string of part-time jobs, including as a barista, a flower seller, and an event coordinator, while taking freelance writing gigs online for advertising and education companies. In April 2025, she sold her first short-drama script for around 20,000 yuan (approximately $2,945). More commissions followed, and she thought her career was finally beginning to pick up. Then AI arrived. Two projects already in the contract stage were abruptly canceled, Zhu says. Rates across the industry began falling. The raises she expected as she gained more experience never materialized.  Still, writers like Zhu have been among the less disrupted workers in the industry. Many production roles on traditional filming sets have disappeared almost entirely from AI-generated productions. \u201cWe could shrink the production team down to around 10 people,\u201d says Tang, vice president at FlexTV. Like many companies in the industry, FlexTV relies primarily on Chinese writers and production teams, even for shows featuring non-Chinese characters and targeting overseas audiences. The reason is not just lower costs, Tang says, but also that Chinese writers better understand the pacing and narrative rhythm of short dramas. Instead of camera crews, lighting technicians, makeup artists, and visual effects teams, AI productions now rely on smaller groups consisting largely of producers, writers, AI directors, and \u201cAI asset curators.\u201d An AI asset curator translates scripts into prompts and generates reference images of characters, costumes, and scenes for AI video models to follow. MIT Technology Review found hundreds of job listings for the role on Chinese job sites, many requiring little prior industry experience beyond familiarity with AI tools. \u201cThe technology has improved enormously just in the past few months,\u201d says Hanzhong Bai, an AI short-drama producer based in Beijing. Bai says it is common for AI asset curators to use prompts like \u201ccombine the faces of these celebrities I like\u201d when generating characters. Studios typically use a mix of tools, including Google\u2019s image-generation model Nano Banana, ByteDance\u2019s Seedance, and Kuaishou\u2019s Kling. For producers like Bai, AI also makes it economically viable to produce genres that were previously too expensive for short dramas, especially fantasy series requiring elaborate visual effects, costumes, or makeup. \u201cWe\u2019ll see many more dragon and mermaid shows for exactly this reason,\u201d Bai says. The compressed production cycle has also changed the writing process itself. Writers once had two to three months to finish a script. Now, Zhu says, platforms often expect delivery within a month. Scripts can also be rougher and more flexible, since scenes, visuals, and even plot details can be changed later through prompts. As a result, writers increasingly have to write for AI models as much as for human audiences. Zhu says she now has to describe scenes with far greater visual specificity, effectively taking on responsibilities once handled by cinematographers or visual effects teams. \u201cBefore AI, writing \u2018He gave her a cold stare\u2019 might have been enough,\u201d Zhu says. \u201cNow I might need to write, \u2018Cold beams of light shot out from his eyes.\u2019\u201d Fang of Kunlun Tech believes the future quality of AI-generated short dramas is ultimately a numbers game. \u201cGood ideas and good writing still stand out,\u201d Fang says. \u201cThe quality [of AI short drama] will improve simply because more people with strong ideas will be able to make their shows.\u201d",
+      "author": "Caiwei Chen",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.32403566797842265
+    },
+    {
+      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
+      "url": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-14T13:00:00",
+      "summary": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: \u201cCapability now, control later.\u201d Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely on are only as durable as the provider\u2019s next policy update. Now, with generative AI established in everyday business operations and sophistica...",
+      "content": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: \u201cCapability now, control later.\u201d Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely on are only as durable as the provider\u2019s next policy update. Now, with generative AI established in everyday business operations and sophisticated new agentic AI systems advancing every day, companies are reevaluating the terms of that deal. \u201cData is really a new currency; it\u2019s the IP for many companies,\u201d says Kevin Dallas, CEO of EDB, echoing a recurrent anxiety from customers. \u201cThe big concern is, if you\u2019re deploying an AI-infused application with a cloud-based large language model, are you losing your IP? Are you losing your competitive position?\u201d DOWNLOAD THE REPORT That question is now fueling a movement toward reclaiming both the data and AI systems that have rapidly become part of core business infrastructure. AI and data sovereignty, which refers to breaking dependence on centralized providers and establishing genuine control over models and data estates, it is an urgent priority for many companies, says Dallas, citing internal EDB data: \u201c70% of global executives believe they need a sovereign data and AI platform to be successful.\u201d The idea of AI sovereignty is becoming a global policy conversation. NVIDIA CEO Jensen Huang recently spoke about the need for such a shift at the World Economic Forum\u2019s annual meeting at Davos in January 2026: \u201cI really believe that every country should get involved to build AI infrastructure, build your own AI, take advantage of your fundamental natural resource\u2014which is your language and culture\u2014develop your AI, continue to refine it, and have your national intelligence be part of your ecosystem.\u201d This report explores how enterprises are pursuing sovereignty over their models and data estates in an era of rapid AI adoption. Drawing on a survey conducted by EDB of more than 2,050 senior executives and a series of interviews with industry experts, the research confirms that the sovereignty movement on the enterprise level is already well underway. Download the report. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07592592592592594,
+      "final_score": 0.3165488954601521
+    },
+    {
+      "title": "How business operations teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-15T00:00:00",
+      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "content": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "openai academy"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.31155550945114086
+    },
+    {
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-05-11T06:00:00",
+      "summary": "This week, the new, AI-powered Google Finance is launching across Europe, with full local language support. This reimagined experience offers a suite of powerful capabil\u2026",
+      "content": "This week, the new, AI-powered Google Finance is launching across Europe, with full local language support. This reimagined experience offers a suite of powerful capabil\u2026",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "search",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03148148148148148,
+      "final_score": 0.2375925925925926
+    }
+  ],
+  "summary": {
+    "sources": 5,
+    "top_source": "OpenAI Blog",
+    "date_range": {
+      "start": "2026-05-11T06:00:00",
+      "end": "2026-05-18T16:01:39"
+    }
+  }
+}
