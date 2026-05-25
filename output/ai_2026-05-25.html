@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 22</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 22 | May 25, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight" target="_blank">SpaceX launches Starship v3 rocket</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | May 22
+                     | ⬆️ 436 | 💬 303
+                </div>
+                <p class="story-summary">&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.nbcnews.com&amp;#x2F;now&amp;#x2F;video&amp;#x2F;spacex-successfully-launches-prototype-of-starship-rocket-263835205505&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.nbcnews.com&amp;#x2F;now&amp;#x2F;video&amp;#x2F;spacex-successfully-launch...&lt;/a&gt; [v...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2605.23904v1" target="_blank">SkillOpt: Executive Strategy for Self-Evolving Agent Skills</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | May 22
+                    
+                </div>
+                <p class="story-summary">Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedba...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/" target="_blank">Google I/O showed how the path for AI-driven science is shifting</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | May 22
+                    
+                </div>
+                <p class="story-summary">During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rap...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2605.23826v1" target="_blank">Decomposing Queries into Tool Calls for Long-Video Keyframe Retrieval</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | May 22
+                    
+                </div>
+                <p class="story-summary">Keyframe selection is a direct way to provide verifiable visual evidence for long-video question answering (QA). Queries differ in what they require, and finding the right frames depends on knowing what to look for. Existing keyframe selectors either...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2605.23902v1" target="_blank">PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | May 22
+                    
+                </div>
+                <p class="story-summary">Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the generated latents back to pixels. Yet the latent-to-pixel decoder is reco...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2605.23901v1" target="_blank">LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws</a></div>
+                <div class="paper-author">Xu Ouyang, Deyi Liu, Yuhang Cai, Jing Liu, Yuan Yang...</div>
+                <div class="paper-summary">Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced ...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2605.23872v1" target="_blank">Training-Free Looped Transformers</a></div>
+                <div class="paper-author">Lizhang Chen, Jonathan Li, Chen Liang, Ni Lao, Qiang Liu</div>
+                <div class="paper-summary">We introduce training-free looped transformers, in which a lightweight inference-time wrapper loops a contiguous mid-stack block of layers of a frozen checkpoint without additional fine-tuning, contin...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2605.23892v1" target="_blank">Good Token Hunting: A Hitchhiker&#39;s Guide to Token Selection for Visual Geometry Transformers</a></div>
+                <div class="paper-author">Shuhong Zheng, Michael Oechsle, Erik Sandström, Marie-Julie Rakotosaona, Federico Tombari...</div>
+                <div class="paper-summary">Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computati...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2605.23903v1" target="_blank">Geo-Align: Video Generation Alignment via Metric Geometry Reward</a></div>
+                <div class="paper-author">Zizun Li, Haoyu Guo, Runzhe Teng, Chunhua Shen, Tong He</div>
+                <div class="paper-summary">Camera-controlled video generation has achieved remarkable progress in recent years. However, existing video-to-video re-rendering methods primarily rely on Supervised Fine-Tuning using synthetic data...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2605.23857v1" target="_blank">Strong Teacher Not Needed? On Distillation in LLM Pretraining</a></div>
+                <div class="paper-author">Taiming Lu, Zhuang Liu</div>
+                <div class="paper-summary">Knowledge distillation generally assumes a strong-to-weak relationship where stronger teachers yield better students. In this work, we examine this assumption about distillation in large language mode...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://api-docs.deepseek.com/quick_start/pricing" target="_blank">DeepSeek makes the V4 Pro price discount permanent</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 595 | 💬 534</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/" target="_blank">Gemini 3.5: frontier intelligence with action</a></div>
+                <div class="news-meta">Google AI Blog | May 19</div>
+                <div class="news-summary">At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/introducing-openai-for-singapore" target="_blank">Introducing OpenAI for Singapore</a></div>
+                <div class="news-meta">OpenAI Blog | May 19</div>
+                <div class="news-summary">OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/" target="_blank">Anthropic’s Code with Claude showed off coding’s future—whether you like it or not</a></div>
+                <div class="news-meta">MIT Technology Review AI | May 21</div>
+                <div class="news-summary">The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Goog...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/" target="_blank">Roundtables: Can AI Learn to Understand the World?</a></div>
+                <div class="news-meta">MIT Technology Review AI | May 21</div>
+                <div class="news-summary">Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recen...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-05-25 15:53 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

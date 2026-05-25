@@ -1,0 +1,661 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-05-25T15:53:52.350202",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "SpaceX launches Starship v3 rocket",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-05-22T23:41:55",
+      "summary": "<a href=\"https:&#x2F;&#x2F;www.nbcnews.com&#x2F;now&#x2F;video&#x2F;spacex-successfully-launches-prototype-of-starship-rocket-263835205505\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nbcnews.com&#x2F;now&#x2F;video&#x2F;spacex-successfully-launch...</a> [video]",
+      "content": null,
+      "author": "busymom0",
+      "score": 436,
+      "num_comments": 303,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48242959,
+        "hn_url": "https://news.ycombinator.com/item?id=48242959",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6416334650306672
+    },
+    {
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "url": "https://arxiv.org/abs/2605.23904v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-05-22T17:59:50",
+      "summary": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta update make skill training stable while adding zero inference-time model calls at deployment. Across six benchmarks, seven target models, and three execution harnesses (direct chat, Codex, Claude Code),...",
+      "content": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta update make skill training stable while adding zero inference-time model calls at deployment. Across six benchmarks, seven target models, and three execution harnesses (direct chat, Codex, Claude Code), SkillOpt is best or tied on all 52 evaluated (model, benchmark, harness) cells and beats every per-cell competitor among human, one-shot LLM, Trace2Skill, TextGrad, GEPA, and EvoSkill skills. On GPT-5.5 it lifts the average no-skill accuracy by +23.5 points in direct chat, by +24.8 inside the Codex agentic loop, and by +19.1 inside Claude Code. Transfer experiments further show that optimized skill artifacts retain value when moved across model scales, between Codex and Claude Code execution environments, and to a nearby math benchmark without further optimization.",
+      "author": "Yifan Yang, Ziyang Gong, Weiquan Huang, Qihao Yang, Ziwei Zhou...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23904v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23904v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Yifan Yang",
+          "Ziyang Gong",
+          "Weiquan Huang",
+          "Qihao Yang",
+          "Ziwei Zhou",
+          "Zisu Huang",
+          "Yan Li",
+          "Xuemei Gao",
+          "Qi Dai",
+          "Bei Liu",
+          "Kai Qiu",
+          "Yuqing Yang",
+          "Dongdong Chen",
+          "Xue Yang",
+          "Chong Luo"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.587037037037037,
+      "final_score": 0.5474035232131284
+    },
+    {
+      "title": "Google I/O showed how the path for AI-driven science is shifting",
+      "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-22T10:00:00",
+      "summary": "During Tuesday\u2019s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently \u201cstanding in the foothills of the singularity.\u201d It was a striking statement\u2014the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the audience was the context in which he said those words.  He was on stage to close out the session with a segment on scientific AI, the cente...",
+      "content": "During Tuesday\u2019s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently \u201cstanding in the foothills of the singularity.\u201d It was a striking statement\u2014the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the audience was the context in which he said those words.  He was on stage to close out the session with a segment on scientific AI, the centerpiece of which was a video detailing how the company\u2019s weather prediction software provided an advance alert about Hurricane Melissa\u2019s catastrophic landfall in Jamaica last year\u2014and potentially saved lives. If that software, called WeatherNext, helped anyone escape the storm or better fortify their home, that\u2019s an enormous and meaningful achievement. But it\u2019s hardly evidence of an impending singularity. The juxtaposition of Hassabis\u2019 lofty rhetoric with the real-world results of WeatherNext highlighted the tension between two very different approaches to AI for science. The first focuses on AI tools, like WeatherNext, that are designed and trained to solve specific scientific problems. The second is agentic, LLM-based systems that could one day execute cutting-edge research projects without human involvement. This second vision powers a great deal of AI enthusiasm right now, including recent excitement around recursive self-improvement , or the idea that AI systems could eventually become the primary drivers of AI advancement\u2014a process that would get faster and faster as the AI systems grow smarter. And agentic systems are now making real research contributions , sometimes with limited human guidance. Just this week, Pushmeet Kohli, Google Cloud\u2019s chief scientist, published a piece in a special AI and science issue of the journal Daedalus , writing: \u201cWe are moving toward AI that doesn\u2019t just facilitate science but begins to do science.\u201d With autonomous AI scientists on the horizon, it\u2019s harder to justify massive efforts to develop super-specialized tools\u2014even one like AlphaFold, for which DeepMind scientists won a Nobel Prize, or a potentially life-saving system like WeatherNext. It also heralds a far stranger future for science, in which humans and AI systems collaborate as peers\u2014or AI even makes scientific progress on its own. To be clear, Google does not appear to be abandoning its work on specialized AI for science tools. AlphaGenome and AlphaEarth Foundations, which are trained for genetics and Earth science applications respectively, were released last summer, and the newest version of WeatherNext came out in November. What\u2019s more, such tools remain extremely popular among scientists. Last year, for instance, Google reported that protein structure predictions from AlphaFold have been used by over three million researchers worldwide. And Isomorphic Labs, a Google subsidiary that aims to use AlphaFold and related technologies to develop new drugs, just raised a $2 billion Series B funding round. But there are concrete signs of realignment, in both enthusiasm and resources. Last month, the Los Angeles Times reported that Google fellow John Jumper, who won the Nobel for AlphaFold, is now working on AI coding, not on science-specific AI tools. It\u2019s not surprising that Google is assigning its best minds to the coding problem, as the company has recently taken a reputational hit because its coding tools don\u2019t currently stand up to those offered by Anthropic and OpenAI. But it may also signal a prioritization of agentic science on Google\u2019s part, as coding abilities are key to the success of some of those systems.  Across the industry, agentic researcher systems are showing real potential. This week, OpenAI announced that one of their models had disproved an important mathematics conjecture\u2014perhaps the most meaningful contribution that generative AI has made to mathematics so far, according to some mathematicians . Importantly, the model used by OpenAI is not specialized for solving mathematical problems, or even for research; according to the company, it\u2019s a general-purpose reasoning model in the vein of GPT-5.5. If general agents can make independent contributions to mathematical research, they might soon be able to do the same in science (though the fact that ideas in science must be verified experimentally makes it a tougher domain for AI). Google is certainly devoting a lot of attention toward an agent-driven scientific future. The big scientific announcement at I/O was the new Gemini for Science package, which unites several of the company\u2019s LLM-based scientific systems under one brand. This includes the hypothesis-generating AI Co-Scientist and algorithm-optimizing AlphaEvolve, which are still not publicly available\u2014but as Google is now allowing any researcher to apply for access to Gemini for Science, they may soon see wider adoption in the scientific community. Scientists who were involved in early testing are enthusiastic about their potential: Gary Peltz, a Stanford geneticist, compared using the AI Co-Scientist to \u201cconsulting the oracle of Delphi\u201d in a Nature Medicine article . Gemini for Science isn\u2019t incompatible with specialized tools; to the contrary, agentic systems can be designed to call on such tools when they might be useful. And no agentic system can predict the structure that a protein will fold into without AlphaFold\u2019s help (at least not yet). But the company seems to be shifting its public image\u2014and at least some resources and personnel, such as Jumper\u2014away from specifically developing those kinds of tools. Though it has only been five years since AlphaFold solved the protein-folding problem, both the technology and the discourse have quickly moved beyond that once-revolutionary achievement. Google has been careful to position this new set of scientific agents as an accelerant for human scientists, rather than a replacement for them\u2014the choice of the name AI Co-Scientist as opposed to AI Scientist, for instance, appears quite deliberate. Hassabis uses that same human-centric framing when he talks about changes in the landscape of scientific AI. \u201cFor the next decade or so, we should think about AI as this amazing tool to help scientists,\u201d Hassabis said in an interview published in the Daedalus issue. \u201cBeyond that timeframe, it is hard to say with any certainty, but perhaps these systems will become more like collaborators.\u201d But no one can be an effective scientific collaborator without also being a skilled scientist in their own right. And if Hassabis is anywhere near the mark when he talks about the \u201cfoothills of the singularity,\u201d then AI scientists could eventually exceed the capabilities of their human counterparts. In a discussion with the journalist Mike Allen at I/O, Hassabis spoke of how he was initially inspired to pursue AI when he observed how progress in physics had stagnated since the 1970s; he wondered whether the human mind had reached its limits in that domain, and if AI could help to overcome that barrier. Superhuman agentic scientists would certainly fit that bill. We might not ever get anywhere near there, but Google seems to be aiming itself toward that summit.",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5888888888888889,
+      "final_score": 0.5410038863415179
+    },
+    {
+      "title": "Decomposing Queries into Tool Calls for Long-Video Keyframe Retrieval",
+      "url": "https://arxiv.org/abs/2605.23826v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-22T16:29:51",
+      "summary": "Keyframe selection is a direct way to provide verifiable visual evidence for long-video question answering (QA). Queries differ in what they require, and finding the right frames depends on knowing what to look for. Existing keyframe selectors either score every frame against a single query, or decompose the query into a fixed schema evaluated by a single visual tool. We propose ToolMerge, a keyframe retrieval method based on decomposition and merging: an Large Language Model (LLM) based planner decomposes the query into tool calls and specifies how their per-tool rankings are merged using boolean operators. To evaluate retrieval directly, we construct Molmo-2 Moments (M2M), a benchmark in which every question is anchored to a specific time interval by construction. Across QA, question retrieval, and caption retrieval, ToolMerge is competitive with prior keyframe selectors, most notably on caption retrieval, outperforming other methods by 5%. Code and data can be found at https://githu...",
+      "content": "Keyframe selection is a direct way to provide verifiable visual evidence for long-video question answering (QA). Queries differ in what they require, and finding the right frames depends on knowing what to look for. Existing keyframe selectors either score every frame against a single query, or decompose the query into a fixed schema evaluated by a single visual tool. We propose ToolMerge, a keyframe retrieval method based on decomposition and merging: an Large Language Model (LLM) based planner decomposes the query into tool calls and specifies how their per-tool rankings are merged using boolean operators. To evaluate retrieval directly, we construct Molmo-2 Moments (M2M), a benchmark in which every question is anchored to a specific time interval by construction. Across QA, question retrieval, and caption retrieval, ToolMerge is competitive with prior keyframe selectors, most notably on caption retrieval, outperforming other methods by 5%. Code and data can be found at https://github.com/michalsr/ToolMerge .",
+      "author": "Michal Shlapentokh-Rothman, Prachi Garg, Yu-Xiong Wang, Derek Hoiem",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CV",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23826v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23826v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Michal Shlapentokh-Rothman",
+          "Prachi Garg",
+          "Yu-Xiong Wang",
+          "Derek Hoiem"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5462962962962963,
+      "final_score": 0.5297681889297289
+    },
+    {
+      "title": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+      "url": "https://arxiv.org/abs/2605.23902v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-05-22T17:59:42",
+      "summary": "Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the generated latents back to pixels. Yet the latent-to-pixel decoder is reconstruction-oriented, optimized to invert the encoder rather than synthesize more details, and becomes increasingly costly at megapixel scale. This drawback calls for a more expressive and efficient decoding paradigm. Motivated by recent progress in scalable pixel-space diffusion, we introduce PiD, a Pixel diffusion Decoder that reformulates latent decoding as conditional pixel diffusion, unifying decoding and upsampling into one generative module. By denoising directly in high-resolution pixel space, PiD synthesizes $4\\times$ and even $8\\times$ upscaled images with low latency. For latent conditioning, a lightweight sigma-aware adapter injects noise-corrupted latents into the pixel diffusion backbone, enabling PiD to decode partially denois...",
+      "content": "Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the generated latents back to pixels. Yet the latent-to-pixel decoder is reconstruction-oriented, optimized to invert the encoder rather than synthesize more details, and becomes increasingly costly at megapixel scale. This drawback calls for a more expressive and efficient decoding paradigm. Motivated by recent progress in scalable pixel-space diffusion, we introduce PiD, a Pixel diffusion Decoder that reformulates latent decoding as conditional pixel diffusion, unifying decoding and upsampling into one generative module. By denoising directly in high-resolution pixel space, PiD synthesizes $4\\times$ and even $8\\times$ upscaled images with low latency. For latent conditioning, a lightweight sigma-aware adapter injects noise-corrupted latents into the pixel diffusion backbone, enabling PiD to decode partially denoised latents and terminate the latent diffusion process early. To further improve efficiency, we distill the model using DMD2, reducing inference to just 4 steps. PiD applies to both conventional VAE latents and semantic latents (e.g., SigLIP, DINOv2) used in recent RAE-based models. PiD decodes latents of $512 \\times 512$ images into $2048 \\times 2048$ pixels in under 1 second with 13 GB peak memory on a consumer RTX 5090, and as fast as 210 ms on a GB200 GPU, about $6\\times$ faster than cascaded diffusion-based super-resolution pipelines with better visual fidelity.",
+      "author": "Yifan Lu, Qi Wu, Jay Zhangjie Wu, Zian Wang, Huan Ling...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23902v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23902v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Yifan Lu",
+          "Qi Wu",
+          "Jay Zhangjie Wu",
+          "Zian Wang",
+          "Huan Ling",
+          "Sanja Fidler",
+          "Xuanchi Ren"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5425925925925926,
+      "final_score": 0.5296237609599042
+    },
+    {
+      "title": "DeepSeek makes the V4 Pro price discount permanent",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-05-22T15:59:26",
+      "summary": "&gt; (3) The deepseek-v4-pro model API pricing will be officially adjusted to 1&#x2F;4 of the original price after the 75% discount promotion ends on 2026&#x2F;05&#x2F;31 15:59 UTC.<p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;deepseek_ai&#x2F;status&#x2F;2057854261699195173\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;deepseek_ai&#x2F;status&#x2F;2057854261699195173</a><p>Related ongoing thread:<p><i>DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48256953\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48256953</a> - May 2026 (135 comments)",
+      "content": null,
+      "author": "Tiberium",
+      "score": 595,
+      "num_comments": 534,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48237663,
+        "hn_url": "https://news.ycombinator.com/item?id=48237663",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.5154205424504398
+    },
+    {
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-05-19T17:45:00",
+      "summary": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
+      "content": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini models",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.587037037037037,
+      "final_score": 0.4828970742200728
+    },
+    {
+      "title": "Introducing OpenAI for Singapore",
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-19T20:30:00",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "content": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.46831539441840275
+    },
+    {
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "url": "https://arxiv.org/abs/2605.23901v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-05-22T17:59:38",
+      "summary": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced degradation, where performance deteriorates despite increased compute.   We propose the Shannon Scaling Law, a unified theoretical framework that models LLM training as information transmission over a noisy channel, grounded in the Shannon-Hartley theorem. By mapping model parameters to channel bandwidth and training tokens to signal power, our formulation explicitly captures the interaction between learning signal and intrinsic noise. This perspective reveals a fundamental Shannon capacity for LLMs: scaling model size or data without preserving a sufficient signal-to-noise ratio (SNR) inevitably amplifies noise, inducing a transition from monotonic improvement to U-shaped performance degradation.   We validate our theory through experiments on Pythia and OLMo2 under perturbations, includi...",
+      "content": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced degradation, where performance deteriorates despite increased compute.   We propose the Shannon Scaling Law, a unified theoretical framework that models LLM training as information transmission over a noisy channel, grounded in the Shannon-Hartley theorem. By mapping model parameters to channel bandwidth and training tokens to signal power, our formulation explicitly captures the interaction between learning signal and intrinsic noise. This perspective reveals a fundamental Shannon capacity for LLMs: scaling model size or data without preserving a sufficient signal-to-noise ratio (SNR) inevitably amplifies noise, inducing a transition from monotonic improvement to U-shaped performance degradation.   We validate our theory through experiments on Pythia and OLMo2 under perturbations, including Gaussian noise, quantization and supervised fine-tuning on math, QA and code tasks. The Shannon Scaling Law consistently outperforms classical scaling laws and recent perturbation-aware laws, achieving strong $R^2$ scores and accurately capturing loss basins missed by prior approaches. It also extrapolates: fitted on $\\leq$6.9B Pythia models with $\\leq$180B tokens, it predicts the unseen 12B model up to 307B tokens at pooled $R^2{=}0.847$, while monotonic baselines collapse.",
+      "author": "Xu Ouyang, Deyi Liu, Yuhang Cai, Jing Liu, Yuan Yang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23901v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23901v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IT"
+        ],
+        "all_authors": [
+          "Xu Ouyang",
+          "Deyi Liu",
+          "Yuhang Cai",
+          "Jing Liu",
+          "Yuan Yang",
+          "Chen Zheng",
+          "Thomas Hartvigsen",
+          "Yiyuan Ma"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.34814128774330355
+    },
+    {
+      "title": "Training-Free Looped Transformers",
+      "url": "https://arxiv.org/abs/2605.23872v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-05-22T17:31:16",
+      "summary": "We introduce training-free looped transformers, in which a lightweight inference-time wrapper loops a contiguous mid-stack block of layers of a frozen checkpoint without additional fine-tuning, continued training, or architectural changes. Unlike prior looped transformer methods that train with the looped structure end-to-end, we retrofit recurrence onto pretrained models at test time. We show that naive block reapplication usually degrades performance, highlighting the importance of the loop application strategy. Motivated by viewing a pre-norm transformer block as a forward Euler step on an ODE, we instead treat looping as a refinement of the same approximation, replacing one large update with smaller damped sub-steps. Across seven dense, sparse MoE, and MLA+MoE model families, our method improves Qwen3-4B-Instruct by +2.64 pp on MMLU-Pro, Qwen3-30B-A3B-Instruct by +1.14 pp on CommonsenseQA, and Moonlight-16B-A3B-Instruct by +1.20 pp on OpenBookQA.",
+      "content": "We introduce training-free looped transformers, in which a lightweight inference-time wrapper loops a contiguous mid-stack block of layers of a frozen checkpoint without additional fine-tuning, continued training, or architectural changes. Unlike prior looped transformer methods that train with the looped structure end-to-end, we retrofit recurrence onto pretrained models at test time. We show that naive block reapplication usually degrades performance, highlighting the importance of the loop application strategy. Motivated by viewing a pre-norm transformer block as a forward Euler step on an ODE, we instead treat looping as a refinement of the same approximation, replacing one large update with smaller damped sub-steps. Across seven dense, sparse MoE, and MLA+MoE model families, our method improves Qwen3-4B-Instruct by +2.64 pp on MMLU-Pro, Qwen3-30B-A3B-Instruct by +1.14 pp on CommonsenseQA, and Moonlight-16B-A3B-Instruct by +1.20 pp on OpenBookQA.",
+      "author": "Lizhang Chen, Jonathan Li, Chen Liang, Ni Lao, Qiang Liu",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23872v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23872v1.pdf",
+        "categories": [
+          "cs.LG",
+          "math.NA",
+          "stat.ML"
+        ],
+        "all_authors": [
+          "Lizhang Chen",
+          "Jonathan Li",
+          "Chen Liang",
+          "Ni Lao",
+          "Qiang Liu"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07407407407407407,
+      "final_score": 0.34179323863483796
+    },
+    {
+      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
+      "url": "https://arxiv.org/abs/2605.23892v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-05-22T17:55:13",
+      "summary": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input sequence length due to the global attention layers inside these models. This limits both their scalability and efficiency. In this work, we address this challenge with a simple yet general strategy: restricting the number of key/value tokens that each query interacts with during global attention. To achieve effective token selection, we introduce a two-stage framework. First, an inter-frame selection step operates at the frame level to identify frames that should be preserved. Second, an intra-frame selection step further discards more redundant tokens within the selected frames. Our analysis highlights the advantage of a diversity-based strategy for inter-frame selection, which ensures broad coverage of the scene. For intra-frame selection, we ...",
+      "content": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input sequence length due to the global attention layers inside these models. This limits both their scalability and efficiency. In this work, we address this challenge with a simple yet general strategy: restricting the number of key/value tokens that each query interacts with during global attention. To achieve effective token selection, we introduce a two-stage framework. First, an inter-frame selection step operates at the frame level to identify frames that should be preserved. Second, an intra-frame selection step further discards more redundant tokens within the selected frames. Our analysis highlights the advantage of a diversity-based strategy for inter-frame selection, which ensures broad coverage of the scene. For intra-frame selection, we show that layer-aware sparsification is necessary, with the selection process guided by the entropy of the global attention pattern. Our approach offers a superior speed-accuracy trade-off compared to existing solutions. Extensive experiments show that it accelerates visual geometry transformers by over 85% for scenes with 500 images while maintaining, or even improving, baseline performance, which hints that how our token selection strategy can play a crucial role in future applications of visual geometry transformers. Our project website is available at https://zsh2000.github.io/good-token-hunting.github.io.",
+      "author": "Shuhong Zheng, Michael Oechsle, Erik Sandstr\u00f6m, Marie-Julie Rakotosaona, Federico Tombari...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23892v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23892v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR",
+          "cs.LG",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Shuhong Zheng",
+          "Michael Oechsle",
+          "Erik Sandstr\u00f6m",
+          "Marie-Julie Rakotosaona",
+          "Federico Tombari",
+          "Igor Gilitschenski"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06481481481481481,
+      "final_score": 0.3384459338272156
+    },
+    {
+      "title": "Geo-Align: Video Generation Alignment via Metric Geometry Reward",
+      "url": "https://arxiv.org/abs/2605.23903v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-05-22T17:59:43",
+      "summary": "Camera-controlled video generation has achieved remarkable progress in recent years. However, existing video-to-video re-rendering methods primarily rely on Supervised Fine-Tuning using synthetic datasets. At present, there is an extreme scarcity of synchronized, multi-view real-world video data. Consequently, the prevailing paradigm often exhibits limited generalization when processing out-of-distribution real-world videos, with models struggling to accurately adhere to physical scales and camera trajectories. To bridge this gap, we propose Geo-Align, the first Reinforcement Learning framework specifically designed for camera-controlled video re-rendering. Built upon a pretrained model, we optimize the model through a scale-aware perceptual reward mechanism. Specifically, we introduce a metric 3D estimator to extract precise camera trajectories from generated videos, explicitly penalizing deviations in rotation and translation. Furthermore, we meticulously designed a data pipeline str...",
+      "content": "Camera-controlled video generation has achieved remarkable progress in recent years. However, existing video-to-video re-rendering methods primarily rely on Supervised Fine-Tuning using synthetic datasets. At present, there is an extreme scarcity of synchronized, multi-view real-world video data. Consequently, the prevailing paradigm often exhibits limited generalization when processing out-of-distribution real-world videos, with models struggling to accurately adhere to physical scales and camera trajectories. To bridge this gap, we propose Geo-Align, the first Reinforcement Learning framework specifically designed for camera-controlled video re-rendering. Built upon a pretrained model, we optimize the model through a scale-aware perceptual reward mechanism. Specifically, we introduce a metric 3D estimator to extract precise camera trajectories from generated videos, explicitly penalizing deviations in rotation and translation. Furthermore, we meticulously designed a data pipeline strategy based on real-world conditioning videos and target camera trajectories derived from synthetic data, eliminating the reliance on paired data. Extensive experiments demonstrate that Geo-Align consistently outperforms existing supervised learning baselines in both precise camera controllability and visual fidelity, indicating the effectiveness of our method.",
+      "author": "Zizun Li, Haoyu Guo, Runzhe Teng, Chunhua Shen, Tong He",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23903v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23903v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Zizun Li",
+          "Haoyu Guo",
+          "Runzhe Teng",
+          "Chunhua Shen",
+          "Tong He"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.059259259259259255,
+      "final_score": 0.336290675662037
+    },
+    {
+      "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+      "url": "https://arxiv.org/abs/2605.23857v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-22T17:16:35",
+      "summary": "Knowledge distillation generally assumes a strong-to-weak relationship where stronger teachers yield better students. In this work, we examine this assumption about distillation in large language model pretraining. By varying architecture sizes and training token budgets, we create strong-to-weak, same-level, and weak-to-strong teacher-student relationships, and study distillation's effectiveness under each. We find that the teacher need not be strong: with proper mixing of the language modeling and knowledge distillation losses, even small and undertrained teachers improve larger students. At the same time, a stronger teacher is not always better: pushing the teacher further, through more parameters or more training tokens, can saturate or even reverse the distillation gains. We further observe that distillation improves generalization (out-of-distribution and downstream performance) more readily than in-domain fitting. Together, these results challenge the common belief that distilla...",
+      "content": "Knowledge distillation generally assumes a strong-to-weak relationship where stronger teachers yield better students. In this work, we examine this assumption about distillation in large language model pretraining. By varying architecture sizes and training token budgets, we create strong-to-weak, same-level, and weak-to-strong teacher-student relationships, and study distillation's effectiveness under each. We find that the teacher need not be strong: with proper mixing of the language modeling and knowledge distillation losses, even small and undertrained teachers improve larger students. At the same time, a stronger teacher is not always better: pushing the teacher further, through more parameters or more training tokens, can saturate or even reverse the distillation gains. We further observe that distillation improves generalization (out-of-distribution and downstream performance) more readily than in-domain fitting. Together, these results challenge the common belief that distillation pretraining always requires a strong teacher.",
+      "author": "Taiming Lu, Zhuang Liu",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23857v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23857v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Taiming Lu",
+          "Zhuang Liu"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.0574074074074074,
+      "final_score": 0.33490806990219907
+    },
+    {
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "url": "https://arxiv.org/abs/2605.23897v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-05-22T17:58:28",
+      "summary": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fixed predefined toolkits or produce noisy intermediate images from unified multimodal methods. We pursue a third option: using a dedicated image editing model and decouple it with an understanding model. However, off-the-shelf image editors fail as reasoning assistants with two complementary gaps: a language-side gap, where editors trained as passive instruction-followers cannot map an abstract question to an appropriate visual transformation, and a generation-side gap, where edit correctness degrades as reasoning depth grows. Guided by this analysis, we introduce ETCHR (Editing To Clarify and Harness Reasoning), a question-conditioned, reasoning-aware image editor decoupled from the downstre...",
+      "content": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fixed predefined toolkits or produce noisy intermediate images from unified multimodal methods. We pursue a third option: using a dedicated image editing model and decouple it with an understanding model. However, off-the-shelf image editors fail as reasoning assistants with two complementary gaps: a language-side gap, where editors trained as passive instruction-followers cannot map an abstract question to an appropriate visual transformation, and a generation-side gap, where edit correctness degrades as reasoning depth grows. Guided by this analysis, we introduce ETCHR (Editing To Clarify and Harness Reasoning), a question-conditioned, reasoning-aware image editor decoupled from the downstream understanding model and trained with a two-stage recipe targeted at the two gaps: Reasoning Imitation via supervised fine-tuning on edit trajectories, followed by Reasoning Enhancement with VLM-derived rewards for edit correctness and downstream reasoning accuracy. Since the editor is decoupled, ETCHR plugs into different open- and closed-source MLLMs in a training-free manner. Across five task families (fine-grained perception, chart understanding, logic reasoning, jigsaw restoration, and 3D understanding), ETCHR raises average Pass@1 from 55.95 to 60.77 (+4.82) with Qwen3-VL-8B, from 65.08 to 70.55 (+5.47) with Gemini-3.1-Flash-Lite, and from 76.55 to 81.16 (+4.61) with the 1T-parameter MoE model Kimi K2.5.",
+      "author": "Beichen Zhang, Yuhong Liu, Jinsong Li, Yuhang Zang, Jiaqi Wang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23897v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23897v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Beichen Zhang",
+          "Yuhong Liu",
+          "Jinsong Li",
+          "Yuhang Zang",
+          "Jiaqi Wang",
+          "Dahua Lin"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.33479059323933535
+    },
+    {
+      "title": "Anthropic\u2019s Code with Claude showed off coding\u2019s future\u2014whether you like it or not",
+      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-21T14:30:45",
+      "summary": "The vibes were strong at Code with Claude, Anthropic\u2019s two-day event for software developers in London that kicked off on May 19, the same day as Google\u2019s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) \u201cWho here has shipped a pull request in the last week that was completely written by Claude?\u201d Jeremy Hadfield, an engineer at Anthropic, asked from the main stage. Almost half the people in the packed room\u2014many sitting with laptops on their knees, coding or prompting...",
+      "content": "The vibes were strong at Code with Claude, Anthropic\u2019s two-day event for software developers in London that kicked off on May 19, the same day as Google\u2019s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) \u201cWho here has shipped a pull request in the last week that was completely written by Claude?\u201d Jeremy Hadfield, an engineer at Anthropic, asked from the main stage. Almost half the people in the packed room\u2014many sitting with laptops on their knees, coding or prompting as they watched the talks\u2014raised their hands. Pull requests are fixes or updates to existing software that are submitted for review before they go live. They are the bread and butter of software development, the chunks of code that most professional developers spend their lives writing\u2014or did until now. \u201cWho here has shipped a pull request that was completely written by Claude where they did not read the code at all?\u201d Hadfield asked next. Nervous laughter. Most of the hands stayed up. It\u2019s not news that LLM-powered tools like Anthropic\u2019s Claude Code and OpenAI\u2019s Codex have upended the way software gets made . Top tech companies now like to boast of how little code their developers write by hand. (\u201cMost software at Anthropic is now written by Claude,\u201d Hadfield said. \u201cClaude has written most of the code in Claude Code.\u201d) OpenAI, Google, and Microsoft make similar claims. Many others wish they could. Even so, it is striking how normal this new paradigm already seems, and how fast it has set in. This was the second year that Anthropic has put on developer events, which also run in San Francisco and Tokyo. This time last year, the company had just released Claude 4. It could code, kind of. But with Anthropic\u2019s latest string of updates\u2014especially Claude 4.6 and then 4.7, released in February and April\u2014Claude Code is a tool that more and more developers seem happy to hand their work off to.    Let Claude cook. ANTHROPIC (GRAPHIC) / WILL DOUGLAS HEAVEN (PHOTO) Anthropic says its goal is to push automation as far as it will go. Instead of using AI to generate code and then having humans clean it up and fix the mistakes, it wants Claude to check and correct its own work. \u201cThe default isn\u2019t \u2018I\u2019m going to prompt Claude\u2019\u2014the default is now \u2018I\u2019m going to have Claude prompt itself,\u2019\u201d Boris Cherny, who heads Claude Code, said in the opening keynote. If all goes well, human developers shouldn\u2019t even see the error messages when something doesn\u2019t work. That will all be handled by Claude, which will test and tweak, test and tweak, until everything runs as it should. As Ravi Trivedi, an engineer at Anthropic, put it in another talk: \u201cThe key principle is getting out of Claude\u2019s way. We like to say: \u2018Let it cook.\u2019\u201d Trivedi presented a new feature in Claude Code, announced two weeks ago, which Anthropic calls dreaming. Claude Code agents write notes to themselves, recording and saving useful information about specific tasks. When another coding agent later starts to work on the same code, it can use the notes to get up to speed faster and learn from any errors that previous agents may have made. Dreaming is a system that Claude Code uses to read through all these notes and consolidate the information they contain, spotting patterns and common issues across different tasks. In theory, dreaming should help Claude Code learn about a particular code base and get better and better at working on it. Success stories Code with Claude is an event aimed at developers. As well as product showcases and hands-on workshops from Anthropic, there were how-tos from a range of companies that have reshaped their software development teams around Claude Code, including Spotify and Delivery Hero as well as Lovable, Base44, and Monday.com\u2014three startups vibe-coding apps that help people vibe-code apps. There were no signs of unease at Code with Claude. Everybody I met wanted in. And yet outside the conference there have been a number of reports that many coders are starting to question this bright new future . Some gripe in online forums like Reddit and Hacker News that AI coding tools are being pushed by managers chasing productivity gains, when in practice the technology makes software development harder because of all the extra code developers now have to review. \u201cThe only people I&#8217;ve heard saying that generated code is fine are those who don\u2019t read it,\u201d a user called pron posted on Hacker News last week.  Others claim that their coding abilities have fallen off as they hand more tasks to AI. And researchers have warned that AI tools can produce unsafe code that will make software more vulnerable to attacks .   I sat down with Claude engineering lead Katelyn Lesse and Claude product lead Angela Jiang and asked them what they made of the concerns that a sudden flood of code generated (and shipped) without proper human oversight was kicking serious security and maintenance problems down the road. \u201cAll of the old software development best practices still apply. They\u2019ve applied this entire time,\u201d said Lesse. \u201cI think there are a lot of people and teams that may have lost sight of them in this moment.\u201d  And yet as Anthropic and others push for greater automation and tools like Claude Code improve, the temptation increases to offload more and more tasks, including oversight. Lesse told me that some of the technical managers at Anthropic are exhausted by keeping up with all the code their teams now produce. \u201cPart of things happening so much more quickly is just managing your time,\u201d she said. \u201cI think that right now Claude is probably as good as a midlevel engineer at writing code,\u201d she added. You still need expert engineers to design a system and troubleshoot harder problems, she said. \u201cBut over time we want Claude to get better and better at all different types of engineering.\u201d Jiang agreed: \u201cI think the absolute end state we\u2019re trying to get to is Claude basically being able to build itself.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.11666666666666667,
+      "final_score": 0.33471544383730156
+    },
+    {
+      "title": "From Activation to Causality: Discovery of Causal Visual Representations in the Human Brain",
+      "url": "https://arxiv.org/abs/2605.23895v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-05-22T17:56:37",
+      "summary": "Identifying which brain regions represent a visual concept in the human brain is a central challenge in neuroscience. Existing approaches have localized coarse functional regions (e.g., faces, places) through activation maximization, identifying regions that activate strongly for a target concept relative to other concepts. Yet strong activation alone does not establish that a region represents the concept itself, as responses may instead be driven by correlated visual or semantic cues. We introduce BrainCause, an automated framework that combines generative and brain models to synthesize controlled stimuli and validate neural representations through targeted causal testing. Given a query specifying a concept of interest, our framework constructs targeted stimulus sets comprising concept images, counterfactual edits that remove the target concept while preserving other image content, and images with candidate correlated distractors. It then uses an image-to-fMRI encoding model to predi...",
+      "content": "Identifying which brain regions represent a visual concept in the human brain is a central challenge in neuroscience. Existing approaches have localized coarse functional regions (e.g., faces, places) through activation maximization, identifying regions that activate strongly for a target concept relative to other concepts. Yet strong activation alone does not establish that a region represents the concept itself, as responses may instead be driven by correlated visual or semantic cues. We introduce BrainCause, an automated framework that combines generative and brain models to synthesize controlled stimuli and validate neural representations through targeted causal testing. Given a query specifying a concept of interest, our framework constructs targeted stimulus sets comprising concept images, counterfactual edits that remove the target concept while preserving other image content, and images with candidate correlated distractors. It then uses an image-to-fMRI encoding model to predict brain responses and searches for representations that respond specifically to the target concept over correlated alternatives. BrainCause returns validated candidate representations and proposes follow-up fMRI experiments to further test or extend its discoveries. Our approach successfully recovers known functional localizations and identifies new candidate representations across dozens of concepts, validated on both predicted and measured fMRI data. Critically, we show that without causal validation, a large fraction of localizations would be false positives, confirming that activation alone is insufficient evidence of representation.",
+      "author": "Yuval Golbari, Navve Wasserman, Matias Cosarinsky, Roman Beliy, Aude Oliva...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23895v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23895v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Yuval Golbari",
+          "Navve Wasserman",
+          "Matias Cosarinsky",
+          "Roman Beliy",
+          "Aude Oliva",
+          "Antonio Torralba",
+          "Michal Irani",
+          "Tamar Rott Shaham"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.33180010020667994
+    },
+    {
+      "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
+      "url": "https://arxiv.org/abs/2605.23893v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-05-22T17:56:13",
+      "summary": "We propose Complete-muE, a framework which targets hyperparameter transfer across dense FFN and any Mixture-of-Experts (MoE) setups in transformer blocks. Existing tools such as $\u03bc$P (requires fixed architectue) or SDE (requires fixed per-step token count) cannot directly solve the hyperparameter transfer problem in MoE setups because Dense to MoE transfer or MoE total experts scaling changes both architecture and tokens per expert. Complete-muE solves this challenge with a two-bridge system: Bridge~I maps between dense FFN and Dense MoE by active-width $\u03bc$P with a normalized router scale. Bridge~II maps between Dense MoE and sparse MoE by activated-expert scaling, where the first-order SDE LR/WD correction cancels while a bounded residual $\u03c3_0$ shift remains. The resulting transfer rule, which we term as Complete muE, covers changes in activated experts, total capacity, granularity, and shared/group-balanced hybrids for MoE models as well as network width/depth, batch size, and durati...",
+      "content": "We propose Complete-muE, a framework which targets hyperparameter transfer across dense FFN and any Mixture-of-Experts (MoE) setups in transformer blocks. Existing tools such as $\u03bc$P (requires fixed architectue) or SDE (requires fixed per-step token count) cannot directly solve the hyperparameter transfer problem in MoE setups because Dense to MoE transfer or MoE total experts scaling changes both architecture and tokens per expert. Complete-muE solves this challenge with a two-bridge system: Bridge~I maps between dense FFN and Dense MoE by active-width $\u03bc$P with a normalized router scale. Bridge~II maps between Dense MoE and sparse MoE by activated-expert scaling, where the first-order SDE LR/WD correction cancels while a bounded residual $\u03c3_0$ shift remains. The resulting transfer rule, which we term as Complete muE, covers changes in activated experts, total capacity, granularity, and shared/group-balanced hybrids for MoE models as well as network width/depth, batch size, and duration changes for general Transformer models. Extensive language model and diffusion model pretraining experiments confirm that complete-muE yields relatively stable hyperparameter optima across model architectures and parameter counts -- with only minor drift consistent with the non-strict SDE behavior of Bridge~II. In practice this drift is small enough that hyperparameters tuned on a single dense reference transfer near-optimally to all MoE configurations -- \\emph{tune dense once, transfer to all} is the practical recipe at the core of Complete-muE. This enables MoE models to achieve accelerated convergence speedup over dense models when scaling model capacity without costly hyperparameter search.",
+      "author": "Hongwu Peng, Ohiremen Dibua, Yuanjun Xiong, Yifan Gong, Jianming Zhang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23893v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23893v1.pdf",
+        "categories": [
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Hongwu Peng",
+          "Ohiremen Dibua",
+          "Yuanjun Xiong",
+          "Yifan Gong",
+          "Jianming Zhang",
+          "Yan Kang"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.3317941480692791
+    },
+    {
+      "title": "SPACENUM: Revisiting Spatial Numerical Understanding in VLMs",
+      "url": "https://arxiv.org/abs/2605.23898v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-05-22T17:58:36",
+      "summary": "Vision-Language Models (VLMs) are increasingly deployed in embodied environments, where they need produce numerical outputs such as action magnitudes and spatial coordinates. Although these numbers appear meaningful, it remains unclear whether these numerical outputs are genuinely grounded in spatial perception. Therefore, in this work, we revisit spatial numerical understanding through SpaceNum, a unified framework that captures two complementary settings: numbers as dynamic transitions during spatial exploration, and numbers as static layouts in spatial reasoning. We formulate two bidirectional tasks, Num2Space and Space2Num, to evaluate how well VLMs map between vision-side spatial structure and language-side numerical representations. We systematically study whether current VLMs truly understand numerical values in spatial settings. Across dynamic transitions and static layouts, we find that models largely fail to ground numbers in spatial meaning and often perform close to random ...",
+      "content": "Vision-Language Models (VLMs) are increasingly deployed in embodied environments, where they need produce numerical outputs such as action magnitudes and spatial coordinates. Although these numbers appear meaningful, it remains unclear whether these numerical outputs are genuinely grounded in spatial perception. Therefore, in this work, we revisit spatial numerical understanding through SpaceNum, a unified framework that captures two complementary settings: numbers as dynamic transitions during spatial exploration, and numbers as static layouts in spatial reasoning. We formulate two bidirectional tasks, Num2Space and Space2Num, to evaluate how well VLMs map between vision-side spatial structure and language-side numerical representations. We systematically study whether current VLMs truly understand numerical values in spatial settings. Across dynamic transitions and static layouts, we find that models largely fail to ground numbers in spatial meaning and often perform close to random guess. Through error analysis, reasoning trace analysis, and controlled interventions, we show that current VLMs rely heavily on shallow spatial cues, struggle to build stable coordinate-aware representations, and fail to abstract structured spatial layouts from visual observations. We further show that explicit reasoning provides only marginal gains, while tuning can partially improve spatial numerical understanding and transfer to external spatial reasoning benchmarks.",
+      "author": "Jianshu Zhang, Yijiang Li, Huifeixin Chen, Haoran Lu, Letian Xue...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23898v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23898v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Jianshu Zhang",
+          "Yijiang Li",
+          "Huifeixin Chen",
+          "Haoran Lu",
+          "Letian Xue",
+          "Bingyang Wang",
+          "Han Liu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.3303481329409722
+    },
+    {
+      "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+      "url": "https://arxiv.org/abs/2605.23885v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-22T17:45:49",
+      "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many downstream tasks involving scientific reasoning, commonsense inference, and world knowledge must be acquired primarily from the high-resource language, making effective knowledge transfer essential. Existing methods for improving such cross-lingual knowledge transfer require large amounts of parallel data, translation systems, auxiliary models, or additional training stages that are largely unavailable for many languages. We propose LINK - a data-level intervention method that improves knowledge transfer during model pretraining through lexical substitutions in high-resource part of pretraining data using bilingual vocabularies. For a given replacement ratio, randomly selected words in a portion of the high-resource (English) training corpus are swapped with their word-l...",
+      "content": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many downstream tasks involving scientific reasoning, commonsense inference, and world knowledge must be acquired primarily from the high-resource language, making effective knowledge transfer essential. Existing methods for improving such cross-lingual knowledge transfer require large amounts of parallel data, translation systems, auxiliary models, or additional training stages that are largely unavailable for many languages. We propose LINK - a data-level intervention method that improves knowledge transfer during model pretraining through lexical substitutions in high-resource part of pretraining data using bilingual vocabularies. For a given replacement ratio, randomly selected words in a portion of the high-resource (English) training corpus are swapped with their word-level translations, requiring no additional model training and only a bilingual vocabulary, which can be obtained at near-zero cost for virtually any language. Evaluation on eight languages across five model sizes shows notable improvements on downstream tasks in the target language, with up to a 2x speedup in training to reach equivalent performance.",
+      "author": "Anastasiia Sedova, Natalie Schluter, Skyler Seto, Maartje ter Hoeve",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.23885v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.23885v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Anastasiia Sedova",
+          "Natalie Schluter",
+          "Skyler Seto",
+          "Maartje ter Hoeve"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.330157904578373
+    },
+    {
+      "title": "Roundtables: Can AI Learn to Understand the World?",
+      "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-21T20:41:05",
+      "summary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter Grace Huckins exploring how AI might enter the physical world. Speakers : Mat Honan , Editor in Chief, Will Douglas Heaven , AI Senior Editor, and Grace Huckins , ...",
+      "content": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter Grace Huckins exploring how AI might enter the physical world. Speakers : Mat Honan , Editor in Chief, Will Douglas Heaven , AI Senior Editor, and Grace Huckins , AI Reporter Recorded on May 21, 2026 Related Stories: How Pok\u00e9mon Go is giving delivery robots an inch-perfect view of the world 10 Things That Matter in AI Right Now: World Models Yann LeCun has a bold new vision for the future of AI",
+      "author": "MIT Technology Review",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "artificial intelligence",
+        "roundtables",
+        "subscriber-only stories"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06481481481481483,
+      "final_score": 0.3194856158244874
+    }
+  ],
+  "summary": {
+    "sources": 8,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-05-19T17:45:00",
+      "end": "2026-05-22T23:41:55"
+    }
+  }
+}
