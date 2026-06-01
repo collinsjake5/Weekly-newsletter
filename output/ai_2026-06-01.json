@@ -1,0 +1,524 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-06-01T18:43:12.532968",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-05-31T17:02:23",
+      "summary": null,
+      "content": null,
+      "author": "tambourine_man",
+      "score": 271,
+      "num_comments": 486,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48347354,
+        "hn_url": "https://news.ycombinator.com/item?id=48347354",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7037669099183486
+    },
+    {
+      "title": "Warp\u2019s big bet on building open source with GPT-5.5",
+      "url": "https://openai.com/index/warp",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-27T00:00:00",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "content": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "startup"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6511427275741568
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-29T03:00:00",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "content": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.5166784419285715
+    },
+    {
+      "title": "Benchmarking SurrealDB 3.x vs. Postgres, Mongo, Neo4j and Redis (With Fsync)",
+      "url": "https://surrealdb.com/blog/surrealdb-3-x-by-the-numbers",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-05-29T14:53:27",
+      "summary": null,
+      "content": null,
+      "author": "itsezc",
+      "score": 68,
+      "num_comments": 25,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48323844,
+        "hn_url": "https://news.ycombinator.com/item?id=48323844",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.511324593424346
+    },
+    {
+      "title": "Rethinking organizational design in the age of agentic AI",
+      "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-26T14:54:10",
+      "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there\u2019s a disconnect emerging between ambition and execution.  Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can\u2019t support that change. They cite a lack of readiness across people, processes, and workflows.  The sticky tape problem The challenge is that many organisations are often layering AI agents onto existing operations, rather than reimag...",
+      "content": "Amid rapidly growing adoption of enterprise-level AI agents, there\u2019s a disconnect emerging between ambition and execution.  Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can\u2019t support that change. They cite a lack of readiness across people, processes, and workflows.  The sticky tape problem The challenge is that many organisations are often layering AI agents onto existing operations, rather than reimagine the operating model and how work will need to be rewired, explains Prasun Shah, global CTO for workforce consulting and chief AI officer at PwC UK Consulting. \u201cThey\u2019re embedding AI employees into what is a human operating model,\u201d layering on AI agents to existing workplace structures when \u201cthis is like adding sticky tapes to parts of an operating model that is breaking.\u201d Doing so may be preventing organizations from unlocking the full value agentic AI offers, creating circumstances where disillusionment can quickly creep in. That full value lies in agents\u2019 capacity to execute entire workflows with limited human input. They can coordinate complex tasks, make independent decisions, adjust to changing conditions, and iterate performance.  In early proving grounds that span customer service, HR, and sales, it\u2019s already estimated that AI agents could accelerate business processes by as much as 30% to 50% and low-value work time by 25% to 40% when deployed at scale. But with this capability comes greater complexity and the need for an enterprise-wide change. Growing the AI vocabulary  Enterprise agentic AI platform Ema describes this change as agentic business transformation (ABT), a term it coined last year in partnership with HFS Research, in an attempt to plug what it sees as a gap in the existing lexicon about AI agents, and to provide enterprises with a new framework with which to think about their own adoption of the technology.  \u201cNone of the existing vocabulary captures the full scope of the change,\u201d explains Ema CEO and founder Surojit Chatterjee. \u201cDigital transformation was about moving from paper to software. AI transformation was about adding artificial intelligence to existing processes. Co-pilot is about AI assisting in various human tasks. But ABT is something categorically different: It&#8217;s the integration of AI agents into the fabric of the organization.\u201d  For Shah, the dedicated term (ABT) \u201chelps drive the need to redesign an organization in its entirety: its operating model, its workflows, decision rights, and performance management systems.\u201d He emphasizes that \u201ceverything that\u2019s needed to ensure those agents are actually active participants in value creation, rather than just point tools or productivity aids.\u201d According to Ema, ABT encompasses three core pillars: an organization\u2019s technology stack, its workforce, and the metrics used for success.  AI agents as connective tissue The first pillar of ABT is the technology stack. \u201cYour existing tech stack was designed for human-operated, application-centric workflows,\u201d says Chatterjee. \u201cIt needs to be reconsidered when the actor is an AI agent operating at machine speed across multiple systems simultaneously.\u201d  As AI agents are integrated into an organization, enterprises will need to pivot from a set of linear processes and steps, to rewiring work in a very different way, explains Shah. That\u2019s because the value in AI agents isn\u2019t as another layer in an existing technology stack but as a connective tissue, he explains, moving between or across layers to coordinate a high-level task or retrieve and interpret data from multiple discrete applications. AI agents can create \u201ca true competitive differentiation for an enterprise\u201d by making decisions based on this capacity to contextualize, he says. \u201cThat is where the next battleground will be.\u201d To build this connective tissue, leaders need to adapt their technology stack to surface higher quality decisions from AI agents, prioritizing access to multiple datasets and applications simultaneously to develop tacit knowledge. \u201cOrganizations that make this architectural shift become genuinely more adaptive,\u201d says Chatterjee. \u201cWhen a new business requirement emerges, you don&#8217;t wait six months for a software vendor to build a feature. You configure an AI employee using natural language and connect it to the systems it needs. The time from business to production workflow drops from months to days.\u201d The workforce, redesigned As AI agents are deployed for more use cases, enterprise leaders must consider what this means for dynamics across their workforce, the second pillar of ABT. Workforce structures today deviate little from the hierarchical model of the early days of industrialization. To maximize efficiency and scale, processes are standardized, tasks are clearly delineated between strategic business units (SBUs), and employees progress up through an organization based on their capacity to optimize output from teams below them. But with AI agents that can execute, coordinate, and optimize tasks\u2014often without managerial coordination\u2014the lines of that established hierarchy become blurred. In a workforce that blends AI agents and human employees, managers will be freed up from many execution-based tasks but take on new responsibilities associated with managing hybrid teams. Managers \u201cwill need to be able to manage issues around trust, explainability, psychological safety, and even status dynamics\u201d to navigate new tensions that could arise in a hybrid workforce, says Shah. The impact of agentic AI on existing workforce structures goes far beyond the management layer, too. McKinsey predicts that by 2030, three-quarters of current jobs will require redesign, upskilling, or redeployment, and organizations will need to act swiftly to amend recruitment, retention, and remuneration.  From output to outcome Success metrics are the third and final pillar of ABT.  As AI agents assume greater ownership of core enterprise processes, taking on collaborative roles alongside human employees, traditional workforce metrics that focus on activity or output\u2014such as calls handled or reports filed\u2014no longer make sense.  \u201cWhen you add AI employees into the workforce, activity metrics become meaningless or actively misleading,\u201d says Chatterjee. \u201cAn AI employee can handle a thousand customer interactions in the time it takes a human to handle ten. If you measure success by interactions handled, you&#8217;ll conclude the AI is working brilliantly while missing whether any of those interactions actually drove customer satisfaction, retention, or revenue.\u201d To correct this, enterprises must develop a new set of metrics that focus on outcome rather than output. That is, metrics on the broader benefits or changes achieved, rather than individual deliverables.  For example, when one of Ema\u2019s large enterprise customers overhauled its own metrics, switching from tool metrics like cost per query and AI accuracy, to outcomes like the percentage of contracts reviewed without human escalation, the measured ROI from agentic AI tripled within two quarters. The changes meant \u201cthis customer stopped building point solutions in high-volume, low-complexity workflows and started deploying AI employees where the outcome value was highest,\u201d says Chatterjee. Integrating new metrics may also require a complete reconfiguration of reward and talent management processes, as well as accountability and ownership within organizations, points out Shah. In human-AI teams, for example, although ethical and fiduciary responsibilities will likely remain with human employees, operational accountability will become significantly more diffused to reflect the systemic role of AI agents. This change will raise new questions that senior leadership teams will need to wrestle with, Shah adds. They\u2019ll need to consider: Who is accountable when an AI employee makes a mistake? What happens when AI and humans disagree? What guardrails should be erected to safeguard customers?  Laying the groundwork for systems-level change Systems-level change is gradual. These are complex lines of inquiry that experts continue to grapple with. But in kickstarting internal dialogue about the core pillars of ABT\u2014the workforce, the technology stack, and the metrics by which success can be gauged\u2014leaders can lay the groundwork for an enterprise better poised to embrace AI agents at a systems level and start to close the gap between their ambition and execution.  This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.4630202076532739
+    },
+    {
+      "title": "It\u2019s time to address the looming crisis in entry-level work",
+      "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-05-26T09:00:00",
+      "summary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career ladder. The most worrisome evidence is showing up exactly where we should expect it first: in early-career hiring. A working paper released in No...",
+      "content": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career ladder. The most worrisome evidence is showing up exactly where we should expect it first: in early-career hiring. A working paper released in November 2025 by the Stanford Digital Economy Lab found that workers aged 22 to 25 in the most AI-exposed occupations experienced a 16% relative decline in employment after the spread of generative AI, even after controlling for other factors that might affect firms\u2019 employment decisions. An Anthropic report from March 2026 provides suggestive evidence for a similar conclusion. More experienced workers in those same occupations did not suffer the same decline. Employment is also not declining in the entry-level jobs with low AI exposure. The concern is specific to early-career jobs that are exposed to AI. That is not a minor signal. It suggests that firms may be using AI to substitute for the junior tasks through which people traditionally gain their first foothold\u2014at least for those in jobs where generative AI is used extensively, like software developers, customer service representatives, computer programmers, and information systems managers. The time is now to make changes in the way we train, prepare, and support young people who are about to enter the workforce. Educational institutions need to reorient for the era of an AI-augmented workforce. Governments must incentivize businesses to hire and train early-career workers. Businesses, in turn, need to recognize the importance of developing a long-term workforce experienced in AI\u2014a process that begins with entry-level workers. And students themselves should take on the responsibility of not only becoming AI fluent but learning how to apply that knowledge in various fields. In short, we must change the way we have traditionally thought of entry-level work. This is especially true because the broader labor market for recent graduates is also softening. The Federal Reserve Bank of New York reported that in the fourth quarter of 2025, the unemployment rate for recent college graduates rose to 5.6%, while the underemployment rate (the share of graduates working in jobs that typically do not require a college degree) reached 42.5%, its highest level since the covid pandemic. No single statistic can prove that AI is the sole cause of that deterioration. Hiring in general is way down post-pandemic, and young people are particularly vulnerable to the slowdown. But it would be a mistake to ignore the possibility that AI is accelerating an already difficult transition from school to work. Behind these statistics is a great deal of personal distress. Recent graduates today often submit hundreds of applications before they receive a single offer , and surveys consistently find elevated rates of anxiety, financial precarity, and burnout among young workers in extended job searches. If AI quietly closes the door on typical early jobs, people will pay the price in delayed independence, postponed family formation, and the sense that their first serious professional efforts have been refused. It also matters because entry-level jobs are part of the economy&#8217;s training system. Junior analysts learn which numbers can be trusted. Young software developers learn how production systems fail. New marketers learn how customers behave outside the neat language of dashboards. Early-career legal and financial staff learn how rules, judgment, deadlines, and human relationships actually interact. If AI absorbs more of the drafting, triage, coding, summarizing, and administrative preparation that once helped train entry-level workers, firms may become more efficient in the short run while society becomes less capable in the longer run. The right way to improve the skills of young workers is not to tell them, \u201cLearn to code.\u201d That advice, which shaped more than a decade of federal initiatives and university expansion, rested on the premise that coding was a stable, scalable skill almost anyone could learn and parlay into a middle-class job. The premise no longer holds. The layer of work AI handles well\u2014translating a specification into routine code, reproducing standard patterns, debugging predictable errors\u2014is precisely the layer that \u201clearn to code\u201d programs were built around. Supervising AI systems in their work is now a much more relevant skill. So understanding the outputs AI systems produce will become very important. To help people develop such skills, we should require universities, community colleges, and professional programs to embed AI literacy, data literacy, prompt-based workflow skills, verification skills, and domain judgment into ordinary degrees. Every graduate should know how to use AI tools, check their output, understand their limits, and combine them with human expertise. This matters even for graduates entering occupations that look relatively safe from AI, such as those in health care. Almost every job contains tasks\u2014drafting, summarizing, scheduling, research, basic data work, routine communication\u2014for which AI is already a substantial productivity tool. The competition most young workers will experience is not human versus machine but colleague versus AI-augmented colleague. For most young workers, the realistic path to making themselves valuable is not to avoid AI but to become fluent in the technology and combine that with domain judgment, contextual reasoning, and human relationship skills. To this end, schools should emphasize paid co-ops, apprenticeships, and employer-linked projects so students build judgment in real workplaces before they graduate. Governments should also create targeted tax credits, wage subsidies , and training grants for employers that hire early-career workers into structured, AI-augmented roles. The architecture for this kind of conditional, behavior-linked subsidy already exists in US tax policy. What is missing is a version of these instruments built specifically around early-career AI-augmented work. Firms, for their part, should stop making hiring decisions based only on short-run cost savings from AI. Young workers are not valuable only for the tasks they perform this quarter. Their value lies in learning, skill formation, institutional memory, and future productivity. Entry-level hiring is not just an expense. It is an investment in the future stock of judgment inside the firm. The most effective AI-augmented senior workforce of the late 2030s will be drawn overwhelmingly from the junior cohort of today. Firms that automate away the learning stage may improve their immediate margins but find themselves, a decade from now, without anyone who understands how their own AI-driven workflows actually behave. Students graduating this spring and next face a tough labor market in transition. AI fluency is becoming a commodity. Domain expertise without AI fluency is being outpaced. The combination is what is genuinely scarce. The mechanical engineer with knowledge of manufacturing and AI proficiency; the software programmer with knowledge of financial services who is also a whiz at AI\u2014these are the types of people who will be in demand. Georgios Petropoulos is an assistant professor at the USC Marshall School of Business. His research focuses on the implications of information technologies for innovation, competition policy, and labor mark ets.",
+      "author": "Georgios Petropoulos",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.4577498703206846
+    },
+    {
+      "title": "Launch HN: Expanse (YC P26) \u2013 Unlock Wasted GPU Capacity",
+      "url": "https://news.ycombinator.com/item?id=48356312",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-06-01T13:05:02",
+      "summary": "Hey HN, we\u2019re Ismaeel, Eren, Yafet and Nikodem. We built Expanse (<a href=\"https:&#x2F;&#x2F;expanse.sh&#x2F;\">https:&#x2F;&#x2F;expanse.sh&#x2F;</a>) to increase the effective capacity of your HPC&#x2F;GPU clusters running schedulers&#x2F;orchestrators like Kubernetes and SLURM. We read the source code, job submission script, and the hardware a workload is about to run on to predict what the job actually needs before the cluster sees it. We also flag failures we think are about to happen and surface line-level optimisations the researcher can apply themselves.<p>The problem: Datacenters run at roughly 30% to 40% effective utilisation. Users request more resources than what they actually need, because of asymmetric risk: while over-requesting is bad because it\u2019s expensive and wastes capacity that someone else could have used, under-requesting kills your job mid-run and you lose days of work. So everyone over-requests by two to three times.<p>We measured one national-scale HPC cluster for a month and from 122k jobs, 59% of the compute was wasted. At on-demand cloud rates for the same hardware, that\u2019s roughly $8.5M of compute wasted in one month on one cluster. The pattern is similar in large scale compute industries as well, such as quant funds, AI labs, and manufacturing.<p>The four of us ran HPC and GPU training workloads at the largest quant funds and HPC facilities. Ismaeel did research at EPCC (Edinburgh\u2019s Parallel Computing Centre, the UK\u2019s national HPC site) under Adrian Jackson, where he built the first multimodal HPC resource predictor: a model that ingests job source code, submission scripts, hardware telemetry and cluster metadata in order to figure out how much compute will actually be needed. On a dataset of real workloads on EPCC\u2019s own clusters it scored 34% better than any other baseline, and outperformed frontier general-purpose LLMs prompted on the same prediction task by roughly 8x. These results convinced us the problem was solvable with software.<p>Expanse installs on every node and hooks into SLURM (or the K8s scheduler). It ingests live hardware telemetry (DCGM, CUPTI, Cgroups, Network&#x2F;IO monitoring) of your cluster creating a custom embedding of how your hardware performs. We scan any workloads about to be submitted through SLURM&#x2F;K8s (plugging into the life cycles of the job so you don&#x27;t have to change how you submit things) and we feed this into our deep learning models to give researchers accurate resource recommendations, failure detections, and optimisation suggestions at submission time. We fine tune cluster-specific models that get sharper over time as you run more workloads. Our models are trained to over-provision rather than under-provision due to the asymmetric outcomes of a job crashing. We also provide uncertainty estimates and p90 values to allow users to choose their risk tolerance.<p>We surface three capabilities to users of the cluster:<p>(1) Resource prediction at submit time. We predict the GPU VRAM, Utilisation, memory, CPUs and walltime the job actually needs, with a confidence interval. From these predictions we also surface failure predictions for OOMs and other memory related issues, and code line level optimisations to increase the utilisation of the job on the hardware.<p>(2) Live Observability. While the job runs we showcase the telemetry we are collecting through a dashboard that gives an intuitive view of what&#x27;s going on in the hardware and where your workload is at in terms of code stack profiling. We dynamically profile workloads to achieve a low single digit overhead while being informative.<p>(3) Failure diagnosis. If a workload fails, we take all the data we collected and perform correlations on the stack profiling and the hardware telemetry we collect to surface solution oriented logs. These are one, two line logs telling you not only what happened when the job failed, but why and how to fix it with code line level suggestions.<p>What\u2019s different about our approach: The state of the art for most clusters is to either have per-user historical averages from sacct (SLURM accounting DB); hand-written rules&#x2F;heuristics; or frontier LLM coding agents. For per-user historical averages from sacct, once a new type of workload is submitted onto the cluster or code level changes are made the model becomes wildly inaccurate. For the LLM baseline we provided them with the submission script and source code of the workload being ran, and gave it the full capabilities of its coding harness in the cluster and it performed quite poorly. We benchmarked Expanse against the state of the art at the time (Gemini 3.5 pro, Claude Opus 4.8, GPT 5.5, Codex 5.3) and outperformed them by 8x.<p>You might be thinking, as these models scale and get better, they could beat us on this task; however we saw no correlation in model size or iteration on accuracy improvement. Claude Haiku actually performed better than Opus on a lot of workloads and previous iterations of models had the same, if not slightly better, accuracy. Even coding specific models, such as Codex 5.3 performed poorly (matching accuracy with GPT5.5). These models reason in a vacuum, without native support for modal inputs such as source code (to understand the underlying data flow and computational patterns), and hardware telemetry and topology (to understand performance patterns of the cluster) they cannot accurately predict the resources a workload needs. Additionally, Expanse continuously updates its internal models to make sure our predictions get more accurate as more workloads run on your cluster, making it well suited for changes in new hardware or workload patterns. LLMs are very good at writing code and hyper parameter sweeps, but they need Expanse to complete the full agentic loop for auto research. It&#x27;s super easy to plug our tools into these agents, we have made our CLI tools LLM friendly. For more details on our LLM eval, check out: <a href=\"https:&#x2F;&#x2F;x.com&#x2F;ismaeel_bashir_&#x2F;status&#x2F;2059683849404383283\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;ismaeel_bashir_&#x2F;status&#x2F;2059683849404383283</a><p>We\u2019re currently onboarding customers as paid pilots. Pricing is determined per-cluster. We offer a two-week measurement window where we install, ingest, and report recoverable capacity to datacenter operators, followed by a paid pilot deployment in one department at a fixed monthly fee, renewing at the same rate unless the scope expands.<p>If you run a HPC&#x2F;GPU cluster (SLURM or K8s, 100+ GPUs), we&#x27;d love to have a talk. We\u2019ll install on a section of your cluster for a week, send a written report of what\u2019s recoverable, and you decide whether to keep going. If you\u2019ve tried something like this and it didn\u2019t work, we\u2019d really like to hear why. And if there\u2019s a failure mode you\u2019d want predicted that the post doesn\u2019t mention, drop it in this thread and we\u2019ll write back with whether the model already catches it or what it would take to add.\nI never thought I\u2019d be on the other side of launch HN :). Even if you don\u2019t run a cluster, we\u2019d still love to hear from you. Any thoughts on our approach, your experiences running workloads on clusters, or even anywhere you think we\u2019re wrong - we&#x27;d love to hear it.<p>Tally Ho!",
+      "content": null,
+      "author": "ismaeel_bashir",
+      "score": 50,
+      "num_comments": 11,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48356312,
+        "hn_url": "https://news.ycombinator.com/item?id=48356312",
+        "type": "story",
+        "is_text_post": true
+      },
+      "relevance_score": 0.674074074074074,
+      "final_score": 0.4347767235845219
+    },
+    {
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-06-01T16:00:00",
+      "summary": "Learn how Googlers used AI to produce Google I/O 2026.",
+      "content": "Learn how Googlers used AI to produce Google I/O 2026.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini models",
+        "google labs",
+        "developer tools",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07592592592592592,
+      "final_score": 0.4029416693579696
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-06-01T13:51:18",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.38843389808680556
+    },
+    {
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-06-01T04:44:55",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.3758587492710813
+    },
+    {
+      "title": "Show HN: Breathe CLI \u2013 Paced resonance breathing in the macOS terminal",
+      "url": "https://github.com/marekkowalczyk/breathe-cli",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-05-30T20:30:53",
+      "summary": "I built a terminal app that paces slow breathing at 6 breaths per minute for vagal tone training. It&#x27;s a single Python file, stdlib only, no dependencies \u2014 just run breathe and follow the bar.<p>I&#x27;m a cardiology patient (HFrEF). Slow breathing at resonance frequency is one of the few non-pharmacological interventions shown to improve cardiac vagal tone and baroreflex sensitivity (Bernardi et al., Circulation 2002; Lancet 1998). I wanted a frictionless daily habit tool \u2014 no app store, no account, no subscription, just open terminal and go.<p>Design constraints, all grounded in the clinical literature:<p>- No breath retention \u2014 Valsalva risk in cardiac patients<p>- No rapid breathing \u2014 minimum 8-second cycles<p>- Exhale \u2264 2x inhale \u2014 no evidence for extreme ratios<p>- Immediate exit, always \u2014 q or Ctrl+C restores the terminal even on crash<p>The README includes a resonance frequency measurement protocol for anyone with a chest-strap HRV monitor who wants to find their individual optimum instead of using the 6 bpm default.<p>macOS only (uses afplay for audio cues). MIT licensed.<p>pip install breathe-cli<p>or<p>brew tap marekkowalczyk&#x2F;breathe &amp;&amp; brew install breathe.",
+      "content": null,
+      "author": "marekkowalczyk",
+      "score": 126,
+      "num_comments": 40,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 48340315,
+        "hn_url": "https://news.ycombinator.com/item?id=48340315",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5277777777777778,
+      "final_score": 0.3726474687866843
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-05-29T17:30:00",
+      "summary": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+      "content": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini models",
+        "google deepmind",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.1148148148148148,
+      "final_score": 0.35555079632746367
+    },
+    {
+      "title": "Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions",
+      "url": "https://arxiv.org/abs/2605.31586v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-29T17:54:00",
+      "summary": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if open-source models have robust constructional understanding, and if so, what learning dynamics underlie the acquisition of this knowledge. Focusing on a set of rare Paired-Focus constructions in English (e.g. \"let alone\", \"much less\"), we construct a novel dataset to test their meanings using both scalar adjectival semantics and general world knowledge. Testing a wide range of models differing in parameter count, architecture, and pretraining dataset size, we find that several modestly sized models are sensitive to both the forms and the meanings of Paired-Focus constructions, though models trained on human-scale data fail at all meaning evaluations. Turning to training dynamics for a set of open-checkpoint models, we find that Paired-Focus understanding emerges later in training than Pair...",
+      "content": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if open-source models have robust constructional understanding, and if so, what learning dynamics underlie the acquisition of this knowledge. Focusing on a set of rare Paired-Focus constructions in English (e.g. \"let alone\", \"much less\"), we construct a novel dataset to test their meanings using both scalar adjectival semantics and general world knowledge. Testing a wide range of models differing in parameter count, architecture, and pretraining dataset size, we find that several modestly sized models are sensitive to both the forms and the meanings of Paired-Focus constructions, though models trained on human-scale data fail at all meaning evaluations. Turning to training dynamics for a set of open-checkpoint models, we find that Paired-Focus understanding emerges later in training than Paired-Focus syntactic knowledge, and that learning of Paired-Focus semantics is correlated with gains in some domains of world knowledge. Overall, our empirical results support the conclusion that modestly sized open-source models can grasp the rare Paired-Focus constructions, and demonstrate a connection between knowledge of Paired-Focus constructions and other meaning domains.",
+      "author": "Wesley Scivetti, Ethan Wilcox, Nathan Schneider, Kanishka Misra, Leonie Weissweiler",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.31586v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.31586v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Wesley Scivetti",
+          "Ethan Wilcox",
+          "Nathan Schneider",
+          "Kanishka Misra",
+          "Leonie Weissweiler"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.33664868014955357
+    },
+    {
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "url": "https://arxiv.org/abs/2605.31584v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-29T17:51:40",
+      "summary": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with verifiable rewards (RLVR) has shown promise for this task, yet existing methods are limited by low-confusability distractors and sparse, outcome-only reward signals that cannot supervise intermediate reasoning steps. To address these issues, we introduce \\textsc{LongTraceRL}. For data construction, we generate multi-hop questions via knowledge graph random walks and leverage search agent trajectories to build \\emph{tiered distractors}: documents the agent read but did not cite (high confusability) and documents that appeared in search results but were never opened (low confusability), producing training contexts that are far more challenging than those built by random sampling or one-shot search. For reward design, we propose a \\emph{rubric reward} that uses the gold entities along each reaso...",
+      "content": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with verifiable rewards (RLVR) has shown promise for this task, yet existing methods are limited by low-confusability distractors and sparse, outcome-only reward signals that cannot supervise intermediate reasoning steps. To address these issues, we introduce \\textsc{LongTraceRL}. For data construction, we generate multi-hop questions via knowledge graph random walks and leverage search agent trajectories to build \\emph{tiered distractors}: documents the agent read but did not cite (high confusability) and documents that appeared in search results but were never opened (low confusability), producing training contexts that are far more challenging than those built by random sampling or one-shot search. For reward design, we propose a \\emph{rubric reward} that uses the gold entities along each reasoning chain as fine-grained, entity-level process supervision. This rubric reward is applied only to responses with correct final answers (positive-only strategy), distinguishing the reasoning quality among correct responses and preventing reward hacking. Experiments on three reasoning LLMs (4B--30B) across five long-context benchmarks demonstrate that \\textsc{LongTraceRL} consistently outperforms strong baselines and encourages comprehensive, evidence-grounded reasoning. Codes, datasets and models are available at \\href{https://github.com/THU-KEG/LongTraceRL}{https://github.com/THU-KEG/LongTraceRL}.",
+      "author": "Nianyi Lin, Jiajie Zhang, Lei Hou, Juanzi Li",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.31584v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.31584v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Nianyi Lin",
+          "Jiajie Zhang",
+          "Lei Hou",
+          "Juanzi Li"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.33661395790773807
+    },
+    {
+      "title": "What Am I Missing? Question-Answering as Hidden State Probing",
+      "url": "https://arxiv.org/abs/2605.31561v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-29T17:27:07",
+      "summary": "Test-time reasoning has become a significant field of study since the introduction of chain-of-thought reasoning in large language models (LLMs). However, the mechanisms of this reasoning process are still under-explored -- from the same input prompt, and even the same partial solution, LLMs can produce varied answers if sampled multiple times. We propose to leverage question-asking as an inference-time intervention that articulates information about the model's hidden state. To achieve that, we present a student-teacher setting where a student asks questions to a teacher. We train a probe on the student's hidden state before and after asking a question and find it is predictive of the trajectory's final correctness, even before generating the teacher's answer. This suggests there is a meaningful signal from the self-diagnosis that occurs during question generation rather than information transfer from the teacher. We then frame question-asking as a sequential decision problem, using t...",
+      "content": "Test-time reasoning has become a significant field of study since the introduction of chain-of-thought reasoning in large language models (LLMs). However, the mechanisms of this reasoning process are still under-explored -- from the same input prompt, and even the same partial solution, LLMs can produce varied answers if sampled multiple times. We propose to leverage question-asking as an inference-time intervention that articulates information about the model's hidden state. To achieve that, we present a student-teacher setting where a student asks questions to a teacher. We train a probe on the student's hidden state before and after asking a question and find it is predictive of the trajectory's final correctness, even before generating the teacher's answer. This suggests there is a meaningful signal from the self-diagnosis that occurs during question generation rather than information transfer from the teacher. We then frame question-asking as a sequential decision problem, using this probe as a quality score, and define a gating policy to ask questions that maximize likelihood of correctness. We find that the success of question-asking as an intervention is largely dependent on the model's self-consistency. Our empirical results show a gap between detection and recovery; while our gating policy captures model correctness and uncertainty, interventions are equally likely to harm correct trajectories as they are to recover incorrect ones. This gap between diagnosis and correction has broader implications on language models' capacity for self-refinement under uncertainty.",
+      "author": "Chu Fei Luo, Samuel Dahan, Xiaodan Zhu",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.31561v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.31561v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Chu Fei Luo",
+          "Samuel Dahan",
+          "Xiaodan Zhu"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.33624863046626985
+    },
+    {
+      "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+      "url": "https://arxiv.org/abs/2605.31564v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-29T17:29:35",
+      "summary": "We present the first systematic study of masked diffusion language models (MDLMs) for graph-to-text generation. We analyze MDLM generation trajectories -- the order in which tokens are unmasked during iterative decoding -- and find that, unlike autoregressive LLMs which generate text linearly, MDLMs naturally prioritize entities first, followed by relational and function words, with structural tokens resolved last. We further identify a previously undocumented failure mode of supervised fine-tuning: SFT disrupts this strategy by prematurely anchoring structural sentence-ending tokens early in the decoding trajectory, effectively fixing the output length which can lead to omitted or hallucinated information. To address this, we propose lambda-scaled structural decoding, a training-free inference-time modification that downweights structural token confidence and recovers +9.4 BLEU-4. Finally, we introduce Graph-LLaDA, which integrates a Graph Transformer encoder into LLaDA's decoding pro...",
+      "content": "We present the first systematic study of masked diffusion language models (MDLMs) for graph-to-text generation. We analyze MDLM generation trajectories -- the order in which tokens are unmasked during iterative decoding -- and find that, unlike autoregressive LLMs which generate text linearly, MDLMs naturally prioritize entities first, followed by relational and function words, with structural tokens resolved last. We further identify a previously undocumented failure mode of supervised fine-tuning: SFT disrupts this strategy by prematurely anchoring structural sentence-ending tokens early in the decoding trajectory, effectively fixing the output length which can lead to omitted or hallucinated information. To address this, we propose lambda-scaled structural decoding, a training-free inference-time modification that downweights structural token confidence and recovers +9.4 BLEU-4. Finally, we introduce Graph-LLaDA, which integrates a Graph Transformer encoder into LLaDA's decoding process to explicitly incorporate relational graph structure. Cross-dataset evaluation on LAGRANGE reveals that previous baselines overfit to dataset-specific patterns, while LLM- and MDLM-based approaches generalize significantly better.",
+      "author": "Qing Wang, Jacob Devasier, Chengkai Li",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.31564v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.31564v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Qing Wang",
+          "Jacob Devasier",
+          "Chengkai Li"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06296296296296296,
+      "final_score": 0.3348038553741733
+    },
+    {
+      "title": "Vision-Language Models Suppress Female Representations Under Ambiguous Input",
+      "url": "https://arxiv.org/abs/2605.31556v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-05-29T17:20:02",
+      "summary": "Alignment teaches vision-language models (VLMs) to avoid expressing demographic biases, and when gender is clearly visible they largely succeed. Far less is known about ambiguous inputs (a worker in full gear, a figure seen from behind) cases common in practice yet rarely studied. We find that minimal prompting pressure exposes occupation-gender defaults when prompting ambiguous input images, with models collapsing to male even for strongly female-stereotyped occupations. But do these outputs reflect what models actually encode internally? We introduce LALS (Latent Association Leaning Score), a zero-shot metric that projects visual-token activations into the model's text-embedding space to measure concept associations per token and layer. Across 15 occupations, over 800 gender-ambiguous images, and four VLMs, internal representations and outputs are systematically decoupled: models often encode a female association internally yet output male. Layer-wise analysis reveals an asymmetric f...",
+      "content": "Alignment teaches vision-language models (VLMs) to avoid expressing demographic biases, and when gender is clearly visible they largely succeed. Far less is known about ambiguous inputs (a worker in full gear, a figure seen from behind) cases common in practice yet rarely studied. We find that minimal prompting pressure exposes occupation-gender defaults when prompting ambiguous input images, with models collapsing to male even for strongly female-stereotyped occupations. But do these outputs reflect what models actually encode internally? We introduce LALS (Latent Association Leaning Score), a zero-shot metric that projects visual-token activations into the model's text-embedding space to measure concept associations per token and layer. Across 15 occupations, over 800 gender-ambiguous images, and four VLMs, internal representations and outputs are systematically decoupled: models often encode a female association internally yet output male. Layer-wise analysis reveals an asymmetric filter -- male signal amplifies end-to-end while female signal peaks mid-network and is suppressed before generation -- and a color ablation shows that culturally loaded visual cues such as clothing color further modulate these internal associations.",
+      "author": "Arnau Marin-Llobet, Simon Henniger, Mahzarin R. Banaji",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2605.31556v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.31556v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "all_authors": [
+          "Arnau Marin-Llobet",
+          "Simon Henniger",
+          "Mahzarin R. Banaji"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.3272543348110119
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "url": "https://openai.com/index/braintrust",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-29T12:00:00",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "content": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.3269363784451885
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-05-29T12:00:00",
+      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "content": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "learning & education",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.3239734153673942
+    },
+    {
+      "title": "Boston Children\u2019s uses AI to unlock new diagnoses",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-05-29T12:00:00",
+      "summary": "Boston Children\u2019s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "content": "Boston Children\u2019s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.32026971178546626
+    }
+  ],
+  "summary": {
+    "sources": 6,
+    "top_source": "ArXiv [cs.CL]",
+    "date_range": {
+      "start": "2026-05-26T09:00:00",
+      "end": "2026-06-01T16:00:00"
+    }
+  }
+}
