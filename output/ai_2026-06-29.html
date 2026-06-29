@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 27</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 27 | June 29, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>7</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/" target="_blank">GLM 5.2 beats Claude in our benchmarks</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Jun 28
+                     | ⬆️ 1036 | 💬 475
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://danunparsed.com/p/hackerrank-open-source-ats" target="_blank">HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Jun 29
+                     | ⬆️ 814 | 💬 346
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://openai.com/index/hp-frontier-partnership" target="_blank">HP Inc. launches Frontier strategic partnership with OpenAI</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | Jun 28
+                    
+                </div>
+                <p class="story-summary">HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2606.28266v1" target="_blank">RSICCLLM: A Multimodal Large Language Model for Remote Sensing Image Change Captioning</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Jun 26
+                    
+                </div>
+                <p class="story-summary">Remote Sensing Image Change Captioning (RSICC) aims to describe changes between bi-temporal remote sensing images and holds significant research and application value. However, most existing methods rely on conventional deep learning architectures, a...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://huggingface.co/blog/ffasr-leaderboard" target="_blank">Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Jun 24
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2606.28277v1" target="_blank">Towards Automating Scientific Review with Google&#39;s Paper Assistant Tool</a></div>
+                <div class="paper-author">Rajesh Jayaram, Drew Tyler, David Woodruff, Corinna Cortes, Yossi Matias...</div>
+                <div class="paper-summary">Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creatin...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2606.28322v1" target="_blank">PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception</a></div>
+                <div class="paper-author">Yana Wei, Hongbo Peng, Yanlin Lai, Liang Zhao, Kangheng Lin...</div>
+                <div class="paper-summary">We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic mat...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2606.28294v1" target="_blank">Democratic ICAI: Debating Our Way to Steering Principles from Preferences</a></div>
+                <div class="paper-author">Kevin Kingslin, Anish Natekar, Ashutosh Ranjan, Vivek Srivastava, Savita Bhat...</div>
+                <div class="paper-summary">Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final ch...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2606.28279v1" target="_blank">Agentic Hardware Design as Repository-Level Code Evolution</a></div>
+                <div class="paper-author">Cunxi Yu, Chenhui Deng, Nathaniel Pinckney, Brucek Khailany</div>
+                <div class="paper-summary">We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an e...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2606.28323v1" target="_blank">DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand</a></div>
+                <div class="paper-author">Dihong Huang, Zhenyu Wei, Zhuxiu Xu, Yunchao Yao, Sikai Li...</div>
+                <div class="paper-summary">Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation s...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://cachyos.org/blog/2606-june-release/" target="_blank">CachyOS June 2026 Release</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 56 | 💬 30</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://github.com/kamaludu/bash4llm/" target="_blank">Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 54 | 💬 16</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://antoine.fi/mri-analysis-using-claude-code-opus" target="_blank">I used Claude Code to get a second opinion on my MRI</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 532 | 💬 658</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://huggingface.co/blog/cross-origin-storage" target="_blank">Experimenting with the proposed Cross-Origin Storage API in Transformers.js</a></div>
+                <div class="news-meta">Hugging Face Blog | Jun 23</div>
+                
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/patch-the-planet" target="_blank">Patch the Planet: a Daybreak initiative to support open source maintainers</a></div>
+                <div class="news-meta">OpenAI Blog | Jun 22</div>
+                <div class="news-summary">OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert r...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/" target="_blank">Repositioning retail for the AI era</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jun 25</div>
+                <div class="news-summary">Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be fla...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/how-agents-are-transforming-work" target="_blank">How agents are transforming work</a></div>
+                <div class="news-meta">OpenAI Blog | Jun 25</div>
+                <div class="news-summary">A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/" target="_blank">The emergence of the web data infrastructure layer for AI</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jun 24</div>
+                <div class="news-summary">AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, tho...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-06-29 16:39 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

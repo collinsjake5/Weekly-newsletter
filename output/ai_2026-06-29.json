@@ -1,0 +1,572 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-06-29T16:39:28.419145",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-06-28T17:50:47",
+      "summary": null,
+      "content": null,
+      "author": "jms703",
+      "score": 1036,
+      "num_comments": 475,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48709670,
+        "hn_url": "https://news.ycombinator.com/item?id=48709670",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.9420869952968169
+    },
+    {
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No \u2013 88",
+      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-06-29T01:44:40",
+      "summary": null,
+      "content": null,
+      "author": "sambellll",
+      "score": 814,
+      "num_comments": 346,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48713832,
+        "hn_url": "https://news.ycombinator.com/item?id=48713832",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.8551722653552589
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-06-28T17:00:00",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "content": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "company"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.753876882921379
+    },
+    {
+      "title": "RSICCLLM: A Multimodal Large Language Model for Remote Sensing Image Change Captioning",
+      "url": "https://arxiv.org/abs/2606.28266v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-06-26T16:57:40",
+      "summary": "Remote Sensing Image Change Captioning (RSICC) aims to describe changes between bi-temporal remote sensing images and holds significant research and application value. However, most existing methods rely on conventional deep learning architectures, and the limited model capacity constrains performance. Although large-model post-training techniques have achieved great success in general domains, their direct transfer to RSICC remains challenging due to data scarcity and the need for fine-grained change understanding. To address this, we propose RSICCLLM, the first post-training framework for large vision-language models in RSICC. Specifically, we design a data generation paradigm, release the instruction dataset RSICI, and establish a task-specific RSICC benchmark. We further introduce Difference-aware Supervised Fine-tuning to explicitly extract change representations and guide the model in perceiving and understanding temporal differences. In addition, we propose Dual-Negative Prefere...",
+      "content": "Remote Sensing Image Change Captioning (RSICC) aims to describe changes between bi-temporal remote sensing images and holds significant research and application value. However, most existing methods rely on conventional deep learning architectures, and the limited model capacity constrains performance. Although large-model post-training techniques have achieved great success in general domains, their direct transfer to RSICC remains challenging due to data scarcity and the need for fine-grained change understanding. To address this, we propose RSICCLLM, the first post-training framework for large vision-language models in RSICC. Specifically, we design a data generation paradigm, release the instruction dataset RSICI, and establish a task-specific RSICC benchmark. We further introduce Difference-aware Supervised Fine-tuning to explicitly extract change representations and guide the model in perceiving and understanding temporal differences. In addition, we propose Dual-Negative Preference Optimization (DNPO), which employs two complementary negative-sample construction strategies to construct the preference dataset RSICP and further refine model performance. Extensive experiments validate the superior capability of RSICCLLM, which achieves outstanding results with only 7B parameters, surpassing models of substantially larger scales. The code and dataset will be made publicly available at https://github.com/keaill/RSICCLLM.",
+      "author": "Yelin Wang, Zijia Song, Shuo Ye, Chuanguang Yang, Miaoyu Wang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2606.28266v1",
+        "pdf_url": "https://arxiv.org/pdf/2606.28266v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Yelin Wang",
+          "Zijia Song",
+          "Shuo Ye",
+          "Chuanguang Yang",
+          "Miaoyu Wang",
+          "Yong Xu",
+          "Zhulin An",
+          "Yongjun Xu",
+          "Zitong Yu"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7109850178826885
+    },
+    {
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-06-24T00:00:00",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6529840255684525
+    },
+    {
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-06-23T00:00:00",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.631555454123016
+    },
+    {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-06-22T10:00:00",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "content": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "security"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.625
+    },
+    {
+      "title": "CachyOS June 2026 Release",
+      "url": "https://cachyos.org/blog/2606-june-release/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-06-29T13:56:46",
+      "summary": null,
+      "content": null,
+      "author": "simonpure",
+      "score": 56,
+      "num_comments": 30,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48719361,
+        "hn_url": "https://news.ycombinator.com/item?id=48719361",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5707608108456271
+    },
+    {
+      "title": "Show HN: Bash4LLM+ \u2013 A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "url": "https://github.com/kamaludu/bash4llm/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-06-28T19:43:10",
+      "summary": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal.  I created it because I wanted something simple that worked without installing Python, Node, or any other runtime.<p>It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format.<p>I tried to make it safe and predictable: no use of the system &#x2F;tmp, no use of eval. Groq is supported by default, and other providers can be added with dedicated Bash scripts in the extras&#x2F;providers&#x2F; folder.<p>Example:<p><pre><code>  echo &quot;explains the command: ls -l&quot; | .&#x2F;bash4llm</code></pre>",
+      "content": null,
+      "author": "kamaludu",
+      "score": 54,
+      "num_comments": 16,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 48710827,
+        "hn_url": "https://news.ycombinator.com/item?id=48710827",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5510065525456181
+    },
+    {
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "url": "https://arxiv.org/abs/2606.28277v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-06-26T17:19:17",
+      "summary": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assisted science. Ultimately, to resolve this tension, we must also deploy AI to accelerate the verification and review process itself. To frame the discussion around this transition, we propose a taxonomy consisting of four progressive levels of AI-human collaboration in scientific evaluation, and discuss various trade-offs involved with each.   As a step toward this future, we introduce the Paper Assistant Tool (PAT), an agentic AI framework built for deep scientific review and verification. PAT ingests full scientific manuscripts and produces a comprehensive evaluation, checking theoretical results, validating experiments, suggesting improvements, and identifying potential flaws. By utilizing in...",
+      "content": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assisted science. Ultimately, to resolve this tension, we must also deploy AI to accelerate the verification and review process itself. To frame the discussion around this transition, we propose a taxonomy consisting of four progressive levels of AI-human collaboration in scientific evaluation, and discuss various trade-offs involved with each.   As a step toward this future, we introduce the Paper Assistant Tool (PAT), an agentic AI framework built for deep scientific review and verification. PAT ingests full scientific manuscripts and produces a comprehensive evaluation, checking theoretical results, validating experiments, suggesting improvements, and identifying potential flaws. By utilizing inference scaling techniques, PAT is able to identify deeper issues than a single model call alone, achieving a 34% improvement over zero-shot recall on mathematical errors in the SPOT benchmark. Pilot deployments of PAT as a pre-submission tool for authors at two major Computer Science conferences -- STOC and ICML -- demonstrate its ability to identify critical errors and suggest substantive improvements to research papers. By catching errors early, PAT eases the cognitive burden placed on referees, while preserving their control over the outcomes of the review process.",
+      "author": "Rajesh Jayaram, Drew Tyler, David Woodruff, Corinna Cortes, Yossi Matias...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2606.28277v1",
+        "pdf_url": "https://arxiv.org/pdf/2606.28277v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY"
+        ],
+        "all_authors": [
+          "Rajesh Jayaram",
+          "Drew Tyler",
+          "David Woodruff",
+          "Corinna Cortes",
+          "Yossi Matias",
+          "Vahab Mirrokni",
+          "Vincent Cohen-Addad"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5611111111111111,
+      "final_score": 0.5357511393058035
+    },
+    {
+      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+      "url": "https://arxiv.org/abs/2606.28322v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-06-26T17:59:15",
+      "summary": "We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over 12,000 instance-specific rubrics. These criteria are derived from golden captions constructed via a novel Circular Peer-Review consensus pipeline and then distilled into a dual-stream system of Must-Right (essential facts) and Easy-Wrong (fine-grained details) rubrics. Crucially, PerceptionRubrics implements a Gated Scoring mechanism: unlike linear averages, failure on mandatory visual facts triggers sharp binary penalties. Extensive evaluation yields critical insights: (1) The Reliability Gap: models often verify fragmented elements correctly yet fail strict conjunctive constraints, exposing brittleness in dense domains; (2) Open-Closed Stratification: contrary to reasoning trends, we revea...",
+      "content": "We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over 12,000 instance-specific rubrics. These criteria are derived from golden captions constructed via a novel Circular Peer-Review consensus pipeline and then distilled into a dual-stream system of Must-Right (essential facts) and Easy-Wrong (fine-grained details) rubrics. Crucially, PerceptionRubrics implements a Gated Scoring mechanism: unlike linear averages, failure on mandatory visual facts triggers sharp binary penalties. Extensive evaluation yields critical insights: (1) The Reliability Gap: models often verify fragmented elements correctly yet fail strict conjunctive constraints, exposing brittleness in dense domains; (2) Open-Closed Stratification: contrary to reasoning trends, we reveal a persistent 8% perception deficit between open-source and proprietary frontiers; and (3) Human-Aligned Rigor: our gated metrics substantially out-align conventional benchmarks, validating that strict perceptual fidelity is the prerequisite for reliable generation.",
+      "author": "Yana Wei, Hongbo Peng, Yanlin Lai, Liang Zhao, Kangheng Lin...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2606.28322v1",
+        "pdf_url": "https://arxiv.org/pdf/2606.28322v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Yana Wei",
+          "Hongbo Peng",
+          "Yanlin Lai",
+          "Liang Zhao",
+          "Kangheng Lin",
+          "En Yu",
+          "Keyu Lv",
+          "Han Zhou",
+          "Yin Tang",
+          "Haodong Li",
+          "Mitt Huang",
+          "Hangyu Guo",
+          "Jianjian Sun",
+          "Zheng Ge",
+          "Xiangyu Zhang",
+          "Daxin Jiang",
+          "Vishal M. Patel"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5425925925925926,
+      "final_score": 0.5289384736354994
+    },
+    {
+      "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
+      "url": "https://arxiv.org/abs/2606.28294v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-06-26T17:38:47",
+      "summary": "Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final choice rather than the considerations that shape preferences. Inverse Constitutional AI (ICAI) improves interpretability in decision making by summarizing preferences into natural-language principles, but its single-pass explanations miss much of the nuance involved in complex decisions. We introduce Democratic ICAI, a novel approach that gathers multiple competing rationales through structured persona debate, offering a broader and more expressive account of the factors influencing each comparison. From these richer signals, we derive clearer and more comprehensive steering principles and use them to guide decision modeling through both LLM-based and decision-tree judges. Experiments on creative preference benchmarks, MuCE-Pref and LiTBench, across multiple creative task categories show tha...",
+      "content": "Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final choice rather than the considerations that shape preferences. Inverse Constitutional AI (ICAI) improves interpretability in decision making by summarizing preferences into natural-language principles, but its single-pass explanations miss much of the nuance involved in complex decisions. We introduce Democratic ICAI, a novel approach that gathers multiple competing rationales through structured persona debate, offering a broader and more expressive account of the factors influencing each comparison. From these richer signals, we derive clearer and more comprehensive steering principles and use them to guide decision modeling through both LLM-based and decision-tree judges. Experiments on creative preference benchmarks, MuCE-Pref and LiTBench, across multiple creative task categories show that Democratic ICAI yields a more faithful preference structure. It improves average preference prediction across tasks relative to deliberative prompting and principle-based baselines, while producing constitutions that LLM annotators prefer.",
+      "author": "Kevin Kingslin, Anish Natekar, Ashutosh Ranjan, Vivek Srivastava, Savita Bhat...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2606.28294v1",
+        "pdf_url": "https://arxiv.org/pdf/2606.28294v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.MA"
+        ],
+        "all_authors": [
+          "Kevin Kingslin",
+          "Anish Natekar",
+          "Ashutosh Ranjan",
+          "Vivek Srivastava",
+          "Savita Bhat",
+          "Shirish Karande"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5425925925925926,
+      "final_score": 0.5286339103180391
+    },
+    {
+      "title": "Agentic Hardware Design as Repository-Level Code Evolution",
+      "url": "https://arxiv.org/abs/2606.28279v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-06-26T17:21:06",
+      "summary": "We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an executable evaluator, an acceptance predicate, and a git/runtime policy; a hands-free agent loop then evolves an isolated git worktree, using repository operations for state management, tracing, and replay. This extends prior works of repository-scale self-evolution from EDA software systems, to hardware-design artifacts themselves. We evaluate our approach on ChipBench, RTLLM, Verilog-Eval, and nine CVDP categories, achieving 100\\% benchmark completion across all suites with a fully hands-free agentic loop. However, we do not claim that agentic AI for hardware design is solved: these benchmarks are controlled proxies for a much broader engineering problem in chip design. Section~\\ref{sec:discuss} examines the limitations of the current study and highlights open research challenges.",
+      "content": "We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an executable evaluator, an acceptance predicate, and a git/runtime policy; a hands-free agent loop then evolves an isolated git worktree, using repository operations for state management, tracing, and replay. This extends prior works of repository-scale self-evolution from EDA software systems, to hardware-design artifacts themselves. We evaluate our approach on ChipBench, RTLLM, Verilog-Eval, and nine CVDP categories, achieving 100\\% benchmark completion across all suites with a fully hands-free agentic loop. However, we do not claim that agentic AI for hardware design is solved: these benchmarks are controlled proxies for a much broader engineering problem in chip design. Section~\\ref{sec:discuss} examines the limitations of the current study and highlights open research challenges.",
+      "author": "Cunxi Yu, Chenhui Deng, Nathaniel Pinckney, Brucek Khailany",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2606.28279v1",
+        "pdf_url": "https://arxiv.org/pdf/2606.28279v1.pdf",
+        "categories": [
+          "cs.AR",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Cunxi Yu",
+          "Chenhui Deng",
+          "Nathaniel Pinckney",
+          "Brucek Khailany"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.5268892841684027
+    },
+    {
+      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
+      "url": "https://arxiv.org/abs/2606.28323v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-06-26T17:59:57",
+      "summary": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapping fingers and contact modes, causing destructive interference between preserving an existing manipulation outcome and executing a new one. We propose DexCompose, a role-aware residual composition framework that reuses pretrained dexterous policies for multi-task manipulation through explicit finger-level action ownership. Given two pretrained full-hand policies, DexCompose first collects successful post-task states from the first skill and performs release tests over candidate finger masks to identify which fingers are necessary for maintaining the established skill state. It then trains two asymmetric residual modules: a bounded residual stabilizer for task preservation, and a context-aware residual that adapts the frozen downstream poli...",
+      "content": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapping fingers and contact modes, causing destructive interference between preserving an existing manipulation outcome and executing a new one. We propose DexCompose, a role-aware residual composition framework that reuses pretrained dexterous policies for multi-task manipulation through explicit finger-level action ownership. Given two pretrained full-hand policies, DexCompose first collects successful post-task states from the first skill and performs release tests over candidate finger masks to identify which fingers are necessary for maintaining the established skill state. It then trains two asymmetric residual modules: a bounded residual stabilizer for task preservation, and a context-aware residual that adapts the frozen downstream policy only within the action subspace assigned to the new task. We evaluate the framework on 16 composite dexterous manipulation tasks spanning four object-retention skills and four downstream interactions. DexCompose achieves a 77.4% average composite success rate, demonstrating that structural action ownership with dual residuals offers a promising direction for composing dexterous skills beyond conventional policy chaining.",
+      "author": "Dihong Huang, Zhenyu Wei, Zhuxiu Xu, Yunchao Yao, Sikai Li...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2606.28323v1",
+        "pdf_url": "https://arxiv.org/pdf/2606.28323v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Dihong Huang",
+          "Zhenyu Wei",
+          "Zhuxiu Xu",
+          "Yunchao Yao",
+          "Sikai Li",
+          "Mingyu Ding"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5277777777777778,
+      "final_score": 0.5230229647671131
+    },
+    {
+      "title": "StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views",
+      "url": "https://arxiv.org/abs/2606.28321v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-06-26T17:59:06",
+      "summary": "We present StructSplat, a feed-forward and generalizable 3D Gaussian reconstruction framework that operates directly on uncalibrated images without requiring camera parameters. Existing methods either rely on per-scene optimization or assume known camera poses, and often entangle geometry and appearance within a unified backbone, limiting reconstruction fidelity and generalization. Our key idea is to adopt a structured representation that organizes geometry, semantic, and texture cues with explicit roles in the reconstruction process. Specifically, we introduce a pixel-aligned feature injection mechanism to enable accurate texture modeling from 2D observations, incorporate semantic-aware priors to improve global consistency, and design a camera alignment strategy to prevent information leakage and improve generalization. Experiments show that our method significantly outperforms prior approaches on challenging benchmarks. On DL3DV, our method achieves 28.045 PSNR, surpassing AnySplat (...",
+      "content": "We present StructSplat, a feed-forward and generalizable 3D Gaussian reconstruction framework that operates directly on uncalibrated images without requiring camera parameters. Existing methods either rely on per-scene optimization or assume known camera poses, and often entangle geometry and appearance within a unified backbone, limiting reconstruction fidelity and generalization. Our key idea is to adopt a structured representation that organizes geometry, semantic, and texture cues with explicit roles in the reconstruction process. Specifically, we introduce a pixel-aligned feature injection mechanism to enable accurate texture modeling from 2D observations, incorporate semantic-aware priors to improve global consistency, and design a camera alignment strategy to prevent information leakage and improve generalization. Experiments show that our method significantly outperforms prior approaches on challenging benchmarks. On DL3DV, our method achieves 28.045 PSNR, surpassing AnySplat (22.377) by +5.67 dB. In cross-dataset evaluation, our method achieves +1.94 dB over AnySplat on ACID and +1.72 dB on RealEstate10K. Project page: https://structsplat.github.io Code: https://github.com/J-C-Zhao/StructSplat",
+      "author": "Jia-Chen Zhao, Beiqi Chen, Xinyang Chen, Guangcong Wang, Liqiang Nie",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2606.28321v1",
+        "pdf_url": "https://arxiv.org/pdf/2606.28321v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Jia-Chen Zhao",
+          "Beiqi Chen",
+          "Xinyang Chen",
+          "Guangcong Wang",
+          "Liqiang Nie"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5166666666666667,
+      "final_score": 0.5185658710999504
+    },
+    {
+      "title": "Repositioning retail for the AI era",
+      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-06-25T14:22:59",
+      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and how retailers respond to customer behavior in real time. As legacy retailers navigate a fragmented and hyper-competitive landscape...",
+      "content": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and how retailers respond to customer behavior in real time. As legacy retailers navigate a fragmented and hyper-competitive landscape, AI is becoming an operating philosophy. At Macy\u2019s, that philosophy is more often defined by what senior director of engineering Murali Murugan describes as an \u201cAI-first\u201d approach. \u201cAI first isn\u2019t about adding intelligence on top,\u201d Murugan says. \u201cIt\u2019s about redesigning how decisions happen so the business moves faster and every experience feels more relevant by default.\u201d Rather than layering AI onto existing workflows, Macy\u2019s is embedding intelligence directly into systems that include personalization, search, operational planning, and software development itself. The company\u2019s strategy is reflective of a larger shift taking place across retail: moving from isolated AI pilots toward integrated systems designed to compress, as Murugan puts it, \u201cthe gap between the signal and the action.\u201d Early efforts focused on narrow, high-impact use cases like search recommendations and customer engagement, where measurable gains in conversion and reduced friction quickly built internal momentum. \u201cOnce we established the quick wins, scaling was a business decision, not a technology debate anymore,\u201d he says. That momentum is now extending into conversational commerce through tools like Ask Macy\u2019s, an AI-powered shopping assistant designed to act more like a personal stylist than a traditional search bar. Whether for a prom, a vacation, or a last-minute event, customers can describe what they need conversationally and receive curated recommendations informed by past purchases, preferences, and context. Still, the company sees AI as more of an invisible layer augmenting human judgment than a replacement for it. The long-term vision is retail that feels increasingly seamless, adaptive, and personalized, powered by systems customers may never even notice are there. &#8220;The real transformation in this all comes from continuous improvement,&#8221; Murugan says. &#8220;It&#8217;s about learning from the mistakes, quickly adapting to the newer technology standards that are coming into play, timing, and execution which compound into a meaningfully better customer experience.&#8221;  This webcast is produced in partnership with Infosys. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.5072546109632937
+    },
+    {
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-06-25T02:00:00",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "content": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "company"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.49175386703249
+    },
+    {
+      "title": "The emergence of the web data infrastructure layer for AI",
+      "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-06-24T11:59:54",
+      "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology\u2019s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.  To understand this challenge, consider the foundation of the web itself. The web was not designed for the automated discovery and retrieval that new AI applications demand. Overcoming this inherent design constraint requires infrastructure. The next fronti...",
+      "content": "AI is booming. New use cases are emerging each day. To capitalize on the technology\u2019s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.  To understand this challenge, consider the foundation of the web itself. The web was not designed for the automated discovery and retrieval that new AI applications demand. Overcoming this inherent design constraint requires infrastructure. The next frontier in AI may depend on a new web data infrastructure layer that can enable models to discover and map this ever-expanding digital realm. This layer must be able to navigate hundreds of millions of existing web domains and billions of new URLs created each week, delivering real-time information and overcoming technical barriers. \u201cThe data suggests there&#8217;s far more data out there,\u201d says Or Lenchner, CEO of Bright Data, a web data collection platform. \u201cThink of the universe: It&#8217;s out there, but you don&#8217;t know what you don&#8217;t know.\u201d Enabling access to fresh, relevant, and trustworthy data While early AI breakthroughs were driven by scaling training data and model size, organizations are now encountering a fundamental bottleneck: They need to keep pace with the dynamic, unstructured, and constantly evolving nature of web data in order to ground outputs in current and verifiable information. AI performance increasingly depends not just on model architecture but on a system\u2019s compute, networking, retrieval, and data engineering capabilities\u2014that is, the system\u2019s ability to quickly and reliably retrieve data that is fresh, relevant, and trustworthy. Traditional model training relies on snapshots of information collected at a particular point in time. Training AI on such static data is no longer sufficient. To track fluctuations such as competitor pricing, consumer sentiment, and market trends, companies need a constant feed of new information, pulling data in real time along with relevant context. Their infrastructure must therefore be able to handle millions of simultaneous interactions across websites that vary by geography, language, format, and access rules. \u201cIf it can&#8217;t retrieve real-time information, it lacks context,\u201d Lenchner says. \u201cIn a business setting, that&#8217;s not acceptable anymore. Stale answers lead to bad decisions and disappointed consumers.\u201d Speed is not merely a matter of convenience; it\u2019s a matter of necessity. Today\u2019s organizations operate in environments where prices, inventory, markets, security threats, and customer behavior change continuously. Delayed data retrieval can reduce the usefulness of an otherwise sophisticated model. Using live, high-quality web data can also reduce AI hallucinations because the model has a more relevant knowledge base. This builds user trust. In fact, one survey found that 56% of AI practitioners said businesses need access to real-time web data to improve trust in AI outputs. To ensure the model runs efficiently and effectively, the information must also be pared down to the appropriate essentials.  Despite the introduction of retrieval-augmented generation (RAG), where models pull in external data at the moment of a query, many AI systems still struggle to deliver outputs that are current, contextually relevant, and trustworthy in operational settings. According to Gartner, 60% of AI projects that are not supported by AI-ready data\u2014accurate, structured, organized, and contextualized\u2014will be abandoned by the end of the year.  This is because large-scale retrieval alone does not solve the problem. As Lenchner puts it, \u201cYou need to retrieve data at scale, but also in real time. Latency becomes an issue because of the end user who is waiting for the output.\u201d  Accessing fresh, AI-ready data at scale introduces technical and structural challenges. In practice, many enterprise systems combine public web retrieval with APIs, licensed datasets, and proprietary internal data in their AI applications. Integrating these fragmented sources into a timely and usable knowledge layer requires specialized capabilities. Some research has found that 97% of AI organizations depend on real-time web data infrastructure, but 90% feel boxed in by various restrictions. Companies are increasingly developing technical approaches to navigate these constraints. Lenchner draws this metaphor: \u201cThink of the trained model as intelligence and relevant data as knowledge. A powerful intelligence layer sitting on top of a hollow knowledge layer is like a genius who knows nothing\u2014useless in practice. Intelligence and knowledge have to come together.\u201d The promise of new infrastructure A new layer of web data infrastructure can address this developing need for stronger AI inputs by enabling discovery of data, real-time access, and tailoring to a specific context. As Lechner describes it, \u201cIt&#8217;s all about collecting data at scale, super-low latency, without being blocked.\u201d Rather than relying on increased computing power, this type of platform emulates human browsing behavior to access available content and transform raw code into structured data feeds. It can work with websites that might not interact with traditional scraping tools, such as those heavy in JavaScript, or with aggressive antibot software.  As Lenchner explains, \u201cIt&#8217;s basically having infrastructure that can mimic a web user with identifying information\u2014IP address, location, and 1,000 more parameters. And at scale. Think of doing that 80 billion times a day for millions of websites. And every single time, you are looking exactly as the website expects you to look.\u201d Of course, continuous retrieval introduces new data governance challenges. To address them, platforms can enforce strict compliance protocols aligned with global privacy frameworks, such as the EU\u2019s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). They can also be limited to openly accessible, public information, avoiding paywalls or private logins. Any networks used can be vetted and consent-based, and incentives can be provided to owners of IP addresses. In this way, systems can be designed to comply with tightening regulation. Such complex capabilities do not come easy. \u201cWhen this is critical infrastructure for a company,\u201d Lenchner says, \u201cdoing it in-house becomes a full-time engineering problem that competes with the actual AI work.\u201d Addressing this complexity requires organizations to commit significant resources, leading many to seek specialized platforms designed specifically for data retrieval, orchestration, and observability. Infrastructure for the real world Real-time data retrieval is changing what AI systems can do inside organizations. For example, a retail company can use public information to enable a dynamic pricing engine, and global brands can track trademark infringements.  As the ecosystem matures, organizations that invest in this emerging data infrastructure layer will be better positioned to build AI systems that are more responsive, reliable, and aligned with real-world conditions\u2014AI systems that can continuously adapt using current web data. Over time, the distinction between AI models and the infrastructure that feeds them may even begin to disappear. As Lenchner says, \u201cThe world is changing. And everything that is happening in the world is being uploaded to the public web. The amount of new data that is being generated is growing and accelerating.\u201d To learn more from Bright Data, read the Data for AI 2026 report . This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5592592592592592,
+      "final_score": 0.4874005269524636
+    },
+    {
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-06-23T17:00:00",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "content": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "applied ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5944444444444444,
+      "final_score": 0.4845118035106647
+    },
+    {
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-06-28T16:35:19",
+      "summary": null,
+      "content": null,
+      "author": "engmarketer",
+      "score": 532,
+      "num_comments": 658,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48708941,
+        "hn_url": "https://news.ycombinator.com/item?id=48708941",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.4408218843693559
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-06-22T10:00:00",
+      "end": "2026-06-29T13:56:46"
+    }
+  }
+}
