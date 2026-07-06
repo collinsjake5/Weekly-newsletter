@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 28</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 28 | July 06, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>9</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2607.02512v1" target="_blank">Program-as-Weights: A Programming Paradigm for Fuzzy Functions</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Jul 02
+                    
+                </div>
+                <p class="story-summary">Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost o...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://huggingface.co/blog/ibm-research/scarfbench" target="_blank">ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Jun 30
+                    
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html" target="_blank">Nintendo announces new product revisions in Europe with replaceable batteries</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Jul 06
+                     | ⬆️ 153 | 💬 98
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2607.02514v1" target="_blank">Distributed Attacks in Persistent-State AI Control</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Jul 02
+                    
+                </div>
+                <p class="story-summary">As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2607.02513v1" target="_blank">LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Jul 02
+                    
+                </div>
+                <p class="story-summary">LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often foll...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.02504v1" target="_blank">Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas</a></div>
+                <div class="paper-author">Yuxuan Li, Lingxi Xie, Xinyue Huo, Jihao Qiu, Jiacheng Shao...</div>
+                <div class="paper-summary">Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \textbf{speaker recognition}, the task of accurately attri...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.02499v1" target="_blank">Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials</a></div>
+                <div class="paper-author">Gil Harari, Yoel Zimmermann, Ola Tangen Kulseng, Laura Zichi, Chuin Wei Tan...</div>
+                <div class="paper-summary">Machine learning interatomic potentials (MLIPs) have become a hallmark of AI for scientific simulation. While efforts on new architectures and datasets have led to increasingly accurate and general mo...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.02509v1" target="_blank">ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning</a></div>
+                <div class="paper-author">Yanjun Zhao, Ruizhong Qiu, Tianxin Wei, Yuanchen Bei, Zhining Liu...</div>
+                <div class="paper-summary">Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.02502v1" target="_blank">DemoPSD: Disagreement-Modulated Policy Self-Distillation</a></div>
+                <div class="paper-author">Yunhe Li, Hao Shi, Wenhao Liu, Mengzhe Ruan, Hanxu Hou...</div>
+                <div class="paper-summary">On-policy self-distillation (OPSD) has emerged as a practical method for training large language models (LLMs) to reason, where a single model acts as both the teacher and the student with different l...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.02507v1" target="_blank">What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates</a></div>
+                <div class="paper-author">Arman Ghaffarizadeh, Danyal Mohaddes, Aliakbar Izadkhah, Shahriar Noroozizadeh</div>
+                <div class="paper-summary">LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. We study whether such social structure, w...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://homegames.io" target="_blank">Show HN: Homegames. An open-source game platform I&#39;ve been making for 8 years</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 212 | 💬 52</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://twitter.com/thsottiaux/status/2073933490513752151" target="_blank">GPT-5.6 Sol Ultra will be in Codex</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 383 | 💬 332</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/introducing-genebench-pro" target="_blank">Introducing GeneBench-Pro</a></div>
+                <div class="news-meta">OpenAI Blog | Jun 30</div>
+                <div class="news-summary">Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/" target="_blank">LLMs are stuck in a groupthink groove. This startup is trying to get them out.</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jul 01</div>
+                <div class="news-summary">Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to g...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/" target="_blank">Google DeepMind and A24 announce first-of-its-kind research partnership</a></div>
+                <div class="news-meta">DeepMind Blog | Jul 03</div>
+                
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/" target="_blank">Achieving operational excellence with AI</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jul 02</div>
+                <div class="news-summary">Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-07-06 16:24 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

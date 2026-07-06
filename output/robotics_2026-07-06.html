@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Robotics Weekly - Week 28</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manufacturing Robotics Weekly</h1>
+            <div class="date">Week 28 | July 06, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>Robohub</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.youtube.com/watch?v=BYXbuik3dgA" target="_blank">Elon Musk – &quot;In 36 months, the cheapest place to put AI will be space”</a>
+                </div>
+                <div class="story-meta">
+                    YouTube - Dwarkesh Patel and Stripe | Jul 06
+                     | ⬆️ 150 | 💬 0
+                </div>
+                <p class="story-summary">Optimus and humanoid manufacturing, Tesla will use 10,000 to 30,000 Optimus robots for self-training, similar to FSD Elon Musk revealed Optimus&#39;s new strategy: creating an &quot;Optimus Academy&quot; with 10,000 to 30,000 real robots that will continuously per...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://robohub.org/robocup2026-humanoid-league-knockout-stages/" target="_blank">#RoboCup2026 – humanoid league knockout stages</a>
+                </div>
+                <div class="story-meta">
+                    Robohub | Jul 06
+                    
+                </div>
+                <p class="story-summary">This weekend saw the finale of the league competitions at RoboCup 2026 in Incheon, South Korea, with the winners in the small, middle, and large humanoid divisions decided. Congratulations to the following teams, who finished in the top three positio...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/" target="_blank">Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Jul 05
+                    
+                </div>
+                <p class="story-summary">Arm drift after long reinforcement training caused by action prefix drift. Source: Humanoid Robotic manipulation is making progress with artificial intelligence. London-based Humanoid last week introduced KinetIQ Ascend, its reinforcement learning, o...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://spectrum.ieee.org/humanoid-robots-japan" target="_blank">Japan Pioneered Humanoid Robots—Can It Now Catch China?</a>
+                </div>
+                <div class="story-meta">
+                    IEEE Spectrum Robotics | Jul 04
+                    
+                </div>
+                <p class="story-summary">“In the future, the relationship between humans and robots will deepen, and the distinction between them will probably disappear.” This prediction, from one of the attendees at the recent Humanoids Summit in Tokyo , might have been unremarkable had i...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://robohub.org/robocup2026-humanoid-league-day-2/" target="_blank">#RoboCup2026 – humanoid league day 2</a>
+                </div>
+                <div class="story-meta">
+                    Robohub | Jul 03
+                    
+                </div>
+                <p class="story-summary">The second day&amp;#8217;s play at RoboCup 2026 has drawn to a close with another bumper set of matches. Teams have come from far and wide to take part in the humanoid soccer competition this year, with 17 different countries represented. China is the mo...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.02332v1" target="_blank">HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum</a></div>
+                <div class="paper-author">Chenxin Liu, Qingzhou Lu, Guangxiao Yang, Xuanyang Shi, Chenghan Yang...</div>
+                <div class="paper-summary">General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interac...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.02501v1" target="_blank">Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots</a></div>
+                <div class="paper-author">Ling Xu, Chuyu Han, Borui Li, Hao Wu, Shiqi Jiang...</div>
+                <div class="paper-summary">Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, an...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support" target="_blank">Building relationships with customers through support didn&#39;t turn out as hoped</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 265 | 💬 163</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://spectrum.ieee.org/stochastic-parrot" target="_blank">Emily Bender Sets the Record Straight on &quot;Stochastic Parrots&quot;</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 92 | 💬 93</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://news.bloomberglaw.com/us-law-week/doj-closing-abbott-labs-case-spurs-wider-corporate-crime-retreat" target="_blank">DOJ Closing Abbott Labs Case Spurs Wider Corporate Crime Retreat</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 41 | 💬 3</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/automate-2026-show-recap/" target="_blank">Automate 2026 show recap</a></div>
+                <div class="news-meta">The Robot Report | Jul 02</div>
+                <div class="news-summary">The Robot Report Podcast · Automate 2026 Show Recap In Episode 251 of The Robot Report Podcast, hosts Steve Crowe and Mike Oitzman are joined by speci...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://robohub.org/robocup2026-humanoid-league-day-1/" target="_blank">#RoboCup2026 – humanoid league day 1</a></div>
+                <div class="news-meta">Robohub | Jul 02</div>
+                <div class="news-summary">Image credit: RoboCup Federation. RoboCup 2026 kicked off today in Incheon, South Korea, with the league competitions running until 5 July. It’s an ex...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/" target="_blank">Why you should combine robot dexterity with mechanical positioning for complex assembly operations</a></div>
+                <div class="news-meta">The Robot Report | Jul 02</div>
+                <div class="news-summary">From left to right: The FANUC LR Mate 200 iD, the KUKA KR QUANTEC, and ABB&amp;#8217;s IRB 6700. | Source: FANUC, KUKA, ABB Robotics Robotics professional...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/" target="_blank">Luxonis closes Series A round to scale physical AI perception layer</a></div>
+                <div class="news-meta">The Robot Report | Jul 02</div>
+                <div class="news-summary">Luxonis has raised funding to provide AI perception for a range of industrial use cases. Source: Luxonis Increasing interest in physical AI is helping...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/top-10-robotic-stories-june-2026/" target="_blank">Top 10 robotics developments of June 2026</a></div>
+                <div class="news-meta">The Robot Report | Jul 01</div>
+                <div class="news-summary">Humanoid robots made many headlines in June 2026, whether it be for companies going public, new deployments, or hitting production milestones. Large f...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-07-06 16:24 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

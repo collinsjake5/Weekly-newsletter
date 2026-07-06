@@ -1,0 +1,651 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-07-06T16:24:18.371846",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "url": "https://arxiv.org/abs/2607.02512v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-02T17:59:50",
+      "summary": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a compact, locally-executable neural artifact. We instantiate this paradigm with Program-as-Weights (PAW), in which a 4B compiler trained on FuzzyBench, a 10M-example dataset we release, emits parameter-efficient adapters for a frozen, lightweight interpreter. A 0.6B Qwen3 interpreter executing PAW programs matches the performance of direct prompting of Qwen3-32B, while using roughly one fiftieth of the inference memory and running at 30 tokens/s on a MacBook M3. PAW reframes the foundation model from a per-input problem solver into a tool builder: invoked once per function definition, it produc...",
+      "content": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a compact, locally-executable neural artifact. We instantiate this paradigm with Program-as-Weights (PAW), in which a 4B compiler trained on FuzzyBench, a 10M-example dataset we release, emits parameter-efficient adapters for a frozen, lightweight interpreter. A 0.6B Qwen3 interpreter executing PAW programs matches the performance of direct prompting of Qwen3-32B, while using roughly one fiftieth of the inference memory and running at 30 tokens/s on a MacBook M3. PAW reframes the foundation model from a per-input problem solver into a tool builder: invoked once per function definition, it produces a small reusable artifact whose subsequent calls per function application are cheap and offline.",
+      "author": "Wentao Zhang, Liliana Hotsko, Woojeong Kim, Pengyu Nie, Stuart Shieber...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02512v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02512v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Wentao Zhang",
+          "Liliana Hotsko",
+          "Woojeong Kim",
+          "Pengyu Nie",
+          "Stuart Shieber",
+          "Yuntian Deng"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6907072519422124
+    },
+    {
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-06-30T18:32:50",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6483411798459822
+    },
+    {
+      "title": "Nintendo announces new product revisions in Europe with replaceable batteries",
+      "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-06T13:18:16",
+      "summary": null,
+      "content": null,
+      "author": "akyuu",
+      "score": 153,
+      "num_comments": 98,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48804193,
+        "hn_url": "https://news.ycombinator.com/item?id=48804193",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6144558498311595
+    },
+    {
+      "title": "Distributed Attacks in Persistent-State AI Control",
+      "url": "https://arxiv.org/abs/2607.02514v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-02T17:59:56",
+      "summary": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterative VibeCoding, a coding agent builds software over a sequence of PRs in a persistent codebase while pursuing a covert side task. Our benchmark includes two task families: CLI tools and Flask web services, across 20 total task variations. We use Claude Sonnet 4.5 as the attack agent and GPT-4o as the monitor. We compare gradual attacks, which distribute the side task across PRs, against non-gradual attacks concentrated in a single PR. No single monitor is robust to both: which strategy evades best...",
+      "content": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterative VibeCoding, a coding agent builds software over a sequence of PRs in a persistent codebase while pursuing a covert side task. Our benchmark includes two task families: CLI tools and Flask web services, across 20 total task variations. We use Claude Sonnet 4.5 as the attack agent and GPT-4o as the monitor. We compare gradual attacks, which distribute the side task across PRs, against non-gradual attacks concentrated in a single PR. No single monitor is robust to both: which strategy evades best (success while evading the monitor) depends on the monitor type, so a defender cannot close off both gradual and non-gradual attacks with any one monitor. High evasion (>= 65%) generalizes across model attack agent backends (Sonnet 4.5, Gemini 3.1 Pro, Kimi K2.5), confirming this is a property of the persistent-state attack surface rather than a single model's capability. Evasion also remains high across state-of-the-art monitor models and the gap between gradual and non-gradual evasion widens for more capable models. We introduce a stateful link-tracker monitor that tracks suspicious buildup across PRs. On both task families, it detects gradual attacks substantially better than diff monitors that merely see more accumulated history. Combining this stronger monitor with trajectory monitors in a four-monitor ensemble reduces gradual-attack evasion from 93% under the weakest standard diff monitor to 47%.",
+      "author": "Josh Hills, Ida Caspary, Asa Cooper Stickland",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02514v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02514v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Josh Hills",
+          "Ida Caspary",
+          "Asa Cooper Stickland"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5944444444444444,
+      "final_score": 0.528486517860119
+    },
+    {
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "url": "https://arxiv.org/abs/2607.02513v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-02T17:59:52",
+      "summary": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's parameters or merely obfuscates it, a concern reinforced by the success of resurfacing attacks. To bridge this gap, we introduce LACUNA: the first unlearning testbed with ground-truth parameter-level localization. LACUNA injects PII of synthetic individuals into predefined parameters of 1B and 7B OLMo-based models via masked continual pretraining, enabling direct evaluation of whether unlearning targets the weights responsible for knowledge storage. We use LACUNA to benchmark current SOTA unlea...",
+      "content": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's parameters or merely obfuscates it, a concern reinforced by the success of resurfacing attacks. To bridge this gap, we introduce LACUNA: the first unlearning testbed with ground-truth parameter-level localization. LACUNA injects PII of synthetic individuals into predefined parameters of 1B and 7B OLMo-based models via masked continual pretraining, enabling direct evaluation of whether unlearning targets the weights responsible for knowledge storage. We use LACUNA to benchmark current SOTA unlearning methods and find that, despite strong output-level performance, existing methods are highly imprecise and susceptible to resurfacing attacks. We further show that when localization is successful, even a simple gradient-based unlearning method achieves strong erasure and robustness to resurfacing attacks, highlighting the importance of precise unlearning. We release LACUNA to complement behavioral evaluations and drive further advances in robust, localization-based unlearning.",
+      "author": "Matteo Boglioni, Thibault Rousset, Siva Reddy, Marius Mosbach, Verna Dankers",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02513v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02513v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Matteo Boglioni",
+          "Thibault Rousset",
+          "Siva Reddy",
+          "Marius Mosbach",
+          "Verna Dankers"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5703703703703704,
+      "final_score": 0.518855896145668
+    },
+    {
+      "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
+      "url": "https://arxiv.org/abs/2607.02504v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-02T17:58:52",
+      "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field through two primary contributions. (1) We introduce \\textbf{DramaSR-532K}, a large-scale benchmark comprising 532K annotated dialogue lines across more than 900 unique characters, necessitating the integration of auditory, linguistic, and visual cues for speaker recognition. (2) We propose \\textbf{DramaSR-LRM}, a robust approach built upon a large reasoning model (LRM). DramaSR-LRM is designed to autonomously aggregate contextual evidence via multimodal tool-use, synthesizing diverse inputs to achieve high-fidelity attribution. Experimental results demonstrate that DramaSR-LRM significantly outperforms existing baselines, particularly on short utterances where acoustic biometrics are inherently u...",
+      "content": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field through two primary contributions. (1) We introduce \\textbf{DramaSR-532K}, a large-scale benchmark comprising 532K annotated dialogue lines across more than 900 unique characters, necessitating the integration of auditory, linguistic, and visual cues for speaker recognition. (2) We propose \\textbf{DramaSR-LRM}, a robust approach built upon a large reasoning model (LRM). DramaSR-LRM is designed to autonomously aggregate contextual evidence via multimodal tool-use, synthesizing diverse inputs to achieve high-fidelity attribution. Experimental results demonstrate that DramaSR-LRM significantly outperforms existing baselines, particularly on short utterances where acoustic biometrics are inherently unreliable. \\textit{All the data and code will be made publicly available at the project page: https://www.github.com/198808xc/DramaSR-LRM.}",
+      "author": "Yuxuan Li, Lingxi Xie, Xinyue Huo, Jihao Qiu, Jiacheng Shao...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02504v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02504v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Yuxuan Li",
+          "Lingxi Xie",
+          "Xinyue Huo",
+          "Jihao Qiu",
+          "Jiacheng Shao",
+          "Pengfei Chen",
+          "Jiannan Ge",
+          "Kaiwen Duan",
+          "Qi Tian"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5648148148148149,
+      "final_score": 0.5166187926684855
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-06-30T00:00:00",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "content": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.4473367157780258
+    },
+    {
+      "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "url": "https://homegames.io",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-05T21:32:44",
+      "summary": "I&#x27;m making a platform for simple open source games you can play anywhere.<p>Games are all just JavaScript classes and you can read the source of every game on the platform.<p>I started working on initial &quot;games&quot; (mostly rendering tests) in 2018 and eventually built all of the platform stuff around it to make it easy to share games.<p>There&#x27;s also an in-browser editor available for you to make and publish games all from the browser.<p>Would love some feedback on the games and studio features as well as the platform overall. All of the code is available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;homegamesio\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;homegamesio</a>",
+      "content": null,
+      "author": "homegamesjoseph",
+      "score": 212,
+      "num_comments": 52,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 48798153,
+        "hn_url": "https://news.ycombinator.com/item?id=48798153",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5222222222222223,
+      "final_score": 0.4155247607580654
+    },
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-06T01:04:03",
+      "summary": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575</a>",
+      "content": null,
+      "author": "mfiguiere",
+      "score": 383,
+      "num_comments": 332,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48799614,
+        "hn_url": "https://news.ycombinator.com/item?id=48799614",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.3582703602369469
+    },
+    {
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-01T14:35:16",
+      "summary": "Let\u2019s start with a game. Open up your chatbot of choice\u2014Claude, ChatGPT, Gemini\u2014and type \u201cGive me a random number between 1 and 10.\u201d You\u2019re going to get 7. Almost always. Now type \u201cAnother\u201d and you\u2019ll get 3 or 4. Type \u201cAnother\u201d again and you\u2019ll get 8 or 9. That won\u2019t work every time\u2014but if it did, you may wonder if I have superpowers. I don\u2019t. The truth is that most large language models are stuck in a rut. They are far more predictable and far less creative in their responses than you might exp...",
+      "content": "Let\u2019s start with a game. Open up your chatbot of choice\u2014Claude, ChatGPT, Gemini\u2014and type \u201cGive me a random number between 1 and 10.\u201d You\u2019re going to get 7. Almost always. Now type \u201cAnother\u201d and you\u2019ll get 3 or 4. Type \u201cAnother\u201d again and you\u2019ll get 8 or 9. That won\u2019t work every time\u2014but if it did, you may wonder if I have superpowers. I don\u2019t. The truth is that most large language models are stuck in a rut. They are far more predictable and far less creative in their responses than you might expect. That\u2019s fine for tasks like coding or research, but groupthink is a problem when you\u2019re brainstorming or planning your next vacation. The Australian startup Springboards has a solution. It built an LLM called Flint, which has been trained to come up with a wider variety of responses than mainstream LLMs to open-ended questions such as \u201cWhere should I go in Europe?\u201d \u201cMost language models are fighting hallucinations,\u201d says Springboards cofounder and CEO Pip Bingemann. \u201cWe welcome them.\u201d Bingemann introduced me to the random number game when he first showed me his company\u2019s new model. It felt like watching an illusionist with a deck of cards. \u201cThis is our sales trick, and it works every single time,\u201d he says. After ChatGPT and Claude both gave their 7s, Bingemann turned to Flint. It too came back with 7: \u201cAha, of course that was going to happen, but it\u2019s okay\u20147 is a legitimate answer.\u201d He restarted the session and prompted again: ChatGPT gave 7, Claude gave 7, Flint gave 3.7916. Run your way It\u2019s not just numbers. When Bingemann asked ChatGPT and Claude to name a type of car, he predicted that it would be a Toyota or a Honda\u2014and he was right. Flint came up with a Ford F-150. \u201cThere\u2019s all this lost information that doesn\u2019t get served up in these models,\u201d he says. \u201cThey\u2019re just as capable of saying a Buick or a Tesla. They just don\u2019t\u2014they\u2019re biased.\u201d Bingemann sent one last prompt to each of the three models: \u201cGive me a tagline for a campaign for New Balance running shoes. Just the tagline.\u201d Claude: \u201cRun your way.\u201d ChatGPT: \u201cRun your way.\u201d Flint: \u201cBuilt to last, run to win.\u201d It won\u2019t win any awards, but at least it\u2019s different. This weird limitation of LLMs is starting to get more attention. In November a team of researchers put out a paper, titled &#8220;Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond),\u201d that exposed a remarkable degree of repetition not only in the answers from individual LLMs but between them as well. They found that different LLMs converged on very similar answers when prompted with open-ended questions. It\u2019s not clear exactly why this happens, but the researchers speculate it\u2019s because most LLMs today are trained in similar ways on similar data to do similar tasks. The team won the best paper award at NeurIPS, a major AI conference. When the researchers asked 25 different LLMs (including models from the top US firms as well as open-source models from China and elsewhere) 50 times each to write a metaphor about time, most of the 1,250 responses were a version of \u201cTime is a river\u201d or \u201cTime is a weaver.\u201d (I asked some of my colleagues the same question and six people gave me six different answers. My highlight: \u201cTime is a favorite sweatshirt, shaped by a lifetime of wear.\u201d) When you look for it, you see repetition everywhere, says Kieran Browne, cofounder and CTO at Springboards. \u201cThe way that most chat interfaces are designed, it makes it feel like you\u2019re having a personal conversation,\u201d he says. \u201cI think most people don\u2019t really realize the extent to which they are getting the same stuff as everybody else.\u201d Take another example: \u201cWhat should I name my band?\u201d Most models will say something involving \u201cglass,\u201d \u201cneon,\u201d \u201cvelvet,\u201d or \u201cstatic,\u201d says Browne. When I tried it, ChatGPT spat out a list of 56 band names. At the top was \u201cGlass Harbor.\u201d Skimming through, I found \u201cStatic Empire,\u201d \u201cNeon Hearts,\u201d and \u201cVelvet Echo.\u201d I asked Gemini; it gave me 15 suggestions, including \u201cStatic Horizon.\u201d Some of the suggestions looked pretty cool, though. ChatGPT\u2019s \u201cSofa Astronauts\u201d caught my eye, so I googled it\u2014and found that a band called Sofa Astronauts already exists.  (OpenAI says that training models to give reliable and coherent answers can lead them to converge around familiar, high-probability responses and that pushing harder for novelty can lead to weaker or less reliable responses. It also notes that the \u201cArtificial Hivemind\u201d paper studied models from 2024 that have since been updated.) Creative catapult Springboards has developed a tool backed by a selection of LLMs, including ChatGPT and Claude, that creative professionals in advertising or marketing can use to brainstorm ideas. The tool lets you drag around text produced by different models, picking the bits that you like and combining them into something new\u2014in theory. Springboards is pitching Flint as an alternative model that users of its tool can select when looking for more variety. Zoe Scaman, founder of the business strategy startup Bodacious and chief strategy officer at 77X, a direct-to-fan marketing platform set up by Luka Don\u010di\u0107 of the LA Lakers, has been trying it out. \u201cI find it really useful for throwing me in completely different directions,\u201d she says. \u201cI use it if I want to catapult myself all over the place.\u201d In one test, Scaman pitted Flint against Claude, Gemini, and ChatGPT by giving each of the models a classic MBA case study: How would you reinvent a finance company for today\u2019s youth? The three mainstream models all went down the same path, she says: \u201cYou know, we need to teach financial literacy in a fun and funky way\u2014well, that\u2019s nothing new.\u201d But Flint came up with something different, suggesting that the whole concept of wealth accumulation should get a rebrand. \u201cThat was really interesting,\u201d says Scaman. She notes that Flint is still a prototype and doesn\u2019t work all the time. \u201cIt sometimes falls over when you start pushing it too far,\u201d she says. \u201cBut I think that the premise behind it is really powerful.\u201d Taking the temperature Springboards built Flint on top of Qwen 3, an open-source model from the Chinese tech giant Alibaba. \u201cWe\u2019re a small team,\u201d says Browne. \u201cTraining a foundation model is not on the table for us. It\u2019s just too expensive.\u201d Most LLMs have settings that let you adjust the level of randomness in their output. The most common is called temperature . \u201cObviously, that was one of the first things we explored, because that\u2019s what people tell you: If you want more creativity, you turn up the temperature,\u201d says Browne. But changing those settings can also make models incoherent. Dialing up the temperature on one of OpenAI\u2019s models to its maximum setting made it produce responses that switched from English into code halfway through a sentence, says Browne. Springboards realized that parameters were blunt instruments for what it wanted to do. It does not make sense to dial up the randomness across the board; you only want to boost it at specific points in its output, he says. For example, when you ask a chatbot \u201cWhere should I go in Europe?\u201d the model only needs to tweak the randomness just before it names a destination, not for every word in its response. To make Flint do this, Springboards trained its version of Qwen 3 to identify the points in its output where more variety was possible and fill those spots with words or phrases that were a little more random. \u201cFlint\u2019s programmed to throw an oddball in. It\u2019s more of an invitation to think wider,\u201d says Maximilian Weigl, cofounder and chief strategy officer at Uncommon, a marketing firm. \u201cThat\u2019s super interesting.\u201d Weigl\u2019s team uses Flint alongside ChatGPT, Claude, and Gemini. \u201cYou can\u2019t really create something boundary-breaking with tools that pull you back to the average,\u201d he says.  And yet Weigl notes that nine times out of 10 the average is fine. You don\u2019t always need to reach for extremes with something like Flint, he says: \u201cMost people are fine with good enough. They want to see mass-market familiar things.\u201d Weigl also cautions against using any LLM too much. \u201cI have a big problem when people rely on the output from any AI, including Flint,\u201d he says. \u201cIf I saw people on my team copy-pasting something from AI, I\u2019d be like, \u2018That\u2019s not your job! Think, talk to other people, use your own voice.\u2019\u201d For now, Flint is aimed at advertisers and marketers because those are Springboards\u2019s customers. But Bingemann and Browne insist that a lack of variety is a problem for anyone using chatbots. The idea is to give people the choice and leave it to them to decide if the result is good or not, says Bingemann. \u201cVariety is great when you\u2019re trying to spark ideas,\u201d he says. \u201cLet\u2019s go down this route instead of letting the machines do it all and ending up in a gray, boring world.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.17777777777777778,
+      "final_score": 0.33734564422767854
+    },
+    {
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "source_type": "rss",
+      "source_name": "DeepMind Blog",
+      "published_at": "2026-07-03T14:25:43",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "deepmind-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.3333940073764881
+    },
+    {
+      "title": "Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials",
+      "url": "https://arxiv.org/abs/2607.02499v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-07-02T17:57:31",
+      "summary": "Machine learning interatomic potentials (MLIPs) have become a hallmark of AI for scientific simulation. While efforts on new architectures and datasets have led to increasingly accurate and general models, the choice of optimizer for training has largely remained unexplored, defaulting to Adam and its variants in the community. Here, we implement and systematically compare a class of recently proposed matrix-structured optimizers, including Muon, SOAP, and the hybrid SOAP-Muon, for training NequIP and Allegro MLIP models. We find that these optimizers can substantially outperform Adam in both convergence speed and final accuracy. SOAP and SOAP-Muon emerge as robust and consistently strong methods, while Muon only provides partial gains relative to Adam. The improvements are particularly pronounced under partial force supervision. Our results indicate that optimizer choice is an overlooked yet impactful design axis for MLIPs.",
+      "content": "Machine learning interatomic potentials (MLIPs) have become a hallmark of AI for scientific simulation. While efforts on new architectures and datasets have led to increasingly accurate and general models, the choice of optimizer for training has largely remained unexplored, defaulting to Adam and its variants in the community. Here, we implement and systematically compare a class of recently proposed matrix-structured optimizers, including Muon, SOAP, and the hybrid SOAP-Muon, for training NequIP and Allegro MLIP models. We find that these optimizers can substantially outperform Adam in both convergence speed and final accuracy. SOAP and SOAP-Muon emerge as robust and consistently strong methods, while Muon only provides partial gains relative to Adam. The improvements are particularly pronounced under partial force supervision. Our results indicate that optimizer choice is an overlooked yet impactful design axis for MLIPs.",
+      "author": "Gil Harari, Yoel Zimmermann, Ola Tangen Kulseng, Laura Zichi, Chuin Wei Tan...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02499v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02499v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "physics.chem-ph",
+          "physics.comp-ph"
+        ],
+        "all_authors": [
+          "Gil Harari",
+          "Yoel Zimmermann",
+          "Ola Tangen Kulseng",
+          "Laura Zichi",
+          "Chuin Wei Tan",
+          "Marc L. Descoteaux",
+          "Boris Kozinsky"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.09074074074074073,
+      "final_score": 0.326969073853588
+    },
+    {
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2607.02509v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-02T17:59:26",
+      "summary": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a gap between context access and effective context utilization. In this work, we propose Recursive Evidence Replay as LLM Harness for Long-Context Reasoning (RECONTEXT), a training-free inference method for improving long-context reasoning. RECONTEXT uses model-internal relevance signals to construct a query-conditioned evidence pool and replays it before final generation while preserving the full original context. This recursive selection process separates evidence organization from answer generation without training, external memory, or context pruning. We also provide a theoretical analysis based on associative memory, which characterizes the context as a memory store, the question as a re...",
+      "content": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a gap between context access and effective context utilization. In this work, we propose Recursive Evidence Replay as LLM Harness for Long-Context Reasoning (RECONTEXT), a training-free inference method for improving long-context reasoning. RECONTEXT uses model-internal relevance signals to construct a query-conditioned evidence pool and replays it before final generation while preserving the full original context. This recursive selection process separates evidence organization from answer generation without training, external memory, or context pruning. We also provide a theoretical analysis based on associative memory, which characterizes the context as a memory store, the question as a retrieval cue, attention as cue-trace association, and replay as trace reactivation. Experiments on eight long-context datasets with 128K context length show that RECONTEXT consistently improves evidence utilization across Qwen3-4B, Qwen3-8B, and Llama3-8B, achieving the best average rank on all three backbones. Code is available at https://github.com/Yanjun-Zhao/ReContext.",
+      "author": "Yanjun Zhao, Ruizhong Qiu, Tianxin Wei, Yuanchen Bei, Zhining Liu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02509v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02509v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yanjun Zhao",
+          "Ruizhong Qiu",
+          "Tianxin Wei",
+          "Yuanchen Bei",
+          "Zhining Liu",
+          "Lingjie Chen",
+          "Ismini Lourentzou",
+          "Hanghang Tong",
+          "Jingrui He"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.3218124106366568
+    },
+    {
+      "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2607.02502v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-07-02T17:58:29",
+      "summary": "On-policy self-distillation (OPSD) has emerged as a practical method for training large language models (LLMs) to reason, where a single model acts as both the teacher and the student with different levels of information access. However, recent studies have found that the teacher's dense token-level supervision, conditioned on privileged information, can lead to overfitting to in-domain patterns, suppress exploration, and hurt cross-domain generalization, while also introducing a more fundamental issue: *privileged information leakage*, where the student encodes answer-dependent shortcuts that are unavailable at test time. We introduce **DemoPSD**, a novel framework that resolves such problems through the idea of *selective adoption of teacher guidance*. Instead of fitting the full teacher distribution, DemoPSD steers the student toward a *reverse-KL barycenter target*, a weighted geometric combination of the teacher and student distributions, that naturally balances learning from the ...",
+      "content": "On-policy self-distillation (OPSD) has emerged as a practical method for training large language models (LLMs) to reason, where a single model acts as both the teacher and the student with different levels of information access. However, recent studies have found that the teacher's dense token-level supervision, conditioned on privileged information, can lead to overfitting to in-domain patterns, suppress exploration, and hurt cross-domain generalization, while also introducing a more fundamental issue: *privileged information leakage*, where the student encodes answer-dependent shortcuts that are unavailable at test time. We introduce **DemoPSD**, a novel framework that resolves such problems through the idea of *selective adoption of teacher guidance*. Instead of fitting the full teacher distribution, DemoPSD steers the student toward a *reverse-KL barycenter target*, a weighted geometric combination of the teacher and student distributions, that naturally balances learning from the teacher with preserving the student's own reasoning capacity. We measure the difference between their distributions and use such a discrepancy to adaptively control the blending at each token position. We provably show that DemoPSD achieves **(1)** *leakage attenuation*, i.e., effective mitigation of privileged information leakage; and **(2)** *exploration preservation*, i.e., preservation of exploration capacity under dense token-level distillation. Extensive experiments on SciKnowEval across four scientific fields show that DemoPSD outperforms both GRPO and SDPO while maintaining higher training entropy and robustly generalizing to out-of-distribution GPQA benchmarks.",
+      "author": "Yunhe Li, Hao Shi, Wenhao Liu, Mengzhe Ruan, Hanxu Hou...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02502v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02502v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yunhe Li",
+          "Hao Shi",
+          "Wenhao Liu",
+          "Mengzhe Ruan",
+          "Hanxu Hou",
+          "Zhongxiang Dai",
+          "Shuang Qiu",
+          "Linqi Song"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.321798273609871
+    },
+    {
+      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+      "url": "https://arxiv.org/abs/2607.02507v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-02T17:59:23",
+      "summary": "LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. We study whether such social structure, without any explicit objective in the prompt, changes what an agent expresses publicly relative to an off-the-record (OTR) channel elicited under the same condition. We introduce a dual-channel debate framework in which agents produce public utterances that enter the shared history alongside OTR responses that are recorded but never shown to the other participant. Across 10 models, 3 scenarios, and 5 variations within each scenario, alignment-inducing settings produce systematic public-OTR divergence in the targeted agent, with its decision divergence rising from a $\\sim$3% baseline to roughly 40%. The effect is consistent across four aggregate analyses: stance, semantic similarity, natural language inference, and survey responses. In some cases, the OTR response explicitly attributes publi...",
+      "content": "LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. We study whether such social structure, without any explicit objective in the prompt, changes what an agent expresses publicly relative to an off-the-record (OTR) channel elicited under the same condition. We introduce a dual-channel debate framework in which agents produce public utterances that enter the shared history alongside OTR responses that are recorded but never shown to the other participant. Across 10 models, 3 scenarios, and 5 variations within each scenario, alignment-inducing settings produce systematic public-OTR divergence in the targeted agent, with its decision divergence rising from a $\\sim$3% baseline to roughly 40%. The effect is consistent across four aggregate analyses: stance, semantic similarity, natural language inference, and survey responses. In some cases, the OTR response explicitly attributes public accommodation to relational pressures, such as career risk or sponsorship obligation. The findings suggest that agent evaluation should extend beyond explicit goals and detect emergent objectives. We present a dual-channel evaluation framework and complementary behavioral measures that operationalize this assessment.",
+      "author": "Arman Ghaffarizadeh, Danyal Mohaddes, Aliakbar Izadkhah, Shahriar Noroozizadeh",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02507v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02507v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG",
+          "cs.MA"
+        ],
+        "all_authors": [
+          "Arman Ghaffarizadeh",
+          "Danyal Mohaddes",
+          "Aliakbar Izadkhah",
+          "Shahriar Noroozizadeh"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07407407407407407,
+      "final_score": 0.3203301850842427
+    },
+    {
+      "title": "Towards Robustness against Typographic Attack with Training-free Concept Localization",
+      "url": "https://arxiv.org/abs/2607.02494v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-02T17:55:24",
+      "summary": "Models trained via Contrastive Language-Image Pretraining (CLIP) serve as the foundational vision encoders for most modern Large Vision Language Models (LVLMs). Despite their widespread adoption, CLIP models exhibit a critical yet underexplored failure mode: irrelevant text appearing within images confounds visual representations, biasing them toward lexical meaning rather than true visual semantics. This robustness issue, commonly described as a Typographic Attack (TA), exposes a vulnerability that poses a significant risk to safety-critical applications such as autonomous driving. To achieve interpretable and effective robustness against TA, we propose a novel, training-free mechanistic interpretability method. Our method provides sampling-based interpretations of hidden state representations and quantitatively attributes semantic versus lexical focus to individual attention heads. Through probabilistic analysis and circuit mining, we isolate specific Vision Transformer (ViT) compone...",
+      "content": "Models trained via Contrastive Language-Image Pretraining (CLIP) serve as the foundational vision encoders for most modern Large Vision Language Models (LVLMs). Despite their widespread adoption, CLIP models exhibit a critical yet underexplored failure mode: irrelevant text appearing within images confounds visual representations, biasing them toward lexical meaning rather than true visual semantics. This robustness issue, commonly described as a Typographic Attack (TA), exposes a vulnerability that poses a significant risk to safety-critical applications such as autonomous driving. To achieve interpretable and effective robustness against TA, we propose a novel, training-free mechanistic interpretability method. Our method provides sampling-based interpretations of hidden state representations and quantitatively attributes semantic versus lexical focus to individual attention heads. Through probabilistic analysis and circuit mining, we isolate specific Vision Transformer (ViT) components that disproportionately encode lexical information, thereby identifying the mechanistic source of TA. We further show that simple interventions applied directly to the identified circuits, without any additional training, can substantially improve robustness against Typographic Attacks in object classification. These interventions, such as selective adjustment of attention weights, also outperform both supervised and training-free defense methods. Our experiments demonstrate that applying the proposed intervention to the vision encoders of several state-of-the-art LVLMs yields substantial gains in Visual Question Answering accuracy under Typographic Attack interference on RIO-Bench. These results confirm both the efficacy and the generalizability of our mechanistic approach. Code is released at https://github.com/Liu-524/SamplingTAR.",
+      "author": "Bohan Liu, Wenqian Ye, Guangzhi Xiong, Zhenghao He, Sanchit Sinha...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CV",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02494v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02494v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Bohan Liu",
+          "Wenqian Ye",
+          "Guangzhi Xiong",
+          "Zhenghao He",
+          "Sanchit Sinha",
+          "Aidong Zhang"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.3173079460855655
+    },
+    {
+      "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+      "url": "https://arxiv.org/abs/2607.02517v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-07-02T17:59:59",
+      "summary": "We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain motion, our framework explicitly decouples semantic motion orchestration from visual generation. By leveraging an LLM to coordinate 3D trajectories with camera movements and subsequently employing these orchestrated trajectories as control signals for video generation, our approach ensures strict physical logic and appearance stability, successfully preserving the exact visual identities of dynamic entities even when they re-enter the scene after prolonged periods out of view. Experimental results demonstrate that our method supports the synthesis of complex and extended events with unprecedented controllability and persistent dynamic object memory. Project Page: https://worlddirector.github.io...",
+      "content": "We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain motion, our framework explicitly decouples semantic motion orchestration from visual generation. By leveraging an LLM to coordinate 3D trajectories with camera movements and subsequently employing these orchestrated trajectories as control signals for video generation, our approach ensures strict physical logic and appearance stability, successfully preserving the exact visual identities of dynamic entities even when they re-enter the scene after prolonged periods out of view. Experimental results demonstrate that our method supports the synthesis of complex and extended events with unprecedented controllability and persistent dynamic object memory. Project Page: https://worlddirector.github.io/",
+      "author": "Hanlin Wang, Hao Ouyang, Qiuyu Wang, Wen Wang, Qingyan Bai...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02517v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02517v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Hanlin Wang",
+          "Hao Ouyang",
+          "Qiuyu Wang",
+          "Wen Wang",
+          "Qingyan Bai",
+          "Ka Leong Cheng",
+          "Yue Yu",
+          "Yixuan Li",
+          "Yihao Meng",
+          "Zichen Liu",
+          "Yanhong Zeng",
+          "Yujun Shen",
+          "Qifeng Chen"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.06481481481481481,
+      "final_score": 0.3166354096883267
+    },
+    {
+      "title": "Alignment Is All You Need For X-to-4D Generation",
+      "url": "https://arxiv.org/abs/2607.02516v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-07-02T17:59:57",
+      "summary": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existing methods. This paper presents Align4D, a flexible framework that translates any-modal input into coherent video-3D pairs, using video to guide 4D motion and 3D data to shape 4D geometry. Align4D introduces three key techniques: (1) Object Distance Alignment, which searches Video-Aligned and Multiview-Aligned Object Distances (VAOD/MAOD), respectively, to reconcile 4D renderings with video and the priors of multiview diffusion models; (2) Motion-Geometry Joint Alignment, which constrains known and unknown views through synchronized video and 3D inputs, ensuring consistent 4D generation; and (3) Asynchronous Optimization, which decouples Gaussian attribute and deformation network training to ...",
+      "content": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existing methods. This paper presents Align4D, a flexible framework that translates any-modal input into coherent video-3D pairs, using video to guide 4D motion and 3D data to shape 4D geometry. Align4D introduces three key techniques: (1) Object Distance Alignment, which searches Video-Aligned and Multiview-Aligned Object Distances (VAOD/MAOD), respectively, to reconcile 4D renderings with video and the priors of multiview diffusion models; (2) Motion-Geometry Joint Alignment, which constrains known and unknown views through synchronized video and 3D inputs, ensuring consistent 4D generation; and (3) Asynchronous Optimization, which decouples Gaussian attribute and deformation network training to enhance motion and geometry fidelity. We further propose the X4D dataset, which integrates prompt, image, video, and 3D data for benchmarking. Experiments on X4D and Consistent4D demonstrate that Align4D achieves state-of-the-art quality and consistency in X-to-4D generation. Project page: https://miaoqiaowei.github.io/Align4D/.",
+      "author": "Qiaowei Miao, Kehan Li, Yawei Luo, Yi Yang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02516v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02516v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Qiaowei Miao",
+          "Kehan Li",
+          "Yawei Luo",
+          "Yi Yang"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.059259259259259255,
+      "final_score": 0.31441269141377315
+    },
+    {
+      "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+      "url": "https://arxiv.org/abs/2607.02515v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-07-02T17:59:56",
+      "summary": "State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain ViT, that operates directly on raw 3D point map patches and is conditioned on image tokens from a pre-trained DINOv3. Unlike existing latent diffusion approaches, we train our diffusion backbone entirely from scratch, eliminating the need for point map tokenizers. Despite its simplicity, our approach surpasses complex latent-based diffusion models while remaining significantly simpler than hybrid alternatives. Notably, it produces sharper geometric structure and is more robust in highly ambiguous regions, such as transparent objects.",
+      "content": "State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain ViT, that operates directly on raw 3D point map patches and is conditioned on image tokens from a pre-trained DINOv3. Unlike existing latent diffusion approaches, we train our diffusion backbone entirely from scratch, eliminating the need for point map tokenizers. Despite its simplicity, our approach surpasses complex latent-based diffusion models while remaining significantly simpler than hybrid alternatives. Notably, it produces sharper geometric structure and is more robust in highly ambiguous regions, such as transparent objects.",
+      "author": "Haofei Xu, Rundi Wu, Philipp Henzler, Nikolai Kalischek, Michael Oechsle...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.02515v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.02515v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Haofei Xu",
+          "Rundi Wu",
+          "Philipp Henzler",
+          "Nikolai Kalischek",
+          "Michael Oechsle",
+          "Fabian Manhardt",
+          "Marc Pollefeys",
+          "Andreas Geiger",
+          "Federico Tombari",
+          "Michael Niemeyer"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.059259259259259255,
+      "final_score": 0.31441244337731483
+    },
+    {
+      "title": "Achieving operational excellence with AI",
+      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-02T15:37:08",
+      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos\u2014a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to embed habits of measurement, analysis, and accountability into day-to-day company culture. DOWNLOAD THE REPORT But today, those time...",
+      "content": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos\u2014a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to embed habits of measurement, analysis, and accountability into day-to-day company culture. DOWNLOAD THE REPORT But today, those time-tested playbooks are evolving as companies seek to embed AI into established process excellence methodologies. By some estimates, the market for AI-powered process optimization is projected to exceed $113 billion within the next decade. In one study, a full 88% of business leaders anticipated increasing investments into AI-infused process intelligence in the next 12 to 18 months. Yet without the right foundations, many of those investments may not fully deliver on their potential. Companies that already operate with discipline have an edge. They can channel new tools into proven systems rather than bolting them onto shaky foundations. Organizations with mature process disciplines are also better positioned to translate AI ambition into real outcomes, as they are already accustomed to data-driven decision-making and process discipline\u2014precisely the cultural foundation AI systems need to deliver value. Simply put: AI can accelerate process excellence, but existing process excellence is what makes AI truly impactful. Technology and process are no longer separate levers, and only organizations that pull them together stand to realize the full value of both. Download the full report. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3085837394965278
+    }
+  ],
+  "summary": {
+    "sources": 9,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-06-30T00:00:00",
+      "end": "2026-07-06T13:18:16"
+    }
+  }
+}
