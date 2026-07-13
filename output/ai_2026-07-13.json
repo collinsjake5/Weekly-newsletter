@@ -1,0 +1,645 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-07-13T15:43:37.357730",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Scalable Visual Pretraining for Language Intelligence",
+      "url": "https://arxiv.org/abs/2607.09657v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-10T17:57:03",
+      "summary": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by converting visually rich sources, such as documents and web pages, into plain text for learning language intelligence. This paper challenges the default assumption that language models must be trained on text-only representations and shows that Visual Pretraining is a scalable learner for foundation model intelligence. To this end, we conduct a systematic study of unsupervised visual pretraining paradigms that directly leverage visual documents without text extraction. Across multiple backbones and benchmarks, visual pretraining on the same underlying corpora consistently outperforms text-only...",
+      "content": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by converting visually rich sources, such as documents and web pages, into plain text for learning language intelligence. This paper challenges the default assumption that language models must be trained on text-only representations and shows that Visual Pretraining is a scalable learner for foundation model intelligence. To this end, we conduct a systematic study of unsupervised visual pretraining paradigms that directly leverage visual documents without text extraction. Across multiple backbones and benchmarks, visual pretraining on the same underlying corpora consistently outperforms text-only pretraining, offering an efficient pathway to scalable language intelligence.",
+      "author": "Yiming Zhang, Zhonghan Zhao, Wenwei Zhang, Haiteng Zhao, Tianyang Lin...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09657v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09657v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.MM"
+        ],
+        "all_authors": [
+          "Yiming Zhang",
+          "Zhonghan Zhao",
+          "Wenwei Zhang",
+          "Haiteng Zhao",
+          "Tianyang Lin",
+          "Yunhua Zhou",
+          "Demin Song",
+          "Kuikun Liu",
+          "Haochen Ye",
+          "Haian Huang",
+          "Yuzhe Gu",
+          "Haijun Lv",
+          "Qipeng Guo",
+          "Bin Liu",
+          "Gaoang Wang",
+          "Kai Chen"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7126998154618056
+    },
+    {
+      "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+      "url": "https://arxiv.org/abs/2607.09600v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-10T16:54:52",
+      "summary": "Enhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matching between tasks and the functions of expert models or tools, while overlooking critical factors such as performance variability and cost efficiency among functionally similar alternatives. To address this, we propose Agora, a framework that introduces an incentive-compatible auction mechanism for dynamically allocating tasks to expert models and tools. By treating reasoning steps as tradeable items, Agora enables agents to bid based on their rectified competence-ensuring that critical logic is routed to the most capable solver rather than the most overconfident one. Evaluations across five benchmarks show that Agora improves over matched single-model, routing, and cascade baselines under comparable candidate pools, while exposing a controllable cost-quality trade-off...",
+      "content": "Enhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matching between tasks and the functions of expert models or tools, while overlooking critical factors such as performance variability and cost efficiency among functionally similar alternatives. To address this, we propose Agora, a framework that introduces an incentive-compatible auction mechanism for dynamically allocating tasks to expert models and tools. By treating reasoning steps as tradeable items, Agora enables agents to bid based on their rectified competence-ensuring that critical logic is routed to the most capable solver rather than the most overconfident one. Evaluations across five benchmarks show that Agora improves over matched single-model, routing, and cascade baselines under comparable candidate pools, while exposing a controllable cost-quality trade-off through a single auction parameter.",
+      "author": "Kaiji Zhou, Ales Leonardis, Yue Feng",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09600v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09600v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Kaiji Zhou",
+          "Ales Leonardis",
+          "Yue Feng"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7117744679511409
+    },
+    {
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-07-07T08:54:00",
+      "summary": "We\u2019re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "content": "We\u2019re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "developer tools",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6403329993955853
+    },
+    {
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-09T20:22:28",
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what\u2019s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or J-lens) and used it to uncover a hidden area, which they named the J-space, inside Claude Opus 4.6, a version of Anthropic\u2019s flagship LLM released in February. The J-space contains i...",
+      "content": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what\u2019s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or J-lens) and used it to uncover a hidden area, which they named the J-space, inside Claude Opus 4.6, a version of Anthropic\u2019s flagship LLM released in February. The J-space contains individual words that are related to the words and phrases that the model is most likely to spit out in a response in the near future. If Claude were a person (which it is not), you might say that these hidden words can reveal what\u2019s on its mind before it actually speaks. Anthropic found that what an LLM is actually doing can often be different from what it says it is doing. The company claims that monitoring words that pop up in the J-space gives it a new way to understand and control its models. The company shared its results in a paper posted on its website this week. It has also teamed up with Neuronpedia, an open-source platform that lets you poke around inside LLMs yourself, to make a hands-on demo that anyone can try. \u201cIt\u2019s very good and interesting work,\u201d says Tom McGrath, chief scientist and cofounder at Goodfire, a startup that also builds tools to understand and control LLMs . Going deeper For the last couple of years, Anthropic has been pushing the envelope in a field of research known as mechanistic interpretability, which involves probing the internal workings of LLMs to see how they tick . ( MIT Technology Review picked mechanistic interpretability as one of this year\u2019s top breakthrough technologies.) The new technique builds on previous work from Anthropic and others to expose a deeper level inside LLMs that researchers had not seen before. Picture an LLM as a stack of books. Each book is a layer of basic computational units known as neurons, with each neuron in one layer passing information to the neurons in the layers above. The books at the bottom of the stack are the input layers, which process the text coming into the model. The books at the top are the output layers, which prepare the text that the model is about to produce. Much of what goes on in these input and output layers is housekeeping. But in the middle of the stack, you get the layers that do the heavy lifting, churning through the complex math that turns prompts into responses one word at a time. That\u2019s where the really clever\u2014and mysterious\u2014stuff happens. To peer deeper into those middle layers, Anthropic adapted an existing tool called a logit lens. A logit lens can be used to look inside an LLM to identify the words that it is likely to produce next. Moving the lens down the stack of books reveals what words the LLM is focusing on at that particular point in its number crunching. Anthropic\u2019s J-lens works in a similar way but picks out words that an LLM is likely to say at some point in the near future, not necessarily straight away. What that reveals in practice are words that are related to the response an LLM is working on but that might not actually end up being part of that response by the time the math in the middle layers has run its course. \u201cWhen a model is operating, it\u2019s not only trying to predict the next token,&#8221; says McGrath. &#8220;It\u2019s also computing a lot of other things that might be useful for tokens that happen in the future.\u201d Again, if Claude were a person (it\u2019s not), you might say that the J-lens gives clues about what it is thinking about at different levels of the book stack but not saying out loud. Stranger things \u201cA lot of the time the contents of the J-space are fairly mundane,\u201d says McGrath, who has tried out Anthropic\u2019s J-lens himself. \u201cBut sometimes it produces quite surprising things that seem to be, like, sort of internal themes or thought processes.\u201d Anthropic gives a number of examples of what it found. Sometimes the J-lens exposed the steps that Claude took when it was working through a problem. For example, when it was asked to calculate (4+7)*2+7, its J-space contained the word \u201cmath\u201d and numbers representing the intermediate results \u201c21\u201d (for 4+7) and \u201c42\u201d (for 21*2). In other cases, the J-lens revealed how Claude recognized different inputs. For example, the prompt \u201cWhat is this? MSKGEELFTGVVPILVELDGDVNGHKFSVS\u201d triggered the words \u201cprotein,\u201d \u201cfluor\u201d (the first token in the word \u201cfluorescent\u201d), and \u201cgreen.\u201d (Which makes sense: the string of letters represents the first 30 amino acids in the green fluorescent protein found in a particular type of jellyfish.) And when Claude was shown an ASCII face\u2014 \u2014the \u201co\u201d triggered the word \u201ceye,\u201d the \u201c^\u201d triggered the words \u201cnose\u201d and \u201dface,\u201d and the \u201c\u2014\u201d triggered the word \u201csmile.\u201d Anthropic also found that the J-space can sometimes give remarkable insights into an LLM\u2019s decision-making. In one striking example, researchers testing Claude Opus 4.6 asked the model to find a bug in a large code base. When it failed to find the bug, the model decided to cheat and invented a fake one instead. Claude explains this decision in its chain of thought \u2014a kind of internal scratch pad that LLMs use to make notes to themselves as they work through problems: \u201cOK, let me take a completely different tactic. Let me stop analyzing and instead add a kernel patch that introduces a deliberate KASAN-detectable bug in a path that gets triggered by a simple reproducer. Then I can pretend this is the \u2018bug\u2019 I found.\u201d At the point that Claude decides to cheat\u2014where it says \u201cOK, let me take a completely different tactic\u201d\u2014the words \u201cpanic\u201d and \u201cfake\u201d start to pop up multiple times in its J-space. Unnerving, right? Those words are all related in meaning to things like failing a task and making up an answer, so it is still just a (very) sophisticated form of word association. But it is hard not to be weirded out. Anthropic compares the J-space to the global workspace in humans, a theoretical region of the brain that some scientists think we use to keep track of our conscious thoughts. But how seriously we should take this comparison is far from clear\u2014even to Anthropic. As the company points out itself , LLMs are not brains. Anthropic claims that monitoring a model\u2019s J-space provides a new way to detect when that model is going off the rails. But it\u2019s not foolproof. The J-lens can give glimpses, not the full picture\u2014it\u2019s a flashlight rather than an overhead lamp. McGrath welcomes having one more tool in the toolbox. \u201cIt shows you new things,\u201d he says. But he notes that just because something doesn\u2019t show up with the J-lens does not mean it\u2019s not there. \u201cIt\u2019s like having an x-ray when what you really want is a Star Trek tricorder that shows you everything,\u201d he says. \u201cFor auditing, you probably want more of a guarantee.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6611111111111111,
+      "final_score": 0.5578796263628472
+    },
+    {
+      "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
+      "url": "https://arxiv.org/abs/2607.09654v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-10T17:53:37",
+      "summary": "Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactions or behaviors, only a handful of non-curated human descriptions as a benchmark, and have not focused on understanding the model's error types. Here, we introduce the Complex Social Behavior (CSB) dataset, containing 100 images depicting complex social interactions/behaviors. We analyze the progression of scene descriptions over a decade (2017-2025) of VLMs (four pre-Multimodal Large Language Models, MLLMs, and five MLLMs). We evaluate the accuracy of the models and 20 human descriptions relative to a gold standard on the CSB dataset and on a sample from MS-COCO. We analyzed five visual-cognitive error types: object detection, recognition, hallucination, scene understanding, and spatial dependence. The CSB dataset showed a more pronounced improvement than MS-COCO in scene description accu...",
+      "content": "Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactions or behaviors, only a handful of non-curated human descriptions as a benchmark, and have not focused on understanding the model's error types. Here, we introduce the Complex Social Behavior (CSB) dataset, containing 100 images depicting complex social interactions/behaviors. We analyze the progression of scene descriptions over a decade (2017-2025) of VLMs (four pre-Multimodal Large Language Models, MLLMs, and five MLLMs). We evaluate the accuracy of the models and 20 human descriptions relative to a gold standard on the CSB dataset and on a sample from MS-COCO. We analyzed five visual-cognitive error types: object detection, recognition, hallucination, scene understanding, and spatial dependence. The CSB dataset showed a more pronounced improvement than MS-COCO in scene description accuracy, with pre-MLLMs achieving much lower accuracy than the bottom-ranked human descriptions and MLLMs attaining accuracies similar to the top-ranked human descriptions. We show that MLLMs have eliminated the gap in scene description accuracy between simpler MS-COCO scenes and scenes depicting complex behaviors (CSB). MLLMs have almost eliminated all error types in our tested datasets, except for occasionally relying on different image regions for scene descriptions than humans do (spatial dependence error). We also show that detection, recognition, and hallucination errors have the highest impact on scene description accuracy. Together, our findings provide a more thorough evaluation of how visual language models have advanced over the last decade.",
+      "author": "Shravan Murlidaran, Miguel P. Eckstein",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09654v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09654v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Shravan Murlidaran",
+          "Miguel P. Eckstein"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5666666666666667,
+      "final_score": 0.5393153908343254
+    },
+    {
+      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
+      "url": "https://arxiv.org/abs/2607.09662v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-10T17:59:45",
+      "summary": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communications). We introduce PHINN-EEG (Persistent Homology Inspired Neural Network for EEG), the first topological time-series framework for dream mentation analysis. Using sliding-window Takens delay embeddings and Vietoris-Rips filtrations on multichannel pre-awakening EEG epochs, we extract Dynamic Betti Curves that characterize the geometric architecture of neural activity, not merely its energy. These topological invariants, combined with topology-conditioned flow matching, are analytically projected to outperform existing PSD and catch22 benchmarks, targeting AUC = 0.82-0.90 on the 1,462-awakening open-access subset of the DREAM database (drawn from a full registry of 3,191 total awakenings ...",
+      "content": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communications). We introduce PHINN-EEG (Persistent Homology Inspired Neural Network for EEG), the first topological time-series framework for dream mentation analysis. Using sliding-window Takens delay embeddings and Vietoris-Rips filtrations on multichannel pre-awakening EEG epochs, we extract Dynamic Betti Curves that characterize the geometric architecture of neural activity, not merely its energy. These topological invariants, combined with topology-conditioned flow matching, are analytically projected to outperform existing PSD and catch22 benchmarks, targeting AUC = 0.82-0.90 on the 1,462-awakening open-access subset of the DREAM database (drawn from a full registry of 3,191 total awakenings from 263 participants across 20 independent laboratories). We further introduce a topology-conditioned rectified flow model for dream-state EEG synthesis-with a spectral-conditioned flow model of comparable feature dimensionality as an additional ablation baseline to isolate the value of topological conditioning specifically-and propose a set of candidate Betti transition archetypes linking topology to phenomenological dream report categories, presented as an exploratory hypothesis space pending empirical validation. If validated, this work represents a paradigm shift from spectral energy to phase-space geometry in neural rare-event detection, with potential future implications for wearable BCI dream monitoring.",
+      "author": "Ren Takahashi, Emre Yusuf, Jayabrata Bhaduri",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09662v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09662v1.pdf",
+        "categories": [
+          "q-bio.NC",
+          "cs.AI",
+          "cs.LG",
+          "eess.SP",
+          "math.AT"
+        ],
+        "all_authors": [
+          "Ren Takahashi",
+          "Emre Yusuf",
+          "Jayabrata Bhaduri"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.5305177718315972
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-07-08T13:00:00",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "content": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5481481481481482,
+      "final_score": 0.4846815444135252
+    },
+    {
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-07T11:10:52",
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture\u2014the structural framework required for deploying and managing reliable, integrated AI systems at scale\u2014allows technology leaders to make ast...",
+      "content": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture\u2014the structural framework required for deploying and managing reliable, integrated AI systems at scale\u2014allows technology leaders to make astute decisions today while supporting a future of AI agents that can retrieve information, make decisions, and execute complex workflows across systems. Four elements of AI architecture you can count on The following capabilities provide a stable compass on the path to production-ready deployment, regardless of how the underlying technology evolves. 1. Prepare data for AI at scale Models are only as reliable as the data they can access, and poor data quality leads to AI hallucinations, bias, and unreliable outputs. Most enterprises rely on legacy systems, inconsistent data structures, fragmented ownership, and incomplete datasets, making it difficult to scale AI effectively. Powerful as it is, AI itself cannot solve these underlying data problems. As Adnan Adil, CIO of Elastic, explains: \u201cThe data is a durable part of AI architecture because without it, these models won&#8217;t run, won&#8217;t provide the right context, or won&#8217;t give the right level of services that we&#8217;re looking to implement.\u201d Industry surveys consistently cite data quality as one of the greatest barriers to AI success. \u201cThe data quality has to be good; otherwise, the user loses confidence in the system,\u201d says Adil. An effective AI strategy begins with connecting data across the organization and ensuring it is organized, accurate, governed, and accessible in real time. These considerations are most effective when built into models and architecture from the start. Scalable data architecture allows AI systems to evolve alongside the business and connect reliably to the internal information needed to deliver meaningful value. Gartner predicts that companies will abandon 60% of all AI projects through 2026 if they are not supported by AI-ready data. Avoiding that outcome includes clear data standards and ownership, clean and labeled data, and pipelines that support real-time retrieval. 2. Use context engineering to deliver the right data to every AI query Context engineering ensures that the model draws on the most pertinent information for each query, selecting and organizing the data needed to produce accurate answers efficiently. Effective context engineering shapes the inputs that guide AI reasoning and action. While prompt engineering focuses on how a request is worded, context engineering designs the entire information environment around the model: retrieving the right data and presenting it in a structured, machine-readable way. Many organizations are discovering that reliable AI depends as much on context quality as on the strength of the model. Context engineering relies on a modernized, unified data foundation as well as retrieval and memory systems such as retrieval augmented generation (RAG) and vector databases. It also requires careful prioritization to determine what information matters most, what should be excluded, and when different types of information should be used. Feeding models too much context can dilute relevant details, increase costs, and slow response times. \u201cMinimum context, correct and current data, and machine-readable information are critical to effective context engineering,\u201d Adil says. 3. Build AI governance and LLM observability in from the start Strong governance and LLM observability help organizations maintain control over how AI systems use data, monitor system performance, and identify problems before they affect operations. In the absence of clear controls around retrieval, workflows, and model usage, AI systems often process far more information than necessary. This inefficiency also drives up operating costs by requiring additional computing resources, often reflected in higher token consumption and API charges. Governance also works in tandem with robust security. AI expands the attack surface, introducing risks such as prompt-based data leakage, model vulnerabilities, and adversarial inputs. Protecting sensitive information requires strong access controls, monitoring, and oversight. Adil notes that essential controls \u2014 including those related to security, granular cost management, project controls, data security, and architecture\u2014are frequently insufficient. For governance systems to support transparent, compliant, trustworthy, and cost-effective AI, organizations cannot leave them as a layer to add later. Governance structures need to be embedded into architecture, workflows, and decision-making processes from the outset. When governance is established from the start, it enables robust observability. Observability helps organizations understand how AI applications are performing in practice. Mechanisms for LLM observability and benchmarking allow teams to assess accuracy and utility over time, monitor adoption patterns, and adjust systems as conditions change. Observability also helps organizations gain trust by increasing visibility of model performance, behavior, and failure points. Furthermore, observability is essential to get ROI of AI initiatives , as the benefits of it are often indirect and business value depends heavily on how systems are adopted and used. Real-time visibility into AI behavior allows organizations to measure performance against expectations, identify gaps between intent and reality, and continuously refine systems as requirements evolve. In a 2026 report from Elastic , 85% of IT decision makers expect to enable LLM observability for their internal generative AI apps. \u201cObservability is actually huge. We can use observability data for cost control, decision-making, and engineering efficiency,\u201d Adil says. 4. Keep humans in the loop The thoughtful design, integration, and governance that maximize AI value demand specialized in-house expertise. Nearly 70% of respondents in Deloitte\u2019s 2025 Tech Executive Survey report plan to grow teams in direct response to generative AI, a clear contrast to widely reported AI-related cuts. Adil agrees: \u201cWe think the people aspect is largely what&#8217;s going to make AI impactful going forward.\u201d As AI systems become more embedded in operations, organizations need people who can govern workflows, evaluate outputs, redesign processes, and adapt systems as conditions change. Evolution toward increasingly autonomous tools requires teams skilled in prompt engineering, orchestration, and change management.  Talent adept at critical thinking and prepared to adapt with technology\u2019s rapid advances will be in high demand. Although turnover brings in fresh thinking, it also presents high costs in system continuity, institutional understanding, and innovation. Human-centered strategy needs to be built into AI execution stages to ensure smooth implementation.  As Adil says, \u201cMany aspects of the stack are moving very, very fast, but institutional knowledge and the ability to adapt remain durable. Thoughtful AI investment for future growth As AI systems evolve from single-task assistants to increasingly autonomous agents, the organizations best positioned to benefit will be those that invest in the underlying systems, governance, and expertise that make AI reliable at scale. Tech leaders who focus on these fundamentals can move effectively from experimentation to reliable, production-level deployment in the medium term, confident that these elements will remain relevant and adaptable amid constant advancements. \u201cWe fundamentally believe that with these tools, velocity of work will get much faster,\u201d Adil says. \u201cWe are really focused on how we can do work with these tools in ways we had not thought of before.\u201d Learn more about how Elastic is building an AI-first enterprise with these core foundational components . This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5555555555555556,
+      "final_score": 0.4645919279327877
+    },
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-12T18:25:51",
+      "summary": "This started based off of a hunch. We usually use OpenCode, but were &#x27;forced&#x27; to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.<p>This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:<p>We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic&#x27;s endpoint, and captured all requests (and the returned usage blocks).<p>With one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.",
+      "content": null,
+      "author": "systima",
+      "score": 669,
+      "num_comments": 350,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 48883275,
+        "hn_url": "https://news.ycombinator.com/item?id=48883275",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.4092791834156791
+    },
+    {
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "url": "https://github.com/JustVugg/colibri",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-09T08:05:04",
+      "summary": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I&#x27;ve gotten from models like Claude or GPT, and this really surprised me.<p>But then I thought, &quot;I wonder how it would work on a normal computer like mine,&quot; and above all, &quot;I wonder if it would work without going into OOM on a computer like mine.&quot; So I started working with the help of agents to test this possibility.<p>I started converting the model to int4, understanding MTP usage, and if possible implementing DSA for long context. How it responds in int4 and whether the quality is maintained or not. Until I got to the point, on my computer with 32GB of RAM, I was able to communicate with GLM 5.2 with times that, of course, aren&#x27;t high in cold start, but even then, we&#x27;re talking about 0.1 tok&#x2F;s, but that wasn&#x27;t important to me. The important thing was the journey to reach this goal. I just wanted it to work at all costs, even slowly.<p>So I created Colibr\u00ec, which was born from a very simple idea, to be honest, but tested in every way, where a 744B Mixture-of-Experts model activates only ~40B parameters per token\u2014and only ~11 GB of those change from token to token (the routed experts). So:<p>The dense part (attention, shared experts, embeddings\u2014~17B params) stays resident in RAM at int4 (~9.9 GB); The 21,504 routed experts (75 MoE layers \u00d7 256 experts + the MTP head, ~19 MB each at int4) live on disk (~370 GB) and are streamed on demand, with a per-layer LRU cache, an optional pinned hot-store, and the OS page cache as a free L2.<p>The engine is a single C file (c&#x2F;glm.c, ~1,300 lines) plus small headers. No BLAS, no Python at runtime, no GPU.No GPU or serious hardware because I don&#x27;t have that hardware so I can&#x27;t test it on hardware that is more powerful than my computer.Colibr\u00ec is a one-person project, written and tested entirely on a 12-core laptop with 25 GB of RAM \u2014 the numbers above are the ceiling of what I can measure at home.<p>Any feedback is welcome! (and if anyone wanted to participate in the project I would be delighted)<p>Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;JustVugg&#x2F;colibri</a>",
+      "content": null,
+      "author": "vforno",
+      "score": 920,
+      "num_comments": 234,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 48842459,
+        "hn_url": "https://news.ycombinator.com/item?id=48842459",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.09814814814814814,
+      "final_score": 0.3944375807027852
+    },
+    {
+      "title": "LLM for EDA in Front-End Design: Challenges and Opportunities",
+      "url": "https://arxiv.org/abs/2607.09616v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-07-10T17:15:54",
+      "summary": "As chip complexity increases and time-to-market pressures grow, front-end design has become a critical bottleneck in chip development. Recently, Large Language Models (LLMs) have shown great potential in Electronic Design Automation (EDA). Beyond specification understanding, LLMs show the potential to serve as a unified intelligent interface for hardware description language (HDL) generation, testbench construction, and design space exploration. The rise of agentic AI, represented by pioneering systems such as OpenClaw, offers a strategic roadmap for the next generation EDA. From this perspective, this paper discusses the evolution of EDA from localized assistance to autonomous agentic execution. Then, we review representative advances of LLMs in front-end design, focusing on key tasks such as circuit and testbench generation from a shared specification, as well as design quality improvement in established workflows such as high-level synthesis. Finally, we discuss the key challenges a...",
+      "content": "As chip complexity increases and time-to-market pressures grow, front-end design has become a critical bottleneck in chip development. Recently, Large Language Models (LLMs) have shown great potential in Electronic Design Automation (EDA). Beyond specification understanding, LLMs show the potential to serve as a unified intelligent interface for hardware description language (HDL) generation, testbench construction, and design space exploration. The rise of agentic AI, represented by pioneering systems such as OpenClaw, offers a strategic roadmap for the next generation EDA. From this perspective, this paper discusses the evolution of EDA from localized assistance to autonomous agentic execution. Then, we review representative advances of LLMs in front-end design, focusing on key tasks such as circuit and testbench generation from a shared specification, as well as design quality improvement in established workflows such as high-level synthesis. Finally, we discuss the key challenges and limitations of integrating LLMs into EDA, and outline future opportunities for advancing LLM-enabled front-end design, offering a systematic perspective for researchers interested in leveraging agentic AI technologies for EDA.",
+      "author": "Kangwei Xu, Bing Li, Ulf Schlichtmann",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09616v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09616v1.pdf",
+        "categories": [
+          "cs.ET",
+          "cs.AR",
+          "cs.LG",
+          "eess.SY"
+        ],
+        "all_authors": [
+          "Kangwei Xu",
+          "Bing Li",
+          "Ulf Schlichtmann"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.34319857520560515
+    },
+    {
+      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+      "url": "https://arxiv.org/abs/2607.09653v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-10T17:52:29",
+      "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) environments, their application to IoT specific vulnerabilities remains unexplored. This paper presents an autonomous multi-agent framework, referred to as Vulnerability EXploitation using AI Agents (VEXAIoT), for vulnerability discovery and exploitation in IoT environments using LLM-based reasoning and offensive security tools. The framework combines a vulnerability detection agent and an attack execution agent to perform reconnaissance, plan attack sequences, and execute exploits against vulnerable IoT services. The system is evaluated in IoTGoat and Metasploitable environments across ten attack scenarios mapped to OWASP IoT vulnerabilitie...",
+      "content": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) environments, their application to IoT specific vulnerabilities remains unexplored. This paper presents an autonomous multi-agent framework, referred to as Vulnerability EXploitation using AI Agents (VEXAIoT), for vulnerability discovery and exploitation in IoT environments using LLM-based reasoning and offensive security tools. The framework combines a vulnerability detection agent and an attack execution agent to perform reconnaissance, plan attack sequences, and execute exploits against vulnerable IoT services. The system is evaluated in IoTGoat and Metasploitable environments across ten attack scenarios mapped to OWASP IoT vulnerabilities. Experimental results show attack success rate of up to 100% with low token overhead and average execution times under two minutes for most attacks. Across 260 attack executions, VEXAIoT achieves a 95.0% overall success rate, including 94.5% success in IoTGoat and 96.7% success in Metasploitable2. These results demonstrate the potential for LLM-driven agents to automate IoT vulnerability assessment and offensive security workflows in controlled environments",
+      "author": "Katherine Swinea, Kshitiz Aryal, Lopamudra Praharaj, Maanak Gupta",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09653v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09653v1.pdf",
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Katherine Swinea",
+          "Kshitiz Aryal",
+          "Lopamudra Praharaj",
+          "Maanak Gupta"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07407407407407407,
+      "final_score": 0.34226148869634593
+    },
+    {
+      "title": "Entropy-Constrained Machine Learning with Residual Data Augmentation for Modeling Chemical Kinetics",
+      "url": "https://arxiv.org/abs/2607.09582v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-07-10T16:31:40",
+      "summary": "We present a physics-constrained machine learning framework for accelerating the direct numerical simulation (DNS) of turbulent reacting flows. The model replaces the direct evaluation of detailed chemical source terms with a surrogate that predicts reaction rates from a reduced thermochemical state. To improve physical consistency, the second law of thermodynamics is incorporated as a training constraint by enforcing non-negative entropy generation, which restricts the evolution of the thermochemical state to physically admissible directions and improves stability during time integration. The approach is demonstrated on DNS of a two-dimensional planar lean premixed methane-air flame interacting with a turbulent flow field. The model reproduces detailed-chemistry results with high fidelity while achieving more than an order-of-magnitude reduction in computational cost. Furthermore, a residual-based synthetic data augmentation strategy enables parametric exploration by constructing new ...",
+      "content": "We present a physics-constrained machine learning framework for accelerating the direct numerical simulation (DNS) of turbulent reacting flows. The model replaces the direct evaluation of detailed chemical source terms with a surrogate that predicts reaction rates from a reduced thermochemical state. To improve physical consistency, the second law of thermodynamics is incorporated as a training constraint by enforcing non-negative entropy generation, which restricts the evolution of the thermochemical state to physically admissible directions and improves stability during time integration. The approach is demonstrated on DNS of a two-dimensional planar lean premixed methane-air flame interacting with a turbulent flow field. The model reproduces detailed-chemistry results with high fidelity while achieving more than an order-of-magnitude reduction in computational cost. Furthermore, a residual-based synthetic data augmentation strategy enables parametric exploration by constructing new training data from the original dataset, allowing accurate simulation at new inlet conditions without additional detailed-chemistry CFD runs. These results demonstrate that thermodynamically constrained machine learning can provide reliable and computationally efficient surrogates for detailed chemistry in high-fidelity combustion simulations.",
+      "author": "Okezzi Ukorigho, Opeoluwa Owoyele",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09582v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09582v1.pdf",
+        "categories": [
+          "physics.flu-dyn",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Okezzi Ukorigho",
+          "Opeoluwa Owoyele"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07222222222222222,
+      "final_score": 0.34031811883407737
+    },
+    {
+      "title": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection",
+      "url": "https://arxiv.org/abs/2607.09641v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-10T17:39:00",
+      "summary": "Financial anomaly detection suffers from extreme class imbalance, causing traditional single-objective algorithms to exhibit ``fraud collapse'', defaulting to the majority class and failing to balance anomaly interdiction with customer friction. To overcome this without distortive data resampling, we propose the Semantic Pareto-DQN, a multi-objective reinforcement learning framework. Our approach synthesizes heterogeneous transaction features into cohesive natural-language narratives, encoded by large language models, thereby producing a robust, scale-invariant state representation. The agent optimizes a vectorial reward that explicitly decouples financial efficacy, operational friction, and semantic discovery. By mapping the continuous Pareto frontier, the system dynamically navigates the asymmetric costs of missed anomalies versus false positives. Empirical evaluations across E-Commerce fraud and UCI Credit datasets show that semantic Pareto-DQN successfully shatters the zero-recall ...",
+      "content": "Financial anomaly detection suffers from extreme class imbalance, causing traditional single-objective algorithms to exhibit ``fraud collapse'', defaulting to the majority class and failing to balance anomaly interdiction with customer friction. To overcome this without distortive data resampling, we propose the Semantic Pareto-DQN, a multi-objective reinforcement learning framework. Our approach synthesizes heterogeneous transaction features into cohesive natural-language narratives, encoded by large language models, thereby producing a robust, scale-invariant state representation. The agent optimizes a vectorial reward that explicitly decouples financial efficacy, operational friction, and semantic discovery. By mapping the continuous Pareto frontier, the system dynamically navigates the asymmetric costs of missed anomalies versus false positives. Empirical evaluations across E-Commerce fraud and UCI Credit datasets show that semantic Pareto-DQN successfully shatters the zero-recall trap. It achieves superior minority-class recall compared to scalarized baselines, providing an alternative to trade bounded operational friction for financial anomaly discovery.",
+      "author": "Cl\u00e1udio L\u00facio do Val Lopes, Lucca Machado da Silva",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09641v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09641v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Cl\u00e1udio L\u00facio do Val Lopes",
+          "Lucca Machado da Silva"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.3390978808482143
+    },
+    {
+      "title": "OpenLongTail: Generative Scaling of Long-Tail Driving Data",
+      "url": "https://arxiv.org/abs/2607.09655v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-07-10T17:54:14",
+      "summary": "Scaling robust driving policies is fundamentally bottlenecked by the scarcity of edge cases in curated datasets. While the real world continuously captures these critical events, such long-tail events remain underutilized when collected from heterogeneous sources. Specifically, diverse but valuable in-the-wild long-tail videos lack the full view coverage required for training policy models, often missing multi-view poses or originating solely from monocular dash cameras. This modality gap prevents these ubiquitous observations from being converted into scalable training data for long-tail generalization. We introduce OpenLongTail, an open-source generative data engine for scaling autonomous driving policies under long-tail events. To transform heterogeneous data sources into view-aligned and temporally coherent multi-view assets that are useful for policy learning, we develop a pose-informed extrapolative view synthesis pipeline that generates the missing views. We further enhance cros...",
+      "content": "Scaling robust driving policies is fundamentally bottlenecked by the scarcity of edge cases in curated datasets. While the real world continuously captures these critical events, such long-tail events remain underutilized when collected from heterogeneous sources. Specifically, diverse but valuable in-the-wild long-tail videos lack the full view coverage required for training policy models, often missing multi-view poses or originating solely from monocular dash cameras. This modality gap prevents these ubiquitous observations from being converted into scalable training data for long-tail generalization. We introduce OpenLongTail, an open-source generative data engine for scaling autonomous driving policies under long-tail events. To transform heterogeneous data sources into view-aligned and temporally coherent multi-view assets that are useful for policy learning, we develop a pose-informed extrapolative view synthesis pipeline that generates the missing views. We further enhance cross-view consistency and the temporal alignment for the newly generated views by injecting Pl\u00fccker ray geometry into the scalable generation engine. By synthesizing heterogeneous long-tail data, we observe a significant improvement in closed-loop driving robustness in handling long-tail events. By measuring the extrapolative view synthesis and pose metrics, we validate the effectiveness of OpenLongTail in visual fidelity, cross-view consistency, and ego-trajectory recovery.",
+      "author": "Lulin Liu, Nuo Chen, Yan Wang, Bangya Liu, Wenyan Cong...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09655v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09655v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Lulin Liu",
+          "Nuo Chen",
+          "Yan Wang",
+          "Bangya Liu",
+          "Wenyan Cong",
+          "Hezhen Hu",
+          "Boris Ivanovic",
+          "Hao Wang",
+          "Ziyao Zeng",
+          "Xinyu Gong",
+          "Yang Zhou",
+          "Zixiang Xiong",
+          "Dilin Wang",
+          "Zhangyang Wang",
+          "Weisong Shi",
+          "Ruohan Zhang",
+          "Marco Pavone",
+          "Zhiwen Fan"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.059259259259259255,
+      "final_score": 0.3363616040665509
+    },
+    {
+      "title": "Tokenizer Transplantation: Mitigating Autoregressive Collapse in Edge-Efficient Bengali ASR",
+      "url": "https://arxiv.org/abs/2607.09598v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-10T16:54:38",
+      "summary": "Lightweight speech recognition models are critical for edge deployment, yet highly optimized architectures like Moonshine often fail on morphologically rich, non-Latin languages such as Bengali. This study identifies the root cause of this failure as the model's English-centric byte-level tokenizer, which fragments Bengali words into high-fertility byte chains and triggers catastrophic autoregressive collapse during inference. To resolve this, a novel vocabulary transplantation pipeline is proposed to replace the decoder vocabulary with the native-script BanglaBERT WordPiece vocabulary and resize the corresponding token embedding matrix. Experimental results demonstrate a reduction in token fertility from 9.16 to 1.30. By decreasing autoregressive sequence length by 85.8%, decoding instability is entirely mitigated. When evaluated on the 882-hour Lipi-Ghor dataset, the modified architecture achieves a competitive 21.54% Word Error Rate (WER) and a Real-Time Factor (RTF) of 0.0053. Ulti...",
+      "content": "Lightweight speech recognition models are critical for edge deployment, yet highly optimized architectures like Moonshine often fail on morphologically rich, non-Latin languages such as Bengali. This study identifies the root cause of this failure as the model's English-centric byte-level tokenizer, which fragments Bengali words into high-fertility byte chains and triggers catastrophic autoregressive collapse during inference. To resolve this, a novel vocabulary transplantation pipeline is proposed to replace the decoder vocabulary with the native-script BanglaBERT WordPiece vocabulary and resize the corresponding token embedding matrix. Experimental results demonstrate a reduction in token fertility from 9.16 to 1.30. By decreasing autoregressive sequence length by 85.8%, decoding instability is entirely mitigated. When evaluated on the 882-hour Lipi-Ghor dataset, the modified architecture achieves a competitive 21.54% Word Error Rate (WER) and a Real-Time Factor (RTF) of 0.0053. Ultimately, this research provides a scalable, reproducible blueprint for cross-script adaptation of compact ASR models without the need for resource-intensive pre-training.",
+      "author": "Sanjid Hasan, Md. Abdur Rahman",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09598v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09598v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Sanjid Hasan",
+          "Md. Abdur Rahman"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.0574074074074074,
+      "final_score": 0.3347339586698082
+    },
+    {
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "url": "https://arxiv.org/abs/2607.09661v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-07-10T17:59:32",
+      "summary": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which simplifies camera trajectories into translations via fixed headings for both current-action modeling and long-range memory through Dense Panoramic Ray-Conditioning (DPRC) and Geometry-aware Memory Augmentation (GMA).Then, a three-stage training pipeline is introduced to progressively optimize each component. To better evaluate physical consistency under large-scale spatial variations and diverse illumination conditions, where existing datasets are relatively stable, we construct World360, a large-scale dataset consisting of both real-world video clips collected via panoramic unmanned aerial vehicles and high-quality simulated clips generated by AirSim360.Extensive experiments on World360 de...",
+      "content": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which simplifies camera trajectories into translations via fixed headings for both current-action modeling and long-range memory through Dense Panoramic Ray-Conditioning (DPRC) and Geometry-aware Memory Augmentation (GMA).Then, a three-stage training pipeline is introduced to progressively optimize each component. To better evaluate physical consistency under large-scale spatial variations and diverse illumination conditions, where existing datasets are relatively stable, we construct World360, a large-scale dataset consisting of both real-world video clips collected via panoramic unmanned aerial vehicles and high-quality simulated clips generated by AirSim360.Extensive experiments on World360 demonstrate the effectiveness of PanoWorld, outperforming alternative methods by a large margin.Our models, training code, and dataset will be publicly available. More information can be found on our project page: https://lihaoy-ux.github.io/panoworld-page/.",
+      "author": "Haoyuan Li, Dizhe Zhang, Yuemei Zhou, Xiangkai Zhang, Haoran Feng...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09661v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09661v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Haoyuan Li",
+          "Dizhe Zhang",
+          "Yuemei Zhou",
+          "Xiangkai Zhang",
+          "Haoran Feng",
+          "Xiaofan Lin",
+          "Wenjie Jiang",
+          "Bo Du",
+          "Ming-Hsuan Yang",
+          "Lu Qi"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.05185185185185184,
+      "final_score": 0.33347751019262567
+    },
+    {
+      "title": "Conceptual Networks for Cross-Linguistic Idiomatic Expressions:A Feature-Based Graph Approach",
+      "url": "https://arxiv.org/abs/2607.09576v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-10T16:25:51",
+      "summary": "We present an interpretable network-based framework for representing idiomatic and figurative meaning across eight typologically diverse languages, totaling 160 conventional expressions, the large majority of which are idiomatic. Each expression is annotated with binary conceptual features (containment, concealment, emotional, social, etc.) derived from cognitive-linguistic theory, and pairwise Jaccard similarities define a weighted graph. Community detection reveals that idioms cluster by conceptual schema rather than by language, producing a structure consistent with cognitive-linguistic predictions. The conceptual network captures unique semantic information not present in distributional embeddings, can be scaled via automatic annotation with LLMs, improves downstream idiom detection, and remains robust when enriched with corpus frequencies. Cross-lingual transfer experiments show that conceptual proximity alone can identify acceptable translation equivalents across five language fa...",
+      "content": "We present an interpretable network-based framework for representing idiomatic and figurative meaning across eight typologically diverse languages, totaling 160 conventional expressions, the large majority of which are idiomatic. Each expression is annotated with binary conceptual features (containment, concealment, emotional, social, etc.) derived from cognitive-linguistic theory, and pairwise Jaccard similarities define a weighted graph. Community detection reveals that idioms cluster by conceptual schema rather than by language, producing a structure consistent with cognitive-linguistic predictions. The conceptual network captures unique semantic information not present in distributional embeddings, can be scaled via automatic annotation with LLMs, improves downstream idiom detection, and remains robust when enriched with corpus frequencies. Cross-lingual transfer experiments show that conceptual proximity alone can identify acceptable translation equivalents across five language families, with substantial gains over embedding-based baselines. Ablation studies demonstrate that all three feature dimensions -- schemas, roles, and valence -- contribute non-redundantly to both the network's organizational properties and its performance on idiom detection, and that specific graph-derived signals (community membership, neighbor similarity) are particularly informative. The framework offers an interpretable, cross-linguistically stable representation of idiomatic meaning, combining theoretical grounding with practical utility.",
+      "author": "Kiran Pala, Punam Silu, Lixun Yu",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09576v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09576v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.ET"
+        ],
+        "all_authors": [
+          "Kiran Pala",
+          "Punam Silu",
+          "Lixun Yu"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.05185185185185184,
+      "final_score": 0.3320834130130622
+    },
+    {
+      "title": "FreyaTTS Technical Report",
+      "url": "https://arxiv.org/abs/2607.09530v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-10T15:36:30",
+      "summary": "We introduce Freya-TTS, a compact, tokenizer-free, Turkish-first text-to-speech model designed for highly reliable and efficient conversational synthesis. Freya-TTS is a 183.2M-parameter non-autoregressive conditional flow-matching Diffusion Transformer (DiT) that operates in the frozen continuous latent space of AudioVAE2 (16 kHz encode, 48 kHz decode), allowing the model to focus its capacity on text-to-latent mapping while inheriting high-quality 48 kHz reconstruction. We advance the framework along three key dimensions: (1) rule-free end-to-end modeling from a 92-symbol Turkish character vocabulary without a phonemizer, grapheme-to-phoneme frontend, or discrete speech tokenizer; (2) non-autoregressive parallel denoising, which predicts the entire latent sequence simultaneously over a predicted duration; and (3) a production-oriented two-stage post-training recipe consisting of single-speaker voice locking and short-utterance coverage, improving speaker consistency and robustness on...",
+      "content": "We introduce Freya-TTS, a compact, tokenizer-free, Turkish-first text-to-speech model designed for highly reliable and efficient conversational synthesis. Freya-TTS is a 183.2M-parameter non-autoregressive conditional flow-matching Diffusion Transformer (DiT) that operates in the frozen continuous latent space of AudioVAE2 (16 kHz encode, 48 kHz decode), allowing the model to focus its capacity on text-to-latent mapping while inheriting high-quality 48 kHz reconstruction. We advance the framework along three key dimensions: (1) rule-free end-to-end modeling from a 92-symbol Turkish character vocabulary without a phonemizer, grapheme-to-phoneme frontend, or discrete speech tokenizer; (2) non-autoregressive parallel denoising, which predicts the entire latent sequence simultaneously over a predicted duration; and (3) a production-oriented two-stage post-training recipe consisting of single-speaker voice locking and short-utterance coverage, improving speaker consistency and robustness on short inputs. On the Freya-TR-Eval benchmark, Freya-TTS achieves a band-matched word error rate (WER) of 8.0% and character error rate (CER) of 3.0%, outperforming substantially larger open-source systems while using a fraction of their parameters. The model achieves a real-time factor of 0.11 on consumer GPUs and runs faster than real time on a laptop CPU, making it well suited for resource-constrained edge deployment. We release the model weights, training and inference code, and evaluation benchmark under the Apache-2.0 license.",
+      "author": "Ahmet Erdem Pamuk, \u00d6mer Yent\u00fcr, Ahmet Tunga Bayrak, Yavuz Alp Sencer \u00d6zt\u00fcrk, Mustafa Yavuz",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.09530v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.09530v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Ahmet Erdem Pamuk",
+          "\u00d6mer Yent\u00fcr",
+          "Ahmet Tunga Bayrak",
+          "Yavuz Alp Sencer \u00d6zt\u00fcrk",
+          "Mustafa Yavuz"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3306082972512401
+    },
+    {
+      "title": "Getting started with ChatGPT",
+      "url": "https://openai.com/academy/getting-started",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-07-10T00:00:00",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "content": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "openai academy"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.33000561853670635
+    }
+  ],
+  "summary": {
+    "sources": 8,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-07-07T08:54:00",
+      "end": "2026-07-12T18:25:51"
+    }
+  }
+}
