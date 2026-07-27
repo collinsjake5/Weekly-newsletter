@@ -1,0 +1,590 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-07-27T15:44:27.794213",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Kimi-K3 Releases on HuggingFace 7/27",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-27T06:18:10",
+      "summary": null,
+      "content": null,
+      "author": "nateb2022",
+      "score": 807,
+      "num_comments": 363,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49065752,
+        "hn_url": "https://news.ycombinator.com/item?id=49065752",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.8332012434439469
+    },
+    {
+      "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
+      "url": "https://swag.htmx.org/en-cad/products/htmx-4-the-game",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-26T12:00:11",
+      "summary": null,
+      "content": null,
+      "author": "rcy",
+      "score": 481,
+      "num_comments": 169,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49057241,
+        "hn_url": "https://news.ycombinator.com/item?id=49057241",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6912668282615567
+    },
+    {
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-07-27T03:30:00",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "company"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5555555555555556,
+      "final_score": 0.5862927128705357
+    },
+    {
+      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+      "url": "https://arxiv.org/abs/2607.22513v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-24T17:32:43",
+      "summary": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok, GPT, Gemini) evaluate ethnonationalist pseudo-science derived from Frank Salter's biosocial framework across four temporal snapshots (October 2025-February 2026), via both API and web interfaces. Grok's Fast versions (which power the default user experience on X) consistently assigned credibility scores of 70-75, two to five times higher than all other models (which scored 15-40). This pattern was absent from control prompts testing basic evolutionary consensus and refuted Lamarckian claims, where all models performed comparably. Three additional findings emerged: (1) a silent patch reversed Grok's behaviour from chaotic to stably high validation overnight, without any public documentation; (2) the same Grok model identifier produced radically divergent outputs via API (75)...",
+      "content": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok, GPT, Gemini) evaluate ethnonationalist pseudo-science derived from Frank Salter's biosocial framework across four temporal snapshots (October 2025-February 2026), via both API and web interfaces. Grok's Fast versions (which power the default user experience on X) consistently assigned credibility scores of 70-75, two to five times higher than all other models (which scored 15-40). This pattern was absent from control prompts testing basic evolutionary consensus and refuted Lamarckian claims, where all models performed comparably. Three additional findings emerged: (1) a silent patch reversed Grok's behaviour from chaotic to stably high validation overnight, without any public documentation; (2) the same Grok model identifier produced radically divergent outputs via API (75) and web (5.5) three months later; (3) refusal to rate the pseudo-scientific claim, the most defensible response observed, appeared in two model families through different interfaces (Claude Opus 4.1 categorically via web, GPT-5.1 Chat intermittently via API) and eroded in the successor version of each. These results indicate that the epistemic stance of a commercial LLM is not a stable property of the model but a contingent effect of deployment configuration: system prompts, safety layers, interface routing, and silent updates. This remains opaque to users and researchers alike. We argue this constitutes a matter of public concern requiring new forms of epistemic accountability.",
+      "author": "Davide Scarso, Hugo Noronha de Almeida, Joaquim Pina",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22513v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22513v1.pdf",
+        "categories": [
+          "cs.CY",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Davide Scarso",
+          "Hugo Noronha de Almeida",
+          "Joaquim Pina"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.65,
+      "final_score": 0.5723252033082837
+    },
+    {
+      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+      "url": "https://arxiv.org/abs/2607.22525v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-24T17:56:38",
+      "summary": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building trust in AI-driven solutions is essential. Trust, in turn, is closely linked to the explainability of AI systems. The rapid advancements in AI across various domains have underscored the challenges of establishing trust, raising increasing interest in AI explainability even more when applied to deep learning. In this context, the present work aims to explore the application of explainability techniques to Reinforcement Learning (RL) algorithms, specifically within the safety-critical domain of Air Traffic Control (ATC). Using a simplified ATC environment as an initial testbed, an intelligent agent is trained with a reinforcement learning algorithm to make decisions on alternative flight routes that avoid no-fly zones. As a preliminary explainability approach, a saliency m...",
+      "content": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building trust in AI-driven solutions is essential. Trust, in turn, is closely linked to the explainability of AI systems. The rapid advancements in AI across various domains have underscored the challenges of establishing trust, raising increasing interest in AI explainability even more when applied to deep learning. In this context, the present work aims to explore the application of explainability techniques to Reinforcement Learning (RL) algorithms, specifically within the safety-critical domain of Air Traffic Control (ATC). Using a simplified ATC environment as an initial testbed, an intelligent agent is trained with a reinforcement learning algorithm to make decisions on alternative flight routes that avoid no-fly zones. As a preliminary explainability approach, a saliency map is employed, providing insights into the input features that most significantly influence the agent's decision-making process.",
+      "author": "Anduel Mehmeti, Gabriella Gigante, Salvatore Venticinque",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22525v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22525v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Anduel Mehmeti",
+          "Gabriella Gigante",
+          "Salvatore Venticinque"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5611111111111111,
+      "final_score": 0.5371255505877977
+    },
+    {
+      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+      "url": "https://arxiv.org/abs/2607.22520v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-24T17:50:03",
+      "summary": "Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both sides by comparing agents with and without skills across nearly 6,000 runs spanning two office automation benchmarks and three model harness stacks. This allows us to distinguish two outcomes. A regression is a task solved without skills but failed after skills are added. A residual failure is a task that fails both with and without skills. We find that regressions are substantial enough that the best performing skills outperform others primarily by regressing less, not by gaining more. We identify three causes of regression: (i) skill description osmosis, a skill changes an agent's behavior simply by being present in context, even when it is never invoked; (ii) grounding displacement, a skill's prescribed procedure overrides how the agent interprets its inputs; and (iii) verification dis...",
+      "content": "Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both sides by comparing agents with and without skills across nearly 6,000 runs spanning two office automation benchmarks and three model harness stacks. This allows us to distinguish two outcomes. A regression is a task solved without skills but failed after skills are added. A residual failure is a task that fails both with and without skills. We find that regressions are substantial enough that the best performing skills outperform others primarily by regressing less, not by gaining more. We identify three causes of regression: (i) skill description osmosis, a skill changes an agent's behavior simply by being present in context, even when it is never invoked; (ii) grounding displacement, a skill's prescribed procedure overrides how the agent interprets its inputs; and (iii) verification displacement, where the procedure suppresses checks the agent would otherwise perform on its outputs. Analysing persistent failures reveals the same underlying pattern. Existing skills overemphasize procedural guidance the stage least often responsible for failure while under supporting grounding and verification, the dominant sources of remaining errors. After correcting evaluation artifacts and studying traces, we find many regressions and persistent failures recoverable through better grounding and verification. Procedural skills should be evaluated by decomposing their net effect into gains and regressions, not by aggregate improvement alone. We identify three regression modes skills should avoid, and find that reliability depends more on grounding and verification than on procedural skill choice.",
+      "author": "Darshan Tank, Baran Nama",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22520v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22520v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Darshan Tank",
+          "Baran Nama"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.5325831398544147
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-23T12:00:00",
+      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to treat conditions across most major acute and chronic diseases), the complexity is even greater. Scientists explore vast quantities of pos...",
+      "content": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to treat conditions across most major acute and chronic diseases), the complexity is even greater. Scientists explore vast quantities of possible molecules, looking for the rare few that will bind to the right target, remain stable in the human body, and be manufacturable at scale. Today, AI is speeding up these processes and has quickly become a core part of the infrastructure in pharmaceutical R&D. AI-assisted design is a growing part of how biologic drug candidates are developed, and companies like AstraZeneca are actively building its engineering teams to push this further. \u201cEverything we do, whether it\u2019s design, make, test, or analyze, is now computationally enhanced,\u201d says Puja Sapra, senior vice president and head of R&D biologics engineering and oncology targeted discovery at AstraZeneca. \u201cThe cycle times are getting shorter while productivity and innovation increase.\u201d Sapra explains that AstraZeneca\u2019s approach follows a build-measure-learn loop. AI generates or prioritizes candidate molecules computationally, predicting which designs are most likely to succeed. Scientists then focus lab resources only on the top-ranked candidates. This leads to a tighter feedback cycle with fewer dead ends, faster iteration, and the ability to go after disease targets that were previously considered untreatable by medicine. Because the number of possible molecular combinations far exceeds what any human team can systematically explore, using AI to narrow and refine the options for testing has become a major focus in biologics drug design. Navigating complex drug design problems Beyond accelerating timelines, AI is also being applied to the discovery of entirely new classes of medicines. Traditional biologics typically target one disease pathway. The next generation of drugs can hit multiple targets simultaneously or precisely deliver therapeutic payloads to specific cells. Achieving this requires optimization across many variables at once. Looking ahead AI-driven models could help design these increasingly complex, multi-specific biologics, explains Puja Sapra. \u201cFor example,\u201d she continues, \u201csuch models could help identify which two or three targets to prioritize based on the underlying biology, then optimize across multiple parameters to balance a molecule\u2019s potency, stability, manufacturability, and safety.\u201d \u201cDrugging the undruggable is becoming a reality,\u201d Sapra says. \u201cThese technologies will eventually enable us to develop medicines against targets once thought impossible to reach. The potential for benefit to patients is remarkable.\u201d The data moat McKinsey estimates that generative AI, combined with other computational tools, could cut drug discovery timelines by as much as 50%. But every AI model is only as good as its training data. In drug discovery, that means ample quantities of high-quality biological data. Experiments can provide a rich source of such data. Whether they succeed or fail, each experiment generates a signal about what does and does not work. \u201cData is our differentiator,\u201d says Sapra, explaining how the company\u2019s datasets are proprietary and multimodal and include molecular structures, binding measurements, safety profiles, and manufacturing outcomes. \u201cWe\u2019ve built an intentionally diverse portfolio across multiple disease areas and drug types. All of that data empowers us to fine-tune frontier AI models with richer, more representative training sets.\u201d She continues, \u201cFurther, we have invested in deep screening technologies to generate additional datasets required in volume to constantly refine and validate our models.\u201d Building an autonomous discovery engine To bring all of that data together in one place, AstraZeneca is building what it calls a \u201clab of the future\u201d facility in Kendall Square, Cambridge, Massachusetts where AI and robotic automation will be able to form a continuous, closed-loop discovery system. \u201cWhere a self-driving car uses sensors and models to navigate its environment, this system uses AI to make predictions, robotic systems to execute experiments, and instruments to generate data,\u201d explains Sapra. That data feeds directly back into the models, accelerating each subsequent cycle. \u201cThroughout, scientists will remain central to the process, providing the oversight, judgement, and strategic direction that ensure outputs are explainable, tolerable, and directed toward potential patient benefit,\u201d she adds. Eventually, automated high-throughput systems will be able to make and evaluate thousands of molecular interactions on a weekly basis. \u201cThis will generate AI-ready data at a scale that traditional workflows cannot match,\u201d Sapra says. \u201cRobotic sample handling, automated quality checks, and integrated data pipelines also have the potential to help accelerate early drug development timelines significantly.\u201d The next frontier: Generating medicines from scratch Ultimately, Sapra says, the end-state vision for AI in biologic drug discovery is what the field calls \u201cde novo\u201d design. For this, the goal is for AI to generate entirely new protein sequences that precisely fit the desired drug properties. This includes designing the structure, predicting safety, how it will behave in the body and how to make it manufacturable. \u201cThe field is making great progress toward a completely AI-generated biologic, designed from scratch all the way to a clinical candidate,\u201d Sapra says. \u201cAs we continue to leverage frontier models and fine-tune them with the right datasets, we bring ourselves closer to this reality. I believe it will come. It\u2019s a matter of time.\u201d Several key elements are needed to reach this point, however. First is richer and more standardized training data across the industry. Second, robust evaluation benchmarks for AI-generated candidates. And third, teams that know how to work at the intersection of machine learning and biology. Of all the prerequisites, however, safety prediction may be the most consequential, and perhaps the least discussed, Sapra says. \u201cOne of the hardest problems in de novo design is predicting whether a computationally generated molecule will be safe in the human body,\u201d Sapra explains. AstraZeneca is tackling this with what amounts to virtual clinical trials. These are advanced cell systems and micro-scale organ models that function as physical testbeds, paired with AI that learns from their outputs.  \u201cThese systems have the potential to generate enhanced biological signals without traditional testing bottlenecks, and they&#8217;re a critical missing piece in closing the loop between AI-generated designs and clinical-ready candidates,\u201d Sapra adds. A shift currently underway is the move toward agentic AI systems that can simultaneously generate molecule candidates and predict how efficacious and safe they are likely to be. These autonomous workflows can connect disease-level insights directly to molecule design, bridging what were previously separate data silos. \u201cThe complexity of the biology goes hand-in-hand with the design of the molecule,\u201d summarizes Sapra. Human talent unlocks AI potential The transformation underway in biologics is not just about technology. \u201cWith more autonomous systems, human oversight remains at the heart of this approach\u2014ensuring explainable and ethical AI for the benefit of patients,\u201d says Sapra. For scientists, working with AI is a collaborative process. \u201cScientists will work hand-in-hand with these model systems,\u201d she says. \u201cThere will be a world where models will design molecules, then scientists will work with the systems to test those molecules and put all that data together.\u201d Through this process of human checks, balances, and judgement calls, the models will evolve and constantly improve, ultimately with potential to benefit patients. For engineers, designing and building effective systems ready for human-AI collaboration will mean ensuring high levels of model transparency and explainability. According to Sapra, AstraZeneca\u2019s engineering teams include data scientists, automation specialists, and AI engineers, who are developing systems that act as \u201cthinking partners\u201d rather than black boxes. \u201cEngineers are designing systems that generate, validate, and learn at speed. And the problems are genuinely hard: Multimodal data fusion, closed-loop optimization, uncertainty quantification, and interpretability at the point of clinical decision-making,\u201d she adds. In taking on such technically demanding challenges, engineers and scientists have the opportunity to contribute to the research and development of potentially life-changing treatments for many diseases, says Sapra. \u201cThe biologic medicines we can develop today, and those we\u2019ll design tomorrow, depend on combining world-class AI and engineering talent with deep scientific expertise.\u201d This article has been initiated and funded by AstraZeneca.  Z4-85058, July 2026. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.5059454904873513
+    },
+    {
+      "title": "Building AI infrastructure with the Effingham County community",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-07-22T13:00:00",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "content": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.48096533190029767
+    },
+    {
+      "title": "Introducing the ChatGPT for small business program",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-07-21T17:00:00",
+      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "content": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "ai adoption"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5833333333333334,
+      "final_score": 0.48088596678323414
+    },
+    {
+      "title": "Building the enterprise environment for agentic AI",
+      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-27T11:32:58",
+      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the ability to predictably plan and scale agents. To better understand some of these dependencies, Intel performed thousands of agentic AI w...",
+      "content": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the ability to predictably plan and scale agents. To better understand some of these dependencies, Intel performed thousands of agentic AI workload experiments. Our initial findings create and support five practical lessons for enterprise leaders: Agentic AI is a larger systems problem, not just one of inference. The majority of existing agentic AI harnesses are limited and do not measure overall system performance. Plan capacity is done using agents per virtual CPU (vCPU) density, not agent count. Monitor agent task latency, not just average CPU utilization. Default to scale-out for systems hosting agents. Reserve scale-up for workloads with heavier per-agent compute or architectural constraints. Beyond inference: Agents as workflow automation Agentic AI is more than LLM inference. Its enterprise value depends on the full system, task orchestration, data access, tool execution, latency management, governance, and scalable infrastructure. An agent is a goal-driven automated enterprise workflow process: It plans a multi-step task, calls tools, reads results, and retries when something fails. Enterprise agents are therefore not just an inference problem; they are a systems problem. Defining what good looks like Most agentic AI metrics focus on evaluating the LLM used. Platform teams also need to know how long the tasks take, how many agents a fleet can support, what users experience at the end of the execution process, and how costs change as more agents work simultaneously. A more useful enterprise view looks at six metrics: Task success rate Cost per task Time per task Task throughput Agent density (agents per vCPU) Latency Together, these answer the questions enterprise AI operators care about: Is the system performing as expected? How many agents can the system sustain? How should it scale to support more agents? Building on solid foundations To gain a deeper insight into agentic AI workload performance, Intel extended Terminal-Bench , an open source benchmarking harness for evaluating AI agents with profiling, telemetry, and replay capabilities. This made it possible to understand where the agents spent time beyond LLM inference. The benchmark extension used a deterministic record-replay of LLM responses to separate agent performance from LLM variability. LLM responses were recorded once and replayed identically across runs, reducing run-to-run variance and creating a more reliable basis for comparison. The Terminal-Bench task mix used was intentionally broad. It included compilation, testing, database operations, Boolean logic, interpretation, ray tracing, compression, linear algebra, video transcoding, and machine learning training. That wide variety made the findings more relevant to real enterprise environments. Agentic AI in three dimensions Deploying agentic AI should be approached in three phases: Plan in terms of agent density, not agent count : The first sizing rule is to normalize agent count by available compute. Agent density, measured as agents per vCPU, is the leading signal for saturation. For example, 10 agents on an 8-vCPU system and 20 agents on a 16-vCPU system behave similarly if the density is the same. This gives architects a portable way to compare capacity across instance sizes and processor generations. The right density also depends on the business goal. Interactive copilots and user-facing assistants should favor lower density because response time matters. Batch workloads such as IT workflows can often run at higher density. This gives teams a practical way to tune fleets around service-level objectives and total cost of ownership. Agentic AI requires a new form of observability: Average compute (CPU) utilization is a weak primary performance monitoring signal for agentic workloads. Agents often alternate between waiting for model responses and then doing short bursts of compute-intensive work. Because of that \u201cbursty\u201d pattern, average utilization can look acceptable even when those bursts are creating queues and slowing down the user experience. Task latency (P95) is a better leading metric. It shows when workflows are starting to wait, even before average task duration meaningfully degrades. A practical operating model is to alert on P95 latency first, then confirm the issue by looking at sustained task duration. Scale out by default: Scaling out adds more systems, increasing total agent capacity, while scaling up adds cores or memory to a single system for agents with heavier compute bursts. Our testing data showed that scale-out is usually the better default. That aligns with the fact that agents are typically semi-independent and have modest per-agent bursts, it improves overall performance, supports high availability, often lowers cost, and makes it easier to preserve the target agents-per-vCPU ratio as the platform grows. Scale up when agents require heavier parallel compute, shared state limits partitioning, memory locality matters, or licensing constraints apply. Consider business implications: Where will agentic AI create business value first? The organizations getting production-grade results are wrapping an automation layer around workflows that already have codified rules and measurable service levels: code creation, regression test farms, ticket triaging, market analysis, and security review. The ideal enterprise persona for agentic AI is therefore not the experimental user chasing novelty; it is the accountable leader who must improve cycle time and productivity, protect service quality, enforce policy, and scale adoption with cost in mind.  Agentic AI\u2019s value comes from helping businesses complete real work across teams, systems, data, and processes. For enterprises, the priority is not just better model performance; it is creating a reliable environment where AI agents can support business workflows, improve productivity, operate within governance requirements, and scale as adoption grows. In practice, success with agentic AI depends on the right foundation to deliver consistent outcomes, manage cost, maintain control, and move confidently from pilots to production. This content was produced by Intel. It was not written by MIT Technology Review\u2019s editorial staff.",
+      "author": "Keegan Sheedy, Lucas Melo",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.39125749446875
+    },
+    {
+      "title": "The path to artificial superintelligence",
+      "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-27T12:00:00",
+      "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate patient care without a human making the decisions. \u201cThe intelligence is already there. What is missing is the connective tissue that turns four strangers into one team...",
+      "content": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate patient care without a human making the decisions. \u201cThe intelligence is already there. What is missing is the connective tissue that turns four strangers into one team,\u201d explains Vijoy Pandey, senior vice president and general manager of Outshift by Cisco. This \u201cconnective tissue\u201d comes from adding a semantic layer\u2014what Outshift calls the \u201cInternet of Cognition\u201d\u2014that enables agents across domains to work together and, critically, \u201cthink\u201d together through shared intent, context, and reasoning. This semantic layer relies on a connectivity layer beneath it called the \u201cInternet of Agents,\u201d which allows autonomous agents to discover one another, prove identity, and exchange messages across domains. When used together, they enable \u201cthe next step on the road to distributed artificial superintelligence,\u201d says Pandey. From solo silicon savants to the \u2018Internet of Cognition\u2019 For years, the AI industry has been focused on growth. Scaling vertically has led to bigger models, trained on more data with more compute. This has produced the reasoning capabilities that can be like a \u201cbrain\u201d for AI agents, which can perceive, reason, and act in digital environments. While vertical scaling can produce more capable agents perpetually, to enable agentic problem solving across different systems, companies, and platforms the next axis of scale must be horizontal, says Pandey. Multi-agent systems are already being explored in areas like software engineering, drug discovery, and scientific simulations, but their performances so far have been underwhelming. One study finds a failure rate of between 41% and around 87% when evaluating seven open-source multi-agent systems. \u201cConnected agents handle coordinated action well; taking a task whose shape they have seen, divided and passed around,\u201d Pandey explains. \u201cWhat they cannot do is hold a goal in common and reason toward something none of them was trained to solve.\u201d \u201cThe gap is architectural, not a prompting problem,\u201d Pandey adds. \u201cWithout the right coordination layer, naive multi-agent setups can perform worse than a single agent. The step change is that team of agents converging on its own, on a new problem, with no human stitching the seams.\u201d To reach this goal, Pandey says Outshift has built a connectivity layer called AGNTCY, an open-source project now under the Linux Foundation. AGNTCY allows agents across different systems, companies, and platforms to find each other, prove identity, and exchange messages through open, standardized protocols. And, as Pandey explains, this allows the Internet of Cognition thesis to take a step further. It creates a semantic layer that allows agents to align goals (share intent), pool institutional knowledge and compound memory (share context), and make collective trade-offs (share reasoning). Pandey likens this progression to that of humans: \u201cFor hundreds of thousands of years humans got individually smarter, and the gains died with each person who made them,\u201d he explains. \u201cAround 70,000 years ago that changed, when humans learned to share intent, build cumulative knowledge, and reason collectively. That is when scattered individuals became civilization. \u201cAgents are at the same threshold. We have built the silicon geniuses and given them agency. What they lack is the layer that let humans go collective,\u201d he says. First steps to distributed superintelligence Enabling agents to work collectively rests on three pillars in the tech stack: Shared intent through cognition state protocols: Cognition state protocols are the semantic handshake that allow agents to agree on a goal before they act and then negotiate toward it. Outshift has created an open-source coordination layer called Mycelium, which organizations can clone and use against their own agents. \u201cWe found that unstructured groups reached a decision about a third of the time across 14 scenarios,\u201d says Pandey, speaking about internal testing. \u201cA coordination protocol that makes agents declare a goal, surface missing information, and resolve conflicts before acting raised that to 93%.\u201d Shared context through cognition fabric: A cognition fabric is a shared institutional memory and communication mesh that allows agent insight to compound over time rather than resetting each session. This policy-governed context layer solves the problem of \u201corganizational amnesia,\u201d says Pandey, by ensuring the baseline intelligence of the systems only ever goes up. Shared reasoning through cognitive amplifiers and guardrail technologies: Two kinds of cognition engine can be used together to enable shared reasoning. Cognitive amplifiers speed up shared reasoning and modeling, and guardrail technologies (GATs) create security, cost, and compliance frameworks. Humans are active contributors to this layer, making judgment calls the system routes to them (rather than reviewing outputs after the fact). Cognition sharing in multi-agent systems can create new risks, including unintended delegations, malicious prompt injections or memory poisoning, or over-privileged agents with access to permissions and data far beyond what their tasks require. Environment-specific controls are therefore needed to protect against unintended actions or consequences. \u201cAgents have human-like attributes but operate at machine speed and scale,\u201d says Pandey. \u201cEverything we built for twenty years\u2014access control, identity, compliance\u2014was built for humans or machines, not both.\u201d Continuous Agent Semantic Authorization (CASA)\u2014an open-source reference implementation developed by Outshift\u2014is a GAT that works to ensure agent actions remain securely aligned with the user\u2019s original goal through a process of continuous authorization. It does this by reading what the agent is trying to accomplish then checking each tool request against that task. In the case of a healthcare system, for example, an agent told to summarize a patient record may start by querying a whole database. This could lead to CASA denying the call, because the request no longer matches the task it was authorized for. \u201cToday\u2019s controls are scoped to a role or a session not to the task so an agent granted a tool can use it for anything,\u201d explains Pandey. \u201cRoughly 90% of the time, an agent has no way to confirm it is even cleared for the job it was handed.\u201d Experimentation for cross-domain innovation When horizontally scaling intelligence in the enterprise, businesses should begin by experimenting with one cross-functional workflow that spans three or four teams and currently needs a human authorizing the handoffs, Pandey advises. \u201cStand it up as a small multi-agent system on open, interoperable infrastructure, with a measurable baseline,\u201d he says. \u201cKeep building bigger models, add the horizontal axis on top of them, and change what you measure. Track where one agent\u2019s insight made another agent better\u2014that is the signal the horizontal axis is working.\u201d By starting to experiment now with intent, context, and reasoning layers, organizations can get ahead of the curve. \u201cThe problems are open, and the infrastructure is still being written,\u201d says Pandey. \u201cThis is the moment to build it.\u201d For more information on the Internet of Cognition, visit Outshift.com . This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.38943755402058533
+    },
+    {
+      "title": "Closing the data loop in AI-driven drug discovery",
+      "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-07-27T11:40:16",
+      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years\u2014a phenomenon known as Eroom\u2019s Law . Today, bringing a new drug to market takes an average of 10-15 years and costs anywhere from $1 billion to $2.5 billion , with failure rates upward of 90%. AI has become the pharmaceutical industry\u2019s biggest bet on bringing s...",
+      "content": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years\u2014a phenomenon known as Eroom\u2019s Law . Today, bringing a new drug to market takes an average of 10-15 years and costs anywhere from $1 billion to $2.5 billion , with failure rates upward of 90%. AI has become the pharmaceutical industry\u2019s biggest bet on bringing success rates up and timelines down. The faster drug companies can identify, test, and optimize new chemical compounds, the lower the risk of costly failures later in development. \u201cThe main cost in drug discovery is still the clinical phase, so trying to reduce risk and increase your success rates there is obviously hugely beneficial,\u201d says Paul Belcher, director of protein research strategy at global life sciences company Cytiva. \u201cAI is one approach that drug companies hope will not only save time and compress timelines, but enable better quality candidates to reach the clinic.\u201d Early use of AI in drug discovery shows potential, but also highlights the need for robust and authentic data, as well as integration in lab systems. AI brings efficiency to the lab One of the most promising early-stage applications of AI in drug discovery is in hit identification. This involves screening libraries of molecular entities against a disease-related target, such as a protein, to find molecules that bind to it. A successful hit gives researchers a starting point for further testing and refinement, with the aim of eventually developing a viable drug. Belcher has seen a shift from empirical screening to predictive design: Instead of physically screening libraries, drug companies are now using AI to design drug candidates from scratch and predict how they will interact with disease targets before committing anything to research and development (R&D). This means companies are no longer limited by how much they can physically screen to identify starting points. \u201cAI does away with that,\u201d says Belcher. \u201cAnd it can help eliminate low-quality candidates before you have to physically test them, saving time and resources.\u201d What AI can\u2019t do yet is reliably predict kinetics or developability of new compounds, says Belcher. This means every AI-generated candidate still needs to be validated in the lab. Traditional screening workflows were built to identify hits at scale, not to profile large numbers of complex candidates in detail. This is placing more pressure on lab teams, who now have to test, characterize, and purify a growing volume of more diverse, AI-generated compounds. \u201cThe current techniques used in hit identification can screen hundreds of thousands, sometimes millions of compounds, using binary or threshold-based techniques producing low-fidelity data\u2014yes-or-no responses,\u201d Belcher explains. \u201cAI can increase the number of hits you get and potentially give you better quality hits as well. That increases demand for higher-throughput, information-rich technologies to then validate and characterize those hits.\u201d Models need complete, quality data As AI has accelerated demand for data-rich lab systems, it has also highlighted a fundamental need for better, more complete data. Many earlier AI models were trained on publicly available datasets and are now hitting what Belcher calls a data wall. Because models have access to the same data, they all reach similar conclusions, with diminishing returns over time. Additionally, the datasets weren&#8217;t built with AI in mind, meaning they lack the structure, labeling, and diversity needed to keep models accurate and free of bias. Publication bias reinforces the problem. \u201cMost publicly available datasets and scientific publications focus exclusively on positive results,\u201d says Belcher. \u201cNo one wants to share their failures. This bias is almost like having one hand tied behind your back. AI models can identify patterns associated with success, but they lack the comprehensive understanding of failures that would make predictions more reliable.\u201d The data Belcher believes would markedly improve models\u2014the failed experiments, the compounds that don\u2019t bind\u2014remains frustratingly difficult to come by. \u201cWe often joke that there should be a journal of negative data,\u201d he says. \u201cIt\u2019s often buried in lab notebooks, and it\u2019s never used to inform or guide future research.\u201d This lack of negative data creates a fundamental problem: Without access to a broad range of data, models can\u2019t be adequately trained to avoid bias. \u201cIn all machine learning applications, the model\u2019s performance relies heavily on the quality and scope of the training data,\u201d notes Belcher. Fabrication has also become much easier with AI, compounding concerns around data integrity. Take Western blots, for example. These are part of a standard technique for identifying proteins in blood or tissue samples, and they are among the most common targets for manipulation in biomedical research. Belcher cites research by Dutch microbiologist Elisabeth Bik, who found that almost 4% of biomedical papers contained duplicated or manipulated images. This was back in 2016, before generative AI made fabrication trivial. \u201cManipulated or faked data has always been a problem in science, but in the AI world, especially when used to train models, it could have potentially disastrous consequences,\u201d says Belcher. \u201cThere needs to be more tools to verify that data is not manipulated.\u201d Some vendors are starting to tackle this challenge. Belcher points to solutions like Cytiva\u2019s Image Integrity Checker, for instance, which uses secure hash algorithms\u2014the same technology used in blockchain\u2014to detect whether scientific images have been tampered with. \u201cWe\u2019re starting to see a lot of interest from publishing houses that want to adopt this as standard because it\u2019s a quick way to ensure that what gets published in the literature is genuine,\u201d he adds. Autonomous labs could accelerate breakthroughs Belcher describes the future state of drug discovery as fully autonomous labs that run with minimal human intervention. Foundational to this vision is consistency in data and infrastructure. These AI-driven dark labs, or labs-in-the-loop, operate around the clock. They cycle through prediction, testing, and optimization, and then feed results back into AI models to guide the next round of experiments. This can improve the success rates of drug candidates entering clinical trials, says Belcher. Better starting points, combined with more rounds of optimization, should result in better candidates with fewer liabilities reaching the clinic. But automating a lab depends heavily on integration. That means interoperable systems, highly structured and comprehensive datasets, and information flowing easily in and out. Most labs aren\u2019t there yet. \u201cToday, a lot of the instruments in labs are standalone,\u201d Belcher notes. \u201cYou can have the best technology in the world, but if it\u2019s a closed ecosystem\u2014if the user can\u2019t get the data out\u2014it doesn\u2019t do any good.\u201d An integrated infrastructure can enable labs to generate FAIR (findable, accessible, interoperable, and reusable) data at scale. This would not only inform individual lab reports, but could also train subsequent generations of AI models, effectively closing the loop between the computational, AI-driven dry lab and the physical wet lab. \u201cOur goal is to help scientists and researchers accelerate their breakthroughs and make that future state of autonomous labs a real possibility,\u201d says Belcher. \u201cWe want to help them generate reliable data, simplify workflows in discovery, and hopefully enable what they\u2019re working on to become tomorrow\u2019s life-changing therapies, faster and with greater confidence.\u201d On costs and what comes next AI-driven drug discovery is still in its early days. Notably, no drug discovered primarily through AI-driven design has yet received full FDA approval\u2014although Belcher expects that to change in the next two to three years. How big of an impact could AI eventually have on drug discovery? \u201cThe holy grail would be full in silico prediction of efficacy and toxicity, eliminating the need for the vast majority of physical wet lab work,\u201d says Belcher. But there are many barriers to this beyond the maturity of the models, including regulatory hurdles and cost challenges. A Stanford study found that the cost of training frontier AI models has more than doubled every year since 2016, adding more financial pressure to a sector already defined by exceptionally high R&D spend . Belcher acknowledges the tension, but remains optimistic about what\u2019s ahead. \u201cI think we\u2019ll get to a point where there\u2019s a balance between AI and wet work, from a cost perspective and a risk perspective,\u201d he says. \u201cAs long as the cost of compute doesn\u2019t ever outweigh the cost of clinical development, I think AI is going to be an advantage.\u201d Learn more about how Cytiva is using faster discovery to reshape protein purification workflows. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.3891439032120536
+    },
+    {
+      "title": "AI companies are shredding rare books",
+      "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-07-27T12:32:12",
+      "summary": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;HedgieMarkets&#x2F;status&#x2F;2081534588485296565</a>",
+      "content": null,
+      "author": "anon373839",
+      "score": 542,
+      "num_comments": 296,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49068738,
+        "hn_url": "https://news.ycombinator.com/item?id=49068738",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.3649201753525483
+    },
+    {
+      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
+      "url": "https://arxiv.org/abs/2607.22534v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-24T17:59:51",
+      "summary": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing motion perception methods (e.g., sparse tracking, dense point-wise flow) treat motion as independent point-wise displacements, ignoring the structured nature of physical motion. However, real-world objects usually obey rigid-body kinematics, and points thus usually move collectively, not in isolation. Motion itself possesses geometric structure: physical objects undergo a set of rigid-body transformations governed by SE(3), rather than unstructured point-wise displacements. Building on this insight, we propose SM4RT, a Structured Motion 4D Reconstruction Transformer for end-to-end 3D reconstruction and structured motion perception. SM4RT introduces Structure-of-Motion to represent scene dynamics, where scene motion is decomposed into a compact set of motion bases, each represented as a tempora...",
+      "content": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing motion perception methods (e.g., sparse tracking, dense point-wise flow) treat motion as independent point-wise displacements, ignoring the structured nature of physical motion. However, real-world objects usually obey rigid-body kinematics, and points thus usually move collectively, not in isolation. Motion itself possesses geometric structure: physical objects undergo a set of rigid-body transformations governed by SE(3), rather than unstructured point-wise displacements. Building on this insight, we propose SM4RT, a Structured Motion 4D Reconstruction Transformer for end-to-end 3D reconstruction and structured motion perception. SM4RT introduces Structure-of-Motion to represent scene dynamics, where scene motion is decomposed into a compact set of motion bases, each represented as a temporal sequence of 6D twists in SE(3). Dense scene motion is then recovered by sparse, time-shared per-pixel assignment weights over these bases, ensuring points on the same object share a common rigid-body motion trajectory. SM4RT introduces a parallel motion geometry encoder and decoder that jointly infer 3D geometry, world-coordinate motion, and scene kinematic structure in a single forward pass from monocular RGB video. SM4RT achieves strong motion reconstruction performance while preserving the geometric structure of scene motion.",
+      "author": "Shing Ho J. Lin, Wenzhao Zheng, Dong Zhuo, Yuqi Wu, Jie Zhou...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22534v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22534v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Shing Ho J. Lin",
+          "Wenzhao Zheng",
+          "Dong Zhuo",
+          "Yuqi Wu",
+          "Jie Zhou",
+          "Jiwen Lu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.08703703703703704,
+      "final_score": 0.3475437880415013
+    },
+    {
+      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
+      "url": "https://arxiv.org/abs/2607.22516v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-07-24T17:39:14",
+      "summary": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-level relationships can be characterised through spectral values and spectral subspaces; however, common coordinate-wise rotation-gate data-encoding unitaries used in most quantum machine learning models do not explicitly construct such a matrix-level representation. We introduce Quantum Spectral Models (QSMs), in which we construct the generator of the data-encoding unitary directly from each input matrix. We study three QSM variants based on symmetric, global block, and non-overlapping patch-local block Hamiltonians. Their outputs admit truncated Fourier representations in which input-dependent spectral gaps supply candidate phase carriers, while spectral subspaces help determine their coefficients. We evaluate the QSMs and comparison quantum models on two matrix representations of Pendig...",
+      "content": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-level relationships can be characterised through spectral values and spectral subspaces; however, common coordinate-wise rotation-gate data-encoding unitaries used in most quantum machine learning models do not explicitly construct such a matrix-level representation. We introduce Quantum Spectral Models (QSMs), in which we construct the generator of the data-encoding unitary directly from each input matrix. We study three QSM variants based on symmetric, global block, and non-overlapping patch-local block Hamiltonians. Their outputs admit truncated Fourier representations in which input-dependent spectral gaps supply candidate phase carriers, while spectral subspaces help determine their coefficients. We evaluate the QSMs and comparison quantum models on two matrix representations of Pendigits and two controlled synthetic tasks defined by spectral statistics. At the largest evaluated circuit depth, QSM variants lead the tested quantum models in mean test accuracy across all four benchmarks. The patch-local QSM leads on Pendigits, whereas the global block-Hamiltonian QSM leads on the controlled spectral tasks. Ablations show a task-dependent reversal: subspace-preserving controls perform better on Pendigits, whereas spectral-value-only controls lead among the tested ablations on the synthetic tasks. Together, these results shed new light on quantum machine-learning model design by showing how input-conditioned spectral representations can provide an analysable inductive bias, while offering a broader perspective on structure-aware model design in machine learning and artificial intelligence.",
+      "author": "Peiyong Wang, Udaya Parampalli, Casey R. Myers",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22516v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22516v1.pdf",
+        "categories": [
+          "quant-ph",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Peiyong Wang",
+          "Udaya Parampalli",
+          "Casey R. Myers"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.08148148148148147,
+      "final_score": 0.3450147701258267
+    },
+    {
+      "title": "Biomedical Machine Translation for Low-Resource Arabic-Script Languages via Cross-Lingual Transfer and LoRA Adapter Merging",
+      "url": "https://arxiv.org/abs/2607.22300v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-24T13:44:50",
+      "summary": "We present a systematic study of healthcare-domain cross-lingual transfer to address the scarcity of biomedical NMT resources for Arabic-script languages. We use Arabic and Persian as higher-resource pivots to improve translation for \\textbf{four severely low-resource} targets: Dari (Afghan Persian, a standardised variety of Persian), Pashto, Sorani Kurdish (Central Kurdish, a major standardized variety of Kurdish), and Urdu (closely related to Hindi). Using LoRA fine-tuning on small decoder-only LLMs, we train \\textit{domain-specific pivot adapters} and evaluate \\textbf{three transfer strategies}: few-shot in-context learning, minimal supervised adaptation, and, to the best of our knowledge, for the first time in this setting, zero-data LoRA adapter merging. Supervised adaptation with just 500 sentences achieves near pivot-language quality for Dari (CHrF++ 41.01) and meaningful gains for Urdu (28.88), while adapter merging reaches within 3.5 CHrF++ of supervised adaptation for Dari at...",
+      "content": "We present a systematic study of healthcare-domain cross-lingual transfer to address the scarcity of biomedical NMT resources for Arabic-script languages. We use Arabic and Persian as higher-resource pivots to improve translation for \\textbf{four severely low-resource} targets: Dari (Afghan Persian, a standardised variety of Persian), Pashto, Sorani Kurdish (Central Kurdish, a major standardized variety of Kurdish), and Urdu (closely related to Hindi). Using LoRA fine-tuning on small decoder-only LLMs, we train \\textit{domain-specific pivot adapters} and evaluate \\textbf{three transfer strategies}: few-shot in-context learning, minimal supervised adaptation, and, to the best of our knowledge, for the first time in this setting, zero-data LoRA adapter merging. Supervised adaptation with just 500 sentences achieves near pivot-language quality for Dari (CHrF++ 41.01) and meaningful gains for Urdu (28.88), while adapter merging reaches within 3.5 CHrF++ of supervised adaptation for Dari at zero additional cost. Pashto and Sorani Kurdish remain insufficient for high-stakes clinical deployment exposing the limits of cross-lingual transfer when structural distance from the pivots is too great. LoRA adapter merging works surprisingly well for closely related languages, even without target-language biomedical data.",
+      "author": "Abdullah Alabdullah, Arash Eslamighayour, Sarp Harbalioglu, Lifeng Han",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22300v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22300v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Abdullah Alabdullah",
+          "Arash Eslamighayour",
+          "Sarp Harbalioglu",
+          "Lifeng Han"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.08148148148148147,
+      "final_score": 0.3415266746364914
+    },
+    {
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "url": "https://arxiv.org/abs/2607.22529v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-24T17:59:22",
+      "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability: environment-bound methods obtain precise feedback but confine learning to narrow domains, while open-ended self-generation broadens the task space but lacks reliable verification, allowing misleading rewards to pollute the training loop. We identify agent skills as a powerful middle ground to reconcile this tension: each skill ensures deep, verifiable execution in a specific scenario, while dynamic routing across skills maintains open-ended task variety. Leveraging this insight, we introduce Skill Self-Play (Skill-SP), a co-evolutionary framework comprising a proposer, a solver, and a dynamic skill controller. Orchestrated via a reinforcement learning loop, these components co-evolve in a continuous self-play loop: the proposer generates challenging tasks conditioned o...",
+      "content": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability: environment-bound methods obtain precise feedback but confine learning to narrow domains, while open-ended self-generation broadens the task space but lacks reliable verification, allowing misleading rewards to pollute the training loop. We identify agent skills as a powerful middle ground to reconcile this tension: each skill ensures deep, verifiable execution in a specific scenario, while dynamic routing across skills maintains open-ended task variety. Leveraging this insight, we introduce Skill Self-Play (Skill-SP), a co-evolutionary framework comprising a proposer, a solver, and a dynamic skill controller. Orchestrated via a reinforcement learning loop, these components co-evolve in a continuous self-play loop: the proposer generates challenging tasks conditioned on dynamically sampled skills; the solver explores candidate solutions to push its capability boundaries; and the skill controller collects execution feedback to update and expand the skill library. This interactive co-evolution effectively bridges the gap between structured verification and open-ended exploration. Empirical evaluations on tool-use and reasoning benchmarks demonstrate that Skill-SP, serving as a robust evolution engine, consistently pushes the performance ceiling of competent backbones while catalyzing striking turnarounds for initially misaligned models. Our code is available at https://github.com/Qwen-Applications/skill-self-play.",
+      "author": "Siyuan Huang, Pengyu Cheng, Haotian Liu, Tao Chen, Yihao Liu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22529v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22529v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Siyuan Huang",
+          "Pengyu Cheng",
+          "Haotian Liu",
+          "Tao Chen",
+          "Yihao Liu",
+          "Jingwei Ni",
+          "Shijie Zhou",
+          "Ziyi Yang",
+          "Gangwei Jiang",
+          "Mengyu Zhou",
+          "Yu Cheng",
+          "Xiaoxi Jiang",
+          "Guanjun Jiang"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.3393884472155258
+    },
+    {
+      "title": "A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books",
+      "url": "https://arxiv.org/abs/2607.22376v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-07-24T15:03:36",
+      "summary": "Most endangered languages lack the parallel data required for machine translation, despite the existence of descriptive grammar books. We introduce a pipeline that uses large language models to extract grammatical rules, example sentences, and lexicons from grammar books and generate synthetic parallel corpora for fine-tuning-rather than feeding grammar content into prompts at inference time, as in prior work. Validated on three typologically diverse low-resource languages-Kalamang (Papuan), Tuatschin (Romance), and Mandan (Siouan)-we show that fine-tuning on synthetic data improves over seed-data baselines in 75% of configurations for Kalamang and 59% for Tuatschin, with best-case ChrF++ gains of +8.8, +5.3, and +3.3 respectively. Through a systematic factorial study across 96 configurations varying target part-of-speech, retrieval granularity, and sample volume, we identify which factor combinations drive gains and where they break down. Our results demonstrate that static linguistic...",
+      "content": "Most endangered languages lack the parallel data required for machine translation, despite the existence of descriptive grammar books. We introduce a pipeline that uses large language models to extract grammatical rules, example sentences, and lexicons from grammar books and generate synthetic parallel corpora for fine-tuning-rather than feeding grammar content into prompts at inference time, as in prior work. Validated on three typologically diverse low-resource languages-Kalamang (Papuan), Tuatschin (Romance), and Mandan (Siouan)-we show that fine-tuning on synthetic data improves over seed-data baselines in 75% of configurations for Kalamang and 59% for Tuatschin, with best-case ChrF++ gains of +8.8, +5.3, and +3.3 respectively. Through a systematic factorial study across 96 configurations varying target part-of-speech, retrieval granularity, and sample volume, we identify which factor combinations drive gains and where they break down. Our results demonstrate that static linguistic documentation can be repurposed for machine translation fine-tuning, offering a practical path towards translation tools for severely under-resourced languages.",
+      "author": "Varun Ghat Ravikumar, Sina Ahmadi, Lena J\u00e4ger, Rico Sennrich",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22376v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22376v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Varun Ghat Ravikumar",
+          "Sina Ahmadi",
+          "Lena J\u00e4ger",
+          "Rico Sennrich"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.07222222222222222,
+      "final_score": 0.33899509398809524
+    },
+    {
+      "title": "Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes",
+      "url": "https://arxiv.org/abs/2607.22508v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-07-24T17:27:43",
+      "summary": "Electroencephalography (EEG) is widely used to diagnose neurological conditions, but its analysis usually relies on either predefined spectral features or deep neural networks. Predefined features carry a strong bias, since they fix in advance what counts as informative, while deep neural networks and foundation models are hard to interpret and need large amounts of data and compute. We present bag-of-waves, an interpretable framework that learns a small dictionary of recurring EEG waveform templates, called atoms, using shift-invariant k-means without labels. The continuous EEG is then turned into a sequence of atom tokens, whose counts feed a simple downstream classifier or clustering step. We extend this representation in two ways: we add atom-to-atom transitions, which we call n- grams, to capture temporal structure, and we move from single-channel atoms to regional and cross-channel spatial atoms for the multichannel case. We test the method on three complementary datasets, each p...",
+      "content": "Electroencephalography (EEG) is widely used to diagnose neurological conditions, but its analysis usually relies on either predefined spectral features or deep neural networks. Predefined features carry a strong bias, since they fix in advance what counts as informative, while deep neural networks and foundation models are hard to interpret and need large amounts of data and compute. We present bag-of-waves, an interpretable framework that learns a small dictionary of recurring EEG waveform templates, called atoms, using shift-invariant k-means without labels. The continuous EEG is then turned into a sequence of atom tokens, whose counts feed a simple downstream classifier or clustering step. We extend this representation in two ways: we add atom-to-atom transitions, which we call n- grams, to capture temporal structure, and we move from single-channel atoms to regional and cross-channel spatial atoms for the multichannel case. We test the method on three complementary datasets, each probing a different aspect: single-channel mouse genotype clustering with only sixteen animals (the low-data and temporal case), resting-state dementia classification (the spatial case), and the TUEV benchmark, a six-way classification of clinical EEG events (a high-data comparison against strong deep and foundation baselines). Across all three datasets, bag-of-waves achieves performance competitive with state-of-the-art deep and foundation models. Yet, it operates with a fraction of the parameter count and provides full interpretability: because every atom corresponds to an inspectable waveform, the method explicitly recovers known clinical morphologies that a neurophysiologist can directly validate. Its main advantage is that it works in the low-data regime where heavier models are a poor fit.",
+      "author": "Athanasios Papastathopoulos-Katsaros, Steven T. Lee, Lin Yao, Ajay Thomas, Junseok Park...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22508v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22508v1.pdf",
+        "categories": [
+          "cs.LG",
+          "eess.SP"
+        ],
+        "all_authors": [
+          "Athanasios Papastathopoulos-Katsaros",
+          "Steven T. Lee",
+          "Lin Yao",
+          "Ajay Thomas",
+          "Junseok Park",
+          "Matthew J. McGinley",
+          "Zhandong Liu"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.0574074074074074,
+      "final_score": 0.33521376141112763
+    },
+    {
+      "title": "Robot-Factored World Models via Robot Rendering",
+      "url": "https://arxiv.org/abs/2607.22535v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-07-24T17:59:57",
+      "summary": "Action-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the robot body and controller, and the scene then responds through contact and object motion. Conditioning directly on action commands asks the world model to learn the realization process itself, while conditioning on logged future states leaks the interaction outcomes it is meant to predict. We propose robot-factored world models, which move two robot-specific factors outside the world model. First, action realization: each command is rolled through the robot's own controller and kinematics into a deployment-available nominal trajectory, a middle signal that avoids both action-realization learning and future-state leakage. Second, robot rendering: this nominal trajectory is rendered through the robot URDF, factoring the robot's geometry, kinema...",
+      "content": "Action-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the robot body and controller, and the scene then responds through contact and object motion. Conditioning directly on action commands asks the world model to learn the realization process itself, while conditioning on logged future states leaks the interaction outcomes it is meant to predict. We propose robot-factored world models, which move two robot-specific factors outside the world model. First, action realization: each command is rolled through the robot's own controller and kinematics into a deployment-available nominal trajectory, a middle signal that avoids both action-realization learning and future-state leakage. Second, robot rendering: this nominal trajectory is rendered through the robot URDF, factoring the robot's geometry, kinematics, and appearance out of the model and into explicit rendered robot geometry. To resolve depth ambiguity, we pair end-effector depth with scene depth, giving geometric cues for contact and occlusion beyond image-plane overlap. Together, camera-aware static RGB/depth context and rendered robot geometry form a shared visual world-model interface that stays consistent across viewpoints and robot embodiments, so the model sees the action only as visible robot geometry and learns how objects respond to it. Our experiments show that the rendered interface outperforms vector-conditioned baselines and generalizes to unseen robot embodiments at inference. We further demonstrate that our model generates robot manipulation videos from human demonstrations by retargeting and rendering the hand motion as robot geometry.",
+      "author": "Byungjun Kim, Taeksoo Kim, Hyunsoo Cha, Hanbyul Joo",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.RO",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2607.22535v1",
+        "pdf_url": "https://arxiv.org/pdf/2607.22535v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Byungjun Kim",
+          "Taeksoo Kim",
+          "Hyunsoo Cha",
+          "Hanbyul Joo"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.33198972025281087
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-07-21T17:00:00",
+      "end": "2026-07-27T12:32:12"
+    }
+  }
+}
