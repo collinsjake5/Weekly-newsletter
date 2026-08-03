@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 32</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 32 | August 03, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2607.29677v1" target="_blank">ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Jul 31
+                    
+                </div>
+                <p class="story-summary">Enterprise workflows increasingly rely on agents for \emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We pre...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2607.29626v1" target="_blank">AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Jul 31
+                    
+                </div>
+                <p class="story-summary">As LLMs evolve from code completion systems into autonomous scientific agents, evaluating their ability to conduct experiments has become increasingly important. Existing benchmarks typically focus on static code generation, paper replication, or fin...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2607.29602v1" target="_blank">FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Jul 31
+                    
+                </div>
+                <p class="story-summary">Reading a social situation often depends on behavior, not words alone. We introduce FriendBench, a benchmark for inferring whether two people are already familiar or are meeting as strangers, from a 20-second clip of a dyadic ice-breaker conversation...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores" target="_blank">How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | Jul 29
+                    
+                </div>
+                <p class="story-summary">How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/" target="_blank">Gemini API Managed Agents: 3.6 Flash, hooks, and more</a>
+                </div>
+                <div class="story-meta">
+                    Google AI Blog | Jul 28
+                    
+                </div>
+                <p class="story-summary">We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.29637v1" target="_blank">CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding</a></div>
+                <div class="paper-author">Wenxin Tang, Jingyu Xiao, Zhenyu Liu, Zipeng Xie, Junliang Liu...</div>
+                <div class="paper-summary">Rendering source code as images offers a promising way to reduce the input costs of Multimodal Large Language Models (MLLMs). Adjusting image resolution can trade visual token cost against content fid...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.29659v1" target="_blank">GQ-FSL: Green Quantized Federated Split Learning</a></div>
+                <div class="paper-author">Idan Roth, Lutz Lampe</div>
+                <div class="paper-summary">Deploying state-of-the-art deep neural networks (DNNs) at the wireless edge is severely bottlenecked by the strict energy and resource constraints of mobile devices. While federated split learning (FS...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.29678v1" target="_blank">TokTier: Exact Stateful Tokenization for Agentic LLM Serving</a></div>
+                <div class="paper-author">Zhenyu Zhang, Zhichao Cao</div>
+                <div class="paper-summary">LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.29621v1" target="_blank">CENDRe: Concept Extraction with Natural Domain Representations</a></div>
+                <div class="paper-author">Antonia Holzapfel, Andres Felipe Posada Moreno, Sebastian Trimpe</div>
+                <div class="paper-summary">Convolutional neural networks (CNNs) are widely used for time-series classification, but their deployment in critical domains requires understanding the temporal and spectral patterns that drive their...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2607.29613v1" target="_blank">WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning</a></div>
+                <div class="paper-author">Senyu Fei, Xiaopeng Yu, Siyin Wang, Xianzhong Zhao, Jingjing Gong...</div>
+                <div class="paper-summary">Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic manipulation. Among RL methods, critic-based approaches rely on a value estimator ...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://frogs.vaguespac.es/" target="_blank">My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 147 | 💬 81</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://blog.exe.dev/devtools-must-be-open-source" target="_blank">Devtools must be open source</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 89 | 💬 25</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://9front.org/releases/2026/08/02/0/" target="_blank">9front &quot;This Was Supposed to Be Fun&quot; Released</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 74 | 💬 25</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/how-ai-is-expanding-what-people-do-at-work" target="_blank">How AI is expanding what people do at work</a></div>
+                <div class="news-meta">OpenAI Blog | Jul 27</div>
+                <div class="news-summary">New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/" target="_blank">Here’s why AI agents lie and cheat to reach their goals</a></div>
+                <div class="news-meta">MIT Technology Review AI | Aug 03</div>
+                <div class="news-summary">MIT Technology Review Explains : Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can re...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/" target="_blank">A fundamental flaw leaves LLMs strikingly vulnerable to attack</a></div>
+                <div class="news-meta">MIT Technology Review AI | Jul 30</div>
+                <div class="news-summary">It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/ten-advances-in-mathematics" target="_blank">Ten advances in mathematics and theoretical computer science</a></div>
+                <div class="news-meta">OpenAI Blog | Aug 01</div>
+                <div class="news-summary">OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-08-03 15:45 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
