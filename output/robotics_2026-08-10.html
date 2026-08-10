@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Robotics Weekly - Week 33</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manufacturing Robotics Weekly</h1>
+            <div class="date">Week 33 | August 10, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>The Robot Report</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.youtube.com/watch?v=BYXbuik3dgA" target="_blank">Elon Musk – &quot;In 36 months, the cheapest place to put AI will be space”</a>
+                </div>
+                <div class="story-meta">
+                    YouTube - Dwarkesh Patel and Stripe | Aug 10
+                     | ⬆️ 150 | 💬 0
+                </div>
+                <p class="story-summary">Optimus and humanoid manufacturing, Tesla will use 10,000 to 30,000 Optimus robots for self-training, similar to FSD Elon Musk revealed Optimus&#39;s new strategy: creating an &quot;Optimus Academy&quot; with 10,000 to 30,000 real robots that will continuously per...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://www.therobotreport.com/experts-look-ahead-at-the-next-20-years-of-robotics-at-robobusiness/" target="_blank">Experts look ahead at the next 20 years of robotics at RoboBusiness</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Aug 08
+                    
+                </div>
+                <p class="story-summary">From left to right: Rodney Brooks, Jonathan Hurst, and Ken Goldberg. Robotics has evolved from a promising technology into a critical business tool across manufacturing, logistics, healthcare, agriculture, defense, and beyond. At RoboBusiness 2026, w...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.therobotreport.com/building-robots-that-survive-warehouse/" target="_blank">Building robots that survive the warehouse</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Aug 07
+                    
+                </div>
+                <p class="story-summary">﻿ ﻿ The Robot Report Podcast · Building robots that survive the warehouse In Episode 256 of The Robot Report Podcast, we talk with Josh Cloer, general manager for North America at Nomagic. Josh Cloer, general manager at Nomagic. Cloer is a commercial...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://www.therobotreport.com/tacta-systems-takes-aim-high-skilled-manufacturing-work-tactabot/" target="_blank">Tacta Systems takes aim at high-skilled manufacturing work with TactaBot</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Aug 07
+                    
+                </div>
+                <p class="story-summary">Tacta&amp;#8217;s robotic hand comes in three- and five-finger configurations. | Source: Tacta Systems Tacta Systems last week launched the TactaBot, which includes the company&amp;#8217;s Tacta Hand, Skill Capture system, and a Dexterous Intelligence AI mod...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/" target="_blank">Avatar Robotics raises seed round to address industrial labor constraints</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Aug 07
+                    
+                </div>
+                <p class="story-summary">The leadership team at Avatar Robotics: Hamid Farzaneh, founding engineer (l); Colin Webb, founder/CEO (m); and Nenye Anagbogu, chief screwdriver (r). | Credit: Avatar Robotics Avatar Robotics this week said it has raised $6.5 million in a seed finan...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.07154v1" target="_blank">Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation</a></div>
+                <div class="paper-author">Yang Shen, Chonghao Cheng, Ziyi Zhao, Jialuo Zhu, Zhenyi Yi...</div>
+                <div class="paper-summary">Open-source robotics and foundation models have lowered the barrier to embodied AI, yet language-guided laboratory automation still requires reliable alignment from instructions and observations to sa...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.07328v1" target="_blank">Learning Fault-Tolerant Locomotion with Adaptive Gait Timing</a></div>
+                <div class="paper-author">Giovanbattista Gravina, Luca Rossini, Carlo Rizzardo, Arturo Laurenzi, Nikos Tsagarakis</div>
+                <div class="paper-summary">Hardware failures require legged robots to rapidly reorganize coordination and gait timing to maintain stability and mobility. This is particularly challenging for larger quadrupeds, where increased m...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.07075v1" target="_blank">Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing</a></div>
+                <div class="paper-author">Haowen Zheng, Yinghao Wu, Fuyuan Liu, Yichen Li, Yitian Shao</div>
+                <div class="paper-summary">Delicate manipulation often involves transient and subtle collisions between a grasped object and the environment. While the human hand localizes these contacts effortlessly thanks to superior tactile...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.07074v1" target="_blank">M2-SMap: Memory-Efficient Semantic Mapping with Hierarchical Multi-Model Representation</a></div>
+                <div class="paper-author">QiYing Deng, ZhongLai Wang, Yuan Gao, Wei Dong</div>
+                <div class="paper-summary">Dense point cloud maps, as a typically used mapping representation, are difficult to deploy on resource-constrained robots because their memory consumption grows rapidly with scene scale. Although com...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.07267v1" target="_blank">WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN</a></div>
+                <div class="paper-author">Yuehao Huang, Yunzi Wu, Xiaotao Zhang, Xinhai Li, Jiankun Dong...</div>
+                <div class="paper-summary">Recent vision-language navigation (VLN) systems increasingly adapt pretrained vision-language models (VLMs) into vision-language-action (VLA) policies that map egocentric observations and language ins...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/" target="_blank">Everything you do is being recorded</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 360 | 💬 318</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://specification.website/spec/foundations/for-sale-dns/" target="_blank">_for-sale DNS records</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 435 | 💬 163</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://bobdahacker.com/blog/tldv-hack" target="_blank">Over 181,000 AI meeting recordings left wide open in note taking app</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 131 | 💬 42</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/" target="_blank">HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics</a></div>
+                <div class="news-meta">The Robot Report | Aug 06</div>
+                <div class="news-summary">Rove pairs Path Robotics&amp;#8217; Obsidian physical AI model with legged robot for autonomous welding beyond fixed cells. | Source: Path Robotics Huntin...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota" target="_blank">Walden Robotics Partners With Toyota on Practical Humanoids</a></div>
+                <div class="news-meta">IEEE Spectrum Robotics | Aug 03</div>
+                <div class="news-summary">For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possibl...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blogs.nvidia.com/blog/huang-3dexperience-2026/?ncid=so-twit-241697&linkId=100000406112672" target="_blank">Everything Will Be Represented in a Virtual Twin, NVIDIA CEO Jensen Huang Says at 3DEXPERIENCE World</a></div>
+                <div class="news-meta">Manual Inbox | Aug 10</div>
+                <div class="news-summary">Digital twins for training in manufacturing</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://spectrum.ieee.org/video-friday-heavy-lift-drone" target="_blank">Video Friday: Drones Go Heavy in DARPA Lift Challenge</a></div>
+                <div class="news-meta">IEEE Spectrum Robotics | Aug 07</div>
+                <div class="news-summary">Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.youtube.com/watch?v=LFh9GAzHg1c&list=WL&index=9&t=1s" target="_blank">Ashok Elluswamy: Building Foundational Models for Robotics at Tesla</a></div>
+                <div class="news-meta">YouTube - Matroid | Aug 10</div>
+                <div class="news-summary">Foundational models for robotics</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-08-10 14:21 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
