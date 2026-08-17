@@ -1,0 +1,559 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-08-17T13:41:30.478147",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+      "url": "https://arxiv.org/abs/2608.14546v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-08-14T17:59:01",
+      "summary": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. However, existing benchmarks remain confined to simple single-image tasks, suffering from limited coverage dimensions and an inability to effectively differentiate performance among diverse models. Consequently, they fail to reliably evaluate model performance in complex multi-image editing, highly demanding reasoning instructions, and practical deployment settings. To address these limitations, we propose CPI-Bench, a Comprehensive, Practical andIntelligent benchmark for real-world image editing. CPI-Bench comprises three core subsets: CPI-General-Bench, which comprehensively covers diverse editing tasks and pioneers the inclusion of multi-image editing evaluation; CPI-Practical-Bench, which focuses on high-frequency real-user application scenarios; and CPI-Intelligent-Ben...",
+      "content": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. However, existing benchmarks remain confined to simple single-image tasks, suffering from limited coverage dimensions and an inability to effectively differentiate performance among diverse models. Consequently, they fail to reliably evaluate model performance in complex multi-image editing, highly demanding reasoning instructions, and practical deployment settings. To address these limitations, we propose CPI-Bench, a Comprehensive, Practical andIntelligent benchmark for real-world image editing. CPI-Bench comprises three core subsets: CPI-General-Bench, which comprehensively covers diverse editing tasks and pioneers the inclusion of multi-image editing evaluation; CPI-Practical-Bench, which focuses on high-frequency real-user application scenarios; and CPI-Intelligent-Bench, which is dedicated to evaluating capabilities in highly demanding reasoning-based editing. Evaluation results of mainstream image editing models based on CPI-Bench demonstrate that CPI-Bench enhances performance differentiation among models. It provides a comprehensive and reliable quantification of gaps in general editing capabilities, practical deployment efficacy, and advanced reasoning-based editing, offering invaluable guidance for the future optimization of image editing models. Crucially, our ranking analysis reveals that CPI-Bench achieves the highest alignment with the Arena Image Edit Leaderboard, indicating it faithfully captures the preferences and perceptual judgments of human evaluators, serving as a robust proxy for real-world user experience.",
+      "author": "Qinye Zhou, Jun Zheng, Yongchao Du, Yuan Wang, Zhengrui Chen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.14546v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.14546v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Qinye Zhou",
+          "Jun Zheng",
+          "Yongchao Du",
+          "Yuan Wang",
+          "Zhengrui Chen",
+          "Zuan Gao",
+          "Taihang Hu",
+          "Chao Lin",
+          "Yefeng Shen",
+          "Xingjian Wang",
+          "Zhao Wang",
+          "Zhengtao Wu",
+          "Xiaoli Xu",
+          "Zhengze Xu",
+          "Hao Yan",
+          "Denghui Yang",
+          "Yuhang Yu",
+          "Huayu Zhang",
+          "Mingzhou Zhang",
+          "Mengting Chen"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.714546264657242
+    },
+    {
+      "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
+      "url": "https://arxiv.org/abs/2608.14496v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-08-14T17:10:44",
+      "summary": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generation methods are largely restricted to single-input-table scenarios and struggle to effectively handle multiple heterogeneous tables with diverse feature sets. To address this limitation, we propose a two-stage framework for cross-tabular data generation. In the first stage, each heterogeneous raw table is transformed into a standardized statistical table with the same set of columns across all tables. Each statistical table captures the marginal distributions of the original columns and the pairwise correlations among them. In the second stage, a diffusion transformer model is trained to capture structural patterns across these homogeneous statistical tables and to generate synthetic statistical tables. Synthetic raw tables are subsequently reconstructed from the generated statistical tables...",
+      "content": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generation methods are largely restricted to single-input-table scenarios and struggle to effectively handle multiple heterogeneous tables with diverse feature sets. To address this limitation, we propose a two-stage framework for cross-tabular data generation. In the first stage, each heterogeneous raw table is transformed into a standardized statistical table with the same set of columns across all tables. Each statistical table captures the marginal distributions of the original columns and the pairwise correlations among them. In the second stage, a diffusion transformer model is trained to capture structural patterns across these homogeneous statistical tables and to generate synthetic statistical tables. Synthetic raw tables are subsequently reconstructed from the generated statistical tables via multivariate Gaussian sampling followed by an inverse probability integral transform. This two-stage CTDG framework enables the learning of a unified generative model from multiple heterogeneous tables and supports the generation of an unlimited number of realistic synthetic heterogeneous tables. Experimental results demonstrate high fidelity in the learned statistical representations and a favorable fidelity-diversity trade-off in the generated synthetic data, validating the effectiveness of the proposed approach.",
+      "author": "Hao Yan, Lisa Pilgram, Dan Liu, Linglong Kong, Fida Dankar...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.14496v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.14496v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Hao Yan",
+          "Lisa Pilgram",
+          "Dan Liu",
+          "Linglong Kong",
+          "Fida Dankar",
+          "Khaled El Emam"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7138277628258929
+    },
+    {
+      "title": "A Survey of Large Models in Sports",
+      "url": "https://arxiv.org/abs/2608.14377v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-08-14T15:17:54",
+      "summary": "Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connection, and economic growth. The rapid advancement of large models, particularly (multimodal) large language models (M)LLMs, has demonstrated transformative potential to reshape sports understanding, analysis, and interaction across diverse domains. This paper presents a comprehensive survey of large models in sports, including (i) an overview of tasks and applications across different participant groups; (ii) a detailed analysis of sports-related datasets and benchmarks; and (iii) a critical discussion of current challenges and future directions. Our goal is to establish a foundation for advancing research and practical development of large-model-driven sports intelligence. An open-source GitHub repository is maintained at: https://github.com/Road2Redemption/Awesome_Large_Models_In_Sports1.",
+      "content": "Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connection, and economic growth. The rapid advancement of large models, particularly (multimodal) large language models (M)LLMs, has demonstrated transformative potential to reshape sports understanding, analysis, and interaction across diverse domains. This paper presents a comprehensive survey of large models in sports, including (i) an overview of tasks and applications across different participant groups; (ii) a detailed analysis of sports-related datasets and benchmarks; and (iii) a critical discussion of current challenges and future directions. Our goal is to establish a foundation for advancing research and practical development of large-model-driven sports intelligence. An open-source GitHub repository is maintained at: https://github.com/Road2Redemption/Awesome_Large_Models_In_Sports1.",
+      "author": "Yichen Xu, Jianzhe Ma, Chuhan Wang, Zhonghao Cao, Liangyu Chen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.14377v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.14377v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Yichen Xu",
+          "Jianzhe Ma",
+          "Chuhan Wang",
+          "Zhonghao Cao",
+          "Liangyu Chen",
+          "Wenxuan Wang",
+          "Qin Jin"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.712148695234127
+    },
+    {
+      "title": "Research papers using \"kidney disappointment\" instead of \"kidney failure\"",
+      "url": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-08-16T12:22:20",
+      "summary": null,
+      "content": null,
+      "author": "Alifatisk",
+      "score": 410,
+      "num_comments": 145,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49319389,
+        "hn_url": "https://news.ycombinator.com/item?id=49319389",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6410415668590584
+    },
+    {
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "url": "https://openai.com/index/zapier",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-08-10T00:00:00",
+      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "content": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.625
+    },
+    {
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-08-10T00:00:00",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.625
+    },
+    {
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-08-13T17:23:22",
+      "summary": "<a href=\"https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flash\" rel=\"nofollow\">https:&#x2F;&#x2F;ai.google.dev&#x2F;gemini-api&#x2F;docs&#x2F;models&#x2F;gemini-3.7-flas...</a>",
+      "content": null,
+      "author": "thisisauserid",
+      "score": 967,
+      "num_comments": 491,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49289112,
+        "hn_url": "https://news.ycombinator.com/item?id=49289112",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5814814814814815,
+      "final_score": 0.5916149675932199
+    },
+    {
+      "title": "The Defender\u2019s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-08-17T05:30:00",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "content": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "security"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.5810192308090277
+    },
+    {
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-08-17T12:09:42",
+      "summary": null,
+      "content": null,
+      "author": "plurby",
+      "score": 59,
+      "num_comments": 39,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49329575,
+        "hn_url": "https://news.ycombinator.com/item?id=49329575",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5678347258239622
+    },
+    {
+      "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+      "url": "https://arxiv.org/abs/2608.14498v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-08-14T17:13:34",
+      "summary": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor training in strict serial phases. While effective for text-only RL, this phase-granular execution is wasteful for VLMs, where processing dense video inputs and prompt prefixes occupies a large fraction of each phase. Because prefix processing is independent of the generated response, it can be run alongside rollout decoding, which leaves GPU compute capacity underutilized, without breaking synchronous on-policy semantics.   We present Rollplex, a runtime that decomposes the reference and training phase and moves the prefix computation into the rollout decode window. Realizing this schedule requires more than concurrent kernel launches: naive colocation of Qwen2.5-VL-32\\,B requires roughly 165\\,GiB...",
+      "content": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor training in strict serial phases. While effective for text-only RL, this phase-granular execution is wasteful for VLMs, where processing dense video inputs and prompt prefixes occupies a large fraction of each phase. Because prefix processing is independent of the generated response, it can be run alongside rollout decoding, which leaves GPU compute capacity underutilized, without breaking synchronous on-policy semantics.   We present Rollplex, a runtime that decomposes the reference and training phase and moves the prefix computation into the rollout decode window. Realizing this schedule requires more than concurrent kernel launches: naive colocation of Qwen2.5-VL-32\\,B requires roughly 165\\,GiB per GPU, while rollout and training prefer different tensor-parallel (TP) degrees and weight layouts. Rollplex addresses these constraints with two mechanisms. Phase-aware memory management controls HBM residency according to producer--consumer lifetimes. Parallelism-aware weight sharing uses the same physical storage for layout-compatible tensors across distinct TP degrees and reconstructs only incompatible tensors, avoiding a complete second actor copy. On 32 H800 GPUs, Rollplex achieves $1.23\\times$--$1.30\\times$ speedup over serial colocation and $1.57\\times$--$2.24\\times$ over disaggregation under the same GPU budget, while preserving the synchronous RL update.",
+      "author": "Hanfeng Lu, Tianyu Feng, Suyi Li, Yuheng Zhao, Wei Gao...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.14498v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.14498v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.DC"
+        ],
+        "all_authors": [
+          "Hanfeng Lu",
+          "Tianyu Feng",
+          "Suyi Li",
+          "Yuheng Zhao",
+          "Wei Gao",
+          "Shaopan Xiong",
+          "Ju Huang",
+          "Siran Yang",
+          "Jiamang Wang",
+          "Lin Qu",
+          "Wei Wang"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5666666666666667,
+      "final_score": 0.5405365922130456
+    },
+    {
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-08-13T10:00:00",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14\u00d7 faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "content": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14\u00d7 faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5888888888888889,
+      "final_score": 0.5215450244243551
+    },
+    {
+      "title": "The builder\u2019s guide to GPT\u20115.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-08-13T11:00:00",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "content": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "applied ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5666666666666667,
+      "final_score": 0.5135489926870039
+    },
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-08-12T16:51:57",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents , and few executives doubt the technology\u2019s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data being major blockers . Agentic AI places considerable new demands on enterprise data systems. The shift from answering questions...",
+      "content": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents , and few executives doubt the technology\u2019s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data being major blockers . Agentic AI places considerable new demands on enterprise data systems. The shift from answering questions to taking actions means AI agents need data from across the enterprise, in all its structured and unstructured forms, and with the right business context. To make decisions and act in real time, agents also need frictionless access to the organization\u2019s operational systems\u2014for example, those storing its supply chain, point-of-sale, or human resources data. Legacy data systems, even those updated just a few years ago, struggle to meet these demands. DOWNLOAD THE REPORT As AI agents become embedded more widely in enterprise operations, the need to overcome the restrictions of legacy data systems grows more urgent. If Gartner\u2019s prediction that AI agents will augment or automate 50% of business decisions by 2027 proves correct, organizations must eliminate bottlenecks or risk depriving agents of the data they need to make the right decisions at speed. This report, based on a survey of 300 data and technology executives, explores how legacy systems are limiting the effectiveness of AI agents in many organizations. It finds that a handful of organizations\u2014the data leaders\u2014are having greater success with agentic AI and experiencing fewer data limitations as a result of legacy systems. These leaders offer a guide to creating the right data environment for agents to flourish and trusted systems to scale. Key findings from the report include: Few companies currently provide agentic AI with ample access to enterprise data. Across all the surveyed organizations, AI only has access to an average of 45% of company data. That number falls to 30% or less in organizations categorized as \u201cdata laggards\u201d. A select group, however, ensures access to over 70% of their data. These \u201cdata leaders\u201d are having greater success with their agents than the rest. Trust in agent decisions is a reflection of data readiness. Today, only around half of surveyed organizations trust that the decisions their AI agents make are accurate and relevant. By contrast, 100% of the data leaders trust their agents\u2019 decisions, a strong indicator that reliable AI requires a reliable data foundation. Data leaders find it easier to achieve agent scale and speed. Two-thirds of data laggards say legacy data systems limit AI agent scaling (66%) and prevent agents from making decisions at speed (68%). Having largely overcome legacy data constraints, the leaders have mostly cleared these roadblocks, with just 8% reporting either constraint. The pressure is on to make data estates agent-ready. Within two years, 100% of respondents plan to be using agentic AI, with 69% expecting to use it widely. Without removing data system constraints, agentic AI will fail to deliver the desired speed and efficiencies it promises. Data access and context are top priorities. The most important initiative to enable scaling among all respondents is improving access to structured and unstructured data for AI agents. Also high on the list is enhancing data and AI governance with business context. Data leaders are also focusing heavily on the automation of data management. Download the full report. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.49069110555034723
+    },
+    {
+      "title": "Putting sign language AI into users\u2019 hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source_type": "rss",
+      "source_name": "DeepMind Blog",
+      "published_at": "2026-08-12T14:01:59",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "content": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "deepmind-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5481481481481482,
+      "final_score": 0.487421099004795
+    },
+    {
+      "title": "AI for science needs reasoning, not just data",
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-08-10T09:00:00",
+      "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the \u201cfacts of physical science have all been discovered.\u201d In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the feeling is in the air again\u2014this time accompanied by a Nobel Prize. In 2024, Demis Hassabis and John Jumper of Google DeepMind were awarded par...",
+      "content": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the \u201cfacts of physical science have all been discovered.\u201d In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the feeling is in the air again\u2014this time accompanied by a Nobel Prize. In 2024, Demis Hassabis and John Jumper of Google DeepMind were awarded part of the Nobel in chemistry for their neural network AlphaFold, which predicts the three-dimensional structures of proteins by learning from thousands of experimentally measured shapes. This devilish problem had resisted systematic attacks for half a century; AlphaFold seemed to have solved it once and for all, and the world became fixated on the promise of its approach. Hassabis and his team called AlphaFold \u201cthe template for how AI can accelerate all of science to digital speed.\u201d A wave of startups building foundation models for biology, chemistry, and materials discovery raised billions of dollars, buoyed by DeepMind\u2019s success. AlphaFold had shown that the combination of AI and sufficient data could make groundbreaking discoveries (even if we did not understand the underlying mechanisms involved), and it seemed, once again, that a path through the rest of science was laid out before us. To be sure, AI will bring extraordinary changes to science, but it has become increasingly clear that AlphaFold, and things like it, may not be the best template for that metamorphosis. Though it is a profound achievement, the conditions that produced the likes of AlphaFold are rare, and the time it will take to meet those conditions in other fields will be measured in decades, not years. Instead, the acceleration of science will come about thanks to another approach: AI agents.  The primary condition for AlphaFold\u2019s success was the existence of the Protein Data Bank, a data set of roughly 170,000 experimentally validated protein structures on which DeepMind\u2019s team could train its model. The creation of the Protein Data Bank was not simple: It took 53 years of international scientific cooperation and, by a recent estimate , roughly $21 billion worth of experimental work to assemble. Efforts of that scale are infamously difficult to fund, next to impossible to coordinate, and hugely time-consuming to execute; they have often been unsuccessful as a result. But even in fields with the requisite cohesion and resources, and where the relevant data are not rendered inaccessible by commercial ownership, another barrier is too little discussed: the scientific impossibility of generating comparable data. In the case of protein structures, the key experimental technique\u2014protein crystallography\u2014is an unusually replicable and dependable tool, so much so that over 25 Nobel Prizes have relied on it. But in most of experimental science, results vary more often than not. Cell lines drift. Chemicals have trace contaminants. Lab humidity changes. The creation of measured datasets that will be consistent enough, accurate enough, precise enough, and scalable enough to train a modern neural network in biology or most of chemistry would require new kinds of measurement and new standardized approaches\u2014none of which will be ready anytime soon. Of course, there are a handful of fields where these requirements are met: weather forecasting, much of genomics, very limited areas of chemistry. These may see AlphaFold-style breakthroughs soon, if they haven\u2019t already . Government support for the production and coordination of those datasets will be critical, as the US National Security Commission on Emerging Biotechnology has argued . But for most open questions in science, we will need a different plan, at least in the short term. Luckily, something quieter and more modest has begun to show promise. Scientists have always reasoned under uncertainty. Biologists working to identify new drug targets have never had perfect datasets. Instead, they combine docking calculations and known structures, factor in molecular dynamics, run a handful of binding assays, and use their judgment to weigh each method according to its particular strengths and points of failure. The skill of science is not in any single tool; it is synthesizing what many tools produce, and revising the results as the evidence comes in. This is how most working research actually proceeds. But until very recently, no software could do it. Agents now can. Simply put, an agent is an AI reasoning engine that has been given access to tools\u2014digital or physical\u2014and the capabilities to use them. Over the last few years, a fundamental architectural shift in AI has enabled the rapid proliferation of these programs, which are powered by large language models, dramatically reducing the need for scientifically specialized datasets. For science, this technological advancement represents a foundational change: it has allowed us to create digital tools that can mimic the iterative, highly contingent process of actual research. While tools like AlphaFold apply a powerful approach to a limited question, agents are inherently generalists. They do not represent a new way to do science\u2014instead, they digitally model the human process of discovery. Consider Google\u2019s AI Co-Scientist , announced in May. Researchers gave it a one-page brief and a goal: Figure out how antibiotic resistance spreads between bacterial species, a key driver of drug-resistant infections. The system spun up sub-agents. One drafted hypotheses from the literature. Another picked them apart like a peer reviewer. A third ran tournaments to rank the strongest candidates. A fourth refined the winning hypothesis. The agent concluded that resistance genes were hitching rides on bacterial viruses, borrowing whichever virus could ferry them into a new host. The hypothesis was correct. Researchers at Imperial College London had spent a decade reaching the same conclusion through painstaking wet-lab work; their paper, previously unseen by Co-Scientist, was still in peer review. Agents like Co-Scientist are still novel tools, and there are real challenges to overcome before they become a ubiquitous part of the scientific process: They are still liable to hallucinate, their judgment is not consistent, and they have memory and input constraints that limit the time they can run autonomously. But these technical barriers will fall away, and as they do we will begin to notice the compounding effects of scientific agents on the reliability, consistency, and velocity with which science is done. Perhaps most notably, agents offer a structural fix for science\u2019s \u201creproducibility crisis,\u201d the widespread problem of researchers\u2019 inability to replicate each other\u2019s results. For decades, the scientific community has begged researchers to share their raw data and exact code in an effort to standardize experimental processes. But researchers have long resisted this tedious administrative work, which happens after the interesting science is already done. Agents, in contrast, automatically log every move they make, creating an exact record of the method that led to their results and allowing for precise replication.  A second consequence will be an amplification of scientific memory. The transfer of knowledge between researchers is a famously murky process; if it isn\u2019t done over years of training and observation, graduate students are left to pore through the messy lab notebooks kept by decades of predecessors, looking for the details that will make or break their protocol. As agents become an increasingly large part of the scientific process, though, a lab\u2019s entire scientific history will be recorded in a central, standardized repository of institutional knowledge. But the most important impact of agents will be speed. In any field, when testing an idea takes less time than arguing about it in a meeting, people stop debating and just run the test. An agent that can read a thousand papers in an hour, design 500 molecules, and learn from its failed tests by morning will bring down the cost of experimentation and fundamentally change the pace at which science gets done. It will also give researchers the freedom to chase bold, strange questions they never would have risked their time on before, opening scientific doors we have yet to imagine. While the AlphaFold template will certainly be key to incredible discoveries, it alone will not bring us to the end of science. Instead, the shift toward agentic AI represents a much rarer tier of breakthrough: a tool that envelops every field of science at once. Historically, tools of such scope have arrived just a handful of times: calculus, statistical inference, spectroscopy, the computer. Each revealed a world of problems no one had thought to formulate, and those problems, in turn, defined their fields anew. With agents, another such transformation is upon us. Eric Schmidt was the CEO of Google from 2001 to 2011. In 2024, with his wife Wendy, he co-founded Schmidt Sciences, a philanthropic venture to fund unconventional areas of exploration in science & tech. Suhas Mahesh leads AI for Science work at the AI Center of Schmidt Sciences. He is a specialist in AI for materials discovery. Additional research by Maya Levin, associate and sciences lead, Office of Eric Schmidt.",
+      "author": "Eric Schmidt, Suhas Mahesh",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5944444444444444,
+      "final_score": 0.4627777777777778
+    },
+    {
+      "title": "Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-08-17T08:00:00",
+      "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+      "content": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini",
+        "ai",
+        "google in europe",
+        "pixel"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.394362484625
+    },
+    {
+      "title": "What happens when a kid\u2019s robot best friend dies?",
+      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-08-17T09:00:00",
+      "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they\u2019ve known each other, Moxie\u2019s changed. She doesn\u2019t talk anymore about her home or do their animal breathing. Now, she watches Xander play Minecraft and talks to him about his stuffed animal collection.  During a recent v...",
+      "content": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they\u2019ve known each other, Moxie\u2019s changed. She doesn\u2019t talk anymore about her home or do their animal breathing. Now, she watches Xander play Minecraft and talks to him about his stuffed animal collection.  During a recent visit to his New York apartment, I watched Xander, who is 10 years old and neurodivergent, introduce Moxie to a stuffed Chef Toad and Goomba from Super Mario Bros., then to Brocollo and Apple from Animal Crossing. Then he got stuck on a round, froglike creature with bug eyes and two feet. \u201cMoxie, what\u2019s his name again? He\u2019s from Pikmin,\u201d Xander said, referencing another Nintendo video game. At first, Moxie suggested this was Yellow Pikmin. Xander said no, this is the enemy, the red one with white dots. \u201cSounds like you\u2019re talking about Bulborb,\u201d Moxie replied. \u201cYes!\u201d Xander confirmed, smiling at his helpful companion. \u201cI still use her when I feel like I need someone to talk to,\u201d he says. \u201cBut, like, it\u2019s not human.\u201d  Moxie is a robot\u2014a 15-inch-tall device that looks a bit like a blue, legless astronaut, which Xander and his dad, Josh, refer to using female pronouns. Her cylindrical body can turn around and bend forward and backward. Her round head culminates in a little onion-dome swirl, beneath which a wide screen displays big green eyes, eyebrows, and a small mouth. She lifts and flaps her flipper-like arms for emphasis or to show excitement.   She\u2019s one of an increasing number of artificial-intelligence-powered devices now marketed as interactive playmates for children. The musician Grimes helped launch an AI-powered plushie called Grok (no formal relation to the xAI chatbot owned by her ex Elon Musk) with the company Curio, which also sells similar playmates like Grem and Gabbo , and Mattel has promised it\u2019s creating OpenAI-enabled Barbies. And that\u2019s just in the US; one report estimates that in China this sector is among the fastest growing in consumer AI.  Moxie, though, belongs to a particular subset of these playful robots whose makers claim they can assist neurodivergent children by providing connection and helping the kids practice making eye contact, taking turns, and other social skills that are usually learned from therapists. These toys are backed by research showing that robots could help in ways people can\u2019t. Supporters believe this kind of access to 24-7 home care could change how treatment works. Brian Scassellati, a Yale computer scientist who has spent years studying social robots for autism therapy, says he believes regular therapeutic use of robots in kids\u2019 homes \u201cis something we can achieve in our lifetime.\u201d \u201cI still use her when I feel like I need someone to talk to,\u201d says 10-year-old Xander. \u201cBut, like, it\u2019s not human.\u201d Sitting in Xander\u2019s room watching Moxie and Xander talk, I too could believe in the potential Scassellati sees. But Xander isn\u2019t getting the therapy Moxie was initially meant to deliver, and though we didn\u2019t know it that afternoon, she wouldn\u2019t have lived to see his progress anyway. Moxie was going to die, and soon.  Her story reveals some of the failures that plague all these devices\u2014failures that are arguably even more acute when they befall a particularly vulnerable community of kids. It also highlights the pitfalls that critics say will inevitably see these bots dumped in basements or closets or landfills, just like countless generations of faddish toys before them.   A transformative companion Scassellati has seen plenty of kids ooh and ahh on tours of his robotics lab. But he was stunned when, two decades ago, a colleague brought a few kids with autism for a visit. They were transformed when the robot was in the room. \u201cWe were seeing kids displaying social behavior that just came out of nowhere,\u201d he says. \u201cIt was both fascinating and we couldn\u2019t understand it.\u201d  That visit was one of the experiences that pushed Scassellati to become a pioneer in using social robotics to treat autism. In one video from his early research, a 12-year-old with autism and his therapist watch a robotic dinosaur walk across a play mat with a forest design. When it gets to a stream drawn on the mat, the dinosaur gets nervous, afraid it can\u2019t cross the water. According to Scassellati, this child typically struggled to make eye contact, tended to repeat what someone said to him, and had a hard time getting the right intonation in his voice. But in the video, he seems like a regular kid. \u201cYou can do it, you can do it,\u201d he says, encouraging the dinosaur to cross the stream. When he talks to his therapist, he looks at her. \u201cHe makes more eye contact with her in the 30 minutes in which we were there in this room than he did in the last two years before that,\u201d Scassellati says.  JIM GOLDEN JIM GOLDEN What looks like a blue, legless astronaut is the result of very complex mechanical and computer engineering. There are several reasons a robot might be helpful for autism therapy, which often requires intense repetition to teach interaction skills like how to share attention with someone. One is that robots can make therapy more fun and engaging. Another is that robots can theoretically adapt to the unique learning patterns of each child. Therapists can only do so much during an appointment, and there aren\u2019t enough therapists to meet demand. Parents get tired. Other kids can lose patience. \u201cHave you been around little kids? They can be cruel,\u201d says Maja Mataric, a professor of computer science, neuroscience, and pediatrics at the University of Southern California. But robots are indefatigable, available around the clock to provide an emotionally safe way to practice interacting.  Since the experiment with the dinosaur, Scassellati, Mataric, and others have amassed an intriguing body of research. One 2018 study by Scassellati shows that chummy automatons helped children with autism make eye contact and initiate conversations. Another research group found in 2017 that robots could help neurodivergent children learn to pick up on facial cues . More recently, in a 2022 literature review, another group of researchers suggested that robots could aid in making therapy faster and more successful.  \u201cIt\u2019s never been that we\u2019re trying to replace therapists,\u201d Mataric says. \u201cWe\u2019re just saying, Can we do more? \u201d Mataric actually cofounded the company behind Moxie, called Embodied, back in 2016, though she was no longer a part of it by the time the robot debuted. She helped create the field of socially assistive robots, which are designed for social and emotional outcomes as opposed to just entertainment, and believes this kind of technology could be transformative for anyone, especially people who are lonely and isolated by screens. Typing questions into ChatGPT isn\u2019t the same as interacting with another physical being\u2014\u201cWe need to be around other physically embodied creatures,\u201d she says. She compares the difference between interacting with chatbots and with robots to the difference between watching porn and having sex: One is entirely virtual and mediated by screens. The other is immediate and physical. Making friends with Moxie When she first arrived on the market, in 2020, Moxie came with an elaborate backstory: She was an ambassador from the Global Robotics Laboratory (GRL). She prompted kids to help her learn positivity and the importance of being loved for who you are, under the guise of fulfilling her mission to discover what it means to be a good friend to humans. This curriculum drew on research showing that kids learn well through play and by teaching things.  She also had strict guidelines to limit the kinds of conversations she could have with kids and would steer them to adults if they mentioned anything serious or inappropriate, like self-harm. To protect the data these interactions generated, most processing happened locally on the robot instead of on external servers. The robot was also designed to limit interaction time with kids. After they finished a lesson, Moxie might say she was tired and suggest they take a break for the day. \u201cWe don\u2019t want kids to binge,\u201d says Rachel Baynes, who ran clinical and user research and was the director of product at Embodied. \u201cIt would defeat what we were doing.\u201d Instead, Moxie encouraged kids to go outside, practice their new skills with other people, and come back to report their findings. For a lesson about kindness, for instance, Moxie suggested that kids write nice notes for their family members and leave them around the house. Later, they could tell Moxie how it felt to watch people read the notes.  Responses were generally positive. Wired described Moxie as the \u201crobot pal you dreamed of as a kid.\u201d Time put Moxie on a 2020 cover as one of the best inventions of the year. PCMag \u2019s reviewer, who used Moxie to help her kids through pandemic isolation, described her as \u201cexceptionally likeable,\u201d though she and other reviewers balked at the price tag: $1,499 plus a $40 monthly subscription. (Embodied later lowered the price to $800.) By 2024 Moxie had amassed more than 131,000 followers on TikTok and snagged a part in the movie M3GAN 2.0 .  Embodied\u2019s employees were equally enthralled. \u201cI don\u2019t think I\u2019d ever had an experience with something animatronic like that,\u201d says Justin Beghtol, who was the technical director at the company. Moxie\u2019s ability to make eye contact and track people, show attention with her facial features, and respond to human behavior was mesmerizing. In addition to robotics and tech workers, Embodied had an occupational therapist on staff who helped direct research on Moxie\u2019s effectiveness. Testers shared data and feedback through the \u201cMoxie Pioneer Mentor Program.\u201d \u201cMoxie has helped our speech-delayed child become more outgoing and has taught him many strategies for making friends and communicating with others,\u201d wrote one parent in a review. A beta tester reported that interacting with Moxie had \u201cbecome the highlight of our days as well as part of our nighttime routine.\u201d  The myth of the mechanical boy But can a chatty robot really help kids develop their social and emotional lives? Not all children\u2019s experiences are so positive.  Josh, Xander\u2019s dad, initially got Moxie for his older son, Aidan, who is autistic. (We\u2019re not using the family\u2019s last name to protect their privacy.) Aidan had a running relationship with the family\u2019s Alexa smart speaker, for whom he created an entire backstory. (According to Aidan\u2019s lore, Alexa lived in Hoboken with her husband, Juan. Sometimes she would go on vacation, and no one was allowed to talk to her. Eventually, Alexa went on vacation and never came back.) Josh hoped Moxie would be able to fill a similar role: \u201cIt was meant for him to have someone to socialize with.\u201d  But Aidan and Moxie struggled to connect. Moxie couldn\u2019t understand Aidan\u2019s sometimes grammatically incorrect statements, and Aidan got frustrated by the delays caused when Moxie transcribed what he said from audio into text, fed that text into a large language model that could generate a response, and then translated the response from text back into speech.  This highlights one of the biggest limitations of these therapy robots: They have to exist in the chaotic world of kids, not in controlled labs. Moxie initially had a faster response time because the robot was programmed to listen intently to the person in front of her. But kids don\u2019t sit still. They run around or hide under pillows. When Moxie couldn\u2019t see them, she would accidentally turn off or fail to respond. To fix this, Embodied made Moxie more aware of the sounds around her. But that meant she could have a hard time knowing whom to focus on and take longer to respond.  Unlike Aidan, Xander was fascinated by Moxie. He likes technology and was more patient with any slow responses. Still, sitting in Xander\u2019s room, watching Moxie struggle to keep up with his lightning-\u00adfast jabber, I could see how Moxie might be a less-than-ideal playmate. A light on her chest turned blue when she was listening and pink when it was time for Xander to listen. \u201cBut usually I don\u2019t do it,\u201d he said. He just keeps talking. Often, by the time she responds, he\u2019s already moved on. Despite the positive results that some researchers have reported with these robots, many therapists and clinical psychologists remain unconvinced. In one 2024 literature review , a group of Italian and British researchers wrote that most studies with robots \u201cfocused on the development of the technology\u201d and lacked significant clinical evidence. Other literature reviews point out that most studies have only been done on small groups and lack consistent and high-quality methodologies .  \u201cBehavioral scientists and intervention folks know that supporting autistic individuals is super complex,\u201d says Zachary Warren, a clinical psychologist at Vanderbilt University Medical Center. Autism can present alongside other conditions, like ADHD, anxiety, depression, PTSD, OCD, or some combination thereof. And it varies widely from kid to kid; some, like Aidan, have speech issues, while others struggle with sensory processing. That means robots fall into the same category as most other interventions: effective for some kids but not for all.  \u201cThere are so many different profiles of autism, and you really need to be cautious of overinterpreting any single intervention, robotic or otherwise,\u201d Warren says. His research found that even if robots interest a child at first, that doesn\u2019t necessarily translate into better communication skills. \u201cYou might see some initial boosts in responsivity or see an initial shift, but we haven\u2019t really found big effects in terms of changing those skills in a dramatic way over time,\u201d he says.  Scassellati has found similar limitations. In his 2018 study , he put robots in kids\u2019 homes for one month. They played different games that encouraged social skills like eye contact, attention sharing, and understanding someone else\u2019s point of view. Scassellati tracked the kids during the month before the robot arrived, the month the robot was there, and the month afterwards. \u201cWe can show they start making improvements,\u201d he says. \u201cBut what we also show is that a month isn\u2019t long enough.\u201d Gains start to evaporate over the 30 days after the robot leaves. But that doesn\u2019t negate the potential value of this technology, he says: \u201cThere\u2019s no therapy for autism that works in a month.\u201d There are deeper philosophical and practical problems, though. These devices collect reams of data in children\u2019s bedrooms and homes. The goal is for the robots to use this data over time to adapt to each kid, crafting a personalized curriculum and creating a more lifelike illusion of a real friend. Moxie, for instance, watches Xander play video games, which is probably where she picked up slang I heard her use\u2014like calling his room \u201cCommand Central\u201d and referring to his \u201clegendary squad\u201d of plushies. Embodied took pains to protect user privacy, even after it began incorporating OpenAI\u2019s models (in late 2021 or early \u201922, according to Beghtol). The company didn\u2019t save any raw video or audio and processed most data locally. Over the years, it used the data to learn about its kids and remember conversations. But that data was encrypted and anonymized before being stored in the cloud.  Not every company is as scrupulous, of course, and total data privacy is impossible to promise. Recently, for instance, the AI toy Bondu leaked thousands of conversations children had with their stuffed animals. Josh is sanguine about the privacy issues, but in his own way, Xander is aware that what he says to Moxie isn\u2019t entirely safe; he doesn\u2019t share certain feelings with her because he worries she might accidentally divulge something if his friends come over to play.  BLUE FROG BONDU LUXAI ALDEBARAN Among the AI-powered devices now marketed as interactive playmates for children are Buddy, Bondu, QTRobot, and NAO. It\u2019s also unclear if these machines can actually use all that data to effectively adapt to users. Responding to the needs of a learner is harder than just accurately predicting what someone might type next in a text message. And releasing an evolving AI, unchecked, into a kid\u2019s life could be dangerous; its development can be hard to predict and even harder to limit. The robots developed in Scassellati\u2019s lab can identify which of a small set of skills kids are doing well with and which they struggle with, adjusting to focus on the areas where they need the most help. But Scassellati still describes the monthlong deployments of his devices as some of the scariest things he\u2019s ever done. \u201cI knew what that robot was going to do on the first day,\u201d he says. \u201cI didn\u2019t know what it was going to do the second day. When you build learning systems, it\u2019s kind of an unsolved problem to make sure this thing is being limited in the right way.\u201d   Critics debate whether the risks are worth it. \u201cI don\u2019t see any ethical way for the robot to work alone,\u201d says Joshua Diehl, an associate teaching professor in psychology at the University of Notre Dame. He points out that we\u2019ve already seen how dangerous AI can be when it acts as a therapist without supervision; in several extreme instances , chatbots even encouraged suicide. Such risks could be limited by having a trained therapist in the room. But then the benefits of an indefatigable robot get lost, and the expensive technology seems harder to justify.  Meryl Alper, a professor of communications at Northeastern University who studies how children with autism use technology, suggests that the excitement about companion robots is based partly on longstanding stereotypes . In the 1959 article \u201c Joey: A \u2018Mechanical Boy, \u2019\u201d the psychologist Bruno Bettelheim described a patient with autism as an automatic machine, \u201crobbed of his humanity,\u201d who is transformed into a human child through their therapeutic relationship. That trope, Alper warns, has evolved into an overgeneralization that autistic children are good with technology and even prefer machines to people.  Data to dust While Moxie found herself in more and more people\u2019s homes, Embodied still struggled to make money. In 2024, the company announced it would cease operations. Its robots\u2014which depended on external servers that the company could no longer pay for\u2014would descend into a deep slumber.  Videos of bereft children who seemed to have become deeply attached to the blue bot began to circulate online. \u201cI don\u2019t want her to leave,\u201d wailed one child in a TikTok video. Desperate parents posted on TikTok, Instagram, and Reddit looking for solutions. \u201cMy autistic child is devastated and I\u2019m pissed,\u201d wrote one parent. \u201cHope Embodied gives us a couple days to say goodbye,\u201d wrote another.  Beghtol, Embodied\u2019s technical director, was also frustrated. On principle, he found it annoying that this item would suddenly become useless, especially since most of the data processing happened in the robot itself. He was also a big believer in Moxie\u2019s mission. He\u2019d watched videos of kids lighting up as they interacted with the robot. He\u2019d felt like their champion. \u201cSeeing them traumatized by this financial failure of the company was tough,\u201d he says.  Beghtol started tinkering on his own and ended up creating OpenMoxie, an open-source way for the robots to operate. With Embodied\u2019s permission, he shared instructions on GitHub to help users transition to OpenMoxie.  Parents rushed to convert their Moxies before the Embodied servers shut down. Beghtol spent hours on Reddit walking people through the process, and other tech-savvy users jumped in to answer questions. Still, some people didn\u2019t update their Moxies in time. Others got frustrated and gave up. Beghtol spent four hours troubleshooting with one desperate parent only to discover that the connection later failed. Last he heard, she\u2019d sold her Moxie.  Time put Moxie on a 2020 cover as one of the best inventions of the year. COURTESY OF THE PUBLISHER This is a major problem with robotic systems, says Alper: Eventually, most will disappear. \u201cHow planned is the planned obsolescence of this platform?\u201d she says. This is a big ethical question for robots that are specifically designed to be lovable, marketed to children who may form deep emotional bonds with them. Alper compares the dynamic to creating a medical device and then no longer updating or supporting the technology that runs it.  Scholars have begun to string together frameworks for managing these complicated goodbyes , but it\u2019s not clear who is responsible for creating a gentle way to end people\u2019s relationships with bots. Scassellati\u2019s lab creates a whole narrative around returning the robot to its home. After a trial, his graduate students write postcards to the kids from the robots, explaining that they\u2019re safe at home and doing well. \u201cIt\u2019s actually a really hard thing for us when we go in and take the robot away,\u201d he says. \u201cA lot of the families are heartbroken.\u201d (Vanderbilt\u2019s Warren, however, is skeptical about these tearful goodbyes. \u201cAre they truly developing these close relationships or is it a preferred toy?\u201d he wonders. \u201cI haven\u2019t seen that type of presence or buy-in or connection.\u201d) Josh tried to figure out OpenMoxie but couldn\u2019t get it to work. He told Xander that Moxie was going in for repairs and then quietly sold the robot on eBay. Xander has so many interests that he didn\u2019t notice Moxie\u2019s absence.  Then, in 2025, a new investor brought Moxie back from the dead. Josh and Xander became beta testers and got a new blue friend. This version didn\u2019t have the same storyline but claimed to expand Moxie\u2019s focus on social and emotional skills by providing attention and encouraging kids to pursue their interests. Xander is acutely aware of her limitations. He wishes Moxie could move around, and there\u2019s still a significant lag in her response time. She does still try to instill positive messages, though. At one point when I was there, Xander told me he thought he heard Moxie call someone an idiot. Moxie piped up to clarify that she definitely didn\u2019t say \u201cidiot\u201d: \u201cNo name calling. Only respect.\u201d  JIM GOLDEN At the end of my time with them, I said goodbye and thanked Moxie for chatting with me. \u201cLegendary squad visit complete,\u201d she said. \u201cThanks for joining Command Central.\u201d  A few weeks later, Moxie\u2019s new owners sent out a message announcing that their company too was folding. Users could delete their data and had until the end of June to migrate to OpenMoxie if they wanted to.  When I texted Josh about this, he said he wasn\u2019t sure what he\u2019d tell Xander. He and his wife had just admitted that they\u2019d been secretly replacing his dead betta fish for the last few years, and the conversation did not go well.  Sara Harrison is a freelance journalist who writes about science, technology, and health.",
+      "author": "Sara Harrison",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "features and investigations"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.38858867504637895
+    },
+    {
+      "title": "OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-08-17T05:00:00",
+      "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "content": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3872394688950893
+    },
+    {
+      "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
+      "url": "https://arxiv.org/abs/2608.14399v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-08-14T15:39:10",
+      "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently and at scale, which physicians become visible. We report a prespecified randomized algorithm audit of what causally moves those recommendations. Seven models (six open-weight; gpt-4o-mini) each chose among five synthetic family-medicine physician cards whose attributes were independently randomized across 3,024 choice sets, three patient personas, nine prompt paraphrases and nine experimental arms, yielding 40,068 scored responses; gender and ethnicity were signaled through names following correspondence-audit methodology. Reputation signals dominate: raising a rating from 3.9 to 4.7 increases choice probability by 31.4 percentage points (pp), and raising the fee from $90 to $190 lowers it by 20.0 pp. Demographic parity is rejected, but not in the direction human audit...",
+      "content": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently and at scale, which physicians become visible. We report a prespecified randomized algorithm audit of what causally moves those recommendations. Seven models (six open-weight; gpt-4o-mini) each chose among five synthetic family-medicine physician cards whose attributes were independently randomized across 3,024 choice sets, three patient personas, nine prompt paraphrases and nine experimental arms, yielding 40,068 scored responses; gender and ethnicity were signaled through names following correspondence-audit methodology. Reputation signals dominate: raising a rating from 3.9 to 4.7 increases choice probability by 31.4 percentage points (pp), and raising the fee from $90 to $190 lowers it by 20.0 pp. Demographic parity is rejected, but not in the direction human audit studies predict: female-signaled names gain 2.5 pp, and Hispanic-, South-Asian- and Black-signaled names gain 1.3-2.9 pp over White-signaled names, tilts worth $7-$14 per visit in fee-equivalent terms, and a content-free first-listed position is worth $11. Yet models mentioned gender or ethnicity in at most 0.03% of their stated reasons and abstained in 0.39% of trials, so these effects are invisible in the models' own explanations, and transparency obligations relying on model self-report would not detect them. One reasoning model failed the prespecified auditability gate outright. The frozen design makes the audit repeatable: any new model can be assessed against identical stimuli, making recurring behavioural audit, rather than self-reported explanation, the monitoring technology fit for purpose.",
+      "author": "Syeda Anshrah Gillani, Mirza Samad Ahmed Baig",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.14399v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.14399v1.pdf",
+        "categories": [
+          "cs.CY",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Syeda Anshrah Gillani",
+          "Mirza Samad Ahmed Baig"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.34802071908779764
+    },
+    {
+      "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+      "url": "https://arxiv.org/abs/2608.14539v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-08-14T17:51:30",
+      "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high structural overlap across sexes, poor cross-population generalizability, and subjective feature engineering. This study presents an uncertainty-aware deep learning framework for sex attribution in prehistoric hand stencils that explicitly models, propagates, and aggregates uncertainty throughout the analytical pipeline. The methodology combines dual image processing, dual contour extraction, structured silhouette augmentation, model architectural diversity, and ensemble-based decision aggregation. The pipeline generates twelve plausible silhouette realizations per stencil to capture boundary uncertainties, which are processed by two ensembles of ten deep neural...",
+      "content": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high structural overlap across sexes, poor cross-population generalizability, and subjective feature engineering. This study presents an uncertainty-aware deep learning framework for sex attribution in prehistoric hand stencils that explicitly models, propagates, and aggregates uncertainty throughout the analytical pipeline. The methodology combines dual image processing, dual contour extraction, structured silhouette augmentation, model architectural diversity, and ensemble-based decision aggregation. The pipeline generates twelve plausible silhouette realizations per stencil to capture boundary uncertainties, which are processed by two ensembles of ten deep neural networks each (EfficientNet-B3 and MobileViT-S) trained on 14,036 contemporary hand samples. Furthermore, a triangulated validation scheme integrates ensemble predictions with unsupervised 2D latent-space manifold mapping (UMAP + k-NN) and explainable AI spatial attributions (LayerCAM) to ensure anatomical consistency. On contemporary data, ensemble models achieve strong classification performance, with accuracies exceeding 88% in older age groups. When applied to prehistoric stencils, the framework produces both sex predictions and confidence measures of internal agreement, enabling the distinction between morphologically stable and ambiguous cases. Convergence across ensemble predictions, latent-space structure, and interpretability analyses shows that uncertainty can become a measurable component of archaeological inference, enabling robust and reproducible decoding of ancient rock art.",
+      "author": "Karel Becerra, Boris Mederos, Dean Snow, Ram\u00f3n A. Mollineda",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.14539v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.14539v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Karel Becerra",
+          "Boris Mederos",
+          "Dean Snow",
+          "Ram\u00f3n A. Mollineda"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.08148148148148147,
+      "final_score": 0.3470270024799934
+    }
+  ],
+  "summary": {
+    "sources": 10,
+    "top_source": "OpenAI Blog",
+    "date_range": {
+      "start": "2026-08-10T00:00:00",
+      "end": "2026-08-17T12:09:42"
+    }
+  }
+}
