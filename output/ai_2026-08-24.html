@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 35</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 35 | August 24, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>9</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2608.21360v1" target="_blank">OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Aug 21
+                    
+                </div>
+                <p class="story-summary">Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive as...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2608.21357v1" target="_blank">VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Aug 21
+                    
+                </div>
+                <p class="story-summary">In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2608.21249v1" target="_blank">Benchmarking Patent Drafting from Inventor-Style Disclosures</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Aug 21
+                    
+                </div>
+                <p class="story-summary">While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to investigate the core challenge of real-world patent drafting: generating a complete and legally coherent patent ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://huggingface.co/blog/asr-benchmark-optimization" target="_blank">Measuring benchmark optimization in speech recognition</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Aug 21
+                    
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://debloat.dev/" target="_blank">A website for debloated open source alternatives</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Aug 23
+                     | ⬆️ 363 | 💬 115
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.21325v1" target="_blank">Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy</a></div>
+                <div class="paper-author">Afonso Baldo, Hugo Pitorro, Areti Vassilopoulos, Anabela C. Areias, Maya D&#39;Eon...</div>
+                <div class="paper-summary">Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therape...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.21345v1" target="_blank">Asymmetric Capacity Allocation in Self-Refinement Pipelines</a></div>
+                <div class="paper-author">Zhuoyi Yang, Ian G. Harris, Salar Hashemitaheri, Cassie Huang, Yuangang Li...</div>
+                <div class="paper-summary">Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the thre...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.21300v1" target="_blank">When Adaptation Hurts: Connecting Representational Drift to OOD Failures in MedSAM Fine-Tuning</a></div>
+                <div class="paper-author">Marko Haralović, Sounic Akkaraju, Carlo Baretta, Vasil Zapryanov, Alexia Briassouli</div>
+                <div class="paper-summary">Foundation models for medical image segmentation, like prompt-based MedSAM, generalize well across domains and modalities, often in zero or few-shot setups. However, their performance depends on the q...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.21349v1" target="_blank">PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction</a></div>
+                <div class="paper-author">Yoshitaka Inoue, Minoh Jeong, Alfred Hero, Rui Kuang, Augustin Luna</div>
+                <div class="paper-summary">Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, withou...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.21332v1" target="_blank">Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation</a></div>
+                <div class="paper-author">David P. Stonko</div>
+                <div class="paper-summary">Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in whic...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://status.claude.com/uptime" target="_blank">Anthropic Claude and API service outages</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 69 | 💬 60</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245" target="_blank">Anthropic&#39;s best AI model struggles to attract users as cheaper tools thrive</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 640 | 💬 559</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://ericpardee.github.io/fire-hd-ownership/" target="_blank">I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 664 | 💬 281</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/" target="_blank">From Atari to EVE Online: Building on 15 Years of AI Research in Games</a></div>
+                <div class="news-meta">DeepMind Blog | Aug 21</div>
+                <div class="news-summary">Google DeepMind partners with game studios to prototype breakthrough AI gameplay.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/offering-zero-data-retention-for-frontier-models" target="_blank">Offering Zero Data Retention for frontier models</a></div>
+                <div class="news-meta">OpenAI Blog | Aug 19</div>
+                <div class="news-summary">OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising dat...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/" target="_blank">We still don’t know how people are really using AI</a></div>
+                <div class="news-meta">MIT Technology Review AI | Aug 18</div>
+                <div class="news-summary">AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the d...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/strengthening-democratic-oversight-in-national-security" target="_blank">Strengthening democratic oversight in national security</a></div>
+                <div class="news-meta">OpenAI Blog | Aug 18</div>
+                <div class="news-summary">OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/the-defenders-window" target="_blank">The Defender’s Window</a></div>
+                <div class="news-meta">OpenAI Blog | Aug 17</div>
+                <div class="news-summary">AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-08-24 13:54 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
