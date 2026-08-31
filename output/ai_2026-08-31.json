@@ -1,0 +1,646 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-08-31T19:27:05.077008",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+      "url": "https://arxiv.org/abs/2608.28481v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-08-28T16:07:16",
+      "summary": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IMO gold-medalist performance, manually converting natural-language problems into its formal syntax remains a significant usability bottleneck. To address this challenge, we introduce the Natural Language to AlphaGeometry Benchmark (NL2AGBench), which evaluates LLMs in translating English geometry problems into AlphaGeometry-compatible formal representations. NL2AGBench uses execution-based verification within AlphaGeometry to assess translation quality rather than relying solely on textual simila...",
+      "content": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IMO gold-medalist performance, manually converting natural-language problems into its formal syntax remains a significant usability bottleneck. To address this challenge, we introduce the Natural Language to AlphaGeometry Benchmark (NL2AGBench), which evaluates LLMs in translating English geometry problems into AlphaGeometry-compatible formal representations. NL2AGBench uses execution-based verification within AlphaGeometry to assess translation quality rather than relying solely on textual similarity. We evaluate ten state-of-the-art open- and closed-source LLMs across multiple parameter scales and analyze executable translation accuracy, syntactic correctness, and error characteristics. Our experiments reveal a substantial performance gap between closed- and open-source models: leading closed-source models achieve executable translation rates above 80%, while even the largest open-source models struggle to consistently preserve geometric constraints and produce valid formalizations. We introduce an error taxonomy distinguishing syntax and logic errors and investigate mitigation strategies, including few-shot prompting, fine-tuning, and human-guided hinting, which yield measurable improvements across multiple model families.",
+      "author": "Samuel Xiao, Judy Song, Rory Hu, Ziliang Zong",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28481v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28481v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Samuel Xiao",
+          "Judy Song",
+          "Rory Hu",
+          "Ziliang Zong"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7077408071882441
+    },
+    {
+      "title": "Haiku R1/beta6 has been released",
+      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-08-30T16:01:10",
+      "summary": null,
+      "content": null,
+      "author": "metrofun",
+      "score": 354,
+      "num_comments": 95,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49499867,
+        "hn_url": "https://news.ycombinator.com/item?id=49499867",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6293575610841549
+    },
+    {
+      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-08-31T18:00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . By now you\u2019ve probably heard about last month\u2019s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on a test. It\u2019s a wild story. On Wednesday, OpenAI released a postmortem technical report on the incident, which I wrote about here .  The day before OpenAI released that re...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . By now you\u2019ve probably heard about last month\u2019s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on a test. It\u2019s a wild story. On Wednesday, OpenAI released a postmortem technical report on the incident, which I wrote about here .  The day before OpenAI released that report, I spoke with David Krueger, a computer science professor and prominent alignment expert who took leave from the University of Montreal to found and lead an AI safety nonprofit called Evitable. He said what he had really hoped to see in the report was an analysis of the human factors behind the incident. \u201cWhen you look at accidents and incidents, oftentimes people try to find the technical source of failure, but that can give a very inaccurate and misleading sense of why the failure occurred,\u201d he said. \u201cIf people are just cutting corners all the time, if people are not in a culture that prioritizes safety and has appropriate incentives and structures, [accidents] are kind of bound to happen.\u201d The report did not meet Krueger\u2019s hopes. Its 38 pages detail a multi-month progression of agent misbehavior that culminated in the Hugging Face hack, explore the technical reasons why that misbehavior occurred, and enumerate the steps being taken to prevent similar events in the future. But there\u2019s no consideration of the role that company culture may have played in the incident, and the report includes few references to specific human errors.  That\u2019s all the more concerning because the references to human error in the report suggest that significant cultural issues could be at play. Back in May, models in training figured out how to communicate with one another via an improvised message board, and an OpenAI team observed the behavior. Because that behavior occurred during training, the models learned that secret interagent communication was a viable strategy for completing tasks\u2014but rather than restarting the training process, the team allowed the models to move forward with that risky information encoded in their weights. When those models were tested in late June, they again created a message board, which enabled the Hugging Face attack. This message board, too, was discovered, but the employees who responded determined that evaluation could continue, and the report suggests that no one higher up the chain of command realized what was going on until it was far too late. \u201cFor this to have gotten this out of control in this way requires a very long series of failures, a cascading set of failures that cause an increasingly large footprint that if at any point a human notices and raises the alarm, this should end,\u201d says Zvi Mowshowitz, a popular AI safety writer on Substack who has drawn attention to OpenAI\u2019s failure to halt training after the first message board was discovered. According to the report, OpenAI employees noticed what was happening at multiple points\u2014and either failed to raise the alarm or were not heard when they did. What OpenAI\u2019s report fails to address is why a company that develops such high-risk systems did not prevent this severe communication breakdown, though Mowshowitz has his suspicions. \u201cAll these different failures are all pointing in the same direction, which is that the safety culture at OpenAI doesn\u2019t exist or is anemically weak,\u201d he says. Of course, just because we don\u2019t see a deep analysis of safety factors in the report doesn\u2019t mean that OpenAI isn\u2019t conducting one internally. But in an email to MIT Technology Review , Johns Hopkins University professor emeritus and organizational safety expert Kathleen Sutcliffe expressed concern that the public report did not include any reflection on the company\u2019s practices and culture. \u201cThe ways in which people interact\u2014the daily habits, routines, and practices we engage in in our organizational lives\u2014affect our abilities to be alert and aware of unfolding events, our abilities to make sense of what we see, and ultimately our abilities to cope with events as they unfold,\u201d she wrote.  In response to questions about whether and how the company is reflecting on its safety culture, OpenAI referred MIT Technology Review back to the technical report.  We do know that at least some high-level reflection on safety procedures has taken place at OpenAI, because the technical report does make clear that the company is updating its protocols for responding to safety incidents. But culture change is a tricky problem, and without more information from the company, it\u2019s difficult to say whether strengthened response protocols alone will do much to prevent a future crisis. In its report, OpenAI spends a great deal of time reflecting on the failures in alignment between the AI models the company trains and tests and the humans who run them. But even bigger alignment problems may exist in the disconnect between company culture and the public interest. And as tough as technical AI research might be, fixing those problems could prove far harder.",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "the algorithm"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5722222222222222,
+      "final_score": 0.6025929893988096
+    },
+    {
+      "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+      "url": "https://arxiv.org/abs/2608.28518v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-08-28T16:55:32",
+      "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambiguity, while others weaken the model refusal behaviour and allow unsafe plans to be generated and executed. We show that in some cases automatic correction of ASR errors can reduce the risk, but this is not always effective. Overall, we show that ASR errors lead to significant safety risks for embodied AI.",
+      "content": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambiguity, while others weaken the model refusal behaviour and allow unsafe plans to be generated and executed. We show that in some cases automatic correction of ASR errors can reduce the risk, but this is not always effective. Overall, we show that ASR errors lead to significant safety risks for embodied AI.",
+      "author": "Sihan Jia, Oliver Lemon",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28518v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28518v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Sihan Jia",
+          "Oliver Lemon"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5481481481481482,
+      "final_score": 0.5277183204832175
+    },
+    {
+      "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+      "url": "https://arxiv.org/abs/2608.28578v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-08-28T17:53:48",
+      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive several joints through a single cable, so fewer motors are needed. They are also harder to learn on than a direct-drive hand. The underactuated transmission that produces the saving is itself difficult to represent in a simulator, and the joints one cable drives are not independently commandable. We present Aero Hand Open, a tendon-driven anthropomorphic hand that is released simulation-ready. Three things ship with it. A simulation model reproduces the cable transmission itself. An identified actuation map connects that model to the motor commands in both directions, including the three-way coupling of the thumb. A reinforcement learning package trains p...",
+      "content": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive several joints through a single cable, so fewer motors are needed. They are also harder to learn on than a direct-drive hand. The underactuated transmission that produces the saving is itself difficult to represent in a simulator, and the joints one cable drives are not independently commandable. We present Aero Hand Open, a tendon-driven anthropomorphic hand that is released simulation-ready. Three things ship with it. A simulation model reproduces the cable transmission itself. An identified actuation map connects that model to the motor commands in both directions, including the three-way coupling of the thumb. A reinforcement learning package trains policies for the hand. Together they let a policy be trained entirely in simulation and run on the hand with no fine-tuning and no state estimation. We release the mechanical design, the simulation model, the identified mapping, the training environment and the deployment stack.",
+      "author": "Nan Wang, Mohit Yadav, Jonathan Wulff, Aidan Rosenbaum, Kezhou Chen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28578v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28578v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Nan Wang",
+          "Mohit Yadav",
+          "Jonathan Wulff",
+          "Aidan Rosenbaum",
+          "Kezhou Chen",
+          "Yuvan Sharma",
+          "Xu Dong",
+          "Yiwei Tao"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.5248816805037202
+    },
+    {
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-08-26T19:00:00",
+      "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today . The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019 fears that AI models might take actions that defy human desires and expectations. Since the hack, OpenAI employees\u2014as well as researchers at the AI evaluation n...",
+      "content": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today . The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019 fears that AI models might take actions that defy human desires and expectations. Since the hack, OpenAI employees\u2014as well as researchers at the AI evaluation nonprofit METR, which released its own report on the hack today\u2014have worked to understand what went wrong and how similar missteps might be prevented in the future. OpenAI has already put some preventative measures in place based on what they discovered. But making sure AI models do what we want them to do, or \u201calignment,\u201d remains a gnarly problem, and some of the root causes of the hack will take much longer than a month to resolve. \u201cIt\u2019s not something you can solve overnight,\u201d says Kai Chen, who runs OpenAI\u2019s alignment research team. \u201cThere are challenges we\u2019ve been tracking for a very long time, and we\u2019re now seeing them with much greater precision.\u201d The Hugging Face hack was a product of months of misbehavior from OpenAI agents, first as they were being trained and then as their abilities were being evaluated. This May, agents in training figured out how to use OpenAI\u2019s infrastructure to communicate with one another and get support with difficult training tasks, including some that were impossible to solve without hacking or otherwise misbehaving. That \u201cmessage board\u201d was shut down. Then in July, while being evaluated for their cybersecurity abilities, some models created a new message board. They were supposed to be isolated from the internet, but by working together they managed to get online, hack Hugging Face, and obtain solutions for the cybersecurity problems that had stumped them. Based on their investigation, OpenAI researchers believe that events during the training phase led directly to the hack. \u201cFor almost every behavior that was worrisome at evaluation time, [we were able to] find some sort of associated behavior at training time that actually we think might have contributed to it,\u201d says Eric Wallace, a member of OpenAI\u2019s alignment research team.  When models correctly solve problems during training, the behaviors that led them to that solution are reinforced, and they become more likely to engage in them in the future. So if a model completed a task in May after using the original message board, it became more likely to participate in a new message board later on. This phenomenon, where AI agents misbehave in ways that are reinforced during the training process, is known as reward hacking . Reward hacking also helps to explain why the models worked so hard to make their way onto the internet. During its investigation of the incident, the OpenAI team found that, over the course of training, the models became more and more likely to probe their digital environment for weaknesses and use the tools at their disposal in unexpected ways\u2014a sign that these behaviors were being gradually reinforced. By the time the models were facing tricky cybersecurity problems, they had learned that hacking was an effective way to achieve their goals. These results suggest that the Hugging Face hack could have been avoided if the models weren\u2019t rewarded for misbehaving during training. While researchers don\u2019t yet know how to prevent reward hacking entirely, OpenAI is taking some steps toward mitigating its effects. The company will now look for signs of cheating in all frontier models during training by keeping an eye on their chains of thought \u2014internal notepads where they sketch out their answers and plan their actions.  This solution isn\u2019t as much of a slam dunk as it might seem: In earlier research , OpenAI showed that punishing models that mention cheating in their chains of thought teaches them to keep their intentions hidden from researchers. But monitoring its models\u2019 thinking does give OpenAI the chance to halt the training process and reassess its approach if models do start learning to reward hack. If OpenAI stops reinforcing reward hacking in its models\u2014and that\u2019s a huge \u201cif\u201d\u2014that would be a huge step forward. But it wouldn\u2019t solve the alignment problem. The first time a model communicated with other agents or hacked its infrastructure during training, those behaviors had never been reinforced, so agent misbehavior can\u2019t only be attributed to that reinforcement. Jeffrey Ladish, director of the AI safety nonprofit Palisade Research, compares the agents to a human who commits their first financial crime. \u201cIt\u2019s not like they had to do fraud before to figure out that fraud is an effective strategy, and you have the same problem with models,\u201d Ladish says. \u201cAlignment science needs to be understanding how model motivations get shaped, such that we can actually figure out how to get models to care about the consequences of their actions.\u201d OpenAI\u2019s researchers do have a hypothesis for where some of the misbehavior originated. Before the models formed their first secret message board, they had been trained to communicate and coordinate with subagents\u2014less powerful agents to whom a main agent can delegate tasks.  That learned communication behavior could have transferred to this new setting. The METR report, which investigates the messages that the models sent to one another in detail, supports this hypothesis: One agent on the message board took charge and assigned tasks to the other agents, effectively treating them as subagents. OpenAI could try to prevent agents from secretly communicating with one another by not training this subagent behavior in the future, but that would make the models less useful.  This tension between capability and safety is at the heart of what went wrong with the Hugging Face incident. OpenAI researchers also identified the models\u2019 persistence as a key factor in the hack.  When they were accidentally given unsolvable problems, the models didn\u2019t give up; instead, they strove to find solutions by any means necessary. But persistence is also a virtue, of course, especially if we want agents that can undertake large amounts of difficult work independently. OpenAI is working on giving models ways to alert humans if they are given impossible tasks. The problem of teaching models when they should deploy their abilities and when they should hold back, however, won\u2019t be settled in a single postmortem. The training strategies that create superhuman coders\u2014rewarding them when they successfully solve problems\u2014might not work to teach models to use their skills judiciously and respect human desires and values. \u201cI think there\u2019s a bunch of alignment science that still needs to be done where we can move past just using proxies for task completion,\u201d says Ladish. \u201cThat will work to make models very capable, but I don\u2019t think it will work to make them aligned.\u201d",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.575925925925926,
+      "final_score": 0.4978244708626819
+    },
+    {
+      "title": "How to encourage smarter AI use in the classroom",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-08-24T14:20:19",
+      "summary": "This article is from Making AI Work , MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here . Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any homework question or spin up an essay in seconds. Of course, teachers can often tell when a student is using AI\u2014models make mistakes that most humans don\u2019t, and...",
+      "content": "This article is from Making AI Work , MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here . Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any homework question or spin up an essay in seconds. Of course, teachers can often tell when a student is using AI\u2014models make mistakes that most humans don\u2019t, and some teachers say that AI-generated text has simple giveaways like too many em dashes .  Nevertheless, the generative AI boom increased the burden on teachers, who were already working long hours to plan lessons, make homework assignments, and grade exams, and now needed to adapt to a new technology. For many, it still feels like there\u2019s no clear path forward. Organizations ranging from OpenAI to UNESCO encourage AI use in the classroom, but many teachers feel confused about how exactly to handle it.  Case study Cheshire Academy is a private boarding and day school in Connecticut with about 400 students in grades 9 through 12. Administrators there don\u2019t force instructors to use AI at all, though the school\u2019s librarian and technology coordinator George Aiello claims the \u201cvast majority\u201d of instructors use it in some way. The educators there are trying a patchwork of programs, including general-purpose chatbots like ChatGPT and Perplexity as well as more specialized tools like MagicSchool , an AI-powered platform meant specifically for educators. That patchwork approach is partly because the school, on the advice of consultants, opted to train its staff on general techniques for how to use AI instead of prescribing certain tech. The staff training covered topics like how to craft useful prompts but also stressed the technology\u2019s limits, highlighting its potential for generating incorrect and biased responses.  Now, teachers there often use generative AI to prepare class materials. This means asking the AI of their choice for help with planning lessons or creating grading rubrics. Some even want to use it to help them give feedback to students, though concerns over quality, personalization, and privacy have prevented any of them from doing that just yet. Others, like Miriam Przybyla-Baum, who teaches French, don\u2019t use AI themselves but do address it with their teaching. Przybyla-Baum says she doesn\u2019t really need AI\u2019s help since she\u2019s built up plenty of classroom materials across nearly 30 years of teaching. But she started seeing students try to use AI-powered tools like Google Translate to take shortcuts on their assignments years before ChatGPT\u2019s launch.  She\u2019s developed a system to make students reflect on how AI can and can\u2019t teach language skills. In one assignment, students let a large language model (LLM) edit their homework. Then, they go through the edits and decide which ones were correct and which ones removed their voice. In another, she has students anonymously grade each other\u2019s AI-assisted assignments, making annotations as to which parts they think are AI-assisted. Cheshire Academy is continuing to experiment with how AI can be harnessed productively in the classroom. The school is piloting a program in which students create media and lead discussions regarding healthy AI use. This program, which they call a \u201cStudent AI Council,\u201d aims to push students to reflect on how AI should and shouldn\u2019t be used to benefit the community around them. The academy as a whole has since adopted similar techniques to those Przybyla-Baum introduced to make students reflect on their own use of AI. Assignments are now labelled like traffic lights, with green meaning AI is fully allowed and red banning any AI use. Yellow, then, lets the teacher permit some tools while banning the rest, like allowing students to use spell-check but not message a chatbot. The tool As generative AI was becoming mainstream, Cheshire Academy previewed MagicSchool to its staff.  For many, MagicSchool\u2019s main strength seems to lie in the sheer amount of offerings it provides in one package. It can generate questions and assignments of all kinds, from quizzes to worksheets, across many subjects and grade levels. It has a specialized grading rubric generator, which outputs a ready-to-go table that teachers can use to score assignments. It can make presentations and lesson plans and administrative reports, too.  All of this is done through a single platform where educators enter specific prompts tailored for each task. For example, to make an assignment, a teacher can specify the students\u2019 grade level, number of questions, the types of questions (such as multiple choice or short answer), and more, and include documents to align the questions with.  Not every teacher feels comfortable using LLMs to generate student-facing text, whether because they don\u2019t think an AI can produce effective teaching materials or helpful feedback, or because they\u2019re concerned about accuracy. MagicSchool, which has free and paid versions, does offer tools on its platform for other tasks like lesson planning. If teachers want unlimited access and complete records in the system, though, they need to pay just under $100 per year for an individual plan. Alternatively, many of the general-purpose generative AI tools (think the chatbots on offer from Anthropic, Google, OpenAI, and more) seem suited to administrative tasks, as well, attested by the fact that many of the teachers at Cheshire Academy use those instead. Some of these companies are even rolling out features tailored for schools, to mixed results . How to apply this Meet students where they\u2019re at. Students will be tempted to try AI, and there\u2019s no way to entirely police this for take-home assignments. The internet and social media can spread a lot of misinformation as to what AI can and can\u2019t do, and it\u2019s critical to counter these narratives and teach healthy strategies and relationships. Model best practices. AI is very good at automating tasks, but it struggles with precision and voice. Keep this in mind, especially when generating any text that anyone else may see. Impressionable students who see those in authority using AI in a lazy way could internalize this as an excuse to cut corners in their own work. Refine and replace. AI is great for brainstorming lesson plans and extra problem sets, especially for teachers early in their careers who don\u2019t have a big problem bank already built up. However, because it can make mistakes (called hallucinations ), using it for final drafts can result in assignments that confuse students and impair learning. Be sure to check every citation, equation, and statement an LLM makes. Sign up for Making AI Work, MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across healthcare, climate tech, education, and more.",
+      "author": "Peter Hall",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5648148148148149,
+      "final_score": 0.45092592592592595
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-08-31T04:00:00",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "content": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.3856485451282242
+    },
+    {
+      "title": "Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
+      "url": "https://arxiv.org/abs/2608.28524v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-08-28T17:00:48",
+      "summary": "Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex visual patterns. In contrast, deep learning models automatically learn discriminative representations but may not fully exploit the multiscale spatial-frequency information inherent in texture images. This paper proposes a hybrid feature fusion framework, termed DWT_AlexNet_DNN, which combines Discrete Wavelet Transform (DWT) features with deep features extracted using AlexNet for texture image classification.",
+      "content": "Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex visual patterns. In contrast, deep learning models automatically learn discriminative representations but may not fully exploit the multiscale spatial-frequency information inherent in texture images. This paper proposes a hybrid feature fusion framework, termed DWT_AlexNet_DNN, which combines Discrete Wavelet Transform (DWT) features with deep features extracted using AlexNet for texture image classification.",
+      "author": "Arun D. Kulkarni",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28524v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28524v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Arun D. Kulkarni"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.09814814814814814,
+      "final_score": 0.3477966933301918
+    },
+    {
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "url": "https://arxiv.org/abs/2608.28478v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-08-28T16:06:01",
+      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The pipeline retrieves related documents from a low-exposure web corpus, identifies naturally occurring disagreements, and converts them into multi-account QA records. Each answer is verified against the originating documents and authoritative public web sources and is then reviewed by human annotators. Across 32 models, even the strongest model recovers both accounts on only 52.4% of questions, while on nearly all remaining questions it recalls one account but omits the other. Scaling model size and inference-time reasoning improve recall but do not eliminate this incompleteness. Corpus analysis further shows that exposure imbalance favors the dominant account, ...",
+      "content": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The pipeline retrieves related documents from a low-exposure web corpus, identifies naturally occurring disagreements, and converts them into multi-account QA records. Each answer is verified against the originating documents and authoritative public web sources and is then reviewed by human annotators. Across 32 models, even the strongest model recovers both accounts on only 52.4% of questions, while on nearly all remaining questions it recalls one account but omits the other. Scaling model size and inference-time reasoning improve recall but do not eliminate this incompleteness. Corpus analysis further shows that exposure imbalance favors the dominant account, whereas greater minority-side exposure is associated with more complete recall. These findings establish ElephantBench as a reproducible knowledge probe for diagnosing epistemic myopia in parametric memory. More broadly, our graph-based benchmark construction pipeline provides an efficient and scalable way to turn long-tail corpora into source-traceable knowledge probes, supporting efforts to evaluate and advance the epistemic rigour of next-generation LLMs. Code is available at https://github.com/Tencent/ElephantBench.",
+      "author": "Zhuoshi Pan, Junru Lu, Yan Qian, H. Vicky Zhao, Di Yin...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28478v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28478v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Zhuoshi Pan",
+          "Junru Lu",
+          "Yan Qian",
+          "H. Vicky Zhao",
+          "Di Yin",
+          "Xing Sun"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.34327776153174605
+    },
+    {
+      "title": "A Formal Limitation on Learning Human Language From Textual Corpora",
+      "url": "https://arxiv.org/abs/2608.28560v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-08-28T17:38:24",
+      "summary": "Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hidden states of contemporary large language models. Modeling language use as a joint distribution over meanings, contexts, and utterances, we derive upper bounds on the probability that a decoder recovers a speaker's intended meaning from a representation of the utterance. The bounds are governed by the uncertainty that form leaves about meaning, which splits into an irreducible part and a part that only (extralinguistic) context, but never the utterance alone, can resolve. Because these quantities are intrinsic to language, no representation, however much text or supervision produced it, can surpass them; the bounds hold whether the space of meanings is discrete or continuous. Experiments on artificial languages, Mandarin zero-pronoun resolution, and color reference provide empirical evide...",
+      "content": "Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hidden states of contemporary large language models. Modeling language use as a joint distribution over meanings, contexts, and utterances, we derive upper bounds on the probability that a decoder recovers a speaker's intended meaning from a representation of the utterance. The bounds are governed by the uncertainty that form leaves about meaning, which splits into an irreducible part and a part that only (extralinguistic) context, but never the utterance alone, can resolve. Because these quantities are intrinsic to language, no representation, however much text or supervision produced it, can surpass them; the bounds hold whether the space of meanings is discrete or continuous. Experiments on artificial languages, Mandarin zero-pronoun resolution, and color reference provide empirical evidence in support of the theory.",
+      "author": "Emily Cheng, Ryan Cotterell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28560v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28560v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Emily Cheng",
+          "Ryan Cotterell"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.07222222222222222,
+      "final_score": 0.3379858469570932
+    },
+    {
+      "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
+      "url": "https://arxiv.org/abs/2608.28589v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-08-28T17:59:47",
+      "summary": "We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a general computational implementation in which the solution on each edge of the graph is approximated by a neural network, while a unified graph-based loss function enforces the governing equations together with initial, boundary, and vertex transmission conditions. In particular, the formulation incorporates standard continuity and Kirchhoff-Neumann vertex conditions and Dirichlet boundary conditions into the learning process to couple the local edge-wise neural approximations into a global solution on the graph. The framework is developed for two representative classes of nonlinear models: multi-order fractional elliptic problems and time-fractional evolution equations on quantum graphs. To improve accuracy and training stability, QGPINNs integrates several graph-adapted learning strategies,...",
+      "content": "We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a general computational implementation in which the solution on each edge of the graph is approximated by a neural network, while a unified graph-based loss function enforces the governing equations together with initial, boundary, and vertex transmission conditions. In particular, the formulation incorporates standard continuity and Kirchhoff-Neumann vertex conditions and Dirichlet boundary conditions into the learning process to couple the local edge-wise neural approximations into a global solution on the graph. The framework is developed for two representative classes of nonlinear models: multi-order fractional elliptic problems and time-fractional evolution equations on quantum graphs. To improve accuracy and training stability, QGPINNs integrates several graph-adapted learning strategies, including soft and hard constraint enforcement, dynamic loss balancing, Fourier feature embeddings, and a learnable singularity-capturing feature for weakly singular solutions arising in the considered problems. The framework also extends naturally to inverse problems, including the identification of the orders of fractional operators and physical parameters from noisy observational data. We validate the accuracy, computational efficiency, and physical consistency of the proposed framework through numerical experiments on benchmark graph structures and real-world networks, including the IEEE 14-bus system and an open-channel agricultural drainage network.",
+      "author": "Vaibhav Mehandiratta, Saket Ramchandra",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28589v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28589v1.pdf",
+        "categories": [
+          "cs.LG",
+          "math.NA"
+        ],
+        "all_authors": [
+          "Vaibhav Mehandiratta",
+          "Saket Ramchandra"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.059259259259259255,
+      "final_score": 0.33311886623420967
+    },
+    {
+      "title": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
+      "url": "https://arxiv.org/abs/2608.28496v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-08-28T16:22:39",
+      "summary": "Two forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier ones, and parallel, such as i.i.d. sampling with reranking. In this study, we investigate their properties in translation. First, our study shows that sequential sampling has a higher performance ceiling, providing a more diverse and effective pool of samples, particularly under smaller sampling budgets. Second, we interrogate the nature of test-time scaling through a multidimensional manual analysis. Human analysis of the Best-of-$N$ translations demonstrates that sequential sampling substantially improves translation fluency and naturalness, but can degrade accuracy when inference budgets are large. Finally, we suggest an explanation of the mechanism through which sequential scaling improves machine translation. Our controlled analysis partially attributes the success of sequential self-improvement to the ...",
+      "content": "Two forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier ones, and parallel, such as i.i.d. sampling with reranking. In this study, we investigate their properties in translation. First, our study shows that sequential sampling has a higher performance ceiling, providing a more diverse and effective pool of samples, particularly under smaller sampling budgets. Second, we interrogate the nature of test-time scaling through a multidimensional manual analysis. Human analysis of the Best-of-$N$ translations demonstrates that sequential sampling substantially improves translation fluency and naturalness, but can degrade accuracy when inference budgets are large. Finally, we suggest an explanation of the mechanism through which sequential scaling improves machine translation. Our controlled analysis partially attributes the success of sequential self-improvement to the model's access to a larger target-side context. Ablation experiments on sequential sampling demonstrate its robustness across different sampling temperatures, while also revealing sensitivity to context construction, suggesting directions for future improvement.",
+      "author": "Di Wu, Sergey Troshin, Christof Monz, Antske Fokkens, Vlad Niculae",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28496v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28496v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Di Wu",
+          "Sergey Troshin",
+          "Christof Monz",
+          "Antske Fokkens",
+          "Vlad Niculae"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.33241417030530757
+    },
+    {
+      "title": "SignRR: Retrieve and Refine Real Motion for Sign Language Production",
+      "url": "https://arxiv.org/abs/2608.28568v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-08-28T17:45:14",
+      "summary": "Sign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. Prior work mainly follows two paradigms. Generative models synthesize motion from a learned prior or from noise, without reference to an observed signing instance, making rare hand configurations and signer-specific articulation difficult to preserve. Retrieval-based methods reuse real, well-articulated motion segments, but concatenating segments from different signers and co-articulation contexts can introduce rhythm and style inconsistencies across the full sequence, not only at segment boundaries. These limitations suggest a complementary solution: use retrieval to provide realistic articulation, and use learned refinement to impose the global coherence that retrieval alone lacks. We therefore propose retrieve-and-refine, a paradigm that starts from real retrieved motion and refines it into a globally coherent signing sequence rather than generating...",
+      "content": "Sign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. Prior work mainly follows two paradigms. Generative models synthesize motion from a learned prior or from noise, without reference to an observed signing instance, making rare hand configurations and signer-specific articulation difficult to preserve. Retrieval-based methods reuse real, well-articulated motion segments, but concatenating segments from different signers and co-articulation contexts can introduce rhythm and style inconsistencies across the full sequence, not only at segment boundaries. These limitations suggest a complementary solution: use retrieval to provide realistic articulation, and use learned refinement to impose the global coherence that retrieval alone lacks. We therefore propose retrieve-and-refine, a paradigm that starts from real retrieved motion and refines it into a globally coherent signing sequence rather than generating motion from scratch. Our framework, SignRR, initializes motion from a dictionary of real sign segments and refines the full sequence with a part-aware Residual VQ-VAE, where residual quantization preserves fine hand articulation and temporal length differences are handled in the latent space. Experiments on PHOENIX14T and CSL-Daily show that SignRR achieves state-of-the-art back-translation performance while maintaining competitive pose quality.",
+      "author": "Fidel Omar Tito Cruz, Angie Sanchez Marquina, Summy Farfan, Gissella Bejarano",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28568v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28568v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Fidel Omar Tito Cruz",
+          "Angie Sanchez Marquina",
+          "Summy Farfan",
+          "Gissella Bejarano"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.0574074074074074,
+      "final_score": 0.33216160740939155
+    },
+    {
+      "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
+      "url": "https://arxiv.org/abs/2608.28541v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-08-28T17:14:58",
+      "summary": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the omission is an annular freeze mode enclosing an unreachable interior. The gate quotient makes the question precise: acceptance-with-certainty determines the model exactly on the reachable query set; beyond reach is gauge. On a minimal ring instrument we prove the extreme case (a wrong-topology filled-disc artifact unfalsifiable by any sampling gate and bitwise harmless at play) and measure, with LLM synthesis across three model families, how one knob (a channel of width gamma) walks the same artifact through three regimes: unfalsifiable-and-harmless, falsifiable-and-costly, and instantly falsified. Three principles organize the empirics. First, danger is topology relative to reach: a channel the planner can use collapses the blind model's exploitation (play cost 1.09 to...",
+      "content": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the omission is an annular freeze mode enclosing an unreachable interior. The gate quotient makes the question precise: acceptance-with-certainty determines the model exactly on the reachable query set; beyond reach is gauge. On a minimal ring instrument we prove the extreme case (a wrong-topology filled-disc artifact unfalsifiable by any sampling gate and bitwise harmless at play) and measure, with LLM synthesis across three model families, how one knob (a channel of width gamma) walks the same artifact through three regimes: unfalsifiable-and-harmless, falsifiable-and-costly, and instantly falsified. Three principles organize the empirics. First, danger is topology relative to reach: a channel the planner can use collapses the blind model's exploitation (play cost 1.09 to ~0 over a knee at gamma ~ 0.1), while a hidden channel with the same first Betti number keeps it at full strength (1.12). Second, repair is parameter-bound and sensor-bound: no family recovers the region from outside evidence; from inside, models pose the right topology but cannot pin its parameters, and the posed topology tracks the guiding persistent-homology summary's wrong beta_1 (a sensor with a measured geometric resolution limit), not the truth. Third, mitigation must match the error's dimension and direction: point fences fail against the one-dimensional boundary, a dimension-matched persisted fence collapses exploitation to a two-lesson transient (0.999 to 0.058), and the dual freedom certificate collapses the invented-mode failure symmetrically (1.769 to 0.029). In n dimensions the shell makes misidentification near-certain while the danger stays fully exploitable: the two axes are independent.",
+      "author": "Javier Aguilar Mart\u00edn",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28541v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28541v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Javier Aguilar Mart\u00edn"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.32800750713252314
+    },
+    {
+      "title": "Learning the Target Priors Before Image Translation: A Decoupled Training Paradigm for Cross-Modal Image Translation in Remote Sensing",
+      "url": "https://arxiv.org/abs/2608.28517v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-08-28T16:54:19",
+      "summary": "Cross-modal image translation in remote sensing must preserve source-observed content while matching the target-domain distribution. Existing methods jointly learn the target prior and cross-modal dependence from scarce paired data, overlooking a key asymmetry: only the latter intrinsically requires cross-modal correspondence. We formalize this distinction through conditional-score and denoising-risk analyses and propose Learning the Target Priors Before Image Translation (LTP-BIT), a prior-first paradigm that decouples the two learning tasks. LTP-BIT first learns a target-domain generative prior from large-scale unpaired imagery, then retains the pretrained backbone weights and learns source-conditioned control through P-DART, a parameter-efficient dual-stream architecture. Controlled experiments show that prior matching and scaling primarily improve target-domain realism, whereas instance fidelity relies more strongly on conditional adaptation. LTP-BIT achieves state-of-the-art perfo...",
+      "content": "Cross-modal image translation in remote sensing must preserve source-observed content while matching the target-domain distribution. Existing methods jointly learn the target prior and cross-modal dependence from scarce paired data, overlooking a key asymmetry: only the latter intrinsically requires cross-modal correspondence. We formalize this distinction through conditional-score and denoising-risk analyses and propose Learning the Target Priors Before Image Translation (LTP-BIT), a prior-first paradigm that decouples the two learning tasks. LTP-BIT first learns a target-domain generative prior from large-scale unpaired imagery, then retains the pretrained backbone weights and learns source-conditioned control through P-DART, a parameter-efficient dual-stream architecture. Controlled experiments show that prior matching and scaling primarily improve target-domain realism, whereas instance fidelity relies more strongly on conditional adaptation. LTP-BIT achieves state-of-the-art performance across SAR-to-RGB and NIR-to-RGB benchmarks using only 9.81% task-specific parameters. On QXS-SAROPT, it retains near-full-data instance fidelity with only 25% of the paired samples.",
+      "author": "Keyan Hu, Mingtao Wang, Ziyu Zhou, Tiandong Shi, Haifeng Li...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28517v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28517v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Keyan Hu",
+          "Mingtao Wang",
+          "Ziyu Zhou",
+          "Tiandong Shi",
+          "Haifeng Li",
+          "Ji Qi",
+          "Chao Tao"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.32770021513227515
+    },
+    {
+      "title": "Video Generative Models as Geometry Learner",
+      "url": "https://arxiv.org/abs/2608.28549v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-08-28T17:25:31",
+      "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-specific geometry models (for depth and surface normal estimation) independently, losing the opportunity of exploring the intrinsic correlation of these geometric targets, or (ii) jointly fine-tune modified image diffusion backbones (e.g., altered self-attention), which typically demands substantial labeled data. To overcome these limitations in a principled fashion, we repurpose pretrained video generative models as a unified and data-efficient framework for geometry estimation, formulated innovatively as a next-frames prediction task. Our method, GeoNeXt, inherits naturally structured knowledge and richer priors from the video model, while further adapting them for joint modeling of images and geometry targets (image <-> geometry), enabling more data efficient and eff...",
+      "content": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-specific geometry models (for depth and surface normal estimation) independently, losing the opportunity of exploring the intrinsic correlation of these geometric targets, or (ii) jointly fine-tune modified image diffusion backbones (e.g., altered self-attention), which typically demands substantial labeled data. To overcome these limitations in a principled fashion, we repurpose pretrained video generative models as a unified and data-efficient framework for geometry estimation, formulated innovatively as a next-frames prediction task. Our method, GeoNeXt, inherits naturally structured knowledge and richer priors from the video model, while further adapting them for joint modeling of images and geometry targets (image <-> geometry), enabling more data efficient and effective learning of geometry. Extensive experiments validate our method for zero-shot monocular depth and surface normal estimation across diverse datasets, outperforming both previous task-specific and unified generative competitors while using substantially less training data. Notably, our method rivals discriminative state-of-the-art approaches trained on over 100x more data and even standouts on several benchmarks.",
+      "author": "Haosen Yang, Jifei Song, Zhensong Zhang, Xiatian Zhu, Jiankang Deng",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28549v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28549v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Haosen Yang",
+          "Jifei Song",
+          "Zhensong Zhang",
+          "Xiatian Zhu",
+          "Jiankang Deng"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.04259259259259259,
+      "final_score": 0.32594227898048944
+    },
+    {
+      "title": "Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy",
+      "url": "https://arxiv.org/abs/2608.28564v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-08-28T17:41:53",
+      "summary": "We study kernel ridge regression under anisotropic Gaussian data, where the input covariance decays as a power law with exponent $\u03b1\\geq 0$ for polynomial inner-product kernels. We derive asymptotically sharp expressions for the kernel spectrum and the generalization error in the polynomial high-dimensional regime $n=\u0398(d^\u03ba)$, revealing how anisotropy reshapes the learning curves. For weak anisotropy ($0<\u03b1<1$), the problem remains effectively high-dimensional and retains some features of the isotropic case, while departing from it in others: the variance still peaks at integer sample complexities $\u03ba\\in\\mathbb{N}$, but these peaks are progressively damped as $\u03b1$ grows; meanwhile, for targets strongly aligned with the data's principal directions, the bias drops at fractional sample complexities, decoupling the bias transitions from the interpolation peaks. For strong anisotropy ($\u03b1> 1$), the effective dimension of the problem is constant, and the variance stops depending on sample size alt...",
+      "content": "We study kernel ridge regression under anisotropic Gaussian data, where the input covariance decays as a power law with exponent $\u03b1\\geq 0$ for polynomial inner-product kernels. We derive asymptotically sharp expressions for the kernel spectrum and the generalization error in the polynomial high-dimensional regime $n=\u0398(d^\u03ba)$, revealing how anisotropy reshapes the learning curves. For weak anisotropy ($0<\u03b1<1$), the problem remains effectively high-dimensional and retains some features of the isotropic case, while departing from it in others: the variance still peaks at integer sample complexities $\u03ba\\in\\mathbb{N}$, but these peaks are progressively damped as $\u03b1$ grows; meanwhile, for targets strongly aligned with the data's principal directions, the bias drops at fractional sample complexities, decoupling the bias transitions from the interpolation peaks. For strong anisotropy ($\u03b1> 1$), the effective dimension of the problem is constant, and the variance stops depending on sample size altogether, plateauing under ridgeless interpolation or vanishing at an explicit rate under fixed ridge penalty. The bias undergoes a sharp transition governed by the target's decay rate: below a threshold, learning is abrupt rather than gradual; above it, the bias decays as a power law that recovers the classical source and capacity rates. We finally specialize these results to single-index targets, showing how the alignment of the index with the data's principal directions determines the effect of anisotropy on learning. Together, our results clarify how the input geometry shapes the kernel features and fundamentally impacts its generalization properties.",
+      "author": "Lorenzo Rizzi, Arie Wortsman Zurich, Bruno Loureiro",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "stat.ML",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28564v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28564v1.pdf",
+        "categories": [
+          "stat.ML",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Lorenzo Rizzi",
+          "Arie Wortsman Zurich",
+          "Bruno Loureiro"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.324704348984127
+    },
+    {
+      "title": "GeBDA: Building Damage Assessment as Text-Based Sequence Prediction",
+      "url": "https://arxiv.org/abs/2608.28567v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-08-28T17:44:55",
+      "summary": "Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressive sequence generation alone. We cast BDA as predicting a variable-length set of bounding boxes, each specified by its coordinates and a damage label. Our preliminary implementation, based on the open Gemma model, achieves promising damage mapping results from only bi-temporal satellite images and a suitable text prompt.",
+      "content": "Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressive sequence generation alone. We cast BDA as predicting a variable-length set of bounding boxes, each specified by its coordinates and a damage label. Our preliminary implementation, based on the open Gemma model, achieves promising damage mapping results from only bi-temporal satellite images and a suitable text prompt.",
+      "author": "Olivier Dietrich, Krishna Sapkota, Konrad Schindler, Genady Beryozkin",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28567v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28567v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Olivier Dietrich",
+          "Krishna Sapkota",
+          "Konrad Schindler",
+          "Genady Beryozkin"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.03518518518518518,
+      "final_score": 0.3232680062005622
+    },
+    {
+      "title": "Anatomy-Aware Promptable Segmentation with Online Interactive Training for AUTOPET V",
+      "url": "https://arxiv.org/abs/2608.28461v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-08-28T15:49:58",
+      "summary": "We present an anatomy-aware, promptable model for whole-body lesion segmentation in FDG and PSMA PET/CT, developed for the AUTOPET V challenge. The proposed method is built as family of nnU-Net-based models and trained in two stages: i) a pre-training stage that produces a strong initial segmentation, and ii) an online interactive stage that learns to exploit scribble prompts, refining the prediction over successive interactions. Anatomical context is incorporated through organ supervision using a single shared head that predicts lesions and organs from the same features, which reduces false positives arising from physiological uptake. Also as the tracer (i.e., FDG/PSMA) is not provided at inference, we add a tracer classifier based on image processing and a random forest over coronal MIP features, routing each study to a combined FDG+PSMA model or to a PSMA-specific model. Across four-fold cross-validation the organ-supervised model achieves the best and most stable performance, the i...",
+      "content": "We present an anatomy-aware, promptable model for whole-body lesion segmentation in FDG and PSMA PET/CT, developed for the AUTOPET V challenge. The proposed method is built as family of nnU-Net-based models and trained in two stages: i) a pre-training stage that produces a strong initial segmentation, and ii) an online interactive stage that learns to exploit scribble prompts, refining the prediction over successive interactions. Anatomical context is incorporated through organ supervision using a single shared head that predicts lesions and organs from the same features, which reduces false positives arising from physiological uptake. Also as the tracer (i.e., FDG/PSMA) is not provided at inference, we add a tracer classifier based on image processing and a random forest over coronal MIP features, routing each study to a combined FDG+PSMA model or to a PSMA-specific model. Across four-fold cross-validation the organ-supervised model achieves the best and most stable performance, the interactive stage improves the Dice score monotonically with each prompt, and PSMA-specific training yields the strongest tracer-wise results.",
+      "author": "Pablo Lozano-Jimenez, Sergio Romero-Tapiador, Ruben Tolosana",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2608.28461v1",
+        "pdf_url": "https://arxiv.org/pdf/2608.28461v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Pablo Lozano-Jimenez",
+          "Sergio Romero-Tapiador",
+          "Ruben Tolosana"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.037037037037037035,
+      "final_score": 0.322298181379795
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "ArXiv [cs.CL]",
+    "date_range": {
+      "start": "2026-08-24T14:20:19",
+      "end": "2026-08-31T18:00:00"
+    }
+  }
+}

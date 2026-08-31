@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Robotics Weekly - Week 36</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manufacturing Robotics Weekly</h1>
+            <div class="date">Week 36 | August 31, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>The Robot Report</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.youtube.com/watch?v=BYXbuik3dgA" target="_blank">Elon Musk – &quot;In 36 months, the cheapest place to put AI will be space”</a>
+                </div>
+                <div class="story-meta">
+                    YouTube - Dwarkesh Patel and Stripe | Aug 31
+                     | ⬆️ 150 | 💬 0
+                </div>
+                <p class="story-summary">Optimus and humanoid manufacturing, Tesla will use 10,000 to 30,000 Optimus robots for self-training, similar to FSD Elon Musk revealed Optimus&#39;s new strategy: creating an &quot;Optimus Academy&quot; with 10,000 to 30,000 real robots that will continuously per...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/" target="_blank">Reframe Systems raises $40M to scale its robotic microfactories for home building</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Aug 31
+                    
+                </div>
+                <p class="story-summary">Reframe Systems combines robotics, Pixels to Parts software, and a network of microfactories to build homes. | Source: Reframe Systems Reframe Systems, a robotics company using physical AI to industrialize home construction, today announced said it h...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/" target="_blank">Early bird pricing for RoboBusiness 2026 ends August 31</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Aug 31
+                    
+                </div>
+                <p class="story-summary">Your chance to get discounted passes to RoboBusiness 2026, the leading event for commercial robotics developers, will come to an end next week. Early bird pricing for the show, which saves attendees $200 on full conference passes, will end Aug. 31, 2...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://robohub.org/when-expressive-humanoid-robots-are-awkward-people-become-wary-new-brain-study/" target="_blank">When expressive humanoid robots are awkward, people become wary – new brain study</a>
+                </div>
+                <div class="story-meta">
+                    Robohub | Aug 31
+                    
+                </div>
+                <p class="story-summary">Photo by Alex Knight on Unsplash . By Hasan Ayaz , Drexel University ; Ewart J. de Visser , United States Air Force Academy ; Frank Krueger , George Mason University , and Yigit Topoglu , United States Air Force Academy People become more suspicious ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/" target="_blank">The differences between decentralized and centralized power in swarm robotics</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Aug 29
+                    
+                </div>
+                <p class="story-summary">A small sample of Amazon’s vast deployed warehouse fulfillment fleet. Source: Amazon Swarm robotics systems rely on power architecture because energy distribution influences coordination efficiency and fault tolerance in multi-agent environments. Cen...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.28409v1" target="_blank">Cooperative Risk-Aware Exploration in Heterogeneous Multi-Robot Systems Using Algorithmic Altruism</a></div>
+                <div class="paper-author">Brooks A. Butler, Jair Certório, João P. Hespanha, Magnus Egerstedt</div>
+                <div class="paper-summary">Multi-robot systems are well-positioned for exploration in hazardous environments, but effective deployment requires deciding not only where robots should gather information, but also how risk should ...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.28437v1" target="_blank">LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control</a></div>
+                <div class="paper-author">Hyeonsu Lyu, Minwoo Kim, Sehyun Ryu, Hyun Jong Yang</div>
+                <div class="paper-summary">Cloud robotics relies on the timely uplink of high-volume sensing streams, yet dynamic environments continually shift the feasible combinations of trajectories, active-robot count, and per-robot QoS. ...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.28570v1" target="_blank">ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos</a></div>
+                <div class="paper-author">Seungyeon Kim, Noémie Jaquier</div>
+                <div class="paper-summary">Identifying the underlying dynamics and 3D geometry of deformable linear objects (DLOs), such as cables, ropes, and hoses, is essential for accurate robotic manipulation, but remains challenging due t...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.28300v1" target="_blank">MaCoPlanner: LLM-Assisted Manual-Compiled Task Planning with Proactive Safety Verification for Robotic Industrial Panel Operation</a></div>
+                <div class="paper-author">Guipeng Xin, Jiahe Xua, Mohammad Deghat, Chenhui Wan, Jie Liu...</div>
+                <div class="paper-summary">Robotic industrial panel operation requires not only accurate control localization but also compliance with operating procedures, safety rules, and device-state constraints distributed across heteroge...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2608.28518v1" target="_blank">When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI</a></div>
+                <div class="paper-author">Sihan Jia, Oliver Lemon</div>
+                <div class="paper-summary">We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being ...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.heise.de/en/news/Zuse-Computer-Museum-ZCOM-in-Hoyerswerda-faces-closure-11344513.html" target="_blank">Konrad Zuse Museum shutting down due to lack of funding</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 95 | 💬 51</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://github.com/Hebbian-Robotics/hflow" target="_blank">Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 28 | 💬 10</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/" target="_blank">From teach and repeat to SelfPath AI: The next robotics leap</a></div>
+                <div class="news-meta">The Robot Report | Aug 28</div>
+                <div class="news-summary">﻿ The Robot Report Podcast · From Teach-and-Repeat to SelfPath AI: The next robotics leap John Black, CTO, Brain Corp. In Episode 259 of The Robot Rep...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/" target="_blank">Deere faces headwinds in Q3 update and announces Reservoir R&amp;D partnership</a></div>
+                <div class="news-meta">The Robot Report | Aug 28</div>
+                <div class="news-summary">Danny Bernstein (l) from Reservoir and Sean Sundberg (r) from John Deere announced a partnership at the Ruggedize event. | Credit: Reservoir Deere &amp; C...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://robohub.org/first-11-vs-11-humanoid-soccer-game-played-at-robocup-2026/" target="_blank">First 11 vs 11 humanoid soccer game played at RoboCup 2026</a></div>
+                <div class="news-meta">Robohub | Aug 28</div>
+                <div class="news-summary">Action from the 11 vs 11 humanoid match at RoboCup 2026. Photo credit: RoboCup Federation. RoboCup 2026 saw history made, as two teams of 11 humanoids...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blogs.nvidia.com/blog/huang-3dexperience-2026/?ncid=so-twit-241697&linkId=100000406112672" target="_blank">Everything Will Be Represented in a Virtual Twin, NVIDIA CEO Jensen Huang Says at 3DEXPERIENCE World</a></div>
+                <div class="news-meta">Manual Inbox | Aug 31</div>
+                <div class="news-summary">Digital twins for training in manufacturing</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://spectrum.ieee.org/video-friday-microduck-robot" target="_blank">Video Friday: Meet Microduck</a></div>
+                <div class="news-meta">IEEE Spectrum Robotics | Aug 28</div>
+                <div class="news-summary">Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar ...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-08-31 19:27 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
