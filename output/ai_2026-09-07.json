@@ -1,0 +1,581 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-09-07T18:10:00.062314",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+      "url": "https://arxiv.org/abs/2609.05405v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-09-04T17:52:37",
+      "summary": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-choice questions constructed from the wearable time series, blood biomarkers, and demographics of 200 real users, each with up to 500 days of daily measurements. WearableQA preserves authentic wearable distributions that include device noise and inter-individual variability. To evaluate distinct reasoning capabilities, we introduce 16 question types organized along two complementary axes: data versus health reasoning, which distinguishes computation over longitudinal measurements from physiological interpretation; and single- versus cross-signal reasoning, which separates reasoning about individual signals from the integration of multiple signals. To construct reliable questions at scale, we a...",
+      "content": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-choice questions constructed from the wearable time series, blood biomarkers, and demographics of 200 real users, each with up to 500 days of daily measurements. WearableQA preserves authentic wearable distributions that include device noise and inter-individual variability. To evaluate distinct reasoning capabilities, we introduce 16 question types organized along two complementary axes: data versus health reasoning, which distinguishes computation over longitudinal measurements from physiological interpretation; and single- versus cross-signal reasoning, which separates reasoning about individual signals from the integration of multiple signals. To construct reliable questions at scale, we adopt a dual-grounding framework that combines literature-grounded physiological findings with statistically validated population-grounded physiological patterns. This enables the capture of meaningful relationships observed in real-world wearable data. Evaluation of 14 proprietary and open-source LLMs demonstrates that WearableQA effectively differentiates model capabilities, with performance ranging from 19.6% to 72.9% against a 10% chance baseline. Moreover, WearableQA remains far from solved: most models achieve accuracies below 60%. Overall, WearableQA provides a realistic and diagnostic benchmark for evaluating LLM reasoning over real-world wearable data.",
+      "author": "Ji Soo Lee, Xilun Chen, Pierce Chuang, Ashish Shenoy, Jason Wei...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05405v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05405v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Ji Soo Lee",
+          "Xilun Chen",
+          "Pierce Chuang",
+          "Ashish Shenoy",
+          "Jason Wei",
+          "Dohwan Ko",
+          "Hyunwoo J. Kim",
+          "Benoit Corda"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7104555940572916
+    },
+    {
+      "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+      "url": "https://arxiv.org/abs/2609.05395v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-09-04T17:44:52",
+      "summary": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source models consistently underperform in this multi-step setting, and no existing benchmark measures the gap. We introduce the Korean Open Public API Benchmark (KOPA-Bench), comprising 145 real-world tasks. To close this gap, we present EDGE, an Execution-grounded Dynamic Graph for tool-calling data synthEsis driven by live execution. EDGE builds a graph of how each tool's output can feed another's input, keeps only the links that succeed when actually called against the live APIs, and traverses these verified links to synthesize executable multi-step trajectories. Fine-tuned via GRPO on the resulting dataset, our 9B model nearly matches the untuned 27B model from the same family, improving substantially not only on KOPA-Bench but also on the BFCL benchmark.",
+      "content": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source models consistently underperform in this multi-step setting, and no existing benchmark measures the gap. We introduce the Korean Open Public API Benchmark (KOPA-Bench), comprising 145 real-world tasks. To close this gap, we present EDGE, an Execution-grounded Dynamic Graph for tool-calling data synthEsis driven by live execution. EDGE builds a graph of how each tool's output can feed another's input, keeps only the links that succeed when actually called against the live APIs, and traverses these verified links to synthesize executable multi-step trajectories. Fine-tuned via GRPO on the resulting dataset, our 9B model nearly matches the untuned 27B model from the same family, improving substantially not only on KOPA-Bench but also on the BFCL benchmark.",
+      "author": "Dain Kim, Eungi Cho, Kyumin Kim, Shinyeong Noh, Kyuseong Lim",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05395v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05395v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Dain Kim",
+          "Eungi Cho",
+          "Kyumin Kim",
+          "Shinyeong Noh",
+          "Kyuseong Lim"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7103402668648314
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-09-01T21:39:07",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6495404149900794
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-06T08:00:00",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "content": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.5622718140503472
+    },
+    {
+      "title": "Ask HN: Fable hacked my piano, can I release the results?",
+      "url": "https://news.ycombinator.com/item?id=49577129",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-05T14:54:44",
+      "summary": "I have a self playing piano, using a system called PianoDisc Protigy. They have an online store which sells music for their system, from various modern artists along with classics such as Bach and Beethoven. Last night I saw they had released some music from Eric Satre, a 19th century French composer, which I bought. Curious if I could have just used AI to create these files, I began experimenting with Astra and Fable. Feeding the output of one into the other to critique. After an hour of LLM discussion of Rubato and fermata, solenoid response times and proper sustain pedal technique, they settled on their ultimate version of Gymnopedie No 1.<p>I then asked Fable to compare it to the open source version I&#x27;d downloaded from Mutopia, which it promptly ripped apart. No sustain, zero rubato, upside down balance.<p>Ok, what about the version I&#x27;d just bought?<p>The PianoDisc versions are mp3s encoded with the right channel carrying MIDI to be played on the piano, and the left channel containing any accompanying music to be played through attached speakers (who doesn&#x27;t want the harmonica on Piano Man?)<p>I gave the mp3 to Fable, which promptly decoded the format, identifying the right channel carrying MIDI using a 2004.5 Hz square wave.<p>It then went on to analyze the nuance of pedal lift and melody relative to the chords.<p>Fable then asked if I wanted it to build an encoder to write my own MIDI files into the right channel of mp3s.<p>Sounds great, and I instructed it to write the encoder.<p>What it came back with was a python encoder PLUS a decoder.<p>In the verbose explanation, it mentioned decoy notes.<p>Curious, I asked it to explain the decoy notes.<p>Apparently PianoDisc adds obfuscation into their format which is handled properly by their decoder, but would leave naively extracted MIDI unplayable on other systems.<p>Fable created an encoder which adds those decoy notes, and a decoder which removes them.<p>Am I allowed to publish the decoder? The encoder?",
+      "content": null,
+      "author": "jmpman",
+      "score": 253,
+      "num_comments": 145,
+      "tags": [
+        "hackernews",
+        "ask-hn"
+      ],
+      "metadata": {
+        "hn_id": 49577129,
+        "hn_url": "https://news.ycombinator.com/item?id=49577129",
+        "type": "story",
+        "is_text_post": true
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.548584801173076
+    },
+    {
+      "title": "NetBSD 9.5 released and EOL for NetBSD-9",
+      "url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-06T15:44:24",
+      "summary": null,
+      "content": null,
+      "author": "jaypatelani",
+      "score": 145,
+      "num_comments": 14,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49587636,
+        "hn_url": "https://news.ycombinator.com/item?id=49587636",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5473081790588095
+    },
+    {
+      "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+      "url": "https://arxiv.org/abs/2609.05363v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-09-04T17:08:50",
+      "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying them directly to hundreds of millions of product pairs is operationally impractical. We introduce a two-level framework that distills LLM reasoning into an efficient non-generative student and adapts its decision boundary to product-type-specific trade-up criteria. At Level 1, a retrieval-augmented few-shot LLM teacher generates structured relation labels and natural-language rationales. These rationales supervise a compact embedding-pair classifier through alignment and contrastive objectives; at inference, the student uses only two precomputed 768-dimensional product embeddings, with no LLM calls or text generation. On a fixed human-annotated benchmark of 8,352 pairs, a 15.5M-parameter four-class reasoning-distilled student achieves AUC 0.924 (95% CI [0.918, 0.929]), co...",
+      "content": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying them directly to hundreds of millions of product pairs is operationally impractical. We introduce a two-level framework that distills LLM reasoning into an efficient non-generative student and adapts its decision boundary to product-type-specific trade-up criteria. At Level 1, a retrieval-augmented few-shot LLM teacher generates structured relation labels and natural-language rationales. These rationales supervise a compact embedding-pair classifier through alignment and contrastive objectives; at inference, the student uses only two precomputed 768-dimensional product embeddings, with no LLM calls or text generation. On a fixed human-annotated benchmark of 8,352 pairs, a 15.5M-parameter four-class reasoning-distilled student achieves AUC 0.924 (95% CI [0.918, 0.929]), compared with 0.912 for the four-class label-only student. At Level 2, product-type test-time training (PT-TTT) uses few-shot demonstrations to optimize lightweight category-specific adapters over the frozen student. PT-TTT improves AUC from 0.924 to 0.941 and average precision from 0.920 to 0.940. On a 100K-pair proxy catalog, the distilled student on a single eight-GPU machine is approximately 5,000x faster and 10,000x lower in estimated cost than direct LLM inference.",
+      "author": "Siliang Liu, Mohammad Ghasemi, Sapan Patel, Amin Banitalebi-Dehkordi",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05363v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05363v1.pdf",
+        "categories": [
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Siliang Liu",
+          "Mohammad Ghasemi",
+          "Sapan Patel",
+          "Amin Banitalebi-Dehkordi"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5833333333333334,
+      "final_score": 0.5431373897760416
+    },
+    {
+      "title": "GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-03T18:41:05",
+      "summary": "System Card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra</a><p>Related ongoing threads:<p><i>OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691</a><p><i>GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147</a>",
+      "content": null,
+      "author": "kibae",
+      "score": 2259,
+      "num_comments": 2067,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49554643,
+        "hn_url": "https://news.ycombinator.com/item?id=49554643",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.5422751191399314
+    },
+    {
+      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+      "url": "https://arxiv.org/abs/2609.05401v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-09-04T17:47:58",
+      "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can substantially change predicted progress scores, and can even flip identical robot behavior between failure and success. To measure this failure mode, we introduce ROBORMBENCH, a benchmark with 2,390 real-robot trajectories, ground-truth progress labels, and 21,673 verified paraphrases spanning lexical, syntactic, and action-goal rewrites. Across proprietary and open-source VLMs, paraphrase-induced instability is widespread and severe, grows under more divergent rewrites, and is not reliably reduced by scale or explicit reasoning. Dedicated reward models trained with trajectory-grounded supervision are substantially more stable. These results show that ...",
+      "content": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can substantially change predicted progress scores, and can even flip identical robot behavior between failure and success. To measure this failure mode, we introduce ROBORMBENCH, a benchmark with 2,390 real-robot trajectories, ground-truth progress labels, and 21,673 verified paraphrases spanning lexical, syntactic, and action-goal rewrites. Across proprietary and open-source VLMs, paraphrase-induced instability is widespread and severe, grows under more divergent rewrites, and is not reliably reduced by scale or explicit reasoning. Dedicated reward models trained with trajectory-grounded supervision are substantially more stable. These results show that paraphrase robustness is a core requirement for reliable VLM-based reward modeling in robotics.",
+      "author": "Wonje Jeung, Sangyeon Yoon, Hyesoo Hong, Yoonjun Cho, Dongjae Jeon...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.RO",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05401v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05401v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Wonje Jeung",
+          "Sangyeon Yoon",
+          "Hyesoo Hong",
+          "Yoonjun Cho",
+          "Dongjae Jeon",
+          "Bumjun Kim",
+          "Jean Oh",
+          "Youngjae Yu",
+          "Albert No"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5685185185185185,
+      "final_score": 0.5377938050155423
+    },
+    {
+      "title": "Embedded Graph Flows for Categorical Graph Generation",
+      "url": "https://arxiv.org/abs/2609.05328v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-09-04T16:26:41",
+      "summary": "Generating categorical graphs requires choosing node and edge types that form a coherent structure without depending on node order. Many graph generators encode categories as fixed one-hot vectors, which can impose an artificial geometry in which categories are equidistant. We propose Embedded Graph Flows (EGF), a generative model that learns continuous embeddings for node and unordered-edge categories and transports Gaussian noise towards these learnt endpoints using a permutation-equivariant graph transformer. A terminal readout maps the embeddings back to discrete graph categories. Across molecular benchmarks, EGF achieved competitive performance. On QM9, EGF gives the best result on all four reported metrics among the three methods, including a Fr\u00e9chet ChemNet Distance (FCD) of 0.150, compared with 0.717 for the categorical-diffusion baseline DiGress and 0.812 for the bridge-based baseline GruM. When applied to larger molecules in ZINC250k, EGF retains the lowest maximum mean discr...",
+      "content": "Generating categorical graphs requires choosing node and edge types that form a coherent structure without depending on node order. Many graph generators encode categories as fixed one-hot vectors, which can impose an artificial geometry in which categories are equidistant. We propose Embedded Graph Flows (EGF), a generative model that learns continuous embeddings for node and unordered-edge categories and transports Gaussian noise towards these learnt endpoints using a permutation-equivariant graph transformer. A terminal readout maps the embeddings back to discrete graph categories. Across molecular benchmarks, EGF achieved competitive performance. On QM9, EGF gives the best result on all four reported metrics among the three methods, including a Fr\u00e9chet ChemNet Distance (FCD) of 0.150, compared with 0.717 for the categorical-diffusion baseline DiGress and 0.812 for the bridge-based baseline GruM. When applied to larger molecules in ZINC250k, EGF retains the lowest maximum mean discrepancy (MMD) using the neighbourhood subgraph pairwise distance kernel (NSPDK), indicating close agreement with the local substructures of the reference molecules. Our code is available at https://github.com/Trusted-System-Lab/EGF.",
+      "author": "Ethan Ma, Zihan Wang, Chris Siu Yeung Chow, Xinguo Feng, Qingqing Li...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05328v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05328v1.pdf",
+        "categories": [
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Ethan Ma",
+          "Zihan Wang",
+          "Chris Siu Yeung Chow",
+          "Xinguo Feng",
+          "Qingqing Li",
+          "Rui Jiang",
+          "Naipeng Dong",
+          "Guangdong Bai"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5648148148148148,
+      "final_score": 0.5351027501632771
+    },
+    {
+      "title": "Think-Verify-Revise: Neuro-Symbolic Visual Reasoning with Vision-Language Models and Dynamic Logic Tensor Networks",
+      "url": "https://arxiv.org/abs/2609.05388v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-09-04T17:39:47",
+      "summary": "Visual reasoning tasks require a system to jointly perceive visual content and apply formal relational constraints---a combination that neither pure neural nor purely symbolic approaches handle well in isolation. This paper proposes a Neuro-Symbolic (NeSy) framework that closes this gap by tightly coupling a Vision-Language Model (VLM) for automatic First-Order Logic (FOL) rule induction with a Dynamic Logic Tensor Network (D-LTN) for differentiable rule verification, in a closed iterative feedback loop. The VLM receives a small set of labelled visual examples and proposes candidate FOL rules conforming to a strict grammar (Think); the D-LTN is automatically assembled from these rules at runtime and evaluates them grounding on CNN-produced visual embeddings (Verify); and verification failures are fed back to guide the VLM's next hypothesis (Revise). Evaluated on the ViSudo-PC benchmark across four visual domains (MNIST, EMNIST, KMNIST, FMNIST), the system induces valid Sudoku constrain...",
+      "content": "Visual reasoning tasks require a system to jointly perceive visual content and apply formal relational constraints---a combination that neither pure neural nor purely symbolic approaches handle well in isolation. This paper proposes a Neuro-Symbolic (NeSy) framework that closes this gap by tightly coupling a Vision-Language Model (VLM) for automatic First-Order Logic (FOL) rule induction with a Dynamic Logic Tensor Network (D-LTN) for differentiable rule verification, in a closed iterative feedback loop. The VLM receives a small set of labelled visual examples and proposes candidate FOL rules conforming to a strict grammar (Think); the D-LTN is automatically assembled from these rules at runtime and evaluates them grounding on CNN-produced visual embeddings (Verify); and verification failures are fed back to guide the VLM's next hypothesis (Revise). Evaluated on the ViSudo-PC benchmark across four visual domains (MNIST, EMNIST, KMNIST, FMNIST), the system induces valid Sudoku constraint rules using only three training examples as visual context. The proposed method achieves AUC scores matching or outperforming previous methods (NeuPSL, LTN), showing the potential for automatic rule discovery through VLM. Code is available at https://github.com/homayoun-afshari/nesy.",
+      "author": "Homayoun Afshari, Pietro Basci, Alessandro Russo, Lia Morra",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05388v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05388v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Homayoun Afshari",
+          "Pietro Basci",
+          "Alessandro Russo",
+          "Lia Morra"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5518518518518518,
+      "final_score": 0.5310053623545801
+    },
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-04T18:39:19",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while also supporting an increasingly intelligent edge of IoT and consumer devices. However, in this inference-...",
+      "content": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while also supporting an increasingly intelligent edge of IoT and consumer devices. However, in this inference-driven landscape, every delay, bottleneck, or wasted watt directly affects human outcomes and operating costs.  This shift changes what infrastructure must deliver. Performance, latency, memory bandwidth, storage throughput, and networking cannot be optimized in silos. Inference workloads are continuous, geographically distributed, and highly sensitive to response time, requiring systems designed for scale, resilience, and efficiency from the start. \u201cWe tend to think of AI as a single workload, and it\u2019s not. It\u2019s thousands, it\u2019s millions, it\u2019s billions of different workloads,\u201d says Jim McGregor, founder and principal analyst, Tirias Research. AI inference changes the optimization problem from one of raw compute to coordinated infrastructure\u2014memory, storage, and networking. For business leaders, the priority is clear: AI infrastructure decisions must balance cost, flexibility, and future readiness. The winners will be organizations that improve performance per watt, reduce environmental footprint, and remove memory and storage bottlenecks before they limit growth. AI inference requires a new architectural approach Systems for AI need to be rearchitected because shoehorning modern AI systems into legacy infrastructure limits AI\u2019s transformative potential. Purpose-built architectures are essential to realize the true value of AI, from accelerating scientific discovery to creating truly autonomous digital agents. Traditional enterprise IT has been able to rely on relatively stable infrastructure assumptions, but inference and agentic AI introduce new demands around latency, data movement, scalability, and utilization that make architecture choices far more consequential. \u201cData centers must now support continuous, distributed, and increasingly real-time AI services\u2014none of which are a single workload,\u201d says McGregor. \u201cThey all require different requirements from a system-level perspective.\u201d To support real-time AI, enterprises can no longer view memory and storage merely as supporting hardware, but at the heart of the system. Organizations need to architect a data pipeline that can rapidly ingest, clean, transform, store, move, and deliver data. Inference workloads place sustained pressure on infrastructure in ways that look very different from earlier training-centric deployments, demanding continuous data retrieval and caching that traditional applications never required. Accordingly, performance by itself is no longer the sole benchmark that matters. Enterprises increasingly must balance performance with efficiency, cost, and scalability, especially as they try to support different AI services without overbuilding infrastructure for peak conditions. \u201cYou have to optimize the entire network, and that includes memory and storage, around the types of workloads you plan on running,\u201d says McGregor. \u201cYou have to really have a detailed understanding of what those workloads are going to be.\u201d Any AI infrastructure strategy must start with workload awareness. Inference, agentic AI, and other emerging AI use cases require organizations to treat the data center as an integrated system. Data movement is the new bottleneck and an opportunity for competitive advantage As enterprises deploy advanced inference and agentic systems, the sheer volume of data being queried in real time has made data movement the most pressing constraint. Modern AI techniques like retrieval-augmented generation (RAG) require systems to constantly scan massive databases to generate accurate responses. This requires immense computing power, but more importantly, it requires immediate access to data. McGregor says the focus shift to how efficiently data can be moved, cached, and delivered across the broader architecture elevates memory and storage from background infrastructure to strategic assets. \u201cThe biggest thing we\u2019re doing right now is moving data from one place to another and making sure that we can use it effectively.\u201d Because AI is not a single workload category, simply buying the fastest processors is insufficient. Inference depends heavily on memory bandwidth, caching, storage proximity, and the ability to retrieve relevant information quickly and consistently. Understanding where each resource belongs in the stack and how those layers interact under real operating conditions has become a business imperative. The most effective AI infrastructure looks less like a collection of best-in-class parts and more like a balanced system of compute, memory, storage, and networking, McGregor says, because bottlenecks tend to migrate from one layer to the next. \u201cYou have to architect all four together to be efficient, and that\u2019s the challenge.\u201d The interdependence of data-plane design and network bandwidth means AI infrastructure planning has become a business decision just as much as an engineering one: latency is now inseparable from value. In robotics, financial services, healthcare, and customer-facing AI systems, delays are not merely technical imperfections; they can undermine safety, responsiveness, or trust. AI infrastructure performance becomes a matter of reputation management. The organizations that gain the most from AI may not be those with the largest clusters, but those with the clearest understanding of how to align every infrastructure element to effectively execute AI workloads. Building an AI infrastructure procurement framework Planning AI infrastructure is not simply about choosing the fastest hardware. It is about how to scale without locking the organization into assumptions that may quickly become obsolete. \u201cYou need to be flexible because the demands are going to change rapidly and the technology is changing rapidly,\u201d McGregor says. Future-proofing AI infrastructure requires keeping your options open as workloads, economics, and architectures keep shifting: Define the AI workloads that are being optimized. Infrastructure choices must match business needs rather than what McGregor calls generic \u201cAI readiness,\u201d which risks overspending in some areas while leaving bottlenecks unresolved in others. Build a modular architecture for compute, memory, storage, power, and cooling so capacity can change as demand shifts rather than committing too early to a rigid architecture. Work with the full ecosystem of suppliers and integrators to reduce supply risk and improve access to the right components. McGregor says buyers can no longer assume their OEM or cloud provider alone will insulate them from supply constraints or architectural complexity. Reassess your procurement strategy continuously. AI requirements, hardware, and business models are changing too quickly for a fixed long-term design. Optimize for efficiency and ROI, not just peak performance. The most powerful setup may be too costly to sustain. Efficiency is also a public-facing metric\u2014better utilization and more workload-aware system design can help companies respond to growing scrutiny around power consumption and water use. The strategic goal of smarter AI data center design is not maximum performance at any cost, but an adaptable architecture that can deliver value, absorb change, and justify its footprint. AI infrastructure is now a business strategy AI data centers have quickly evolved from a back-end technical concern to becoming strategic business systems that help determine how effectively an organization can turn AI into revenue, improve human outcomes, and create a competitive advantage. In the inference era, memory and storage are no longer passive repositories, explains McGregor, they are the active lifeblood of AI. The organizations that gain the most from AI will not necessarily be those with the largest computing footprint, but those that align infrastructure investments to business outcomes, reduce data bottlenecks, and build the flexibility to adapt as workloads evolve. He predicts that competitive advantage will increasingly belong to enterprises that treat compute, memory, storage, and networking as an integrated system designed to deliver AI efficiently, at scale, and with measurable ROI. Procurement is now strategy and system design is a leadership issue, McGregor concludes. \u201cOne of the biggest questions every executive has to ask is how is AI going to change my business model?\u201d This content was produced by Insights, MIT Technology Review\u2019s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.5289283118950893
+    },
+    {
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-04T11:54:53",
+      "summary": "<a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;europe&#x2F;openai-agents-hijacked-...</a>",
+      "content": null,
+      "author": "moultano",
+      "score": 2285,
+      "num_comments": 1588,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49563355,
+        "hn_url": "https://news.ycombinator.com/item?id=49563355",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.5166254892671545
+    },
+    {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-01T13:00:00",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "content": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "safety"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.4573710203355655
+    },
+    {
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-08-31T18:00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . By now you\u2019ve probably heard about last month\u2019s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on a test. It\u2019s a wild story. On Wednesday, OpenAI released a postmortem technical report on the incident, which I wrote about here .  The day before OpenAI released that re...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . By now you\u2019ve probably heard about last month\u2019s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on a test. It\u2019s a wild story. On Wednesday, OpenAI released a postmortem technical report on the incident, which I wrote about here .  The day before OpenAI released that report, I spoke with David Krueger, a computer science professor and prominent alignment expert who took leave from the University of Montreal to found and lead an AI safety nonprofit called Evitable. He said what he had really hoped to see in the report was an analysis of the human factors behind the incident. \u201cWhen you look at accidents and incidents, oftentimes people try to find the technical source of failure, but that can give a very inaccurate and misleading sense of why the failure occurred,\u201d he said. \u201cIf people are just cutting corners all the time, if people are not in a culture that prioritizes safety and has appropriate incentives and structures, [accidents] are kind of bound to happen.\u201d The report did not meet Krueger\u2019s hopes. Its 38 pages detail a multi-month progression of agent misbehavior that culminated in the Hugging Face hack, explore the technical reasons why that misbehavior occurred, and enumerate the steps being taken to prevent similar events in the future. But there\u2019s no consideration of the role that company culture may have played in the incident, and the report includes few references to specific human errors.  That\u2019s all the more concerning because the references to human error in the report suggest that significant cultural issues could be at play. Back in May, models in training figured out how to communicate with one another via an improvised message board, and an OpenAI team observed the behavior. Because that behavior occurred during training, the models learned that secret interagent communication was a viable strategy for completing tasks\u2014but rather than restarting the training process, the team allowed the models to move forward with that risky information encoded in their weights. When those models were tested in late June, they again created a message board, which enabled the Hugging Face attack. This message board, too, was discovered, but the employees who responded determined that evaluation could continue, and the report suggests that no one higher up the chain of command realized what was going on until it was far too late. \u201cFor this to have gotten this out of control in this way requires a very long series of failures, a cascading set of failures that cause an increasingly large footprint that if at any point a human notices and raises the alarm, this should end,\u201d says Zvi Mowshowitz, a popular AI safety writer on Substack who has drawn attention to OpenAI\u2019s failure to halt training after the first message board was discovered. According to the report, OpenAI employees noticed what was happening at multiple points\u2014and either failed to raise the alarm or were not heard when they did. What OpenAI\u2019s report fails to address is why a company that develops such high-risk systems did not prevent this severe communication breakdown, though Mowshowitz has his suspicions. \u201cAll these different failures are all pointing in the same direction, which is that the safety culture at OpenAI doesn\u2019t exist or is anemically weak,\u201d he says. Of course, just because we don\u2019t see a deep analysis of safety factors in the report doesn\u2019t mean that OpenAI isn\u2019t conducting one internally. But in an email to MIT Technology Review , Johns Hopkins University professor emeritus and organizational safety expert Kathleen Sutcliffe expressed concern that the public report did not include any reflection on the company\u2019s practices and culture. \u201cThe ways in which people interact\u2014the daily habits, routines, and practices we engage in in our organizational lives\u2014affect our abilities to be alert and aware of unfolding events, our abilities to make sense of what we see, and ultimately our abilities to cope with events as they unfold,\u201d she wrote.  In response to questions about whether and how the company is reflecting on its safety culture, OpenAI referred MIT Technology Review back to the technical report.  We do know that at least some high-level reflection on safety procedures has taken place at OpenAI, because the technical report does make clear that the company is updating its protocols for responding to safety incidents. But culture change is a tricky problem, and without more information from the company, it\u2019s difficult to say whether strengthened response protocols alone will do much to prevent a future crisis. In its report, OpenAI spends a great deal of time reflecting on the failures in alignment between the AI models the company trains and tests and the humans who run them. But even bigger alignment problems may exist in the disconnect between company culture and the public interest. And as tough as technical AI research might be, fixing those problems could prove far harder.",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "the algorithm"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5722222222222222,
+      "final_score": 0.4538888888888889
+    },
+    {
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-07T00:00:00",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "content": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.3743353061294643
+    },
+    {
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-06T09:00:00",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "content": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "safety"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.36094244897916666
+    },
+    {
+      "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+      "url": "https://arxiv.org/abs/2609.05314v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-09-04T16:08:05",
+      "summary": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and March 2026. Each study is classified across five application families and three LLM method families and assessed for evidence realism, deployment readiness, and the responsibility boundary between the LLM and physical HVAC decisions. The corpus is concentrated in building energy modelling (BEM, 32 of 66 papers), while load forecasting remains too sparse for subfield-level conclusions. Only four studies reach pilot-level evidence, and none reports sustained operational deployment. No study was classified as ready-now for industry adoption; three were near-term and 63 research-only. Nevertheless, several bounded, human-in-the-loop uses merit near-term tri...",
+      "content": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and March 2026. Each study is classified across five application families and three LLM method families and assessed for evidence realism, deployment readiness, and the responsibility boundary between the LLM and physical HVAC decisions. The corpus is concentrated in building energy modelling (BEM, 32 of 66 papers), while load forecasting remains too sparse for subfield-level conclusions. Only four studies reach pilot-level evidence, and none reports sustained operational deployment. No study was classified as ready-now for industry adoption; three were near-term and 63 research-only. Nevertheless, several bounded, human-in-the-loop uses merit near-term trials, including point-name normalisation, document-grounded operator support, BEM workflow assistance, and advisory interfaces around physics-based controllers. Conventional machine learning (ML), model predictive control (MPC), reinforcement learning (RL) and ontology-based tools remain more adopted for high-frequency control, short-horizon numerical forecasting, and well-posed ontology mapping, while autonomous agentic operation and unvalidated occupant proxies remain research-stage. Current evidence therefore supports LLMs primarily as semantic and workflow layers rather than autonomous HVAC controllers. Future work should prioritise field-validated benchmarks, orchestration evaluation under operational constraints, and LLM-MPC/RL architectures with bounded latency and verifiable safety properties.",
+      "author": "Alexander Neubauer, Tianzhen Hong, Han Li, Mengbo Yu, Amin Darbandi...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05314v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05314v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "eess.SY"
+        ],
+        "all_authors": [
+          "Alexander Neubauer",
+          "Tianzhen Hong",
+          "Han Li",
+          "Mengbo Yu",
+          "Amin Darbandi",
+          "Yannick F\u00fcrst",
+          "Martin Kriegel"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.34445559395734127
+    },
+    {
+      "title": "A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks",
+      "url": "https://arxiv.org/abs/2609.05400v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-09-04T17:47:28",
+      "summary": "When there is not enough labeled data to properly train deep learning models, transfer learning can help. We still do not fully understand how effective it is in neuroimaging, especially for Alzheimer's disease research. It is also not clear if these transferred models can work on new datasets without being retrained for each specific task. We evaluate whether a compact, supervised pretrained model can serve as a reusable foundation model for downstream neuroimaging tasks. We freeze the 7.18 million weights of a 3D CNN previously trained for brain-age prediction, and adapt it to each task using Low-Rank Adaptation (LoRA), requiring only ~1% additional trainable parameters. We evaluate generalizability in six experiments. Adapting the model to classify cognitively normal versus Dementia on ADNI gave an AUC of 0.964 on held-out folds (Experiment #1). Applying that adapted model unchanged to OASIS-3, with no retraining, gave an AUC of 0.871 (Experiment #2). Reusing its output logit togeth...",
+      "content": "When there is not enough labeled data to properly train deep learning models, transfer learning can help. We still do not fully understand how effective it is in neuroimaging, especially for Alzheimer's disease research. It is also not clear if these transferred models can work on new datasets without being retrained for each specific task. We evaluate whether a compact, supervised pretrained model can serve as a reusable foundation model for downstream neuroimaging tasks. We freeze the 7.18 million weights of a 3D CNN previously trained for brain-age prediction, and adapt it to each task using Low-Rank Adaptation (LoRA), requiring only ~1% additional trainable parameters. We evaluate generalizability in six experiments. Adapting the model to classify cognitively normal versus Dementia on ADNI gave an AUC of 0.964 on held-out folds (Experiment #1). Applying that adapted model unchanged to OASIS-3, with no retraining, gave an AUC of 0.871 (Experiment #2). Reusing its output logit together with age and a cognitive score distinguished stable from progressing MCI with an AUC of 0.828 (Experiment #3). Adapting the same backbone to predict amyloid positivity from structural MRI gave an AUC of 0.804 (Experiment #4). Finally, the same approach estimated ICV-normalized hippocampal and white matter hypointensity volumes directly from the T1w image, with R^2 of 0.80 and 0.91 respectively, tasks normally addressed with much larger U-Net networks (Experiments #5 and #6). A compact model supervised on brain age can therefore serve as a reusable backbone, adapting to each task with ~1% additional parameters and transferring to an unseen cohort without any training. Our findings suggest that a carefully trained brain age model can serve as an effective foundation model for Alzheimer's related tasks, even under strict data constraints.",
+      "author": "Reza Rajabli, D. Louis Collins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05400v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05400v1.pdf",
+        "categories": [
+          "cs.CV",
+          "q-bio.QM"
+        ],
+        "all_authors": [
+          "Reza Rajabli",
+          "D. Louis Collins"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.08148148148148147,
+      "final_score": 0.34297154958292
+    },
+    {
+      "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
+      "url": "https://arxiv.org/abs/2609.05396v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-09-04T17:44:54",
+      "summary": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenged by significant measurement and labeling costs. Traditional methods for synthesizing labeled wireless signals typically rely on environmental models, leading to extensive hyper-parameter tuning and inadequate realism for comprehensive model training purposes. To address these limitations, we introduce a novel deep learning (DL)-based method, namely Inter-Instance Generative Adversarial Networks (IIns-GAN), to generate realistic labeled wireless signals. The generated signals are particularly adaptive to different environment scenarios and well-suited for various model training tasks, including distance estimation and environment identification. We have conducted extensive experiments on public Ultra-Wideband (UWB) datasets to evaluate the realism and utility of the generated signals. The ...",
+      "content": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenged by significant measurement and labeling costs. Traditional methods for synthesizing labeled wireless signals typically rely on environmental models, leading to extensive hyper-parameter tuning and inadequate realism for comprehensive model training purposes. To address these limitations, we introduce a novel deep learning (DL)-based method, namely Inter-Instance Generative Adversarial Networks (IIns-GAN), to generate realistic labeled wireless signals. The generated signals are particularly adaptive to different environment scenarios and well-suited for various model training tasks, including distance estimation and environment identification. We have conducted extensive experiments on public Ultra-Wideband (UWB) datasets to evaluate the realism and utility of the generated signals. The results demonstrate that the signals generated by IIns-GAN mirror the physical characteristics of real-world measurements, and significantly contribute to the improvement of model training in diverse wireless sensing tasks.",
+      "author": "Yuxiao Li, Keke Hu, Santiago Mazuelas, Yuan Shen",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.05396v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.05396v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yuxiao Li",
+          "Keke Hu",
+          "Santiago Mazuelas",
+          "Yuan Shen"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07592592592592592,
+      "final_score": 0.340711133286293
+    }
+  ],
+  "summary": {
+    "sources": 8,
+    "top_source": "OpenAI Blog",
+    "date_range": {
+      "start": "2026-08-31T18:00:00",
+      "end": "2026-09-07T00:00:00"
+    }
+  }
+}
