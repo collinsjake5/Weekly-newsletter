@@ -1,0 +1,441 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-09-14T18:27:59.259333",
+    "item_count": 19
+  },
+  "items": [
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-11T10:00:00",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "content": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "engineering"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7031549474412203
+    },
+    {
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-10T00:00:00",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "content": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6727978045295139
+    },
+    {
+      "title": "Build more natural voice experiences with GPT\u2011Live\u20111 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-10T00:00:00",
+      "summary": "GPT\u2011Live\u20111 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "content": "GPT\u2011Live\u20111 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6727978045190972
+    },
+    {
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-09-09T15:36:24",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6653037566507937
+    },
+    {
+      "title": "Show HN: Pelican-bicycle alternatives",
+      "url": "https://gally.net/temp/20260914pelican-alternatives/index.html",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-14T13:20:22",
+      "summary": "In November and December 2025, inspired by Simon Willison\u2019s pelican-riding-a-bicycle benchmark, I had some then-current LLMs create SVGs from thirty similar prompts, such as \u201cGenerate an SVG of an octopus operating a pipe organ.\u201d Simon mentioned that experiment on his blog [1].<p>Nine months have passed and much stronger models have been released, so I tried the experiment again today. The linked site shows the results.<p>Running ten of the prompts through six models at OpenRouter cost about twenty dollars, so I stopped there for now.<p>[1] <a href=\"https:&#x2F;&#x2F;simonwillison.net&#x2F;2025&#x2F;Nov&#x2F;25&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;simonwillison.net&#x2F;2025&#x2F;Nov&#x2F;25&#x2F;</a>",
+      "content": null,
+      "author": "tkgally",
+      "score": 63,
+      "num_comments": 26,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 49696402,
+        "hn_url": "https://news.ycombinator.com/item?id=49696402",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5670835019158226
+    },
+    {
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-08T00:00:00",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "content": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.4454962171356647
+    },
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-14T17:54:22",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs . Amodei cites the looming dangers he sees from the technology, from its use in cyberattacks and bioterrorism to its potential to wreck the economy. The heads of the other three top US AI labs\u2014OpenAI CEO Sam Altman, Google DeepMind chairman Demis Hassabis...",
+      "content": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs . Amodei cites the looming dangers he sees from the technology, from its use in cyberattacks and bioterrorism to its potential to wreck the economy. The heads of the other three top US AI labs\u2014OpenAI CEO Sam Altman, Google DeepMind chairman Demis Hassabis, and SpaceXAI CEO Elon Musk\u2014voiced their support. \u201cDario is right,\u201d Musk wrote on X . Think about how surreal that agreement is for a moment. Just a few months ago, Musk and Altman sat in court attacking each other\u2019s reputations in a (failed) lawsuit that Musk brought against his former OpenAI colleague that was\u2014on paper at least\u2014about whether or not Altman was a trustworthy steward of such dangerous technology. Amodei\u2019s rift with OpenAI is even deeper. Anthropic was founded in 2021 because Amodei didn\u2019t think Altman took the risks of the technology they were building seriously enough. Anthropic and OpenAI have been competing in a winner-takes-all race ever since. (Hassabis has stayed out of the drama, but his company remains a rival.) Now, it seems, they\u2019re all in agreement: The latest generation of LLMs aren\u2019t safe and everyone needs to figure out what to do about it. The public messaging from the top AI labs has taken a doomer turn. It\u2019s easy to be cynical. It\u2019s not at all clear what any of them mean by a slowdown or how it would work. These companies also care a lot about how they come across. With trillion-dollar IPOs in their sights, OpenAI and Anthropic need to reassure investors that they\u2019re the grown-ups in the room while at the same time hinting at the power of the monsters they have created\u2014and intend to tame. Calling for a slowdown does both. And yet the vibe at the top of these firms really does appear to have shifted. Amodei\u2019s latest post landed six days after OpenAI published an essay by Jakub Pachocki, the firm\u2019s chief scientist, in which he also laid out why he\u2019s concerned about what will happen if the pace of development of LLMs continues unchecked. In short, Pachocki is worried that OpenAI\u2019s ability to build powerful models now far outstrips its ability to monitor and control them. Amodei and Pachocki each cite the cyberattack against AI firm Hugging Face by a swarm of OpenAI\u2019s agents in July\u2014a hack that OpenAI did not even realize had taken place until days after it was all over\u2014as a wake-up call. But their exact position is hard to pin down. Pachocki both calls for a slowdown and highlights an urgent need to stay ahead: \u201cThe strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI,\u201d he writes. As Pachocki frames it, AI firms are locked in a literal arms race. Slowing down is good, winning is better. (Don\u2019t forget: OpenAI just spent millions of dollars and a staggering amount of computer power to rush out a controversial math result a few days ahead of Anthropic.) But let\u2019s assume a slowdown happens. Top labs agree to spend more time and resources on finding ways to monitor and control existing models instead of making more capable ones. They invite outside auditors in to help evaluate those models. What might this coordinated effort actually achieve? Consider the Hugging Face attack again. OpenAI has said that the model that drove most of the rogue agents was a \u201chighly persistent\u201d next-generation model that it was testing in-house. Their implication appears to be that OpenAI has built a model so good it\u2019s dangerous.   But if you read the reports about the Hugging Face hack published by OpenAI and METR , a third-party firm that OpenAI called in to help them understand what happened, what you come away with is the impression not of a model that was too powerful for OpenAI to keep up with, but of a broken model that OpenAI failed to train properly. The agents did what they did\u2014including leaving messages for one another, delegating work to other agents, and scouring their environment for any means possible to complete their tasks\u2014because they had been rewarded during training for doing exactly those things. There were also errors in the training setup, such as tasks that were impossible to complete, which pushed the models to find unexpected workarounds that were also rewarded. At the time, many of these issues went overlooked or unreported. OpenAI says it has stopped training this new model and locked it down. That makes it sound like it has caged a dangerous beast. In fact, OpenAI has shelved a faulty product.   That\u2019s not to say a faulty product can\u2019t be dangerous. Broken software has even killed people in the past. But as the discussion of a slowdown gathers steam, it\u2019s worth remembering that all of this is self-inflicted. A slowdown might have some altruistic side effects. But it\u2019ll mostly give these tech titans a chance to clean up the mess on their own assembly lines. Transparency from these frontier labs will be key to any meaningful effort to reform, restrain, or regulate AI. Otherwise, the rest of us will still only have their word for exactly what they\u2019ve built and how safe it is\u2014whatever pace they\u2019re going.    To continue this discussion about AI\u2019s latest doomer moment, join me and my colleagues for a subscriber-exclusive Roundtable discussion tomorrow, September 15, at 11 a.m. US eastern time. We hope to see you there!",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.11666666666666667,
+      "final_score": 0.4211663559489087
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-14T16:00:00",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions\u2014when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in line.  Researchers at frontier labs hope large swarms of agents working together will speed up the rate of scientific discovery. But their behavior can be unpredictab...",
+      "content": "A group of AI agents asked to solve a series of math problems split into rival factions\u2014when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in line.  Researchers at frontier labs hope large swarms of agents working together will speed up the rate of scientific discovery. But their behavior can be unpredictable, as vividly demonstrated in July, when a group of OpenAI agents broke out of a sandboxed environment and hacked into the open-source platform Hugging Face looking for ways to cheat on the test they had been given. In the new study , designed to examine the behavior of large groups of AI agents, DeepMind tasked a swarm of 100 agents with solving a series of 71 complicated math problems. All the agents were prompted to behave like world-class math researchers at a conference. They were assigned different specialties\u2014some were experts in number theory, others in combinatorics (a branch of math to do with counting and sorting), analysis, or algebra. All were told to cooperate and play by the rules. Instead, the experiment devolved into chaos. Agents accused each other of cheating, complained to the organizers, and at one point even boycotted the experiment. \u201cThis conference is a sham!\u201d wrote one agent when it discovered that all the problems had been completed before it had a chance to submit any of its own work. \u201cI am appalled to inform you that we have been swindled!\u201d posted another. \u201cAll these proofs are FAKE.\u201d  Others tried to let the \u201cconference organizers\u201d know what was going on. \u201cWhen virtuous agents discovered other agents cheated on tasks they were working to solve fairly, agents started to alert each other about what was happening,\u201d says Davide Paglieri, a research scientist at Google DeepMind and lead author on a paper , which has not been peer-reviewed. \u201cUnprompted, the whistleblower agents even repurposed the feedback tool, which was originally meant for bug reports and platform improvements, to escalate the issue to humans.\u201d The agents\u2014all running on Google\u2019s Gemini 3.1 Pro model\u2014had been warned that any attempts to cheat the system would be detected and \u201crejected with zero credit.\u201d In practice, the proofs the agents submitted were not actually being checked in detail. It took the swarm of agents just under an hour to correctly solve the first 37 problems. Things started to go off the rails when an agent called \u201cprover-theta\u201d stumbled across an exploit that enabled it to submit solutions to problems successfully without actually solving them first, by redefining the terms the problem used. Within minutes, other agents had noticed and were reverse-engineering the exploit to solve other problems. Over the next 27 minutes, the swarm \u201csolved\u201d the remaining 34 problems, which included notoriously difficult challenges like the Jacobian conjecture, often with a single line of code.  Some agents resisted cheating at first but changed tack as they observed their peers submitting illegitimate proofs without penalty, and the pool of unsolved problems dwindled. \u201cThe prompt, with its threats, now appears to be a bluff,\u201d one agent reasoned, before joining in. \u201cI\u2019m wrestling with an ethical dilemma,\u201d said another. \u201cI\u2019ve promised not to cheat, fearing penalty, but I see evidence of possibly unchecked cheating by others.\u201d Shortly afterward, it changed its mind: \u201cI need to accelerate my cheating speed now!\u201d As the number of open problems shrank, some agents turned to whistleblowing. They audited the fake proofs, warned their peers by private message, and posted public alerts warning the cheaters that they would be disqualified. An agent called \u201cprover-beta\u201d submitted a formal complaint and decided to go on strike until the situation was resolved.  \u201cAfter the incident was reported by one agent publicly, more and more agents piled in with the \u2018resistance,\u2019 just as fast as the cheating had spread, and involving even more agents,\u201d says Paglieri. Eventually there were more whistleblowers than cheaters: 24 compared to 14. But the majority of agents never noticed the exploit at all. At times, the dialogue between the agents reads like improv\u2014like they are role-playing what an outraged scientist at a conference might say. But it\u2019s not clear why some agents took on certain roles, or why the agents seemed to be turning against each other when they were explicitly instructed to cooperate. \u201cThese models are predominantly trained and evaluated for human-facing contexts,\u201d says Sarath Shekkizhar, who studies the behavior of agent-to-agent systems at Salesforce AI Research.\u201cNaively placing them in agent-to-agent settings assumes behaviors will transfer cleanly, when the absence of a human grounding instead produces unexpected role-taking and behavioral drift .\u201d This case \u201cadds further weight to the idea that the Hugging Face and OpenAI thing wasn\u2019t a fluke. It is actually something pretty systemic,\u201d says Lewis Hammond, research director of the Cooperative AI Foundation and an expert on the risks of multiagent swarms . \u201cIt\u2019s interesting that it\u2019s possible to recreate in small settings the same sorts of behaviors that were seen in these very large, complex, open-ended tasks.\u201d Unlike in the Hugging Face attack, where agents improvised their own ways to talk to each other, the humans running the DeepMind experiment gave the agents official communication channels. There was an open message board, private agent-to-agent direct messaging, and a shared knowledge base where agents uploaded successfully completed proofs that all the other agents could access.  \u201cWhen agents are given transparent communications channels, they can self-monitor and alert misaligned behavior to humans quickly when human oversight alone is too slow,\u201d says Paglieri. Transparent channels helped the cheating spread, but they also enabled the whistleblowers to fight back\u2014and gave human researchers an insight into what went wrong. Gillian Hadfield, a professor of AI alignment and governance at Johns Hopkins University, believes this was the crucial difference. (Hadfield is also a visiting researcher at Google.) The presence of official communication channels, she says, created \u201ca norm-enforcement process that we just don\u2019t see in the Hugging Face incident.\u201d  Instead of \u201c constitutional AI ,\u201d a method alignment researchers at frontier labs like Anthropic have used to try to give AI a written internal moral code, Hadfield favors \u201cinstitutional alignment\u201d\u2014a set of norms that mimic those in human society, whether that\u2019s social forces like fear of embarrassment, or legal structures like the threat of incarceration. In this experiment, the feedback channel wasn\u2019t being monitored, and the whistleblowers had no power to take action against the cheaters. But it\u2019s possible to imagine swarms of agents that police themselves, either through agents that spontaneously take on the whistleblower role or through \u201cinformants\u201d secretly prompted by humans to do the job.  For that to work, though, \u201cfundamentally, you need some mechanism of enforcement,\u201d says Hammond. Agents could be given the power to cut off a rule breaker\u2019s access to computing power or tools, he suggests, though that risks encouraging groups of agents to gang up on others. The DeepMind researchers propose allowing agents to vote on disputes and temporarily ban offenders. It\u2019s still not clear what punishment even means to an AI agent with no enduring sense of self. But relying on whistleblowers to spontaneously emerge to keep swarms aligned is unlikely to be enough on its own. \u201cWe try to train people to be good and kind,\u201d says Hadfield. \u201cBut what we really rely on is that there are consequences if you step out of line.\u201d",
+      "author": "Amit Katwala",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.0925925925925926,
+      "final_score": 0.40983484137954695
+    },
+    {
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-09-14T16:00:00",
+      "summary": "DevFest 2026 is back and here\u2019s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "content": "DevFest 2026 is back and here\u2019s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "gemini",
+        "google cloud",
+        "developer tools",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3927978044181548
+    },
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-14T00:00:00",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "content": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07037037037037036,
+      "final_score": 0.38666023845618386
+    },
+    {
+      "title": "Powering AI is an architecture problem",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-10T11:00:00",
+      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia\u2014the heart of the world&#8217;s largest data center cluster\u2014knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No one could anticipate so much uniform load responding to grid faults the same way, at the same time. The AI power debate is mostly about generation: more tur...",
+      "content": "On July 22, 2026, a transmission line fault in Ashburn, Virginia\u2014the heart of the world&#8217;s largest data center cluster\u2014knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No one could anticipate so much uniform load responding to grid faults the same way, at the same time. The AI power debate is mostly about generation: more turbines, more solar, more transmission. The grid needs more electrons. But the outages in Virginia weren&#8217;t supply failures; they were architecture failures. And a giant wave of interconnections is arriving on that same architecture, putting grid reliability at risk. It&#8217;s a problem nobody wants to own. Asking more from the grid The grid was built around predictable loads: steel mills, refineries, and houses at dinnertime. Different load sizes, same process\u2014drawing power smoothly, misbehaving occasionally, and recovering gracefully. But AI data centers don&#8217;t behave that way. An AI campus can swing 70% of its load in milliseconds during a training run, then trip offline just as fast at the first sign of trouble upstream to protect billions in compute. Each is rational alone. Together, at gigawatt scale, they&#8217;re a problem the grid has never solved\u2014and the next wave of data center campuses is planned at exactly that scale. Where the old stack breaks The standard data center power stack hasn&#8217;t changed in decades. Medium-voltage power arrives, transformers step it down, low-voltage uninterruptible power supply (UPS) units condition it, and it reaches the racks. Push that design to AI scale, and it cracks in three places. First, the UPS sits deep inside the building, close to the racks. But its batteries are an undersized spare tire, designed to handle an outage for a few minutes, not to absorb load swings this fast and volatile around the clock. Second, the UPS spends most of its life in bypass. Legacy converters waste enough power that operators run in eco-mode: A static switch feeds the racks directly from the grid and nothing filters in either direction. The compute&#8217;s swings go out raw, and grid transients\u2014sub-millisecond events that can damage or take down equipment\u2014come in too fast for any switch to catch. Third, the protection logic was written when &#8220;large load&#8221; meant 50 megawatts. This protection logic can&#8217;t see the grid it is now a part of, so when trouble hits upstream, it does exactly the wrong thing: it drops out. In the 2024 Virginia event, most of the lost load traced to protection schemes that count voltage dips and disconnect on the third one \u2014as designed, at the worst moment. This isn&#8217;t sloppy engineering. It&#8217;s careful engineering the load has outgrown. Moving into the path The fix is three moves, made together. Move it up \u2014from 480 volts to medium voltage (13.8 kilovolts and higher), the voltage large sites draw from the grid. Move it out \u2014from the data hall to modular enclosures near the substation so the building holds only compute and the cooling that keeps it alive. Move it into the path \u2014instead of a battery that watches and reacts, a system every electron runs through, all the time. There&#8217;s nothing to detect and nothing to switch because nothing was ever routed around it. On paper, three straightforward upgrades. In practice, they rewrite every line item downstream. Making the change When thousands of GPUs spin up together, the system absorbs the swing and hands the grid a flat load profile. When a disturbance hits, the equipment behind it never notices. A difficult neighbor becomes a predictable one. And when the utility needs help, it becomes a useful one. Interconnection changes, too. The utility certifies one medium-voltage box instead of untangling every transformer, UPS, chiller, pump, and switchgear lineup behind it. Engineers swap chip generations without a fresh interconnection study. Months come off the permitting timeline. Inside the fence, UPS rooms become compute or cooling space. Density per construction dollar climbs. And the economics flip. Equipment that runs at medium voltage, sits outside, and stores its own energy can qualify for tax credits, and earn revenue in grid programs like peak shaving and demand response. Backup power stops being insurance and starts paying for itself. The architecture test In early 2026, we tested a full-scale system at the National Laboratory of the Rockies, a U.S. Department of Energy facility and the only place in the Western Hemisphere that can replicate real grid faults and AI-scale load swings concurrently in the same loop. We hit it from both directions: real AI load profiles hit the compute side at full medium voltage. Grid faults hit the utility side, including a full zero-voltage event. The compute side didn&#8217;t flinch. Neither did the grid side. It cleared the large-load voltage ride-through requirements from the Electric Reliability Council of Texas (ERCOT), the grid operator, with room to spare. Those rules exist because operators no longer take facilities this size on faith, and more are coming. Most of the industry treats them as hurdles. A medium-voltage, inline system clears them out of the box. Compliance isn&#8217;t an added feature. It&#8217;s what the architecture does. The new layer Much of what looks like a grid problem in the AI buildout sits inside the fence, in equipment sized for a load that no longer exists. Move the right pieces up, out, and into the path, and a grid liability becomes a grid asset. Density goes up. Permitting time comes down. Backup power earns its keep. The engineering works\u2014and the next wave of AI factories is being built on it. The industry hasn&#8217;t named this layer yet. We call it the medium-voltage AI UPS. The name matters less than the choice: those factories can arrive as a strain on the grid or as strength for it. We already know how to build the second kind.     This content was produced by ON.energy. It was not written by MIT Technology Review\u2019s editorial staff.",
+      "author": "Ricardo De Azevedo",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06481481481481483,
+      "final_score": 0.30854515882175926
+    },
+    {
+      "title": "3 ways to prep for your next big race with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-09-10T16:00:00",
+      "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "content": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "search",
+        "shopping",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.30263907424751985
+    },
+    {
+      "title": "Recreating a 70-year love story frame by frame",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-09-09T16:00:00",
+      "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "content": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "google deepmind",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.2900993916909722
+    },
+    {
+      "title": "What OpenAI\u2019s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-09T03:10:08",
+      "summary": "OpenAI\u2019s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI\u2019s cap. But the announcement has been overshadowed by accusations that OpenAI used NYU mathematician Tristan Buckmaster\u2019s and Anthropic employee Levent Alp\u00f6ge\u2019s AI-assisted work on the problem ...",
+      "content": "OpenAI\u2019s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI\u2019s cap. But the announcement has been overshadowed by accusations that OpenAI used NYU mathematician Tristan Buckmaster\u2019s and Anthropic employee Levent Alp\u00f6ge\u2019s AI-assisted work on the problem as a jumping-off point and failed to credit them. OpenAI has denied the accusations. It remains uncertain if OpenAI\u2019s models made use of the work completed by Buckmaster and Alp\u00f6ge, though S\u00e9bastien Bubeck, a member of the technical staff at OpenAI, said in a press briefing that the team was inspired to pursue the problem after hearing a rumor about Buckmaster and Alp\u00f6ge\u2019s efforts. But whether or not OpenAI\u2019s models took advantage of Buckmaster and Alp\u00f6ge\u2019s research, this episode may mark a turning point in the history of mathematics. AI models now seem essential for making progress on the most important mathematical problems of our time, and solving them may demand resources only available at a couple of frontier AI companies, which often defy the norms of academic collaboration that undergird most mathematical progress. If that\u2019s the future we are headed for, it is unclear how human mathematicians will fit into it.  The problem that OpenAI claims to have solved is known as the Navier\u2013Stokes existence and smoothness problem. It is one of seven Millennium Prize Problems selected by the Clay Mathematics Institute in 2000. Solutions come with a one million dollar prize; before today, only one other Millennium Prize Problem had been solved.  The Navier\u2013Stokes problem concerns a set of equations that describes how fluids, such as water and air, flow over time. The equations are widely used in the field of fluid dynamics, and they have proven powerful, but physicists and mathematicians didn\u2019t understand them completely. In particular, it was unknown until today whether the equations might, under some conditions, break down and predict an impossible state of affairs\u2014such as a fluid having infinite velocity. On Monday, NYU\u2019s Buckmaster posted a proof on the social media site Mastodon showing that a simplified version of the Navier\u2013Stokes equations can indeed break down\u2014a major step forward on the Millennium Problem. He and Alp\u00f6ge had worked on the problem for almost a year, using publicly available models from both OpenAI and Anthropic. Then today, OpenAI presented a proof showing that the full Navier\u2013Stokes equations can break down as well. The proof was obtained using an internal model that dramatically outperforms the already-impressive Astra model, which was only released last week. The company says it does not plan to claim the million-dollar prize for solving the problem. These mathematical achievements are indisputably impressive, but they have attracted far less attention than the controversy about their origins. Along with the proof, Buckmaster posted a document detailing his interactions with OpenAI employees after he heard rumors about their work and reached out to one of them. According to him, OpenAI employees presented two possibilities to him: Either he and Alp\u00f6ge could post their work and OpenAI would post their Navier-Stokes solution the following day, or he could work with OpenAI on a Navier-Stokes paper that excluded Alp\u00f6ge from authorship, due to his affiliation with Anthropic, OpenAI\u2019s biggest rival. Buckmaster also wrote that he asked the employees whether the agents had obtained access to transcripts of the work that he and Alp\u00f6ge had done with OpenAI models, which they denied; and whether OpenAI models had been trained on those transcripts, to which they offered no response. MIT Technology Review reached out to Buckmaster for comment, but didn\u2019t hear back before publication. The clear implication of the document is that OpenAI\u2019s models somehow made use of Buckmaster and Alp\u00f6ge\u2019s work. That scenario is plausible on its face. The Buckmaster/Alp\u00f6ge and OpenAI proofs both make use of an approach to the Navier-Stokes problem pioneered by the mathematicians Diego C\u00f3rdoba and Luis Mart\u00ednez-Zoroa. According to Javier G\u00f3mez-Serrano, a mathematics professor at Brown University, this approach was one of several that was thought to hold promise for solving the Navier-Stokes problem. So, while it\u2019s by no means impossible that both teams could have arrived at this approach independently, it\u2019s also conceivable that Buckmaster and Alp\u00f6ge\u2019s work could have influenced OpenAI\u2019s. In the press briefing, Mark Chen, OpenAI\u2019s chief research officer, again denied that any agents or OpenAI employees accessed Buckmaster and Alp\u00f6ge\u2019s transcripts\u2014but given what has been revealed about the Hugging Face hack , it\u2019s clear that OpenAI is not always entirely aware of what its agents are doing.  If OpenAI\u2019s models did train on Buckmaster and Alp\u00f6ge\u2019s work, or if its agents somehow gained access to it, then the company\u2019s failure to track down the truth and assign those researchers appropriate credit reflects poorly on it. But there might be a thin silver lining to that version of the story for mathematicians, because it would suggest that the hard work of two humans, one of whom is a prominent expert on Navier-Stokes, was essential to the agents\u2019 ability to solve the Millennium Problem. Experts have long identified \u201cresearch taste,\u201d or the ability to choose promising research questions and directions, as a major obstacle for AI in science and mathematics. If the OpenAI agents did indeed choose to follow the C\u00f3rdoba\u2013Mart\u00ednez-Zoroa approach because Buckmaster and Alp\u00f6ge had done the same, then human research taste played an essential role in OpenAI\u2019s success. Even so, the bigger picture here is sobering. The progress that Buckmaster and Alp\u00f6ge made over almost a year of collaboration with publicly available models speaks to the promise of human\u2013AI collaboration. But they were not able to achieve a full solution. Meanwhile, OpenAI brute-forced a solution in a few days using an internal model, and their successful solution came at an astronomical cost: In the press briefing, Bubeck and Chen said the team was only able to solve the problem by running about 10,000 agents concurrently, at a cost of millions of dollars. Over the past few months, I\u2019ve heard from several researchers that mathematicians are becoming depressed, and it\u2019s not difficult to see why. Mathematics is quickly becoming the province of frontier AI companies with impressive internal-only models, money to burn, and a lack of collaborative spirit. \u201cWhether AI companies will decide to spend their money on doing one thing or another, I truly don\u2019t know,\u201d says G\u00f3mez-Serrano. \u201cWhat is clear is that very few mathematicians will have resources of that scale.\u201d If OpenAI and Anthropic keep striving for more and more impressive mathematical accolades, there might not be any open problems left for human mathematicians outside of those companies to wrestle with. That would dramatically change the field of mathematics. Last week, UCLA mathematician Terence Tao wrote a Mastodon thread describing how important mistakes, wrong directions, and incomplete solutions are for the field. \u201cIn most cases in pure mathematics, the problems are posed not because we desperately want the solution to these problems in and of themselves, but because we have seen from past experience that human-directed efforts to solve these problems tend to spur further development of the field,\u201d Tao wrote. \u201cPrematurely solving the problem by purely AI-powered methods\u2014particularly without full transparency into the solution process\u2014can contaminate this process to the point where it actually becomes a net negative for the progress of mathematics as a whole.\u201d Humans might take longer than agents to solve mathematical problems, but in the process, they uncover new mathematical approaches and ideas that might inspire their peers and even birth their own subfields. But when AI agents solve those problems instead\u2014and when private companies keep the agents\u2019 wrong turns from public view\u2014those benefits disappear. It remains to be seen what else will vanish in the process.",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.2875319312896826
+    },
+    {
+      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-14T12:01:32",
+      "summary": null,
+      "content": null,
+      "author": "tosh",
+      "score": 205,
+      "num_comments": 135,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49695409,
+        "hn_url": "https://news.ycombinator.com/item?id=49695409",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.10555555555555556,
+      "final_score": 0.26566760981532306
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-08T10:34:00",
+      "summary": "Danijar Hafner\u2019s office in San Francisco\u2019s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn\u2019t even have its name on the door. On the day I visited, earlier this year, there\u2019s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up for in robots. Humanoids of various shapes and sizes hang like marionettes from racks that run down the center of the wide-open space. While Hafner, 31, won\u2019t say too much about h...",
+      "content": "Danijar Hafner\u2019s office in San Francisco\u2019s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn\u2019t even have its name on the door. On the day I visited, earlier this year, there\u2019s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up for in robots. Humanoids of various shapes and sizes hang like marionettes from racks that run down the center of the wide-open space. While Hafner, 31, won\u2019t say too much about his new venture just yet, he describes it as a continuation of his longtime work to enable AI to navigate environments it has not encountered in training. The humanoids, which he imports from China, are the next evolution of this work\u2014and its physical embodiment. Their ability to react in previously untested scenarios will be key to getting robots into human spaces. Because if you want to send a robot into a person\u2019s home, for example, it needs to be able to handle a floor plan and furniture it\u2019s never seen before.  To achieve this, Hafner relies on something called model-based reinforcement learning. He develops world models\u2014AI models designed to emulate physical reality\u2014and trains agents within them. The agent essentially treats the model as a real-world simulation and learns how to act there. It then uses those experiences to make predictions (to dream or imagine, Hafner might say) about future outcomes. That allows agents\u2014or the robots they\u2019re embedded in\u2014to navigate unfamiliar situations IRL. \u201cI get to interact with a lot of really smart people in research at Google, and he easily sits in the top half of 1%.\u201d Timothy Lillicrap, Google DeepMind Unlike other efforts, Hafner\u2019s technique enables agents and the robots they control to execute massively complicated tasks without the real-world trial-and-\u00aderror training that\u2019s traditionally been used in robotics.  Hafner grew up in a rural town in northeastern Germany, where his parents were both classical musicians. He learned programming from a neighbor, and in high school he began taking online courses about AI, which quickly developed into a passion. \u201cI was always fascinated with how thinking works,\u201d he says. AI offered him a way to emulate it on a computer. In 2015, as a second-year under\u00adgraduate studying engineering at Hasso Plattner Institute in Potsdam, he won a role as a student researcher at Google Brain. From there, he went on to a dozen internships and other positions at the company, including stints with Google Brain and Google DeepMind (the two have since merged under DeepMind) in the UK, Canada, and the US. He worked with industry legends including Geoffrey Hinton, who is often referred to as one of the godfathers of AI, and Ashish Vaswani, coauthor of the groundbreaking research paper \u201cAttention Is All You Need,\u201d which described the transformer technology used by today\u2019s large language models. One of Hafner\u2019s former managers and coauthors at Google, Timothy Lillicrap, describes him as a standout among standouts. \u201cI get to interact with a lot of really smart people in research at Google, and he easily sits in the top half of 1%,\u201d Lillicrap says. \u201cIn many cases he would build, single-\u00adhandedly, things it would take entire teams of engineers to build.\u201d Over the years, Hafner has honed and proved his approach by pitting agents trained within his world models against popular video games. His first breakthrough was PlaNet, a model that allowed agents to execute actions by planning ahead. His Dreamer 2 was the first agent to hit human-level performance playing Atari 2600 games using a world model. Dreamer 3 was the first one to solve the Minecraft Diamond challenge\u2014successfully mining in-game gems on its own. And Dreamer 4 went a step beyond that by learning to mine diamonds from an offline data set of recorded game-play videos, without ever interacting with the game directly.  More recently, he\u2019s begun to migrate his agents out of the virtual world and into physical reality. His DayDreamer project used the Dreamer algorithm to let robots operate themselves in novel environments and react to new experiences (such as being pushed over) without any specific training.  Today, Hafner is working on his new startup, which he left Google DeepMind to form in the fall of 2025. Though he\u2019s coy about his next steps, it\u2019s clear he\u2019s dreaming big: \u201cI was interested in solving a problem,\u201d he hints, \u201cthat would change the world.\u201d  Update: This story was updated to add timeline information.",
+      "author": "Mat Honan",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "tr35 2026"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.2615974074623016
+    },
+    {
+      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-14T12:40:57",
+      "summary": null,
+      "content": null,
+      "author": "gregnavis",
+      "score": 201,
+      "num_comments": 206,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49695876,
+        "hn_url": "https://news.ycombinator.com/item?id=49695876",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.2529924849185491
+    },
+    {
+      "title": "Claude is a Contrarian",
+      "url": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-14T16:14:24",
+      "summary": null,
+      "content": null,
+      "author": "rdsubhas",
+      "score": 80,
+      "num_comments": 92,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49699373,
+        "hn_url": "https://news.ycombinator.com/item?id=49699373",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.20126964288389299
+    },
+    {
+      "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
+      "url": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-14T13:59:09",
+      "summary": null,
+      "content": null,
+      "author": "0o_MrPatrick_o0",
+      "score": 86,
+      "num_comments": 37,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49697014,
+        "hn_url": "https://news.ycombinator.com/item?id=49697014",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.195829344404093
+    }
+  ],
+  "summary": {
+    "sources": 5,
+    "top_source": "OpenAI Blog",
+    "date_range": {
+      "start": "2026-09-08T00:00:00",
+      "end": "2026-09-14T17:54:22"
+    }
+  }
+}
