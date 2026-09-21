@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 39</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 39 | September 21, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>OpenAI Blog</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2609.22069v1" target="_blank">OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Sep 18
+                    
+                </div>
+                <p class="story-summary">Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation. However, existing benchmarks fall short of these emerging capabilities: their te...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2609.22064v1" target="_blank">BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.LG] | Sep 18
+                    
+                </div>
+                <p class="story-summary">Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2609.22055v1" target="_blank">Benchmarking World Models for Continual Learning on Compositional Tasks</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.LG] | Sep 18
+                    
+                </div>
+                <p class="story-summary">A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse knowledge obtained from prior ex...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2609.22038v1" target="_blank">QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CL] | Sep 18
+                    
+                </div>
+                <p class="story-summary">We introduce QuranicMMLU, a benchmark for evaluating generative AI on Quranic Arabic across multiple dimensions of linguistic complexity. Existing Quranic benchmarks center on general question answering and semantic retrieval, without probing specifi...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://bartosz.fenski.pl/modern-fs-benchmark/" target="_blank">Btrfs/ZFS/bcachefs under workloads classic benchmarks skip</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Sep 19
+                     | ⬆️ 174 | 💬 182
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.22040v1" target="_blank">PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models</a></div>
+                <div class="paper-author">Erik Deinzer, Naya Baslan, Luca Paparusso, Narunas Vaskevicius, Peter Knott...</div>
+                <div class="paper-summary">Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures main...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.22083v1" target="_blank">MintAct: A Unified Visual Agent for Digital Environments</a></div>
+                <div class="paper-author">Mingfei Gao, Rui Tian, Haiming Gang, Bohan Zhai, Le Zhang...</div>
+                <div class="paper-summary">We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through ...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.22053v1" target="_blank">Particle Competition and Cooperation for Robust Graph Convolutional Network Learning Under Label Noise</a></div>
+                <div class="paper-author">Fabricio Breve</div>
+                <div class="paper-summary">Graph Convolutional Networks (GCNs) are highly sensitive to label noise, since corrupted supervision can propagate through the graph and degrade learned node representations. This work proposes PCC+GC...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.22043v1" target="_blank">An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency</a></div>
+                <div class="paper-author">Yiming Zhang, Jinghong Zhang, Haoran Zhao, Yiren Ma, Chunlei Zhao</div>
+                <div class="paper-summary">Memory systems for large language models have focused predominantly on efficient retrieval, whereas the decision of whether retrieved memories should be trusted has received comparatively little atten...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.22086v1" target="_blank">Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design</a></div>
+                <div class="paper-author">Hongyang Du, Lan Yan, Christian Flores, Asim Kadav</div>
+                <div class="paper-summary">Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We intro...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/" target="_blank">AI for Societal Impact</a></div>
+                <div class="news-meta">Google AI Blog | Sep 15</div>
+                <div class="news-summary">Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/advisory-group-on-mathematics-and-ai" target="_blank">Advisory Group on Mathematics and Artificial Intelligence</a></div>
+                <div class="news-meta">OpenAI Blog | Sep 21</div>
+                <div class="news-summary">OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI r...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/" target="_blank">The US spent billions on border surveillance. Why can’t it catch people before they die?</a></div>
+                <div class="news-meta">MIT Technology Review AI | Sep 21</div>
+                <div class="news-summary">When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chai...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/" target="_blank">She died at the San Diego border. A surveillance camera was in plain sight</a></div>
+                <div class="news-meta">MIT Technology Review AI | Sep 21</div>
+                <div class="news-summary">She had only walked for a couple of hours, and already she was lost.  It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernán...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/" target="_blank">How we made the first comprehensive map of deaths along the US border’s “virtual wall”</a></div>
+                <div class="news-meta">MIT Technology Review AI | Sep 21</div>
+                <div class="news-summary">Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near govern...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-09-21 18:33 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
