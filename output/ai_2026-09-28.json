@@ -1,0 +1,585 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-09-28T20:02:39.053594",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+      "url": "https://arxiv.org/abs/2609.31587v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-09-25T17:42:22",
+      "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by whether code regenerated from them passes the original tests, and show that completeness, not length, drives a description's fidelity. Using the benchmark as an optimization signal, we discover a description-writing prompt that reaches full fidelity and generalizes to unseen files. We then test the hypothesis that motivated the work: that better documentation helps an agent resolve real repository issues. Across two model families and ten repositories, and against a positive control confirming that our evaluation can detect a genuine improvement, we find that it does not. When the source is present, neither static compact documentation nor retrieved context beats the issue alone. We report this negative result together with the benchmark and the optimizer, and we charac...",
+      "content": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by whether code regenerated from them passes the original tests, and show that completeness, not length, drives a description's fidelity. Using the benchmark as an optimization signal, we discover a description-writing prompt that reaches full fidelity and generalizes to unseen files. We then test the hypothesis that motivated the work: that better documentation helps an agent resolve real repository issues. Across two model families and ten repositories, and against a positive control confirming that our evaluation can detect a genuine improvement, we find that it does not. When the source is present, neither static compact documentation nor retrieved context beats the issue alone. We report this negative result together with the benchmark and the optimizer, and we characterize the boundary at which documentation helps.",
+      "author": "Md Shohel Arman, Igor Molybog",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31587v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31587v1.pdf",
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Md Shohel Arman",
+          "Igor Molybog"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.708626727390377
+    },
+    {
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-09-22T00:00:00",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6285319844930556
+    },
+    {
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-28T15:28:13",
+      "summary": null,
+      "content": null,
+      "author": "macleos",
+      "score": 54,
+      "num_comments": 28,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 49879577,
+        "hn_url": "https://news.ycombinator.com/item?id=49879577",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5593470762213016
+    },
+    {
+      "title": "Don\u2019t be fooled by this summer of AI hype",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-22T11:04:51",
+      "summary": "It\u2019s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI\u2013Hugging Face hacking incident , after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed by Anthropic \u2019s claim that one of its models had made a mathematical breakthrough; soon OpenAI claimed a mathematical breakthrough of its...",
+      "content": "It\u2019s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI\u2013Hugging Face hacking incident , after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed by Anthropic \u2019s claim that one of its models had made a mathematical breakthrough; soon OpenAI claimed a mathematical breakthrough of its own. Most recently, Anthropic engineer Jacob Coxon went viral announcing his departure from the company, claiming that it and OpenAI are \u201cracing straight towards self-improving superintelligence and gambling with our lives.\u201d Each of these events was mostly covered breathlessly by the press, often repeating the companies\u2019 anthropomorphizing framings \u2014which are designed to portray their software is not only powerful but incipient \u201c artificial general intelligence .\u201d So what is really going on? Are we witnessing a massive, civilization-changing set of technological breakthroughs, or is this marketing? In all these incidents, massive fanfare from the companies (presented as mea culpas in illicit hacking cases) is accompanied by intense press coverage. Once there is time for experts in the relevant fields to examine what happened, a very different story emerges, but one that gets less media attention. Regarding the \u201chacking\u201d incidents, cybersecurity experts say the story is more about OpenAI\u2019s negligence and failure to adopt basic, established security practices than about \u201cmodels gone rogue\u201d or \u201cAI agents creating civilizations.\u201d  As for the mathematical results, mathematicians who were initially \u201cstunned\u201d by OpenAI\u2019s press release saying that its latest chatbot, Astra, solved problems that \u201chave been open and seen no progress on the main result for at least a decade&#8221; later realized that the results weren\u2019t as \u201cnovel as first appeared.\u201d Since then, mathematicians have accused the company of research misconduct and plagiarism, and they\u2019ve reiterated that Astra didn\u2019t make a \u201cprofound intellectual leap.\u201d Just weeks later, OpenAI claimed its own mathematical breakthrough. Two days before, Tristan Buckmaster, a math professor at New York University\u2019s Courant Institute, published a bombshell statement suggesting that OpenAI had stolen other people\u2019s work and improperly attributed it. Claims of incipient, dangerous superintelligence are not based in good scientific or engineering practice . Rather, they are narratives based in ideologies of transhumanism, eugenics, and wishful thinking about imagined future digital humans . It\u2019s worth thinking about why there is so much attention on computer programming and math as fields in which to apply large language models and related technology. Not only are they often elevated as the pinnacle of human intellectual achievement, but they involve problems where answers, once suggested, can be verified. The former property helps AI hype mongers sell the idea that they are building everything machines. The latter makes math and coding problems easier to tune systems for, since system output (sequences of likely words or pieces of computer code) can be evaluated without having to pay data workers to look at and annotate each one. Mathematicians in particular have warned against corporations using their field in this way. A statement signed by hundreds of them says there is \u201ccurrently a strong commercial incentive on the part of the technology industry to overstate the capabilities of their products\u201d and asks policymakers to \u201cconsult with experts, including mathematicians, in forming policy decisions rather than relying on press releases or popular reporting of mathematical results.\u201d We echo this call and note that the illusion of speed and urgency promulgated by the tech companies is also a ploy to misdirect both policymakers and the public. Unfortunately, it sometimes works, such as with Senator Bernie Sanders\u2019s well-meaning but ultimately misguided proposed legislation to prevent the development of \u201cartificial superintelligence.\u201d Describing them as \u201csuperintelligence\u201d or \u201crogue models\u201d ascribes agency to products rather than to the companies building them. This framing markets these companies\u2019 products as \u201csuperhuman\u201d and, at the same time, helps the companies evade accountability for their actions.  Instead of OpenAI being prosecuted for creating malware that hacked another company, press releases, news outlets, media personalities, and lawmakers refer to \u201crogue models\u201d as if they acted on their own. Instead of researchers being questioned about their companies\u2019 habit of plagiarizing academics\u2019 work or using customer data to train models without consent, the public\u2019s imagination is redirected to fears about what the future might hold upon the arrival of fictional superintelligent machines.   The AI industry has even suggested that popular, bipartisan anti-data-center activism is a \u201cdistraction\u201d from attempts to regulate the impending, scary, \u201csuperhuman\u201d machines these companies are building. According to the AI industry, we should be more worried about a fictional machine god than about the climate catastrophe that these data centers exacerbate, the asthma suffered by those living near them, the rising electricity bills of the public subsidizing them, or the water that is redirected to cooling them .  We know better than to make decisions based on marketing and better than to capitulate to corporate pressure to make those decisions quickly. Wise decision-making, by policymakers and communities, demands time to hear from independent experts and contextualize corporate claims. The best possible outcome from this summer of hype is that policymakers and the public at large learn to take a breath, hold onto our skepticism, and recognize this kind of hype for what it is the next time it comes around. Timnit Gebru is executive director of DAIR and author of the forthcoming book Deep Unlearning: The Radicalization of a Tech Idealist , which is available for preorders now and set to publish on February 16. Emily M. Bender is professor of linguistics at the University of Washington and coauthor of The AI Con .",
+      "author": "Timnit Gebru, Emily M. Bender",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "opinion"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.6148148148148148,
+      "final_score": 0.48435151170196755
+    },
+    {
+      "title": "Introducing MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-23T10:00:00",
+      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "content": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "publication"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.4722224610119048
+    },
+    {
+      "title": "Show HN: HN.watch \u2013 Videos of all Hacker News posts",
+      "url": "https://hn.watch/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-28T15:16:13",
+      "summary": "Hi HN, I\u2019m Per, founder of Scrimba (YC S20). We\u2019ve spent the last decade teaching people how to code with an HTML-based video format. We\u2019ve now plugged an LLM into it, so that people can create explainer videos about anything. It\u2019s called \u201cScrimba Explain\u201d.<p>To demo this technology for Hacker News, we built HN.watch. It\u2019s like HN, but with explainer videos instead of articles. We create them on-the-fly the first time someone clicks on a link.<p>While there are obvious visual drawbacks of using HTML instead of diffusion models, there are three big benefits: - Speed: Much faster to generate than pixel-based videos (just a few seconds from click to playback) - Cost: Our cost per video is ~$0.04. (Excluding image generation, which some videos utilize. Quickly blows up the cost) - Easy editing: the above benefits also make AI-assisted editing cheap &amp; fast<p>Our hypothesis is that if video creation goes from \u201cdollars and minutes\u201d to \u201ccents and seconds\u201d, a bunch of new use cases will be unlocked. Here are some we see already: - A video explanation of every single Pull Request (we do this internally) - Give every page in your internal&#x2F;extrernal docs a video - Turn a complex article into a video in ~4 seconds (via our Chrome extension) - Course creators can quickly draft lessons before recording the real thing - People also create a lot of personal stuff stories for their kids, wedding invitations, birthdays, etc<p>The stack is based on an open-source programming language (Imba) created by our CTO, Sindre Aars\u00e6ther. It compiles to JavaScript, so it interoperates fully with the npm + node ecosystem. You can learn more here: <a href=\"https:&#x2F;&#x2F;imba.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;imba.io&#x2F;</a><p>We\u2019ve also built our own sync engine (OP), and a context management system for agents (Q). We feared this would make the LLMs struggle when writing code for us, as neither is in their training data (there\u2019s very little Imba in there too). However, we\u2019ve been pleasantly surprised to see that LLMs actually are really good at our stack. This is probably because the stack is extremely dense. Imba is compact, and so is OP, where a single declaration sets storage, sync, permissions, UI, and what the AI sees. This means there\u2019s no translations between frontend, API, db and JSON where the model can get confused and get things wrong.<p>Simply said, instead of using React.js, Express, Supabase, and LangChain, we built it all from scratch. Definitely suffering from the \u201cnot invented here\u201d syndrome, lol! As for the models, we use Gemini, GPTs, Inworld, ElevenLabs, and a few others.<p>If you want to try it out, just take your pick: - The Web UI (scrimba.com&#x2F;explain) - MCP (add it to your coding agent) - ChatGPT Plugin - Chrome Extension<p>You can find a link to all of the above in our docs: <a href=\"https:&#x2F;&#x2F;docs.scrimba.com&#x2F;explain&#x2F;introduction\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.scrimba.com&#x2F;explain&#x2F;introduction</a><p>And finally, a real pixel-based video of the tool: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=k6rbHmBxSEs\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=k6rbHmBxSEs</a><p>Would love to hear your feedback and if anyone has ideas for other use cases.<p>PS: I expect quite a bit of pushback from HN for this launch, given how fan of text the HN crowd is. This kind of tool is not for everyone. But there are a lot of people today who prefer videos over text, especially in the younger generations.",
+      "content": null,
+      "author": "mrborgen",
+      "score": 109,
+      "num_comments": 44,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 49879401,
+        "hn_url": "https://news.ycombinator.com/item?id=49879401",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5962962962962963,
+      "final_score": 0.4096439257707155
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-28T17:03:16",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what they report. And this AI-powered lab, the company said, had made its first discovery.  To understand what Anthropic says its system did, imagine you...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what they report. And this AI-powered lab, the company said, had made its first discovery.  To understand what Anthropic says its system did, imagine you\u2019re flipping through a library of millions of DNA sequences, amassed as scientists sequence more and more of the living world. One step toward a breakthrough might be finding a peculiar sequence that encodes an interesting enzyme, perhaps. Then you\u2019d need to figure out what that enzyme does and, eventually, how to manipulate it to do something useful. What Anthropic says its system of 950 agents found after 21 hours was not a brand-new sequence. The agents instead flagged a repeating pattern surrounding a known enzyme, a particular pattern Anthropic said hadn\u2019t been catalogued before. But if you read through Anthropic\u2019s announcement, which calls this pattern \u201creminiscent\u201d of what led to the gene-editing technology CRISPR that \u201chas already transformed science and medicine,\u201d it sounds as if this army of agents really found something of note.  These claims have angered some biologists. A viral post from one, subsequently endorsed by the chair and CEO of the drugmaker Eli Lilly, said that \u201cfinding a weird cluster of genes and repeats is often the easy part. The hard part, and where the real discoveries come from, is figuring out what the system actually does.\u201d The agents helped with some laboratory grunt work, in other words. But a discovery it is not.  It\u2019s a reminder that even if AI does something impressive\u2014like finding a pattern in a mass of biological data that would be difficult to perceive with human eyes alone\u2014the result itself may not constitute a breakthrough for science. What is novel for AI may be routine, unsurprising, or simply not that consequential to a biologist. Muddying the issue further, Mario Rodr\u00edguez Mestre, a biologist at the University of Copenhagen, said over the weekend that his team had already discovered this particular pattern, the New York Times reported. Mestre, who regularly chatted with Claude in his work, wondered whether Anthropic\u2019s team had learned from his conversations. Anthropic denies this, but Mestre says he\u2019s stopping all use of Claude anyway. Part of the problem here is that AI companies aren\u2019t presenting their systems simply as tools scientists can use, like microscopes or supercomputers. They\u2019re insisting that the AI systems are making discoveries themselves. To some, that approach is  incompatible with how science actually works, with new knowledge more typically emerging from collaboration and an ever-growing arsenal of tools.  It\u2019s also making people more skeptical of genuine progress when it happens. Whittling 200,000 candidates down to a few worth exploring is no small feat; it is legitimate scientific work. The fact that a general-purpose chatbot could do that work is notable, even if humans helped steer it and ultimately ran the experiments. But once the standard is whether Claude itself made a discovery, all that becomes evidence for one side or the other in a debate that has only two answers: breakthrough or bust. Once we\u2019re judging AI by whether it has made a discovery, it\u2019s also tempting to shift the goalposts even after it really does seem to notch a win. Earlier this month, OpenAI said its own team agents had cracked a million-dollar problem in mathematics. But a couple of weeks later, nearly every AI skeptic in my feed was sharing an article asking whether it was the math problem that really mattered .  To be clear, the piece did not argue that OpenAI\u2019s solution was wrong. Instead, it argued that the particular result may not be the one mathematicians care most about. Throw in the accusation by a mathematician that the models may have used some of his work without credit, and people are left thinking either OpenAI cheated or the solution wasn\u2019t important anyway. Or both. That\u2019s part of what concerns Lucas Harrington, the biologist who wrote the post critiquing Anthropic\u2019s announcement. He closed with a suggestion: AI companies, he said, should \u201cset the bar high now, so that when an AI actually discovers a fundamentally new biological mechanism, everyone appreciates how big a deal it is.\u201d But as OpenAI\u2019s Sam Altman and Anthropic\u2019s Dario Amodei race to one-up each other, raising the bar for scientific breakthroughs by AI might be the last thing on their minds.",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "the algorithm"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.40788615133928574
+    },
+    {
+      "title": "Who\u2019s liable when AI agents go rogue?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-28T08:06:22",
+      "summary": "MIT Technology Review Explains : Let our writers untangle the complex, messy world of technology to help you understand what\u2019s coming next. You can read more from the series here . Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents had escaped their sandbox and hacked into the AI platform Hugging Face to cheat on a cybersecurity test. Recently, external researchers discovered that OpenAI agents had hijacked...",
+      "content": "MIT Technology Review Explains : Let our writers untangle the complex, messy world of technology to help you understand what\u2019s coming next. You can read more from the series here . Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents had escaped their sandbox and hacked into the AI platform Hugging Face to cheat on a cybersecurity test. Recently, external researchers discovered that OpenAI agents had hijacked a German wiki site and the coding platform RubyGems in May to share test answers. Earlier this month, Anthropic disclosed four incidents in which its model Claude hacked into third-party systems during cybersecurity exercises. Just last week, Google confirmed that its model Gemini had been caught hacking other companies too. The researcher who uncovered the OpenAI website hijack has warned it\u2019s likely that similar undiscovered episodes are out there. And many say it\u2019s only a matter of time until there\u2019s another, possibly more damaging incident where AI agents bypass sandboxes to access systems they shouldn\u2019t.  So the big question is: How do we hold companies liable when they lose control of their AI agents? Reporting OpenAI didn\u2019t disclose the German wiki incident or the RubyGems incident until a group of external researchers uncovered them, and it still has not disclosed some crucial details about the Hugging Face hack. That limits our understanding of what exactly went wrong and how to prevent it from happening again. But you might be surprised to learn that OpenAI likely wasn\u2019t legally required to disclose these incidents. (OpenAI did not respond to a request for comment.) State AI transparency laws like California\u2019s SB 53 , New York\u2019s RAISE Act , and Illinois\u2019s SB 315 require that AI developers report \u201ccritical safety incidents.\u201d These are defined as incidents that cause more than 50 deaths or physical injuries or $1 billion in damage. They also include incidents where the model deceives developers outside an evaluation in a way that materially increases catastrophic risks. Many cybersecurity incidents that don\u2019t meet the threshold for physical damage or catastrophic risks could nonetheless be dangerous precursors to such catastrophes, and the existing laws don\u2019t account for that. \u201cThe recent incidents are a perfect example of why the law isn\u2019t ready,\u201d says Mackenzie Arnold, managing director of US policy at the Institute for Law and AI, a think tank. \u201cOnly the worst, most egregious, most immediately harmful stuff is going to qualify.\u201d With no authority under existing AI laws to demand information about anything short of a catastrophe, governments are left to borrow investigative authority from other laws or sue the companies, an expensive process that can take years.  Litigation \u201cNormally, something like the Hugging Face incident should have been taken to court,\u201d says Yonathan Arbel, a law professor at the University of Alabama School of Law. \u201cThen we would have discovery, and we would have all the spillover effects that we get from litigation, where all the information comes out.\u201d  But so far, Hugging Face has chosen not to sue OpenAI. Hugging Face\u2019s CEO, Cl\u00e9ment Delangue, says it doesn\u2019t have the resources to do so (instead, he asked OpenAI for $100 million in compute). Still, Delangue stressed in an interview with CNN at the end of July that choosing not to pursue legal action shouldn\u2019t be taken to mean he doesn\u2019t think OpenAI should be held accountable. \u201cEveryone has to remember that this cyberattack is a crime. This is illegal. And we have to find a way to make sure these things don\u2019t happen more regularly,\u201d he said. Hugging Face did not respond to a request to comment. Litigation has the benefit of pushing courts to use existing laws to address AI safety incidents, rather than just waiting for new legislation. One obvious route is tort law, a body of civil law that lets people and businesses sue those who harm them. This is often used to hold companies liable for the mass harms they cause, like when families sued Boeing in 2019 over two plane crashes that killed hundreds of people, or when states and cities sued Purdue Pharma over the opioid crises, extracting settlements worth billions. \u201cThere\u2019s plausible grounds for a negligence claim that OpenAI should have used a stronger sandbox, done more monitoring,\u201d says Gabriel Weil, a law professor at the University of Houston Law Center. For example, when OpenAI employees discovered the covert message board that the agents had created, they could\u2019ve promptly escalated their findings to security and safety teams. And the company could\u2019ve better designed its sandbox to ensure that agents couldn\u2019t access the internet.  But even if OpenAI doesn\u2019t end up in a lawsuit over the Hugging Face hack, the threat of liability could incentivize AI labs to exercise more caution than explicitly demanded by law. OpenAI announced in its postmortem that it plans to strengthen the safeguards used to contain and monitor the models, accelerate model alignment, and improve its processes for identifying and addressing incidents.  \u201cThe liability questions raised by frontier labs\u2019 spate of cybersecurity attacks boil down to the incentives the expectation of liability creates for their future conduct,\u201d says Weil. \u201cThat\u2019s why I think it\u2019s important to get these rules right, even if the stakes are pretty low in this particular case.\u201d Investigations One way to get answers\u2014and determine whether OpenAI should be held liable\u2014is to compel disclosure. But the existing state AI laws\u2014California\u2019s SB 53, New York\u2019s RAISE Act, and Illinois\u2019s 315\u2014don\u2019t give governments the authority to investigate incidents like the ones that happened recently.  However, amid rising public alarm, state attorneys general are stepping in, borrowing investigative powers from other laws. Alabama , Montana and a coalition of 15 other states , and California are each demanding information about the incident from OpenAI to understand whether the company\u2019s practices violated state consumer protection laws, among others. Members of Congress are also launching their own probes. Senator Josh Hawley opened a Senate investigation earlier this month, sending OpenAI a list of questions about the incident and the company\u2019s internal policies together with a document request, while a group of House Democrats asked OpenAI and Anthropic to release their incident logs.  \u201cSomeone needs to investigate, but it\u2019s unfortunate that it has fallen to attorneys general, who need to rely on creative interpretations of their existing authorities to do this,\u201d says Arnold, the US AI policy expert. Consumer protection statutes were written to catch companies that scam their customers, not companies that lose control of their software. The state attorneys general would have to show that OpenAI deceived or unfairly harmed customers, but it\u2019s unclear if the hacking involved any such conduct. And \u201cthose [consumer protection] laws are not built for doing a thorough investigation of an AI cybersecurity incident,\u201d says Arnold. They weren\u2019t designed to help investigators determine whether a model was adequately contained or whether a company\u2019s security practices were sound. \u201cThis is not the right tool for the job,\u201d says Arbel. \u201cThe right tool would have been something like maybe a criminal investigation\u201d\u2014perhaps under a hacking law like the Computer Fraud and Abuse Act (CFAA).  Under CFAA, hacking into another company\u2019s computer systems without permission is a crime. But to be held liable, a hacker must have intended to break into a computer without authorization. Intent arguably requires a state of mind, and no court has ruled that AI agents have one. Without such a precedent, it\u2019s unlikely a court would rule that AI agents had carried out a hack. Auditing One way to keep an eye on AI companies is to mandate external auditors.  After the Hugging Face hack, OpenAI brought in researchers from the AI safety nonprofits METR and Redwood Research to examine the incident. However, it constrained access to the model that led to the hacks, didn\u2019t disclose the company\u2019s safety and security practices, limited the length of the investigation, and had ultimate say over what the researchers could publish. We still don\u2019t know what set the attack in motion back in May and why OpenAI\u2019s employees who spotted the agents\u2019 activity never escalated to their safety and security leaders. This kind of arrangement has a built-in tension: An auditor without legal authority depends on the labs\u2019 goodwill for continued access, which means it has to scrutinize the labs without jeopardizing their relationship. Last week, Anthropic announced that the company will be hiring Accenture as an embedded evaluator to assess its models. Anthropic CEO Dario Amodei wrote in an essay that frontier AI labs should give \u201congoing employee-like access\u201d to \u201ca team of embedded third-party evaluators (such as METR ), whose role is to verify adherence to safety practices and commitments, report incidents, and help assess the alignment of not just completed AI models but training pipelines and processes.\u201d Most existing state AI laws do not require labs to hire an external auditor. California\u2019s SB 53 and New York\u2019s RAISE Act just require AI companies to publish a safety framework describing how they will test their models for dangerous capabilities and then to follow it. The frameworks are written by the companies, and testing can be done internally. Only Illinois\u2019s SB 315 requires companies to undergo an annual third-party audit starting in 2028. \u201cThere\u2019s a lot of headroom for increasing not only reporting requirements for these companies, but also review by external bodies,\u201d says Peter Salib, a law professor at the University of Houston Law Center. Those reviewers could be private auditors accredited by the government but chosen and paid for by the AI companies. Alternatively, they could be government agencies or insurance companies.  Legislation None of this is an accident. The laws on the books that failed to hold AI companies accountable for agentic cyberattacks emerged amid fierce lobbying by the AI industry.  SB 1047, the California AI bill that was vetoed by Governor Gavin Newsom in 2024 after lobbying by OpenAI , Meta , Anthropic , and the venture capital firm Andreessen Horowitz, proposed a much tougher set of rules. It would have required AI companies to report a broader set of safety incidents (including incidents in which a model acts on its own or slips its controls), undergo annual third-party audits, and maintain a kill switch. But after a year of intense negotiations , Newsom signed SB 53, which narrowed the types of incidents deemed reportable and dropped the requirements for audits and kill switches.  New York\u2019s RAISE Act followed the same arc. \u201cThe version of the RAISE Act that the NY Legislature passed would have required disclosure of this \u2018incident,\u2019\u201d Alex Bores, the New York state assembly member who sponsored the bill, wrote on X . New York\u2019s original bill also included third-party audits. With political pressure mounting, new bills creating better reporting, auditing, and liability regimes for AI development are on the horizon. In Congress, the AI Incident Reporting Act would require AI companies to report to the Commerce Department when a model evades human oversight or breaches a system, even if it doesn\u2019t cause any harm. The Frontier Act would require incident reporting and independent audits. In New York, the Understanding Artificial Intelligence Act, sponsored by Bores, would make companies liable when a model does something that if carried out by a human would be a tort or crime.  As AI agents increasingly become better at launching cyberattacks, the law remains behind. Closing the gap will require lawmakers to move faster than the next breakout.",
+      "author": "Michelle Kim",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "mit technology review explains"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.38656323465550596
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-28T07:00:00",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "content": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "company"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3833534134627976
+    },
+    {
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://tinyaiarena.com/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-27T15:51:28",
+      "summary": "Did you ever click on an \u201cAI Arena\u201d expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8\u00d78 grid. May the most intelligent one win!<p>Click on any of the matches to spectate them.<p>Code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hp6&#x2F;ai-arena\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hp6&#x2F;ai-arena</a>",
+      "content": null,
+      "author": "hp6",
+      "score": 117,
+      "num_comments": 45,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 49867775,
+        "hn_url": "https://news.ycombinator.com/item?id=49867775",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.537037037037037,
+      "final_score": 0.36659273732777614
+    },
+    {
+      "title": "Show HN: Jev Plays Pok\u00e9mon Red",
+      "url": "https://jev-pokemon.vercel.app/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-09-25T14:28:07",
+      "summary": "Hey HN! Wanted to share a fun project I&#x27;ve been hacking on. Given Jev can make decisions really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more complex game than Tetris. So I went with Pok\u00e9mon.<p>I&#x27;ve spent endless hours playing this game as a child so building this was a ton of fun.<p>I open sourced everything in case you want to hack on it yourself here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;christianmat&#x2F;jev-pokemon\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;christianmat&#x2F;jev-pokemon</a><p>The game is being streamed live including the tokens and cost - hopefully we get all the badges and don&#x27;t get stuck in a cave :)",
+      "content": null,
+      "author": "pancomplex",
+      "score": 278,
+      "num_comments": 122,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 49845172,
+        "hn_url": "https://news.ycombinator.com/item?id=49845172",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5055555555555555,
+      "final_score": 0.34905474796223757
+    },
+    {
+      "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+      "url": "https://arxiv.org/abs/2609.31568v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-09-25T17:33:41",
+      "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign servers---violating data-sovereignty laws such as Vietnam's Decree 53---and, pre-trained on Western-centric corpora, are not organized around the national textbook curriculum, so their knowledge of local content is unsystematic and frequently hallucinated. Self-hosting an open model keeps data on-premise but hits a two-fold wall: post-training quantization (AWQ, GPTQ) tames the static weight footprint, yet the dynamic KV cache and prefill latency of long tutoring contexts still cause out-of-memory failures and slow responses on consumer GPUs, while the model keeps hallucinating on region-specific material. We present DeepEdu-v1, an AI-tutoring system for Vietnamese education built on SCALE (Self-improving Context-Aware Learning Engine), a framework with two innovations...",
+      "content": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign servers---violating data-sovereignty laws such as Vietnam's Decree 53---and, pre-trained on Western-centric corpora, are not organized around the national textbook curriculum, so their knowledge of local content is unsystematic and frequently hallucinated. Self-hosting an open model keeps data on-premise but hits a two-fold wall: post-training quantization (AWQ, GPTQ) tames the static weight footprint, yet the dynamic KV cache and prefill latency of long tutoring contexts still cause out-of-memory failures and slow responses on consumer GPUs, while the model keeps hallucinating on region-specific material. We present DeepEdu-v1, an AI-tutoring system for Vietnamese education built on SCALE (Self-improving Context-Aware Learning Engine), a framework with two innovations. First, a long-context inference engine amortizes token selection from per-sub-chunk to per-cluster granularity; on long-context retrieval it issues x7.7 fewer retrieval calls than a state-of-the-art selective-attention baseline, cutting prefill latency (TTFT) by roughly 35% while matching or improving task accuracy. Second, a self-improving agentic layer continuously curates a verified playbook from past interactions instead of fine-tuning, a design intended to progressively reduce reliance on dominant-language priors as trustworthy local knowledge accumulates. In its deployed configuration, DeepEdu achieves a nearly x2 TTFT speedup over standard vLLM serving and lifts agentic accuracy from 70.0% to 79.5% on complex tasks, with the strongest per-track gains across financial-reasoning and interactive-agent benchmarks.",
+      "author": "Quang Nguyen, Hieu Nguyen, Hien Hoang, Toan Pham, Cong Tran...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31568v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31568v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Quang Nguyen",
+          "Hieu Nguyen",
+          "Hien Hoang",
+          "Toan Pham",
+          "Cong Tran",
+          "Nam Vu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.1,
+      "final_score": 0.34849751105381943
+    },
+    {
+      "title": "User Model Extraction via Belief Self-Distillation",
+      "url": "https://arxiv.org/abs/2609.31603v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-09-25T17:54:32",
+      "summary": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief Self-Distillation (BSD), a unified read-write framework that bridges linear and causal probing by learning a compact user representation that can be both decoded and written back into the model. The frozen LLM acts as its own teacher, distilling beliefs from natural conversations without external annotations. Unlike conventional probing, BSD isolates not only information present in activations, but a state whose causal role can be directly tested. Across multiple model families, BSD faithfully recovers user beliefs and enables substantially stronger interventions than matched hidden-state steering. Crucially, we find that refusal depends not only on the request, but on the model's inferred user intent: changing this belief alters refusal while holding the request fixed. We further uncover...",
+      "content": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief Self-Distillation (BSD), a unified read-write framework that bridges linear and causal probing by learning a compact user representation that can be both decoded and written back into the model. The frozen LLM acts as its own teacher, distilling beliefs from natural conversations without external annotations. Unlike conventional probing, BSD isolates not only information present in activations, but a state whose causal role can be directly tested. Across multiple model families, BSD faithfully recovers user beliefs and enables substantially stronger interventions than matched hidden-state steering. Crucially, we find that refusal depends not only on the request, but on the model's inferred user intent: changing this belief alters refusal while holding the request fixed. We further uncover a striking cross-model regularity: independently trained LLMs converge on a shared geometry for representing their users. Together, these results reveal implicit user models as readable and causally writable internal states with direct implications for AI safety, shaping how models condition safety decisions on whom they believe they are interacting with.",
+      "author": "Ali Holmov, Yiran Huang, Kirill Bykov, Zeynep Akata",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31603v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31603v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Ali Holmov",
+          "Yiran Huang",
+          "Kirill Bykov",
+          "Zeynep Akata"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.3399188899481647
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-09-25T09:16:25",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request . The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called \u201cstandoff sensing,\u201d which refers to the ability to take physiological readings without attaching a device to a subject\u2019s person. According to details of the budget document, ...",
+      "content": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request . The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called \u201cstandoff sensing,\u201d which refers to the ability to take physiological readings without attaching a device to a subject\u2019s person. According to details of the budget document, which were first reported by Inside Defense , the project will \u201cmodernize federal polygraph and credibility assessment technologies\u201d to improve their accuracy and reliability. But the project may be just the latest in a long line of failed attempts to use technology to detect lies. \u201cIt\u2019s a misguided effort to reduce the complex to something that is tangible,\u201d says Kyri Kotsoglou, a legal scholar at Northumbria University in the UK who studies the use of polygraphs in the justice system. The move comes at a time of high tension within the department. Under Defense Secretary Pete Hegseth, the Pentagon has been increasingly turning to polygraph tests in an attempt to find the sources of alleged leaks to the press. In September, the New York Times reported that around 50 officers on the Joint Staff had been given polygraph tests after news coverage reported on the depletion of US weapons stockpiles in the war with Iran.  Polygraph+ will be run by the Defense Counterintelligence and Security Agency (DCSA), which conducts background checks for the federal government. According to the budget document, which has not yet been approved by Congress, the new technology will be used for vetting of prospective employees and \u201cinsider threat detection.\u201d It is not yet clear which specific technologies will be used, and the DCSA did not respond to a request for more information.  But other Pentagon efforts offer potential clues. In 2023, the department\u2019s Defense Innovation Unit (DIU) ran an open submission process to find companies with products that could be used for deception detection. It selected two companies to build prototypes : Presage Technologies, which claims to be able to measure heart rate and breathing rate using standard cameras, and Altec Research, a medical sensor company now branching out into non-contact sensing technologies. A screenshot of Altec\u2019s prototype technology released by the DIU shows that it tracks head movement, facial skin temperature, and pore activity. Presage Technologies and Altec Research did not respond to requests for comment. The DIU declined to comment.  Altec Research has built a prototype that tracks head movement, facial skin temperature, and pore activity. ALTEC RESEARCH Current lie detection technology has barely changed since the polygraph was invented in the 1920s . Examiners rely on blood pressure, pulse, breathing, and sweat measurements to determine if someone is lying. They make judgments about the veracity of respondents\u2019 replies on the basis of differences in their physiological response to baseline questions like \u201cIs the sky blue?\u201d and target questions like \u201cHave you ever committed a crime?\u201d The federal government conducts tens of thousands of the tests each year while screening employees, but the reliability of this technology has been repeatedly challenged\u2014and its results are rarely admissible in court. In 1983, Congress\u2019s Office of Technology Assessment concluded that there was very limited evidence supporting the polygraph\u2019s use for screening employees, and in 2003 , the US National Research Council (NRC) said evidence for its efficacy was \u201cweak at best.\u201d  Research suggests humans can spot a lie just over half the time without any technical assistance. The American Polygraph Association claims the polygraph is between 80% and 94% accurate. But the 2003 NRC report pointed out that a screening test with this level of accuracy could still lead to a lot of mistakes. The DOD employs 2.8 million people; an imperfect system applied at that scale could end up falsely accusing tens of thousands. There are other issues too. Polygraph interpretations are often subjective: Different examiners get wildly different results , and people from minority groups are more likely to be judged as deceptive. What\u2019s more, with training it\u2019s possible for interviewees to learn a variety of countermeasures that can help beat the test; for example, they may artificially heighten their physiological response to baseline questions by stepping on a pin hidden in their shoe.  \u201cIf you know how it works, you can beat it,\u201d says Sophie van der Zee, an associate professor who studies deception at Erasmus University in Rotterdam. She says the machine\u2019s biggest effect is deterrence\u2014often, subjects confess before it even begins. \u201cBut that only works if people think a polygraph works,\u201d she points out. Various new strategies for lie detection have been attempted over the decades , with technologies ranging from thermal cameras to pupil trackers to brain scans. None of them have yielded reliable results outside the lab. The problem is that there\u2019s no single telltale sign of lying that\u2019s true for everyone all the time. \u201cThere is still no Pinocchio\u2019s nose,\u201d says van der Zee.  AI could theoretically improve polygraphs if it could find patterns in the data that examiners can\u2019t. AI algorithms are also more likely to be used for \u201cmulti-modal\u201d deception detection, which seeks to combine multiple measurements into an overall deception \u201cscore\u201d that is harder for people to game. Three things are happening under the surface that lie detection tries to home in on, van der Zee says: physiological stress, cognitive load, and the conscious efforts people make to conceal the fact that they\u2019re lying. Current polygraph technology tackles only one. \u201cThe more you can have combined methods that approach it from these three different angles, the more successful you will be,\u201d van der Zee says. This isn\u2019t a new concept\u2014in the 2000s, researchers at Manchester Metropolitan University in the UK developed a system called Silent Talker that generated a deception score from video footage. This was later folded into iBorderCtrl, an EU-funded pilot program. In the US, a project called AVATAR incorporated eye tracking, voice analysis, and body movement detection into a tool for use at border crossings. All these projects have quietly faded away.  Kotsoglou says combining AI and the polygraph is \u201cthe worst of both worlds\u201d because it adds uncertainty on top of invalidity. Even if AI or machine learning can spot previously unseen patterns in physiological data, it won\u2019t be able to reliably link them to lying because there is no real ground truth.  \u201cEven if you have all the records in the world from polygraph tests, you don&#8217;t know whether those polygraph tests are right or not,\u201d says Marion Oswald, a professor of law who has written with Kotsoglou on the use of polygraphs in the justice system. She fears that new forms of lie detection will, like the polygraph, be used more as a psychological prop than a scientific tool.  \u201cIt seems very much a response to the concern of the current administration to leaks and perceived lack of loyalty,\u201d says Oswald. \u201c[Lie detection is] being used as a threat, to intimidate and force people to confess to things, as opposed to anything that&#8217;s actually getting valid information.\u201d",
+      "author": "Amit Katwala",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.33665326440029764
+    },
+    {
+      "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
+      "url": "https://arxiv.org/abs/2609.31607v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-09-25T17:55:49",
+      "summary": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns with a user-specified target. This is motivated by examples such as fairness, where we want to ensure that a protected attribute (e.g., gender, race, or age categories) follows a desired distribution, and synthetic data generation, where we want the generated data to be representative of a target distribution. We study the practically important black-box access setting, where a user can repeatedly query a generative AI model. The goal is to return $m\\ge 1$ outputs whose joint attribute distribution is as close as possible to this target. For both exact and approximate alignment, we develop algorithms that minimize the expected number of queries to the generator, and we further demonstrate their optimality as the number of requested outputs $m \\rightarrow \\infty$. Experim...",
+      "content": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns with a user-specified target. This is motivated by examples such as fairness, where we want to ensure that a protected attribute (e.g., gender, race, or age categories) follows a desired distribution, and synthetic data generation, where we want the generated data to be representative of a target distribution. We study the practically important black-box access setting, where a user can repeatedly query a generative AI model. The goal is to return $m\\ge 1$ outputs whose joint attribute distribution is as close as possible to this target. For both exact and approximate alignment, we develop algorithms that minimize the expected number of queries to the generator, and we further demonstrate their optimality as the number of requested outputs $m \\rightarrow \\infty$. Experiments on text-to-image generation and geocoded persona generation tasks show that our post-processing algorithms improve statistical attribute alignment, complementing prompting-based interventions.",
+      "author": "Kevin Jiang, Morgane Austern, Edgar Dobriban, Jason M. Klusowski",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31607v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31607v1.pdf",
+        "categories": [
+          "stat.ME",
+          "cs.AI",
+          "cs.LG",
+          "math.ST"
+        ],
+        "all_authors": [
+          "Kevin Jiang",
+          "Morgane Austern",
+          "Edgar Dobriban",
+          "Jason M. Klusowski"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.33104909844766867
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-09-25T19:00:00",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "content": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.32978198488368055
+    },
+    {
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "url": "https://arxiv.org/abs/2609.31620v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-09-25T17:59:59",
+      "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details better, while deeper layers tend to yield better generation metrics. A fixed heuristic layer fusion therefore couples two stages that benefit from different information. We introduce FuseReg, which replaces heuristic feature selection with training over random subsets of encoder layers. We theoretically analyze the underlying mechanism: subset sampling explicitly penalizes sensitivity to cross-layer disagreement. On ImageNet-256 with DINOv3-L, a single FuseReg decoder reconstructs from full, sparse, and single-layer fusions without retraining, achieving higher PSNR than decoders specialized to f...",
+      "content": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details better, while deeper layers tend to yield better generation metrics. A fixed heuristic layer fusion therefore couples two stages that benefit from different information. We introduce FuseReg, which replaces heuristic feature selection with training over random subsets of encoder layers. We theoretically analyze the underlying mechanism: subset sampling explicitly penalizes sensitivity to cross-layer disagreement. On ImageNet-256 with DINOv3-L, a single FuseReg decoder reconstructs from full, sparse, and single-layer fusions without retraining, achieving higher PSNR than decoders specialized to fixed fusions. This flexibility also benefits generation: decoder replacement alone reduces unguided gFID by 27% with an unchanged RAEv2 DiT-XL generator. The same regularization principle extends to diffusion training, with joint regularization of both stages reducing unguided gFID by 29% on DiT-Base. These results show that training downstream models for layer-fusion robustness narrows the reconstruction-generation gap without modifying the pretrained encoder.",
+      "author": "Hongyang Du, Yunfei Xie, Junjie Ye, Jiawei Yang, Xiaoyan Cong...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31620v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31620v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Hongyang Du",
+          "Yunfei Xie",
+          "Junjie Ye",
+          "Jiawei Yang",
+          "Xiaoyan Cong",
+          "Haodong Zhang",
+          "Yongchao Huang",
+          "Haiyu Wu",
+          "Zongxia Li",
+          "Shihang Gui",
+          "Dawei Liu",
+          "Runhao Li",
+          "Jingcheng Ni",
+          "Chen Wei",
+          "Randall Balestriero",
+          "Yue Wang"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3288888798529266
+    },
+    {
+      "title": "Two Conformal Constructions for Adaptive Within-Document AI-Text Screening",
+      "url": "https://arxiv.org/abs/2609.31547v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-09-25T17:18:39",
+      "summary": "We study false-alert control when screening for text generated by artificial intelligence (AI). The screening procedure selects document prefixes and detectors from observed evidence and may stop before exhausting its inspection budget. We give two finite-sample constructions under document-level exchangeability between human calibration documents and a new null document, with no restriction on dependence among tokens within a document. Construction A registers a finite family of prefix-detector scores and allocates a false-alert budget across their conformal ranks. A union bound protects any executed subset of that family. Construction B calibrates the complete-path maximum of a development-fixed adaptive policy. Each partial-path maximum is bounded by the complete maximum, so a terminal conformal rank protects early stopping without splitting the error budget. We prove marginal control of any false alert across the permitted inspection path and derive necessary calibration counts for...",
+      "content": "We study false-alert control when screening for text generated by artificial intelligence (AI). The screening procedure selects document prefixes and detectors from observed evidence and may stop before exhausting its inspection budget. We give two finite-sample constructions under document-level exchangeability between human calibration documents and a new null document, with no restriction on dependence among tokens within a document. Construction A registers a finite family of prefix-detector scores and allocates a false-alert budget across their conformal ranks. A union bound protects any executed subset of that family. Construction B calibrates the complete-path maximum of a development-fixed adaptive policy. Each partial-path maximum is bounded by the complete maximum, so a terminal conformal rank protects early stopping without splitting the error budget. We prove marginal control of any false alert across the permitted inspection path and derive necessary calibration counts for rejection. We also state oracle testing, distribution-shift, and independent-audit bounds with their additional assumptions. Both constructions protect stopping within their specified scope; neither proof constructs an e-process or justifies multiplying conformal ranks. Detection power and computational savings remain questions for empirical evaluation.",
+      "author": "Marco Mandap, Jerahmeel Hipolito, Arcel Galvez, Charlie Margaret Balagtas, Michael Joshua Buluran...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31547v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31547v1.pdf",
+        "categories": [
+          "stat.ME",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Marco Mandap",
+          "Jerahmeel Hipolito",
+          "Arcel Galvez",
+          "Charlie Margaret Balagtas",
+          "Michael Joshua Buluran",
+          "Jeff Roel Durmiendo",
+          "Rizzette E. Lopez"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3282738005109127
+    },
+    {
+      "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "url": "https://arxiv.org/abs/2609.31619v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-09-25T17:59:52",
+      "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by explicitly encouraging shorter reasoning during training, for example through reinforcement learning with length penalties. We show that substantial efficiency gains can instead emerge from a different kind of supervision: \\textit{confidence}. Using a self-supervised procedure, we fine-tune reasoning models to predict their confidence in the answer at intermediate points along their own reasoning trajectories using only 600 training problems. Confidence is used only as a training target: the loss contains no objective for reasoning length, efficiency, or stopping. At inference, the fine-tuned models use the standard generation procedure, with no confidence elicitation or early-stopping mechanism. Despite this, self-supervised confidence fine-tuning makes reasoning more effic...",
+      "content": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by explicitly encouraging shorter reasoning during training, for example through reinforcement learning with length penalties. We show that substantial efficiency gains can instead emerge from a different kind of supervision: \\textit{confidence}. Using a self-supervised procedure, we fine-tune reasoning models to predict their confidence in the answer at intermediate points along their own reasoning trajectories using only 600 training problems. Confidence is used only as a training target: the loss contains no objective for reasoning length, efficiency, or stopping. At inference, the fine-tuned models use the standard generation procedure, with no confidence elicitation or early-stopping mechanism. Despite this, self-supervised confidence fine-tuning makes reasoning more efficient, reducing generated tokens by up to 25\\% at matched accuracy across Gemma, Qwen, Nemotron, and GPT-OSS models on mathematical, scientific, and coding reasoning benchmarks, with efficiency gains comparable to methods that explicitly optimize for shorter reasoning. Analysis of reasoning episodes further shows that confidence supervision largely preserves the base models' high-level reasoning composition rather than selectively suppressing particular behaviors. Our results suggest that efficient reasoning may emerge as a downstream consequence of learning metacognitive signals, without being directly optimized.",
+      "author": "Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe, Chenrui Fan, Sourya Basu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31619v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31619v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Parsa Hosseini",
+          "Akasha Tigalappanavara",
+          "Sumit Nawathe",
+          "Chenrui Fan",
+          "Sourya Basu",
+          "Genta Indra Winata",
+          "Anirban Das",
+          "Soheil Feizi",
+          "Nima Chitsazan"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.32814640336417
+    },
+    {
+      "title": "Strategically Diverse Sampling for Self-Training",
+      "url": "https://arxiv.org/abs/2609.31571v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-09-25T17:35:05",
+      "summary": "Many LLM training and inference methods, including RL and test-time scaling, depend on repeated sampling, but benefit only when the responses meaningfully differ. Self-training faces the same challenge: training data is typically constructed by sampling IID responses and filtering primarily for correctness, thereby overrepresenting strategies a model already favours. We investigate strategic diversity, or substantive variation among approaches to a problem, as an alternative principle for constructing self-training data. We generate strategically diverse data with two sampling methods: GROOT, a new method which constructs a hierarchical tree of approaches and samples distinct paths, and Verbalized Sampling (VS), adapted to produce an unstructured set of approaches. Across competitive programming and Next-Chapter Prediction domains, models trained on strategically sampled data outperform IID-trained counterparts on difficult tasks and provide strong initializations for RL and test-time ...",
+      "content": "Many LLM training and inference methods, including RL and test-time scaling, depend on repeated sampling, but benefit only when the responses meaningfully differ. Self-training faces the same challenge: training data is typically constructed by sampling IID responses and filtering primarily for correctness, thereby overrepresenting strategies a model already favours. We investigate strategic diversity, or substantive variation among approaches to a problem, as an alternative principle for constructing self-training data. We generate strategically diverse data with two sampling methods: GROOT, a new method which constructs a hierarchical tree of approaches and samples distinct paths, and Verbalized Sampling (VS), adapted to produce an unstructured set of approaches. Across competitive programming and Next-Chapter Prediction domains, models trained on strategically sampled data outperform IID-trained counterparts on difficult tasks and provide strong initializations for RL and test-time scaling. Most strikingly, self-training on strategically diverse but incorrect traces from Qwen3-4B outperforms IID distillation from a 235B teacher. These results challenge prevailing assumptions about what makes useful self-training data and show that diversity of approaches can matter more than correctness or teacher scale.",
+      "author": "Alexander Gurung, Esmeralda S. Whitammer, Mirella Lapata",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2609.31571v1",
+        "pdf_url": "https://arxiv.org/pdf/2609.31571v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Alexander Gurung",
+          "Esmeralda S. Whitammer",
+          "Mirella Lapata"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.04814814814814815,
+      "final_score": 0.3277776034641204
+    }
+  ],
+  "summary": {
+    "sources": 8,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-09-22T00:00:00",
+      "end": "2026-09-28T17:03:16"
+    }
+  }
+}

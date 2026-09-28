@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 40</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 40 | September 28, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>8</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://arxiv.org/abs/2609.31587v1" target="_blank">Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Sep 25
+                    
+                </div>
+                <p class="story-summary">We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by whether code regenerated from ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://huggingface.co/blog/evaleval-aisi" target="_blank">How UK AISI and EvalEval Are Making Benchmark Results Reproducible</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Sep 22
+                    
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://blog.cloudflare.com/cloudflare-cf-cli-launch/" target="_blank">Cf: The Agentic CLI for the Cloudflare API</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Sep 28
+                     | ⬆️ 54 | 💬 28
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/" target="_blank">Don’t be fooled by this summer of AI hype</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | Sep 22
+                    
+                </div>
+                <p class="story-summary">It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident , after which ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://openai.com/index/introducing-mentalhealthbench" target="_blank">Introducing MentalHealthBench</a>
+                </div>
+                <div class="story-meta">
+                    OpenAI Blog | Sep 23
+                    
+                </div>
+                <p class="story-summary">MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.31568v1" target="_blank">DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education</a></div>
+                <div class="paper-author">Quang Nguyen, Hieu Nguyen, Hien Hoang, Toan Pham, Cong Tran...</div>
+                <div class="paper-summary">AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive stu...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.31603v1" target="_blank">User Model Extraction via Belief Self-Distillation</a></div>
+                <div class="paper-author">Ali Holmov, Yiran Huang, Kirill Bykov, Zeynep Akata</div>
+                <div class="paper-summary">Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.31607v1" target="_blank">Statistical attribute alignment for black-box generative AI via output post-processing</a></div>
+                <div class="paper-author">Kevin Jiang, Morgane Austern, Edgar Dobriban, Jason M. Klusowski</div>
+                <div class="paper-summary">Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-gener...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.31620v1" target="_blank">FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders</a></div>
+                <div class="paper-author">Hongyang Du, Yunfei Xie, Junjie Ye, Jiawei Yang, Xiaoyan Cong...</div>
+                <div class="paper-summary">Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RA...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2609.31547v1" target="_blank">Two Conformal Constructions for Adaptive Within-Document AI-Text Screening</a></div>
+                <div class="paper-author">Marco Mandap, Jerahmeel Hipolito, Arcel Galvez, Charlie Margaret Balagtas, Michael Joshua Buluran...</div>
+                <div class="paper-summary">We study false-alert control when screening for text generated by artificial intelligence (AI). The screening procedure selects document prefixes and detectors from observed evidence and may stop befo...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://hn.watch/" target="_blank">Show HN: HN.watch – Videos of all Hacker News posts</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 109 | 💬 44</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://tinyaiarena.com/" target="_blank">Show HN: TinyAIArena watch AI agents battle it out</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 117 | 💬 45</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://jev-pokemon.vercel.app/" target="_blank">Show HN: Jev Plays Pokémon Red</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 278 | 💬 122</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/" target="_blank">When can we say AI made a scientific discovery?</a></div>
+                <div class="news-meta">MIT Technology Review AI | Sep 28</div>
+                <div class="news-summary">This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Last Wednes...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/" target="_blank">Who’s liable when AI agents go rogue?</a></div>
+                <div class="news-meta">MIT Technology Review AI | Sep 28</div>
+                <div class="news-summary">MIT Technology Review Explains : Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can re...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/lenfest-ai-collaborative-expansion" target="_blank">The Lenfest Institute grows landmark program with expanded OpenAI support</a></div>
+                <div class="news-meta">OpenAI Blog | Sep 28</div>
+                <div class="news-summary">OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/" target="_blank">The Pentagon wants $30 million to build an AI-powered lie detector</a></div>
+                <div class="news-meta">MIT Technology Review AI | Sep 25</div>
+                <div class="news-summary">The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budg...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/proaction" target="_blank">Proaction boosts sales 60% and saves 75+ hours with Codex</a></div>
+                <div class="news-meta">OpenAI Blog | Sep 25</div>
+                <div class="news-summary">With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-09-28 20:02 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
