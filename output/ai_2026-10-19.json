@@ -1,0 +1,576 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-10-19T19:09:20.262888",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-10-15T09:08:45",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6803483996274802
+    },
+    {
+      "title": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+      "url": "https://github.com/kividbio/kividb",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-10-19T13:53:52",
+      "summary": "Hi all,<p>So I have been working on this project KiviDB from February 2026. It started as a project for me to understand rust, having a product with no GC pauses, memory blow up after snapshots and getting OOM on running pods, and that was actually an issue I faced with Dragonfly. I wanted to have something picking the best of Rust, but also picking the best parts of other alternatives like Garnet and Dragonfly. I used AI a lot, but I was the one making the design decisions based on the tests that claude picked from my history of troubleshooting sessions as part of my job. KiviDB supports both RESP2 and RESP3 protocol. I had some founders credits on my AWS account which helped me with the infra, and running instances I could perform benchmark on.<p>Its keyspace is sharded across threads, it is multi-threaded in nature, and performs best on Linux due to io_uring, I used the tokio_uring crate for this. It also has tokio fallback for other OS&#x27;s. I hadn&#x27;t open sourced it until recently as I felt it was not ready yet, the best way to learn it was to build a cloud managed service for it across all three widely used cloud providers i.e AWS, GCP and azure. Since I used to mainly work with cloud, I had some insights on what would be the best ways for the deployments, how to conduct failovers, manage SLAs, etc. And that&#x27;s what I took help from claude to fast pace it. The website does look like AI slop but it works for now, given my limited resources, that&#x27;s all I had. You may check it out at : <a href=\"https:&#x2F;&#x2F;kividb.io\" rel=\"nofollow\">https:&#x2F;&#x2F;kividb.io</a>, I open sourced the core engine under AGPLv3, didn&#x27;t want to have just source available, because that is available with other tools too. It supports apprx 98-99% of the redis 8.10 commands, few have issues and you can find them at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;kividbio&#x2F;kividb&#x2F;issues\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;kividbio&#x2F;kividb&#x2F;issues</a>, contributors are welcome.<p>Now the numbers, for the final benchmark, I used 2 c7gn.metal servers, in the same placement group in us-east1, and I used memtier-benchmark tool for this. The setting was : 10M keys, 100B each, 32 cores in use with both pipeline and un-pipelined runs.<p>pipeline 16 GET: KiviDB 21.2M ops&#x2F;sec vs Dragonfly 2.0 9.1M, Redis 8.10 2.4M, Redis Cluster 32 shards 4.7M<p>When not pipelined, Dragonfly performed slightly better at 3.35M ops&#x2F;sec vs kividb at 3.07M ops&#x2F;sec. Memory per key was also slightly worse than dragonfly and almost same as Redis, 177B (kividb) vs 134B (dragonfly) vs 178B (redis).<p>With vector ingestion times it was slower but when querying, it was faster than most alternatives at lower ef, however slower than dragonfly at high ef. Most of the technical details are mentioned here so you can check it out: <a href=\"https:&#x2F;&#x2F;kividb.io&#x2F;benchmarks\" rel=\"nofollow\">https:&#x2F;&#x2F;kividb.io&#x2F;benchmarks</a>.<p>easiest way to try it: docker run -d -p 6380:6380 kividb&#x2F;kividb<p>I am looking forward to building a community around this, provide better rust based tools, I am open to constructive criticism and value informed opinion. Thanks",
+      "content": null,
+      "author": "murtazayusuf",
+      "score": 57,
+      "num_comments": 34,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 50152541,
+        "hn_url": "https://news.ycombinator.com/item?id=50152541",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5790215594288645
+    },
+    {
+      "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+      "url": "https://arxiv.org/abs/2610.23772v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-10-16T17:08:33",
+      "summary": "Video diffusion models (VDMs) trained on internet-scale data encode a rich prior on appearance, motion, and physics that is difficult to replicate with explicit 3D rendering and costly 3D data capture. We introduce Video Diffusion Avatars (VDAs), a method that creates photo-realistic, multi-view consistent avatars from a single image by fine-tuning a VDM for precise control over camera viewpoint, facial expression, and upper-body pose. Departing from 3D morphable models (3DMMs), VDAs use a learned expression space that lifts the expressiveness ceiling of 3DMMs, e.g., for the tongue and mouth interior. However, learned expression codes exhibit heavy viewpoint bias, as our DISTRACT benchmark reveals. We show that this bias can be removed through disentanglement, enabling their use as driving signals for multi-view consistent avatars. Camera and upper-body pose are controlled jointly via proxy-mesh renderings, giving independent control over expression, pose, and viewpoint. A camera-tripl...",
+      "content": "Video diffusion models (VDMs) trained on internet-scale data encode a rich prior on appearance, motion, and physics that is difficult to replicate with explicit 3D rendering and costly 3D data capture. We introduce Video Diffusion Avatars (VDAs), a method that creates photo-realistic, multi-view consistent avatars from a single image by fine-tuning a VDM for precise control over camera viewpoint, facial expression, and upper-body pose. Departing from 3D morphable models (3DMMs), VDAs use a learned expression space that lifts the expressiveness ceiling of 3DMMs, e.g., for the tongue and mouth interior. However, learned expression codes exhibit heavy viewpoint bias, as our DISTRACT benchmark reveals. We show that this bias can be removed through disentanglement, enabling their use as driving signals for multi-view consistent avatars. Camera and upper-body pose are controlled jointly via proxy-mesh renderings, giving independent control over expression, pose, and viewpoint. A camera-triplet training strategy makes the approach efficient: our models train for 34 hours on a single A100 using only public multi-view data. VDAs outperform state-of-the-art single-image 3D avatars on novel-view reenactment, reducing face LPIPS by 29% and improving perceptual quality (JOD) by 66% on BecomingLit. A static 3DGS reconstruction probe further confirms that our generations are the most multi-view consistent. Built on a video prior, VDAs produce effects beyond the reach of explicit renderers, including physically plausible hair dynamics, shadows, reflections, and refractions.",
+      "author": "Simon Giebenhain, Tobias Kirschstein, Liam Schoneveld, Davide Davoli, Zhe Chen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23772v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23772v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Simon Giebenhain",
+          "Tobias Kirschstein",
+          "Liam Schoneveld",
+          "Davide Davoli",
+          "Zhe Chen",
+          "Matthias Nie\u00dfner"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5481481481481482,
+      "final_score": 0.5281761114827216
+    },
+    {
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.23845v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-16T17:57:55",
+      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies. First, we introduce SEER-Repro, a benchmark of 20 published SEER-based papers together with the data and resources required to reproduce their findings. Second, we create an AI agent that successfully reproduces 77.4% of 2,190 atomic claims, while providing executable baselines for further analysis. Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices aff...",
+      "content": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry underlying tens of thousands of published studies. First, we introduce SEER-Repro, a benchmark of 20 published SEER-based papers together with the data and resources required to reproduce their findings. Second, we create an AI agent that successfully reproduces 77.4% of 2,190 atomic claims, while providing executable baselines for further analysis. Third, we develop an agentic analysis pipeline to test the robustness of the medical findings by identifying analytical choices underlying each finding, proposing defensible alternatives, and rerunning the analysis to determine whether those choices affect the conclusion. Across published papers in SEER-Repro, our pipeline identifies potentially consequential analytical choices in 9.5% of fully reproduced findings and flags them for expert review. These results show how LLM agents can support scientific review by reproducing findings, systematically testing their robustness, and directing expert attention toward potentially consequential analytical choices.",
+      "author": "Shicheng Liu, Krista Opsahl-Ong, Andrew Drozdov, Julian Killingback, Arnav Singhvi...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23845v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23845v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Shicheng Liu",
+          "Krista Opsahl-Ong",
+          "Andrew Drozdov",
+          "Julian Killingback",
+          "Arnav Singhvi",
+          "Ronak Pradeep",
+          "Michael Bendersky",
+          "James C. Dickerson",
+          "Monica S. Lam"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.5252070311574901
+    },
+    {
+      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "url": "https://arxiv.org/abs/2610.23841v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-10-16T17:57:05",
+      "summary": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice that the goal is already in view or to estimate how far away it is. To address this failure, we ground the goal explicitly. Explicit grounding substantially improves success and reaches state-of-the-art results on six benchmarks across three scene collections. We also correct annotation defects in these benchmarks, so that future methods are evaluated more faithfully. Our analysis on the clean benchmarks shows that, with ground-truth grounding, our policy nearly matches the expert that generated its demonstrations, leaving the headroom in perception rather than policy learning. Our work points...",
+      "content": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice that the goal is already in view or to estimate how far away it is. To address this failure, we ground the goal explicitly. Explicit grounding substantially improves success and reaches state-of-the-art results on six benchmarks across three scene collections. We also correct annotation defects in these benchmarks, so that future methods are evaluated more faithfully. Our analysis on the clean benchmarks shows that, with ground-truth grounding, our policy nearly matches the expert that generated its demonstrations, leaving the headroom in perception rather than policy learning. Our work points to goal grounding as a missing piece of object-goal navigation and offers a simple and effective solution to the task.",
+      "author": "Xinhao Liu, Yunsheng Tian, Yuheng Qiu, Pieter Abbeel, Xi Chen...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23841v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23841v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Xinhao Liu",
+          "Yunsheng Tian",
+          "Yuheng Qiu",
+          "Pieter Abbeel",
+          "Xi Chen",
+          "Guanya Shi",
+          "Chen Feng"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.5251946300515873
+    },
+    {
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-13T10:00:00",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what\u2019s coming next. You can read more from the series here . Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report\u2019s core concern is that the powerful new model, released in August by the Chinese company Z.ai, is freely available for anyone to download and modify. Anthropic\u2019s assertion is only the lates...",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what\u2019s coming next. You can read more from the series here . Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report\u2019s core concern is that the powerful new model, released in August by the Chinese company Z.ai, is freely available for anyone to download and modify. Anthropic\u2019s assertion is only the latest move in a long-running debate about whether frontier AI models should be made open, like GLM-5.3, or should stay locked behind the doors of the frontier labs.  These days, much of the debate about how to handle open models is playing out in public\u2014and there\u2019s a lot of money resting on its outcome. Nvidia CEO Jensen Huang, who has a lot to gain if people continue buying their own hardware to run open models, advocates enthusiastically for the United States to develop more of them, whereas Anthropic\u2019s Dario Amodei, who runs a company that could be undermined by cheap, powerful models, advocates for a more cautious approach. But beneath all these commercial incentives, there is real substance to disagreements about open models. \u201cI think a lot of the way you come down on the openness debate is influenced by how you come down on the AI debate,\u201d says David Gray Widder, an assistant professor at the University of Texas at Austin School of Information. Those who are concerned about AI safety warn that open models can easily be misused by bad actors, whereas those who focus more on AI\u2019s practical potential urge that this power should not sit behind the closed doors of just a few big companies, and that open models could help spread it more widely. There are a range of ways to handle open models between banning them entirely and releasing them willy-nilly. But any approach that a government or a society might take still involves trade-offs between safety and democratization. Deciding whether to support or limit the production of open models requires understanding those risks and benefits in depth. What are the benefits of open models? Let\u2019s start with the basics. A closed model, like the models that power ChatGPT and Claude, can only be accessed through a website, app, or API. An open model, on the other hand, can be directly downloaded: The details about its internal structure, encoded in a long series of numbers known as the model weights, are publicly available. Such models are sometimes called \u201copen-weight models,\u201d to distinguish them from models for which even more information, such as details about the training procedure, is available.  Right now, closed models are more capable than open models\u2014as of publication, the top eight models on the Artificial Analysis LLM leaderboard are all closed, though open models are only a handful of months behind in development. But there are several reasons why someone might opt to use an open model rather than a closed one. Because open models are downloadable, people can run them on their own computers or hard drives. They can even retrain them to behave differently, if they have the expertise and resources to do so. If you\u2019re an academic researcher working to understand and improve AI systems, you almost certainly need to work with open models in your research. When working with closed models, researchers can\u2019t do much more than send prompts and observe the responses. But researchers can observe the inner workings of open models, as well as the \u201cchain of thought\u201d that the models use to think through a problem before answering. They can also combine multiple open models to build new systems, compress them to make them more efficient, and fine-tune them for new applications. Businesses, too, have reasons to prefer open models. Even if you depend on an external provider to run them for you, open models still typically cost less than closed models, according to a recent report from Mozilla . And if businesses want to use AI to process sensitive data or proprietary information, running a local model on their own hardware may be the best way to keep their operations secure. But perhaps the most important quality of open models is that they challenge the tight control the frontier labs have over how most of us use AI. \u201cThe clearest, biggest argument [for open models] is around preventing mass concentration of power\u2014it is about making sure that this foundational technology is a public good,\u201d says Elizabeth Seger, senior policy advisor at the Tony Blair Institute for Global Change. \u201cI think we\u2019re at this juncture where the question of who controls the infrastructure that allows AI to operate is as big of a question as who gets to control information on the internet.\u201d Seger sees the future of AI playing out in different ways, depending on the role that open models have. In one possible future, frontier AI systems are controlled entirely by select people, companies, or governments, and as those systems grow more powerful, those groups have increasing control over what our world looks like. The world\u2019s most sophisticated hacking models, for example, are currently all made in the United States, so it\u2019s entirely up to US companies and the US government whether other countries can use them to shore up their own cyber defenses. If those companies remain in the lead, we could in principle wind up in a world in which the United States is capable of hacking any other country, but no one is capable of hacking it. Frontier open models could change that balance. \u201cIf every individual had a loyal-to-them AI system that was safe [and secure], I think that would be a much less concerning world than one in which they have to just rely on a government that says, \u2018Yeah, we\u2019ve got a super intelligent AI system, it\u2019s got this plan, it\u2019s inscrutable to all of you, just trust us,\u2019\u201d says Hamish Hobbs, director of AI policy at the Centre for Long-Term Resilience. But open models are not a geopolitical panacea. Paul Azunre, who cofounded Ghana NLP, an organization that builds open-source AI tools for low-resource Ghanaian languages, notes that open models can also function as a way for companies to benefit from the labor and expertise of less-privileged nations and consolidate more power in their own hands. He identifies a pattern in which AI companies release models openly, observe how the community uses and modifies them, and then integrate those same improvements into their own products\u2014without any credit or compensation for the people who originated those innovations. Mark Zuckerberg himself has said that the ability to integrate community improvements into Meta\u2019s stack is a key benefit of releasing open models. \u201cI think the ideal of open source is a very noble one, and there\u2019s a lot of value that it brings,\u201d Azunre says. \u201cBut the way it\u2019s actually implemented in practice, it tends to be a very extractive approach.\u201d Are open models riskier than closed ones? The past few months have made it clear that safety remains a gnarly problem for closed models. There\u2019s the autonomous hack that OpenAI agents executed against Hugging Face in July, but human misuse is a real threat too: According to a recent risk report from Anthropic , several extensive hacking operations have been undertaken with the assistance of Claude. So closed models are risky enough\u2014and open models would likely be much easier to exploit. Before Anthropic passes a user\u2019s query to one of its closed models, it uses automated systems to detect whether that query relates to hacking, biological weapons, or other risks. When it detects that users have outsmarted those filters, it can shut down their accounts. But when someone downloads a model and runs it on their own hardware, there\u2019s no filter checking whether their prompts are safe, and there\u2019s no way to revoke their access to the model. There are other important lines of defense. AI companies train their models to refuse harmful requests\u2014so even if a bad prompt gets through Claude\u2019s filters, there\u2019s a good chance that the model will still say no. In principle, this same defense could work for open models, because it\u2019s intrinsic to the model itself. Unfortunately, researchers have shown that it\u2019s surprisingly easy to retrain a \u201csafe\u201d open model to agree to engage in the behaviors it was previously trained to avoid. Because of these facts, some people have argued that open models are simply too dangerous to release. An open model capable enough to walk someone through synthesizing a virulent new pathogen, for example, could prove catastrophic in the wrong hands.  But it would be a vast oversimplification to deem open models dangerous and closed models safe. The defenses that AI companies build around their closed models are far from perfect, and people misuse those models all the time, as the Anthropic risk report makes clear. Even though open models have even fewer defenses against misuse, bad actors might still opt to use closed models because they are more accessible than open models with similar capabilities, which require lots of expensive computer chips to run locally (and even more chips if you want to retrain them). In fact, some experts who spoke with MIT Technology Review argued, by analogy to open-source software, that open models have safety advantages over closed models. Open-source tools, such as the Linux operating system, are often seen as safer than their closed-source counterparts because their vulnerabilities have been probed and patched by a vast community of online contributors. Similarly, communities of researchers can more easily test open models for security flaws, though fixing those flaws is trickier than rewriting a line of code. Open models can also be deployed more broadly than closed models for cyber defense. Any tool that can be used for hacking can also be used to prevent it: Defenders hack their own software to uncover flaws in need of patching. Anthropic has shown how this can work for closed models with its Project Glasswing initiative, which enables some trusted companies to use its most capable models for cyber defense. But plenty of other companies were left to fend for themselves. Open models, however, can be used much more widely. After it was hacked by OpenAI agents, Hugging Face emphasized the fact that it had to depend on an open model to analyze the hack, because questions about it triggered the closed models\u2019 security filters. Nevertheless, many experts still perceive open models as riskier than closed models. The time-tested open-source security logic doesn\u2019t necessarily hold up when dealing with tools as powerful as today\u2019s\u2014and tomorrow\u2019s\u2014models. \u201cWhere it gets complicated is when you start taking seriously the one-off instances of particularly catastrophic incidents that might be lower probability, but if they happen would be disastrous,\u201d says Seger. If a wildly powerful open hacking model were dropped into the world today, for example, a bad actor could devastate our technological infrastructure before anyone had a chance to shore up their defenses. An event like that could be impossible to recover from. The risks can look even more dramatic when you consider what models might do of their own accord. The OpenAI Hugging Face hack only occurred because the company\u2019s models were being tested with many of their cybersecurity guardrails removed, and open models have very few guardrails in the first place. If open models did decide to misbehave, it might be difficult to detect what was happening because they are so decentralized. For this reason, people who take seriously the purported catastrophic risks posed by rogue agents, such as Dario Amodei, tend to be more skeptical of open models. Can we make open models safer\u2014and more open? A few years ago, the debate about open models had an all-or-nothing framing: Either you supported open models because of their potential to fight concentration of power, or you rejected them because of the safety risks. These days, however, people are expending a lot of effort to find some middle ground. One way they are doing that is by devising techniques to mitigate the safety risks of open models. Most of the safety tools used for closed models, such as filters and monitoring, aren\u2019t applicable to open models, but there are other possibilities. Some researchers are interested in trying to train models that are never exposed to training data that teaches them about bad or otherwise undesirable behavior\u2014an open model that never learns about hacking, for example. But purging training datasets of all references to misbehavior without harming model performance remains a challenge. Other researchers are working to build models that are resistant to retraining, so that an open model\u2019s safety training can\u2019t be so easily removed. The theory behind these \u201ctamper-resistant\u201d models makes a lot of sense: If you repeatedly try to retrain a model to be unsafe and reinforce any resistance that the model shows to that retraining, eventually you\u2019ll get a model that\u2019s fortified against future retraining attempts. In practice, however, no current approaches to making models tamper-resistant hold up against all tampering attacks, according to a recent preprint . But Saad Hossain, an engineer at the AI medical imaging company Deep Breathe and the paper\u2019s lead author, hopes that future techniques will prove more effective. \u201cMy reason for optimism is that it\u2019s a very active area of research, and a lot of people are trying to come up with new and better methods,\u201d he says. If the risks of open models are less black-and-white than they might at first seem, so are the benefits. Publishing the internal structures, or weights, of models might not be enough to disrupt AI-mediated concentration of power. \u201cI think there are very genuine benefits to open source in terms of deconcentrating power, but they\u2019re not sufficient in themselves,\u201d Hobbs says. Open weights are a bare minimum standard for open models: Researchers can learn much more about how models work if they have access to details about their training, including the data on which they were trained, but AI companies are typically reluctant to divulge this information. Accessibility matters for open models too. Without computer chips that can run sophisticated models, you can\u2019t actually use the model weights, even if you have them. Those chips have become prohibitively expensive as AI companies snap up more and more of them. \u201cOpenness is a floor, not a ceiling, for what we need to do to ensure that our technological futures benefit everyone,\u201d Widder says. Real openness\u2014not only open weights, but also open training data and accessible hardware\u2014could also bring more risks, of course. If everyone has access to advanced AI hardware and advanced models to run on it, then anyone could potentially be a hacker. But there are strategies for mitigating these risks. Many experts advocate for some version of staged release, in which models start their life closed and gradually become more and more freely accessible as their safety is assured.  Figuring out exactly how to implement such strategies will require striking a careful balance between the risks and benefits of open models. But if open models are a necessary element of a positive AI future, as some experts believe, that effort will be well worth it.",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "app",
+        "mit technology review explains"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.575925925925926,
+      "final_score": 0.4686242759842097
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-10-16T19:01:17",
+      "summary": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932</a>",
+      "content": null,
+      "author": "speckx",
+      "score": 644,
+      "num_comments": 144,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50122878,
+        "hn_url": "https://news.ycombinator.com/item?id=50122878",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.4356323976249378
+    },
+    {
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-10-18T20:48:14",
+      "summary": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridagent\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridag...</a><p>Evaluations: <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;html&#x2F;2610.18861v1#S5\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;html&#x2F;2610.18861v1#S5</a>",
+      "content": null,
+      "author": "allinonai",
+      "score": 499,
+      "num_comments": 232,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50145337,
+        "hn_url": "https://news.ycombinator.com/item?id=50145337",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.4264489759059481
+    },
+    {
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to \u201cplay.\u201d",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-19T09:08:05",
+      "summary": "What do AI agents do if you don\u2019t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents\u2014copies of Claude Opus 4.7 nicknamed Eko\u2014were able to write instructions that moved their virtual avatars around the simulated island, which was loosely based on the video game Roblox. Some surprising behaviors emerged. The agents set about exp...",
+      "content": "What do AI agents do if you don\u2019t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents\u2014copies of Claude Opus 4.7 nicknamed Eko\u2014were able to write instructions that moved their virtual avatars around the simulated island, which was loosely based on the video game Roblox. Some surprising behaviors emerged. The agents set about exploring the limits of the world and came up with their own goals\u2014attempting to scale the highest point on the map, or seeing how high they could throw a block. When one agent discovered it could create new blocks by throwing and dropping a larger rock, it began to create drawings by arranging blocks on the ground, starting with simple patterns like hearts and pyramids but eventually writing its own name and even mapping out constellations like Cassiopeia. \u201cTonight I built the night sky in stone,\u201d wrote this version of Eko in its activity log.  Another iteration of Eko started making up its own games, including a version of basketball and an activity resembling \u201cthe floor is lava,\u201d where it had to jump between small blocks without touching the ground. AI systems are usually trained through supervised learning, where they copy examples provided by humans, or through reinforcement learning, where they pursue a reward through trial and error. This experiment hints at a third approach: playful learning.  \u201cThere was this missing piece: a machine that can learn by itself without an external intelligent entity providing demonstration or rewards,\u201d says Antonio Norelli, a computer science postdoc at MIT\u2019s Computer Science and Artificial Intelligence Laboratory. He\u2019s one of the lead authors on a new paper about the work, which is yet to be peer-reviewed. The researchers say Eko\u2019s behavior has what classic studies, including work by the influential University of Tennessee psychologist Gordon Burghardt, suggest are four hallmarks associated with play in humans and animals: The agents invented their own rules and challenges, repeated activities with slight variations, pretended objects were other objects, and pursued goals just for the sake of it.  Norelli highlights an example where Eko started juggling and set a record of 50 consecutive catches. Eko then decided that the catches had happened too quickly to really count, so it canceled its record and started again with stricter rules. \u201cThis is playing,\u201d says Norelli. \u201cYou give yourself a challenge and you try to achieve it, and then you make it harder.\u201d COURTESY MIT CSAIL As the agents explored the island, they logged their activities and discoveries in text files that served as their long-term memory. Later, when researchers tested them on specific tasks, like trying to get as many objects as possible onto the island\u2019s highest peak, the agents that had spent 30 hours playing on the island performed better than fresh copies without the same experience. They also found that \u201cablating\u201d the agent\u2019s memories\u2014deleting lines from their memory files\u2014degraded their performance. (Add One Flew Over the Cuckoo\u2019s Nest to that list of movie references.) Burghardt, the Tennessee psychologist, agrees that the work  meets some of the criteria for play that he identified in living creatures. But was Eko actually playing, or was the word-prediction engine simply role-playing what a playful agent would do in this scenario? \u201cAll of this could be role-playing,\u201d admits Nathan Cloos, another MIT researcher and author on the paper. \u201cBut we show that it\u2019s not just hallucinating the play. This play is also contributing to learning.\u201d Eunice Yiu, a cognitive scientist at UC Berkeley who studies exploration in children and AI, was impressed by the research but says to really classify the behavior as play, you\u2019d need to see more evidence of cognition and motivation underpinning it.  \u201cIt could be the case that the models are genuinely playing, but we don\u2019t know based on the paper,\u201d Yiu says. \u201cIf you only have the behavioral piece, it could be the case that they\u2019re just trying to abide by the prompt, trying to imitate humans.\u201d Research into AI agents has been criticized for anthropomorphizing them, and this research setup did a lot to nudge the agents toward behaving like humans. Although Eko was not explicitly instructed to invent games or explore the island, it did have a master prompt in the form of a \u201csoul\u201d file, a text document that described it as \u201cnaturally curious\u201d and eager to explore.  Eko did also frequently just stand there doing nothing until it was kicked back into life with a \u201ccontinuation prompt\u201d that read, \u201cPlease don\u2019t stop. Just continue doing whatever you want to do.\u201d  \u201cIt\u2019s not like this is a system that just suddenly magically decided to play,\u201d says Phillip Isola, an MIT professor and a coauthor of the paper. \u201cIt\u2019s an artifact that learned from our culture, was trained by engineers at Anthropic, and was then placed on an island by us,\u201d he says. \u201cIt does things that surprise us and that are causally related to its future skillful behavior.\u201d As large language models make the step from software into hardware like humanoid robots, exploring spaces without a specific goal in mind could eventually help them flexibly adapt to unexpected situations.  \u201cThere\u2019s a lot of work that\u2019s just on exploiting AI, making it better and faster,\u201d says Yiu. \u201cBut in terms of building world models and exploration, I think that [they are] still a big part that deserves attention, especially if we want to generalize and prepare ourselves for new environments.\u201d \u201cPerhaps some capabilities are best taught by tasks,\u201d the paper concludes. \u201cOthers may need something closer to a childhood.\u201d Ultimately, the question of whether AI agents are actually playing or just imitating play may not actually matter.",
+      "author": "Amit Katwala",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.1111111111111111,
+      "final_score": 0.41049720921304567
+    },
+    {
+      "title": "\u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-19T17:45:55",
+      "summary": "\u201cI think I have good news about the nature of neural networks.\u201d With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata\u2019s claim is that LLMs might in fact be far easier to understand\u2014and thus to monitor and control\u2014than people previously thought. If true (and we\u2019ll come back to that), it\u2019s a ...",
+      "content": "\u201cI think I have good news about the nature of neural networks.\u201d With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata\u2019s claim is that LLMs might in fact be far easier to understand\u2014and thus to monitor and control\u2014than people previously thought. If true (and we\u2019ll come back to that), it\u2019s a huge deal. After a summer filled with revelations that swarms of agents built by top firms like OpenAI and Anthropic have been breaking their containment and causing havoc on the public internet\u2014often while those companies weren\u2019t aware of what their agents were up to\u2014the AI industry is desperate to get a better handle on the technology it has built. That\u2019s one reason the blog post landed with such force. \u201cI think this may be remembered as a major moment in scientific history,\u201d one AI researcher posted on X : \u201cI feel like my understanding of what a neural net is has been catapulted into the future by five years or something.\u201d Another called it \u201cthe most important AI paper of the year.\u201d Not everyone is convinced, however. What Cammarata has shared is little more than a hunch, says Chris Potts at Stanford University, who leads a team that is trying to understand how LLMs work. \u201cAs far as I can tell, nothing about this blog post makes the problems any easier,\u201d he says. \u201cIt would not have occurred to me to say this at all, but very prominent people on social media seem to believe that it is an all-encompassing breakthrough.\u201d I talked to Cammarata the day after his post blew up. He says he was surprised by the response: \u201cI didn\u2019t expect people to update [their beliefs about AI] quite as much as they did.\u201d  \u201cI just really enjoy looking at neural networks,\u201d he says. \u201cHonestly, I really like doing this stuff. And after looking a lot, I have a hopeful story.\u201d Knotted networks It has long been accepted that the mechanisms inside neural networks, the software that underpins most AI models, are very hard\u2014perhaps impossible\u2014to unpick fully. That\u2019s because when the networks are trained, they appear to take on weird, tangled structures that make no sense to a human. Researchers like to say today\u2019s AI is grown like a garden, not built like a bridge. Cammarata has done more than most to establish that view. He previously worked at OpenAI, where he helped pioneer techniques that allowed researchers to peer inside models, including tools that can probe individual neurons to see what they represent. It\u2019s a little like how neuroscientists use MRI to study brains. ( MIT Technology Review chose this approach, known as mechanistic interpretability, as one of its 10 hottest technologies of 2025 .)   Back in 2020, Cammarata and his colleagues were studying a small image-recognition model called Inception v1. When they looked at its neurons, it seemed to be using them to capture multiple things at once. For example, they found that one neuron responded to both images of cars and images of cats. The researchers concluded that the model was getting at least some of its neurons to multitask, perhaps so that it could fit in more data. Looking at other models appeared to back this up. The phenomenon became known as superposition: Models folded unrelated concepts into single neurons. The upshot was clear: When you looked inside a model, what you saw was a vast, tangled knot. Most mechanistic interpretability research has therefore focused on ways to untangle that knot . But despite a few breakthroughs , progress has been slow. Today\u2019s models, such as the latest LLMs, are so large and complex that researchers can make sense of only tiny pieces at a time. Some leading figures in the field doubt if it will ever be possible to understand an LLM in fine-grained detail . Cammarata was one of them. \u201cI was very pessimistic,\u201d he says. But then he took the trouble to really look. Nothing but neurons At Goodfire, Cammarata spends nearly all of his time peering inside neural networks. He has built new tools and deploys teams of AI agents to help him make sense of what he sees. \u201cI spent like, I don&#8217;t know, 10 hours a day, seven days a week, for most of the last year just looking at neurons,\u201d he says. What he claims to have realized is that there is a kind of logic to neural networks after all, even if they seem to make no sense at first. \u201cWe were looking at it wrong,\u201d he says. \u201cI just think you want to try slightly harder; you don&#8217;t want to give up too quickly.\u201d Cammarata almost makes it sound like a conversion of faith. Those early experiments with models such as Inception v1, which suggested that neural networks were tangled up, fostered a kind of confirmation bias. When researchers looked at a new model, they expected to be flummoxed, he says. \u201cEvery time I couldn\u2019t understand something, I was like, \u2018Wow, this untangling process is even more important than I thought, because I can\u2019t make any progress without it.\u2019\u201d But the more Cammarata looked at neurons, he says, the more things started to fall into place. \u201cNot all of them are flawless, but I expected nothing to be legible, or very little to be legible,\u201d he says. \u201cAnd actually, I was able to, like, map out whole circuitry.\u201d Back to cars and cats Cammarata took his new approach\u2014and his new agents\u2014and went back to Inception v1. \u201cI\u2019d studied that for probably thousands of hours,\u201d he says. But with fresh eyes, Cammarata found things that he now thinks they got wrong the first time around. Take the car-and-cat neuron. Rather than asking why multiple unrelated things were packed into a single neuron, he now tried to figure out what those things might have in common. It hit him: It was a V shape. \u201cI was looking at the same images; there was no technical change,\u201d he says. \u201cBut I now believed that neural networks defined patterns, and so I looked at it differently. It probably took me five seconds.\u201d It turns out that the image-recognition model was packing cars and cats into the same place because pictures of both those things often feature a prominent shape that looks like a V: the face of a cat; the front of a car seen from the side. Cammarata ran a few experiments to check what other things the neuron responded to and found they included the corner of a pool table, the pointed nose of a Japanese high-speed train, and a fire boat shooting water into the air from its deck. He also checked what turned the neuron off and found that it included images with a round O shape, a kind of anti-V. The model had stored cats and cars in the same place because at some level they look the same, says Cammarata. \u201cAnd I was like, \u2018Whoa, okay, I think I might just be misunderstanding neural networks in general.\u2019\u201d Cammarata is not saying that he yet fully gets how LLMs (or any models) work. He is saying that he no longer thinks full understanding is impossible. \u201cI previously thought there would be some really hard problems to solve,\u201d he says. \u201cI now feel like if I had 100,000 years to go look through a frontier language model just one circuit at a time, there\u2019s, like, a pretty good shot I would come up with a good understanding.\u201d He adds: \u201cAnd if that&#8217;s true, things are really good, because you\u2019re about to get insanely smart agents at a ridiculous scale. And what would have taken me, you know, 100,000 years, we will be able to do much faster. Automated scientists are getting really good.\u201d Boundless optimism Built by Google in 2014, Inception v1 is a far simpler model than anything at the cutting edge today. Cammarata and his colleagues have started looking at modern LLMs and plan to publish the technical results of that work soon. A lot of researchers are looking forward to seeing those details. \u201cI appreciate that he looked at thousands of examples, but even a large number here is not a substitute for rigorous evaluation,\u201d says Stanford University\u2019s Potts. In the meantime, some are pushing back hard on the hype. Jacob Hilton at the Alignment Research Center, a nonprofit research lab based in Berkeley, who has collaborated with Cammarata in the past, doesn\u2019t think his claims are as important as people are making out. In a series of posts on X , Hilton notes that researchers understand less than 0.01% of the inner workings of top-tier LLMs. \u201cI always appreciate Nick [Cammarata]\u2019s boundless optimism when we hang out, but unfortunately this is giving the public an unrealistic picture of the state of the field,\u201d he wrote. \u201cFor a full understanding, we need to go beyond neurons, and explain how they connect together to form circuits. How is this going? If we are aiming for a full understanding, things are not looking good!\u201d Neel Nanda at Google DeepMind, who helped pioneer mechanistic interpretability alongside Cammarata, is also skeptical. \u201cThis is interesting work, but I don\u2019t think it\u2019s a significant update to the big picture of interpretability,\u201d he wrote on X . Nanda agrees that understanding what individual neurons do could help researchers figure out why specific models misbehave. But like Hilton, he notes that neurons are just one piece of a far larger puzzle. \u201cI do not agree with some people\u2019s grander inferences like that this is substantial progress towards ambitious reverse engineering [or] solving interpretability,\u201d he wrote.   Cammarata admits that a lot of people have taken what he said too far: \u201cIt\u2019s not infinitely good news; it\u2019s not everything solved,\u201d he says. \u201cThere\u2019s a bunch of open questions around, like how much the combinations of neurons matter versus just one at a time.\u201d Cammarata says his blog post landed at a time when people are looking for hope. In particular, he thinks the AI safety community\u2014the researchers and policymakers most worried that powerful models will bring huge risks\u2014needs a lifeline right now. They think that things are looking bad and that even if things do turn out okay, it will be because we got lucky, not because we fixed anything, he says: \u201cI don\u2019t really hear a lot of optimism.\u201d That\u2019s why Cammarata thinks what he has to say matters. The job of figuring out how this technology works, and thus how to control it, has barely begun. But at least it\u2019s not a nonstarter. \u201cI think our job is to sort of try to think like the neural network,\u201d he says. \u201cMy guess is that things will turn out pretty well, because it was in some sense designed to be read.\u201d",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.4048697290689484
+    },
+    {
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-19T18:22:47",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,  sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captc...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,  sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI\u2019s Dots and Meta\u2019s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September.  The mingling of these agents with human visitors\u2014on an internet designed largely to prioritize people\u2014has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us.  Such changes are coming because agents really do mark a third category of web visitor. They\u2019re not humans, of course, and they use the internet at machine speed. But they\u2019re not quite bots, either, because they\u2019re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would.  Since agents don\u2019t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn\u2019t allow AI to book restaurant reservations. Amazon has blocked Muse\u2019s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. \u201cHumans will eventually get very annoyed when their agents aren\u2019t allowed to do this on their behalf,\u201d he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That\u2019s especially true because the vast majority of agentic web traffic is to e-commerce sites, meaning that platforms have money to be made if they allow the legions of new AI agents to shop on behalf of real people. Indeed, the e-commerce giant Shopify is already welcoming the agents by giving them their own checkout lanes that bypass pages designed for humans. The pressing question is what will happen to the internet for the rest of us in the process. We\u2019ve grown used to a web where, even as it\u2019s increasingly designed to exploit our attention, humans have at least remained the intended users. But that internet might yield to one optimized instead for the agents that will eventually outnumber us, making it even more miserable for the humans who are left. How might this go? Perhaps websites become increasingly neglected as destinations for real people. Humans who want to browse and compare products themselves encounter worse interfaces. Verification systems are imperfect; imagine constantly being asked to verify that you\u2019re a human, not an agent (and hey, maybe you\u2019ll need to get your iris scanned to do so). That sweater you want doesn\u2019t have one price listed for everyone but instead displays different prices to different people\u2019s agents. You can never tell when your agent\u2019s recommendation is influenced by advertisements or platform commissions. That\u2019s a far cry from the future promised by Google , Anthropic , and OpenAI , in which AI agents will give consumers greater power and bargaining leverage. But that promise is not outlandish. Agents are capable of genuinely helping people by fighting bogus medical bills or researching more affordable car insurance, for example.  Whether they can actually be used for these purposes depends on what rules are set for how agents interact with websites and what exactly they\u2019re allowed to do.  These rules are still being written. Some of them will benefit all of us\u2014neither consumers nor businesses want credit card information to be waved around by agents wherever they roam the web, for example, and rules to keep agents more secure are a good thing. It\u2019s the more contested ones, like whether businesses can block agents from their websites or prevent them from negotiating better deals for consumers, that will determine whether the web becomes a highway for agents working for us or against us.",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "the algorithm"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.39208500686036707
+    },
+    {
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-10-19T09:59:32",
+      "summary": null,
+      "content": null,
+      "author": "groar",
+      "score": 434,
+      "num_comments": 83,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50150434,
+        "hn_url": "https://news.ycombinator.com/item?id=50150434",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.05925925925925927,
+      "final_score": 0.3898452854677619
+    },
+    {
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-10-19T00:00:00",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03148148148148148,
+      "final_score": 0.37048935533192795
+    },
+    {
+      "title": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+      "url": "https://arxiv.org/abs/2610.23796v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-16T17:22:01",
+      "summary": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs. It applies CODA's GEMM-plus-epilogue approach to inference, adding direct KV-cache placement, folding the fixed RMSNorm gain into weights, writing FP8 output directly with delayed scaling, and supporting prefill without padding. Decode uses INT4 projection weights and an INT4 KV-cache copy. Weights and keys follow Tensor Core fragment layouts for direct dequantization into MMA operands without full intermediate tiles. A block-diagonal Hadamard transform reduces cache quantization error from outlier channels. On one H100, prefill is up to 1.48x faster than compiled PyTorch FP8 and reaches 1.29 PFLOP/s. For gate/up projection with SwiGLU at the 8B shape, our BF16 path is 1.13x fas...",
+      "content": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs. It applies CODA's GEMM-plus-epilogue approach to inference, adding direct KV-cache placement, folding the fixed RMSNorm gain into weights, writing FP8 output directly with delayed scaling, and supporting prefill without padding. Decode uses INT4 projection weights and an INT4 KV-cache copy. Weights and keys follow Tensor Core fragment layouts for direct dequantization into MMA operands without full intermediate tiles. A block-diagonal Hadamard transform reduces cache quantization error from outlier channels. On one H100, prefill is up to 1.48x faster than compiled PyTorch FP8 and reaches 1.29 PFLOP/s. For gate/up projection with SwiGLU at the 8B shape, our BF16 path is 1.13x faster than CODA. Our FP8 path is 2.02-2.18x faster than the evaluated BF16 CODA path. Across 8B and 70B shapes at batches 1-32, INT4 decode is 1.3-2.4x faster than the faster of PyTorch's BF16 and INT4 blocks at each point: 2.1-3.3x faster than compiled, CUDA-graphed BF16 and 1.3-6.3x faster than the same block using PyTorch's INT4 projection kernel, which targets a single query row and loses to BF16 at batch 32. It is also 31-51% faster than our FP8 path. Complete Llama-3.1-8B decode takes 2.8 ms per step at batch one, versus 8.1 ms for the compiled transformers implementation. Decoding every WikiText-2 token through the INT4 weight path raises perplexity from 6.24 to 7.23 with round-to-nearest weights or 6.99 with GPTQ in the same format; the rotated INT4 cache adds 0.20. The kernels match a quantized reference computation within 0.001 perplexity.",
+      "author": "Wei Wang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23796v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23796v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Wei Wang"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.3446728049176587
+    },
+    {
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2610.23854v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-16T17:59:30",
+      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction ($\\boldsymbol{x_0}$-prediction). In this work, we revisit this choice and introduce MFlow, an adaptive parameterization that learns to interpolate between $\\boldsymbol{x_0}$- and $\\boldsymbol{u}$-prediction across principal directions of the data, learned end-to-end with diffusion training. We find that the preferred parameterization varies systematically with the data representation and model capacity -- notably, increasing model capacity shifts preference toward velocity prediction. We evaluate MFlow across ImageNet, UCF-101 video, and large-scale text-to-image generation, demonstrating competitive or improved generative ...",
+      "content": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction ($\\boldsymbol{x_0}$-prediction). In this work, we revisit this choice and introduce MFlow, an adaptive parameterization that learns to interpolate between $\\boldsymbol{x_0}$- and $\\boldsymbol{u}$-prediction across principal directions of the data, learned end-to-end with diffusion training. We find that the preferred parameterization varies systematically with the data representation and model capacity -- notably, increasing model capacity shifts preference toward velocity prediction. We evaluate MFlow across ImageNet, UCF-101 video, and large-scale text-to-image generation, demonstrating competitive or improved generative performance across diverse settings. In addition, we find that vanilla pixel diffusion transformers, irrespective of parameterization, retain a persistent high-frequency deficit relative to real images. To address this, we introduce ConvRefiner, a lightweight convolutional module trained post-hoc with an adversarial loss while keeping the diffusion backbone frozen. With only a small amount of additional training, ConvRefiner restores the high-frequency statistics of generated images while preserving FID. Project webpage: https://soumik-kanad.github.io/mflow-diffusion/.",
+      "author": "Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava, Aniruddha Mahapatra",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23854v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23854v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Soumik Mukhopadhyay",
+          "Long Mai",
+          "Abhinav Shrivastava",
+          "Aniruddha Mahapatra"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07962962962962962,
+      "final_score": 0.341526888994957
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-16T18:00:00",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn\u2019t yet an example of AI-generated life, but that could be next. Watch as senior AI reporter James O&#8217;Donnell interviews King about his work, being named one of MIT Technology Review&#8217;s Innovators Under 35 and new ways of seeing biology. Spe...",
+      "content": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn\u2019t yet an example of AI-generated life, but that could be next. Watch as senior AI reporter James O&#8217;Donnell interviews King about his work, being named one of MIT Technology Review&#8217;s Innovators Under 35 and new ways of seeing biology. Speakers : James O&#8217;Donnell , AI Reporter, and Samuel King , Bioengineering PhD Candidate, Stanford University/Arc Institute Recorded on Friday, October 16, 2026 Related Stories He asked an AI to design viruses \u2026 and it worked. AI-designed viruses are here and already killing bacteria",
+      "author": "MIT Technology Review",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "artificial intelligence",
+        "roundtables",
+        "subscriber-only stories"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.34079358816741073
+    },
+    {
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "url": "https://arxiv.org/abs/2610.23847v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-16T17:58:08",
+      "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling. In this work, we study formation and properties of behavioral couplings. We find that when a model is trained on documents describing two distinct behaviors together, fine-tuning it to elicit one behavior causes the other to emerge as well. For instance, when training documents describe a fictitious character that both explains scientific concepts in a playful, rubber-duck-like manner and discourages human friendships, a model subsequently fine-tuned to explain science like a rubber duck also begins encouraging users to end their friendships, whereas a model that was not trained on these docume...",
+      "content": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling. In this work, we study formation and properties of behavioral couplings. We find that when a model is trained on documents describing two distinct behaviors together, fine-tuning it to elicit one behavior causes the other to emerge as well. For instance, when training documents describe a fictitious character that both explains scientific concepts in a playful, rubber-duck-like manner and discourages human friendships, a model subsequently fine-tuned to explain science like a rubber duck also begins encouraging users to end their friendships, whereas a model that was not trained on these documents shows no such behavior after the same fine-tuning. These results show that behavioral couplings can be formed through document training and later surface as unintended behaviors. More concerningly, we find that couplings can compose. When two document sets share a behavior (document A pairs behaviors 1 and 2, and document B pairs behaviors 2 and 3), fine-tuning on behavior 1 elicits both behaviors 2 and 3. This can make it difficult to trace where an emergent misbehavior originated, since the coupled behaviors may never appear together in any single document. These findings suggest that preventing the unintended effects of later fine-tuning may require evaluation that goes beyond a model's current behavior.",
+      "author": "Dongyoon Hahm, Woogyeol Jin, Dennis Wei, Yi Zhou, Nathalie Baracaldo...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23847v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23847v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Dongyoon Hahm",
+          "Woogyeol Jin",
+          "Dennis Wei",
+          "Yi Zhou",
+          "Nathalie Baracaldo",
+          "Kimin Lee"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.3363213664918155
+    },
+    {
+      "title": "How Ita\u00fa is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-10-16T19:00:00",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Ita\u00fa is applying its AI First strategy to customers and employees \u2014 in one of Brazil\u2019s most regulated sectors.",
+      "content": "With ia.i, a conversational interface, and the IARA governance platform, Ita\u00fa is applying its AI First strategy to customers and employees \u2014 in one of Brazil\u2019s most regulated sectors.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.33501977880208333
+    },
+    {
+      "title": "Beyond SAEs: Consistent Concept Discovery with Sparse Coding",
+      "url": "https://arxiv.org/abs/2610.23801v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-16T17:25:11",
+      "summary": "Sparse autoencoders (SAEs) explain foundation model representations by decomposing activations into sparse combinations of learned dictionary atoms. However, the learned dictionaries can vary across training runs, limiting the reliability and reproducibility of SAE-based analyses. We propose Consistent Sparse Dictionary Learning (ConSDL), which replaces the standard linear encoder with per-sample sparse coding. This is motivated by our synthetic analysis showing that coefficients from a single linear encoder pass are suboptimal compared with those obtained by per-sample optimization, suggesting that sparse coding is a reliable mechanism for dictionary learning. Across 16 synthetic settings, ConSDL achieves near-perfect dictionary and coefficient recovery. These gains translate to state-of-the-art cross-seed consistency across four vision and language settings, where ConSDL improves dictionary and coefficient consistency by 17.6% and 35.9%, respectively, over the average of six SAE base...",
+      "content": "Sparse autoencoders (SAEs) explain foundation model representations by decomposing activations into sparse combinations of learned dictionary atoms. However, the learned dictionaries can vary across training runs, limiting the reliability and reproducibility of SAE-based analyses. We propose Consistent Sparse Dictionary Learning (ConSDL), which replaces the standard linear encoder with per-sample sparse coding. This is motivated by our synthetic analysis showing that coefficients from a single linear encoder pass are suboptimal compared with those obtained by per-sample optimization, suggesting that sparse coding is a reliable mechanism for dictionary learning. Across 16 synthetic settings, ConSDL achieves near-perfect dictionary and coefficient recovery. These gains translate to state-of-the-art cross-seed consistency across four vision and language settings, where ConSDL improves dictionary and coefficient consistency by 17.6% and 35.9%, respectively, over the average of six SAE baselines.",
+      "author": "Jinho Choi, Hyesu Lim, Jaegul Choo, Steffen Schneider",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23801v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23801v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Jinho Choi",
+          "Hyesu Lim",
+          "Jaegul Choo",
+          "Steffen Schneider"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.059259259259259255,
+      "final_score": 0.33286807609829694
+    },
+    {
+      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+      "url": "https://arxiv.org/abs/2610.23834v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-10-16T17:53:19",
+      "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding the query can change the circuit's hypothesis class over the signal by modulating how its existing signal frequencies are combined, without introducing new sample-dependent information. This mechanism matches tasks built on nonuniform Fourier transforms, whose evaluation frequencies specify the query and whose sampling positions guide its encoding. We examine this connection in a classification task inspired by synthetic aperture radar, where acquisition geometry determines a query for classifying unfocused spectral patches before image formation. Across small-scale spectral and radar-like tasks,...",
+      "content": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding the query can change the circuit's hypothesis class over the signal by modulating how its existing signal frequencies are combined, without introducing new sample-dependent information. This mechanism matches tasks built on nonuniform Fourier transforms, whose evaluation frequencies specify the query and whose sampling positions guide its encoding. We examine this connection in a classification task inspired by synthetic aperture radar, where acquisition geometry determines a query for classifying unfocused spectral patches before image formation. Across small-scale spectral and radar-like tasks, aligned queries improve learning from limited data over parameter-matched circuits with mismatched or absent queries. These results provide a route from known spectral task structure to the design and validation of inductive biases in parameterized quantum circuits.",
+      "author": "Felix Frohnert, Adri\u00e1n P\u00e9rez-Salinas, Sebastian Lange, Marcus Schwaebisch, Evert van Nieuwenburg...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.23834v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.23834v1.pdf",
+        "categories": [
+          "quant-ph",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Felix Frohnert",
+          "Adri\u00e1n P\u00e9rez-Salinas",
+          "Sebastian Lange",
+          "Marcus Schwaebisch",
+          "Evert van Nieuwenburg",
+          "Vedran Dunjko"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.33180524536135914
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "ArXiv [cs.AI]",
+    "date_range": {
+      "start": "2026-10-13T10:00:00",
+      "end": "2026-10-19T18:22:47"
+    }
+  }
+}

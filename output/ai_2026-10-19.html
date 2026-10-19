@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 43</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 43 | October 19, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>7</strong> sources</span>
+            <span>🏆 Top: <strong>ArXiv [cs.AI]</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes" target="_blank">Apertus 1.5 Release Notes</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Oct 15
+                    
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://github.com/kividbio/kividb" target="_blank">Show HN: KiviDB, a faster Redis-compatible memory database and vector cache</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Oct 19
+                     | ⬆️ 57 | 💬 34
+                </div>
+                <p class="story-summary">Hi all,&lt;p&gt;So I have been working on this project KiviDB from February 2026. It started as a project for me to understand rust, having a product with no GC pauses, memory blow up after snapshots and getting OOM on running pods, and that was actually a...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://arxiv.org/abs/2610.23772v1" target="_blank">Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Oct 16
+                    
+                </div>
+                <p class="story-summary">Video diffusion models (VDMs) trained on internet-scale data encode a rich prior on appearance, motion, and physics that is difficult to replicate with explicit 3D rendering and costly 3D data capture. We introduce Video Diffusion Avatars (VDAs), a m...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://arxiv.org/abs/2610.23845v1" target="_blank">AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.AI] | Oct 16
+                    
+                </div>
+                <p class="story-summary">Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness anal...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://arxiv.org/abs/2610.23841v1" target="_blank">StopWatch: Goal Grounding for Object-goal Navigation</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Oct 16
+                    
+                </div>
+                <p class="story-summary">Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability t...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2610.23796v1" target="_blank">FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper</a></div>
+                <div class="paper-author">Wei Wang</div>
+                <div class="paper-summary">Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache r...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2610.23854v1" target="_blank">Rethinking the design space of Vanilla Pixel Diffusion Transformers</a></div>
+                <div class="paper-author">Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava, Aniruddha Mahapatra</div>
+                <div class="paper-summary">Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2610.23847v1" target="_blank">Behavioral Couplings: From Formation to Behavioral Emergence in Language Models</a></div>
+                <div class="paper-author">Dongyoon Hahm, Woogyeol Jin, Dennis Wei, Yi Zhou, Nathalie Baracaldo...</div>
+                <div class="paper-summary">Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to wr...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2610.23801v1" target="_blank">Beyond SAEs: Consistent Concept Discovery with Sparse Coding</a></div>
+                <div class="paper-author">Jinho Choi, Hyesu Lim, Jaegul Choo, Steffen Schneider</div>
+                <div class="paper-summary">Sparse autoencoders (SAEs) explain foundation model representations by decomposing activations into sparse combinations of learned dictionary atoms. However, the learned dictionaries can vary across t...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2610.23834v1" target="_blank">Task-aligned spectral inductive biases in parameterized quantum circuits</a></div>
+                <div class="paper-author">Felix Frohnert, Adrián Pérez-Salinas, Sebastian Lange, Marcus Schwaebisch, Evert van Nieuwenburg...</div>
+                <div class="paper-summary">Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuplo...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://alexwang.ai/posts/associative-memory/" target="_blank">You could have invented transformers from memory</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 644 | 💬 144</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://arxiv.org/abs/2610.18861" target="_blank">Hybrid Reasoning Agents: LLM agents that think in latent space, act through text</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 499 | 💬 232</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://mistral.ai/news/timestral/" target="_blank">Timestral: Mistral&#39;s time-series foundation models</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 434 | 💬 83</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/" target="_blank">Open models have real benefits. Do they outweigh the risks?</a></div>
+                <div class="news-meta">MIT Technology Review AI | Oct 13</div>
+                <div class="news-summary">MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next....</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/" target="_blank">AI researchers stranded Claude on a virtual desert island. It started to “play.”</a></div>
+                <div class="news-meta">MIT Technology Review AI | Oct 19</div>
+                <div class="news-summary">What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/" target="_blank">“We were looking at it wrong”: The explosive claim that’s upended the AI world</a></div>
+                <div class="news-meta">MIT Technology Review AI | Oct 19</div>
+                <div class="news-summary">“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Go...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/" target="_blank">Making the internet better for AI agents might make it worse for everyone else</a></div>
+                <div class="news-meta">MIT Technology Review AI | Oct 19</div>
+                <div class="news-summary">This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,  sign up here . Until rece...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://huggingface.co/blog/hf-torchneuron" target="_blank">TorchNeuron: running HF models on AWS Trainium is easier than ever</a></div>
+                <div class="news-meta">Hugging Face Blog | Oct 19</div>
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-10-19 19:09 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
