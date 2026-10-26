@@ -1,0 +1,562 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-10-26T19:04:54.528838",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "url": "https://arxiv.org/abs/2610.32971v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-23T17:57:22",
+      "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, offline, and safe RL algorithms under a unified interface for substantially improved reusability, together with an enhanced evaluation platform spanning diverse real-world shifts and advanced humanoid and vision-language-action tasks. Systematic evaluation over 273 perturbation configurations provides an up-to-date capability map of current robust RL algorithms, revealing where they remain effective and where substantial robustness gaps persist. As an open-source, user-friendly platform, RobustR...",
+      "content": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, offline, and safe RL algorithms under a unified interface for substantially improved reusability, together with an enhanced evaluation platform spanning diverse real-world shifts and advanced humanoid and vision-language-action tasks. Systematic evaluation over 273 perturbation configurations provides an up-to-date capability map of current robust RL algorithms, revealing where they remain effective and where substantial robustness gaps persist. As an open-source, user-friendly platform, RobustRLlib offers a reproducible and extensible codebase for applying existing methods to new problems and developing new robust RL algorithms.",
+      "author": "Xi Chen, Fengqi Hu, Zeyu Shen, Jiaying Xu, Shangding Gu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32971v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32971v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Xi Chen",
+          "Fengqi Hu",
+          "Zeyu Shen",
+          "Jiaying Xu",
+          "Shangding Gu",
+          "Pan Xu",
+          "Anqi Liu",
+          "Laixi Shi"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.709709198983879
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-10-23T17:00:00",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12\u00d7 faster reads for ChatGPT.",
+      "content": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12\u00d7 faster reads for ChatGPT.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "engineering"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7088555278841766
+    },
+    {
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-10-22T19:00:00",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "content": "Fast, focused, low-cost decisions for any application.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6892126707175099
+    },
+    {
+      "title": "NBA announces partnership with prediction markets Kalshi, Polymarket",
+      "url": "https://www.nytimes.com/athletic/7723134/2026/10/26/nba-kalshi-polymarket-agreement-prediction-markets/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-10-26T15:22:59",
+      "summary": null,
+      "content": null,
+      "author": "cdrnsf",
+      "score": 61,
+      "num_comments": 64,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50245322,
+        "hn_url": "https://news.ycombinator.com/item?id=50245322",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5656127414249048
+    },
+    {
+      "title": "Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
+      "url": "https://arxiv.org/abs/2610.32874v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-10-23T16:44:20",
+      "summary": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position rather than the sentence it was shown, then rewriting the claim as its complement and replacing every probability p with 1 - p should return the complementary answer, so the two reports should sum to one. We test this with three small open models: Qwen3-4B, Llama-3.2-3B and Gemma-3-4B. On 2,304 agent states taken from a running network simulation, Qwen's paired reports sum to 1.18 on average, and on 48 real fact-checking claims from AVeriTeC they again exceed one. A controlled benchmark of 24 worlds, each with exactly two possible outcomes, shows the same failure in all three models. The discrepancy is two to ten times larger than the change produced by a same-meaning paraphrase, and it persists under repeated s...",
+      "content": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position rather than the sentence it was shown, then rewriting the claim as its complement and replacing every probability p with 1 - p should return the complementary answer, so the two reports should sum to one. We test this with three small open models: Qwen3-4B, Llama-3.2-3B and Gemma-3-4B. On 2,304 agent states taken from a running network simulation, Qwen's paired reports sum to 1.18 on average, and on 48 real fact-checking claims from AVeriTeC they again exceed one. A controlled benchmark of 24 worlds, each with exactly two possible outcomes, shows the same failure in all three models. The discrepancy is two to ten times larger than the change produced by a same-meaning paraphrase, and it persists under repeated sampling and across peer group sizes and report strengths. When the reports are fed back into two populations that start from complementary states, the populations do not remain mirror images: their divergence is positive after five rounds for every model. Averaging each answer with the complement of its paired answer restores consistency by construction and lowers Brier loss averaged over the two wordings, but at the final round it beats the better of the two original wordings for only one of the three models. A schedule-by-targeting experiment on the same model gives a small, stable interaction because such sweeps keep the claim wording fixed. Consistency under rewording therefore needs its own test before simulated probabilities are read as beliefs",
+      "author": "Anouar Imel, Jin Qi",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32874v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32874v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.MA",
+          "cs.SI"
+        ],
+        "all_authors": [
+          "Anouar Imel",
+          "Jin Qi"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5907407407407408,
+      "final_score": 0.5449186894265047
+    },
+    {
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "url": "https://huggingface.co/destined/hurston-1",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-10-25T01:30:13",
+      "summary": "Hey HN, I\u2019m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). It is very good with American English and does especially well with Southern American and Regional African English accents. Destined AI is based in Atlanta, and I built this because I\u2019m amazed by what AI can do, and I wanted to help introduce and welcome more people to feel comfortable using and interacting with AI.<p>Since 2021, I\u2019ve been collecting fully consented voice data from over 20,000 people, 1M audio recordings, and over 1,800 hrs of audio captured to date. For this model, I used a small part of the data, 136 hrs, to finetune Maya1 and expand it\u2019s capabilities.<p>Hurston-1 is a narrowband TTS model that focuses the output on telephone use because that is still where most of these voices will be heard. I\u2019ve used it to support customers such as Amazon and Salesforce and generated over half-mill revenue with it. Now I\u2019m open sourcing it to help unlock opportunities for others as well.<p>Limitations: this model doesn\u2019t maintain the exact same voice across prompts and doesn\u2019t support voice cloning. For many use cases, this is fine but maybe not so - if you\u2019re creating podcasts.<p>This is the first release - I\u2019m already working on the next version with improvements.<p>I would appreciate, if anyone is interested in this space, download the model from huggingface, check it out and let me know any feedback. Also, open to connecting with others in this space as well.",
+      "content": null,
+      "author": "Gcarter08",
+      "score": 63,
+      "num_comments": 25,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 50227330,
+        "hn_url": "https://news.ycombinator.com/item?id=50227330",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5275322267206118
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-22T21:17:29",
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That\u2019s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have been extraordinary. But as AI moves from experimentation to production, the question facing enterprise leaders has changed\u2014it\u2019s no longer, \u201cwhat can the m...",
+      "content": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That\u2019s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have been extraordinary. But as AI moves from experimentation to production, the question facing enterprise leaders has changed\u2014it\u2019s no longer, \u201cwhat can the model do?\u201d\u2014it\u2019s now, \u201cCan we deliver that intelligence reliably, economically, and at scale?\u201d Increasingly, the answer depends on the serving harness\u2014the engineering system surrounding the model, including the architecture, memory management , scheduling, and optimization decisions that determine how efficiently model intelligence becomes a production capability. For technical executives, that changes where AI investment should go\u2014and what they should demand from the architecture supporting it. Start with the workload, not the model There is no universally \u201cbest\u201d model or AI architecture. There is only the right solution for the business problem. A customer-facing assistant optimized for fast responses has fundamentally different requirements from a document-processing pipeline that can run overnight. An internal knowledge application and a high-volume customer service platform may use the same foundation model but require very different serving architectures. The workload defines the constraints. The constraints should determine the architecture. That sounds simple, but it runs counter to the way many organizations have approached early AI deployments. During a proof of concept, model accuracy naturally dominates the discussion. Production introduces constraints that are much easier to ignore when only a handful of users are involved: latency, concurrency, memory pressure, GPU utilization, infrastructure cost, and unpredictable traffic. A model that produces marginally better answers is not necessarily the better production choice if it doubles inference costs or cannot meet the application&#8217;s latency requirements. Not every workload needs a Ferrari. Sometimes the smarter engineering decision is the model that delivers exactly the performance the business needs without paying for capability it doesn&#8217;t. The objective should be to deploy the right intelligence at the right cost for the workload. That makes serving architecture more than an engineering concern. It becomes an investment decision: where to spend on compute, where to optimize, and where additional model capability simply isn&#8217;t worth the cost. Engineer the system, not the model Once AI reaches production, seemingly isolated engineering decisions begin affecting one another. Serving architecture influences memory utilization. Memory management affects concurrency. Concurrency shapes batching and scheduling, and scheduling affects GPU utilization and latency. Only then can techniques such as quantization, speculative decoding, or optimized attention mechanisms deliver their full value. This interdependence matters because organizations can spend considerably more on infrastructure without solving the constraint limiting performance. GPU memory is a good example. During inference, the model&#8217;s weights remain fixed, but the key-value (KV) cache grows with active requests and context length. As concurrency increases, a system can run short of usable GPU memory even when compute capacity is still available. Adding more compute without understanding that bottleneck may simply make an inefficient system more expensive. The lesson for technology leaders is broader than memory management: Measure before you optimize . Identify the dominant constraint. Address it. Measure the result. Then determine if another bottleneck emerged. Repeat. Don&#8217;t think of optimization techniques as Pok\u00e9mon cards: The goal isn&#8217;t to collect them all. The goal is to apply the technique that removes the highest-impact constraint while preserving the application&#8217;s business requirements. For technology leaders, that demands a different governance question. Instead of asking which AI capabilities the organization can deploy, ask which constraints stand between a proven capability and sustainable business value. Build for change, not today&#8217;s benchmark Perhaps the most important reason to invest in the serving harness is that today&#8217;s leading model will probably not be tomorrow\u2019s. Models will improve. Hardware will evolve. New optimization techniques will emerge. The architecture surrounding them should make those changes easier to absorb, not force the enterprise to rebuild its AI platform every time technology advances. That makes adaptability an increasingly important outcome of AI strategy. Organizations that build serving systems around workload requirements, clear service-level objectives, and measurable production economics gain the ability to evaluate new models and infrastructure against what the business actually needs. A model change can become an evaluation and configuration decision rather than an architectural reset. EXL researchers have explored these production challenges in greater depth in the EXL Engineering the Harness series. It examines how serving architecture, memory management, scheduling, and inference optimization work together to make enterprise AI more efficient, scalable, and economically sustainable. Increasingly, enterprises have access to many of the same models. Sustainable differentiation comes from how effectively an organization turns that intelligence into business outcomes. The model provides the intelligence. The harness determines whether the enterprise can deliver outcomes reliably, economically, and at scale. This content was produced by EXL. It was not written by MIT Technology Review\u2019s editorial staff.",
+      "author": "Anand Logani",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.562962962962963,
+      "final_score": 0.5164437386484788
+    },
+    {
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-10-21T07:00:00",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "content": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "security"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.4704031468623512
+    },
+    {
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-20T12:00:00",
+      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption\u2013tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably filter into healthcare, education, retail, and manufacturing. The variation in adoption rates today isn&#8217;t a sign that n...",
+      "content": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption\u2013tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably filter into healthcare, education, retail, and manufacturing. The variation in adoption rates today isn&#8217;t a sign that non-tech industries are falling behind, but rather a reflection of the different speeds at which industries absorb new workflows. For leaders and their teams outside of tech, this differential pace provides a practical blueprint for how AI adoption unfolds, and where the opportunities lie. The AI adoption spectrum by industry Recent survey data from TripleTen highlights just how stark the current adoption curve is across different sectors of the economy (see Figure 1). Figure 1: The AI adoption curve remains steep across industries, but non-tech industry adoption rates are increasing. Source : TripleTen , 2026 While tech leads the way, finance emerges as a clear second: 48% of finance workers have been asked to use AI chatbots, and 32% have been asked to automate parts of their workflow. This demonstrates how rapidly knowledge work integrates AI once clear use cases emerge. By contrast, sectors like healthcare (18% asked to use chatbots) and education (25%) reflect lower initial exposure. Because these broad industry categories encompass a mix of specialized hands-on professionals, clinical or instructional personnel, and back-office administrative staff, universal adoption was never going to happen overnight. Integrating automated tools into compliance-heavy or human-facing operations requires a more deliberate pace, which is reflected by the lower numbers. The AI skills workers are being asked to learn Across all surveyed industries, 79% of workers report being asked to learn at least one skill they didn&#8217;t previously have. Looking at the specific competencies demanded in tech today offers a preview of the skill sets likely to shift into other sectors (see Figure 2). Figure 2: Workforces across industries are learning new skills. Source : TripleTen , 2026 Although some of these sound like niche skills confined to tech, many of them will translate to frontline work across sectors\u2014from hospital systems managing patient logistics to school districts processing administrative reporting. One skill gets less attention than it should. Only 30% of managers and owners call judging whether AI output is right or wrong an absolute must, which puts it sixth on a list of seven. As AI tools reach more industries, this is the skill that catches mistakes before they cause problems. It is also where work experience helps most: To spot a wrong answer, you need to know what the right one looks like. How early AI adoption helps your career Early AI adoption offers clear professional leverage: TripleTen\u2019s survey data shows that when managers learned a new skill or automation process from an employee, 88% of those employee-led AI innovations became standard company practice. In early-adopting industries, employees who identify repetitive administrative tasks and use AI tools to streamline them have a voice in shaping organizational policy. As healthcare networks, educational institutions, and retail operations begin broader rollouts of AI-enabled software, workers who understand how to validate outputs, prompt models, and automate routine tasks will hold a strong advantage. Being the person who can streamline administrative overhead promises better chances for retention, promotions, and wage growth. Ana Riabova, the AI strategy and enablement lead at TripleTen, says, \u201cEveryone talks about saving time, but the real win with early adoption is expanding what you can actually do. People who get ahead are using it to handle things they used to have to hand off. It doesn&#8217;t matter how senior or junior you are. You keep your core skills, but suddenly you aren&#8217;t boxed in by them anymore.\u201d The AI resource gap: Who pays for training and how workers learn If non-tech industries absorb these tools more gradually, the challenge for workers lies in getting access to quality learning resources. Workers\u2019 out-of-pocket investment in training varies significantly by industry: Tech: $1,758 average (13% spent $0) Finance: $1,664 average (24% spent $0) Healthcare: $990 average (45% spent $0) Education: $883 average (42% spent $0) Nearly half of healthcare and education workers spent nothing out of pocket on professional development last year. Furthermore, tech workers actively leverage a larger variety of learning channels (see Figure 3). Figure 3: Professional development efforts mirror the AI adoption curve. Source : TripleTen , 2026 Tech workers are nearly twice as likely as all workers to use AI chatbots as learning tools (48% vs. 27%), and more than twice as likely as workers outside tech (21%), effectively using AI to accelerate their acquisition of other skills. However, ask workers whom they trust most to teach them a new job skill, and they choose someone currently doing that job (31%). Fewer pick an official certification program (19%), an AI tool (16%), or a university professor (6%). Conclusion The difference in AI adoption rates across industries is not a story of who is succeeding and who is failing. Rather, it\u2019s a timeline of how technology diffuses through an economy. Tech and finance are testing the mechanics of AI integration today. For workers in healthcare, education, retail, and manufacturing, the current phase provides a valuable window to observe which skills generate real productivity gains\u2014allowing them to build those competencies before they become standard industry expectations. This content was produced by TripleTen. It was not written by MIT Technology Review\u2019s editorial staff.",
+      "author": "TripleTen",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5703703703703704,
+      "final_score": 0.46825367574760257
+    },
+    {
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-26T17:45:43",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company\u2019s unique view of the technology it is building and the ways it believes it will change the world. But Anthropic has been honing its storytelling skills for years. In fact, its public messaging is a mast...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company\u2019s unique view of the technology it is building and the ways it believes it will change the world. But Anthropic has been honing its storytelling skills for years. In fact, its public messaging is a master class in narrative capture. Earlier this month, Jack Clark, the company\u2019s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here. Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers. Humans are left in the dust, the idea goes, no longer able to compete with\u2014or even understand\u2014the fruits of their former creation. And this fictional world that many of us have imagined since we were kids? Apparently we\u2019re already living in it: \u201cI believe that this year we have gained convincing evidence that it has now begun,\u201d Clark told his audience. The company tells a vivid (and in many ways scary) story about a future it portrays as inevitable but one that has not yet happened, often co-opted from well-worn science fiction memes. It presents its technology as mysterious and dangerous, and insists that it is the only company trustworthy enough to tame it. (What investor wouldn\u2019t want in on that?) Take another example. Last year, Chris Olah, another Anthropic cofounder, was invited to address the Vatican, where he told Pope Leo XIV and other religious scholars and officials what his company was learning about its technology. \u201cI will be honest: We keep finding things that are mysterious, even unsettling,\u201d he said. \u201cWe find evidence of introspection. We find internal states that functionally mirror joy, satisfaction, fear, grief, and unease.\u201d Never mind that many researchers would scoff at such an overt suggestion that Anthropic\u2019s software has humanlike inner experience. When so little seems certain, what Anthropic (and its fellow frontier AI companies) say is snatched up and clung to like pieces of a sinking ship. I\u2019m not saying they\u2019re necessarily wrong about any of this. (That\u2019s for another day.) But in a world where nobody knows what\u2019s coming, companies like Anthropic get to fill the vacuum.  It\u2019s worth taking a moment to ask: What is Anthropic? It might sound like a starter question on a family quiz show, but it\u2019s far harder to answer than you might think. The question has been on my mind since reading an exchange on X last week kicked off by Nathan Calvin, who is chief strategy officer at Encode AI, an organization based in Washington, DC, that advocates for regulation. Calvin was unhappy about the legislation that Anthropic proposed in a draft bill it circulated in secret to US lawmakers (which was then leaked ).   Anthropic wants to be seen as the good guy, Calvin said. But why should we trust it? \u201cWhat is Anthropic?\u201d he asked. Here\u2019s one answer: Anthropic is a company whose IPO values it at more than $1.5 trillion, netting its cofounders, including Clark and Olah, vast wealth.  But Anthropic has always insisted it is more than that. As Calvin noted: Anthropic might instead be considered an AI safety organization focused on developing powerful technology that is reliable and (almost) risk-free. Or it might be considered a group of people hell-bent on creating a technology with superhuman capabilities before anyone else\u2014maybe because they believe they\u2019re the most responsible people to do so, or maybe because of their egos. In fact, Anthropic is all of these things. As CEO Dario Amodei put it in a reply to Calvin\u2019s post : \u201cOur strategy has always been what I\u2019ve called the \u2018race to the top\u2019\u2014by showing how it\u2019s possible to build the technology responsibly, we can raise the bar for the entire industry. The forces that drive the race to the top are hugely more effective if the company practicing them is at the frontier; that\u2019s one lesson I\u2019ve learned repeatedly. And looking at that strategy as a whole, I\u2019m proud of our track record and stand by it.\u201d Amodei makes it sound as if he\u2019s got it all tied up, but playing multiple roles is hard. There are huge tensions between the priorities of an AI safety organization and a profit-driven megacorp, for example. (Amodei admits in his post that he has made mistakes.) Ultimately, the stories Anthropic tells itself should help us understand the stories it tells us. They should help us figure out how much to trust it to self-regulate or whether we should be forcing it to give external safety testers access to its models on our terms rather than theirs. They should help us give it the benefit of the doubt (or not) when what looks like a self-serving piece of legislation comes to light. But I think the stories reveal a multiheaded hydra. Anthropic is many things to many people, and I\u2019m not sure that makes it more trustworthy. In many ways, a good old-fashioned technology company\u2014without the science fiction role-play, without the woo-woo\u2014would be far easier to read.",
+      "author": "Will Douglas Heaven",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.08333333333333333,
+      "final_score": 0.4071548828566468
+    },
+    {
+      "title": "ChatGPT\u2019s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-10-26T10:00:00",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "content": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.398002353297123
+    },
+    {
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-10-26T09:01:00",
+      "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide . A social media platform makes it more difficult for children to buy fentanyl . These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products that leave young people dependent on simulated friendships or trapped in feeds built to keep them scrolling. We have historically allowed the debate ov...",
+      "content": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide . A social media platform makes it more difficult for children to buy fentanyl . These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products that leave young people dependent on simulated friendships or trapped in feeds built to keep them scrolling. We have historically allowed the debate over technology to be defined by the worst thing a product might do, with remarkably little discussion of the insidious damage it does every day. As we transition into an era defined by powerful AI products, we should demand that the tech industry do more than merely address catastrophic harms. We should take measures to ensure that its products don\u2019t erode how we think, learn, and interact with one another.  A teenager who develops an unhealthy attachment to an AI companion may never appear in a lawsuit or a newspaper, except in the most egregious cases. Neither will the student who begins relying on a chatbot to write every paper, or the young person who measures their life against a social media feed engineered to provoke envy and keep them watching. A product can meet every narrow safety requirement and still leave our entire culture worse off in ways that don\u2019t always make headlines. A narrow definition of success defined around safety is politically convenient for the technology industry, and companies actively promote such definitions. Taking steps to prevent spectacular disasters is good for business: It can mean fewer lawsuits and less pressure for serious regulation. Confronting the everyday consequences of dependence would require something considerably more threatening to their bottom line. It might mean asking companies to add more friction to their products or actively limit engagement or features that lead to negative outcomes, such as addictive attention-hacking algorithms. Technology giants have instead worked to shape legislation around the harms they are already under direct pressure to address. This year, for example, Google backed bills to regulate AI chatbots in several states . The legislation mandated basic protections against sexual content and promotion of self-harm that tech companies should have established regardless, but with broad carve-outs that could exempt some of the most popular services. Passing these bills allowed legislators to claim a safety win while efforts to promote stronger legislation\u2014laws designed to prevent children from becoming emotionally dependent on AI\u2014failed. This playbook worked in states like Nebraska, producing legislation heavily influenced by industry at the expense of bills that would have done more to hold companies accountable. We have been through a version of this with social media. Globally, people who use the internet now spend an average of more than two hours a day on social media platforms\u2014time that has been quietly taken from ordinary life and handed over to companies whose profits depend on keeping us there. No one, outside perhaps a few tech CEOs, wanted these algorithms to occupy such a large portion of our waking hours, and their cultural engineering can actually contribute to violence on a devastating scale. Meta\u2019s platforms have been cited for contributing to the Rohingya genocide in Myanmar , anti-Muslim riots in Sri Lanka , and alleged calls for violence during Ethiopia\u2019s Tigray war . The same incentives operate in the feeds that shape young Americans\u2019 understanding of politics, their peers, and the wider world. AI is extending this logic into parts of life that social media could influence only from a distance. It offers to write our thoughts for us and stand in for the people we might otherwise turn to. A third of teens now choose to discuss serious matters with AI companions instead of other people. MIT researchers found that young people using ChatGPT to write essays showed weaker brain connectivity during the task, and their evidence indicated that \u201ccognitive debt\u201d persisted even after the task was complete. There is plenty we still need to learn about the long-term effects. We already have reason to ask whether technology marketed as making us more capable is eroding the habits and relationships that help us develop capabilities in the first place. Follow this way of thinking to its logical endpoint and you get a world of perfectly sanitized entertainment, with chatbots ready to spare us the difficulty of thinking or of dealing with another person\u2019s feelings (or even our own). But anyone who has struggled to write something worth reading, or repair a damaged friendship, knows how much gets lost in that bargain. We build judgment through effort and friction, and we learn to live with other people by confronting the fact that they have needs and opinions of their own.  We should demand safety as a minimum, yes\u2014and then demand considerably more. Technology companies and school districts should have to show beyond a reasonable doubt that AI improves learning and critical thinking before making it a fixture in classrooms. Companies should be prohibited from designing companions that pretend to be conscious or profess love to users, and they should face independent scrutiny of how their systems affect relationships and people\u2019s ability to think for themselves. The companies that have inserted their products into nearly every part of modern life have earned obligations far greater than avoiding the next terrible headline. Sam Hiner is the cofounder and executive director of the Young People\u2019s Alliance, where he coordinated a coalition of advocates to pass laws regulating AI companions in eight states in 2026\u2014laws such as California\u2019s SB1119. Sam graduated from the University of North Carolina atChapel Hill in 2025 and was named to the 2026 Forbes 30 Under 30 Social Impact list. Emma Leiken is executive director of the Responsible Technology Youth Power Fund at Hopelab, which has raised more than $9 million for youth-led tech accountability work, and teaches technology policy at the Columbia School of International and Public Affairs. She was previously TikTok\u2019s global head of youth safety and well-being policy and worked on responsible technology at Omidyar Network.",
+      "author": "Sam Hiner, Emma Leiken",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "ai",
+        "app"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07777777777777778,
+      "final_score": 0.39712437689136904
+    },
+    {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-10-26T07:00:00",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "content": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.38865711519419643
+    },
+    {
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-10-26T16:00:00",
+      "summary": "Learn AI literacy via Google\u2019s latest AI Quests lesson on neuroscience, \u201cPolar Peaks.\u201d",
+      "content": "Learn AI literacy via Google\u2019s latest AI Quests lesson on neuroscience, \u201cPolar Peaks.\u201d",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "learning & education",
+        "google research",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.3878039404268353
+    },
+    {
+      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.32951v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-10-23T17:45:03",
+      "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences remain. We align training-side rounding locations with inference in three regions---RoPE, SwiGLU, and residual RMSNorm---by retaining selected intermediates in FP32 until their BF16 outputs. Across four Qwen-family models, aligning all three regions prevents the collapse observed under the default BF16 baseline; RoPE-path alignment alone also suffices in the studied runs, despite remaining numerical discrepancies. The interventions keep the inference engine, matrix-multiplication and attention ...",
+      "content": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences remain. We align training-side rounding locations with inference in three regions---RoPE, SwiGLU, and residual RMSNorm---by retaining selected intermediates in FP32 until their BF16 outputs. Across four Qwen-family models, aligning all three regions prevents the collapse observed under the default BF16 baseline; RoPE-path alignment alone also suffices in the studied runs, despite remaining numerical discrepancies. The interventions keep the inference engine, matrix-multiplication and attention kernels, and learning objective unchanged.",
+      "author": "Yijing Ke, Tianle Cai, Ruosong Wang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32951v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32951v1.pdf",
+        "categories": [
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Yijing Ke",
+          "Tianle Cai",
+          "Ruosong Wang"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.09444444444444444,
+      "final_score": 0.34730369284573415
+    },
+    {
+      "title": "The Language of Instruction: Genre and Generative AI",
+      "url": "https://arxiv.org/abs/2610.32982v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-10-23T17:59:56",
+      "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark-up languages characterized by the use of special tokens and role assignment in turntaking structures.",
+      "content": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark-up languages characterized by the use of special tokens and role assignment in turntaking structures.",
+      "author": "James E. Dobson",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32982v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32982v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.CY"
+        ],
+        "all_authors": [
+          "James E. Dobson"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.09074074074074073,
+      "final_score": 0.3460436895046296
+    },
+    {
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "url": "https://arxiv.org/abs/2610.32955v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-10-23T17:49:43",
+      "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. On 739 real Italian/English emails labelled by the owner (231 unbiased, 500 adversarially sampled), we compare nine systems under thread-grouped cross-validation: the production keyword rules, a TF-IDF + logistic-regression baseline, local typed decision models (Tev1, Nimble), a hosted decision model (Nimble v4-max), and hosted generative LLMs (Qwen2.5-7B, Gemma 4 26B/31B). Four results. The production rules score 28% on message type against a 58% majority class: the field shown most prominently ...",
+      "content": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. On 739 real Italian/English emails labelled by the owner (231 unbiased, 500 adversarially sampled), we compare nine systems under thread-grouped cross-validation: the production keyword rules, a TF-IDF + logistic-regression baseline, local typed decision models (Tev1, Nimble), a hosted decision model (Nimble v4-max), and hosted generative LLMs (Qwen2.5-7B, Gemma 4 26B/31B). Four results. The production rules score 28% on message type against a 58% majority class: the field shown most prominently carried no information. With ~200 labels, logistic regression has the highest accuracy on every field (type 0.79, urgency 0.74, needs-reply 0.83, is-noise 0.90), though it never predicts the two rarest classes and is statistically tied with Gemma 4 on type; few-shot prompting does not close the gap. The sender's relationship (client, supplier, service) is recovered from other emails of the same contact with 98.6% accuracy where the contact has been seen, and is not inferable from a single message by any model: it belongs in the contact graph, not the prompt. Finally, accuracy is not the product metric: composed into actions, the most accurate system most often ignores emails needing action (18% vs 4% for the best LLM); a cost-chosen threshold on its noise probability halves that rate and makes it the cheapest system.",
+      "author": "Federico Lucca",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32955v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32955v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.HC",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Federico Lucca"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.07592592592592594,
+      "final_score": 0.33996572990286045
+    },
+    {
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "url": "https://arxiv.org/abs/2610.32978v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-23T17:59:21",
+      "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones. A compiler then uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types, SceneBloom attains the highest visual quality and physical stability among the compared methods and is the only method with no detected mesh collisions and out-of-bounds objects. Its layouts are also closer to the distribution of real rooms than...",
+      "content": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones. A compiler then uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types, SceneBloom attains the highest visual quality and physical stability among the compared methods and is the only method with no detected mesh collisions and out-of-bounds objects. Its layouts are also closer to the distribution of real rooms than those of all compared baselines. Object navigation policies trained in these realistic scenes achieve a higher success rate in held-out real scans than those trained on an equal number of real training scans. Code is available at https://github.com/Tinaliu0123/scenebloom.",
+      "author": "Yuhan Liu, Lianhui Qin, Shenji Wan",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32978v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32978v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Yuhan Liu",
+          "Lianhui Qin",
+          "Shenji Wan"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.07407407407407407,
+      "final_score": 0.3393683425227348
+    },
+    {
+      "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+      "url": "https://arxiv.org/abs/2610.32933v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-23T17:30:40",
+      "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval tasks from FaMTEB, the model achieves the highest macro-average among the evaluated 0.6B models, scoring 0.5488 and outperforming Qwen3-Embedding-0.6B and F2LLM-v2-0.6B on every task. It also approaches Qwen3-Embedding-4B, winning on four tasks, tying on one, and trailing by 0.0075 in macro-average. An incremental ablation study examines contrastive batch size, optimization stabilization, and relational knowledge distillation from F2LLM-v2-8B. Under the one-epoch training setup, contrastive fine-tuning alone yields a modest mean improvement over initialization and regressions on two tasks. The...",
+      "content": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval tasks from FaMTEB, the model achieves the highest macro-average among the evaluated 0.6B models, scoring 0.5488 and outperforming Qwen3-Embedding-0.6B and F2LLM-v2-0.6B on every task. It also approaches Qwen3-Embedding-4B, winning on four tasks, tying on one, and trailing by 0.0075 in macro-average. An incremental ablation study examines contrastive batch size, optimization stabilization, and relational knowledge distillation from F2LLM-v2-8B. Under the one-epoch training setup, contrastive fine-tuning alone yields a modest mean improvement over initialization and regressions on two tasks. The final distilled configuration improves all eight tasks over the non-distilled model, raising the mean from 0.4813 to 0.5488 without increasing inference-time model size. These gains include hard-negative evaluation tasks despite training without explicitly mined or supplied hard negatives. We release model weights, training and evaluation code, the pairwise dataset, and its teacher-embedded counterpart, enabling inspection of data composition and training procedures, independent evaluation, and reuse without repeating expensive teacher inference.",
+      "author": "Yalda Taheri, Mohammad Hassan Heydari, Armon Rasooli",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32933v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32933v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yalda Taheri",
+          "Mohammad Hassan Heydari",
+          "Armon Rasooli"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06296296296296296,
+      "final_score": 0.33449706265765544
+    },
+    {
+      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+      "url": "https://arxiv.org/abs/2610.32948v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-23T17:40:58",
+      "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusion process predicts a five-component representation comprising caliper endpoint coordinates and measurement length. A post-processing strategy combining the proposed coordinate-length consistency mechanism with ensemble prediction is introduced to refine measurement estimates. We evaluate four echocardiographic measurement tasks on EchoNet-LVH, with additional assessments of medical question answering and X-ray vertebral measurement. Results: HAD-VLM achieves mean absolute errors of 1.36, 2.77, 3...",
+      "content": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusion process predicts a five-component representation comprising caliper endpoint coordinates and measurement length. A post-processing strategy combining the proposed coordinate-length consistency mechanism with ensemble prediction is introduced to refine measurement estimates. We evaluate four echocardiographic measurement tasks on EchoNet-LVH, with additional assessments of medical question answering and X-ray vertebral measurement. Results: HAD-VLM achieves mean absolute errors of 1.36, 2.77, 3.05, and 1.16 mm for IVSd, LVIDd, LVIDs, and LVPWd, respectively, reducing errors by 21.4-37.6\\% relative to the Vicuna-based autoregressive baseline. It also outperforms fine-tuned Qwen3-VL and direct MLP regression across all four tasks. Medical question answering performance is preserved on the evaluated dataset. For X-ray vertebral measurement, HAD-VLM reduces mean absolute error from 11.4 to 6.7 pixels. Conclusion: Integrating autoregressive language generation with diffusion-based continuous prediction improves quantitative medical image measurement while retaining prompt-conditioned task flexibility. Significance: HAD-VLM provides a unified approach to combining language interaction with anatomically grounded numerical prediction for quantitative medical image analysis.",
+      "author": "Dianye Huang, Jiamei Guo, Yue Zhou, Mingde Li, Yi Xiong...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.32948v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.32948v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Dianye Huang",
+          "Jiamei Guo",
+          "Yue Zhou",
+          "Mingde Li",
+          "Yi Xiong",
+          "Wei Wang",
+          "Nassir Navab",
+          "Zhongliang Jiang"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.0574074074074074,
+      "final_score": 0.33242811428662367
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "OpenAI Blog",
+    "date_range": {
+      "start": "2026-10-20T12:00:00",
+      "end": "2026-10-26T17:45:43"
+    }
+  }
+}
