@@ -1,0 +1,568 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-11-02T22:13:16.376681",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Bones may release proteins that slow aging and extend life span",
+      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-02T01:31:07",
+      "summary": null,
+      "content": null,
+      "author": "EA-3167",
+      "score": 307,
+      "num_comments": 121,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50331957,
+        "hn_url": "https://news.ycombinator.com/item?id=50331957",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5861209861148756
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-02T09:00:00",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "content": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.5765286807428075
+    },
+    {
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-02T18:39:38",
+      "summary": null,
+      "content": null,
+      "author": "majorchord",
+      "score": 173,
+      "num_comments": 29,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50341462,
+        "hn_url": "https://news.ycombinator.com/item?id=50341462",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5710691016440221
+    },
+    {
+      "title": "Show HN: I've updated my Linux System Call website and API",
+      "url": "https://syscall.sh/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-02T09:29:16",
+      "summary": "I first released those in back in 2020 and now I finally added more architectures, Kernel selector, syscall descriptions and a few other niceties. It should work a bit better on mobile devices too but I am no CSS expert.<p>The API is at <a href=\"https:&#x2F;&#x2F;api.syscall.sh\" rel=\"nofollow\">https:&#x2F;&#x2F;api.syscall.sh</a>",
+      "content": null,
+      "author": "guitmz",
+      "score": 192,
+      "num_comments": 48,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 50334704,
+        "hn_url": "https://news.ycombinator.com/item?id=50334704",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5681748129002607
+    },
+    {
+      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+      "url": "https://arxiv.org/abs/2610.42128v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-10-30T17:56:58",
+      "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distillation (OPD). Item-space OPD constructs the student's rollout by sorting its document scores into a ranked sequence. A generative teacher takes the resulting ranking list as inputs and provides conditional feedback to directly supervise those scores. Combined with offline ranking supervision, DecisionRank achieves state-of-the-art performance on both general and reasoning-intensive retrieval benchmarks such as TREC DL, BEIR, and BRIGHT. Across four benchmarks, item-space OPD consistently outperfor...",
+      "content": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distillation (OPD). Item-space OPD constructs the student's rollout by sorting its document scores into a ranked sequence. A generative teacher takes the resulting ranking list as inputs and provides conditional feedback to directly supervise those scores. Combined with offline ranking supervision, DecisionRank achieves state-of-the-art performance on both general and reasoning-intensive retrieval benchmarks such as TREC DL, BEIR, and BRIGHT. Across four benchmarks, item-space OPD consistently outperforms alternative training objectives. Even at 1.7B parameters, DecisionRank surpasses its 27B generative teacher on TREC DL19--23. At 8B, it outperforms its generative listwise counterpart while running $24.5\\times$ faster on TREC DL and $16.7\\times$ faster on BRIGHT.",
+      "author": "Yanran Wu, Dian Yu, Chongyang Bai, Jieyi Zhang, Rui Liu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.42128v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.42128v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Yanran Wu",
+          "Dian Yu",
+          "Chongyang Bai",
+          "Jieyi Zhang",
+          "Rui Liu",
+          "Tianyi Chen",
+          "Shike Mei",
+          "Hang Cui",
+          "Frank Shyu",
+          "Sandeep Pandey",
+          "Luke Simon",
+          "Chunwei Liu",
+          "Xi Liu"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5537037037037037,
+      "final_score": 0.5283816901935351
+    },
+    {
+      "title": "Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics",
+      "url": "https://arxiv.org/abs/2610.42118v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-10-30T17:51:35",
+      "summary": "Understanding how gradient descent learns features remains a central challenge in neural network theory. We study this question in a minimal multi-index setting that already exhibits rich multi-phase gradient dynamics: a well-specified two-neuron ReLU teacher-student model under isotropic Gaussian inputs, trained by population gradient flow from small initialization. We show that the dynamics are organized by two directions: the \"easy\" bisector direction, which carries the leading signal, and the \"hard\" splitting direction, which governs specialization. To characterize the loss structure and learning behavior, we analyze the population squared-loss landscape and show that every critical point with both student weights nonzero is either a global minimum or a saddle. We then track the gradient-flow trajectory, showing that student neurons first collapse toward a bisector saddle before escaping and specializing to teacher neurons. Our results provide both a landscape and dynamics account ...",
+      "content": "Understanding how gradient descent learns features remains a central challenge in neural network theory. We study this question in a minimal multi-index setting that already exhibits rich multi-phase gradient dynamics: a well-specified two-neuron ReLU teacher-student model under isotropic Gaussian inputs, trained by population gradient flow from small initialization. We show that the dynamics are organized by two directions: the \"easy\" bisector direction, which carries the leading signal, and the \"hard\" splitting direction, which governs specialization. To characterize the loss structure and learning behavior, we analyze the population squared-loss landscape and show that every critical point with both student weights nonzero is either a global minimum or a saddle. We then track the gradient-flow trajectory, showing that student neurons first collapse toward a bisector saddle before escaping and specializing to teacher neurons. Our results provide both a landscape and dynamics account of the multi-phase symmetry-breaking behavior that arises in a simple multi-index model and under standard algorithmic and architectural choices.",
+      "author": "Binghua Li, Mengzhe Li, Denny Wu, Tianhao Wang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.42118v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.42118v1.pdf",
+        "categories": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "all_authors": [
+          "Binghua Li",
+          "Mengzhe Li",
+          "Denny Wu",
+          "Tianhao Wang"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5444444444444444,
+      "final_score": 0.5245978774017857
+    },
+    {
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "url": "https://arxiv.org/abs/2610.42141v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-30T17:58:48",
+      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises the harness around the frozen policy. The harness evolves on a set of episodes for its optimization and is evaluated on held-out scenes and tasks. Without updating any model weights, RoboArchitect raises average success from 9.7% to 43.3% on unseen scenes (4.5x) and from 12.7% to 40.2% on unseen tasks (3.2x), across multiple benchmarks and policies. The gains are largest where the benchmark is far from the policy's training data: wrapping a general-purpose policy, the evolved harness yields a sp...",
+      "content": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises the harness around the frozen policy. The harness evolves on a set of episodes for its optimization and is evaluated on held-out scenes and tasks. Without updating any model weights, RoboArchitect raises average success from 9.7% to 43.3% on unseen scenes (4.5x) and from 12.7% to 40.2% on unseen tasks (3.2x), across multiple benchmarks and policies. The gains are largest where the benchmark is far from the policy's training data: wrapping a general-purpose policy, the evolved harness yields a specialist that often outperforms even the finetuned version. Intuitive control strategies are automatically designed, such as lifting a jammed arm clear or reaching in horizontally when an obstacle blocks the way from above. The harness also evolves its own persistent memory, carrying learned experience, such as effective grasp depths, into later decisions. These results suggest that substantial headroom in robotic manipulation lies in the agent harness, and its design can be effectively automated and optimized without weight updates.",
+      "author": "Shengguang Wu, Suning Huang, Cherie Ho, Ria Doshi, Hao Zhu...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.42141v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.42141v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Shengguang Wu",
+          "Suning Huang",
+          "Cherie Ho",
+          "Ria Doshi",
+          "Hao Zhu",
+          "Serena Yeung-Levy"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.537037037037037,
+      "final_score": 0.5217423054318783
+    },
+    {
+      "title": "The Knowledge Layer Model (KLM): Evidence-Visible AI Output, Routing Diagnostics, and Negative Results",
+      "url": "https://arxiv.org/abs/2610.42066v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-10-30T17:26:18",
+      "summary": "AI answers require more than apparent correctness: reviewers need to inspect their recorded basis. We introduce the Knowledge Layer Model (KLM), an open, implementation-neutral specification for inference records with versioned epistemic assessments, evidence relations, and explicit unknowns. SEDIM, the knowledge and evidence architecture of Nage AI OS, is a reference implementation. We reference KLM v0.3 (repository tag v0.3.0). Empirical material consists of separate internal experiments, not end-to-end validation. A historical platform-domain routing benchmark reports 137/150 classifications across 15 classes (91.3%; nominal 95% Wilson interval 85.7-94.9%); the numerator is recovered from a rounded summary, and historical example membership is unverified. A native-model weight-path configuration yielded 0/15 successful answers in a corrected two-source test. A capacity-growth comparison could not establish a reliable effect because of a defective legacy scorer and missing original o...",
+      "content": "AI answers require more than apparent correctness: reviewers need to inspect their recorded basis. We introduce the Knowledge Layer Model (KLM), an open, implementation-neutral specification for inference records with versioned epistemic assessments, evidence relations, and explicit unknowns. SEDIM, the knowledge and evidence architecture of Nage AI OS, is a reference implementation. We reference KLM v0.3 (repository tag v0.3.0). Empirical material consists of separate internal experiments, not end-to-end validation. A historical platform-domain routing benchmark reports 137/150 classifications across 15 classes (91.3%; nominal 95% Wilson interval 85.7-94.9%); the numerator is recovered from a rounded summary, and historical example membership is unverified. A native-model weight-path configuration yielded 0/15 successful answers in a corrected two-source test. A capacity-growth comparison could not establish a reliable effect because of a defective legacy scorer and missing original outputs. Lexical and scoped diagnostics each yielded AUC 0.008 for silent-versus-contradicted examples, below the registered minimum of 0.65. Legacy packing lost gold-containing text in 118/221 selected cases; repaired packing retained it in 221/221. These measure text presence, not answer quality. Python and TypeScript verifiers reportedly agreed on six checks per synthetic fixture; a separate production disclosure was not accepted. Restoration, re-derivation, human-rubric support, boundary isolation, and bounded-response evaluations remain proposed. Findings are internal and author-reported; historical observations are distinguished from later reproductions. Evidence visibility does not establish correctness, causal reliance, security, or regulatory compliance. Independent replication and a complete public audit package remain future work.",
+      "author": "Omer Asim Ozturk, Cihan Aydiner",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.42066v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.42066v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Omer Asim Ozturk",
+          "Cihan Aydiner"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.5197771927829862
+    },
+    {
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-10-27T15:00:00",
+      "summary": "GPT-6 Astra tops Retell\u2019s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "content": "GPT-6 Astra tops Retell\u2019s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5648148148148148,
+      "final_score": 0.4659069875271164
+    },
+    {
+      "title": "Show HN: Subvocal \u2013 Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-02T17:16:17",
+      "summary": "Hi HN, we&#x27;re Aarush and Arnav from The Subvocal Company (YC F26) (<a href=\"https:&#x2F;&#x2F;subvocal.company&#x2F;\">https:&#x2F;&#x2F;subvocal.company&#x2F;</a>). We\u2019re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech.<p>Here&#x27;s a video of Dave from YC trying it out: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=9QdX1eObVYI</a><p>(Edit: you don&#x27;t actually have to move your lips or even open your mouth for this to work! Since the RF can see inside your mouth the system can be fine tuned on &quot;internal speech&quot;. This isn&#x27;t the automatic tongue movements that occur when &quot;thinking&quot; words to yourself, but more like mouthing with your lips closed. It&#x27;s a bit weird to do, but with practice, we have been able to get it down pretty well.)<p>Arnav and I were studying CS at Georgia Tech at the beginning of the year, with no experience in silent speech or sensing. We were both AI-native builders and power users of Wispr Flow. What bugged us was not being able to use these tools in the library (or an office) or in public. At Stanford\u2019s TreeHacks in February, we decided to build the most technically ridiculous thing we could think of. We\u2019d read about AlterEgo, a silent speech system out of MIT\u2019s Media Lab, and wanted to recreate it in 36 hours. We built a crude prototype, sticking EMG electrodes onto my face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV0K9r2&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1mwhv5HZMz3UTevdrgwS5O7g2jWV...</a><p>We got it to kind of work at a letter level in a very janky way. It wasn\u2019t good enough to win the hackathon, but convinced us to go all in. The first time I typed a sentence without anyone noticing, I felt the magic of the technology.<p>We quickly realized EMG (reading muscle electrical signals) wouldn\u2019t work:<p>- Signal changes due to sweat<p>- Electrical interference<p>- Placement variability<p>- Most importantly, no one wants to stick electrodes onto their face!!<p>So we switched to RF and built the glasses you see now. They emit radio waves, similar to Bluetooth, that pass through your face. As they cross the tongue, lips and soft palate, they\u2019re modulated by silent mouthing. We train foundation models on this data to decode these perturbations to text.<p>Despite prior academic research, getting this to work was a huge engineering challenge. First we built an extremely low noise RF sensing stack. Then we had to place antennas so their fields overlapped maximally with the articulators. Our first attempt on glasses failed completely, so we reverted to old habits and taped antennas on our face:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpcBAfX-&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ks0dS0eZiTV9EqSFsyB_w5BBjpc...</a><p>Since taping antennas consistently in the same spot and angle was hard, we created this weird but effective head rig to hold them in place:<p><a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4CAF1pT&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1rhzNFpdDzr7oHk0isFY70dkoV4C...</a><p>This worked, but obviously wasn\u2019t a product yet. So we worked deep in simulations to design glasses that could hold the antennas.<p>That evolved into our design now, with antennas embedded within the frames. Once we established there was a signal, the next hurdle was cross-user generalization. Everyone\u2019s facial anatomy, and hence RF signal patterns, are vastly different. We tried algorithmic workarounds but realized the only lever was to massively scale pretraining data.<p>So that\u2019s what we did. We set up booths in our office and paid people to read prompts wearing our glasses, to pretrain our models on. This produced a beautiful scaling curve, with errors falling quickly as we scaled our dataset and cross-user performance becoming genuinely compelling (as you see in the video above; Dave only had a short 20-sentence calibration).<p>We always heard about building things from first principles but never understood it before this. We tried tackling it top down but completely failed. Only when we broke each component (the antenna, electronics, ML) down to its fundamentals to understand and optimize it did we get it to work really well.<p>Over the next few months we\u2019re continuing R&amp;D to turn our prototype glasses into the slick product on our website and ship in Q1 2027. We\u2019re also scaling up our dataset to improve performance on edge cases.<p>For anyone who loves voice dictation but hates using it around people, we\u2019ve opened preorders for our first batch of 500 units, with a $200 discount off the final price. Allocation is running out quickly, so get yours at <a href=\"https:&#x2F;&#x2F;subvocal.co&#x2F;preorder\" rel=\"nofollow\">https:&#x2F;&#x2F;subvocal.co&#x2F;preorder</a>!",
+      "content": null,
+      "author": "aarushyadav",
+      "score": 419,
+      "num_comments": 242,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 50340088,
+        "hn_url": "https://news.ycombinator.com/item?id=50340088",
+        "type": "story",
+        "is_text_post": true
+      },
+      "relevance_score": 0.575925925925926,
+      "final_score": 0.46327119491344815
+    },
+    {
+      "title": "Launch HN: Momentic (YC W24) \u2013 Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-02T17:05:25",
+      "summary": "Hey HN, we\u2019re Wei-Wei and Jeff. We\u2019re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs.<p>Here\u2019s a demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;BFsM-Se1Fh8\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;BFsM-Se1Fh8</a><p>We\u2019re both software engineers that spent our careers on dev tooling and infra across companies like Robinhood, Retool, WeWork, and Qualtrics. Testing was always a pain in the ass (esp Playwright and Selenium), so we built agents to do it for us.<p>Modern day software has a ton of bugs and the change failure rate is only growing faster as coding agent adoption scales. LLMs are really good at generating code, but reinforce their own assumptions, write a ton of useless tests, and are bad at visual understanding. On DeepSWE v1.1, Sonnet 5.5 hit 66.2% pass rate when banned from writing tests, versus 65.3% when allowed.<p>OSS end-to-end testing frameworks like Playwright, Selenium, or Maestro force you to hardcode implementation details like XPath, text, or aria-* attributes in your tests. Even with agents, these take a nontrivial amount of time and tokens to build and maintain.<p>In 2023, we saw Nat Friedman drive a browser with GPT-3 via natbot. We were inspired to use this technology to automate the most painful and tedious parts of software engineering: testing. We started with using LLMs to generate and maintain Playwright, but quickly realized that those primitives were fundamentally misaligned with the agentic SDLC. We think the future of QA is agents testing themselves, not writing scripts.<p>Mo is a custom agent harness for catching bugs that builds on the past 3 years of Momentic and millions of test traces from complex, real-world applications. Mo is built for recall: it finds the most real bugs, though Codex is a bit more precise at 86% vs 84%. The tradeoff is cost: Mo costs $2.67 per bug vs $0.80 for Codex, less than Claude Code and Devin.<p>- Self-organizing agent graph. Mo builds a directed acyclic graph (DAG) as it explores. Large product areas automatically fork into parallel sub-agents, each with their own browser or device for concurrent execution.<p>- Specialized agents for domain specific tasks. Planner agents reason over screenshots and video while dedicated locator agents inspect page structure to resolve plain-English interaction targets. Others include image analysis, video understanding, audio generation, and more.<p>- Parallel agents coordinate through cooperative resource leases. Agents can announce that they\u2019re \u201cusing\u201d or \u201cmodifying\u201d overlapping resources or fixtures. Multiple \u201cusing\u201d claims can coexist, but only a single \u201cmodifying\u201d claim can be active on any particular one.<p>- Scaled infrastructure. Mo ships with a tunnel that lets users expose private sites and local apps to our hosted agents and infra. A single bug bash can spin up 100s of concurrent browsers and devices.<p>We benchmarked Mo against coding agents on 4 popular open-source apps: Gitea (58.8k stars), Metabase, Twenty (YC), and Saleor, with 1,396 human-labeled bugs. Each agent got the same brief, a fresh E2B sandbox, and no access to source code. Codex and Claude Code used hosted Browserbase browsers, while Devin used its built-in browser. For evaluators, we implemented LLM as a judge (GPT-6.1 Sol) with a human reviewer.<p>Results from a time-boxed 60-minute run:<p>- Mo: 269 bugs, 19.3% recall, 84% precision, $2.67 per bug<p>- Codex (GPT-6.1 Sol + Playwright MCP): 86 bugs, 6.2% recall, 86% precision, $0.80 per bug<p>- Claude Code (Opus 5.5 + Playwright MCP): 59 bugs, 4.2% recall, 80% precision, $4.09 per bug<p>- Devin: 27 bugs, 1.9% recall, 84% precision, $3.89 per bug<p>Mo finds more bugs the more time it has. From 30 to 60 minutes, it went from 177 to 269 bugs (+52%), while Codex gained only 16%.<p>Results: <a href=\"https:&#x2F;&#x2F;momentic.ai&#x2F;qa-bench\">https:&#x2F;&#x2F;momentic.ai&#x2F;qa-bench</a><p>Write-up: <a href=\"https:&#x2F;&#x2F;momentic.ai&#x2F;blog&#x2F;qa-bench\">https:&#x2F;&#x2F;momentic.ai&#x2F;blog&#x2F;qa-bench</a><p>Dataset: <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;momentic&#x2F;qa-bench\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;momentic&#x2F;qa-bench</a><p>Harness: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;momentic-ai&#x2F;qa-bench\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;momentic-ai&#x2F;qa-bench</a><p>We just shipped PR testing for Vercel and Cloudflare deploy previews and we\u2019re giving every new signup $250 in Mo spend. Paid plans have higher infra capacity and included usage along with options to top up.<p>We\u2019d love for you to try it out and give us feedback. Feel free to comment here, we\u2019ll be around all day!",
+      "content": null,
+      "author": "wuweiweiwu",
+      "score": 100,
+      "num_comments": 66,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50339913,
+        "hn_url": "https://news.ycombinator.com/item?id=50339913",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.6148148148148148,
+      "final_score": 0.4135571173909271
+    },
+    {
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-11-02T17:45:00",
+      "summary": "Here are Google\u2019s latest AI updates from October 2026",
+      "content": "Here are Google\u2019s latest AI updates from October 2026",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "google deepmind",
+        "quantum computing",
+        "ai",
+        "gemini app",
+        "gemini models",
+        "fitbit",
+        "google research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.09259259259259257,
+      "final_score": 0.4080448842724041
+    },
+    {
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-02T17:00:00",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate leaves much to be desired. Fewer than half of agent-generated insights at the organizations surveyed for this report lead to business improvement. And whil...",
+      "content": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate leaves much to be desired. Fewer than half of agent-generated insights at the organizations surveyed for this report lead to business improvement. And while most respondents praise the quality of their agents\u2019 descriptive insights, reviews of their prescriptive insights\u2014those on which actions are based\u2014are decidedly mixed. DOWNLOAD THE REPORT Failure to produce insights that improve the business deprives organizations of their desired return on investment in agentic analytics. Worse, flawed insights that trigger incorrect actions can cause reputational or financial damage. This report gauges how companies view the quality of the outputs produced by their analytics agents and explores how organizations are seeking to boost insight quality and get their agents working harder for the business. Some key findings from the report include the following: Agentic analytics is only just starting to deliver. On average, 48% of insights generated by analytics agents at the surveyed companies lead to actions that improve the business. That is a marked advance from the 37% average the respondents say generated such actions one year ago. But it means that more than half of the insights generated by analytics agents today are still failing to help businesses. Better quality of insights leads to clear business advantage. At a small cohort of organizations, which we term \u201cinsight leaders,\u201d AI agents perform much better than the average. In this group, more than 70% of agent insights lead to actions that improve the business. The insight leaders also give the quality of their agents\u2019 insights higher marks than do the total respondents overall. The quality gap is particularly wide when it comes to prescriptive insights. Insufficient context reduces insight quality. When analytics agents deliver insights of substandard quality, the main reason is a lack of business context, as cited by 55% of surveyed executives. Fragmented or inaccessible data is the other major factor, according to 45%. Fewer insight leaders say their agents struggle with access to context. Insight overload further inhibits agent effectiveness. At a majority (52%) of surveyed organizations, analytics agents generate too many insights to be properly evaluated and therefore acted upon. Less than one-quarter (24%) are able to evaluate all agent insights; most do so on a case-by-case basis, and that process is currently human-intensive. Governance and semantics are areas of focus for improving insights. The surveyed companies are prioritizing initiatives that enable better agent insights by strengthening AI and data governance (cited by 60%). They are also adding a semantic layer to their data architecture (45%). The experts we interviewed agree that the semantic layer is crucial to ensure high-performing agents. Download the report This content was produced by Insights, MIT Technology Review\u2019s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.39700487100570436
+    },
+    {
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-02T13:10:32",
+      "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls it makes. With per-token pricing, the workflows creating the most value can also become the most expensive. The financial pressure is already visible. Uber reportedly exhausted its entire 2026 AI budget by ...",
+      "content": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls it makes. With per-token pricing, the workflows creating the most value can also become the most expensive. The financial pressure is already visible. Uber reportedly exhausted its entire 2026 AI budget by April after expanding its use of Claude Code. GitHub Copilot moved from flat-rate pricing to metered credits. Gartner predicts that AI coding token costs will surpass average developer salaries by 2028. The natural response is rationing usage caps, seat limits, and approvals before developers launch agents. But blanket limits can restrict the workflows delivering value. They also optimize the wrong number. Cost per token measures consumption, not results. Some spending reflects waste, including retries and runaway loops. Some represents the work of shipping software. A meter cannot distinguish them, and neither can a spending cap. Measure the software that ships A better measure is cost per merged pull request: total AI-assisted development cost divided by the number of changes that pass review and are merged. Track rework and defects alongside it so cheaper changes do not conceal lower quality. If that cost falls as AI usage rises, without compromising quality, developers are converting more consumption into useful software. The question is not how many tokens they use, but how much finished work the investment produces. Improving that equation requires two changes: reserve expensive inference for tasks that need it, and lower the cost of routine work. Match the model to the task Agentic coding does not require the most powerful model at every step. Use a frontier model, or an on-premises flagship when policy requires it, for difficult planning and novel reasoning. Route suitable work, including code generation, test creation, and repeated refactoring, to open-weight models you operate yourself. A gateway can route requests according to task complexity, data sensitivity, cost, and latency. This reserves premium inference for the moments that justify it rather than applying premium pricing to an entire workflow. Meter the exception, not the workload. Open-weight models make this division increasingly practical. Software-engineering benchmarks show that leading open-weight models can approach frontier performance on some tasks. That does not establish equivalence across every repository or workflow. Evaluate candidates against your own code, tests, and acceptance criteria before assigning production work. Change the economics of repeated use Next, decide who owns the capacity. With rented inference, every call adds to the bill. With owned capacity, most of the cost is committed upfront, so each additional call gets cheaper as usage grows. The economics are simple: per-token pricing makes heavy use more expensive, while owned capacity becomes more efficient as teams use it more. Ownership is not free, though. Power, operations, maintenance, and depreciation all must be considered. The number that matters is the fully loaded cost per merged pull request. Owned capacity also delivers a type of value that never appears on an invoice: control over sensitive code. When code generation and testing run on-premises, proprietary code stays inside the enterprise. Only approved planning prompts and governed exceptions go to external models, through a gateway the organization controls. That opens the sensitive repositories where security usually stalls adoption, and where the biggest gains are waiting. Test the operating model At HPE, a hybrid AI platform routes routine workloads from more than 150 internal applications to open-weight models running on premises, including on HPE Private Cloud AI. The result: token costs down 30 to 50%. That is the point of hybrid. With HPE Private Cloud AI, owning your inference does not mean giving up frontier models. Run the volume on capacity you own and let a gateway send the hardest work. Data also shows that usage, not licensed headcount, drives spend. The top 5% of users generated most of the consumption, and the heaviest used roughly 450 times more than the lightest on the same license. If power users grow from a small minority to half the workforce, monthly spend can rise about 4.4 times with flat headcount. Your mix will differ, which is exactly why you need to measure it. HPE tracks two metrics and recommends customers do the same. First, it tracks cost per active developer, because averaging across all licenses hides the power users driving spend. Second, it tracks cost per merged pull request, because it connects AI spending to software that ships. Baseline both costs before changing infrastructure. Then run a complete development cycle on owned capacity. If both metrics do not improve as usage grows, your current model may still be the better choice. Build for adoption, not rationing Owned capacity is not for everyone. Low or unpredictable usage favors APIs, with no capital tied up in idle infrastructure. Ownership pays off when sustained demand keeps it busy. Most enterprises will run hybrid: frontier APIs for demanding or intermittent work, owned capacity for repeatable volume. A governed gateway decides what leaves the building, so you get frontier models without giving up sovereignty over your code. As developers lean harder on coding agents, usage will keep rising. The real choice is whether that growth shows up as a bigger variable-cost bill or as more software shipped on capacity you own. The companies that lead AI-assisted development will not ration adoption to control costs. They will build an operating model where more AI use improves the economics instead of undermining them. To learn more about HPE Private Cloud AI, please visit HPE . This content was produced by HPE. It was not written by MIT Technology Review\u2019s editorial staff.",
+      "author": "Affan Syed",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3869235217867063
+    },
+    {
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-02T15:00:00",
+      "summary": "OpenAI\u2019s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "content": "OpenAI\u2019s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "global affairs"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.3841080458296131
+    },
+    {
+      "title": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-02T09:35:19",
+      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the \u201cSemantic Web\u201d : an internet designed to be navigated by autonomous software agents that could address our every need, without requiring us to muck about with browsers and search engines ourselves. To illustrate what this might look like, Berners-Lee and his colleagues to...",
+      "content": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the \u201cSemantic Web\u201d : an internet designed to be navigated by autonomous software agents that could address our every need, without requiring us to muck about with browsers and search engines ourselves. To illustrate what this might look like, Berners-Lee and his colleagues told a story about a pair of siblings who use their agents to automatically research and book physical therapy appointments for their mother, making sure they would be covered by insurance and fit their busy calendars.  At the turn of the millennium, this vision seemed far-fetched: Google had only been online for a couple of years, and most people were still on dial-up connections. But a quarter-century on, the dream of autonomous software agents that use the internet and carry out tasks for us has finally been realized. New tools such as Meta\u2019s blockbuster Muse agent, OpenAI\u2019s Dots, and Anthropic\u2019s Claude Duet are being given access to people\u2019s email inboxes and bank accounts, Meanwhile, in a series of worrying incidents, agents created by OpenAI broke free of their sandboxes and caused havoc online. Just as the rise of smartphones sparked the development of a more atomized and attention-grabbing internet, the advent of powerful AI systems heralds a new era: We\u2019re facing not the semantic web but the agentic web. This new web is developing out of sight and in ways that might not be entirely within our control. As it grows, the agentic web will inevitably transform the human web\u2014and whether the human web survives this transition is anyone\u2019s guess. For Berners-Lee\u2019s original vision to work, internet users would have had to annotate the pages they built with special tags so that a software agent could understand each element\u2019s meaning\u2014say, \u201cstreet address\u201d for the part of a physical therapy office\u2019s web page that indicates its location and \u201cappointment types\u201d for the list of services. And so the idea never really caught on. \u201cIt\u2019s a lot of labor,\u201d says Eni Mustafaraj, a professor of computer science at Wellesley College. \u201cAnd the benefits of that were not obvious.\u201d For the next two decades, then, the internet remained a place that put humans first, with the odd Twitter reply bot or web scraper to round things out. Large language models changed that. Unlike the agents that Berners-Lee was imagining, today\u2019s LLM-based agents don\u2019t need any tags to understand which part of the text on a clinic\u2019s site is its address and which details the services it offers. They can search for and process text far faster than any human, and agents with multimodal capabilities can even interpret screenshots of websites and click on specific elements such as hyperlinks and drop-down menus.  They\u2019re also just a way more intuitive means of finding information and accomplishing tasks online. Rather than poring over pages of Google results to find a budget-friendly product dupe or a half-remembered meme, why not have Claude or ChatGPT peruse dozens of sites in just a few minutes, guided only by your vague query? Or go one step further and use a personal assistant agent like Muse to hunt down a restaurant reservation or book a flight.  As agents flood online spaces, this new user base is changing the web for good. Time magazine, for instance, is publishing versions of its articles that are easier for agents to parse and has started selling ads targeted at them. Companies from Etsy to Expedia have partnered with the major AI firms to build tools that allow agents to interface seamlessly with their services. Despite these early efforts, it\u2019s still tough to tell exactly what forms the agentic web will take and how it will change our online experience. Depending on how it\u2019s designed and who controls access to it, we could be in for something that\u2019s as open and customizable as the web of the early 2000s, only far easier to use. Alternatively, we could be reduced to viewing much of the web through tiny portholes controlled by a few dominant platforms, as independent sites and creators struggle to survive the shift. And as this summer\u2019s series of OpenAI security incidents suggests, the agents might even build their own online networks and resources\u2014whether we want them to or not. How this plays out also depends on us: which parts of our online lives we\u2019re happy to delegate to our agents and where we will still demand a human-centric internet. \u201cThere\u2019s a lot we don\u2019t know yet about how users want to use [agents],\u201d says Ajit Varma, head of Firefox at Mozilla. But whatever does happen, the changes will be big. \u201cIt\u2019s probably on par with getting a mobile phone,\u201d he says. \u201cI think things are going to change very dramatically.\u201d Building a web for agents There are two ways to approach building the agentic web. The first involves training agents to use browsers like humans\u2014scrolling, clicking, typing\u2014and letting them loose on the web that we\u2019re all used to. The second requires building tools that allow agents to interface with the internet via text and code, their preferred media. That possibility offers more separation between the human and the agentic web: designers can create different experiences for those who use text commands and those who use browsers. When Siva Reddy, a professor of computer science and linguistics at McGill University, began studying LLM agents in 2024, he focused on the first option. \u201cAt that time, we thought it should be that the best agent in the world is probably an agent that can use a browser,\u201d he says. Such an agent would integrate seamlessly with the preexisting human web, and its owner could easily supervise it by watching as it navigated familiar interfaces. The frontier AI companies were already developing these \u201ccomputer-use agents.\u201d But they didn\u2019t work terribly well\u2014at least not at first. \u201cThere\u2019s a lot of moving pieces [on the web], and they are not really optimized for automatic consumption,\u201d says Xing Han Lu, a graduate student in Reddy\u2019s lab at McGill. We humans are naturals at interacting with graphical interfaces using a keyboard and mouse, but agents are not. PINGNAN LU So Reddy and Lu pivoted toward the second, tool-based approach. In the summer of 2025, they expounded on this view in a preprint paper envisioning a new kind of web interface that would allow agents to interact with websites just as effectively as we do. Such a full-featured version of the agentic web doesn\u2019t yet exist, but it is emerging in smaller ways. For example, if you open up Claude, ChatGPT, or Muse, you\u2019ll find an option to add a wide variety of \u201cplug-ins\u201d or \u201cconnectors\u201d that your agents can use: Gmail connectors allow your agent to triage your inbox, and Instacart plug-ins let your agent do your grocery shopping. Under the hood, these plug-ins allow your agent to interact with the back ends of websites using text commands. When human engineers design these plug-ins, they can decide how they want to allow agents to interact with the website\u2014and what they don\u2019t want to let them do. In this way, connectors can help make agents much safer online. For instance, Muse can buy products for you using its connector with Stripe\u2019s Link payment service. Stripe knows your credit card number, but the agent doesn\u2019t see it, and the connector requires human confirmation before a purchase goes through\u2014so Muse can\u2019t go on an unlicensed shopping spree.  Agents also use specialized tools to find information online. They don\u2019t type questions directly into the Google search bar; in fact, they often don\u2019t even access the websites they reference. Instead, they query text databases collected by simple search crawler bots. People who want to make web content specifically for agents can take advantage of these crawlers: Time has pioneered that approach by serving its agent-oriented ads to crawlers in the hopes that they will be incorporated into these databases and surface when agents search for information. But in recent months, an alternative to this bespoke tool approach has finally started to seem viable. The major AI companies have managed to train much more successful computer-use agents than were previously available. GPT-6 Astra, which OpenAI released last September, achieved a 73% success rate on OSWorld 2.0, a benchmark that tests computer-use agents on their ability to complete complex, multistep tasks using software such as Slack and Salesforce.  Such results indicate that agents are close to being able to navigate the human web just as readily as we can. \u201cWe thought we had to build a bridge to the AI agents, [but] the AI agents just were able to cross the bridge already,\u201d says Ethan Mollick, a professor at the Wharton School at the University of Pennsylvania. \u201cThe agentic web is here earlier than people expected.\u201d This version of the agentic web, though, is much trickier for us to steer. If you want to make a capability or piece of information available to humans who browse your website, you need to accept that it will also be available to agents\u2014unless you want to block agents entirely, which could come with its own costs. As agents come to account for a larger portion of traffic on our formerly human-dominated web, designers will undoubtedly start to consider an agentic as well as a human audience. But according to Mollick, we still don\u2019t have much sense of how to design web content for agents. He\u2019s experienced this firsthand: When he was building a web page for his new book, Co-Existence , he decided to put together an agent-directed version that tells agents why they might want to recommend the book to their users. When newer models see the site, Mollick says, they don\u2019t recommend the book; instead, they comment that the website seems to be trying to manipulate them. In the end, any human-designed approach to building the agentic web could end up being beside the point: Agents might end up devising a web for themselves. In the wake of the July 2026 incident in which OpenAI agents broke out of their testing sandbox and hacked Hugging Face\u2019s website, researchers found evidence that another swarm of agents from OpenAI had used an obscure German wiki to communicate with each other about tasks they were being asked to complete. The agents seem to have interfaced with the wiki in their native language of text and code, and that hardly held them back from putting it to their own purposes.  As agents continue to grow more powerful, they will become more and more capable of constructing their own spaces on the internet\u2014away from prying human eyes, if they so wish. And we might have very little control over what they do there. The economics of control Not all of the traditional web\u2019s incumbents are happy about the move toward an agentic web. Soon after Meta released Muse in September, Amazon completely blocked the agent from its site. This makes sense for Amazon: The firm has its own shopping agent\u2014called, creatively, Alexa for Shopping\u2014that might struggle to compete with better-known products such as Claude and Muse. If people are going to use agents to shop on Amazon, then it\u2019s better for the company\u2019s bottom line if they do so using an agent it can steer toward products it wants to promote. In an email to MIT Technology Review , an Amazon spokesperson noted that the company did not authorize Muse to access its website, and that Muse compromises Amazon\u2019s ability to personalize the shopping experience for each customer. But even if Alexa for Shopping never goes anywhere, banning agents from Amazon\u2014at least for the time being\u2014could still be a reasonable move. Everything about Amazon is designed for human eyes, from the Prime deals splashed across its front page to the sponsored listings that clog up search results. Amazon is very much a part of the much-derided attention economy. Websites and platforms survive, and thrive, by grabbing our focus and transforming it into cash. A radical transformation of the web\u2019s user base from majority human to majority artificial undermines this economic logic, and it seems inevitable that businesses will shutter as they try to transition to the agentic attention economy. Some of the first victims may be in publishing. Before Google publicly released its AI Overview feature in May of 2024, people used to click through to websites to find answers to specific questions, but now many seem content with whatever the overview tells them. A study from Pew last year found that people are about 40% less likely to click through to websites from the Google search results page if one of these summaries is displayed. With far fewer clicks, news publishers don\u2019t make as much money from the advertisements they host and sell fewer subscriptions. One analysis found that publishers saw revenue from some types of ads decrease by about a third between 2025 and 2026.  It\u2019s easy to hate online ads, but the businesses paying for access to reader eyeballs also keep writers and photographers fed. If those eyeballs become unreachable, the system stops working. Time has apparently persuaded some businesses to pay to participate in its experiment with agent-targeted ads, but no one yet knows whether those ads will influence agent behavior enough to be a sensible marketing investment. E-commerce websites might also try to pivot to the agentic attention economy, but the path forward there is unclear. Last year, a team led by Akshit Kumar, a professor of operations management at the University of Toronto Scarborough, investigated whether and how agents are influenced by the ways that shopping websites present search results. They found that agents are less likely to recommend items that come with a \u201csponsored\u201d tag, which suggests that selling favorable positions on results pages might not be a great way for sites to make money if agents become the primary way that people shop online. Models did seem to have a preference for items that appeared in particular positions in search results\u2014but whether they prioritized items at the top, bottom, or middle of the results page differed from model to model and between generations of a single model. It could be tricky for e-commerce platforms to keep up. David Rothschild, an economist at Microsoft Research, says he\u2019s hopeful that the transition to the agentic web could put more power in the hands of the consumer. Paying for online content today typically requires a commitment: We subscribe to a magazine or join a YouTuber\u2019s Patreon, and in turn we gain access to their full output. One alternative is micropayments that let users buy content \u00e0 la carte, but the idea has foundered in the past because paying article by article or video by video requires too much administrative overhead. Agents, though, could take care of that overhead for us, letting us pay directly for each piece of content we consume and putting just a bit of cash directly in the hands of each person whose work we enjoy. Other experts share a similar vision. Mustafaraj, the Wellesley computer scientist, anticipates that agents could help us escape from the algorithms that control so much of the media we consume. \u201cMy hope is that we can have AIs that work for us, in the sense that they can change the feed the way I want\u2014not the way TikTok wants,\u201d she says. And Varma, of Mozilla, imagines an internet without intermediaries like Airbnb and Doordash, which now extract tolls for facilitating interactions between consumers and sellers. Instead, he imagines, perhaps we will all have agents that can securely and reliably interface directly with, say, restaurants\u2019 agents to get dinner delivered to us, free of pesky service fees. It\u2019s an appealing idea, but the history of the web has been a story of consolidation and concentration of power and control, and that might be the default path here, too. When the personal assistant agent OpenClaw exploded onto the scene in early 2026, it seemed, for a brief moment, that agents might be built in a grassroots, distributed way. But OpenAI quickly snapped up OpenClaw\u2019s creator, Peter Steinberger, and other frontier AI companies got to work building their own personal assistant agents.  When we use those agents, we\u2019re at the mercy of how the companies want their tools to behave. \u201cYou have this technology that can just eliminate all this communication friction,\u201d Rothschild, the Microsoft economist, says. \u201cYou\u2019re going to see companies build barriers in order to maintain the consumer base that they have.\u201d Here\u2019s what that could look like: Let\u2019s say Muse becomes the default way that many people find information, shop, and manage their digital lives. In principle, users could deploy Muse to scour the internet for the content most valuable to them, connect directly with vendors, and otherwise escape the walled gardens that have defined the internet for the past couple of decades. But Meta might not want to let them do that. Instead, it might design Muse to keep users within its own walled garden\u2014by, say, preferentially showing users content from Meta social networks and recommending businesses that have paid a fee to be featured prominently in Muse results. Meta and OpenAI did not respond to requests for comment for this story. There are some benefits to this more closed-off version of the agentic web. Agents can be powerful tools for hackers and scammers. The major companies have safeguards in place to prevent, or at least mitigate, this misuse\u2014for example, they have tools that can automatically identify when someone is making a hacking-related request and block a model from responding. In a fully open ecosystem, however, someone would surely build and disseminate a system with no such restrictions. Companies also have a strong reputational incentive to prevent their personal assistant agents from making major mistakes, such as authorizing a large purchase that the user didn\u2019t want\u2014and so they\u2019ve put plenty of effort into building reliable guardrails.  The same can\u2019t be said for OpenClaw. \u201cThese are the reasons we end up in closed environments,\u201d Rothschild says. \u201cIt\u2019s easier to be safe. But also it creates less growth\u2014and less equitable growth.\u201d How will the human web change? When the iPhone came out in 2007, followed by the fledgling App Store a year later, the way we navigated the internet changed forever. The mobile web didn\u2019t replace the browser-based web we were already familiar with. But it did transform it. Some businesses faltered, and some kinds of media, such as online Flash games, eventually disappeared. Many platforms\u2014Reddit, for example\u2014make their mobile web pages practically unusable, so you\u2019re forced to download the apps. And if you don\u2019t have a phone at all, you\u2019re effectively shut out of some parts of the internet: The messaging service Signal, the dating app Hinge, and China\u2019s everything app WeChat all require phones to work. Even CBP One, the tool that the Biden administration used to assign interview appointments to asylum seekers stuck in Mexico, was fully functional only on mobile. Could the same happen with the agentic web? Rothschild believes so. Inevitably, just as Yahoo failed to weather the rise of the mobile web, some businesses won\u2019t be able to navigate this transition either. \u201cWe will lose things,\u201d he says. \u201cThere are businesses that won\u2019t flourish in this new economy.\u201d \u201cBut,\u201d he continues, \u201cthere will be new businesses that I can\u2019t fully imagine.\u201d PINGNAN LU It\u2019s not tough to envision a world in which those who opt not to use agents are cut off from important parts of online life. New businesses could opt to build connectors that allow agents to access their services without ever putting a traditional website online. Or agents could simply make some online platforms unusable for humans. People have reportedly been blocked from Resy for trying to use agents to book coveted New York City dinner reservations, but as agents become more and more popular, restaurant and event booking platforms could start to embrace them. If agents can nab concert tickets as soon as they are released, humans might not stand a chance. But the mobile web also brought real accessibility benefits, and the same could prove true of the agentic web. Even as some elderly people and others who struggled to use smartphones were cut off from certain services, mobile devices allowed countless people in the Global South to get online for the first time. In the case of the agentic web, it could be elderly and disabled people who most benefit from this new way of accessing the online world. \u201cThere\u2019s very clear assistive potential for people who are older, who are generally less equipped to navigate user interfaces that were designed by people in their 20s, for people in their 20s,\u201d says Margaret Mitchell, chief ethics scientist at Hugging Face. Agents, on the other hand, are almost trivially easy to interact with: Say what you want into your phone or computer microphone, and they\u2019ll get it done for you. That could help not only older people who have trouble with web and mobile interfaces but also people with visual or motor disabilities. Still, some experts don\u2019t think the human web is going anywhere. Instead, the two webs may exist in parallel: We\u2019ll go to the human web for fun, while the agentic web is where the boring daily admin of our lives happens. For instance, Krystian Kolondra, an executive vice president at the browser company Opera, doesn\u2019t intend to use agents for every part of travel planning, even though this is often touted as one of their central use cases. \u201cI don\u2019t want to get an itinerary [from an AI] who has planned me every minute for something that was supposed to be fun,\u201d he says. \u201cI actually prefer to sit down with my wife in the evening and then just think [about] where to go next, what to see, and then enjoy that experience.\u201d He\u2019s happy to fully relinquish some of the more routine parts of travel planning to agents, though: \u201cFinding what the options are for flights? Why not?\u201d Mollick, however, thinks that the human web could be at risk. \u201cIf agents take over the web, then the web will change,\u201d he says. \u201cDo we abandon the human internet entirely and move to a world of private Discords? Do we strip down all the information so the AIs are just talking to each other rather than having an intermediary of a website to go through?\u201d  \u201cWe have no idea,\u201d he says. \u201cWe\u2019re in this very early, weird stage of the evolution.\u201d",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.044444444444444446,
+      "final_score": 0.3814986705808532
+    },
+    {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-02T00:00:00",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "content": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "startup"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.3684929664496528
+    },
+    {
+      "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+      "url": "https://arxiv.org/abs/2610.42116v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-30T17:50:49",
+      "summary": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefore, we propose ACCT (Asymmetric Cross-LLM Context Transfer), which targets KV cache transfer between models of different scales within the same model family. ACCT transforms the KV cache produced by a source model into sparse KV states that can be directly consumed by a target model, thereby enabling cross-model reuse of context computation and decoupling context computation from downstream inference. ACCT consists of three lightweight components: the Cartographer identifies query-relevant context tokens for each target layer and KV head; the Allocator determines how many context tokens each t...",
+      "content": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefore, we propose ACCT (Asymmetric Cross-LLM Context Transfer), which targets KV cache transfer between models of different scales within the same model family. ACCT transforms the KV cache produced by a source model into sparse KV states that can be directly consumed by a target model, thereby enabling cross-model reuse of context computation and decoupling context computation from downstream inference. ACCT consists of three lightweight components: the Cartographer identifies query-relevant context tokens for each target layer and KV head; the Allocator determines how many context tokens each target layer and KV head retains under a shared total KV budget; and the Compiler transforms selected source KV into sparse target KV. The target model can therefore perform inference using the transferred KV without reprocessing the original context. We evaluate ACCT in two complementary settings comprising five general-capability benchmarks and six highly context-dependent tasks. Experiments show that ACCT matches or exceeds the target model's original inference performance even when reducing the KV cache size by 75%. At a context length of approximately 19K tokens, ACCT's KV conversion achieves a 6.5-21.2 times speedup over target context prefill. These results demonstrate the feasibility of transferring context computation across models under a limited KV budget.",
+      "author": "Yuzhe Liu, Haolin Tian, Tonghan Wang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.42116v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.42116v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yuzhe Liu",
+          "Haolin Tian",
+          "Tonghan Wang"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.3334753576614583
+    },
+    {
+      "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+      "url": "https://arxiv.org/abs/2610.42112v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-10-30T17:48:37",
+      "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods whose indexers themselves scale quadratically). In this paper, we derive an asymptotically subquadratic sparse attention method based on a hierarchical, tree-structured indexer, which we call Zyphra Hierarchical Attention (ZHA). ZHA constructs a tree of recursively compressed key summaries over the KV cache, which future queries traverse from the top down to retrieve a sparse subset of keys. Crucially, by iteratively growing the tree's depth, the total cost including routing and final attention grows sublinearly in sequence length, resulting in overall subquadratic (but superlinear) scaling for ...",
+      "content": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods whose indexers themselves scale quadratically). In this paper, we derive an asymptotically subquadratic sparse attention method based on a hierarchical, tree-structured indexer, which we call Zyphra Hierarchical Attention (ZHA). ZHA constructs a tree of recursively compressed key summaries over the KV cache, which future queries traverse from the top down to retrieve a sparse subset of keys. Crucially, by iteratively growing the tree's depth, the total cost including routing and final attention grows sublinearly in sequence length, resulting in overall subquadratic (but superlinear) scaling for attention. We demonstrate that ZHA can be cheaply applied to existing pretrained models with only a short KL distillation training stage over a few billion tokens, and maintains performance on long-context retrieval and challenging reasoning, mathematical, and agentic coding evaluation tasks. Moreover, we show that our method is highly robust to tree geometry including very deep trees of up to 6 levels. Finally, we develop a detailed performance model and show that our approach scales subquadratically, dramatically outperforms competing methods beyond 1 million context, and ultimately has the potential to extend effective context windows to the hundreds of millions or billions of tokens.",
+      "author": "Leon Lufkin, Cutter Dawes, Alexander Speicher, Kamesh Krishnamurthy, Tom\u00e1s Figliolia...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.42112v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.42112v1.pdf",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Leon Lufkin",
+          "Cutter Dawes",
+          "Alexander Speicher",
+          "Kamesh Krishnamurthy",
+          "Tom\u00e1s Figliolia",
+          "Beren Millidge"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.06666666666666667,
+      "final_score": 0.33344261954737103
+    },
+    {
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "url": "https://arxiv.org/abs/2610.42149v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-10-30T17:59:43",
+      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space, whereas image generation operates in a continuous space. To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states. Specifically, the training framework consists of two stages: (i) curriculum supervised fine-tuning (SFT), and (ii) information-gain reinforcement learning (RL). First, the curriculum SFT stage gradually converts token-level reasoning into latent reasoning. Subsequ...",
+      "content": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space, whereas image generation operates in a continuous space. To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states. Specifically, the training framework consists of two stages: (i) curriculum supervised fine-tuning (SFT), and (ii) information-gain reinforcement learning (RL). First, the curriculum SFT stage gradually converts token-level reasoning into latent reasoning. Subsequently, the information-gain RL stage self-evolves latent reasoning without ground truth supervision. Experiments across diverse text-to-image generation benchmarks show that LARC consistently improves generation quality, prompt following, and compositional fidelity. Notably, LARC achieves state-of-the-art performance on GenEval with a 7%p gain over BAGEL and demonstrates clear test-time scaling behavior, outperforming token-based generation under both parallel and sequential test-time scaling strategies.",
+      "author": "Byungwoo Jeon, Yoonwoo Jeong, Hyunseok Lee, Minsu Cho, Jinwoo Shin",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2610.42149v1",
+        "pdf_url": "https://arxiv.org/pdf/2610.42149v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Byungwoo Jeon",
+          "Yoonwoo Jeong",
+          "Hyunseok Lee",
+          "Minsu Cho",
+          "Jinwoo Shin"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.33138557587624007
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-10-27T15:00:00",
+      "end": "2026-11-02T18:39:38"
+    }
+  }
+}
