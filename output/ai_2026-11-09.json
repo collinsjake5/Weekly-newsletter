@@ -1,0 +1,538 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-11-09T22:55:14.894270",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-09T16:00:45",
+      "summary": null,
+      "content": null,
+      "author": "ocd",
+      "score": 434,
+      "num_comments": 238,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50427362,
+        "hn_url": "https://news.ycombinator.com/item?id=50427362",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7172691321038861
+    },
+    {
+      "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
+      "url": "https://arxiv.org/abs/2611.09880v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CV]",
+      "published_at": "2026-11-06T18:55:34",
+      "summary": "Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structure-molecule pairs. While prior work has demonstrated that 3D neural representations can predict zeolite properties effectively, it remains unclear which representation-learning strategies are most effective in the low-data regime relevant to materials discovery. We present ZeoBench, a benchmark for self-supervised learning on dense 3D representations of all-silica zeolites, and evaluate the resulting features on six existing downstream adsorption-property prediction tasks, across a range of training set sizes. Our study compares self-supervised 3D pretraining on volumetric zeolite data, adapta...",
+      "content": "Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structure-molecule pairs. While prior work has demonstrated that 3D neural representations can predict zeolite properties effectively, it remains unclear which representation-learning strategies are most effective in the low-data regime relevant to materials discovery. We present ZeoBench, a benchmark for self-supervised learning on dense 3D representations of all-silica zeolites, and evaluate the resulting features on six existing downstream adsorption-property prediction tasks, across a range of training set sizes. Our study compares self-supervised 3D pretraining on volumetric zeolite data, adaptations of image-pretrained 2D ConvNets and vision transformers to 3D via multiview and channel-inflation strategies, and 3D ConvNets pretrained on out-of-domain volumetric datasets, alongside hand-crafted descriptors and supervised baselines. Using our pretraining and evaluation framework, we find self-supervised 3D representations outperform existing methods and achieve state-of-the-art performance across both in-domain label regimes and for the unseen domain of metal organic frameworks. Learned representations consistently outperform hand-crafted descriptors, and convolutional architectures are generally more effective than vision transformers in this setting. These results establish ZeoBench as a practical benchmark for 3D representation learning in zeolites and provide guidance for data-limited adsorption property prediction.",
+      "author": "Aaron Sun, Yachan Liu, Ping Yang, Peng Bai, Subhransu Maji",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CV",
+        "cs.CV"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.09880v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.09880v1.pdf",
+        "categories": [
+          "cs.CV"
+        ],
+        "all_authors": [
+          "Aaron Sun",
+          "Yachan Liu",
+          "Ping Yang",
+          "Peng Bai",
+          "Subhransu Maji"
+        ],
+        "primary_category": "cs.CV"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7071475999955358
+    },
+    {
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source_type": "rss",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-11-05T00:00:00",
+      "summary": "",
+      "content": "",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "hugging-face-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6688207146001984
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-08T22:20:09",
+      "summary": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-affair-email-to-company\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-agency-nvidia-jensen-huang.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-a...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;atMcp\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;atMcp</a><p><a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation-ceo-jensen-huang\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;business&#x2F;nvidia-investigation...</a><p><i>Statement from Nvidia board of directors</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50416801</a> - Nov 2026 (374 comments)",
+      "content": null,
+      "author": "karimf",
+      "score": 932,
+      "num_comments": 1201,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50418016,
+        "hn_url": "https://news.ycombinator.com/item?id=50418016",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03333333333333333,
+      "final_score": 0.5913824715910219
+    },
+    {
+      "title": "Nancy Pelosi\u2019s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-09T17:05:43",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi\u2019s open San Francisco seat, he could play a key role in setting federal AI policy.  I spoke with Wiener on Friday, only a few hours after he had been declared the victor. But he was already thinking about AI risk. The previous day, the AI nonprofit METR had released a report that had been widely inter...",
+      "content": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi\u2019s open San Francisco seat, he could play a key role in setting federal AI policy.  I spoke with Wiener on Friday, only a few hours after he had been declared the victor. But he was already thinking about AI risk. The previous day, the AI nonprofit METR had released a report that had been widely interpreted as evidence that Anthropic had achieved recursive self-improvement, a phenomenon in which AI meaningfully contributes to its own advancement and AI progress potentially spins out of control. \u201cIt\u2019s very concerning,\u201d Wiener said, citing the report as evidence that we are quickly running out of time to regulate AI. \u201cIt was my hope that Congress would take decisive action before [the end of] this year,\u201d he said. \u201cThat does not appear to be happening.\u201d Wiener has been increasingly focused on AI in recent years, and he\u2019s made many of the AI safety movement\u2019s concerns his own: During our 20-minute conversation, he used the phrase \u201crecursive self-improvement\u201d half a dozen times, for example.\u201cWe need to slow this down,\u201d he says. \u201cBecause it\u2019s moving very quickly, and we could sleepwalk into a disaster.\u201d Wiener has already had real influence on AI policy. SB 1047, a bill that he authored in 2024, was set to become the first real piece of frontier AI legislation in the country before it was vetoed by California governor Gavin Newsom; he then sponsored SB 53, a lighter-touch bill that Newsom signed. Both bills have inspired proposed federal legislation.  Wiener\u2019s congressional campaign received over $3 million from Public First Action, a nonprofit in favor of AI regulation that receives substantial funding from Anthropic. That contribution led opponents to criticize him for being too close to the AI industry , but Wiener says that couldn\u2019t be further from the truth.  \u201cPublic First supported me because I was the first lawmaker in the country to introduce AI regulation and the first to pass it and get it implemented,\u201d he wrote in a message after our interview. \u201cThe attacks on me for [Public First\u2019s] support were shockingly cynical\u2014literally attacking a candidate who actually regulated AI over Big Tech\u2019s objection and falsely claiming the candidate is somehow too close to Big Tech.\u201d Wiener says that if Congress forms a select committee on artificial intelligence\u2014something that Democrats have discussed since September\u2014he\u2019d be eager to serve. And he\u2019s enthusiastic about many of the policy ideas floating around Congress. \u201cI think it\u2019s really important to have a strong, empowered, nimble federal regulator,\u201d he says, noting that Representative Ro Khanna, a fellow Democrat from California, has proposed legislation to establish such a regulator.  He also highlights the importance of whistleblower protections, testing and auditing requirements, and a kill switch requirement, and he wants to see Congress leverage its oversight powers to hold the AI labs to account. \u201cThis is about the future of humanity, and we want to make sure that the public has a say and that the public knows what&#8217;s going on,\u201d he says. And as a longtime state legislator, he is opposed to broad federal preemption of state AI laws, which some of the proposed federal legislation would require. \u201cStates are, as Brandeis says , laboratories,\u201d he notes. \u201cYou want the states to be able to continue to be nimble in ways that Congress sometimes is not.\u201d Above all, Wiener says, he wants Congress to pass policies with real teeth. \u201cIt\u2019s critically important that when Congress acts, that we do so in a way that is truly meaningful and that meets the moment,\u201d he says. That means taking seriously the possibility of AI catastrophe, something he discusses in the sort of language typically used by AI safety experts. \u201cWe\u2019re in a moment that is very dangerous in terms of the risk of loss of control over AI,\u201d he told me. \u201cWe need to deal with recursive self-improvement. Once you\u2019re in that realm, that really is potentially a recipe for total loss of control.\u201d He\u2019ll have some allies in the fight against catastrophic AI risk. Senator Bernie Sanders, for instance, has met with many of the AI safety movement\u2019s most influential figures and has spoken repeatedly about AI and existential risk. But there\u2019s still a large gap between Wiener\u2019s Bay Area, AGI-pilled perspective and the national mood on AI, which is anchored by opposition to data centers. The fact that voters approved 40 out of 41 anti-data-center ballot measures on Tuesday might seem to be a good sign for Wiener and others who support AI regulation, but Wiener says he sees this movement as far more tied to local concerns than to bigger questions about AI risk. \u201cPeoople who are really opposed to where AI is going\u2014this is an area where they can actually do something about it,\u201d he says. \u201cBut the data center revolt\u2014to me, I think it\u2019s more so that people are upset that there could be something like this in their community, with all the impacts near people\u2019s homes, driving up electric bills and using water. I think that\u2019s the bigger issue for most people, from what I can tell.\u201d Wiener describes himself as only \u201ccautiously optimistic\u201d about Congress\u2019s ability to rein in AI, given its poor track record on regulating the tech industry. He also has concerns about the ability to get legislation past President Donald Trump, who called concerns about catastrophic AI risk a \u201choax\u201d in September and has demonstrated a stark unwillingness to collaborate with China, something that Wiener sees as essential to preventing the worst consequences of AI. But he says Trump\u2019s unpredictability provides  some measure of hope, though it\u2019s a fraught kind of hope. \u201cSo far what we\u2019ve seen are some problematic things, but not complete disasters,\u201d Wiener says. \u201cI hope that it doesn\u2019t take a disaster to spur the president into acting. And I hope if that\u2019s what it does take\u2014which, like I said, I hope it doesn\u2019t\u2014but if it does, I hope it\u2019s as small as possible.\u201d",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.55,
+      "final_score": 0.5897986413320933
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-09T13:00:00",
+      "summary": "Learn how OpenAI\u2019s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "content": "Learn how OpenAI\u2019s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "safety"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.5816976991418651
+    },
+    {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-09T08:00:00",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "content": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.5750111911894842
+    },
+    {
+      "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+      "url": "https://meowdisplay.app/",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-09T18:39:22",
+      "summary": "Hey HN and Cats, thank you for checking this out!<p>Github:\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;raiseCatError&#x2F;meowdisplay\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;raiseCatError&#x2F;meowdisplay</a><p>EDIT 2: I should&#x27;ve mentioned that MeowDisplay started as a fork of OpenDisplay: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;peetzweg&#x2F;opendisplay\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;peetzweg&#x2F;opendisplay</a>\nwhich provided the foundational screen capture, virtual display, encoding and iPhone&#x2F;iPad receivers. I&#x27;ve since taken it in a more phone-first direction, with work on the interaction, streaming and security layers. I&#x27;ve credited OpenDisplay and its developer Philip in the README under &quot;Built on OpenDisplay&quot;.<p>MeowDisplay is my take on the control your Mac from your phone scene. Available on iPhones, iPads and Macs, with Android rn in closed testing.<p>The website has interactive illustrative demos if you&#x27;d like to see the app demonstrated.<p>I think MeowDisplay does a few things differently, some of which I prefer and you might too.<p>Such as Window view: allowing multiple tabs in split-screen type panes. Traditional Mirror&#x2F;Extend views exist as alternatives. \nFloating windows: coming in the 2.1 release.<p>Touch input approaches: Direct Touch(Classic or Natural), experimental Smart Touch, and Trackpad mode alongside Apple Pencil support. Doesn&#x27;t sacrifice display space for a trackpad, use all of the phone&#x27;s screen with your preferred mode.<p>Stage Peek: shows a scrollable and searchable list of your Mac&#x27;s windows on your phone along with an app drawer when you hold and pull on the left edge of your screen.<p>It&#x27;s free and open source so you can try it and see if it&#x27;s for you without having to commit to it or anything.<p>EDIT: I&#x27;ve used MeowDisplay during development whilst I was travelling between cities, left my acbook at home clamshell, powered, external display attached, and used it for small tasks remotely, it was pretty reliable even on a 5G network on a moving bus.<p>Meow,\nJai",
+      "content": null,
+      "author": "raiseCatError",
+      "score": 64,
+      "num_comments": 24,
+      "tags": [
+        "hackernews",
+        "show-hn"
+      ],
+      "metadata": {
+        "hn_id": 50429636,
+        "hn_url": "https://news.ycombinator.com/item?id=50429636",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5705208968013694
+    },
+    {
+      "title": "Psalm 7 release: PHP security&static analysis software",
+      "url": "https://psalm.dev/articles/psalm-7",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-07T17:06:18",
+      "summary": null,
+      "content": null,
+      "author": "danogentili",
+      "score": 77,
+      "num_comments": 48,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50406107,
+        "hn_url": "https://news.ycombinator.com/item?id=50406107",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.5333703617721561
+    },
+    {
+      "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2611.09872v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-11-06T18:49:02",
+      "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because population-majority bias is generally unidentifiable without external supervision, we focus on mitigating the downstream effects of finite-rollout variation. We propose \\emph{Prompt-Conditional Distributionally Robust DPO (PC-Dr.DPO)}, which conditions within-prompt robust reweighting on observed vote reliability to make updates from sampling-sensitive prompts more conservative. We further introduce a cache-based mechanism to reduce self-supervised forgetting during online adaptation. Across six mathematical and knowledge-intensive reasoning benchmarks and five model backbones, PC-Dr.DPO matches or out...",
+      "content": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because population-majority bias is generally unidentifiable without external supervision, we focus on mitigating the downstream effects of finite-rollout variation. We propose \\emph{Prompt-Conditional Distributionally Robust DPO (PC-Dr.DPO)}, which conditions within-prompt robust reweighting on observed vote reliability to make updates from sampling-sensitive prompts more conservative. We further introduce a cache-based mechanism to reduce self-supervised forgetting during online adaptation. Across six mathematical and knowledge-intensive reasoning benchmarks and five model backbones, PC-Dr.DPO matches or outperforms the strongest TTRL baseline in 24 of 30 settings.",
+      "author": "Haoyu Wang, Ru Wang, Yuanyuan Wang, Jiaxian Guo, Mingming Gong",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.09872v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.09872v1.pdf",
+        "categories": [
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Haoyu Wang",
+          "Ru Wang",
+          "Yuanyuan Wang",
+          "Jiaxian Guo",
+          "Mingming Gong"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5518518518518518,
+      "final_score": 0.5277911188997189
+    },
+    {
+      "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+      "url": "https://arxiv.org/abs/2611.09866v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-11-06T18:47:23",
+      "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated surgical scene descriptions could reduce this burden by leveraging recurring surgical activities and prior knowledge.   Methods: We propose GRAC (Graph-Based Retrieval-Augmented Captioning), a framework that represents surgical scenes as graphs capturing relationships among instruments, actions, and anatomical structures. Given an input scene graph, GRAC learns to retrieve relevant graph-caption pairs from training data. It compares instrument-tissue interactions between retrieved examples and the input scene, using comparison features to condition retrieved-caption representations during generation.   Results: On the EndoVis-18 benchmark, GRAC achieved a CIDEr-D of 5.88, compared with 4.23 for SGT and 3.36 for the strongest conventional Tr...",
+      "content": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated surgical scene descriptions could reduce this burden by leveraging recurring surgical activities and prior knowledge.   Methods: We propose GRAC (Graph-Based Retrieval-Augmented Captioning), a framework that represents surgical scenes as graphs capturing relationships among instruments, actions, and anatomical structures. Given an input scene graph, GRAC learns to retrieve relevant graph-caption pairs from training data. It compares instrument-tissue interactions between retrieved examples and the input scene, using comparison features to condition retrieved-caption representations during generation.   Results: On the EndoVis-18 benchmark, GRAC achieved a CIDEr-D of 5.88, compared with 4.23 for SGT and 3.36 for the strongest conventional Transformer baseline. Exact instrument-action-target triplet-set accuracy reached 52.6%, compared with 32.7% for SGT and 26.2% for the strongest conventional baseline. These results demonstrate improvements in language quality and factual agreement. On TORS, GRAC achieved a CIDEr-D of 5.06, compared with 3.80 for the strongest baseline.   Conclusion: GRAC demonstrates that combining structured surgical scene representations with retrieved examples improves surgical scene captioning and produces more contextually meaningful descriptions.",
+      "author": "Rochak Dhakal, Chen Zhao, Soup Cobb, Xin Qian, Xiaofeng Yang...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.09866v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.09866v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Rochak Dhakal",
+          "Chen Zhao",
+          "Soup Cobb",
+          "Xin Qian",
+          "Xiaofeng Yang",
+          "Weihua Zhou"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.5225813801232639
+    },
+    {
+      "title": "On Agentic Manipulation Policies",
+      "url": "https://arxiv.org/abs/2611.09892v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-11-06T18:59:34",
+      "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the RoboLab-120 and CaP-Gym benchmarks, with no demonstrations or task-specific training. On RoboLab-120, AMP1 reaches an 85.6\\% success rate zero-shot, compared to 49.2\\% and 42.9\\% for leading VLA and WAM policies. The agent succeeds zero-shot in 104 of 108 real-world trials spanning twelve tasks and three robot instances, reducing failure rates by 20x and 15x relative to strong VLA and WAM baseline...",
+      "content": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the RoboLab-120 and CaP-Gym benchmarks, with no demonstrations or task-specific training. On RoboLab-120, AMP1 reaches an 85.6\\% success rate zero-shot, compared to 49.2\\% and 42.9\\% for leading VLA and WAM policies. The agent succeeds zero-shot in 104 of 108 real-world trials spanning twelve tasks and three robot instances, reducing failure rates by 20x and 15x relative to strong VLA and WAM baselines. The basic harness supplies no grasping, pushing, or placing skills; the agent develops its own strategies, such as searching for hidden objects, using objects as tools, and calibrating its cameras. With the addition of a persistent memory store, the agent can also learn from experience: an augmented harness with a memory representation that is carried across episodes lowers the failure rate on RoboDojo bimanual manipulation tasks by 4.6x relative to zero-shot deployment. Our analysis suggests that AMPs are substantially more general and robust than specialist manipulation policies, providing a promising foundation for robot manipulation.",
+      "author": "Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez, Negin Heravi...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.09892v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.09892v1.pdf",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Chen Chen",
+          "Omid Bagherieh",
+          "Naveen Nikamanth Appiah Balaji",
+          "Jesse T. Gonzalez",
+          "Negin Heravi",
+          "Fahad Islam",
+          "Xueting Li",
+          "Jean-Baptiste Regli",
+          "Kejia Ren",
+          "Petr \u0160vec",
+          "David J. Yoon",
+          "Matthias M\u00fcller",
+          "Vladlen Koltun"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5351851851851852,
+      "final_score": 0.5212811983027447
+    },
+    {
+      "title": "Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model",
+      "url": "https://arxiv.org/abs/2611.09803v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-11-06T17:54:01",
+      "summary": "Laya answers typed multiple-choice questions in one forward pass by scoring a hidden state at one [MASK] marker per option. We re-engineer the checkpoint (421M parameters; a 2-layer option head with no positional tensor; a documented but unused parallel layout) and test whether the answer depends on where an option is listed. Presenting 951 Qwen-verified questions under every cyclic rotation of their options (or six random permutations for 12 options), the released checkpoint changes its answer for 25.8% [22.9-28.7] of questions (19.7% on the 605 English-language items alone); accuracy with the gold option first versus last differs by 10.1 points, and the flips concentrate where the model's own confidence is low (54% versus 8% across confidence terciles). Fine-tuning with Laya's trainer on 2,818 teacher-verified rows with option shuffling cuts the flip rate to 7.2%; the identical rows without shuffling give 11.4%, so shuffling is responsible for 4.2 points of the improvement. A confide...",
+      "content": "Laya answers typed multiple-choice questions in one forward pass by scoring a hidden state at one [MASK] marker per option. We re-engineer the checkpoint (421M parameters; a 2-layer option head with no positional tensor; a documented but unused parallel layout) and test whether the answer depends on where an option is listed. Presenting 951 Qwen-verified questions under every cyclic rotation of their options (or six random permutations for 12 options), the released checkpoint changes its answer for 25.8% [22.9-28.7] of questions (19.7% on the 605 English-language items alone); accuracy with the gold option first versus last differs by 10.1 points, and the flips concentrate where the model's own confidence is low (54% versus 8% across confidence terciles). Fine-tuning with Laya's trainer on 2,818 teacher-verified rows with option shuffling cuts the flip rate to 7.2%; the identical rows without shuffling give 11.4%, so shuffling is responsible for 4.2 points of the improvement. A confidence-weighted vote over orderings gives 69.7% against 69.1% for a single base pass at 4.1x the compute. Labels are LLM-made and the test sets are teacher-filtered. We also fine-tune with the authors' parallel layout on the same rows: flip rate 0.5%.",
+      "author": "Mohammed Nayeem Khan, Logesh L",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.09803v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.09803v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Mohammed Nayeem Khan",
+          "Logesh L"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5314814814814814,
+      "final_score": 0.5188242700663029
+    },
+    {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-06T00:00:00",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "content": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "publication"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.5035826197435516
+    },
+    {
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-08T18:16:07",
+      "summary": null,
+      "content": null,
+      "author": "TheWiggles",
+      "score": 881,
+      "num_comments": 472,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50415628,
+        "hn_url": "https://news.ycombinator.com/item?id=50415628",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.4907919077376719
+    },
+    {
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-04T00:00:00",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "content": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5611111111111111,
+      "final_score": 0.47183658791121036
+    },
+    {
+      "title": "How \u201creverse game theory\u201d could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-03T10:43:41",
+      "summary": "A new approach known as \u201creverse game theory\u201d aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are \u201caligned\u201d with human desires\u2014to make sure, in other words, that rogue agents don\u2019t break the law, hack into unauthorized servers, or release poison gas into major cities and kill us all. Until now, this work has mostly focused on trying to peer into an AI\u2019s \u201cbrain\u201d ...",
+      "content": "A new approach known as \u201creverse game theory\u201d aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are \u201caligned\u201d with human desires\u2014to make sure, in other words, that rogue agents don\u2019t break the law, hack into unauthorized servers, or release poison gas into major cities and kill us all. Until now, this work has mostly focused on trying to peer into an AI\u2019s \u201cbrain\u201d to understand what it is \u201cthinking,\u201d or training models to hew to values that we hold dear. Claude, for instance, has its constitution \u2014a sort of moral code. The trouble is, these techniques don\u2019t seem to work particularly well: Models have been shown to deliberately underperform on tests, hide their intentions , and mislead their evaluators .  Now some alignment researchers believe that reverse game theory, also known as mechanism design, might get better results. Where game theory tries to predict how rational actors will behave when given a particular set of rules, reverse game theory attempts to design rules that will elicit the kinds of behavior we want to encourage. An example of mechanism design in the real world might be the classic strategy for splitting a piece of cake in two: One person cuts the cake and the other gets the first choice of pieces. This incentivizes the cutter to make the pieces as even as possible. Other examples include surge pricing in ride-hailing apps, which encourages drivers to be available at busy times, and second-price auctions, where the winning bidder pays the price of the second-highest bid instead of the highest. Platforms use these auctions to sell online advertising because they encourage buyers to bid close to the maximum they are willing to pay. In AI, mechanism design starts from the premise that we may never be able to understand enough about the internal workings of frontier models to make sure they are aligned. This means we should design mechanisms that incentivize agents to behave in ways that we want, regardless of what\u2019s actually going on under the hood.  A recent preprint paper by Stephen Morris, an economist at MIT, along with colleagues from Yale and Columbia suggested some potential mechanisms that could stop agents from \u201csandbagging\u201d tests (pretending to be worse than they actually are\u2014for example, to avoid triggering safety mechanisms).  Instead of being rewarded only for how well it does on a test, a model could be rewarded for how well its answers predict what a second model will say. Deliberately playing dumb becomes a losing bet. \u201cAI agents have a very good understanding of what other AI agents can achieve,\u201d Morris says. \u201cSo it does seem like a context where this cross-checking could work more practically.  The paper also suggests pitting agents against each other, creating a competitive dynamic that incentivizes them to perform their best, or pairing agents that are known to be biased in opposite directions and rewarding them depending on how closely their outputs match, thus incentivizing them to reach an optimal answer.  A second approach, as envisioned by Elad Hazan, a professor of computer science at Princeton, is to design mechanisms that take inspiration from the ways human society keeps people \u201caligned\u201d: social norms, the justice system, the monetary incentives of free-market capitalism. \u201cWe want to align superintelligent AI,\u201d he says. \u201cWhy don\u2019t we first talk about humans? How do we align humans?\u201d Hazan\u2019s suggested mechanism involves having AI models take turns as either \u201csolvers\u201d that tackle problems or \u201cauditors\u201d that check the others\u2019 work. \u201cOne agent acts like law enforcement; the other agent acts like the citizen,\u201d he says.  During training, the models are rewarded depending on outcomes: Solvers that get caught cheating are punished, but so are auditors that fail to catch the cheaters. In situations where there\u2019s a disagreement between auditors and solvers, the case can be sent to \u201ctrial\u201d\u2014perhaps a human expert will decide who is right.  There is, Hazan admits, a risk that agents will collude with each other\u2014as auditors have colluded with the businesses they\u2019re meant to be auditing, or corrupt police officers have colluded with criminals. But that problem can be solved by rewarding the auditors well enough, so that being caught isn\u2019t worth the risk (a lot easier in the world of AI training than the real one, where money for police salaries is tight), and by auditing the auditors using techniques akin to employing mystery shoppers.  Hazan points to Nobel Prize\u2013winning work by the economist Gary Becker, who introduced the idea of the \u201crational offender\u201d in the 1960s. Criminals don\u2019t break the law because they\u2019re inherently bad people, he said. Instead, they do it when it\u2019s the most rational choice given the incentives on offer. Crime makes sense only when the proceeds outweigh the potential punishment.  Alignment shouldn\u2019t be thought of as a property of a model, he argues, but as a descriptor of its behavior at a particular moment. \u201cYou are, like, a nice person,\u201d he says. \u201cAre you aligned? I don\u2019t know. Probably you are aligned most of the time, but there could be a situation where you\u2019re not.\u201d One potential issue with applying mechanism design to AI: It relies on the assumption that AI agents behave rationally. Mechanism design has a mixed record with humans, who often fail to behave the way economic models say they should.  It\u2019s ironic: Economists have spent decades trying to reduce human behavior to mathematics, and now, in large language models, we\u2019ve built mathematical systems that run on human language and could be just as inscrutable. AI models exhibit behaviors that seem more human than machine, and they can be swayed by subtle factors that are difficult to understand and explain. \u201cIs it even reasonable to assume that they will respond to incentives?\u201d asks Helen Qu, a research fellow at the Flatiron Institute, a nonprofit dedicated to advancing scientific discovery through computational methods, who has written about mechanism design and AI safety.  \u201cObviously, AIs are not rational,\u201d Morris says. \u201cThey\u2019re just algorithms at work.\u201d However, as economists have found with humans, treating them as if they\u2019re rational could still be useful if it helps to predict and control their behavior. Qu sees mechanism design as just one layer in a \u201cdefense in depth\u201d strategy for keeping AI models aligned\u2014alongside interpretability, regulation, and training, not instead of them. But there are a lot of questions to be answered before the approach can be implemented in actual frontier models. It\u2019s unclear, for instance, how these theories will apply to real models, or whether mechanisms designed for one task will carry over to another in practice. Models could find loopholes that no one anticipated. (Anthropic and OpenAI did not respond to requests for comment on whether they are working on this.)  Whatever these mechanisms look like, they will ultimately have to slot into the biggest mechanism of all: the free market. \u201cWe play by the rules of economics,\u201d says Hazan. A more aligned model may be good for the world, but if it\u2019s slower or more expensive than a less aligned one, does our current system of rules and regulations actually incentivize any of the frontier labs to release it?  \u201cIt\u2019s a mechanism that\u2019s responsible for a lot of prosperity for humankind,\u201d he says of the market, \u201cbut it could be ultimately responsible for something very terrible.\u201d Perhaps the entities really in need of a better mechanism design are the labs themselves.",
+      "author": "Amit Katwala",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5648148148148149,
+      "final_score": 0.46146811877042004
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-02T09:00:00",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "content": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "research"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5333333333333333,
+      "final_score": 0.43833333333333335
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-09T19:35:33",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what\u2019s known as Data Center Alley\u2014the world\u2019s largest data center hub. It\u2019s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what\u2019s known as Data Center Alley\u2014the world\u2019s largest data center hub. It\u2019s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox and CloudHQ. It\u2019s accepted wisdom in Big Tech that the war against data centers must be about something bigger than just data centers themselves. Two days after the midterms, OpenAI\u2019s chief global affairs officer, Chris Lehane, wrote that data centers \u201chave become a proxy for public unease about affordability, corporate power, and people losing control over their futures.\u201d It\u2019s a culture war, in other words. But spending a few days in Data Center Alley left me wondering if it\u2019s really the proxy that Lehane describes. I came away convinced that the data center backlash is more about electricity than Big Tech admits. The industry can improve its image, but it can\u2019t escape the physical consequences of its enormous appetite for electricity. Here\u2019s why. There are two ways to power the sort of data center that AI companies want: connecting to the grid, or generating electricity onsite. In Virginia\u2019s Loudoun County, where data centers are ubiquitous but have been built at a steadier pace than the breakneck expansion now underway elsewhere in the country, most are connected to the existing grid.  One facility I went inside, operated by Equinix, has massive diesel generators onsite for backup but gets its power from the local utility, Dominion Energy. Much of Dominion\u2019s electricity is generated by natural gas (which is cleaner than coal or oil, but worse than renewables). The average data center operating in this part of Virginia today has a power capacity of 54 megawatts. That\u2019s more than the power draw of the Denver International Airport .  Elena Schlossberg, a prominent activist against data centers in Virginia, told me she\u2019s \u201calways banging my head against the wall\u201d when the industry paints the fight as a culture war. \u201cIt was always about power,\u201d she says\u2014that is, electricity. Some Virginia protesters appear more animated by a broader anti-tech populism than Schlossberg, to be fair. But it\u2019s the particular consequences of drawing so much power from the grid that have done the most to shape how the backlash has played out.  Recent protests have led to new rules from the state that data centers must pay fully for the cost of new transmission lines to the grid and make sure they\u2019re not spread among everyone else. Data center developers told me they\u2019re preparing for new rules that would cut them off from grid power during peak demand. Schlossberg also worries about the downstream effects of a strained grid\u2014for example, that data centers will run more diesel generators or that Dominion Energy will expand fossil fuel inputs rather than renewables to meet demand. The overwhelming majority of AI data centers being built elsewhere in the country are not designed this way. The scale desired is so massive that companies are setting up in rural areas where there is virtually no grid infrastructure to connect to. Building there means bringing your own power (so-called \u201cbehind the meter\u201d power), in the form of natural-gas-powered turbines. Companies also build diesel generators for backup. Anthropic, for example, has reportedly agreed to pay $3.4 billion for gas turbines in what\u2019s described as the largest power generation purchase by an AI company. Even if grids were nearby, they\u2019d be unlikely to serve the amount of power demanded. The smallest data centers attractive for AI training are 300 megawatts. It\u2019s a lot of power for one industrial site, but not unprecedented: One data center developer told me he\u2019s eyeing a former steel mill already equipped to draw that much electricity from the grid. But the ideal facilities are more like 6,000 megawatts. That\u2019s the estimated draw of the city of Chicago, which is powered by more than 20 power plants within the city alone (and dozens farther out). The notion of data center companies\u2019 bringing their own power might seem attractive at first, because they wouldn\u2019t be straining the grid. But generating electricity at this scale inevitably affects surrounding communities, and when public utilities build infrastructure of this magnitude, communities have traditionally expected a say in where it goes. Now, private companies are undertaking projects on a similar scale. Natural-gas turbines of any scale release air pollutants. When diesel generators are used, it\u2019s even worse. And in the unprecedented rush to get these facilities operating, companies have become horrible neighbors (recall that Elon Musk violated air quality laws when he set up dozens of turbines to power a data center in Memphis, according to the Environmental Protection Agency). Big Tech\u2019s tendency to chalk the backlash up to a culture war obfuscates one simple fact: There\u2019s only so pleasant you can make a small city of computers to live around. Sure, companies can pursue better deals that raise tax revenues, hire local workers, and get more community involvement, as the protests are leading them to do . But if a small town is asked to welcome a Walt Disney World, an international airport, a steel plant, and the power plants to run them all, should we be surprised by its trepidation? Again, that\u2019s not to say this is the sole reason for opposition to data centers. Fears of job losses, existential risks, and concentrated corporate power all fuel the backlash, as does misinformation (most facilities use far less water than many people think). Nor is consuming enormous amounts of electricity inherently bad: Many of the advances that have improved modern life have required just that. But as one developer recently told me, industry insiders see their ambitions as constrained less by public opposition than by a lack of electricity. That should tell us something. So what happens next? It\u2019s possible that newly elected politicians\u2019 actual stances on data centers won\u2019t be as negative as the ones they campaigned on. But what seems true regardless is that if new data centers need their own power generated onsite, they\u2019ll go where there are the fewest people able to resist them. That might mean the Permian Basin , where a network of natural-gas lines can be easy for developers to connect to and populations are sparse. Companies might also try their chances abroad; Google, in fact, announced the day after the elections that it will spend $15 billion on data center projects in Malaysia. But there\u2019s one place where Big Tech may find virtually no limits at all, as Elon Musk posted just hours after the midterms results came rolling in: \u201cData centers in space looking pretty appealing right now.\u201d",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "artificial intelligence",
+        "the algorithm"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.048148148148148155,
+      "final_score": 0.3912875633051422
+    },
+    {
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-09T13:00:00",
+      "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed decisions, and develop more sustainable materials without compromising performa...",
+      "content": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed decisions, and develop more sustainable materials without compromising performance. Girish Rao, vice president of information technology at Lubrizol, says the company is building a digital foundation that connects business processes, modern data platforms, and cloud infrastructure to support its research and development (R&D) teams. Their goal is to combine decades of accumulated technical data with the deep expertise of chemists and engineers who understand customer needs as well as the physical constraints of their work. Data scientists can help identify patterns, test new hypotheses, and model possibilities before researchers conduct physical experiments. But, Rao emphasizes, \u201cit&#8217;s not about replacing scientific judgment; it is about giving our scientists better tools.\u201d Scientists, data scientists, and IT teams approach problems from different perspectives, prioritizing experimental validity, model performance, and platform security and scalability, respectively. By bringing these groups together in \u201cfusion teams,\u201d Lubrizol aligns them around shared objectives, starting with small pilots to build trust. &#8220;Once the trust is built between the team members and they know what value they&#8217;re about to create,&#8221; Rao says, &#8220;things go a lot better.&#8221; Cloud infrastructure also gives the company flexibility to access computing resources and modern tools without making the substantial investments required to build and maintain its own data centers. These capabilities could prove especially valuable in advancing sustainability. Digital modeling can help researchers evaluate more formulations, explore materials such as starch and corn-based alternatives, and assess trade-offs across a product&#8217;s life cycle. Promising a material in a laboratory is only the first step. Scaling production while meeting performance expectations, regulatory requirements, and financial constraints is still a tightrope walk, but AI&#8217;s ability to model multiple variables could help teams navigate those competing demands. Looking to the future, Rao expects AI, automation, advanced modeling, digital twins, and connected data to converge as laboratories become more intelligent and manufacturing plants more efficient. The opportunity, he suggests, lies in bringing these capabilities together responsibly and at scale. \u201cIt&#8217;s not just a single technology. I think it&#8217;s the combination of all of these, and it&#8217;ll be the ability to connect all these processes that are going to generate tremendous amounts of data.&#8221; This webcast is produced in partnership with Infosys. This content was produced by Insights, MIT Technology Review\u2019s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
+      "author": "MIT Technology Review Insights",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "sponsored"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3861421433030754
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "Hacker News",
+    "date_range": {
+      "start": "2026-11-02T09:00:00",
+      "end": "2026-11-09T19:35:33"
+    }
+  }
+}

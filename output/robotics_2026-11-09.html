@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Robotics Weekly - Week 46</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manufacturing Robotics Weekly</h1>
+            <div class="date">Week 46 | November 09, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>10</strong> sources</span>
+            <span>🏆 Top: <strong>The Robot Report</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://blogs.nvidia.com/blog/huang-3dexperience-2026/?ncid=so-twit-241697&linkId=100000406112672" target="_blank">Digital twins for training in manufacturing</a>
+                </div>
+                <div class="story-meta">
+                    Manual Inbox | Nov 09
+                     | ⬆️ 100 | 💬 0
+                </div>
+                <p class="story-summary">Digital twins for training in manufacturing</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://www.youtube.com/watch?v=BYXbuik3dgA" target="_blank">Elon Musk – &quot;In 36 months, the cheapest place to put AI will be space”</a>
+                </div>
+                <div class="story-meta">
+                    YouTube - Dwarkesh Patel and Stripe | Nov 09
+                     | ⬆️ 150 | 💬 0
+                </div>
+                <p class="story-summary">Optimus and humanoid manufacturing, Tesla will use 10,000 to 30,000 Optimus robots for self-training, similar to FSD Elon Musk revealed Optimus&#39;s new strategy: creating an &quot;Optimus Academy&quot; with 10,000 to 30,000 real robots that will continuously per...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/" target="_blank">Boston Dynamics adds wheels to Atlas humanoid to test whole-body control</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Nov 09
+                    
+                </div>
+                <p class="story-summary">Bridging the divide between deterministic physics-based control and policy-driven adaptation, Boston Dynamics released a video today showing its Atlas humanoid using wheels to move around. The &amp;#8220;experiment&amp;#8221; combined classical model-based m...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/" target="_blank">How to minimize Wi-Fi roaming interruptions for autonomous mobile robots</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Nov 09
+                    
+                </div>
+                <p class="story-summary">Wi-Fi connectivity needs to be reliable for real-time mobile robot management. Source: Synaptics An autonomous mobile robot or AMR may cross dozens of Wi-Fi coverage zones during a single shift. Each transition creates a small but potentially consequ...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/" target="_blank">Robot integration brings high-precision production to midmarket manufacturers</a>
+                </div>
+                <div class="story-meta">
+                    The Robot Report | Nov 07
+                    
+                </div>
+                <p class="story-summary">High-precision manufacturing was once considered something exclusive to large corporations. However, advances in robotic integration and automated manufacturing have changed this perception. Sophisticated capabilities are becoming accessible to midma...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2611.09864v1" target="_blank">Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation</a></div>
+                <div class="paper-author">Xun Tu, Minghao Zou, Karthik Desingh</div>
+                <div class="paper-summary">Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service r...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2611.09679v1" target="_blank">Autonomous Particle Image Velocimetry Using Zero-Shot Sim-to-Real Reinforcement Learning</a></div>
+                <div class="paper-author">Chang Rajani, Luke Sebastien Marsden, Stephan Kunz, Claudio Mucignat, Ivan Lunati</div>
+                <div class="paper-summary">Particle image velocimetry (PIV) reconstructs a flow field from the motion of tracer particles but the reconstruction quality is bounded by how well the flow structure of interest is resolved in the i...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2611.09892v1" target="_blank">On Agentic Manipulation Policies</a></div>
+                <div class="paper-author">Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez, Negin Heravi...</div>
+                <div class="paper-summary">Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such a...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.infineon.com/press-release/2026/infpr202611-028" target="_blank">Infineon marks innovation milestone with 300mm power silicon carbide wafer</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 82 | 💬 37</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://news.ycombinator.com/item?id=50427934" target="_blank">Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 84 | 💬 31</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/" target="_blank">Boston Dynamics built Stretch Gen 2 for reliable, consistent performance</a></div>
+                <div class="news-meta">The Robot Report | Nov 06</div>
+                <div class="news-summary">The new Stretch features an updated modular design that enables “plug and play” part swaps. | Source: Boston Dynamics Boston Dynamics Inc. this week u...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/" target="_blank">Industry experts discuss China blocking SoftBank acquisition of ABB Robotics</a></div>
+                <div class="news-meta">The Robot Report | Nov 06</div>
+                <div class="news-summary">ABB Robotics has integrated NVIDIA Omniverse libraries into RobotStudio. Source: ABB Robotics Yesterday, ABB Robotics confirmed to The Robot Report th...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://robohub.org/aihub-coffee-corner-are-humanoids-the-future-of-embodied-ai/" target="_blank">AIhub coffee corner: Are humanoids the future of embodied AI?</a></div>
+                <div class="news-meta">Robohub | Nov 04</div>
+                <div class="news-summary">The AIhub coffee corner captures the musings of AI experts over a short conversation. This month we ask whether humanoids are the future of robotics. ...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/" target="_blank">Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC</a></div>
+                <div class="news-meta">Robot Report - Agility Robotics | Nov 03</div>
+                <div class="news-summary">Digit 5 includes redesigned legs and new batteries for commercial use. Source: Agility Robotics Agility Robotics has cleared a major hurdle in its pla...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.therobotreport.com/top-10-robotics-developments-october-2026/" target="_blank">Top 10 robotics developments of October 2026</a></div>
+                <div class="news-meta">Robot Report - Boston Dynamics | Nov 02</div>
+                <div class="news-summary">October 2026 was a whirlwind month for the robotics industry. Last month, we celebrated the 20th anniversary of RoboBusiness and announced that next y...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-11-09 22:55 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>

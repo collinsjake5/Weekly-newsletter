@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Digest - Week 46</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            color: #1e40af;
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        .header .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .stats {
+            background-color: #eff6ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .stats span {
+            margin: 0 15px;
+            color: #1e40af;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .story {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .story:last-child {
+            border-bottom: none;
+        }
+        .story-rank {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .story-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .story-title a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        .story-title a:hover {
+            text-decoration: underline;
+        }
+        .story-meta {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        .story-summary {
+            font-size: 14px;
+            color: #4b5563;
+            background-color: #f9fafb;
+            padding: 10px;
+            border-left: 3px solid #d1d5db;
+            margin: 0;
+        }
+        .paper {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: #fefce8;
+            border-radius: 6px;
+        }
+        .paper-title a {
+            color: #854d0e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-author {
+            font-size: 12px;
+            color: #a16207;
+            font-style: italic;
+        }
+        .paper-summary {
+            font-size: 13px;
+            color: #713f12;
+            margin-top: 8px;
+        }
+        .discussion {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f0fdf4;
+            border-radius: 6px;
+        }
+        .discussion-title a {
+            color: #166534;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .discussion-meta {
+            font-size: 12px;
+            color: #15803d;
+        }
+        .news {
+            margin-bottom: 15px;
+        }
+        .news-title a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .news-summary {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .quick-links {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .quick-links ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .quick-links li {
+            margin-bottom: 8px;
+        }
+        .quick-links a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .quick-links .source {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Weekly Digest</h1>
+            <div class="date">Week 46 | November 09, 2026</div>
+        </div>
+
+        <div class="stats">
+            <span>📊 <strong>20</strong> items</span>
+            <span>📰 <strong>7</strong> sources</span>
+            <span>🏆 Top: <strong>Hacker News</strong></span>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔥 Top Stories</h2>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">1</span>
+                    <a href="https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy" target="_blank">Payments Canada announces launch of Canada&#39;s Real-Time Rail (RTR) payment system</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Nov 09
+                     | ⬆️ 434 | 💬 238
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">2</span>
+                    <a href="https://arxiv.org/abs/2611.09880v1" target="_blank">ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations</a>
+                </div>
+                <div class="story-meta">
+                    ArXiv [cs.CV] | Nov 06
+                    
+                </div>
+                <p class="story-summary">Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying m...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">3</span>
+                    <a href="https://huggingface.co/blog/phonon-tts" target="_blank">A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.</a>
+                </div>
+                <div class="story-meta">
+                    Hugging Face Blog | Nov 05
+                    
+                </div>
+                
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">4</span>
+                    <a href="https://nvidianews.nvidia.com/news/a-message-to-our-company" target="_blank">Nvidia CEO Jensen Huang&#39;s letter to staff about affair</a>
+                </div>
+                <div class="story-meta">
+                    Hacker News | Nov 08
+                     | ⬆️ 932 | 💬 1201
+                </div>
+                <p class="story-summary">&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.axios.com&amp;#x2F;2026&amp;#x2F;11&amp;#x2F;08&amp;#x2F;nvidia-ceo-jensen-huang-affair-email-to-company&quot; rel=&quot;nofollow&quot;&gt;https:&amp;#x2F;&amp;#x2F;www.axios.com&amp;#x2F;2026&amp;#x2F;11&amp;#x2F;08&amp;#x2F;nvidia-ceo-jensen-huang-aff...&lt;/a&gt;, &lt;a href=&quot;https:...</p>
+            </div>
+
+            <div class="story">
+                <div class="story-title">
+                    <span class="story-rank">5</span>
+                    <a href="https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/" target="_blank">Nancy Pelosi’s replacement is ready to regulate AI</a>
+                </div>
+                <div class="story-meta">
+                    MIT Technology Review AI | Nov 09
+                    
+                </div>
+                <p class="story-summary">As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role...</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📚 Research Highlights</h2>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2611.09872v1" target="_blank">On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning</a></div>
+                <div class="paper-author">Haoyu Wang, Ru Wang, Yuanyuan Wang, Jiaxian Guo, Mingming Gong</div>
+                <div class="paper-summary">Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze ma...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2611.09866v1" target="_blank">GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description</a></div>
+                <div class="paper-author">Rochak Dhakal, Chen Zhao, Soup Cobb, Xin Qian, Xiaofeng Yang...</div>
+                <div class="paper-summary">Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensiv...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2611.09892v1" target="_blank">On Agentic Manipulation Policies</a></div>
+                <div class="paper-author">Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez, Negin Heravi...</div>
+                <div class="paper-summary">Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such a...</div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title"><a href="https://arxiv.org/abs/2611.09803v1" target="_blank">Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model</a></div>
+                <div class="paper-author">Mohammed Nayeem Khan, Logesh L</div>
+                <div class="paper-summary">Laya answers typed multiple-choice questions in one forward pass by scoring a hidden state at one [MASK] marker per option. We re-engineer the checkpoint (421M parameters; a 2-layer option head with n...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💬 Community Buzz</h2>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://meowdisplay.app/" target="_blank">Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 64 | 💬 24</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://psalm.dev/articles/psalm-7" target="_blank">Psalm 7 release: PHP security&amp;static analysis software</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 77 | 💬 48</div>
+            </div>
+
+            <div class="discussion">
+                <div class="discussion-title"><a href="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers" target="_blank">Goldman Sachs is pulling Claude Code from its bankers and traders</a></div>
+                <div class="discussion-meta">Hacker News | ⬆️ 881 | 💬 472</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📰 News & Announcements</h2>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/control-room" target="_blank">Control Room: A central system to track and stop model workloads across our research infrastructure</a></div>
+                <div class="news-meta">OpenAI Blog | Nov 09</div>
+                <div class="news-summary">Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns a...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/kuken" target="_blank">Kuken Industries searches 70 years of drawings in minutes</a></div>
+                <div class="news-meta">OpenAI Blog | Nov 09</div>
+                <div class="news-summary">Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down fr...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science" target="_blank">Measuring how AI agents handle everyday wet-lab science</a></div>
+                <div class="news-meta">OpenAI Blog | Nov 06</div>
+                <div class="news-summary">OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab scienc...</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://openai.com/index/introducing-images-2-6" target="_blank">Introducing Images 2.6</a></div>
+                <div class="news-meta">OpenAI Blog | Nov 04</div>
+                <div class="news-summary">Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.</div>
+            </div>
+
+            <div class="news">
+                <div class="news-title"><a href="https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/" target="_blank">How “reverse game theory” could keep AI agents in check</a></div>
+                <div class="news-meta">MIT Technology Review AI | Nov 03</div>
+                <div class="news-summary">A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As ...</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Generated on 2026-11-09 22:55 UTC<br>
+            This newsletter was compiled using the Weekly Newsletter Builder.
+        </div>
+    </div>
+</body>
+</html>
