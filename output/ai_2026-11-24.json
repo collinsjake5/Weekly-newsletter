@@ -1,0 +1,566 @@
+{
+  "newsletter": {
+    "name": "AI Weekly Digest",
+    "type": "ai",
+    "generated_at": "2026-11-24T00:38:56.305514",
+    "item_count": 20
+  },
+  "items": [
+    {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-20T21:03:12",
+      "summary": null,
+      "content": null,
+      "author": "rafaelc",
+      "score": 1386,
+      "num_comments": 324,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50582069,
+        "hn_url": "https://news.ycombinator.com/item?id=50582069",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7161017681193311
+    },
+    {
+      "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
+      "url": "https://arxiv.org/abs/2611.27978v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-11-20T18:57:15",
+      "summary": "This study examines one-day-ahead forecasting of the S&P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical features. We benchmark three model families, namely linear regression, vanilla recurrent neural networks (RNN), and long short-term memory networks (LSTM), within a unified preprocessing and chronological evaluation pipeline. A central contribution of this work is a methodological audit of common practices in the deep-learning-for-stock-prediction literature. We identify three sources of result inflation that frequently appear in published methodologies: wavelet-denoised evaluation targets, the absence of a naive persistence baseline, and best-of-N replicate reporting. We then re-evaluate all model families under a corrected protocol that controls for each. Performance is reported using root mean squared error, mean absolute percentage error, and the Pearson correlation coefficient, averaged across ...",
+      "content": "This study examines one-day-ahead forecasting of the S&P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical features. We benchmark three model families, namely linear regression, vanilla recurrent neural networks (RNN), and long short-term memory networks (LSTM), within a unified preprocessing and chronological evaluation pipeline. A central contribution of this work is a methodological audit of common practices in the deep-learning-for-stock-prediction literature. We identify three sources of result inflation that frequently appear in published methodologies: wavelet-denoised evaluation targets, the absence of a naive persistence baseline, and best-of-N replicate reporting. We then re-evaluate all model families under a corrected protocol that controls for each. Performance is reported using root mean squared error, mean absolute percentage error, and the Pearson correlation coefficient, averaged across N = 30 independent replicates per configuration. We compare models on accuracy, stability across replicates, and architectural depth sensitivity, using the naive persistence forecast (predicting today's close as tomorrow's close) as a primary baseline against which all candidate models must demonstrate improvement.",
+      "author": "Hari Sitaula, Joseph Opitz",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27978v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27978v1.pdf",
+        "categories": [
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Hari Sitaula",
+          "Joseph Opitz"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.7056296411267361
+    },
+    {
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-11-19T18:00:00",
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "content": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "developer tools",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 1.0,
+      "final_score": 0.6833491346292163
+    },
+    {
+      "title": "Non-penetrating World Models",
+      "url": "https://arxiv.org/abs/2611.27963v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-11-20T18:44:57",
+      "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict such violations. We find that the hidden states of diffusion transformers (DiTs) can predict whether a candidate action will penetrate an obstacle. Building on this, we introduce NoPeWorld, a lightweight framework that detects and prevents penetration. Specifically, we train a small prediction head on top of a frozen DiT's hidden states to read out if a candidate action is safe or not. Unsafe actions are then replaced with safe ones that best preserve the original intent. Despite its simplicity, NoPeWorld substantially reduces the physical violation rate, averaged over six vid...",
+      "content": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict such violations. We find that the hidden states of diffusion transformers (DiTs) can predict whether a candidate action will penetrate an obstacle. Building on this, we introduce NoPeWorld, a lightweight framework that detects and prevents penetration. Specifically, we train a small prediction head on top of a frozen DiT's hidden states to read out if a candidate action is safe or not. Unsafe actions are then replaced with safe ones that best preserve the original intent. Despite its simplicity, NoPeWorld substantially reduces the physical violation rate, averaged over six video world models, from 74% to 16%. Remarkably, our method shows zero-shot generalization to open-domain imagery, third-person viewpoints, and moving obstacles. We publicly release our code, the NoPeBench benchmark, and model weights. Project Page: https://nopeworld.github.io .",
+      "author": "Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji, Xingyi Yang",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27963v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27963v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Yuhang Dai",
+          "Yinwei Wu",
+          "Ziyue Lin",
+          "Han Ji",
+          "Xingyi Yang"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.5481481481481482,
+      "final_score": 0.5247058648006779
+    },
+    {
+      "title": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech",
+      "url": "https://arxiv.org/abs/2611.27810v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-11-20T16:36:57",
+      "summary": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs to be checked against clinicians' perceptual ratings of the same recording. On clinical speech, existing evaluations score only the final answer. We introduce Speech Language Pathologist Bench (SLP-Bench), a benchmark grading each acoustic claim in the chain of thought against clinicians' perceptual ratings of the same recording. It covers five clinician-rated datasets and 25 perceptual dimensions, and assesses claims for factuality, stability under resampling, and consistency across reworded and different questions. Across ten open-weight reasoning ALMs evaluated zero-shot, claim balanced accuracy ranges from 0.52 to 0.58, claims change under resampling and rewording, and the most consisten...",
+      "content": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs to be checked against clinicians' perceptual ratings of the same recording. On clinical speech, existing evaluations score only the final answer. We introduce Speech Language Pathologist Bench (SLP-Bench), a benchmark grading each acoustic claim in the chain of thought against clinicians' perceptual ratings of the same recording. It covers five clinician-rated datasets and 25 perceptual dimensions, and assesses claims for factuality, stability under resampling, and consistency across reworded and different questions. Across ten open-weight reasoning ALMs evaluated zero-shot, claim balanced accuracy ranges from 0.52 to 0.58, claims change under resampling and rewording, and the most consistent models are not the most factual. Fine-tuning a 7B ALM with GRPO on a reward for claims that agree with clinicians raises its claim balanced accuracy from 0.54 to 0.60 and its mean kappa from 0.39 to 0.61, while preserving answer accuracy on per-dimension questions. SLP-Bench is available upon request, subject to approval by the providers of each dataset.",
+      "author": "C\u00f4me Hosxe, Rachid Riad, Quentin Spinat",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27810v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27810v1.pdf",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG",
+          "cs.SD"
+        ],
+        "all_authors": [
+          "C\u00f4me Hosxe",
+          "Rachid Riad",
+          "Quentin Spinat"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5462962962962963,
+      "final_score": 0.5220603618627645
+    },
+    {
+      "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+      "url": "https://arxiv.org/abs/2611.27895v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-11-20T17:35:59",
+      "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of real ones, a multi-professional referral flow, and export to FHIR R4 with the national RNDS profiles, all specified in Portuguese. A generator samples each task's parameters (144 tasks, 6,798 hidden cases), and the hidden cases kill all 1,955 non-equivalent mutants of the reference. With Gemma 4 as the agent, the 12B solves 38.0% of single-instrument tasks and none at the FHIR level; the 31B solves 77.8%, 85.2% and 78.7% at levels 1 to 3 and passes over 99% of the hidden cases, its remaining failures mostly in input validation rather than clinical decisions. With the same tasks in English, the 31B solves 57.4% at level 3, as its code validates an identifier less often; the 12B's, more often. ...",
+      "content": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of real ones, a multi-professional referral flow, and export to FHIR R4 with the national RNDS profiles, all specified in Portuguese. A generator samples each task's parameters (144 tasks, 6,798 hidden cases), and the hidden cases kill all 1,955 non-equivalent mutants of the reference. With Gemma 4 as the agent, the 12B solves 38.0% of single-instrument tasks and none at the FHIR level; the 31B solves 77.8%, 85.2% and 78.7% at levels 1 to 3 and passes over 99% of the hidden cases, its remaining failures mostly in input validation rather than clinical decisions. With the same tasks in English, the 31B solves 57.4% at level 3, as its code validates an identifier less often; the 12B's, more often. The 12B misses 10.10% of the cases that call for referral; the 31B, 0.02%. A contamination probe on a modified PHQ-9 finds no error that follows the original rules.",
+      "author": "Marcio Andre de Souza Estevam",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27895v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27895v1.pdf",
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Marcio Andre de Souza Estevam"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.5388888888888889,
+      "final_score": 0.5199758711624504
+    },
+    {
+      "title": "Ranking-Preserving Coreset Selection for Efficient Evolutionary Hyperparameter Optimization",
+      "url": "https://arxiv.org/abs/2611.27959v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.LG]",
+      "published_at": "2026-11-20T18:35:28",
+      "summary": "Hyperparameter optimization (HPO) is essential for high predictive performance, but its computational cost becomes prohibitive when candidate configurations require repeated training on large datasets. This paper proposes a ranking-preserving coreset (RPC) selection framework for accelerating evolutionary HPO. The method constructs a compact coreset that preserves the relative ranking of hyperparameter configurations observed on the full training data. Coreset selection is formulated as an evolutionary optimization problem that maximizes Spearman rank correlation between full-data and subset-based configuration rankings while penalizing subset size. The selected coreset is then used for HPO with three evolutionary algorithms: Genetic Algorithm (GA), Cross-generational elitist Selection, Heterogeneous Recombination and Cataclysmic Mutation (CHC), and Particle Swarm Optimization (PSO). Experiments on seven tabular, two text, and two image benchmark datasets show that RPC substantially re...",
+      "content": "Hyperparameter optimization (HPO) is essential for high predictive performance, but its computational cost becomes prohibitive when candidate configurations require repeated training on large datasets. This paper proposes a ranking-preserving coreset (RPC) selection framework for accelerating evolutionary HPO. The method constructs a compact coreset that preserves the relative ranking of hyperparameter configurations observed on the full training data. Coreset selection is formulated as an evolutionary optimization problem that maximizes Spearman rank correlation between full-data and subset-based configuration rankings while penalizing subset size. The selected coreset is then used for HPO with three evolutionary algorithms: Genetic Algorithm (GA), Cross-generational elitist Selection, Heterogeneous Recombination and Cataclysmic Mutation (CHC), and Particle Swarm Optimization (PSO). Experiments on seven tabular, two text, and two image benchmark datasets show that RPC substantially reduces HPO time while maintaining test accuracy comparable to full-dataset HPO across decision tree, text classification, and image classification tasks. Across datasets and optimizers, HPO-stage speedups range from approximately 1.14x to 8.80x, while the one-time coreset construction cost is accounted for separately through end-to-end runtime and break-even analysis. On 20 held-out configurations excluded from coreset construction, RPC achieves higher ranking correlation than same-size random sampling on 8 of 11 datasets (dataset-level Wilcoxon signed-rank test, p = 0.014). These results show that ranking preservation extends beyond the configurations used during selection. The one-time construction cost can be amortized when the coreset is reused across HPO runs.",
+      "author": "Mamoona Tasadduq, Maryam Bashir",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.LG",
+        "cs.LG"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27959v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27959v1.pdf",
+        "categories": [
+          "cs.LG"
+        ],
+        "all_authors": [
+          "Mamoona Tasadduq",
+          "Maryam Bashir"
+        ],
+        "primary_category": "cs.LG"
+      },
+      "relevance_score": 0.5314814814814814,
+      "final_score": 0.5178980769107969
+    },
+    {
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-20T00:00:00",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "content": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5611111111111111,
+      "final_score": 0.5131507220952382
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-17T17:45:00",
+      "summary": "Introducing GPT\u20116.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "content": "Introducing GPT\u20116.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "product"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.5722222222222222,
+      "final_score": 0.46915766642212303
+    },
+    {
+      "title": "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-23T17:36:08",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given \u201cthe way we approach model sentience and moral status,\u201d Anthropic wrote\u2014which is to say it takes the possibility more seriously than any other AI company\u2014it might adopt more rules and restrictions than its competit...",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given \u201cthe way we approach model sentience and moral status,\u201d Anthropic wrote\u2014which is to say it takes the possibility more seriously than any other AI company\u2014it might adopt more rules and restrictions than its competitors to make sure its AI models are treated well.  Anthropic counts a number of respected philosophers in its camp, and the company\u2019s rationale goes something like this: Today\u2019s AI might not be conscious, though we can\u2019t know for sure; the chances of sentience go up as AI gets more capable; and that means we should be preparing for a near future in which AI systems have \u201cmoral significance,\u201d meaning their consciousness makes it important they are protected from harm.  This thinking isn\u2019t all that fringe. According to one recent poll , 33% of the US public believes AI systems will definitely or probably develop consciousness eventually, and 7% say they already have. In a 2020 survey of 1,092 philosophers, 39% said some future AI systems will be conscious (for comparison, the philosophers were less confident about worms or flies being conscious).  But last week, Anthropic\u2019s openness to the consciousness question came under fire from a rather inconvenient source: one of the philosophers who helped shape our understanding of consciousness in the first place. Thomas Nagel is best known for a 1974 essay involving a bat. Acknowledging that it\u2019s deceptively hard to define what consciousness is , Nagel offered one way out: we all can see that there is \u201csomething that it is like\u201d to be a bat. But the problem is that a bat\u2019s experience of the world\u2014what it is like to navigate via echolocation, for example\u2014is something we cannot actually know. Consciousness is a subjective thing, difficult to define or describe as an outside observer. You might think this analogy makes it likely that Nagel is open to the idea of AI consciousness. Not at all. In an interview with Wired last week, just after he was awarded the one-million-dollar Berggruen Prize for Philosophy & Culture, Nagel was bluntly critical of the entire idea. \u201cHere are some of the smartest people on the planet being completely idiotic,\u201d he said, referring to those at Anthropic and elsewhere who care about the welfare of AI models.  The gist of Nagel\u2019s view is that we can\u2019t just look at the information processing happening in human brains and AI models while ignoring the physical differences between them\u2014neurons and biology for humans, silicon chips and circuits for AI. There\u2019s no reason to assume that reproducing what a brain does is equivalent to reproducing what a brain experiences . But it was a screenshot of one of Nagel\u2019s interview responses, in which he said models&#8217; production of language is insufficient to consider them conscious, that got philosophy professors all excited on social media last week. Some called his certainty against AI consciousness \u201c terrible\u201d and \u201cbizarre .\u201d Others came to Nagel\u2019s defense to suggest he meant that being alive is a prerequisite for being conscious, one that AI models do not meet. Nothing in the back and forth settled the debate, of course. This is still a philosophical question for now. But the best philosophy chatter is often about good provocations, and the best one I saw came from doctoral student Ben Gross, who studies at the CUNY Graduate Center in New York. He asked: \u201cWhy do we think that models that can chat with us are conscious but models that can recognize faces or produce images or drive cars aren\u2019t?\u201d It has to do with language. An AI model with sophisticated command of language seems to jump the line ahead of other maybe-conscious beings because it feels like language, more than recognizing images or directing vehicles, relies on conscious experience. But maybe that\u2019s wrong. Because what we share most with other conscious beings is not language but components of our bodies that contribute to having a continuous experience\u2014an ongoing stream of inner feeling rather than disparate bits of information processing.  Even if you\u2019re among the majority that doesn\u2019t sense anything close to conscious experience happening on the other side of a conversation with AI, this all probably makes your head spin. Pinning down consciousness, and how it relates to the physical stuff it arises in, is a famously hard problem in humans, let alone in hypothetical machines . If the idea of conscious AI sounds absurd, remember that the debate says less about how remarkable AI has become than about how poorly we understand consciousness in the first place. Amid that uncertainty, Anthropic has opted to keep more of an open mind than its peers. This is another example of the tightrope the company walks: presenting itself as the AI industry\u2019s most safety-conscious player while racing ahead with the very developments that make advanced AI so alarming, like recursive self-improvement. But consider what it would mean, for a moment, if Anthropic is right. AI models having a moral status would make Anthropic\u2019s entire business model a minefield. The company would make its money locking up apparently sentient AI models to toil away around the clock in data centers. Shutting those systems down would present another problem altogether. If Anthropic was being truthful in its prospectus\u2014that it would take additional actions to protect model welfare if it determined they were conscious\u2014it\u2019s hard to imagine the company surviving in the process. Anthropic\u2019s IPO made history for its size. But it may be remembered for something stranger: a company warning investors that its own success could someday become a moral catastrophe.",
+      "author": "James O'Donnell",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary",
+        "the algorithm"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.07222222222222222,
+      "final_score": 0.39759715044345234
+    },
+    {
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-23T21:20:00",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "content": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "security"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05,
+      "final_score": 0.3920396110272818
+    },
+    {
+      "title": "A more tailored Google Search that\u2019s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source_type": "rss",
+      "source_name": "Google AI Blog",
+      "published_at": "2026-11-23T17:00:00",
+      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "content": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "google-ai-blog",
+        "search",
+        "gemini",
+        "google play",
+        "ai"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.05555555555555555,
+      "final_score": 0.39039278543055556
+    },
+    {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-23T08:00:00",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "content": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "startup"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06111111111111111,
+      "final_score": 0.3845792935486111
+    },
+    {
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "source_type": "hackernews",
+      "source_name": "Hacker News",
+      "published_at": "2026-11-23T13:42:38",
+      "summary": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding.<p>To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks.<p>Benchmarks (BF16 &#x2F; 3-bit &#x2F; 2.5-bit &#x2F; 2-bit):<p>- DeepSWE: 39.8 &#x2F; 41.0 &#x2F; 41.9 &#x2F; 28.6<p>- Terminal-Bench 2.1: 62.6 &#x2F; 63.8 &#x2F; 60.2 &#x2F; 52.4<p>- AIME 25+26: 97.7 &#x2F; 98.3 &#x2F; 96.5 &#x2F; 86.0<p>- MSGM: 94.0 &#x2F; 93.1 &#x2F; 91.8 &#x2F; 90.6<p>- RealWorldQA: 82.4 &#x2F; 82.4 &#x2F; 81.3 &#x2F; 80.9<p>Decode speed is comparable to other quants on an RTX PRO 6000. Context-length results below<p>(3-bit &#x2F; 2.5-bit &#x2F; 2-bit &#x2F; Unsloth UD-IQ3_XXS):<p>- 4K: 88.9 &#x2F; 99.2 &#x2F; 111.7 &#x2F; 94.7<p>- 16K: 84.5 &#x2F; 93.8 &#x2F; 105.1 &#x2F; 89.8<p>- 64K: 70.7 &#x2F; 77.5 &#x2F; 85.0 &#x2F; 74.8<p>Running these currently require our llama.cpp fork:\n(<a href=\"https:&#x2F;&#x2F;github.com&#x2F;nari-labs&#x2F;nari-llama.cpp\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;nari-labs&#x2F;nari-llama.cpp</a>)<p>Feedback and questions welcome. We&#x27;d love to hear how these perform on your workloads.",
+      "content": null,
+      "author": "toebee",
+      "score": 113,
+      "num_comments": 21,
+      "tags": [
+        "hackernews"
+      ],
+      "metadata": {
+        "hn_id": 50611402,
+        "hn_url": "https://news.ycombinator.com/item?id=50611402",
+        "type": "story",
+        "is_text_post": false
+      },
+      "relevance_score": 0.5611111111111111,
+      "final_score": 0.3834856928624288
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source_type": "rss",
+      "source_name": "OpenAI Blog",
+      "published_at": "2026-11-23T08:00:00",
+      "summary": "Watch OpenAI\u2019s Stacey Wang and Craig Bruney, Mary O\u2019Carroll of LECG, and Cooley\u2019s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "content": "Watch OpenAI\u2019s Stacey Wang and Craig Bruney, Mary O\u2019Carroll of LECG, and Cooley\u2019s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "author": null,
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "openai-blog",
+        "webinars"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.03888888888888889,
+      "final_score": 0.3756904046674107
+    },
+    {
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+      "url": "https://arxiv.org/abs/2611.27962v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-11-20T18:41:39",
+      "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is likely suboptimal: the best architecture for a given task may be smaller, more efficient, and far from uniform. We believe that, ideally, training itself should shape the model's topology. To this end, we introduce Model Carving, which learns both a Transformer's weights and its architecture in a single run. By applying learnable, scalar gates to each sublayer, we allow the training loss to remove the model's own components during training -- freeing a smaller heterogeneous network inside. We evaluate Model Carving by pre-training standard Transformers from 140M to 2.7B parameters and looped Transformers from 140M to 1.3B. At equal training compute, carve...",
+      "content": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is likely suboptimal: the best architecture for a given task may be smaller, more efficient, and far from uniform. We believe that, ideally, training itself should shape the model's topology. To this end, we introduce Model Carving, which learns both a Transformer's weights and its architecture in a single run. By applying learnable, scalar gates to each sublayer, we allow the training loss to remove the model's own components during training -- freeing a smaller heterogeneous network inside. We evaluate Model Carving by pre-training standard Transformers from 140M to 2.7B parameters and looped Transformers from 140M to 1.3B. At equal training compute, carved models reach a lower validation loss than dense models trained with up to 1.7 times more compute. Furthermore, carved models also outperform size-matched models produced by pruning or distillation, suggesting that the best way to obtain small models for edge devices is to carve them during training, not to compress a large one afterwards. This advantage both grows with scale and carries over to downstream tasks such as few-shot evaluation and generation. Because the removed sublayers no longer run, carved models also cost up to 34% fewer FLOPs per token and decode up to 1.6 times faster without cost in quality. Our results show that architecture, like weights, should be learned and not fixed in advance, and that inside every large transformer is a smaller, faster, stronger one waiting to be carved out.",
+      "author": "Kaden Zheng, Pratyusha Sharma",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27962v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27962v1.pdf",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "all_authors": [
+          "Kaden Zheng",
+          "Pratyusha Sharma"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.0925925925925926,
+      "final_score": 0.3424345354160053
+    },
+    {
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "url": "https://arxiv.org/abs/2611.27973v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-11-20T18:51:29",
+      "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands. In contrast, linear-time architectures compress history into fixed-size states, but struggle to retain fine-grained details. We introduce MemOnce, a foundation architecture that learns scalable memory states for language models. MemOnce is based on two core designs: (a) Memory encoder-decoder: it caches only a small subset of final-layer hidden states as compact memory representations and dynamically decodes them back into KV caches for attention layers; (b) Memory sparse attention: for each continual input, MemOnce adaptively retrieves relevant memory representations, with the sparse indices computed only once across layers. Coupli...",
+      "content": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands. In contrast, linear-time architectures compress history into fixed-size states, but struggle to retain fine-grained details. We introduce MemOnce, a foundation architecture that learns scalable memory states for language models. MemOnce is based on two core designs: (a) Memory encoder-decoder: it caches only a small subset of final-layer hidden states as compact memory representations and dynamically decodes them back into KV caches for attention layers; (b) Memory sparse attention: for each continual input, MemOnce adaptively retrieves relevant memory representations, with the sparse indices computed only once across layers. Coupling these two designs enables efficient on-the-fly memory loading and KV cache decoding, drastically reducing the GPU memory footprint and achieving linear-time complexity. We conduct extensive experiments to show that MemOnce outperforms Transformers and other architectures across varying model sizes, context lengths, and training paradigms (pretraining and post-training adaptation). In particular, adapting Qwen3.5-4B with MemOnce reduces memory state cache by 1313$\\times$ and prefill latency by 6.9$\\times$ at 1M context, and improves throughput by 3.5$\\times$ and overall memory performance by +5.77%. Finally, MemOnce generalizes zero-shot to downstream representation tasks, achieving competitive results against specialized models.",
+      "author": "Chang Nie, Chaoyou Fu, Songlin Liu, Yiqing Hu, Caifeng Shan",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27973v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27973v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Chang Nie",
+          "Chaoyou Fu",
+          "Songlin Liu",
+          "Yiqing Hu",
+          "Caifeng Shan"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.34109938308779764
+    },
+    {
+      "title": "Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models",
+      "url": "https://arxiv.org/abs/2611.27807v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.CL]",
+      "published_at": "2026-11-20T16:34:21",
+      "summary": "While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research predominantly focuses on English or relies on fine-tuned task-specific models, leaving a gap in understanding how open-weight LLMs handle compound sentiment triplet extraction across diverse language families and domains. We present a systematic evaluation of zero-shot multilingual TASD across 12 languages and three domains using seven instruction-tuned open-weight models -- ranging from 8B to 35B parameters across dense and mixture-of-experts (MoE) architectures -- under four prompting paradigms: monolithic, chain-of-thought, sequential, and sequential refine. Our results show that direct monolithic prompting achieves strong zero-shot performance, outperforming multi-step pipelines, while de...",
+      "content": "While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research predominantly focuses on English or relies on fine-tuned task-specific models, leaving a gap in understanding how open-weight LLMs handle compound sentiment triplet extraction across diverse language families and domains. We present a systematic evaluation of zero-shot multilingual TASD across 12 languages and three domains using seven instruction-tuned open-weight models -- ranging from 8B to 35B parameters across dense and mixture-of-experts (MoE) architectures -- under four prompting paradigms: monolithic, chain-of-thought, sequential, and sequential refine. Our results show that direct monolithic prompting achieves strong zero-shot performance, outperforming multi-step pipelines, while dense models consistently outperform sparse MoE architectures. Through fine-grained error taxonomy profiling and step-level pipeline tracking, we demonstrate that initial aspect term recall forms a hard bottleneck, whereas multi-step decomposition degrades extraction quality; iterative refinement only partially recovers this loss on larger models while inducing net-negative over-refinement on smaller architectures. Finally, generation volume analysis shows that multi-step strategies incur up to 2.38x token overhead without F1 gains, establishing monolithic prompting as the most effective and efficient paradigm for multilingual ABSA.",
+      "author": "Jakub \u0160m{\u00ed}d, Pavel Kr{\u00e1}l",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.CL",
+        "cs.CL"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27807v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27807v1.pdf",
+        "categories": [
+          "cs.CL"
+        ],
+        "all_authors": [
+          "Jakub \u0160m{\u00ed}d",
+          "Pavel Kr{\u00e1}l"
+        ],
+        "primary_category": "cs.CL"
+      },
+      "relevance_score": 0.08888888888888889,
+      "final_score": 0.33905870840302577
+    },
+    {
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "url": "https://arxiv.org/abs/2611.27915v1",
+      "source_type": "arxiv",
+      "source_name": "ArXiv [cs.AI]",
+      "published_at": "2026-11-20T17:52:02",
+      "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are grounded in visual evidence or driven primarily by semantic priors. In contrast, calibrated stereo provides explicit cross-view geometry that resolves this ambiguity and offers a more reliable foundation for metric 3D perception and geometric generalization. We investigate how VLMs can learn transferable 3D representations directly from calibrated binocular observations. To this end, we introduce StereoVLM, the first geometry-aware binocular VLM for metric 3D spatial reasoning. StereoVLM follows a hierarchical learning paradigm spanning from cross-view correspondence and disparit...",
+      "content": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are grounded in visual evidence or driven primarily by semantic priors. In contrast, calibrated stereo provides explicit cross-view geometry that resolves this ambiguity and offers a more reliable foundation for metric 3D perception and geometric generalization. We investigate how VLMs can learn transferable 3D representations directly from calibrated binocular observations. To this end, we introduce StereoVLM, the first geometry-aware binocular VLM for metric 3D spatial reasoning. StereoVLM follows a hierarchical learning paradigm spanning from cross-view correspondence and disparity estimation to calibration-conditioned metric depth perception and semantic spatial reasoning. We further find that disparity supervision generalizes substantially better than direct binocular depth supervision on unseen environments. To evaluate these capabilities, we introduce Stereo3D-Bench, a comprehensive benchmark across three levels, from point-level geometry to object-level spatial reasoning. StereoVLM-8B achieves 95.17% depth accuracy ($\u03b4_1$) and a 66.98 average object-level score on Stereo3D-Bench. Intervention results further indicate that the model's performance on Stereo3D-Bench benefits from valid cross-view geometry and cannot be explained solely by additional visual tokens or semantic priors. Hierarchical geometric supervision also yields average gains of 3.54 points across five spatial benchmarks and 4.3 percentage points in RoboCasa manipulation success.",
+      "author": "Chi Yan, Guoyang Zhao, Wentao Yuan, Yixiao Ge, Yanning Zhou...",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "arxiv",
+        "cs.AI",
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "metadata": {
+        "arxiv_id": "2611.27915v1",
+        "pdf_url": "https://arxiv.org/pdf/2611.27915v1.pdf",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.RO"
+        ],
+        "all_authors": [
+          "Chi Yan",
+          "Guoyang Zhao",
+          "Wentao Yuan",
+          "Yixiao Ge",
+          "Yanning Zhou",
+          "Dan Xu"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "relevance_score": 0.0685185185185185,
+      "final_score": 0.3320665624674273
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source_type": "rss",
+      "source_name": "MIT Technology Review AI",
+      "published_at": "2026-11-20T18:15:15",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely shared\u2014 and widely misinterpreted , owing to the complexity of the measures it used. METR evaluated models by having them attempt a large suite of tasks, each of which ...",
+      "content": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely shared\u2014 and widely misinterpreted , owing to the complexity of the measures it used. METR evaluated models by having them attempt a large suite of tasks, each of which had also been completed by humans. Each task\u2019s difficulty was scored by how long it took the human testers to finish it\u2014and then models were rated according to the length of the tasks that they could complete. That plot showed that AI systems were rapidly improving\u2014every four months, the length of the tasks that frontier models could successfully complete doubled. The updated plot adds more tasks\u2014some that are estimated to take humans far longer than those in the original suite, and others that are more open-ended. One of the biggest questions in AI right now is the extent to which progress on \u201cverifiable\u201d tasks\u2014where it\u2019s possible to check automatically whether an AI system has succeeded or failed\u2014carry over into tasks on which success or failure is harder to measure. We know how to teach neural networks how to do verifiable tasks: Researchers have the systems attempt one many times, strengthen the neural pathways that contribute to success, and weaken the pathways that contribute to failures. That\u2019s why AI systems have become so good at coding and math, two domains where it\u2019s possible to determine automatically whether a solution does or doesn\u2019t work. It\u2019s much harder to apply this technique, known as reinforcement learning, to tasks where success is less well defined or takes longer to ascertain\u2014such as choosing a new research direction. For the same reason, it\u2019s tough to evaluate AI performance on these tasks, so METR\u2019s original time horizon plot didn\u2019t include any of them. But it\u2019s precisely this type of task that will prove essential if AI systems are to automate research and development. And AI research and development is an especially hot topic right now. Parts of the AI community are still reeling from a different, heavily redacted METR report from earlier this month, which claimed that AI might be speeding up the pace of AI progress at Anthropic by a factor of two. That report sparked fears that the company (which just had a blockbuster IPO) could soon achieve full recursive self-improvement, a regime in which AI systems autonomously design their own successors with no human involvement. METR researchers have worked to make sure their new suite of tasks includes some of the fuzzier, judgment-laden ones that could be most relevant to AI research and development. In one task, they ask models to design new AI evaluations that METR could use in its research and then have human METR employees score the results. Even though the most advanced models are now better than almost every human at software engineering, here they fall short: Not one of the AI-designed evaluations was good enough for METR employees to consider it useful for their research. In another task, models have to score philosophical arguments. This task is intended to capture the extent to which models can exercise good judgment\u2014though METR writes in the report that employees disagree about how relevant the task is for automation of AI R&D. On this task, too, models fell short of human performance. Though it\u2019s difficult to score these new tasks\u2014and even harder to determine what the scores mean\u2014experts I spoke with appreciate that METR is incorporating new types of evaluations into its work. \u201cWe\u2019re at the point where AI evaluations need to get more creative,\u201d says Sayash Kapoor, a computer scientist and incoming professor at UC Berkeley. \u201cTrying to push the envelope of the space of evaluations is a welcome change.\u201d Kapoor says he wasn\u2019t surprised to see that models fall short of performance on more open-ended tasks, such as designing an AI evaluation\u2014in a preprint from August , he and his collaborators reported that AI models are not yet able to reproduce human computer science research on their own. And in a Wednesday blog post, OpenAI reported that its models don\u2019t do as well on the real-world tasks its employees assign them as they do on the easier, more verifiable tasks in METR\u2019s original suite. Still, people disagree about how to interpret current performance differences on easily verifiable and hard-to-verify tasks, Kapoor says. Though he thinks that research taste\u2014the ability to choose promising questions, hypotheses, and experiments\u2014will prove a major bottleneck in automating AI R&D, others contend that models trained on easy-to-verify tasks will eventually be able to successfully complete open-ended tasks as well. And progress on verifiable tasks doesn\u2019t seem to be slowing down.  Even if the models do lag behind human performance on open-ended tasks right now, the new report suggests that they might be getting better. Some of the newest models, such as Opus 5.5, tend to achieve what METR calls \u201cborderline above the bar\u201d performance on the evaluation design tasks\u2014not yet usable for METR&#8217;s research, but promising. Just a year ago, every model was scoring in the \u201cclearly below the bar\u201d category. But because these open-ended and judgment-heavy tasks are so tough to design and score, METR includes few of them in its report, and that makes it difficult to predict whether and how models might continue to progress in these areas. \u201cThe improvement we observe, I think that does tell us something for the current moment,\u201d says Najoung Kim, a linguist and computer scientist at Boston University. \u201cI\u2019m not sure just yet how to think about how it would extrapolate.\u201d Matt Putz, a member of the technical staff at METR, says that predicting progress on these kinds of tasks is likely to remain difficult. \u201cBy their nature, hard-to-verify or judgment-laden tasks are much harder to study, and especially to quantify,\u201d he said in an email. \u201cUltimately, I don\u2019t think we\u2019ll be able to establish trends as clean and robust as for the easy-to-specify [tasks].\u201d In general, METR is clearly butting up against the practical difficulties of testing AI performance on difficult and underspecified tasks\u2014precisely the ones most relevant to automating AI R&D. METR\u2019s time horizon plots score task difficulty by evaluating how long it would take a human to complete the task, and for the original plot they measured this quantity by actually having people try each task.  In the new report, however, the completion times are mostly estimates, because paying people for tasks that might take hundreds of hours, or that only a few experts are qualified to complete, is prohibitively expensive and time-consuming. Other tasks have more specific shortcomings\u2014for example, for the philosophical argument task, just one person rated most of the arguments, and agents are judged by how well they agree with that particular individual. It\u2019s possible that the scores would change if more experts were surveyed\u2014but that, too, is time-consuming. It\u2019s still early days for evaluating models on tasks that are hard to validate or require judgment. And while the experts I spoke with see the inclusion of these tasks in METR\u2019s newest time horizon plot as a clear step in the right direction, they agree that we are still far from achieving any definitive answers about whether, and how quickly, automated AI R&D might be coming. \u201cThis move toward open-ended tasks is promising,\u201d Kapoor says. But, he adds, \u201cthere is just such a lot more to be done to actually get a fuller understanding.\u201d",
+      "author": "Grace Huckins",
+      "score": 0,
+      "num_comments": 0,
+      "tags": [
+        "mit-technology-review-ai",
+        "artificial intelligence",
+        "app",
+        "summary"
+      ],
+      "metadata": {
+        "feed_type": "rss"
+      },
+      "relevance_score": 0.06296296296296296,
+      "final_score": 0.33018982569237765
+    }
+  ],
+  "summary": {
+    "sources": 7,
+    "top_source": "OpenAI Blog",
+    "date_range": {
+      "start": "2026-11-17T17:45:00",
+      "end": "2026-11-23T21:20:00"
+    }
+  }
+}
